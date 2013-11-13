@@ -6,16 +6,19 @@
 # http://wiki.opf-labs.org/display/TR/Tools+by+function
 # and post them to COPTR
  
-from xmlrpclib import Server
 import sys
 import re
 import pprint
-import ConfigParser
-import subprocess
-
+from xlrd import open_workbook
+import string
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
 
 sys.path.append("pywikipedia")
 import wikipedia as pywikibot
+
+pywikibot.handleArgs()
 
 def put(title, contents):
     mysite = pywikibot.getSite() 
@@ -25,15 +28,15 @@ def put(title, contents):
     pywikibot.output(u">>> \03{lightpurple}%s\03{default} <<<"
         % page.title())
     # Check if it exists:
-    if page.exists():
-        print "EXISTS!"
-        return
-    else:
-        print "DOES NOT EXIST!"
+#    if page.exists():
+#        print "EXISTS!"
+#        return
+#    else:
+#        print "DOES NOT EXIST!"
     # Post it:
     comment = "Trial import from script."
     try:
-        page.put(contents, comment = comment, minorEdit = False)
+        page.put( contents, comment = comment, minorEdit = False )
     except pywikibot.LockedPage:
         pywikibot.output(u"Page %s is locked; skipping." % title)
     except pywikibot.EditConflict:
@@ -41,57 +44,60 @@ def put(title, contents):
     except pywikibot.SpamfilterError, error:
         pywikibot.output(
             u'Cannot change %s because of spam blacklist entry %s'
-            % (title, error.url))    
+            % (title, error.url))
 
-def textileToMediawiki(textile):
-    pandoc = subprocess.Popen("/usr/local/bin/pandoc -f textile -t mediawiki",
-        stdin=subprocess.PIPE,
-        stdout=subprocess.PIPE,
-        stderr=subprocess.STDOUT,
-        shell=True)
-    pandoc.stdin.write(textile)
-    pandoc.stdin.close()
-    return pandoc.stdout.read()
+def builtCategories(funcat, concat):
+    cats = ""
+    totcats = funcat+","+concat
+    for cat in totcats.split(","):
+        cat = cat.strip()
+        if cat != "":
+            cats += "[[Category:%s]]\n" % cat
+    return cats
 
-def parseTextileToolPage(text):
-    for section in re.split("h\d. ", text, flags=re.S):
-        print "SECTION"
-        lines = [line.strip() for line in section.split("\n")]
-        for l in lines:
-            print "l%s" % {l}
 
-config = ConfigParser.ConfigParser()
-config.readfp(open('coptr.cfg'))
- 
-#url = sys.argv[1]
-url = "http://wiki.opf-labs.org/display/TR/Digital+Preservation+Tool+Registry"
- 
-terms = re.match('(?i)(^.*?)(?:/display/)(.*?)/(.*$)',url).groups();
- 
-server = terms[0]
-space  = terms[1]
-page   = terms[2].replace('+',' ')
- 
-s = Server(server + "/rpc/xmlrpc")
- 
-token = s.confluence1.login(config.get("Confluence","user"), config.get("Confluence","pw"))
- 
-page = s.confluence1.getPage(token, space, page )
- 
-#print page
+# Load page template file:
+mwtpl = string.Template( open('mw-tool-template.txt').read() )
 
-#print s.confluence1.getLabelsById(token, page['id'])
-
-#pprint.pprint(
-for tp in s.confluence1.getChildren(token, page['id']):
-    print tp['id'], tp['url'], tp['title']
-    tp = s.confluence1.getPage(token, space, tp['title'])
-    if tp['title'] != "Pagelyzer" and tp['title'] == "Tika":
-        title = tp['title'].encode('utf-8')
-        txc = tp['content'].encode('utf-8')
-        parseTextileToolPage(txc)
-        mwc = textileToMediawiki(txc).decode('utf-8')
-        put(title, mwc)
-        #out =  s.confluence1.renderContent(token, space, tp['id'], '', { 'style': 'clean'} )
-        #print out.encode('utf-8')
+# Open up the input file:
+wb = open_workbook('COPTR data version 21.xlsx') #, encoding_override="cp1252")
+for s in wb.sheets():
+    #print 'Sheet:',s.name
+    if not "Ready" == s.name:
+        continue
+    # Get titles:
+    ti = {}
+    for col in range(s.ncols):
+        colt = s.cell(0,col-1).value
+        ti[colt] = col-1
+        #print colt
+    # Go through rows:
+    for row in range(s.nrows):
+        values = []
+        for col in range(s.ncols):
+            values.append(str(s.cell(row,col).value))
+        title = s.cell(row,0).value
+        if title != "Pagelyzer" and title != "Name":
+            for colt in ti.keys():
+                print colt, " -- ", s.cell(row, ti[colt]).value
+            desc = s.cell(row, ti["Description"]).value
+            desc = re.sub("<br \/>"," ===\n\n", desc)
+            desc = desc.lstrip()
+            logo = ""
+            if s.cell(row, ti["Logo"]) != None:
+                logo = s.cell(row, ti["Logo"]).value
+            page = mwtpl.substitute(
+                purpose = s.cell(row, ti["Short Description"]).value,
+                image = logo,
+                homepage = s.cell(row, ti["URL"]).value,
+                license = s.cell(row, ti["License"]).value,
+                platforms = s.cell(row, ti["Platform"]).value,
+                categories = builtCategories(s.cell(row, ti["Function Categories"]).value, s.cell(row, ti["Content Categories"]).value),
+                description = desc,
+                experiences = s.cell(row, ti["User Experiences and Test Data"]).value,
+                ohloh = s.cell(row, ti["OhlohID"]).value,
+                activity = s.cell(row, ti["Development Activity"]).value
+                )
+            print page
+            put(title, page)
 

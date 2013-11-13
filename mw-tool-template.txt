@@ -1,0 +1,25 @@
+{{Infobox_tool
+|purpose=${purpose}
+|image=${image}
+|homepage=${homepage}
+|license=${license}
+|platforms=${platforms}
+}}
+
+<!-- Delete the Categories that do not apply -->
+${categories}
+
+= Description =
+${description}
+
+= User Experiences =
+${experiences}
+
+= Development Activity =
+
+{{Infobox_tool_details
+|ohloh_id=${ohloh}
+}}
+
+${activity}
+
