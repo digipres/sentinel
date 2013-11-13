@@ -34,7 +34,7 @@ def put(title, contents):
 #    else:
 #        print "DOES NOT EXIST!"
     # Post it:
-    comment = "Trial import from script."
+    comment = "Import from spreadsheet via script."
     try:
         page.put( contents, comment = comment, minorEdit = False )
     except pywikibot.LockedPage:
@@ -60,7 +60,7 @@ def builtCategories(funcat, concat):
 mwtpl = string.Template( open('mw-tool-template.txt').read() )
 
 # Open up the input file:
-wb = open_workbook('COPTR data version 21.xlsx') #, encoding_override="cp1252")
+wb = open_workbook('COPTR data version 28.xlsx') #, encoding_override="cp1252")
 for s in wb.sheets():
     #print 'Sheet:',s.name
     if not "Ready" == s.name:
@@ -81,22 +81,22 @@ for s in wb.sheets():
             for colt in ti.keys():
                 print colt, " -- ", s.cell(row, ti[colt]).value
             desc = s.cell(row, ti["Description"]).value
-            desc = re.sub("<br \/>"," ===\n\n", desc)
+            desc = re.sub("<br \/>","\n\n", desc)
             desc = desc.lstrip()
             logo = ""
-            if s.cell(row, ti["Logo"]) != None:
-                logo = s.cell(row, ti["Logo"]).value
+            #if s.cell(row, ti["Logo"]) != None:
+            #    logo = s.cell(row, ti["Logo"]).value
             page = mwtpl.substitute(
-                purpose = s.cell(row, ti["Short Description"]).value,
+                purpose = s.cell(row, ti["Short Description"]).value.strip(),
                 image = logo,
-                homepage = s.cell(row, ti["URL"]).value,
-                license = s.cell(row, ti["License"]).value,
-                platforms = s.cell(row, ti["Platform"]).value,
+                homepage = s.cell(row, ti["URL"]).value.strip(),
+                license = s.cell(row, ti["License"]).value.strip(),
+                platforms = s.cell(row, ti["Platform"]).value.strip(),
                 categories = builtCategories(s.cell(row, ti["Function Categories"]).value, s.cell(row, ti["Content Categories"]).value),
                 description = desc,
-                experiences = s.cell(row, ti["User Experiences and Test Data"]).value,
-                ohloh = s.cell(row, ti["OhlohID"]).value,
-                activity = s.cell(row, ti["Development Activity"]).value
+                experiences = s.cell(row, ti["User Experiences and Test Data"]).value.lstrip(),
+                ohloh = s.cell(row, ti["OhlohID"]).value.strip(),
+                activity = s.cell(row, ti["Development Activity"]).value.lstrip()
                 )
             print page
             put(title, page)
