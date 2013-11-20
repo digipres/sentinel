@@ -15,7 +15,7 @@ import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
-sys.path.append("pywikipedia")
+sys.path.append("../pywikipedia")
 import wikipedia as pywikibot
 
 pywikibot.handleArgs()
