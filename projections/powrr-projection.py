@@ -2,102 +2,110 @@
 #
 # -*- coding: utf-8 -*-
 #
-# To take the tools from:
-# http://wiki.opf-labs.org/display/TR/Tools+by+function
-# and post them to COPTR
- 
+# To produce a table summary of the tools in COPTR
+# 
+# Based on e.g. https://git.wikimedia.org/blob/pywikibot%2Fcompat.git/HEAD/category.py
+# 
+
+from __future__ import print_function
 import sys
 import re
 import pprint
-from xlrd import open_workbook
 import string
 import sys
+import collections
+
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
 sys.path.append("../pywikipedia")
 import wikipedia as pywikibot
+import catlib
 
 pywikibot.handleArgs()
 
-def put(title, contents):
-    mysite = pywikibot.getSite() 
-    page = pywikibot.Page(mysite, title)
-    # Show the title of the page we're working on.
-    # Highlight the title in purple.
-    pywikibot.output(u">>> \03{lightpurple}%s\03{default} <<<"
-        % page.title())
-    # Check if it exists:
-#    if page.exists():
-#        print "EXISTS!"
-#        return
-#    else:
-#        print "DOES NOT EXIST!"
-    # Post it:
-    comment = "Import from spreadsheet via script."
-    try:
-        page.put( contents, comment = comment, minorEdit = False )
-    except pywikibot.LockedPage:
-        pywikibot.output(u"Page %s is locked; skipping." % title)
-    except pywikibot.EditConflict:
-        pywikibot.output(u'Skipping %s because of edit conflict' % title)
-    except pywikibot.SpamfilterError, error:
-        pywikibot.output(
-            u'Cannot change %s because of spam blacklist entry %s'
-            % (title, error.url))
+site = pywikibot.getSite()
 
-def builtCategories(funcat, concat):
-    cats = ""
-    totcats = funcat+","+concat
-    for cat in totcats.split(","):
-        cat = cat.strip()
-        if cat != "":
-            cats += "[[Category:%s]]\n" % cat
-    return cats
+page = pywikibot.Page(site, u"Xena")
+
+print( page.exists() )
 
 
-# Load page template file:
-mwtpl = string.Template( open('mw-tool-template.txt').read() )
+# Now go through pages by function:
+cat = catlib.Category(site, u"Function")
 
-# Open up the input file:
-wb = open_workbook('COPTR data version 28.xlsx') #, encoding_override="cp1252")
-for s in wb.sheets():
-    #print 'Sheet:',s.name
-    if not "Ready" == s.name:
-        continue
-    # Get titles:
-    ti = {}
-    for col in range(s.ncols):
-        colt = s.cell(0,col-1).value
-        ti[colt] = col-1
-        #print colt
-    # Go through rows:
-    for row in range(s.nrows):
-        values = []
-        for col in range(s.ncols):
-            values.append(str(s.cell(row,col).value))
-        title = s.cell(row,0).value
-        if title != "Pagelyzer" and title != "Name":
-            for colt in ti.keys():
-                print colt, " -- ", s.cell(row, ti[colt]).value
-            desc = s.cell(row, ti["Description"]).value
-            desc = re.sub("<br \/>","\n\n", desc)
-            desc = desc.lstrip()
-            logo = ""
-            #if s.cell(row, ti["Logo"]) != None:
-            #    logo = s.cell(row, ti["Logo"]).value
-            page = mwtpl.substitute(
-                purpose = s.cell(row, ti["Short Description"]).value.strip(),
-                image = logo,
-                homepage = s.cell(row, ti["URL"]).value.strip(),
-                license = s.cell(row, ti["License"]).value.strip(),
-                platforms = s.cell(row, ti["Platform"]).value.strip(),
-                categories = builtCategories(s.cell(row, ti["Function Categories"]).value, s.cell(row, ti["Content Categories"]).value),
-                description = desc,
-                experiences = s.cell(row, ti["User Experiences and Test Data"]).value.lstrip(),
-                ohloh = s.cell(row, ti["OhlohID"]).value.strip(),
-                activity = s.cell(row, ti["Development Activity"]).value.lstrip()
-                )
-            print page
-            put(title, page)
+# functions
+functions = collections.defaultdict(int)
+# tools
+tools = {}
+# functions and tools
+table = collections.defaultdict(lambda: collections.defaultdict(bool))
+
+# For every Function category:
+for sub in cat.subcategoriesList():
+    functions[sub.title()] += 1
+    # Get subcategories?
+    #sub.subcategoriesList()
+    # Get the articles in this category:
+    listOfArticles = sub.articlesList()
+    for a in listOfArticles:
+        pprint.pprint(a)
+        print("--> %s %s - %s " % (a.title(), a.urlname(), sub.title() ) )
+        tools[a.title()] = a
+        table[a.title()][sub.title()] = True
+
+tf=open('overview_table.html', 'w')
+print("---", file=tf)
+print("---", file=tf)
+print("""
+<style>
+th.rotate {
+  height: 220px;
+  white-space: nowrap;
+}
+
+th.rotate > div {
+  transform: 
+    translate(16px, 89px)
+    rotate(-45deg);
+  width: 30px;
+}
+th.rotate > div > span {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 10px;
+}
+table {
+ border-collapse: collapse;
+}
+tbody th {
+  white-space: nowrap;    
+}
+tbody td {
+  border: 1px solid #ccc;    
+}
+</style>
+
+    """, file=tf)
+print("<table>\n<thead>\n<tr><th></th>", file=tf)
+for func in functions:
+    print("<th class=\"rotate\"><div><span>%s</span></div></th>" % (func.replace("Category:","")), file=tf)
+print("</tr>\n</thead>\n<tbody><tr>", file=tf)
+#
+for tool_name in tools:
+    tool = tools[tool_name]
+    tn = tool.title()
+    tu = tool.urlname()
+    if len(tn) > 25:
+        tn = tn[0:25]+"..."
+    print("<tr><th><a href=\"http://coptr.digipres.org/%s\">%s</a></th>" % ( tu, tn ), file=tf)
+    for func in functions:
+        if table[tn][func] == True:
+            print("<td>X</td>", file=tf)
+        else:
+            print("<td>&nbsp;</td>", file=tf)
+    print("</tr>", file=tf)
+print("</tbody>\n</table>\n", file=tf)
+#
+tf.close()
+
 
