@@ -2,10 +2,6 @@ language: python
 python:
   - "2.7"
 
-env:
-  - secure: "IvFcRpVKlPdEYaytAWtg52aK8cHbBQ5H9dASKyQkKPVzizuaptnFG6YxNaxaxbZ+KtDDu5HbqxaTtONEGNxJSuhTLUibfgE8SozVuUdNmx3wDLnnCV6oDRzdDeMbi1MoEPaM5KWZX74EQCl61mtjdFTHrauhzQeBSRDlkzXdBfc="
-  - secure: "T9qwnFPNX6sOJp493OJm7+/bDjBhUCJzxT22ndl0SaDb8GF507IjxKd9Z57kOp8zEz6Z1MoruXlV6fD5WWgUM9LWZj/dymNSeiMYWn6LURU2FD9vo3F8C+OAVSk9blb3RSAbcZpc6O36reIr8eVAUMK6oqdzY7ctnkmcFR9BPTY="
-
 install: 
   - pip install -r pywikibot/requirements.txt
   - echo "('COPTR Bot', '"$COPTR_PW"')" > passwordfile
