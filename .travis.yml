@@ -1,6 +1,6 @@
 language: python
 python:
-  - "3.4"
+  - "3.3"
 env:
   - secure: "IvFcRpVKlPdEYaytAWtg52aK8cHbBQ5H9dASKyQkKPVzizuaptnFG6YxNaxaxbZ+KtDDu5HbqxaTtONEGNxJSuhTLUibfgE8SozVuUdNmx3wDLnnCV6oDRzdDeMbi1MoEPaM5KWZX74EQCl61mtjdFTHrauhzQeBSRDlkzXdBfc="
 install: "./login.sh"
