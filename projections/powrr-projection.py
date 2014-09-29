@@ -49,7 +49,7 @@ for sub in cat.subcategories():
         tools[a.title()] = a
         table[a.title()][sub.title()] = True
 
-tf=open('overview_table.html', 'w')
+tf=open('site/tool-grid.html', 'w')
 print("---", file=tf)
 print("---", file=tf)
 print("""
