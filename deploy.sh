@@ -12,8 +12,9 @@ echo -e "\nBuilding Jekyll site:"
 jekyll build --source $SRC --destination $TEMP
 
 echo -e "\nPreparing gh-pages branch:"
-git fetch https://github.com/digipres/coptr.git gh-pages
-git checkout gh-pages
+git remote add pages https://github.com/digipres/coptr.git
+git fetch pages gh-pages
+git checkout pages/gh-pages
 
 echo -e "\nDeploying into gh-pages branch:"
 rm -rf *
@@ -24,7 +25,7 @@ git commit -am "new site version ${VERSION} deployed" --allow-empty
 git config credential.helper "store --file=./git-credentials"
 echo "https://$GH_TOKEN:@github.com" > ./git-credentials
 
-git push https://github.com/digipres/coptr.git gh-pages
+git push pages gh-pages
 
 # Return to master branch
 git checkout master
