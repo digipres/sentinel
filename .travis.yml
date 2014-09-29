@@ -10,7 +10,6 @@ install:
   - echo "('COPTR Bot', '$COPTR_PW')" > passwordfile
   - python pywikibot/pwb.py -dir:. login
 
-
 script:
   - python projections/powrr-projection.py
   - ./deploy.sh
