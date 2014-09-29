@@ -12,8 +12,8 @@ echo -e "\nBuilding Jekyll site:"
 jekyll build --source $SRC --destination $TEMP
 
 echo -e "\nPreparing gh-pages branch:"
-git checkout gh-pages
-git pull https://github.com/digipres/coptr.git gh-pages
+git fetch https://github.com/digipres/coptr.git
+git checkout origin/gh-pages
 
 echo -e "\nDeploying into gh-pages branch:"
 rm -rf *
