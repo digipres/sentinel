@@ -15,6 +15,7 @@ install:
 
 script:
   - python projections/powrr-projection.py
+  - python projections/coptr-contribs.py
   - ./deploy.sh
 
 
