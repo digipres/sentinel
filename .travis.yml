@@ -8,7 +8,7 @@ env:
 install: 
   - pip install -r pywikibot/requirements.txt
   - echo "('COPTR Bot', '"$COPTR_PW"')" > passwordfile
-  - sudo apt-get install ruby rubygems
+  - sudo apt-get install ruby1.9 rubygems1.9
   - sudo gem install jekyll
 
 script:
