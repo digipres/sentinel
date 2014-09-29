@@ -24,8 +24,6 @@ cp -R ${TEMP}/* .
 git add .
 git commit -am "new site version ${VERSION} deployed" --allow-empty 
 
-git config user.name "$GIT_NAME"
-git config user.email $GIT_EMAIL
 git config credential.helper "store --file=./git-credentials"
 echo "https://$GH_TOKEN:@github.com" > ./git-credentials
 

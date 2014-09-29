@@ -7,9 +7,12 @@ install:
   - echo "('COPTR Bot', '"$COPTR_PW"')" > passwordfile
   - uname -a
   - gem install jekyll
+  - git config user.name "$GIT_NAME"
+  - git config user.email $GIT_EMAIL
+
 
 script:
-  - ./login.sh
+  - python pywikibot/pwb.py -dir:. login -pass:$COPTR_BOT
   - python projections/powrr-projection.py
   - ./deploy.sh
 
