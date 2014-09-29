@@ -4,12 +4,11 @@ python:
 
 install: 
   - pip install -r pywikibot/requirements.txt
-  - echo "('COPTR Bot', '"$COPTR_PW"')" > passwordfile
-  - python pywikibot/pwb.py -dir:. login
-  - uname -a
   - gem install jekyll
   - git config user.name "$GIT_NAME"
   - git config user.email $GIT_EMAIL
+  - echo "('COPTR Bot', '$COPTR_PW')" > passwordfile
+  - python pywikibot/pwb.py -dir:. login
 
 
 script:
