@@ -20,9 +20,7 @@ sys.setdefaultencoding("utf-8")
 
 sys.path.append("pywikibot")
 import pywikibot as pywikibot
-import catlib
 
-pywikibot.setLogfileStatus(True)
 pywikibot.handleArgs()
 site = pywikibot.getSite()
 
@@ -30,7 +28,7 @@ site = pywikibot.getSite()
 #print( page.exists() )
 
 # Now go through pages by function:
-cat = catlib.Category(site, u"Function")
+cat = pywikibot.Category(site, u"Function")
 
 # functions
 functions = {}
@@ -40,12 +38,13 @@ tools = {}
 table = collections.defaultdict(lambda: collections.defaultdict(bool))
 
 # For every Function category:
-for sub in cat.subcategoriesList():
+for sub in cat.subcategories():
+    print("Processing "+sub.title())
     functions[sub.title()] = sub
     # Get subcategories?
     #sub.subcategoriesList()
     # Get the articles in this category:
-    listOfArticles = sub.articlesList()
+    listOfArticles = sub.articles()
     for a in listOfArticles:
         tools[a.title()] = a
         table[a.title()][sub.title()] = True
@@ -89,13 +88,13 @@ tbody td, tbody th {
 print("<table>\n<thead>\n<tr><th></th>", file=tf)
 for func_name in functions:
     func = functions[func_name]
-    print("<th class=\"rotate\"><div><span><a href=\"http://coptr.digipres.org/%s\">%s</></span></div></th>" % (func.urlname(), func.title().replace("Category:","")), file=tf)
+    print("<th class=\"rotate\"><div><span><a href=\"http://coptr.digipres.org/%s\">%s</></span></div></th>" % (func.title(asUrl=True), func.title().replace("Category:","")), file=tf)
 print("</tr>\n</thead>\n<tbody><tr>", file=tf)
 #
 for tool_name in sorted(tools.keys(), key=lambda s: s.lower() ):
     tool = tools[tool_name]
     tn = tool.title()
-    tu = tool.urlname()
+    tu = tool.title(asUrl=True)
     if len(tn) > 25:
         tn = tn[0:25]+"..."
     print("<tr><th><a href=\"http://coptr.digipres.org/%s\">%s</a></th>" % ( tu, tn ), file=tf)
