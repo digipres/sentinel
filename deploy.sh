@@ -19,13 +19,10 @@ else
 fi
 
 echo -e "\nDeploying into gh-pages branch:"
-git rm -rf --ignore-unmatch _site/*
-mkdir _site
-cp -R ${TEMP}/* _site
-git add _site
-#git config user.email "${USER_EMAIL}"
-#git config user.name "${USER_NAME}"
-git commit -m "new site version ${VERSION} deployed" --allow-empty _site
+rm -rf *
+cp -R ${TEMP}/* .
+git add .
+git commit -am "new site version ${VERSION} deployed" --allow-empty 
 git push https://github.com/digipres/coptr.git gh-pages
 
 # Return to master branch
