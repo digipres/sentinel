@@ -20,12 +20,10 @@ echo -e "\nDeploying into gh-pages branch:"
 rm -rf *
 cp -R ${TEMP}/* .
 git add --all .
-git commit -am "new site version ${VERSION} deployed" --allow-empty 
+git commit -am "New site version ${VERSION} deployed." --allow-empty 
 
 git config credential.helper "store --file=./git-credentials"
 echo "https://$GH_TOKEN:@github.com" > ./git-credentials
 
-git push pages gh-pages
-
-# Return to master branch
-git checkout master
+echo -e "\nPushing to gh-pages..."
+git push pages pages/gh-pages
