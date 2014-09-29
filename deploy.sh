@@ -8,11 +8,14 @@ trap "rm -rf ${TEMP}" EXIT
 VERSION=$(git describe --always --tag)
 
 echo "\n We have got..."
-ls -l site
+ls -l $SRC
 
 echo -e "\nBuilding Jekyll site:"
 
 jekyll build --source $SRC --destination $TEMP
+
+echo -e "\nWhich created..."
+ls -l $TEMP
 
 echo -e "\nPreparing gh-pages branch:"
 git remote -v

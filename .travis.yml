@@ -7,6 +7,7 @@ before_install:
 
 install: 
   - pip install -r pywikibot/requirements.txt
+  - pip install "ipython[notebook]"
   - gem install jekyll
   - git config user.name "$GIT_NAME"
   - git config user.email $GIT_EMAIL

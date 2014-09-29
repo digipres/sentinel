@@ -4,10 +4,9 @@
 #
 # To produce a table summary of the tools in COPTR
 # 
-# Based on e.g. https://git.wikimedia.org/blob/pywikibot%2Fcompat.git/HEAD/category.py
-# 
 
 from __future__ import print_function
+import os
 import sys
 import re
 import pprint
@@ -49,42 +48,18 @@ for sub in cat.subcategories():
         tools[a.title()] = a
         table[a.title()][sub.title()] = True
 
-tf=open('site/tool-grid.html', 'w')
+# Make a target file:
+if not os.path.exists("site/tool-grid"):
+    os.makedirs("site/tool-grid")
+tf=open('site/tool-grid/index.html', 'w')
+
+# Header so it picks up the right styling:
 print("---", file=tf)
+print("title: COPTR Tool Grid", file=tf)
+print("layout: toolgrid", file=tf)
 print("---", file=tf)
-print("""
-<style>
-body {
-  font-family: sans-serif;
-}
-th {
-    font-weight: normal;
-}
-th.rotate {
-  height: 220px;
-  white-space: nowrap;
-}
-th.rotate > div {
-  transform: 
-    translate(20px, 87px)
-    rotate(-45deg);
-  width: 35px;
-}
-th.rotate > div > span {
-  border-bottom: 1px solid #ccc;
-  padding: 5px 10px;
-}
-table {
- border-collapse: collapse;
-}
-tbody th {
-  white-space: nowrap;    
-}
-tbody td, tbody th {
-  border: 1px solid #ccc;    
-}
-</style>
-    """, file=tf)
+
+# And generate the table:
 print("<table>\n<thead>\n<tr><th></th>", file=tf)
 for func_name in functions:
     func = functions[func_name]
