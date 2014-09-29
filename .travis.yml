@@ -5,6 +5,7 @@ python:
 install: 
   - pip install -r pywikibot/requirements.txt
   - echo "('COPTR Bot', '"$COPTR_PW"')" > passwordfile
+  - python pywikibot/pwb.py -dir:. login
   - uname -a
   - gem install jekyll
   - git config user.name "$GIT_NAME"
@@ -12,7 +13,6 @@ install:
 
 
 script:
-  - python pywikibot/pwb.py -dir:. login -pass:$COPTR_BOT
   - python projections/powrr-projection.py
   - ./deploy.sh
 
