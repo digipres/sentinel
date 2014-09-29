@@ -32,6 +32,7 @@ th.rotate > div > span {
 table {
  border-collapse: collapse;
  max-width: none;
+ table-layout:fixed;  
 }
 tbody th {
   white-space: nowrap;    
@@ -39,10 +40,8 @@ tbody th {
 tbody td, tbody th {
   border: 1px solid #ccc;    
 }
-nav.navbar {
-  margin-left: 0px;
-  margin-right: 0px;
-  width: 100%;
+.table-container {
+  overflow: scroll;
 }
     </style>
   </head>
@@ -68,10 +67,10 @@ nav.navbar {
 
 
   <div class="container">
-<a class="button" href="{{ site.baseurl }}/">Home</a>
 
-
-  {{ content }}
+<div class="table-container">
+{{ content }}
+</div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
