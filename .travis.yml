@@ -9,8 +9,6 @@ install:
   - pip install -r pywikibot/requirements.txt
   - pip install "ipython[notebook]"
   - pip install pyyaml
-  - git config user.name "$GIT_NAME"
-  - git config user.email $GIT_EMAIL
   - git clone https://github.com/digipres/digipres.github.io.git
   - python pywikibot/pwb.py -dir:. login
 
