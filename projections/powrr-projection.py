@@ -49,9 +49,9 @@ for sub in cat.subcategories():
         table[a.title()][sub.title()] = True
 
 # Make a target file:
-if not os.path.exists("site/tool-grid"):
-    os.makedirs("site/tool-grid")
-tf=open('site/tool-grid/index.html', 'w')
+if not os.path.exists("digipres.github.io/tool-grid"):
+    os.makedirs("digipres.github.io/tool-grid")
+tf=open('digipres.github.io/tool-grid/index.html', 'w')
 
 # Header so it picks up the right styling:
 print("---", file=tf)

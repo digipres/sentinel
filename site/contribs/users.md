@@ -1,11 +1,17 @@
 ---
-title: Leaderboard
-subtitle: COPTR User Contributions
+title: COPTR
+subtitle: User Contributions
 ---
 
 <div class="row">
 
-<div class="col-xs-12 col-sm-4 col-md-4">        
+<div class="col-xs-12 col-sm-4 col-md-4">
+</div>
+
+<div class="col-xs-12 col-sm-4 col-md-4">
+</div>
+
+<div class="col-xs-12 col-sm-4 col-md-4">
 <div class="panel panel-default">
   <div class="panel-heading">Top Contributors (All-Time)</div>
   <div class="panel-body">

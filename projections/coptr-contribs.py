@@ -32,16 +32,21 @@ def month_diff(d1, d2):
     diff = (12 * d1.year + d1.month) - (12 * d2.year + d2.month)
     return diff
 
+# Wiki Family
+fam="coptr"
+#fam="ff"
+
 # Set up the site
 pywikibot.handleArgs()
-site = pywikibot.getSite()
+pywikibot.config.family = fam
+site = pywikibot.Site()
 
 # Make output folders if needed:
-if not os.path.exists("site/contribs"):
-    os.makedirs("site/contribs")
+if not os.path.exists("digipres.github.io/contribs"):
+    os.makedirs("digipres.github.io/contribs")
 
-if not os.path.exists("site/_data"):
-    os.makedirs("site/_data")
+if not os.path.exists("digipres.github.io/_data"):
+    os.makedirs("digipres.github.io/_data")
 
 # Collect user contribs table:
 users = []
@@ -52,7 +57,7 @@ for user in site.allusers(total=500):
 # Sort by edit count:
 users = sorted(users, key=lambda k: k['editcount'], reverse=True) 
 # Write out as a data file to feed into templates:
-with open('site/_data/coptr-users.yml', 'w') as outfile:
+with open('digipres.github.io/_data/'+fam+'-users.yml', 'w') as outfile:
     outfile.write( yaml.safe_dump(users, default_flow_style=True) )
 
 
@@ -75,7 +80,7 @@ while d <= end_date:
     qend = d.strftime("%Y-%m-%dT00:00:00Z")
     print(qstart,qend)
     # Look for changes:
-    for change in pg.RecentChangesPageGenerator(reverse=True, 
+    for change in pg.RecentChangesPageGenerator(reverse=True, namespaces=[0],
            start=qstart, end=qend):
         print(change)
         if( change.exists()):
@@ -83,7 +88,7 @@ while d <= end_date:
 
 
 # Make a target file:
-tf=open('site/contribs/index.html', 'w')
+tf=open('digipres.github.io/contribs/index.html', 'w')
 
 # And close:
 tf.close()
