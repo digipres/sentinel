@@ -41,7 +41,7 @@ for sub in cat.subcategories():
     print("Processing "+sub.title())
     functions[sub.title()] = sub
     # Get subcategories?
-    #sub.subcategoriesList()
+    #sub.subcategories()
     # Get the articles in this category:
     listOfArticles = sub.articles()
     for a in listOfArticles:
