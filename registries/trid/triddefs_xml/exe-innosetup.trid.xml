@@ -1,0 +1,86 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Inno Setup installer</FileType>
+		<Ext>EXE</Ext>
+		<ExtraInfo>
+			<Rem>Inno Setup is a free installer for Windows programs.</Rem>
+			<RefURL>http://www.jrsoftware.org/</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>25</FileNum>
+		<Refine>2 by Marco Pontello</Refine>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2006</Year>
+			<Month>06</Month>
+			<Day>05</Day>
+		</Date>
+		<Time>
+			<Hour>16</Hour>
+			<Min>00</Min>
+			<Sec>21</Sec>
+		</Time>
+		<Creator>TrIDScan32 v1.56</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>4D5A500002000000</Bytes>
+			<ASCII> M Z P</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>00FFFF0000B80000000000000040001A000000000000000000000000000000000000000000496E6E6F</Bytes>
+			<ASCII> . . . . . . . . . . . . . @ . . . . . . . . . . . . . . . . . . . . . . . I n n o</ASCII>
+			<Pos>11</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>00010000BA10000E1FB409CD21B8014CCD219090546869732070726F6772616D206D7573742062652072756E20756E6465722057696E33320D0A243700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000504500004C01</Bytes>
+			<ASCII> . . . . . . . . . . . . ! . . L . ! . . T h i s 	p r o g r a m 	m u s t 	b e 	r u n 	u n d e r 	W i n 3 2 . . $ 7 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . P E . . L</ASCII>
+			<Pos>60</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>00195E422A</Bytes>
+			<ASCII> . . ^ B *</ASCII>
+			<Pos>263</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>M'A'I'N'I'C'O'N</String>
+		<String>OLEAUT32.DLL</String>
+		<String>KERNEL32.DLL</String>
+		<String>VARIANTCLEAR</String>
+		<String>EXITPROCESS</String>
+		<String>OUTOFMEMORY</String>
+		<String>USER32.DLL</String>
+		<String>INVALIDOP</String>
+		<String>EXCEPTION</String>
+		<String>TVERSION</String>
+		<String>TOBJECT</String>
+		<String>RUNTIME</String>
+		<String>ADDRESS</String>
+		<String>OBTAIN</String>
+		<String>INFNAN</String>
+		<String>SETUP</String>
+		<String>.RSRC</String>
+		<String>ATION</String>
+		<String>SLEEP</String>
+		<String>CLASS</String>
+		<String>INFO</String>
+		<String>BLOC</String>
+		<String>CHAR</String>
+		<String>CAST</String>
+		<String>CREA</String>
+		<String>DATA</String>
+		<String>AMPM</String>
+		<String>LOAD</String>
+		<String>FREE</String>
+		<String>NAME</String>
+		<String>TYPE</String>
+		<String>INIT</String>
+		<String>INNO</String>
+	</GlobalStrings>
+</TrID>

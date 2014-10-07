@@ -1,0 +1,50 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>MSN Messenger Wink</FileType>
+		<Ext>MCO</Ext>
+		<ExtraInfo>
+			<Rem>Winks are little animation that can be sent to other contacs during a conversation.</Rem>
+			<RefURL>http://www.imagine-msn.com/Messenger/Post/Communicate/Wink.aspx</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>15</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2005</Year>
+			<Month>07</Month>
+			<Day>02</Day>
+		</Date>
+		<Time>
+			<Hour>23</Hour>
+			<Min>49</Min>
+			<Sec>26</Sec>
+		</Time>
+		<Creator>TrIDScan32 v1.56</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>4D53434600000000</Bytes>
+			<ASCII> M S C F</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>00000000002C0000000000000003010100</Bytes>
+			<ASCII> . . . . . ,</ASCII>
+			<Pos>11</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>2000636F6E</Bytes>
+			<ASCII>   . c o n</ASCII>
+			<Pos>58</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>CONTENT.XML</String>
+		<String>.CAB</String>
+		<String>MSCF</String>
+	</GlobalStrings>
+</TrID>

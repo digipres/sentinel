@@ -1,0 +1,40 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Acu4GL/AcuCOBOL Extended File Descriptor</FileType>
+		<Ext>XFD</Ext>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>http://www.acucorp.com/</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>7</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2005</Year>
+			<Month>04</Month>
+			<Day>13</Day>
+		</Date>
+		<Time>
+			<Hour>16</Hour>
+			<Min>41</Min>
+			<Sec>49</Sec>
+		</Time>
+		<Creator>TrIDScan32 v1.56</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>2320</Bytes>
+			<ASCII> #</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>ACUCOBOL-GT</String>
+		<String>GENERATED</String>
+		<String>-COD</String>
+	</GlobalStrings>
+</TrID>

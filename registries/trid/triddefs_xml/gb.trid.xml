@@ -1,0 +1,46 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>GenBank sequence record</FileType>
+		<Ext>GB</Ext>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>http://en.wikipedia.org/wiki/Genbank</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>16</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2009</Year>
+			<Month>01</Month>
+			<Day>09</Day>
+		</Date>
+		<Time>
+			<Hour>19</Hour>
+			<Min>24</Min>
+			<Sec>54</Sec>
+		</Time>
+		<Creator>TrIDScan32 v1.56</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>4C4F43555320</Bytes>
+			<ASCII> L O C U S</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>BASE COUNT</String>
+		<String>QUALIFIERS</String>
+		<String>LOCATION</String>
+		<String>ORGANISM</String>
+		<String>FEATURES</String>
+		<String>COMMENT</String>
+		<String>ORIGIN</String>
+		<String>SOURCE</String>
+		<String>LOCUS</String>
+	</GlobalStrings>
+</TrID>

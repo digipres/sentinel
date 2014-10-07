@@ -1,0 +1,61 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Maple XML worksheet</FileType>
+		<Ext>MW</Ext>
+		<ExtraInfo>
+			<Rem>MW extension is used with file in the new XML format, from Maple 9.</Rem>
+			<RefURL>http://www.maplesoft.com/</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>18</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2005</Year>
+			<Month>09</Month>
+			<Day>16</Day>
+		</Date>
+		<Time>
+			<Hour>10</Hour>
+			<Min>44</Min>
+			<Sec>23</Sec>
+		</Time>
+		<Creator>TrIDScan32 v1.56</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D38223F3E</Bytes>
+			<ASCII> . ? x m l 	v e r s i o n = " 1 . 0 " 	e n c o d i n g = " U T F - 8 " ?</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>VIEW-PROPERTIES</String>
+		<String>VERSION MAJOR</String>
+		<String>MAPLE INPUT</String>
+		<String>XML VERSION</String>
+		<String>BACKGROUND</String>
+		<String>MONOSPACED</String>
+		<String>FOREGROUND</String>
+		<String>TEXT-FIELD</String>
+		<String>EXECUTABLE</String>
+		<String>WORKSHEET</String>
+		<String>ENCODING</String>
+		<String>NORMAL</String>
+		<String>FONT B</String>
+		<String>FAMILY</String>
+		<String>PROMPT</String>
+		<String>STYLES</String>
+		<String>LAYOUT</String>
+		<String>GROUP</String>
+		<String>UTF-8</String>
+		<String>MINOR</String>
+		<String>TRUE</String>
+		<String>NAME</String>
+		<String>CENT</String>
+		<String>BOLD</String>
+	</GlobalStrings>
+</TrID>

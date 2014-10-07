@@ -1,0 +1,91 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>MuseScore music score</FileType>
+		<Ext>MSCX</Ext>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>http://www.musescore.org/</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>6</FileNum>
+		<Refine>2 by Marco Pontello</Refine>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2011</Year>
+			<Month>3</Month>
+			<Day>2</Day>
+		</Date>
+		<Time>
+			<Hour>18</Hour>
+			<Min>1</Min>
+			<Sec>13</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v1.79.11b</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D38223F</Bytes>
+			<ASCII> . ? x m l   v e r s i o n = " 1 . 0 "   e n c o d i n g = " U T F - 8 " ?</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>MUSESCORE VERSION</String>
+		<String>PAGE-MARGINS TYPE</String>
+		<String>CONTROLLER CTRL</String>
+		<String>INSTRUMENTSHORT</String>
+		<String>INSTRUMENTLONG</String>
+		<String>MEASURE NUMBER</String>
+		<String>BOTTOM-MARGIN</String>
+		<String>PROGRAM VALUE</String>
+		<String>SHOWINVISIBLE</String>
+		<String>TEMPOLIST FIX</String>
+		<String>BOTTOMMARGIN</String>
+		<String>BRACKET TYPE</String>
+		<String>RIGHT-MARGIN</String>
+		<String>CURSORTRACK</String>
+		<String>LEFT-MARGIN</String>
+		<String>PAGE-LAYOUT</String>
+		<String>RIGHTMARGIN</String>
+		<String>XML VERSION</String>
+		<String>LEFTMARGIN</String>
+		<String>PAGEFORMAT</String>
+		<String>SHOWFRAMES</String>
+		<String>TOP-MARGIN</String>
+		<String>CLEF TICK</String>
+		<String>MAXPITCHA</String>
+		<String>MAXPITCHP</String>
+		<String>MINPITCHA</String>
+		<String>MINPITCHP</String>
+		<String>SHORTNAME</String>
+		<String>TOPMARGIN</String>
+		<String>TRACKNAME</String>
+		<String>CLEFLIST</String>
+		<String>DIVISION</String>
+		<String>ENCODING</String>
+		<String>KEY TICK</String>
+		<String>SIG TICK</String>
+		<String>STAFF ID</String>
+		<String>BARLINE</String>
+		<String>CHANNEL</String>
+		<String>KEYLIST</String>
+		<String>SIGLIST</String>
+		<String>SPATIUM</String>
+		<String>SUBTYPE</String>
+		<String>TIMESIG</String>
+		<String>HEIGHT</String>
+		<String>CHORD</String>
+		<String>DENOM</String>
+		<String>STYLE</String>
+		<String>UTF-8</String>
+		<String>NOTE</String>
+		<String>PART</String>
+		<String>SPAN</String>
+		<String>TEXT</String>
+		<String>VBOX</String>
+	</GlobalStrings>
+</TrID>

@@ -1,0 +1,41 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>CATIA ISO-10303 STEP Product Data</FileType>
+		<Ext>STP</Ext>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>http://www.3ds.com/home</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>23</FileNum>
+		<Refine>6 by Marco Pontello</Refine>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2006</Year>
+			<Month>11</Month>
+			<Day>16</Day>
+		</Date>
+		<Time>
+			<Hour>02</Hour>
+			<Min>06</Min>
+			<Sec>01</Sec>
+		</Time>
+		<Creator>TrIDScan32 v1.56</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>49534F2D31303330332D32313B</Bytes>
+			<ASCII> I S O - 1 0 3 0 3 - 2 1 ;</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>ENDSEC</String>
+		<String>HEADER</String>
+		<String>DATA</String>
+	</GlobalStrings>
+</TrID>

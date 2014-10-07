@@ -1,0 +1,42 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>QuickBMS script</FileType>
+		<Ext>BMS</Ext>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>http://aluigi.org/papers.htm#quickbms</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>11</FileNum>
+		<Refine>1 by Marco Pontello</Refine>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2011</Year>
+			<Month>1</Month>
+			<Day>20</Day>
+		</Date>
+		<Time>
+			<Hour>3</Hour>
+			<Min>25</Min>
+			<Sec>55</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v1.73b</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>2320</Bytes>
+			<ASCII> #</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>SCRIPT FOR QUICKBMS HTTP</String>
+		<String>ALUIGI.ORG</String>
+		<String>PAPERS.HTM</String>
+		<String>SIZE</String>
+	</GlobalStrings>
+</TrID>

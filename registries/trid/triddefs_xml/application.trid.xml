@@ -1,0 +1,77 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>ClickOnce Deployment Manifest</FileType>
+		<Ext>APPLICATION</Ext>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>http://en.wikipedia.org/wiki/ClickOnce</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>4</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2008</Year>
+			<Month>08</Month>
+			<Day>05</Day>
+		</Date>
+		<Time>
+			<Hour>14</Hour>
+			<Min>16</Min>
+			<Sec>16</Sec>
+		</Time>
+		<Creator>TrIDScan32 v1.56</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>EFBBBF3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D227574662D38223F3E0D0A</Bytes>
+			<ASCII> . . . . ? x m l   v e r s i o n = " 1 . 0 "   e n c o d i n g = " u t f - 8 " ?</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>DEPENDENTASSEMBLY DEPENDENCYTYPE</String>
+		<String>ASM.V1 ASSEMBLY.ADAPTIVE.XSD</String>
+		<String>HASHTRANSFORMS.IDENTITY</String>
+		<String>DIGESTMETHOD ALGORITHM</String>
+		<String>PROCESSORARCHITECTURE</String>
+		<String>ASSEMBLYIDENTITY NAME</String>
+		<String>SCHEMAS-MICROSOFT-COM</String>
+		<String>TRANSFORM ALGORITHM</String>
+		<String>XMLSCHEMA-INSTANCE</String>
+		<String>DEPLOYMENT INSTALL</String>
+		<String>DESCRIPTION ASMV2</String>
+		<String>MAPFILEEXTENSIONS</String>
+		<String>MANIFESTVERSION</String>
+		<String>PUBLICKEYTOKEN</String>
+		<String>SCHEMALOCATION</String>
+		<String>.EXE.MANIFEST</String>
+		<String>.APPLICATION</String>
+		<String>ASSEMBLY XSI</String>
+		<String>01-REL-R-NS</String>
+		<String>XML VERSION</String>
+		<String>DIGESTVALUE</String>
+		<String>WWW.W3.ORG</String>
+		<String>PUBLISHER</String>
+		<String>ENCODING</String>
+		<String>CODEBASE</String>
+		<String>LANGUAGE</String>
+		<String>XMLDSIG</String>
+		<String>PRODUCT</String>
+		<String>ASM.V2</String>
+		<String>MPEG21</String>
+		<String>UTF-8</String>
+		<String>ASMV1</String>
+		<String>XMLNS</String>
+		<String>WIN32</String>
+		<String>TRUE</String>
+		<String>MSIL</String>
+		<String>SIZE</String>
+		<String>HTTP</String>
+		<String>SHA1</String>
+		<String>XRML</String>
+	</GlobalStrings>
+</TrID>

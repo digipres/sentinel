@@ -1,0 +1,45 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Visual Studio Extension</FileType>
+		<Ext>VSIX</Ext>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>http://en.wikipedia.org/wiki/Microsoft_Visual_Studio</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>6</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2011</Year>
+			<Month>11</Month>
+			<Day>29</Day>
+		</Date>
+		<Time>
+			<Hour>1</Hour>
+			<Min>47</Min>
+			<Sec>38</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v1.79.12b</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>504B0304</Bytes>
+			<ASCII> P K</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>EXTENSION.VSIXMANIFESTPK</String>
+		<String>CONTENT_TYPES</String>
+		<String>.XMLPK</String>
+		<String>TEXTS</String>
+		<String>.NET</String>
+		<String>IDAT</String>
+		<String>SOFT</String>
+		<String>VIEW</String>
+	</GlobalStrings>
+</TrID>

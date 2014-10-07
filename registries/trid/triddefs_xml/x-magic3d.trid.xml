@@ -1,0 +1,39 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Magic 3D Easy View object</FileType>
+		<Ext>X</Ext>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>http://www.nicolaudie.com/main.php?id_page=3</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>2</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2010</Year>
+			<Month>08</Month>
+			<Day>05</Day>
+		</Date>
+		<Time>
+			<Hour>02</Hour>
+			<Min>46</Min>
+			<Sec>48</Sec>
+		</Time>
+		<Creator>TrIDScan32 v1.56</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>B8AFA66070737073A2A9AE60707073725F404140</Bytes>
+			<ASCII> . . . ` p s p s . . . ` p p s r _ @ A @</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>PPSR_</String>
+		<String>PSPS</String>
+	</GlobalStrings>
+</TrID>

@@ -1,0 +1,38 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Audio Playlist (UTF-8)</FileType>
+		<Ext>M3U8</Ext>
+		<ExtraInfo>
+			<Rem>A variation of the M3U format with Unicode support.</Rem>
+			<RefURL></RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>	</Info>
+	<General>
+		<FileNum>2</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2006</Year>
+			<Month>10</Month>
+			<Day>08</Day>
+		</Date>
+		<Time>
+			<Hour>23</Hour>
+			<Min>20</Min>
+			<Sec>02</Sec>
+		</Time>
+		<Creator>TrIDScan32 v1.56</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>EFBBBF234558544D33550D0A</Bytes>
+			<ASCII> . . . # E X T M 3 U</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>EXTINF</String>
+		<String>EXTM3U</String>
+	</GlobalStrings>
+</TrID>

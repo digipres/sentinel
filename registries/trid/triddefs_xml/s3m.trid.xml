@@ -1,0 +1,56 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>ScreamTracker v3 module/song</FileType>
+		<Ext>S3M</Ext>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL></RefURL>
+		</ExtraInfo>
+		<User>Dr.Ryo(TM)</User>
+		<E-Mail>dr.ryo@superfigo.com</E-Mail>
+		<Home>http://www.superfigo.com</Home>
+	</Info>
+	<General>
+		<FileNum>15</FileNum>
+		<Refine>1 by Marco Pontello</Refine>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2005</Year>
+			<Month>11</Month>
+			<Day>17</Day>
+		</Date>
+		<Time>
+			<Hour>23</Hour>
+			<Min>47</Min>
+			<Sec>45</Sec>
+		</Time>
+		<Creator>TrIDScan32 v1.56</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>0000001A100000</Bytes>
+			<Pos>25</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>00</Bytes>
+			<Pos>33</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>00</Bytes>
+			<Pos>35</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>00</Bytes>
+			<Pos>37</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>005343524D</Bytes>
+			<ASCII> . S C R M</ASCII>
+			<Pos>43</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>SCRM</String>
+		<String>SCRS</String>
+	</GlobalStrings>
+</TrID>

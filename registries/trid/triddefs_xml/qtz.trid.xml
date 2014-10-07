@@ -1,0 +1,66 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Quartz Composer data</FileType>
+		<Ext>QTZ</Ext>
+		<ExtraInfo>
+			<Rem>Quartz Composer is a development tool provided with Mac OS X v10.4 for processing and rendering graphical data.</Rem>
+			<RefURL>http://developer.apple.com/documentation/GraphicsImaging/Conceptual/QuartzComposer/</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>20</FileNum>
+		<Refine>1 by Marco Pontello</Refine>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2008</Year>
+			<Month>05</Month>
+			<Day>07</Day>
+		</Date>
+		<Time>
+			<Hour>19</Hour>
+			<Min>49</Min>
+			<Sec>28</Sec>
+		</Time>
+		<Creator>TrIDScan32 v1.56</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>62706C6973743030</Bytes>
+			<ASCII> b p l i s t 0 0</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>ZSOURCENODEZSOURCEPORT_</String>
+		<String>SYSTEMINPUTPORTSTATES</String>
+		<String>UCLASSUSTATEWQCPATCH</String>
+		<String>IVARINPUTPORTSTATES</String>
+		<String>NSMUTABLEDICTIONARY</String>
+		<String>DESTINATIONNODE_</String>
+		<String>INPUTPORTSTATES_</String>
+		<String>DESTINATIONPORT</String>
+		<String>INPUTBLENDING</String>
+		<String>NSDICTIONARY</String>
+		<String>CONNECTION_2</String>
+		<String>ZINPUTCOLOR</String>
+		<String>CONNECTIONS</String>
+		<String>{_NSPOINT</String>
+		<String>SCROLLING</String>
+		<String>BPLIST00</String>
+		<String>POSITION</String>
+		<String>W_ENABLE</String>
+		<String>NSOBJECT</String>
+		<String>NSSTRING</String>
+		<String>NSVALUE</String>
+		<String>UVALUE</String>
+		<String>INPUTS</String>
+		<String>UNODES</String>
+		<String>STREAM</String>
+		<String>TYPED</String>
+		<String>PUTV</String>
+		<String>SKEY</String>
+	</GlobalStrings>
+</TrID>

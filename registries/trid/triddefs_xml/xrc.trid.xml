@@ -1,0 +1,62 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>wxWindows - wxPython Resource File</FileType>
+		<Ext>XRC</Ext>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>http://www.wxwindows.org/</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>	</Info>
+	<General>
+		<FileNum>4</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2006</Year>
+			<Month>11</Month>
+			<Day>27</Day>
+		</Date>
+		<Time>
+			<Hour>18</Hour>
+			<Min>29</Min>
+			<Sec>02</Sec>
+		</Time>
+		<Creator>TrIDScan32 v1.56</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>3C3F786D6C2076657273696F6E3D22312E3022</Bytes>
+			<ASCII> . ? x m l   v e r s i o n = " 1 . 0 "</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>OBJECT CLASS</String>
+		<String>WXALIGN_CENT</String>
+		<String>WXSTATICTEXT</String>
+		<String>WXHORIZONTAL</String>
+		<String>XML VERSION</String>
+		<String>WXBOXSIZER</String>
+		<String>WXVERTICAL</String>
+		<String>SIZERITEM</String>
+		<String>CENTERED</String>
+		<String>WXDIALOG</String>
+		<String>WXBUTTON</String>
+		<String>WXBOTTOM</String>
+		<String>RESOURCE</String>
+		<String>WXRIGHT</String>
+		<String>_BORDER</String>
+		<String>DEFAULT</String>
+		<String>CANCEL</String>
+		<String>WXLEFT</String>
+		<String>ORIENT</String>
+		<String>SPACER</String>
+		<String>STYLE</String>
+		<String>LABEL</String>
+		<String>WXALL</String>
+		<String>FILE</String>
+		<String>FLAG</String>
+		<String>NAME</String>
+	</GlobalStrings>
+</TrID>

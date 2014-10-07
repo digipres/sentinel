@@ -1,0 +1,50 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Amiga Kickstart 1.x generic commands and executables</FileType>
+		<Ext></Ext>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL></RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home></Home>
+	</Info>
+	<General>
+		<FileNum>29</FileNum>
+		<Refine>1 by Marco Pontello</Refine>
+		<Date>
+			<Year>2004</Year>
+			<Month>03</Month>
+			<Day>07</Day>
+		</Date>
+		<Time>
+			<Hour>14</Hour>
+			<Min>24</Min>
+			<Sec>52</Sec>
+		</Time>
+		<Creator>TrIDScan32 v1.55</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>000003F300000000000000</Bytes>
+			<Pos>0</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>00000000000000</Bytes>
+			<Pos>12</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>0000</Bytes>
+			<Pos>20</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>0000</Bytes>
+			<Pos>24</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>0000</Bytes>
+			<Pos>28</Pos>
+		</Pattern>
+	</FrontBlock>
+</TrID>
