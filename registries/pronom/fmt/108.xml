@@ -24,7 +24,7 @@
       <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
       <ProvenanceDescription>
       </ProvenanceDescription>
-      <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
+      <LastUpdatedDate>26 Feb 2013</LastUpdatedDate>
       <FormatNote>
       </FormatNote>
       <FormatRisk>
@@ -39,6 +39,20 @@
         <Identifier>fmt/108</Identifier>
         <IdentifierType>PUID</IdentifierType>
       </FileFormatIdentifier>
+      <Developers>
+        <DeveloperID>56</DeveloperID>
+        <DeveloperName>
+        </DeveloperName>
+        <OrganisationName>Macromedia, Inc.</OrganisationName>
+        <DeveloperCompoundName>Macromedia, Inc.</DeveloperCompoundName>
+      </Developers>
+      <Support>
+        <SupportID>7</SupportID>
+        <SupportName>
+        </SupportName>
+        <OrganisationName>Adobe Systems Incorporated</OrganisationName>
+        <SupportCompoundName>Adobe Systems Incorporated</SupportCompoundName>
+      </Support>
       <ExternalSignature>
         <ExternalSignatureID>573</ExternalSignatureID>
         <Signature>swf</Signature>
@@ -47,7 +61,7 @@
       <InternalSignature>
         <SignatureID>46</SignatureID>
         <SignatureName>SWF 5</SignatureName>
-        <SignatureNote>Header and footer</SignatureNote>
+        <SignatureNote>Header (FWS then version number) and end tag (..)</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>142</ByteSequenceID>
           <PositionType>Absolute from BOF</PositionType>
@@ -60,7 +74,7 @@
           </IndirectOffsetLength>
           <Endianness>
           </Endianness>
-          <ByteSequenceValue>(43|46)575305</ByteSequenceValue>
+          <ByteSequenceValue>46575305</ByteSequenceValue>
         </ByteSequence>
         <ByteSequence>
           <ByteSequenceID>143</ByteSequenceID>

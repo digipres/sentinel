@@ -3,15 +3,14 @@
   <report_format_detail>
     <FileFormat>
       <FormatID>937</FormatID>
-      <FormatName>Kodak Photo-CD</FormatName>
+      <FormatName>Kodak Photo CD Image</FormatName>
       <FormatVersion>
       </FormatVersion>
       <FormatAliases>
       </FormatAliases>
       <FormatFamilies>
       </FormatFamilies>
-      <FormatTypes>
-      </FormatTypes>
+      <FormatTypes>Image (Raster)</FormatTypes>
       <FormatDisclosure>
       </FormatDisclosure>
       <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
@@ -27,7 +26,7 @@
       <ProvenanceSourceDate>28 Oct 2009</ProvenanceSourceDate>
       <ProvenanceDescription>
       </ProvenanceDescription>
-      <LastUpdatedDate>28 Oct 2009</LastUpdatedDate>
+      <LastUpdatedDate>26 Feb 2013</LastUpdatedDate>
       <FormatNote>
       </FormatNote>
       <FormatRisk>
@@ -43,6 +42,24 @@
         <Signature>pcd</Signature>
         <SignatureType>File extension</SignatureType>
       </ExternalSignature>
+      <InternalSignature>
+        <SignatureID>770</SignatureID>
+        <SignatureName>Kodak Photo CD</SignatureName>
+        <SignatureNote>BOF: ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ{2016}PCD</SignatureNote>
+        <ByteSequence>
+          <ByteSequenceID>971</ByteSequenceID>
+          <PositionType>Absolute from BOF</PositionType>
+          <Offset>0</Offset>
+          <MaxOffset>0</MaxOffset>
+          <IndirectOffsetLocation>
+          </IndirectOffsetLocation>
+          <IndirectOffsetLength>
+          </IndirectOffsetLength>
+          <Endianness>
+          </Endianness>
+          <ByteSequenceValue>FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF{2016}504344</ByteSequenceValue>
+        </ByteSequence>
+      </InternalSignature>
     </FileFormat>
     <SearchCriteria>Criteria</SearchCriteria>
   </report_format_detail>

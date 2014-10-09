@@ -4,7 +4,7 @@
     <FileFormat>
       <FormatID>865</FormatID>
       <FormatName>Adobe InDesign Document</FormatName>
-      <FormatVersion>n/a</FormatVersion>
+      <FormatVersion>Generic</FormatVersion>
       <FormatAliases>
       </FormatAliases>
       <FormatFamilies>
@@ -24,7 +24,7 @@
       <ProvenanceSourceDate>06 Apr 2009</ProvenanceSourceDate>
       <ProvenanceDescription>
       </ProvenanceDescription>
-      <LastUpdatedDate>06 Apr 2009</LastUpdatedDate>
+      <LastUpdatedDate>19 Jul 2013</LastUpdatedDate>
       <FormatNote>
       </FormatNote>
       <FormatRisk>
@@ -65,9 +65,8 @@
       </ExternalSignature>
       <InternalSignature>
         <SignatureID>240</SignatureID>
-        <SignatureName>Adobe InDesign Document</SignatureName>
-        <SignatureNote>
-        </SignatureNote>
+        <SignatureName>Adobe InDesign Document Generic</SignatureName>
+        <SignatureNote>16-byte GUID: 0606EDF5-D81D-46e5-BD31-EFE7FE74B71D; 8-byte string File Type: DOCUMENT;</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>313</ByteSequenceID>
           <PositionType>Absolute from BOF</PositionType>
@@ -82,6 +81,42 @@
           <ByteSequenceValue>0606EDF5D81D46E5BD31EFE7FE74B71D444F43554D454E54</ByteSequenceValue>
         </ByteSequence>
       </InternalSignature>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>921</RelatedFormatID>
+        <RelatedFormatName>Adobe InDesign Document</RelatedFormatName>
+        <RelatedFormatVersion>CS</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1336</RelatedFormatID>
+        <RelatedFormatName>Adobe InDesign Document</RelatedFormatName>
+        <RelatedFormatVersion>CS2</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1337</RelatedFormatID>
+        <RelatedFormatName>Adobe InDesign Document</RelatedFormatName>
+        <RelatedFormatVersion>CS3</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1338</RelatedFormatID>
+        <RelatedFormatName>Adobe InDesign Document</RelatedFormatName>
+        <RelatedFormatVersion>CS4</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1339</RelatedFormatID>
+        <RelatedFormatName>Adobe InDesign Document</RelatedFormatName>
+        <RelatedFormatVersion>CS5</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1340</RelatedFormatID>
+        <RelatedFormatName>Adobe InDesign Document</RelatedFormatName>
+        <RelatedFormatVersion>CS6</RelatedFormatVersion>
+      </RelatedFormat>
     </FileFormat>
     <SearchCriteria>Criteria</SearchCriteria>
   </report_format_detail>

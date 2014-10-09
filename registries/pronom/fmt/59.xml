@@ -3,8 +3,8 @@
   <report_format_detail>
     <FileFormat>
       <FormatID>682</FormatID>
-      <FormatName>Microsoft Excel 5.0 Workbook (xls)</FormatName>
-      <FormatVersion>5</FormatVersion>
+      <FormatName>Microsoft Excel 5.0/95 Workbook (xls)</FormatName>
+      <FormatVersion>5/95</FormatVersion>
       <FormatAliases>Microsoft Excel Workbook (5.0)</FormatAliases>
       <FormatFamilies>
       </FormatFamilies>
@@ -20,9 +20,8 @@
       <ProvenanceSourceID>1</ProvenanceSourceID>
       <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
       <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-      <ProvenanceDescription>
-      </ProvenanceDescription>
-      <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
+      <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
+      <LastUpdatedDate>18 Dec 2012</LastUpdatedDate>
       <FormatNote>
       </FormatNote>
       <FormatRisk>
@@ -86,22 +85,27 @@
       <InternalSignature>
         <SignatureID>76</SignatureID>
         <SignatureName>BIFF 5 &amp; 7 Workbook (generic)</SignatureName>
-        <SignatureNote>09 - BOF / 08 - Version indicator / {2} - unspecified / 0005 - Version 5 / 0500 - unspecified /  (9C35|6C92|920C|F90C) - build identifier</SignatureNote>
+        <SignatureNote>09 - BOF / 08 - Version indicator / {2} - unspecified / 0005 - Version 5 / 0500 - unspecified</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>194</ByteSequenceID>
           <PositionType>Absolute from BOF</PositionType>
           <Offset>512</Offset>
-          <MaxOffset>
-          </MaxOffset>
+          <MaxOffset>8192</MaxOffset>
           <IndirectOffsetLocation>
           </IndirectOffsetLocation>
           <IndirectOffsetLength>
           </IndirectOffsetLength>
           <Endianness>
           </Endianness>
-          <ByteSequenceValue>0908{2}00050500(9C35|6C92|920C|F90C)</ByteSequenceValue>
+          <ByteSequenceValue>0908{2}00050500</ByteSequenceValue>
         </ByteSequence>
       </InternalSignature>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>684</RelatedFormatID>
+        <RelatedFormatName>Microsoft Excel 97 Workbook (xls)</RelatedFormatName>
+        <RelatedFormatVersion>8</RelatedFormatVersion>
+      </RelatedFormat>
       <RelatedFormat>
         <RelationshipType>Has priority over</RelationshipType>
         <RelatedFormatID>767</RelatedFormatID>

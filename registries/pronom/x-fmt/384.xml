@@ -23,7 +23,7 @@
       <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
       <ProvenanceDescription>
       </ProvenanceDescription>
-      <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
+      <LastUpdatedDate>26 Feb 2013</LastUpdatedDate>
       <FormatNote>
       </FormatNote>
       <FormatRisk>
@@ -215,6 +215,89 @@
           <ByteSequenceValue>6D646174</ByteSequenceValue>
         </ByteSequence>
       </InternalSignature>
+      <InternalSignature>
+        <SignatureID>691</SignatureID>
+        <SignatureName>QuickTime 7</SignatureName>
+        <SignatureNote>size + ftyp + qt2020</SignatureNote>
+        <ByteSequence>
+          <ByteSequenceID>856</ByteSequenceID>
+          <PositionType>Absolute from BOF</PositionType>
+          <Offset>
+          </Offset>
+          <MaxOffset>
+          </MaxOffset>
+          <IndirectOffsetLocation>
+          </IndirectOffsetLocation>
+          <IndirectOffsetLength>
+          </IndirectOffsetLength>
+          <Endianness>
+          </Endianness>
+          <ByteSequenceValue>000000{1}6674797071742020</ByteSequenceValue>
+        </ByteSequence>
+      </InternalSignature>
+      <InternalSignature>
+        <SignatureID>717</SignatureID>
+        <SignatureName>Quicktime 8</SignatureName>
+        <SignatureNote>Looking for two atoms: 'wide' and 'mvhd'</SignatureNote>
+        <ByteSequence>
+          <ByteSequenceID>903</ByteSequenceID>
+          <PositionType>Absolute from BOF</PositionType>
+          <Offset>0</Offset>
+          <MaxOffset>20</MaxOffset>
+          <IndirectOffsetLocation>
+          </IndirectOffsetLocation>
+          <IndirectOffsetLength>
+          </IndirectOffsetLength>
+          <Endianness>
+          </Endianness>
+          <ByteSequenceValue>77696465{1-20}6D766864</ByteSequenceValue>
+        </ByteSequence>
+      </InternalSignature>
+      <InternalSignature>
+        <SignatureID>760</SignatureID>
+        <SignatureName>Quicktime 9</SignatureName>
+        <SignatureNote>BOF, offset 4: 'free' atom, followed by one or more 00 bytes, with 'ftyp' atom seen later in the file</SignatureNote>
+        <ByteSequence>
+          <ByteSequenceID>955</ByteSequenceID>
+          <PositionType>Absolute from BOF</PositionType>
+          <Offset>4</Offset>
+          <MaxOffset>
+          </MaxOffset>
+          <IndirectOffsetLocation>
+          </IndirectOffsetLocation>
+          <IndirectOffsetLength>
+          </IndirectOffsetLength>
+          <Endianness>
+          </Endianness>
+          <ByteSequenceValue>6672656500*66747970</ByteSequenceValue>
+        </ByteSequence>
+      </InternalSignature>
+      <InternalSignature>
+        <SignatureID>780</SignatureID>
+        <SignatureName>Quicktime 10</SignatureName>
+        <SignatureNote>'free' atom, followed by one or more 00 bytes, with 'moov' atom seen later in the file</SignatureNote>
+        <ByteSequence>
+          <ByteSequenceID>981</ByteSequenceID>
+          <PositionType>Absolute from BOF</PositionType>
+          <Offset>4</Offset>
+          <MaxOffset>
+          </MaxOffset>
+          <IndirectOffsetLocation>
+          </IndirectOffsetLocation>
+          <IndirectOffsetLength>
+          </IndirectOffsetLength>
+          <Endianness>
+          </Endianness>
+          <ByteSequenceValue>6672656500*6D6F6F76</ByteSequenceValue>
+        </ByteSequence>
+      </InternalSignature>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>924</RelatedFormatID>
+        <RelatedFormatName>MPEG-4 Media File</RelatedFormatName>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
+      </RelatedFormat>
     </FileFormat>
     <SearchCriteria>Criteria</SearchCriteria>
   </report_format_detail>

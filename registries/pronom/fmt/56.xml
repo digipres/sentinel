@@ -3,7 +3,7 @@
   <report_format_detail>
     <FileFormat>
       <FormatID>679</FormatID>
-      <FormatName>Microsoft Excel 3.0 Worlsheet (xls)</FormatName>
+      <FormatName>Microsoft Excel 3.0 Worksheet (xls)</FormatName>
       <FormatVersion>3</FormatVersion>
       <FormatAliases>Microsoft Excel Worksheet (3.0)</FormatAliases>
       <FormatFamilies>
@@ -22,7 +22,7 @@
       <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
       <ProvenanceDescription>
       </ProvenanceDescription>
-      <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
+      <LastUpdatedDate>19 Jul 2013</LastUpdatedDate>
       <FormatNote>
       </FormatNote>
       <FormatRisk>
@@ -41,6 +41,20 @@
         <Identifier>fmt/56</Identifier>
         <IdentifierType>PUID</IdentifierType>
       </FileFormatIdentifier>
+      <Developers>
+        <DeveloperID>93</DeveloperID>
+        <DeveloperName>
+        </DeveloperName>
+        <OrganisationName>Microsoft Corporation</OrganisationName>
+        <DeveloperCompoundName>Microsoft Corporation</DeveloperCompoundName>
+      </Developers>
+      <Support>
+        <SupportID>93</SupportID>
+        <SupportName>
+        </SupportName>
+        <OrganisationName>Microsoft Corporation</OrganisationName>
+        <SupportCompoundName>Microsoft Corporation</SupportCompoundName>
+      </Support>
       <Document>
         <DocumentID>10</DocumentID>
         <DisplayText>OpenOffice.org, 2004, OpenOffice.org's documentation of the Microsoft Excel file format: Excel versions 2, 3, 4, 5, 95, 97, 2000, XP, 2003</DisplayText>
@@ -74,16 +88,6 @@
         </Publisher>
       </Document>
       <ExternalSignature>
-        <ExternalSignatureID>561</ExternalSignatureID>
-        <Signature>xlc</Signature>
-        <SignatureType>File extension</SignatureType>
-      </ExternalSignature>
-      <ExternalSignature>
-        <ExternalSignatureID>593</ExternalSignatureID>
-        <Signature>xlm</Signature>
-        <SignatureType>File extension</SignatureType>
-      </ExternalSignature>
-      <ExternalSignature>
         <ExternalSignatureID>720</ExternalSignatureID>
         <Signature>xls</Signature>
         <SignatureType>File extension</SignatureType>
@@ -91,7 +95,7 @@
       <InternalSignature>
         <SignatureID>73</SignatureID>
         <SignatureName>BIFF 3 Worksheet</SignatureName>
-        <SignatureNote>09 - BOF / 02 - Version 3 / {2} - unspecified / 0000 - unspecified / 1000 - type of data (sheet)</SignatureNote>
+        <SignatureNote>BIFF3: BOF hex 0902. record length hex 0600, BIFF version=(not used), filetype=worksheet=1000</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>188</ByteSequenceID>
           <PositionType>Absolute from BOF</PositionType>
@@ -104,7 +108,7 @@
           </IndirectOffsetLength>
           <Endianness>
           </Endianness>
-          <ByteSequenceValue>0902{2}00001000</ByteSequenceValue>
+          <ByteSequenceValue>09020600{2}1000</ByteSequenceValue>
         </ByteSequence>
       </InternalSignature>
       <RelatedFormat>
@@ -122,8 +126,20 @@
       <RelatedFormat>
         <RelationshipType>Is subsequent version of</RelationshipType>
         <RelatedFormatID>678</RelatedFormatID>
-        <RelatedFormatName>Microsoft Excel 2.1 Worksheet (xls)</RelatedFormatName>
+        <RelatedFormatName>Microsoft Excel 2.x Worksheet (xls)</RelatedFormatName>
         <RelatedFormatVersion>2</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Is supertype of</RelationshipType>
+        <RelatedFormatID>1342</RelatedFormatID>
+        <RelatedFormatName>Microsoft Excel Chart</RelatedFormatName>
+        <RelatedFormatVersion>3.0</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Is supertype of</RelationshipType>
+        <RelatedFormatID>1344</RelatedFormatID>
+        <RelatedFormatName>Microsoft Excel Macro</RelatedFormatName>
+        <RelatedFormatVersion>3.0</RelatedFormatVersion>
       </RelatedFormat>
     </FileFormat>
     <SearchCriteria>Criteria</SearchCriteria>

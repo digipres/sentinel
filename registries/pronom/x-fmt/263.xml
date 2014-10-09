@@ -128,13 +128,13 @@
         <RelationshipType>Has lower priority than</RelationshipType>
         <RelatedFormatID>876</RelatedFormatID>
         <RelatedFormatName>SIARD (Software-Independent Archiving of Relational Databases)</RelatedFormatName>
-        <RelatedFormatVersion>2.0</RelatedFormatVersion>
+        <RelatedFormatVersion>1.0</RelatedFormatVersion>
       </RelatedFormat>
       <RelatedFormat>
         <RelationshipType>Has lower priority than</RelationshipType>
         <RelatedFormatID>910</RelatedFormatID>
         <RelatedFormatName>Microsoft Office Open XML</RelatedFormatName>
-        <RelatedFormatVersion>2007</RelatedFormatVersion>
+        <RelatedFormatVersion>2007 onwards</RelatedFormatVersion>
       </RelatedFormat>
       <RelatedFormat>
         <RelationshipType>Has lower priority than</RelationshipType>
@@ -183,6 +183,44 @@
         <RelatedFormatID>1040</RelatedFormatID>
         <RelatedFormatName>OpenDocument Graphics</RelatedFormatName>
         <RelatedFormatVersion>1.2</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1206</RelatedFormatID>
+        <RelatedFormatName>OpenDocument Database Format</RelatedFormatName>
+        <RelatedFormatVersion>1.2</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1215</RelatedFormatID>
+        <RelatedFormatName>CorelDraw Drawing</RelatedFormatName>
+        <RelatedFormatVersion>X4</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1216</RelatedFormatID>
+        <RelatedFormatName>CorelDraw Drawing</RelatedFormatName>
+        <RelatedFormatVersion>X5</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1231</RelatedFormatID>
+        <RelatedFormatName>OpenDocument Database Format</RelatedFormatName>
+        <RelatedFormatVersion>1.1</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1269</RelatedFormatID>
+        <RelatedFormatName>Apple iBook format</RelatedFormatName>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1270</RelatedFormatID>
+        <RelatedFormatName>ePub format</RelatedFormatName>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
       </RelatedFormat>
     </FileFormat>
     <SearchCriteria>Criteria</SearchCriteria>

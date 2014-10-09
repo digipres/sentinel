@@ -40,7 +40,7 @@
       </FileFormatIdentifier>
       <ExternalSignature>
         <ExternalSignatureID>212</ExternalSignatureID>
-        <Signature>FLM</Signature>
+        <Signature>flm</Signature>
         <SignatureType>File extension</SignatureType>
       </ExternalSignature>
     </FileFormat>

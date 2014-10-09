@@ -84,6 +84,12 @@
       </InternalSignature>
       <RelatedFormat>
         <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>49</RelatedFormatID>
+        <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
+        <RelatedFormatVersion>1.0 / 1.1</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
         <RelatedFormatID>86</RelatedFormatID>
         <RelatedFormatName>Encapsulated PostScript File Format</RelatedFormatName>
         <RelatedFormatVersion>1.2</RelatedFormatVersion>
@@ -99,6 +105,48 @@
         <RelatedFormatID>332</RelatedFormatID>
         <RelatedFormatName>Encapsulated PostScript File Format</RelatedFormatName>
         <RelatedFormatVersion>2.0</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1199</RelatedFormatID>
+        <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
+        <RelatedFormatVersion>88</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1200</RelatedFormatID>
+        <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
+        <RelatedFormatVersion>3.0 / 3.2</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1201</RelatedFormatID>
+        <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
+        <RelatedFormatVersion>4.0</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1202</RelatedFormatID>
+        <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
+        <RelatedFormatVersion>5.0 / 5.5</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1204</RelatedFormatID>
+        <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
+        <RelatedFormatVersion>6.0</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1205</RelatedFormatID>
+        <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
+        <RelatedFormatVersion>7.0</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1345</RelatedFormatID>
+        <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
+        <RelatedFormatVersion>8.0</RelatedFormatVersion>
       </RelatedFormat>
       <RelatedFormat>
         <RelationshipType>Has priority over</RelationshipType>

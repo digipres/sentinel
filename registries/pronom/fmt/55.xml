@@ -3,7 +3,7 @@
   <report_format_detail>
     <FileFormat>
       <FormatID>678</FormatID>
-      <FormatName>Microsoft Excel 2.1 Worksheet (xls)</FormatName>
+      <FormatName>Microsoft Excel 2.x Worksheet (xls)</FormatName>
       <FormatVersion>2</FormatVersion>
       <FormatAliases>Microsoft Excel Worksheet (2.1)</FormatAliases>
       <FormatFamilies>
@@ -22,7 +22,7 @@
       <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
       <ProvenanceDescription>
       </ProvenanceDescription>
-      <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
+      <LastUpdatedDate>19 Jul 2013</LastUpdatedDate>
       <FormatNote>
       </FormatNote>
       <FormatRisk>
@@ -41,6 +41,20 @@
         <Identifier>fmt/55</Identifier>
         <IdentifierType>PUID</IdentifierType>
       </FileFormatIdentifier>
+      <Developers>
+        <DeveloperID>93</DeveloperID>
+        <DeveloperName>
+        </DeveloperName>
+        <OrganisationName>Microsoft Corporation</OrganisationName>
+        <DeveloperCompoundName>Microsoft Corporation</DeveloperCompoundName>
+      </Developers>
+      <Support>
+        <SupportID>93</SupportID>
+        <SupportName>
+        </SupportName>
+        <OrganisationName>Microsoft Corporation</OrganisationName>
+        <SupportCompoundName>Microsoft Corporation</SupportCompoundName>
+      </Support>
       <Document>
         <DocumentID>10</DocumentID>
         <DisplayText>OpenOffice.org, 2004, OpenOffice.org's documentation of the Microsoft Excel file format: Excel versions 2, 3, 4, 5, 95, 97, 2000, XP, 2003</DisplayText>
@@ -78,20 +92,10 @@
         <Signature>xls</Signature>
         <SignatureType>File extension</SignatureType>
       </ExternalSignature>
-      <ExternalSignature>
-        <ExternalSignatureID>735</ExternalSignatureID>
-        <Signature>xlc</Signature>
-        <SignatureType>File extension</SignatureType>
-      </ExternalSignature>
-      <ExternalSignature>
-        <ExternalSignatureID>745</ExternalSignatureID>
-        <Signature>xlm</Signature>
-        <SignatureType>File extension</SignatureType>
-      </ExternalSignature>
       <InternalSignature>
         <SignatureID>72</SignatureID>
         <SignatureName>BIFF 2 Worksheet</SignatureName>
-        <SignatureNote>09 - BOF / 00 - Version 2 / {2} - unspecified / 0700 - unspecified / 1000 - type of data (sheet)</SignatureNote>
+        <SignatureNote>BIFF2: BOF hex 0900. record length hex 0400, BIFF version (not used), filetype=worksheet=1000</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>177</ByteSequenceID>
           <PositionType>Absolute from BOF</PositionType>
@@ -104,14 +108,26 @@
           </IndirectOffsetLength>
           <Endianness>
           </Endianness>
-          <ByteSequenceValue>0900{2}07001000</ByteSequenceValue>
+          <ByteSequenceValue>09000400{2}1000</ByteSequenceValue>
         </ByteSequence>
       </InternalSignature>
       <RelatedFormat>
         <RelationshipType>Is previous version of</RelationshipType>
         <RelatedFormatID>679</RelatedFormatID>
-        <RelatedFormatName>Microsoft Excel 3.0 Worlsheet (xls)</RelatedFormatName>
+        <RelatedFormatName>Microsoft Excel 3.0 Worksheet (xls)</RelatedFormatName>
         <RelatedFormatVersion>3</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Is supertype of</RelationshipType>
+        <RelatedFormatID>1341</RelatedFormatID>
+        <RelatedFormatName>Microsoft Excel Chart</RelatedFormatName>
+        <RelatedFormatVersion>2.x</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Is supertype of</RelationshipType>
+        <RelatedFormatID>1343</RelatedFormatID>
+        <RelatedFormatName>Microsoft Excel Macro</RelatedFormatName>
+        <RelatedFormatVersion>2.x</RelatedFormatVersion>
       </RelatedFormat>
     </FileFormat>
     <SearchCriteria>Criteria</SearchCriteria>

@@ -32,6 +32,10 @@
       <TechnicalEnvironment>
       </TechnicalEnvironment>
       <FileFormatIdentifier>
+        <Identifier>application/vnd.wordperfect</Identifier>
+        <IdentifierType>MIME</IdentifierType>
+      </FileFormatIdentifier>
+      <FileFormatIdentifier>
         <Identifier>x-fmt/203</Identifier>
         <IdentifierType>PUID</IdentifierType>
       </FileFormatIdentifier>

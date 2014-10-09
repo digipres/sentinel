@@ -30,6 +30,10 @@
       <TechnicalEnvironment>
       </TechnicalEnvironment>
       <FileFormatIdentifier>
+        <Identifier>application/vnd.oasis.opendocument.graphics</Identifier>
+        <IdentifierType>MIME</IdentifierType>
+      </FileFormatIdentifier>
+      <FileFormatIdentifier>
         <Identifier>fmt/296</Identifier>
         <IdentifierType>PUID</IdentifierType>
       </FileFormatIdentifier>

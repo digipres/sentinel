@@ -30,6 +30,10 @@
       <TechnicalEnvironment>
       </TechnicalEnvironment>
       <FileFormatIdentifier>
+        <Identifier>application/xml</Identifier>
+        <IdentifierType>MIME</IdentifierType>
+      </FileFormatIdentifier>
+      <FileFormatIdentifier>
         <Identifier>fmt/101</Identifier>
         <IdentifierType>PUID</IdentifierType>
       </FileFormatIdentifier>
@@ -105,6 +109,12 @@
       </InternalSignature>
       <RelatedFormat>
         <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>310</RelatedFormatID>
+        <RelatedFormatName>Internet Archive</RelatedFormatName>
+        <RelatedFormatVersion>1.0</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
         <RelatedFormatID>319</RelatedFormatID>
         <RelatedFormatName>Geography Markup Language</RelatedFormatName>
         <RelatedFormatVersion>
@@ -156,6 +166,90 @@
         </RelatedFormatVersion>
       </RelatedFormat>
       <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1158</RelatedFormatID>
+        <RelatedFormatName>Internet Archive</RelatedFormatName>
+        <RelatedFormatVersion>1.1</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1191</RelatedFormatID>
+        <RelatedFormatName>Scalable Vector Graphics Tiny</RelatedFormatName>
+        <RelatedFormatVersion>1.2</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1262</RelatedFormatID>
+        <RelatedFormatName>Microsoft Management Console Snap-in Control file</RelatedFormatName>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1283</RelatedFormatID>
+        <RelatedFormatName>TransXchange File Format</RelatedFormatName>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1359</RelatedFormatID>
+        <RelatedFormatName>Domino XML Document Export</RelatedFormatName>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1360</RelatedFormatID>
+        <RelatedFormatName>Domino XML Database Export</RelatedFormatName>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1367</RelatedFormatID>
+        <RelatedFormatName>X3D</RelatedFormatName>
+        <RelatedFormatVersion>3.0</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1368</RelatedFormatID>
+        <RelatedFormatName>X3D</RelatedFormatName>
+        <RelatedFormatVersion>3.1</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1369</RelatedFormatID>
+        <RelatedFormatName>X3D</RelatedFormatName>
+        <RelatedFormatVersion>3.2</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1370</RelatedFormatID>
+        <RelatedFormatName>X3D</RelatedFormatName>
+        <RelatedFormatVersion>3.3</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1371</RelatedFormatID>
+        <RelatedFormatName>Vector Markup Language</RelatedFormatName>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1452</RelatedFormatID>
+        <RelatedFormatName>INTERLIS Transfer File</RelatedFormatName>
+        <RelatedFormatVersion>2.3</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1462</RelatedFormatID>
+        <RelatedFormatName>Industry Foundation Classes XML</RelatedFormatName>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
         <RelationshipType>Has priority over</RelationshipType>
         <RelatedFormatID>639</RelatedFormatID>
         <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
@@ -195,6 +289,13 @@
         <RelationshipType>Has priority over</RelationshipType>
         <RelatedFormatID>645</RelatedFormatID>
         <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Is supertype of</RelationshipType>
+        <RelatedFormatID>1283</RelatedFormatID>
+        <RelatedFormatName>TransXchange File Format</RelatedFormatName>
         <RelatedFormatVersion>
         </RelatedFormatVersion>
       </RelatedFormat>

@@ -3,8 +3,9 @@
   <report_format_detail>
     <FileFormat>
       <FormatID>963</FormatID>
-      <FormatName>Microsoft Works Word Processor for Windows</FormatName>
-      <FormatVersion>3.0</FormatVersion>
+      <FormatName>Microsoft Works Word Processor 3-4 for Windows</FormatName>
+      <FormatVersion>
+      </FormatVersion>
       <FormatAliases>
       </FormatAliases>
       <FormatFamilies>
@@ -23,9 +24,8 @@
       <ProvenanceSourceID>1</ProvenanceSourceID>
       <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
       <ProvenanceSourceDate>19 Nov 2009</ProvenanceSourceDate>
-      <ProvenanceDescription>
-      </ProvenanceDescription>
-      <LastUpdatedDate>19 Nov 2009</LastUpdatedDate>
+      <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
+      <LastUpdatedDate>18 Dec 2012</LastUpdatedDate>
       <FormatNote>
       </FormatNote>
       <FormatRisk>

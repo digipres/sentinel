@@ -4,7 +4,8 @@
     <FileFormat>
       <FormatID>213</FormatID>
       <FormatName>Micrografx Designer</FormatName>
-      <FormatVersion>7.0</FormatVersion>
+      <FormatVersion>
+      </FormatVersion>
       <FormatAliases>
       </FormatAliases>
       <FormatFamilies>
@@ -22,10 +23,9 @@
       </WithdrawnDate>
       <ProvenanceSourceID>1</ProvenanceSourceID>
       <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-      <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-      <ProvenanceDescription>
-      </ProvenanceDescription>
-      <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
+      <ProvenanceSourceDate>21 Feb 2014</ProvenanceSourceDate>
+      <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
+      <LastUpdatedDate>21 Feb 2014</LastUpdatedDate>
       <FormatNote>
       </FormatNote>
       <FormatRisk>

@@ -9,11 +9,10 @@
       </FormatAliases>
       <FormatFamilies>
       </FormatFamilies>
-      <FormatTypes>
-      </FormatTypes>
+      <FormatTypes>Word Processor</FormatTypes>
       <FormatDisclosure>
       </FormatDisclosure>
-      <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
+      <FormatDescription>Adobe FrameMaker format is a desktop publishing and word processing format originally developed by Frame Technology Corp. Frame Technology Corp was bought by Adobe Systems in 1995, who continued to develop and support FrameMaker.</FormatDescription>
       <BinaryFileFormat>Text</BinaryFileFormat>
       <ByteOrders>
       </ByteOrders>
@@ -26,7 +25,7 @@
       <ProvenanceSourceDate>23 Sep 2003</ProvenanceSourceDate>
       <ProvenanceDescription>
       </ProvenanceDescription>
-      <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
+      <LastUpdatedDate>19 Jul 2013</LastUpdatedDate>
       <FormatNote>
       </FormatNote>
       <FormatRisk>
@@ -34,9 +33,27 @@
       <TechnicalEnvironment>
       </TechnicalEnvironment>
       <FileFormatIdentifier>
+        <Identifier>application/vnd.framemaker</Identifier>
+        <IdentifierType>MIME</IdentifierType>
+      </FileFormatIdentifier>
+      <FileFormatIdentifier>
         <Identifier>x-fmt/302</Identifier>
         <IdentifierType>PUID</IdentifierType>
       </FileFormatIdentifier>
+      <Developers>
+        <DeveloperID>7</DeveloperID>
+        <DeveloperName>
+        </DeveloperName>
+        <OrganisationName>Adobe Systems Incorporated</OrganisationName>
+        <DeveloperCompoundName>Adobe Systems Incorporated</DeveloperCompoundName>
+      </Developers>
+      <Support>
+        <SupportID>7</SupportID>
+        <SupportName>
+        </SupportName>
+        <OrganisationName>Adobe Systems Incorporated</OrganisationName>
+        <SupportCompoundName>Adobe Systems Incorporated</SupportCompoundName>
+      </Support>
       <ExternalSignature>
         <ExternalSignatureID>443</ExternalSignatureID>
         <Signature>fm</Signature>
@@ -61,6 +78,18 @@
           <ByteSequenceValue>3C4D616B657246696C6520382E30483E</ByteSequenceValue>
         </ByteSequence>
       </InternalSignature>
+      <RelatedFormat>
+        <RelationshipType>Is previous version of</RelationshipType>
+        <RelatedFormatID>1326</RelatedFormatID>
+        <RelatedFormatName>Adobe FrameMaker Document</RelatedFormatName>
+        <RelatedFormatVersion>9.0</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Is subsequent version of</RelationshipType>
+        <RelatedFormatID>1325</RelatedFormatID>
+        <RelatedFormatName>Adobe FrameMaker Document</RelatedFormatName>
+        <RelatedFormatVersion>7.0</RelatedFormatVersion>
+      </RelatedFormat>
     </FileFormat>
     <SearchCriteria>Criteria</SearchCriteria>
   </report_format_detail>

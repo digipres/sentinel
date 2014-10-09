@@ -4,7 +4,7 @@
     <FileFormat>
       <FormatID>876</FormatID>
       <FormatName>SIARD (Software-Independent Archiving of Relational Databases)</FormatName>
-      <FormatVersion>2.0</FormatVersion>
+      <FormatVersion>1.0</FormatVersion>
       <FormatAliases>SIARD (2.0)</FormatAliases>
       <FormatFamilies>
       </FormatFamilies>
@@ -91,7 +91,7 @@
           </IndirectOffsetLength>
           <Endianness>
           </Endianness>
-          <ByteSequenceValue>504B0304</ByteSequenceValue>
+          <ByteSequenceValue>504B0304*504B0304*786D6C6E733D22687474703A2F2F7777772E6261722E61646D696E2E63682F786D6C6E732F73696172642F312E302F6D657461646174612E78736422</ByteSequenceValue>
         </ByteSequence>
         <ByteSequence>
           <ByteSequenceID>390</ByteSequenceID>
@@ -106,20 +106,6 @@
           <Endianness>
           </Endianness>
           <ByteSequenceValue>504B01{43-65531}504B0506{18-65531}</ByteSequenceValue>
-        </ByteSequence>
-        <ByteSequence>
-          <ByteSequenceID>391</ByteSequenceID>
-          <PositionType>Variable</PositionType>
-          <Offset>1024</Offset>
-          <MaxOffset>
-          </MaxOffset>
-          <IndirectOffsetLocation>
-          </IndirectOffsetLocation>
-          <IndirectOffsetLength>
-          </IndirectOffsetLength>
-          <Endianness>
-          </Endianness>
-          <ByteSequenceValue>786D6C6E733D22687474703A2F2F7777772E6261722E61646D696E2E63682F786D6C6E732F73696172642F312E302F6D657461646174612E78736422</ByteSequenceValue>
         </ByteSequence>
       </InternalSignature>
       <RelatedFormat>

@@ -37,11 +37,6 @@
         <Identifier>x-fmt/11</Identifier>
         <IdentifierType>PUID</IdentifierType>
       </FileFormatIdentifier>
-      <ExternalSignature>
-        <ExternalSignatureID>23</ExternalSignatureID>
-        <Signature>Unknown</Signature>
-        <SignatureType>File extension</SignatureType>
-      </ExternalSignature>
     </FileFormat>
     <SearchCriteria>Criteria</SearchCriteria>
   </report_format_detail>

@@ -20,9 +20,8 @@
       <ProvenanceSourceID>1</ProvenanceSourceID>
       <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
       <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-      <ProvenanceDescription>
-      </ProvenanceDescription>
-      <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
+      <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
+      <LastUpdatedDate>18 Dec 2012</LastUpdatedDate>
       <FormatNote>
       </FormatNote>
       <FormatRisk>
@@ -86,7 +85,7 @@
       <InternalSignature>
         <SignatureID>78</SignatureID>
         <SignatureName>BIFF 8 &amp; 8X Workbook (generic)</SignatureName>
-        <SignatureNote>09 - BOF / 08 - Version indicator / {2} - unspecified / 0006 - version / 0500 - substream EC30 - build identifier /  CD07 - year (1997)</SignatureNote>
+        <SignatureNote>09 - BOF / 08 - Version indicator / {2} - unspecified / 0006 - version / 0500 - substream</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>195</ByteSequenceID>
           <PositionType>Absolute from BOF</PositionType>
@@ -99,9 +98,15 @@
           </IndirectOffsetLength>
           <Endianness>
           </Endianness>
-          <ByteSequenceValue>0908{2}00060500EC30CD07</ByteSequenceValue>
+          <ByteSequenceValue>0908{2}00060500</ByteSequenceValue>
         </ByteSequence>
       </InternalSignature>
+      <RelatedFormat>
+        <RelationshipType>Has priority over</RelationshipType>
+        <RelatedFormatID>682</RelatedFormatID>
+        <RelatedFormatName>Microsoft Excel 5.0/95 Workbook (xls)</RelatedFormatName>
+        <RelatedFormatVersion>5/95</RelatedFormatVersion>
+      </RelatedFormat>
       <RelatedFormat>
         <RelationshipType>Has priority over</RelationshipType>
         <RelatedFormatID>767</RelatedFormatID>

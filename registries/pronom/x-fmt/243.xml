@@ -24,15 +24,18 @@
       <ProvenanceSourceID>1</ProvenanceSourceID>
       <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
       <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-      <ProvenanceDescription>
-      </ProvenanceDescription>
-      <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
+      <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
+      <LastUpdatedDate>19 Apr 2012</LastUpdatedDate>
       <FormatNote>
       </FormatNote>
       <FormatRisk>
       </FormatRisk>
       <TechnicalEnvironment>
       </TechnicalEnvironment>
+      <FileFormatIdentifier>
+        <Identifier>application/vnd.ms-project</Identifier>
+        <IdentifierType>MIME</IdentifierType>
+      </FileFormatIdentifier>
       <FileFormatIdentifier>
         <Identifier>x-fmt/243</Identifier>
         <IdentifierType>PUID</IdentifierType>

@@ -86,7 +86,7 @@
       <InternalSignature>
         <SignatureID>78</SignatureID>
         <SignatureName>BIFF 8 &amp; 8X Workbook (generic)</SignatureName>
-        <SignatureNote>09 - BOF / 08 - Version indicator / {2} - unspecified / 0006 - version / 0500 - substream EC30 - build identifier /  CD07 - year (1997)</SignatureNote>
+        <SignatureNote>09 - BOF / 08 - Version indicator / {2} - unspecified / 0006 - version / 0500 - substream</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>195</ByteSequenceID>
           <PositionType>Absolute from BOF</PositionType>
@@ -99,7 +99,7 @@
           </IndirectOffsetLength>
           <Endianness>
           </Endianness>
-          <ByteSequenceValue>0908{2}00060500EC30CD07</ByteSequenceValue>
+          <ByteSequenceValue>0908{2}00060500</ByteSequenceValue>
         </ByteSequence>
       </InternalSignature>
       <RelatedFormat>

@@ -110,9 +110,49 @@
       </InternalSignature>
       <RelatedFormat>
         <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>310</RelatedFormatID>
+        <RelatedFormatName>Internet Archive</RelatedFormatName>
+        <RelatedFormatVersion>1.0</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
         <RelatedFormatID>638</RelatedFormatID>
         <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
         <RelatedFormatVersion>1.0</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1029</RelatedFormatID>
+        <RelatedFormatName>WARC</RelatedFormatName>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1158</RelatedFormatID>
+        <RelatedFormatName>Internet Archive</RelatedFormatName>
+        <RelatedFormatVersion>1.1</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1269</RelatedFormatID>
+        <RelatedFormatName>Apple iBook format</RelatedFormatName>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1270</RelatedFormatID>
+        <RelatedFormatName>ePub format</RelatedFormatName>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1287</RelatedFormatID>
+        <RelatedFormatName>Internet Explorer for Mac cache file</RelatedFormatName>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
       </RelatedFormat>
       <RelatedFormat>
         <RelationshipType>Has priority over</RelationshipType>

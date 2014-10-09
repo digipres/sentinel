@@ -52,7 +52,7 @@
       </ExternalSignature>
       <ExternalSignature>
         <ExternalSignatureID>805</ExternalSignatureID>
-        <Signature>.z</Signature>
+        <Signature>z</Signature>
         <SignatureType>File extension</SignatureType>
       </ExternalSignature>
       <InternalSignature>

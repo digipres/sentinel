@@ -24,7 +24,7 @@
       <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
       <ProvenanceDescription>
       </ProvenanceDescription>
-      <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
+      <LastUpdatedDate>26 Feb 2013</LastUpdatedDate>
       <FormatNote>
       </FormatNote>
       <FormatRisk>
@@ -39,6 +39,20 @@
         <Identifier>fmt/110</Identifier>
         <IdentifierType>PUID</IdentifierType>
       </FileFormatIdentifier>
+      <Developers>
+        <DeveloperID>56</DeveloperID>
+        <DeveloperName>
+        </DeveloperName>
+        <OrganisationName>Macromedia, Inc.</OrganisationName>
+        <DeveloperCompoundName>Macromedia, Inc.</DeveloperCompoundName>
+      </Developers>
+      <Support>
+        <SupportID>7</SupportID>
+        <SupportName>
+        </SupportName>
+        <OrganisationName>Adobe Systems Incorporated</OrganisationName>
+        <SupportCompoundName>Adobe Systems Incorporated</SupportCompoundName>
+      </Support>
       <Document>
         <DocumentID>48</DocumentID>
         <DisplayText>Macromedia, Inc., 2003, Macromedia Flash (SWF) File Format Specification, Version 7</DisplayText>
@@ -75,7 +89,7 @@
       <InternalSignature>
         <SignatureID>48</SignatureID>
         <SignatureName>SWF 7</SignatureName>
-        <SignatureNote>Header and footer</SignatureNote>
+        <SignatureNote>Header (FWS then version number) and end tag (..)</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>146</ByteSequenceID>
           <PositionType>Absolute from BOF</PositionType>
@@ -88,7 +102,7 @@
           </IndirectOffsetLength>
           <Endianness>
           </Endianness>
-          <ByteSequenceValue>(43|46)575307</ByteSequenceValue>
+          <ByteSequenceValue>46575307</ByteSequenceValue>
         </ByteSequence>
         <ByteSequence>
           <ByteSequenceID>152</ByteSequenceID>
@@ -103,6 +117,24 @@
           <Endianness>
           </Endianness>
           <ByteSequenceValue>0000</ByteSequenceValue>
+        </ByteSequence>
+      </InternalSignature>
+      <InternalSignature>
+        <SignatureID>785</SignatureID>
+        <SignatureName>SWF 7 - zlib compressed</SignatureName>
+        <SignatureNote>Header (CWS then version number)</SignatureNote>
+        <ByteSequence>
+          <ByteSequenceID>989</ByteSequenceID>
+          <PositionType>Absolute from BOF</PositionType>
+          <Offset>0</Offset>
+          <MaxOffset>0</MaxOffset>
+          <IndirectOffsetLocation>
+          </IndirectOffsetLocation>
+          <IndirectOffsetLength>
+          </IndirectOffsetLength>
+          <Endianness>
+          </Endianness>
+          <ByteSequenceValue>43575307</ByteSequenceValue>
         </ByteSequence>
       </InternalSignature>
       <RelatedFormat>

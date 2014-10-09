@@ -37,11 +37,6 @@
         <Identifier>x-fmt/145</Identifier>
         <IdentifierType>PUID</IdentifierType>
       </FileFormatIdentifier>
-      <ExternalSignature>
-        <ExternalSignatureID>200</ExternalSignatureID>
-        <Signature>css</Signature>
-        <SignatureType>File extension</SignatureType>
-      </ExternalSignature>
     </FileFormat>
     <SearchCriteria>Criteria</SearchCriteria>
   </report_format_detail>

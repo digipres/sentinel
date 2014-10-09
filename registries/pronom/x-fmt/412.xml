@@ -23,9 +23,8 @@
       <ProvenanceSourceID>1</ProvenanceSourceID>
       <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
       <ProvenanceSourceDate>17 Feb 2006</ProvenanceSourceDate>
-      <ProvenanceDescription>
-      </ProvenanceDescription>
-      <LastUpdatedDate>17 Feb 2006</LastUpdatedDate>
+      <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
+      <LastUpdatedDate>19 Apr 2012</LastUpdatedDate>
       <FormatNote>
       </FormatNote>
       <FormatRisk>
@@ -70,16 +69,15 @@
         <ByteSequence>
           <ByteSequenceID>366</ByteSequenceID>
           <PositionType>Absolute from EOF</PositionType>
-          <Offset>0</Offset>
-          <MaxOffset>
-          </MaxOffset>
+          <Offset>18</Offset>
+          <MaxOffset>65531</MaxOffset>
           <IndirectOffsetLocation>
           </IndirectOffsetLocation>
           <IndirectOffsetLength>
           </IndirectOffsetLength>
           <Endianness>
           </Endianness>
-          <ByteSequenceValue>504B0506{18-65531}</ByteSequenceValue>
+          <ByteSequenceValue>504B0506</ByteSequenceValue>
         </ByteSequence>
       </InternalSignature>
       <RelatedFormat>
@@ -93,6 +91,18 @@
         <RelatedFormatID>783</RelatedFormatID>
         <RelatedFormatName>OpenDocument Database Format</RelatedFormatName>
         <RelatedFormatVersion>1.0</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1206</RelatedFormatID>
+        <RelatedFormatName>OpenDocument Database Format</RelatedFormatName>
+        <RelatedFormatVersion>1.2</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1231</RelatedFormatID>
+        <RelatedFormatName>OpenDocument Database Format</RelatedFormatName>
+        <RelatedFormatVersion>1.1</RelatedFormatVersion>
       </RelatedFormat>
       <RelatedFormat>
         <RelationshipType>Has priority over</RelationshipType>

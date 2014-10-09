@@ -4,7 +4,7 @@
     <FileFormat>
       <FormatID>619</FormatID>
       <FormatName>Graphics Interchange Format</FormatName>
-      <FormatVersion>1987a</FormatVersion>
+      <FormatVersion>87a</FormatVersion>
       <FormatAliases>GIF (1987a)</FormatAliases>
       <FormatFamilies>
       </FormatFamilies>
@@ -117,7 +117,7 @@
         <RelationshipType>Is previous version of</RelationshipType>
         <RelatedFormatID>620</RelatedFormatID>
         <RelatedFormatName>Graphics Interchange Format</RelatedFormatName>
-        <RelatedFormatVersion>1989a</RelatedFormatVersion>
+        <RelatedFormatVersion>89a</RelatedFormatVersion>
       </RelatedFormat>
       <CompressionType>
         <CompressionID>12</CompressionID>

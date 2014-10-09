@@ -87,12 +87,13 @@
       <InternalSignature>
         <SignatureID>20</SignatureID>
         <SignatureName>PDF 1.4</SignatureName>
-        <SignatureNote>Header and footer</SignatureNote>
+        <SignatureNote>BOF: %PDF-1.4 EOF (offset up to 1024 bytes): %%EOF</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>185</ByteSequenceID>
           <PositionType>Absolute from BOF</PositionType>
           <Offset>0</Offset>
-          <MaxOffset>144</MaxOffset>
+          <MaxOffset>
+          </MaxOffset>
           <IndirectOffsetLocation>
           </IndirectOffsetLocation>
           <IndirectOffsetLength>
@@ -105,14 +106,14 @@
           <ByteSequenceID>186</ByteSequenceID>
           <PositionType>Absolute from EOF</PositionType>
           <Offset>0</Offset>
-          <MaxOffset>64</MaxOffset>
+          <MaxOffset>1024</MaxOffset>
           <IndirectOffsetLocation>
           </IndirectOffsetLocation>
           <IndirectOffsetLength>
           </IndirectOffsetLength>
           <Endianness>
           </Endianness>
-          <ByteSequenceValue>2525454F(46|460A|460D|460D0A|460D00)</ByteSequenceValue>
+          <ByteSequenceValue>2525454F46</ByteSequenceValue>
         </ByteSequence>
       </InternalSignature>
       <RelatedFormat>
@@ -138,6 +139,108 @@
         <RelatedFormatID>1100</RelatedFormatID>
         <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
         <RelatedFormatVersion>1b</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1263</RelatedFormatID>
+        <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
+        <RelatedFormatVersion>2a</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1264</RelatedFormatID>
+        <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
+        <RelatedFormatVersion>2b</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1265</RelatedFormatID>
+        <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
+        <RelatedFormatVersion>2u</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1266</RelatedFormatID>
+        <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
+        <RelatedFormatVersion>3a</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1267</RelatedFormatID>
+        <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
+        <RelatedFormatVersion>3b</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1268</RelatedFormatID>
+        <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
+        <RelatedFormatVersion>3u</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1275</RelatedFormatID>
+        <RelatedFormatName>Acrobat PDF/X - Portable Document Format - Exchange PDF/X-4</RelatedFormatName>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1276</RelatedFormatID>
+        <RelatedFormatName>Acrobat PDF/X - Portable Document Format - Exchange PDF/X-4p</RelatedFormatName>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1277</RelatedFormatID>
+        <RelatedFormatName>Acrobat PDF/X - Portable Document Format - Exchange PDF/X-5g</RelatedFormatName>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1278</RelatedFormatID>
+        <RelatedFormatName>Acrobat PDF/X - Portable Document Format - Exchange PDF/X-5pg</RelatedFormatName>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1279</RelatedFormatID>
+        <RelatedFormatName>Acrobat PDF/X - Portable Document Format - Exchange PDF/X-5n</RelatedFormatName>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1280</RelatedFormatID>
+        <RelatedFormatName>Acrobat PDF/E - Portable Document Format for Engineering PDF/E-1</RelatedFormatName>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1346</RelatedFormatID>
+        <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
+        <RelatedFormatVersion>9.0</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1347</RelatedFormatID>
+        <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
+        <RelatedFormatVersion>10.0</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1348</RelatedFormatID>
+        <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
+        <RelatedFormatVersion>11.0</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1349</RelatedFormatID>
+        <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
+        <RelatedFormatVersion>12.0</RelatedFormatVersion>
       </RelatedFormat>
       <RelatedFormat>
         <RelationshipType>Has priority over</RelationshipType>

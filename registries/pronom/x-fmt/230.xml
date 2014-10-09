@@ -65,6 +65,11 @@
         <Signature>mid</Signature>
         <SignatureType>File extension</SignatureType>
       </ExternalSignature>
+      <ExternalSignature>
+        <ExternalSignatureID>1427</ExternalSignatureID>
+        <Signature>midi</Signature>
+        <SignatureType>File extension</SignatureType>
+      </ExternalSignature>
       <InternalSignature>
         <SignatureID>398</SignatureID>
         <SignatureName>MIDI Audio</SignatureName>

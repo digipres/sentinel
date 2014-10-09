@@ -40,7 +40,7 @@
       </FileFormatIdentifier>
       <ExternalSignature>
         <ExternalSignatureID>820</ExternalSignatureID>
-        <Signature>LNG</Signature>
+        <Signature>lng</Signature>
         <SignatureType>File extension</SignatureType>
       </ExternalSignature>
     </FileFormat>

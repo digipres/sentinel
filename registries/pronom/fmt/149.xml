@@ -34,11 +34,6 @@
         <Identifier>fmt/149</Identifier>
         <IdentifierType>PUID</IdentifierType>
       </FileFormatIdentifier>
-      <ExternalSignature>
-        <ExternalSignatureID>799</ExternalSignatureID>
-        <Signature>jpg</Signature>
-        <SignatureType>File extension</SignatureType>
-      </ExternalSignature>
     </FileFormat>
     <SearchCriteria>Criteria</SearchCriteria>
   </report_format_detail>

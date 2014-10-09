@@ -70,20 +70,7 @@
           </IndirectOffsetLength>
           <Endianness>
           </Endianness>
-          <ByteSequenceValue>00000100[01:09]00{3}00[00:01]00{1}00{3}00</ByteSequenceValue>
-        </ByteSequence>
-        <ByteSequence>
-          <ByteSequenceID>555</ByteSequenceID>
-          <PositionType>Variable</PositionType>
-          <Offset>18</Offset>
-          <MaxOffset>1024</MaxOffset>
-          <IndirectOffsetLocation>
-          </IndirectOffsetLocation>
-          <IndirectOffsetLength>
-          </IndirectOffsetLength>
-          <Endianness>
-          </Endianness>
-          <ByteSequenceValue>000028000000{2}0000{2}00000100[01:20]0000000000</ByteSequenceValue>
+          <ByteSequenceValue>00000100[01:09]00{3}00[00:01]00{1}00{3}00*000028000000{2}0000{2}00000100[01:20]0000000000</ByteSequenceValue>
         </ByteSequence>
       </InternalSignature>
     </FileFormat>

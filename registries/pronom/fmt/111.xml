@@ -109,13 +109,31 @@
         <RelationshipType>Has lower priority than</RelationshipType>
         <RelatedFormatID>135</RelatedFormatID>
         <RelatedFormatName>Microsoft Powerpoint Presentation</RelatedFormatName>
-        <RelatedFormatVersion>97-2002</RelatedFormatVersion>
+        <RelatedFormatVersion>97-2003</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>165</RelatedFormatID>
+        <RelatedFormatName>Microsoft Visio Drawing</RelatedFormatName>
+        <RelatedFormatVersion>5.0</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>376</RelatedFormatID>
+        <RelatedFormatName>Microsoft Visio Drawing</RelatedFormatName>
+        <RelatedFormatVersion>2000</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>377</RelatedFormatID>
+        <RelatedFormatName>Microsoft Visio Drawing</RelatedFormatName>
+        <RelatedFormatVersion>2002</RelatedFormatVersion>
       </RelatedFormat>
       <RelatedFormat>
         <RelationshipType>Has lower priority than</RelationshipType>
         <RelatedFormatID>682</RelatedFormatID>
-        <RelatedFormatName>Microsoft Excel 5.0 Workbook (xls)</RelatedFormatName>
-        <RelatedFormatVersion>5</RelatedFormatVersion>
+        <RelatedFormatName>Microsoft Excel 5.0/95 Workbook (xls)</RelatedFormatName>
+        <RelatedFormatVersion>5/95</RelatedFormatVersion>
       </RelatedFormat>
       <RelatedFormat>
         <RelationshipType>Has lower priority than</RelationshipType>
@@ -138,13 +156,13 @@
       <RelatedFormat>
         <RelationshipType>Has lower priority than</RelationshipType>
         <RelatedFormatID>688</RelatedFormatID>
-        <RelatedFormatName>Microsoft Word for Windows Document</RelatedFormatName>
+        <RelatedFormatName>Microsoft Word Document</RelatedFormatName>
         <RelatedFormatVersion>6.0/95</RelatedFormatVersion>
       </RelatedFormat>
       <RelatedFormat>
         <RelationshipType>Has lower priority than</RelationshipType>
         <RelatedFormatID>690</RelatedFormatID>
-        <RelatedFormatName>Microsoft Word for Windows Document</RelatedFormatName>
+        <RelatedFormatName>Microsoft Word Document</RelatedFormatName>
         <RelatedFormatVersion>97-2003</RelatedFormatVersion>
       </RelatedFormat>
       <RelatedFormat>
@@ -152,6 +170,19 @@
         <RelatedFormatID>822</RelatedFormatID>
         <RelatedFormatName>Microsoft Outlook Email Message</RelatedFormatName>
         <RelatedFormatVersion>97-2003</RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1229</RelatedFormatID>
+        <RelatedFormatName>Microsoft Visio (generic)</RelatedFormatName>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>1230</RelatedFormatID>
+        <RelatedFormatName>Microsoft Visio Drawing</RelatedFormatName>
+        <RelatedFormatVersion>2003</RelatedFormatVersion>
       </RelatedFormat>
       <RelatedFormat>
         <RelationshipType>Is supertype of</RelationshipType>
@@ -163,13 +194,13 @@
         <RelationshipType>Is supertype of</RelationshipType>
         <RelatedFormatID>135</RelatedFormatID>
         <RelatedFormatName>Microsoft Powerpoint Presentation</RelatedFormatName>
-        <RelatedFormatVersion>97-2002</RelatedFormatVersion>
+        <RelatedFormatVersion>97-2003</RelatedFormatVersion>
       </RelatedFormat>
       <RelatedFormat>
         <RelationshipType>Is supertype of</RelationshipType>
         <RelatedFormatID>682</RelatedFormatID>
-        <RelatedFormatName>Microsoft Excel 5.0 Workbook (xls)</RelatedFormatName>
-        <RelatedFormatVersion>5</RelatedFormatVersion>
+        <RelatedFormatName>Microsoft Excel 5.0/95 Workbook (xls)</RelatedFormatName>
+        <RelatedFormatVersion>5/95</RelatedFormatVersion>
       </RelatedFormat>
       <RelatedFormat>
         <RelationshipType>Is supertype of</RelationshipType>
@@ -192,44 +223,49 @@
       <RelatedFormat>
         <RelationshipType>Is supertype of</RelationshipType>
         <RelatedFormatID>688</RelatedFormatID>
-        <RelatedFormatName>Microsoft Word for Windows Document</RelatedFormatName>
+        <RelatedFormatName>Microsoft Word Document</RelatedFormatName>
         <RelatedFormatVersion>6.0/95</RelatedFormatVersion>
       </RelatedFormat>
       <RelatedFormat>
         <RelationshipType>Is supertype of</RelationshipType>
         <RelatedFormatID>690</RelatedFormatID>
-        <RelatedFormatName>Microsoft Word for Windows Document</RelatedFormatName>
+        <RelatedFormatName>Microsoft Word Document</RelatedFormatName>
         <RelatedFormatVersion>97-2003</RelatedFormatVersion>
       </RelatedFormat>
       <RelatedFormat>
         <RelationshipType>Is supertype of</RelationshipType>
         <RelatedFormatID>857</RelatedFormatID>
         <RelatedFormatName>Revit Family File</RelatedFormatName>
-        <RelatedFormatVersion>n/a</RelatedFormatVersion>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
       </RelatedFormat>
       <RelatedFormat>
         <RelationshipType>Is supertype of</RelationshipType>
         <RelatedFormatID>858</RelatedFormatID>
         <RelatedFormatName>Revit Family Template</RelatedFormatName>
-        <RelatedFormatVersion>n/a</RelatedFormatVersion>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
       </RelatedFormat>
       <RelatedFormat>
         <RelationshipType>Is supertype of</RelationshipType>
         <RelatedFormatID>859</RelatedFormatID>
         <RelatedFormatName>Revit Template</RelatedFormatName>
-        <RelatedFormatVersion>n/a</RelatedFormatVersion>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
       </RelatedFormat>
       <RelatedFormat>
         <RelationshipType>Is supertype of</RelationshipType>
         <RelatedFormatID>861</RelatedFormatID>
         <RelatedFormatName>Revit External Group</RelatedFormatName>
-        <RelatedFormatVersion>n/a</RelatedFormatVersion>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
       </RelatedFormat>
       <RelatedFormat>
         <RelationshipType>Is supertype of</RelationshipType>
         <RelatedFormatID>862</RelatedFormatID>
         <RelatedFormatName>Revit Project</RelatedFormatName>
-        <RelatedFormatVersion>n/a</RelatedFormatVersion>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
       </RelatedFormat>
       <FormatProperties>
         <FormatProperty>
