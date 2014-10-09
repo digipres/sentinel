@@ -1,1 +1,1006 @@
-{}
+? ''
+: - fdd:fdd000380
+  - fdd:fdd000384
+  - fdd:fdd000385
+  - fdd:fdd000386
+  - fdd:fdd000387
+  - fdd:fdd000392
+Application/xml:
+- fdd:fdd000075
+None found:
+- fdd:fdd000245
+Not applicable:
+- fdd:fdd000208
+Text/xml:
+- fdd:fdd000075
+application/acrobat:
+- fdd:fdd000030
+application/dbase:
+- pronom:x-fmt/10
+- fdd:fdd000324
+- fdd:fdd000325
+- fdd:fdd000326
+application/dbf:
+- fdd:fdd000324
+- fdd:fdd000325
+- fdd:fdd000326
+application/dec-dx.:
+- pronom:x-fmt/286
+application/dwf:
+- pronom:x-fmt/49
+application/epub+zip:
+- pronom:fmt/483
+- fdd:fdd000278
+- fdd:fdd000308
+application/fits:
+- pronom:x-fmt/383
+- fdd:fdd000317
+application/font-woff:
+- pronom:fmt/616
+application/futuresplash:
+- fdd:fdd000130
+- fdd:fdd000248
+application/gml+xml:
+- pronom:x-fmt/227
+application/inf:
+- pronom:x-fmt/420
+application/java-archive:
+- pronom:x-fmt/412
+application/javascript:
+- pronom:x-fmt/423
+application/jpg:
+- fdd:fdd000018
+application/json:
+- fdd:fdd000381
+- fdd:fdd000382
+application/lotus123:
+- pronom:x-fmt/115
+- pronom:x-fmt/116
+application/lwp:
+- pronom:x-fmt/340
+- pronom:fmt/340
+application/mbox:
+- fdd:fdd000383
+application/mp4:
+- fdd:fdd000155
+application/mpeg4-iod:
+- fdd:fdd000155
+application/mpeg4-iod-xmt:
+- fdd:fdd000155
+- fdd:fdd000156
+application/msonenote:
+- pronom:fmt/637
+application/msword:
+- pronom:x-fmt/64
+- pronom:x-fmt/65
+- pronom:x-fmt/129
+- pronom:x-fmt/273
+- pronom:x-fmt/274
+- pronom:x-fmt/275
+- pronom:x-fmt/276
+- pronom:fmt/39
+- pronom:fmt/40
+- pronom:fmt/37
+- pronom:fmt/38
+- pronom:fmt/609
+application/mxf:
+- pronom:fmt/200
+- fdd:fdd000013
+application/netcdf:
+- pronom:fmt/282
+- pronom:fmt/283
+application/octet-stream:
+- pronom:x-fmt/411
+- pronom:x-fmt/436
+- pronom:x-fmt/437
+- pronom:x-fmt/438
+- pronom:x-fmt/439
+- pronom:x-fmt/440
+- pronom:x-fmt/441
+- pronom:x-fmt/442
+- pronom:x-fmt/443
+- pronom:x-fmt/444
+- pronom:x-fmt/445
+- pronom:x-fmt/446
+- pronom:x-fmt/447
+- pronom:x-fmt/448
+- pronom:x-fmt/450
+- pronom:x-fmt/451
+- pronom:x-fmt/452
+- pronom:x-fmt/453
+application/ogg:
+- fdd:fdd000026
+- fdd:fdd000117
+application/oxps:
+- pronom:fmt/657
+application/pdf:
+- pronom:fmt/14
+- pronom:fmt/15
+- pronom:fmt/16
+- pronom:fmt/17
+- pronom:fmt/18
+- pronom:fmt/19
+- pronom:fmt/20
+- pronom:fmt/95
+- pronom:fmt/144
+- pronom:fmt/145
+- pronom:fmt/146
+- pronom:fmt/147
+- pronom:fmt/148
+- pronom:fmt/157
+- pronom:fmt/158
+- pronom:fmt/276
+- pronom:fmt/354
+- fdd:fdd000030
+application/playerpro:
+- fdd:fdd000126
+application/postscript:
+- pronom:x-fmt/20
+- pronom:fmt/122
+- pronom:x-fmt/91
+- pronom:fmt/124
+- pronom:fmt/123
+- pronom:x-fmt/406
+- pronom:x-fmt/407
+- pronom:x-fmt/408
+application/qif:
+- pronom:fmt/307
+application/rtf:
+- pronom:fmt/45
+- pronom:fmt/46
+- pronom:fmt/47
+- pronom:fmt/48
+- pronom:fmt/49
+- pronom:fmt/50
+- pronom:fmt/51
+- pronom:fmt/52
+- pronom:fmt/53
+- pronom:fmt/355
+application/sld:
+- pronom:x-fmt/105
+application/soundapp:
+- fdd:fdd000126
+- fdd:fdd000126
+application/tif:
+- fdd:fdd000022
+- fdd:fdd000292
+application/tiff:
+- fdd:fdd000022
+- fdd:fdd000292
+application/vnd.framemaker:
+- pronom:x-fmt/302
+- pronom:fmt/190
+- pronom:fmt/533
+- pronom:fmt/534
+- pronom:fmt/535
+- pronom:fmt/536
+- pronom:fmt/537
+- pronom:fmt/538
+- pronom:fmt/539
+application/vnd.google-earth.kml+xml:
+- fdd:fdd000340
+application/vnd.lotus-1-2-3:
+- pronom:x-fmt/114
+- pronom:x-fmt/115
+- pronom:x-fmt/116
+- pronom:x-fmt/117
+- pronom:x-fmt/212
+application/vnd.lotus-approach:
+- pronom:x-fmt/334
+application/vnd.lotus-freelance:
+- pronom:x-fmt/335
+application/vnd.lotus-notes:
+- pronom:x-fmt/336
+- pronom:x-fmt/337
+- pronom:x-fmt/338
+application/vnd.lotus-wordpro:
+- pronom:x-fmt/191
+- pronom:x-fmt/340
+- pronom:fmt/340
+application/vnd.mif:
+- pronom:x-fmt/162
+application/vnd.ms-asf:
+- pronom:fmt/131
+- fdd:fdd000067
+application/vnd.ms-excel:
+- pronom:x-fmt/123
+- pronom:fmt/55
+- pronom:fmt/56
+- pronom:fmt/57
+- pronom:fmt/58
+- pronom:fmt/59
+- pronom:fmt/60
+- pronom:fmt/61
+- pronom:fmt/62
+- pronom:fmt/553
+- pronom:fmt/554
+- pronom:fmt/555
+- pronom:fmt/556
+application/vnd.ms-excel.addin.macroEnabled.12:
+- pronom:fmt/628
+application/vnd.ms-excel.sheet.binary.macroEnabled.12:
+- pronom:fmt/595
+application/vnd.ms-excel.sheet.macroEnabled.12:
+- pronom:fmt/445
+application/vnd.ms-excel.template.macroEnabled.12:
+- pronom:fmt/627
+application/vnd.ms-htmlhelp:
+- pronom:fmt/634
+application/vnd.ms-officetheme:
+- pronom:fmt/524
+application/vnd.ms-outlook:
+- fdd:fdd000377
+- fdd:fdd000379
+application/vnd.ms-powerpoint:
+- pronom:x-fmt/87
+- pronom:x-fmt/88
+- pronom:fmt/125
+- pronom:fmt/126
+application/vnd.ms-powerpoint.addin.macroEnabled.12:
+- pronom:fmt/633
+application/vnd.ms-powerpoint.presentation.macroEnabled.12:
+- pronom:fmt/487
+application/vnd.ms-powerpoint.slide.macroEnabled.12:
+- pronom:fmt/636
+application/vnd.ms-powerpoint.slideshow.macroEnabled.12:
+- pronom:fmt/630
+application/vnd.ms-powerpoint.template.macroEnabled.12:
+- pronom:fmt/632
+application/vnd.ms-project:
+- pronom:x-fmt/243
+- pronom:x-fmt/244
+- pronom:x-fmt/245
+- pronom:x-fmt/247
+application/vnd.ms-word.document.macroEnabled.12:
+- pronom:fmt/523
+application/vnd.ms-word.template.macroEnabled.12:
+- pronom:fmt/599
+application/vnd.ms-wpl:
+- pronom:fmt/589
+application/vnd.oasis.opendocument.graphics:
+- pronom:fmt/139
+- pronom:fmt/296
+- pronom:fmt/297
+application/vnd.oasis.opendocument.presentation:
+- pronom:fmt/138
+- pronom:fmt/292
+- pronom:fmt/293
+application/vnd.oasis.opendocument.spreadsheet:
+- pronom:fmt/137
+- pronom:fmt/294
+- pronom:fmt/295
+application/vnd.oasis.opendocument.text:
+- pronom:fmt/136
+- pronom:fmt/290
+- pronom:fmt/291
+application/vnd.openxmlformats-officedocument.presentationml.presentation:
+- pronom:fmt/215
+- pronom:fmt/440
+application/vnd.openxmlformats-officedocument.presentationml.slideshow:
+- pronom:fmt/629
+application/vnd.openxmlformats-officedocument.presentationml.template:
+- pronom:fmt/631
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet:
+- pronom:fmt/214
+application/vnd.openxmlformats-officedocument.spreadsheetml.template:
+- pronom:fmt/598
+application/vnd.openxmlformats-officedocument.wordprocessingml.document:
+- pronom:fmt/412
+application/vnd.openxmlformats-officedocument.wordprocessingml.template:
+- pronom:fmt/597
+application/vnd.pdf:
+- fdd:fdd000030
+application/vnd.recordare.musicxml+xml:
+- fdd:fdd000358
+application/vnd.rn-realmedia:
+- pronom:x-fmt/190
+- fdd:fdd000050
+- fdd:fdd000051
+application/vnd.stardivision.calc:
+- pronom:x-fmt/404
+application/vnd.stardivision.draw:
+- pronom:x-fmt/401
+- pronom:x-fmt/402
+application/vnd.stardivision.impress:
+- pronom:x-fmt/405
+application/vnd.stardivision.writer:
+- pronom:x-fmt/400
+- pronom:x-fmt/403
+application/vnd.sun.xml.calc:
+- pronom:fmt/129
+application/vnd.sun.xml.draw:
+- pronom:fmt/127
+application/vnd.sun.xml.impress:
+- pronom:fmt/130
+application/vnd.sun.xml.writer:
+- pronom:fmt/128
+application/vnd.visio:
+- pronom:x-fmt/113
+- pronom:x-fmt/258
+- pronom:x-fmt/259
+- pronom:fmt/442
+- pronom:fmt/443
+application/vnd.wordperfect:
+- pronom:x-fmt/44
+- pronom:x-fmt/203
+- pronom:x-fmt/393
+- pronom:x-fmt/394
+application/warc:
+- fdd:fdd000236
+application/x-123:
+- pronom:x-fmt/114
+- pronom:x-fmt/117
+- pronom:x-fmt/212
+application/x-bzip2:
+- pronom:x-fmt/268
+application/x-cdf:
+- pronom:x-fmt/222
+application/x-dbase:
+- fdd:fdd000325
+application/x-dbf:
+- fdd:fdd000325
+application/x-director:
+- pronom:x-fmt/341
+- pronom:fmt/317
+application/x-dtbncx+xml:
+- fdd:fdd000275
+application/x-dtbook+xml:
+- fdd:fdd000275
+application/x-dvi:
+- pronom:x-fmt/365
+- pronom:fmt/160
+application/x-dwf:
+- pronom:x-fmt/49
+application/x-endnote-connect:
+- pronom:fmt/326
+application/x-endnote-connection:
+- pronom:fmt/326
+application/x-endnote-refer:
+- pronom:fmt/328
+application/x-endnote-style:
+- pronom:fmt/324
+application/x-filemaker:
+- pronom:x-fmt/318
+application/x-gzip:
+- pronom:x-fmt/266
+application/x-hdf:
+- fdd:fdd000228
+application/x-ibooks+zip:
+- pronom:fmt/482
+application/x-internet-archive:
+- pronom:x-fmt/219
+application/x-iso9660-image:
+- fdd:fdd000348
+application/x-jpg:
+- fdd:fdd000018
+application/x-midi:
+- fdd:fdd000119
+application/x-mplayer2:
+- fdd:fdd000067
+application/x-netcdf:
+- pronom:fmt/282
+- pronom:fmt/283
+- fdd:fdd000330
+application/x-ofx:
+- pronom:fmt/309
+- pronom:fmt/310
+- pronom:fmt/311
+- pronom:fmt/312
+- pronom:fmt/313
+application/x-ogg:
+- fdd:fdd000026
+- fdd:fdd000117
+application/x-pdf:
+- fdd:fdd000030
+application/x-pn-mpg:
+- fdd:fdd000028
+- fdd:fdd000035
+- fdd:fdd000335
+application/x-project:
+- pronom:x-fmt/232
+- pronom:fmt/342
+- pronom:fmt/343
+application/x-rar-compressed:
+- pronom:x-fmt/264
+- pronom:fmt/411
+- pronom:fmt/613
+application/x-sh:
+- pronom:fmt/329
+application/x-shar:
+- pronom:fmt/329
+application/x-shockwave-flash:
+- pronom:fmt/104
+- pronom:fmt/105
+- pronom:fmt/106
+- pronom:fmt/107
+- pronom:fmt/108
+- pronom:fmt/109
+- pronom:fmt/110
+- pronom:fmt/505
+- pronom:fmt/506
+- pronom:fmt/507
+- fdd:fdd000130
+- fdd:fdd000248
+application/x-shockwave-flash2-preview:
+- fdd:fdd000130
+- fdd:fdd000248
+application/x-sld:
+- pronom:x-fmt/105
+application/x-tar:
+- pronom:x-fmt/265
+application/x-tif:
+- fdd:fdd000022
+- fdd:fdd000292
+application/x-tiff:
+- fdd:fdd000022
+- fdd:fdd000292
+application/x-troff-msvideo:
+- fdd:fdd000059
+application/xhtml+xml:
+- pronom:fmt/102
+- pronom:fmt/103
+application/xml:
+- pronom:x-fmt/280
+- pronom:x-fmt/281
+- pronom:fmt/101
+application/xml-dtd:
+- fdd:fdd000076
+application/zip:
+- pronom:x-fmt/263
+- fdd:fdd000354
+- fdd:fdd000355
+- fdd:fdd000361
+- fdd:fdd000362
+audio/3gpp:
+- pronom:fmt/357
+- fdd:fdd000254
+audio/AMR:
+- fdd:fdd000254
+audio/AMR-WB+:
+- fdd:fdd000253
+audio/AMR-wb:
+- fdd:fdd000255
+audio/MPA:
+- fdd:fdd000338
+audio/ac3:
+- fdd:fdd000209
+audio/aiff:
+- fdd:fdd000005
+- fdd:fdd000116
+audio/amr:
+- pronom:fmt/356
+audio/asf:
+- fdd:fdd000067
+audio/audible:
+- fdd:fdd000103
+audio/avi:
+- fdd:fdd000059
+audio/basic:
+- pronom:x-fmt/139
+audio/flac:
+- fdd:fdd000198
+audio/it:
+- fdd:fdd000126
+audio/m:
+- fdd:fdd000119
+audio/med:
+- fdd:fdd000126
+audio/mid:
+- fdd:fdd000119
+- fdd:fdd000120
+audio/midi:
+- pronom:x-fmt/230
+- fdd:fdd000119
+audio/mobile-xmf:
+- fdd:fdd000121
+audio/mod:
+- fdd:fdd000126
+audio/module-xm:
+- fdd:fdd000126
+audio/mp3:
+- fdd:fdd000105
+audio/mp4:
+- fdd:fdd000155
+audio/mpeg:
+- pronom:x-fmt/279
+- pronom:fmt/134
+- pronom:fmt/198
+- pronom:fmt/347
+- fdd:fdd000105
+- fdd:fdd000275
+- fdd:fdd000338
+audio/mpeg3:
+- fdd:fdd000105
+audio/mpeg4-generic:
+- fdd:fdd000275
+audio/mpg:
+- fdd:fdd000105
+audio/ogg:
+- pronom:fmt/203
+audio/ogg; codecs=speex:
+- fdd:fdd000259
+- fdd:fdd000260
+audio/prs.sid:
+- pronom:fmt/314
+- pronom:fmt/315
+- pronom:fmt/316
+audio/rmf:
+- fdd:fdd000005
+audio/s3m:
+- fdd:fdd000126
+audio/speex:
+- fdd:fdd000259
+- fdd:fdd000260
+audio/vnd.qcelp:
+- fdd:fdd000005
+audio/vnd.rn-realaudio:
+- pronom:x-fmt/183
+- pronom:x-fmt/278
+- fdd:fdd000051
+audio/vnd.wave:
+- fdd:fdd000001
+audio/wav:
+- fdd:fdd000001
+audio/wave:
+- fdd:fdd000001
+audio/x-aiff:
+- pronom:x-fmt/135
+- pronom:x-fmt/136
+- fdd:fdd000005
+- fdd:fdd000116
+audio/x-gsm:
+- fdd:fdd000005
+audio/x-matroska:
+- fdd:fdd000342
+audio/x-midi:
+- fdd:fdd000005
+- fdd:fdd000119
+audio/x-mod:
+- fdd:fdd000126
+- fdd:fdd000126
+audio/x-mp3:
+- fdd:fdd000105
+audio/x-mpeg:
+- fdd:fdd000105
+audio/x-mpeg3:
+- fdd:fdd000105
+audio/x-mpegaudio:
+- fdd:fdd000105
+audio/x-mpg:
+- fdd:fdd000105
+audio/x-ms-wma:
+- pronom:fmt/132
+- fdd:fdd000027
+audio/x-ogg:
+- fdd:fdd000026
+- fdd:fdd000117
+audio/x-pn-aiff:
+- fdd:fdd000005
+- fdd:fdd000116
+audio/x-pn-audibleaudio:
+- fdd:fdd000103
+audio/x-pn-realaudio:
+- pronom:x-fmt/183
+audio/x-pn-wav:
+- fdd:fdd000001
+audio/x-rmf:
+- fdd:fdd000005
+audio/x-s3m:
+- fdd:fdd000126
+audio/x-speex:
+- fdd:fdd000259
+- fdd:fdd000260
+audio/x-wav:
+- pronom:fmt/6
+- pronom:fmt/2
+- pronom:x-fmt/389
+- pronom:fmt/1
+- pronom:x-fmt/396
+- pronom:x-fmt/397
+- pronom:fmt/141
+- pronom:fmt/142
+- pronom:fmt/143
+- pronom:fmt/527
+- fdd:fdd000001
+- fdd:fdd000275
+audio/x-xm:
+- fdd:fdd000126
+audio/xm:
+- pronom:fmt/323
+- fdd:fdd000126
+chemical/x-cdx:
+- pronom:fmt/378
+com.adobe.photoshop-image:
+- pronom:x-fmt/92
+com.microsoft.word.doc:
+- pronom:x-fmt/64
+drawing/x-dwf:
+- pronom:x-fmt/49
+image/avi:
+- fdd:fdd000059
+image/bmp:
+- pronom:x-fmt/270
+- pronom:fmt/114
+- pronom:fmt/115
+- pronom:fmt/116
+- pronom:fmt/117
+- pronom:fmt/118
+- pronom:fmt/119
+- fdd:fdd000189
+image/cgm:
+- pronom:x-fmt/142
+image/cgm; version=1:
+- pronom:fmt/303
+image/cgm; version=2:
+- pronom:fmt/304
+image/cgm; version=3:
+- pronom:fmt/305
+image/cgm; version=4:
+- pronom:fmt/306
+image/fits:
+- pronom:x-fmt/383
+- fdd:fdd000317
+image/gif:
+- pronom:fmt/3
+- pronom:fmt/4
+- fdd:fdd000133
+image/jp2:
+- pronom:x-fmt/392
+- fdd:fdd000143
+image/jpeg:
+- pronom:fmt/42
+- pronom:fmt/43
+- pronom:fmt/44
+- pronom:fmt/41
+- pronom:fmt/112
+- pronom:x-fmt/390
+- pronom:x-fmt/391
+- pronom:fmt/113
+- pronom:x-fmt/398
+- pronom:fmt/645
+- fdd:fdd000018
+- fdd:fdd000019
+image/jpeg2000:
+- fdd:fdd000143
+image/jpeg2000-image:
+- fdd:fdd000143
+image/jpg:
+- fdd:fdd000018
+image/jpm:
+- pronom:fmt/463
+- fdd:fdd000144
+image/jpx:
+- fdd:fdd000154
+image/mov:
+- fdd:fdd000052
+image/png:
+- pronom:fmt/11
+- pronom:fmt/12
+- pronom:fmt/13
+- fdd:fdd000153
+image/svg+xml:
+- pronom:x-fmt/109
+- pronom:fmt/91
+- pronom:fmt/92
+- fdd:fdd000020
+image/svg-xml:
+- fdd:fdd000020
+image/tif:
+- fdd:fdd000022
+- fdd:fdd000292
+image/tiff:
+- pronom:x-fmt/387
+- pronom:x-fmt/388
+- pronom:x-fmt/399
+- pronom:fmt/152
+- pronom:fmt/153
+- pronom:fmt/154
+- pronom:fmt/155
+- pronom:fmt/156
+- pronom:fmt/353
+- pronom:fmt/436
+- pronom:fmt/438
+- fdd:fdd000022
+- fdd:fdd000145
+- fdd:fdd000188
+- fdd:fdd000279
+- fdd:fdd000292
+- fdd:fdd000328
+image/vnd.adobe.photoshop:
+- pronom:x-fmt/92
+image/vnd.djvu:
+- pronom:fmt/255
+- pronom:fmt/318
+image/vnd.dwf:
+- pronom:x-fmt/49
+image/vnd.dwg:
+- pronom:fmt/21
+- pronom:fmt/22
+- pronom:fmt/23
+- pronom:fmt/24
+- pronom:fmt/25
+- pronom:fmt/26
+- pronom:fmt/27
+- pronom:fmt/28
+- pronom:fmt/29
+- pronom:fmt/30
+- pronom:fmt/31
+- pronom:fmt/32
+- pronom:fmt/33
+- pronom:fmt/34
+- pronom:fmt/35
+- pronom:fmt/36
+- pronom:x-fmt/455
+- pronom:fmt/434
+- pronom:fmt/531
+image/vnd.dxf:
+- pronom:fmt/64
+- pronom:fmt/65
+- pronom:fmt/66
+- pronom:fmt/67
+- pronom:fmt/68
+- pronom:fmt/69
+- pronom:fmt/70
+- pronom:fmt/71
+- pronom:fmt/72
+- pronom:fmt/73
+- pronom:fmt/74
+- pronom:fmt/75
+- pronom:fmt/76
+- pronom:fmt/77
+- pronom:fmt/78
+- pronom:fmt/79
+- pronom:fmt/80
+- pronom:fmt/81
+- pronom:fmt/82
+- pronom:fmt/83
+- pronom:fmt/84
+- pronom:fmt/85
+- pronom:fmt/63
+- pronom:fmt/433
+- pronom:fmt/435
+- pronom:fmt/532
+image/vnd.microsoft.icon:
+- pronom:x-fmt/418
+image/vnd.mix:
+- pronom:fmt/594
+image/vnd.ms-photo:
+- fdd:fdd000243
+image/vnd.rn-realflash:
+- fdd:fdd000130
+- fdd:fdd000248
+image/x-bmp:
+- fdd:fdd000189
+image/x-dcx:
+- pronom:x-fmt/348
+image/x-djvu:
+- pronom:fmt/255
+- pronom:fmt/318
+image/x-dwf:
+- pronom:x-fmt/49
+image/x-emf:
+- pronom:x-fmt/153
+- pronom:fmt/344
+- pronom:fmt/345
+image/x-icon:
+- pronom:x-fmt/418
+image/x-jng:
+- pronom:fmt/529
+image/x-jpeg2000-image:
+- fdd:fdd000143
+image/x-mrsid-image:
+- fdd:fdd000031
+- fdd:fdd000184
+image/x-ms-bmp:
+- fdd:fdd000189
+image/x-pict:
+- pronom:x-fmt/80
+- pronom:fmt/341
+image/x-portable-bitmap:
+- pronom:x-fmt/164
+image/x-portable-pixmap:
+- pronom:x-fmt/178
+image/x-quicktime:
+- fdd:fdd000052
+image/x-sgi-bw:
+- pronom:x-fmt/140
+image/x-sld:
+- pronom:x-fmt/105
+image/x-sun-raster:
+- pronom:x-fmt/184
+image/x-tif:
+- fdd:fdd000022
+- fdd:fdd000292
+image/x-tiff:
+- fdd:fdd000022
+- fdd:fdd000292
+image/x-win-bitmap:
+- pronom:fmt/385
+image/x-xbitmap:
+- pronom:x-fmt/207
+- pronom:x-fmt/299
+image/x-xpixmap:
+- pronom:x-fmt/208
+image/x-xwindowdump:
+- pronom:x-fmt/300
+message/rfc822:
+- pronom:x-fmt/429
+- pronom:fmt/278
+- fdd:fdd000388
+- fdd:fdd000393
+model/iges:
+- pronom:x-fmt/158
+model/vnd.dwf:
+- pronom:x-fmt/49
+model/vrml:
+- pronom:fmt/93
+- pronom:fmt/94
+multipart/related:
+- pronom:x-fmt/429
+ptif:
+- fdd:fdd000237
+sound/aiff:
+- fdd:fdd000005
+- fdd:fdd000116
+text/calendar:
+- pronom:fmt/388
+- fdd:fdd000394
+text/css:
+- pronom:x-fmt/224
+text/csv:
+- pronom:x-fmt/18
+- fdd:fdd000323
+text/html:
+- pronom:x-fmt/160
+- pronom:x-fmt/169
+- pronom:fmt/97
+- pronom:fmt/98
+- pronom:fmt/99
+- pronom:fmt/100
+- pronom:fmt/96
+- pronom:fmt/471
+text/javascript:
+- fdd:fdd000381
+text/json:
+- fdd:fdd000381
+text/pdf:
+- fdd:fdd000030
+text/plain:
+- pronom:x-fmt/13
+- pronom:x-fmt/14
+- pronom:x-fmt/15
+- pronom:x-fmt/16
+- pronom:x-fmt/21
+- pronom:x-fmt/22
+- pronom:x-fmt/110
+- pronom:x-fmt/111
+- pronom:x-fmt/130
+- pronom:x-fmt/282
+- pronom:x-fmt/283
+- pronom:x-fmt/449
+- pronom:x-fmt/454
+text/rtf:
+- pronom:fmt/45
+- pronom:fmt/46
+- pronom:fmt/47
+- pronom:fmt/48
+- pronom:fmt/49
+- pronom:fmt/50
+- pronom:fmt/51
+- pronom:fmt/52
+- pronom:fmt/53
+- pronom:fmt/355
+text/sgml:
+- pronom:x-fmt/195
+text/vnd.IPTC.NITF:
+- fdd:fdd000014
+text/x-pdf:
+- fdd:fdd000030
+text/x-vCalendar:
+- pronom:fmt/387
+text/xml:
+- pronom:fmt/101
+- pronom:fmt/121
+- pronom:fmt/120
+- fdd:fdd000275
+- fdd:fdd000295
+- fdd:fdd000296
+tif:
+- fdd:fdd000237
+tiff:
+- fdd:fdd000237
+video/3gpp:
+- pronom:fmt/357
+video/avi:
+- fdd:fdd000059
+video/dv:
+- pronom:x-fmt/152
+video/mj2:
+- pronom:fmt/337
+- fdd:fdd000127
+video/mp1s:
+- fdd:fdd000028
+- fdd:fdd000035
+- fdd:fdd000335
+video/mp2p:
+- fdd:fdd000028
+- fdd:fdd000335
+video/mp2t:
+- fdd:fdd000028
+- fdd:fdd000335
+video/mp4:
+- fdd:fdd000037
+- fdd:fdd000137
+- fdd:fdd000155
+video/mp4v-es:
+- fdd:fdd000155
+video/mpeg:
+- pronom:x-fmt/385
+- pronom:x-fmt/386
+- fdd:fdd000028
+- fdd:fdd000035
+- fdd:fdd000335
+video/mpeg2:
+- fdd:fdd000028
+- fdd:fdd000335
+video/mpeg4-generic:
+- fdd:fdd000155
+video/mpg:
+- fdd:fdd000028
+- fdd:fdd000035
+- fdd:fdd000335
+video/mpv:
+- fdd:fdd000028
+- fdd:fdd000035
+- fdd:fdd000335
+video/msvideo:
+- fdd:fdd000059
+video/quicktime:
+- pronom:x-fmt/384
+- fdd:fdd000052
+video/vnd.avi:
+- fdd:fdd000059
+video/vnd.rn-realvideo:
+- pronom:x-fmt/277
+- fdd:fdd000050
+video/webm:
+- pronom:fmt/573
+video/x-dv:
+- fdd:fdd000173
+video/x-flv:
+- pronom:x-fmt/382
+- fdd:fdd000131
+video/x-matroska:
+- fdd:fdd000342
+video/x-mng:
+- pronom:fmt/528
+video/x-mpeg:
+- fdd:fdd000028
+- fdd:fdd000035
+- fdd:fdd000335
+video/x-mpeg2a:
+- fdd:fdd000028
+- fdd:fdd000335
+video/x-mpg:
+- fdd:fdd000028
+- fdd:fdd000035
+- fdd:fdd000335
+video/x-ms-asf:
+- fdd:fdd000067
+video/x-ms-asf-plugin:
+- fdd:fdd000067
+- fdd:fdd000067
+video/x-ms-wm:
+- fdd:fdd000067
+video/x-ms-wmv:
+- pronom:fmt/133
+- fdd:fdd000091
+video/x-ms-wmx:
+- fdd:fdd000067
+video/x-msvideo:
+- pronom:fmt/5
+- fdd:fdd000059
+video/x-quicktime:
+- fdd:fdd000052
+vnd.lotus-approach:
+- pronom:x-fmt/333

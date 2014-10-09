@@ -1,1 +1,2516 @@
-{}
+? ''
+: - pronom:fmt/245
+  - pronom:fmt/462
+  - fdd:fdd000380
+  - fdd:fdd000384
+  - fdd:fdd000385
+  - fdd:fdd000386
+  - fdd:fdd000387
+  - fdd:fdd000392
+.bil:
+- fdd:fdd000283
+.bip:
+- fdd:fdd000288
+.bsq:
+- fdd:fdd000289
+.cph:
+- fdd:fdd000282
+.csv:
+- fdd:fdd000323
+.dat:
+- fdd:fdd000324
+.dbf:
+- fdd:fdd000325
+- fdd:fdd000326
+.ddf:
+- fdd:fdd000307
+.e00:
+- fdd:fdd000291
+.eml:
+- fdd:fdd000388
+.gen:
+- fdd:fdd000282
+.gml:
+- fdd:fdd000296
+.hdf:
+- fdd:fdd000297
+.hdfeos:
+- fdd:fdd000297
+.he2:
+- fdd:fdd000297
+.he4:
+- fdd:fdd000297
+.ics:
+- fdd:fdd000394
+.ifb:
+- fdd:fdd000394
+.img:
+- fdd:fdd000282
+.jls:
+- pronom:fmt/150
+.kml:
+- fdd:fdd000340
+.lgg:
+- fdd:fdd000282
+.map.xml:
+- fdd:fdd000327
+.mbox:
+- fdd:fdd000383
+.msg:
+- fdd:fdd000379
+.ovr:
+- fdd:fdd000282
+.pst:
+- fdd:fdd000377
+.qal:
+- fdd:fdd000282
+.sou:
+- fdd:fdd000282
+.thf:
+- fdd:fdd000282
+3dm:
+- pronom:x-fmt/432
+- pronom:x-fmt/433
+- pronom:x-fmt/434
+- pronom:x-fmt/435
+3ds:
+- pronom:x-fmt/19
+3gp:
+- pronom:fmt/357
+- fdd:fdd000254
+3gpp:
+- pronom:fmt/357
+'669':
+- fdd:fdd000126
+- fdd:fdd000126
+7z:
+- pronom:fmt/484
+Not applicable:
+- fdd:fdd000208
+RW2:
+- pronom:fmt/662
+TIF:
+- fdd:fdd000145
+ZIP:
+- fdd:fdd000354
+- fdd:fdd000355
+- fdd:fdd000361
+- fdd:fdd000362
+aa:
+- fdd:fdd000103
+- fdd:fdd000104
+aac:
+- fdd:fdd000053
+- fdd:fdd000112
+- fdd:fdd000114
+- fdd:fdd000256
+aaf:
+- fdd:fdd000004
+abd:
+- pronom:x-fmt/213
+abif:
+- pronom:fmt/587
+abt:
+- pronom:fmt/454
+ac3:
+- fdd:fdd000209
+acb:
+- pronom:x-fmt/301
+accdb:
+- pronom:fmt/275
+acd:
+- pronom:x-fmt/217
+acv:
+- pronom:fmt/667
+adc:
+- pronom:x-fmt/357
+adf:
+- pronom:x-fmt/218
+- fdd:fdd000281
+- fdd:fdd000284
+adi:
+- pronom:x-fmt/134
+aes:
+- fdd:fdd000208
+afc:
+- pronom:x-fmt/305
+afi:
+- pronom:x-fmt/367
+afp:
+- pronom:fmt/683
+ai:
+- pronom:x-fmt/20
+- pronom:fmt/417
+- pronom:fmt/418
+- pronom:fmt/419
+- pronom:fmt/420
+- pronom:fmt/421
+- pronom:fmt/422
+- pronom:fmt/423
+- pronom:fmt/557
+- pronom:fmt/558
+- pronom:fmt/559
+- pronom:fmt/560
+- pronom:fmt/561
+- pronom:fmt/562
+- pronom:fmt/563
+- pronom:fmt/564
+- pronom:fmt/565
+aif:
+- pronom:fmt/414
+- fdd:fdd000005
+- fdd:fdd000116
+aifc:
+- pronom:x-fmt/136
+aiff:
+- pronom:fmt/414
+- fdd:fdd000005
+aih:
+- pronom:fmt/321
+- fdd:fdd000280
+ain:
+- fdd:fdd000280
+ali:
+- pronom:x-fmt/354
+amf:
+- fdd:fdd000126
+amr:
+- pronom:fmt/356
+- fdd:fdd000254
+- fdd:fdd000256
+ani:
+- pronom:fmt/386
+ans:
+- pronom:x-fmt/21
+- pronom:x-fmt/282
+apr:
+- pronom:x-fmt/317
+- pronom:x-fmt/333
+- pronom:fmt/332
+apt:
+- pronom:x-fmt/334
+arc:
+- pronom:x-fmt/219
+- pronom:fmt/410
+- fdd:fdd000235
+arj:
+- pronom:fmt/610
+art:
+- pronom:fmt/666
+arw:
+- pronom:fmt/191
+as:
+- pronom:x-fmt/220
+asc:
+- pronom:x-fmt/22
+- pronom:x-fmt/283
+asf:
+- pronom:x-fmt/137
+- pronom:x-fmt/362
+- pronom:fmt/131
+- pronom:fmt/132
+- pronom:fmt/133
+- fdd:fdd000067
+asp:
+- pronom:x-fmt/138
+asx:
+- pronom:fmt/584
+atf:
+- pronom:fmt/667
+atx:
+- fdd:fdd000280
+au:
+- pronom:x-fmt/139
+avg:
+- pronom:x-fmt/314
+avi:
+- pronom:fmt/5
+- fdd:fdd000059
+- fdd:fdd000060
+- fdd:fdd000061
+- fdd:fdd000062
+- fdd:fdd000068
+aw:
+- pronom:x-fmt/326
+aws:
+- pronom:x-fmt/361
+bak:
+- pronom:x-fmt/23
+bat:
+- pronom:x-fmt/413
+bdb:
+- pronom:x-fmt/344
+bilw:
+- pronom:fmt/367
+bin:
+- pronom:fmt/208
+blk:
+- pronom:x-fmt/24
+blw:
+- pronom:fmt/367
+bmp:
+- pronom:x-fmt/270
+- pronom:fmt/114
+- pronom:fmt/115
+- pronom:fmt/116
+- pronom:fmt/117
+- pronom:fmt/118
+- pronom:fmt/119
+- fdd:fdd000189
+box:
+- pronom:x-fmt/339
+bp2:
+- pronom:x-fmt/26
+bp3:
+- pronom:x-fmt/27
+bpl:
+- pronom:x-fmt/26
+bps:
+- pronom:x-fmt/345
+bpw:
+- pronom:fmt/367
+bpx:
+- pronom:x-fmt/367
+bsdiff:
+- pronom:fmt/439
+btf:
+- fdd:fdd000328
+btr:
+- pronom:x-fmt/308
+- pronom:fmt/359
+btw:
+- pronom:fmt/367
+bup:
+- pronom:x-fmt/419
+bw:
+- pronom:x-fmt/140
+bz:
+- pronom:x-fmt/267
+bz2:
+- pronom:x-fmt/268
+c4d:
+- pronom:fmt/415
+- pronom:fmt/540
+cab:
+- pronom:x-fmt/414
+caf:
+- pronom:fmt/416
+cal:
+- pronom:x-fmt/28
+- pronom:x-fmt/363
+- pronom:x-fmt/364
+- pronom:fmt/403
+cat:
+- pronom:fmt/452
+catmaterial:
+- pronom:x-fmt/438
+catpart:
+- pronom:x-fmt/439
+catproduct:
+- pronom:x-fmt/440
+cbd:
+- pronom:x-fmt/221
+cce:
+- pronom:x-fmt/141
+cch:
+- pronom:x-fmt/310
+cd5:
+- pronom:fmt/665
+cda:
+- pronom:x-fmt/222
+cdf:
+- pronom:fmt/282
+- pronom:fmt/283
+- fdd:fdd000226
+cdr:
+- pronom:x-fmt/29
+- pronom:x-fmt/291
+- pronom:x-fmt/292
+- pronom:x-fmt/374
+- pronom:x-fmt/375
+- pronom:x-fmt/378
+- pronom:x-fmt/379
+- pronom:fmt/427
+- pronom:fmt/428
+- pronom:fmt/429
+- pronom:fmt/430
+- pronom:fmt/464
+- pronom:fmt/465
+- pronom:fmt/466
+- pronom:fmt/467
+cdt:
+- pronom:x-fmt/30
+cdx:
+- pronom:x-fmt/31
+- pronom:fmt/375
+- pronom:fmt/378
+cel:
+- pronom:x-fmt/223
+cgm:
+- pronom:x-fmt/142
+- pronom:fmt/301
+- pronom:fmt/302
+- pronom:fmt/303
+- pronom:fmt/304
+- pronom:fmt/305
+- pronom:fmt/306
+ch3:
+- pronom:x-fmt/32
+chi:
+- pronom:x-fmt/309
+- pronom:fmt/300
+chm:
+- pronom:fmt/634
+cht:
+- pronom:x-fmt/325
+chw:
+- pronom:fmt/634
+cif:
+- pronom:fmt/334
+- pronom:fmt/495
+cin:
+- pronom:x-fmt/143
+class:
+- pronom:x-fmt/415
+clk:
+- pronom:x-fmt/33
+- pronom:fmt/431
+- pronom:fmt/432
+cml:
+- pronom:fmt/333
+cmx:
+- pronom:x-fmt/34
+- pronom:x-fmt/35
+cpc:
+- fdd:fdd000007
+cpg:
+- fdd:fdd000280
+cpi:
+- fdd:fdd000007
+cpio:
+- pronom:fmt/635
+cpt:
+- pronom:x-fmt/144
+cpx:
+- pronom:x-fmt/36
+cql:
+- pronom:fmt/658
+cr2:
+- pronom:fmt/592
+- fdd:fdd000241
+crw:
+- pronom:fmt/593
+- fdd:fdd000241
+css:
+- pronom:x-fmt/224
+csv:
+- pronom:x-fmt/18
+ct:
+- pronom:x-fmt/146
+ctb:
+- pronom:x-fmt/37
+cur:
+- pronom:fmt/385
+cus:
+- pronom:x-fmt/38
+cut:
+- pronom:x-fmt/316
+dat:
+- pronom:fmt/612
+- fdd:fdd000281
+- fdd:fdd000284
+- fdd:fdd000300
+db:
+- pronom:x-fmt/147
+- pronom:fmt/350
+- pronom:fmt/351
+- pronom:fmt/352
+- pronom:fmt/682
+dbc:
+- pronom:fmt/382
+dbf:
+- pronom:x-fmt/6
+- pronom:x-fmt/7
+- pronom:x-fmt/8
+- pronom:x-fmt/9
+- pronom:x-fmt/10
+- pronom:x-fmt/242
+- pronom:x-fmt/271
+- pronom:x-fmt/272
+- pronom:x-fmt/380
+- pronom:fmt/373
+- pronom:fmt/374
+- fdd:fdd000280
+dbq:
+- pronom:x-fmt/39
+- pronom:x-fmt/307
+dbt:
+- pronom:x-fmt/40
+- pronom:x-fmt/311
+dbx:
+- pronom:x-fmt/343
+dc:
+- pronom:x-fmt/312
+dc2:
+- pronom:x-fmt/312
+dca:
+- pronom:x-fmt/148
+dcm:
+- pronom:fmt/574
+dcr:
+- pronom:fmt/192
+- pronom:fmt/486
+- fdd:fdd000241
+dcs:
+- pronom:x-fmt/149
+dct:
+- pronom:fmt/384
+dcx:
+- pronom:x-fmt/150
+- pronom:x-fmt/348
+ddb:
+- pronom:fmt/114
+ddd:
+- pronom:fmt/457
+- pronom:fmt/461
+ddf:
+- fdd:fdd000286
+dem:
+- pronom:x-fmt/369
+- fdd:fdd000285
+dff:
+- fdd:fdd000245
+dfn (n is an integer from 0 to 9):
+- fdd:fdd000245
+dft:
+- fdd:fdd000245
+dgn:
+- pronom:x-fmt/346
+- pronom:fmt/502
+dia:
+- pronom:x-fmt/381
+dib:
+- pronom:fmt/115
+- pronom:fmt/116
+- pronom:fmt/117
+- pronom:fmt/118
+- pronom:fmt/119
+dic:
+- pronom:x-fmt/132
+- pronom:x-fmt/133
+did:
+- pronom:fmt/458
+- pronom:fmt/461
+dif:
+- pronom:x-fmt/41
+- pronom:x-fmt/368
+- fdd:fdd000173
+dir:
+- pronom:x-fmt/341
+- pronom:fmt/317
+- fdd:fdd000284
+djv:
+- pronom:fmt/255
+- pronom:fmt/318
+djvu:
+- pronom:fmt/255
+- pronom:fmt/318
+dll:
+- pronom:x-fmt/411
+dls:
+- fdd:fdd000118
+dmf:
+- fdd:fdd000126
+- fdd:fdd000126
+dmg:
+- pronom:fmt/625
+dng:
+- pronom:fmt/152
+- pronom:fmt/436
+- pronom:fmt/437
+- pronom:fmt/438
+- fdd:fdd000188
+doc:
+- pronom:x-fmt/2
+- pronom:x-fmt/42
+- pronom:x-fmt/43
+- pronom:x-fmt/44
+- pronom:x-fmt/129
+- pronom:x-fmt/131
+- pronom:x-fmt/273
+- pronom:x-fmt/274
+- pronom:x-fmt/275
+- pronom:x-fmt/276
+- pronom:x-fmt/329
+- pronom:fmt/39
+- pronom:fmt/40
+- pronom:fmt/37
+- pronom:fmt/38
+- pronom:fmt/473
+- pronom:fmt/609
+docm:
+- pronom:fmt/523
+docx:
+- pronom:fmt/412
+- pronom:fmt/494
+doq:
+- fdd:fdd000290
+dot:
+- pronom:x-fmt/45
+dotm:
+- pronom:fmt/599
+dotx:
+- pronom:fmt/597
+dox:
+- pronom:x-fmt/347
+dpx:
+- pronom:fmt/193
+- pronom:fmt/541
+- fdd:fdd000178
+dqy:
+- pronom:x-fmt/46
+drw:
+- pronom:x-fmt/47
+- pronom:x-fmt/294
+- pronom:x-fmt/295
+- pronom:x-fmt/296
+ds_store:
+- pronom:fmt/394
+dsf:
+- pronom:x-fmt/151
+dt0:
+- pronom:x-fmt/314
+dt1:
+- pronom:x-fmt/314
+- pronom:fmt/360
+dt2:
+- pronom:x-fmt/314
+dtd:
+- pronom:x-fmt/315
+- fdd:fdd000076
+dted:
+- pronom:x-fmt/314
+dts:
+- fdd:fdd000232
+dv:
+- pronom:x-fmt/152
+- fdd:fdd000173
+dvb:
+- pronom:x-fmt/48
+dvf:
+- pronom:fmt/472
+dvi:
+- pronom:x-fmt/365
+- pronom:fmt/160
+dw2:
+- pronom:x-fmt/313
+dwf:
+- pronom:x-fmt/49
+dwg:
+- pronom:fmt/21
+- pronom:fmt/22
+- pronom:fmt/23
+- pronom:fmt/24
+- pronom:fmt/25
+- pronom:fmt/26
+- pronom:fmt/27
+- pronom:fmt/28
+- pronom:fmt/29
+- pronom:fmt/30
+- pronom:fmt/31
+- pronom:fmt/32
+- pronom:fmt/33
+- pronom:fmt/34
+- pronom:fmt/35
+- pronom:fmt/36
+- pronom:x-fmt/455
+- pronom:fmt/434
+- pronom:fmt/531
+dwl:
+- pronom:x-fmt/441
+dws:
+- pronom:x-fmt/50
+dwt:
+- pronom:x-fmt/51
+dx:
+- pronom:x-fmt/286
+dxb:
+- pronom:fmt/54
+dxf:
+- pronom:fmt/64
+- pronom:fmt/65
+- pronom:fmt/66
+- pronom:fmt/67
+- pronom:fmt/68
+- pronom:fmt/69
+- pronom:fmt/70
+- pronom:fmt/71
+- pronom:fmt/72
+- pronom:fmt/73
+- pronom:fmt/74
+- pronom:fmt/75
+- pronom:fmt/76
+- pronom:fmt/77
+- pronom:fmt/78
+- pronom:fmt/79
+- pronom:fmt/80
+- pronom:fmt/81
+- pronom:fmt/82
+- pronom:fmt/83
+- pronom:fmt/84
+- pronom:fmt/85
+- pronom:fmt/63
+- pronom:fmt/433
+- pronom:fmt/435
+- pronom:fmt/532
+dxl:
+- pronom:fmt/571
+- pronom:fmt/572
+dxr:
+- pronom:x-fmt/341
+- pronom:fmt/314
+- pronom:fmt/317
+dxx:
+- pronom:x-fmt/52
+dzt:
+- pronom:fmt/362
+e00:
+- pronom:x-fmt/226
+e57:
+- pronom:fmt/643
+ebcdic:
+- pronom:fmt/159
+ecw:
+- pronom:fmt/371
+emf:
+- pronom:x-fmt/153
+- pronom:fmt/344
+- pronom:fmt/345
+eml:
+- pronom:fmt/278
+enf:
+- pronom:fmt/327
+enl:
+- pronom:fmt/325
+enr:
+- pronom:fmt/328
+ens:
+- pronom:fmt/324
+enw:
+- pronom:fmt/328
+enz:
+- pronom:fmt/326
+eps:
+- pronom:fmt/122
+- pronom:fmt/124
+- pronom:fmt/123
+epsf:
+- pronom:fmt/122
+- pronom:fmt/124
+- pronom:fmt/123
+epub:
+- pronom:fmt/483
+- fdd:fdd000278
+- fdd:fdd000308
+erf:
+- pronom:fmt/641
+ers:
+- pronom:fmt/372
+etf:
+- pronom:fmt/398
+exe:
+- pronom:x-fmt/409
+- pronom:x-fmt/410
+- pronom:x-fmt/411
+f4a:
+- pronom:fmt/199
+f4v:
+- pronom:fmt/199
+far:
+- fdd:fdd000126
+- fdd:fdd000126
+fbn:
+- fdd:fdd000280
+fbx:
+- fdd:fdd000280
+fft:
+- pronom:x-fmt/284
+fgd:
+- fdd:fdd000292
+fh10:
+- pronom:fmt/547
+fh11:
+- pronom:fmt/400
+fh3:
+- pronom:x-fmt/303
+fh4:
+- pronom:x-fmt/304
+fh5:
+- pronom:x-fmt/53
+fh7:
+- pronom:fmt/544
+fh8:
+- pronom:fmt/545
+fh9:
+- pronom:fmt/546
+fif:
+- pronom:x-fmt/320
+fits:
+- pronom:x-fmt/383
+- fdd:fdd000317
+fla:
+- fdd:fdd000132
+- fdd:fdd000198
+flac:
+- pronom:fmt/279
+- fdd:fdd000198
+flc:
+- pronom:fmt/298
+fli:
+- pronom:x-fmt/154
+- pronom:fmt/299
+flm:
+- pronom:x-fmt/155
+flv:
+- pronom:x-fmt/382
+- fdd:fdd000131
+fm:
+- pronom:x-fmt/302
+- pronom:x-fmt/318
+- pronom:x-fmt/319
+- pronom:fmt/190
+- pronom:fmt/533
+- pronom:fmt/534
+- pronom:fmt/535
+- pronom:fmt/536
+- pronom:fmt/537
+- pronom:fmt/538
+- pronom:fmt/539
+fm1:
+- pronom:x-fmt/331
+fm3:
+- pronom:x-fmt/332
+fmp:
+- pronom:x-fmt/54
+- pronom:x-fmt/318
+- pronom:x-fmt/319
+fmt:
+- pronom:x-fmt/331
+fmv:
+- pronom:x-fmt/55
+fmz:
+- pronom:x-fmt/442
+fp:
+- pronom:x-fmt/318
+- pronom:x-fmt/319
+fp3:
+- pronom:x-fmt/318
+fp5:
+- pronom:x-fmt/319
+fp7:
+- pronom:fmt/194
+fpt:
+- pronom:x-fmt/342
+fpx:
+- pronom:x-fmt/56
+frt:
+- pronom:x-fmt/342
+frx:
+- pronom:fmt/376
+- pronom:fmt/377
+fw:
+- pronom:x-fmt/321
+fw2:
+- pronom:x-fmt/321
+fw3:
+- pronom:x-fmt/322
+fw4:
+- pronom:x-fmt/323
+gbr:
+- pronom:fmt/664
+gdb:
+- pronom:x-fmt/328
+- fdd:fdd000294
+gem:
+- pronom:x-fmt/57
+- pronom:x-fmt/215
+- pronom:fmt/542
+- pronom:fmt/543
+gen:
+- pronom:x-fmt/156
+geo:
+- pronom:fmt/618
+ggb:
+- pronom:fmt/617
+- pronom:fmt/619
+- pronom:fmt/620
+- pronom:fmt/621
+- pronom:fmt/622
+gif:
+- pronom:fmt/3
+- pronom:fmt/4
+- fdd:fdd000133
+gis:
+- pronom:fmt/195
+gml:
+- pronom:x-fmt/227
+gpx:
+- pronom:fmt/243
+grb:
+- pronom:fmt/284
+- pronom:fmt/285
+gtiff:
+- fdd:fdd000279
+- fdd:fdd000328
+gvi:
+- fdd:fdd000068
+gz:
+- pronom:x-fmt/266
+h5:
+- pronom:fmt/286
+- pronom:fmt/287
+- fdd:fdd000229
+hd:
+- pronom:fmt/361
+hdf:
+- fdd:fdd000228
+hdf5:
+- pronom:fmt/286
+- pronom:fmt/287
+hdp:
+- fdd:fdd000243
+hdr:
+- pronom:fmt/591
+hlp:
+- pronom:fmt/474
+hm:
+- pronom:fmt/426
+hpgl:
+- pronom:x-fmt/293
+hqx:
+- pronom:x-fmt/416
+htm:
+- pronom:fmt/97
+- pronom:fmt/98
+- pronom:fmt/99
+- pronom:fmt/100
+- pronom:fmt/102
+- pronom:fmt/103
+- pronom:fmt/96
+- pronom:fmt/471
+- pronom:fmt/583
+html:
+- pronom:fmt/97
+- pronom:fmt/98
+- pronom:fmt/99
+- pronom:fmt/100
+- pronom:fmt/102
+- pronom:fmt/103
+- pronom:fmt/96
+- pronom:fmt/471
+- pronom:fmt/583
+htx:
+- pronom:x-fmt/417
+ibooks:
+- pronom:fmt/482
+icb:
+- pronom:x-fmt/367
+- pronom:fmt/402
+- fdd:fdd000179
+ico:
+- pronom:x-fmt/418
+ics:
+- pronom:fmt/388
+- pronom:fmt/577
+- pronom:fmt/578
+id:
+- fdd:fdd000300
+idq:
+- pronom:fmt/358
+idw:
+- pronom:x-fmt/327
+ief:
+- fdd:fdd000005
+ifc:
+- pronom:fmt/659
+ifcXML:
+- pronom:fmt/663
+iff:
+- pronom:x-fmt/157
+- pronom:fmt/338
+- pronom:fmt/339
+ifo:
+- pronom:x-fmt/419
+iges:
+- pronom:x-fmt/158
+igs:
+- pronom:x-fmt/158
+ili:
+- pronom:fmt/654
+im:
+- pronom:x-fmt/228
+image:
+- pronom:fmt/625
+img:
+- pronom:x-fmt/159
+- pronom:fmt/383
+- pronom:fmt/625
+ind:
+- pronom:x-fmt/450
+- pronom:fmt/196
+- pronom:fmt/548
+- pronom:fmt/549
+- pronom:fmt/550
+- pronom:fmt/551
+- pronom:fmt/551
+- pronom:fmt/552
+- fdd:fdd000300
+indd:
+- pronom:x-fmt/450
+- pronom:fmt/196
+- pronom:fmt/548
+- pronom:fmt/549
+- pronom:fmt/550
+- pronom:fmt/552
+inf:
+- pronom:x-fmt/420
+- pronom:fmt/212
+- pronom:fmt/331
+ing:
+- pronom:x-fmt/229
+ini:
+- pronom:x-fmt/421
+inx:
+- pronom:fmt/197
+iqy:
+- pronom:x-fmt/58
+iso:
+- pronom:fmt/468
+- fdd:fdd000348
+it:
+- fdd:fdd000126
+- fdd:fdd000126
+ivc:
+- pronom:fmt/647
+ixs:
+- fdd:fdd000280
+j:
+- fdd:fdd000018
+j2c:
+- fdd:fdd000138
+- fdd:fdd000194
+- fdd:fdd000196
+- fdd:fdd000211
+- fdd:fdd000213
+jar:
+- pronom:x-fmt/412
+java:
+- pronom:x-fmt/422
+jbf:
+- pronom:fmt/217
+jfi:
+- fdd:fdd000018
+jfif:
+- fdd:fdd000018
+jgw:
+- pronom:fmt/367
+jif:
+- fdd:fdd000018
+jls:
+- fdd:fdd000018
+- fdd:fdd000019
+jmh:
+- fdd:fdd000018
+jng:
+- pronom:fmt/529
+jp2:
+- pronom:x-fmt/392
+- fdd:fdd000143
+- fdd:fdd000303
+jpe:
+- pronom:fmt/42
+- pronom:fmt/43
+- pronom:fmt/44
+- pronom:fmt/41
+- fdd:fdd000018
+jpeg:
+- pronom:fmt/42
+- pronom:fmt/43
+- pronom:fmt/44
+- pronom:fmt/41
+- fdd:fdd000018
+- fdd:fdd000019
+jpf:
+- pronom:fmt/151
+- fdd:fdd000154
+jpg:
+- pronom:fmt/42
+- pronom:fmt/43
+- pronom:fmt/44
+- pronom:fmt/41
+- pronom:fmt/112
+- pronom:x-fmt/390
+- pronom:x-fmt/391
+- pronom:x-fmt/398
+- pronom:fmt/645
+- fdd:fdd000018
+- fdd:fdd000019
+- fdd:fdd000147
+jpgw:
+- pronom:fmt/367
+jpm:
+- pronom:fmt/463
+- fdd:fdd000144
+jpx:
+- pronom:fmt/151
+- fdd:fdd000154
+- fdd:fdd000303
+js:
+- pronom:x-fmt/423
+json:
+- fdd:fdd000381
+- fdd:fdd000382
+jsp:
+- pronom:x-fmt/160
+jw:
+- pronom:x-fmt/330
+jxr:
+- pronom:fmt/590
+kdc:
+- fdd:fdd000241
+key:
+- pronom:fmt/646
+kml:
+- pronom:fmt/244
+kmz:
+- pronom:fmt/244
+las:
+- pronom:x-fmt/59
+- pronom:fmt/368
+- pronom:fmt/369
+- pronom:fmt/370
+- pronom:fmt/389
+- pronom:fmt/390
+- pronom:fmt/391
+laz:
+- pronom:fmt/368
+- pronom:fmt/369
+- pronom:fmt/370
+lbm:
+- pronom:x-fmt/424
+- pronom:fmt/338
+lck:
+- pronom:fmt/218
+- pronom:fmt/335
+ldif:
+- pronom:fmt/611
+lha:
+- pronom:fmt/626
+lib:
+- pronom:x-fmt/425
+lic:
+- pronom:x-fmt/426
+lin:
+- pronom:x-fmt/60
+lli:
+- pronom:x-fmt/61
+lng:
+- pronom:x-fmt/427
+lnk:
+- pronom:x-fmt/428
+log:
+- pronom:x-fmt/62
+lpk:
+- pronom:fmt/498
+lrf:
+- pronom:fmt/518
+lsp:
+- pronom:x-fmt/63
+lst:
+- pronom:fmt/526
+lwp:
+- pronom:x-fmt/340
+- pronom:fmt/340
+lzh:
+- pronom:fmt/626
+m1v:
+- pronom:fmt/649
+m2t:
+- pronom:fmt/585
+m2ts:
+- pronom:fmt/585
+m2v:
+- pronom:fmt/640
+m3u:
+- pronom:x-fmt/279
+m4a:
+- pronom:fmt/199
+- pronom:fmt/596
+- fdd:fdd000155
+m4b:
+- fdd:fdd000110
+m4p:
+- fdd:fdd000052
+- fdd:fdd000110
+m4v:
+- pronom:fmt/199
+mab:
+- pronom:fmt/612
+mac:
+- pronom:x-fmt/161
+map:
+- fdd:fdd000300
+mas:
+- pronom:x-fmt/335
+max:
+- pronom:x-fmt/314
+mb:
+- pronom:x-fmt/307
+mcw:
+- pronom:x-fmt/1
+- pronom:x-fmt/64
+- pronom:x-fmt/65
+- pronom:fmt/346
+mdb:
+- pronom:x-fmt/66
+- pronom:x-fmt/238
+- pronom:x-fmt/239
+- pronom:x-fmt/240
+- pronom:x-fmt/241
+med:
+- fdd:fdd000126
+- fdd:fdd000126
+met:
+- pronom:x-fmt/67
+- pronom:x-fmt/350
+mht:
+- pronom:x-fmt/429
+mhtml:
+- pronom:x-fmt/429
+mid:
+- pronom:x-fmt/230
+- fdd:fdd000119
+midi:
+- pronom:x-fmt/230
+- fdd:fdd000119
+mif:
+- pronom:x-fmt/162
+- pronom:x-fmt/231
+min:
+- pronom:x-fmt/314
+mix:
+- pronom:fmt/594
+mj2:
+- pronom:fmt/337
+- fdd:fdd000127
+mjp2:
+- pronom:fmt/337
+- fdd:fdd000127
+mk3d:
+- pronom:fmt/569
+- fdd:fdd000342
+mka:
+- pronom:fmt/569
+- fdd:fdd000342
+mks:
+- pronom:fmt/569
+- fdd:fdd000342
+mkv:
+- pronom:fmt/569
+- fdd:fdd000342
+mmm:
+- pronom:fmt/521
+mnc:
+- pronom:x-fmt/68
+mng:
+- pronom:fmt/528
+mnl:
+- pronom:x-fmt/69
+mnr:
+- pronom:x-fmt/70
+mns:
+- pronom:x-fmt/71
+mnt:
+- pronom:x-fmt/70
+mnu:
+- pronom:x-fmt/72
+mobi:
+- pronom:fmt/396
+mod:
+- pronom:x-fmt/436
+- pronom:fmt/162
+- fdd:fdd000126
+model:
+- pronom:x-fmt/436
+mov:
+- pronom:x-fmt/384
+- fdd:fdd000052
+- fdd:fdd000086
+- fdd:fdd000087
+- fdd:fdd000088
+- fdd:fdd000089
+- fdd:fdd000090
+mp1:
+- pronom:fmt/347
+mp2:
+- pronom:fmt/198
+- fdd:fdd000338
+mp3:
+- pronom:fmt/134
+- fdd:fdd000052
+- fdd:fdd000053
+- fdd:fdd000105
+- fdd:fdd000111
+- fdd:fdd000256
+- fdd:fdd000275
+mp4:
+- pronom:fmt/199
+- pronom:fmt/596
+- fdd:fdd000037
+- fdd:fdd000044
+- fdd:fdd000045
+- fdd:fdd000046
+- fdd:fdd000047
+- fdd:fdd000048
+- fdd:fdd000049
+- fdd:fdd000082
+- fdd:fdd000083
+- fdd:fdd000084
+- fdd:fdd000137
+- fdd:fdd000155
+- fdd:fdd000275
+mpa:
+- pronom:fmt/198
+mpcatalog:
+- pronom:fmt/648
+mpeg:
+- pronom:x-fmt/385
+- pronom:x-fmt/386
+- pronom:fmt/640
+- pronom:fmt/649
+- fdd:fdd000028
+- fdd:fdd000032
+- fdd:fdd000033
+- fdd:fdd000034
+- fdd:fdd000035
+- fdd:fdd000335
+mpg:
+- pronom:x-fmt/385
+- pronom:x-fmt/386
+- pronom:fmt/640
+- pronom:fmt/649
+- fdd:fdd000028
+- fdd:fdd000032
+- fdd:fdd000033
+- fdd:fdd000034
+- fdd:fdd000035
+- fdd:fdd000335
+mpp:
+- pronom:x-fmt/243
+- pronom:x-fmt/244
+- pronom:x-fmt/245
+- pronom:x-fmt/246
+- pronom:x-fmt/247
+- pronom:fmt/440
+mpw:
+- pronom:fmt/198
+mpx:
+- pronom:x-fmt/232
+- pronom:fmt/342
+- pronom:fmt/343
+mrw:
+- pronom:fmt/669
+- fdd:fdd000241
+msc:
+- pronom:fmt/475
+msf:
+- pronom:fmt/612
+msg:
+- pronom:x-fmt/430
+msp:
+- pronom:x-fmt/214
+msv:
+- pronom:fmt/472
+mt2:
+- fdd:fdd000126
+mtm:
+- fdd:fdd000126
+- fdd:fdd000126
+mus:
+- pronom:fmt/397
+mxf:
+- pronom:fmt/200
+- fdd:fdd000013
+mxmf:
+- fdd:fdd000121
+mxs:
+- fdd:fdd000280
+n/a:
+- fdd:fdd000141
+nap:
+- pronom:x-fmt/163
+nb:
+- pronom:x-fmt/349
+- pronom:fmt/201
+nc:
+- pronom:fmt/282
+- pronom:fmt/283
+- fdd:fdd000330
+- fdd:fdd000332
+- fdd:fdd000339
+ncx:
+- fdd:fdd000053
+- fdd:fdd000256
+- fdd:fdd000275
+nef:
+- pronom:fmt/202
+- fdd:fdd000241
+nit:
+- fdd:fdd000281
+- fdd:fdd000284
+ns2:
+- pronom:x-fmt/336
+ns3:
+- pronom:x-fmt/337
+ns4:
+- pronom:x-fmt/338
+nsf:
+- pronom:x-fmt/336
+- pronom:x-fmt/337
+- pronom:x-fmt/338
+nsi:
+- pronom:fmt/644
+ntf:
+- pronom:fmt/364
+- pronom:fmt/365
+- pronom:fmt/366
+obd:
+- pronom:fmt/237
+- pronom:fmt/240
+obt:
+- pronom:fmt/238
+- pronom:fmt/241
+obz:
+- pronom:fmt/239
+- pronom:fmt/242
+odb:
+- pronom:fmt/140
+- pronom:fmt/424
+- pronom:fmt/444
+odg:
+- pronom:fmt/139
+- pronom:fmt/296
+- pronom:fmt/297
+odp:
+- pronom:fmt/138
+- pronom:fmt/292
+- pronom:fmt/293
+ods:
+- pronom:fmt/137
+- pronom:fmt/294
+- pronom:fmt/295
+odt:
+- pronom:x-fmt/3
+- pronom:fmt/136
+- pronom:fmt/290
+- pronom:fmt/291
+ofx:
+- pronom:fmt/309
+- pronom:fmt/310
+- pronom:fmt/311
+- pronom:fmt/312
+- pronom:fmt/313
+ogg:
+- pronom:fmt/203
+- fdd:fdd000026
+- fdd:fdd000117
+okt:
+- fdd:fdd000126
+- fdd:fdd000126
+olk:
+- pronom:x-fmt/73
+one:
+- pronom:fmt/637
+opf:
+- pronom:fmt/207
+- fdd:fdd000053
+- fdd:fdd000054
+- fdd:fdd000171
+- fdd:fdd000256
+- fdd:fdd000275
+oqy:
+- pronom:x-fmt/74
+orf:
+- pronom:fmt/668
+- fdd:fdd000241
+otf:
+- pronom:fmt/520
+otg:
+- pronom:fmt/139
+- pronom:fmt/296
+- pronom:fmt/297
+otp:
+- pronom:fmt/138
+- pronom:fmt/292
+- pronom:fmt/293
+ots:
+- pronom:fmt/137
+- pronom:fmt/294
+- pronom:fmt/295
+ott:
+- pronom:fmt/136
+- pronom:fmt/290
+- pronom:fmt/291
+p65:
+- pronom:x-fmt/181
+p7m:
+- pronom:fmt/670
+pab:
+- pronom:x-fmt/75
+pal:
+- pronom:fmt/624
+pam:
+- pronom:fmt/405
+pat:
+- pronom:x-fmt/76
+- fdd:fdd000284
+pbm:
+- pronom:x-fmt/164
+pbmb:
+- pronom:fmt/409
+pc2:
+- pronom:x-fmt/77
+pc3:
+- pronom:x-fmt/78
+pcd:
+- pronom:fmt/211
+pcp:
+- pronom:x-fmt/79
+pcs:
+- pronom:x-fmt/166
+pct:
+- pronom:x-fmt/80
+- pronom:fmt/341
+pcx:
+- pronom:fmt/86
+- pronom:fmt/87
+- pronom:fmt/88
+- pronom:fmt/89
+- pronom:fmt/90
+pdb:
+- pronom:fmt/510
+pdd:
+- pronom:x-fmt/167
+- pronom:fmt/460
+- pronom:fmt/461
+pdf:
+- pronom:fmt/14
+- pronom:fmt/15
+- pronom:fmt/16
+- pronom:fmt/17
+- pronom:fmt/18
+- pronom:fmt/19
+- pronom:fmt/20
+- pronom:fmt/95
+- pronom:fmt/144
+- pronom:fmt/145
+- pronom:fmt/146
+- pronom:fmt/147
+- pronom:fmt/148
+- pronom:fmt/157
+- pronom:fmt/158
+- pronom:fmt/276
+- pronom:fmt/354
+- pronom:fmt/476
+- pronom:fmt/477
+- pronom:fmt/478
+- pronom:fmt/479
+- pronom:fmt/480
+- pronom:fmt/481
+- pronom:fmt/488
+- pronom:fmt/489
+- pronom:fmt/490
+- pronom:fmt/491
+- pronom:fmt/492
+- pronom:fmt/493
+- fdd:fdd000030
+- fdd:fdd000122
+- fdd:fdd000123
+- fdd:fdd000124
+- fdd:fdd000125
+- fdd:fdd000251
+- fdd:fdd000252
+- fdd:fdd000276
+- fdd:fdd000277
+- fdd:fdd000313
+- fdd:fdd000314
+- fdd:fdd000316
+- fdd:fdd000318
+- fdd:fdd000319
+- fdd:fdd000322
+- fdd:fdd000322
+- fdd:fdd000322
+- fdd:fdd000350
+- fdd:fdd000360
+pdp:
+- pronom:x-fmt/168
+pdt:
+- pronom:x-fmt/81
+pdx:
+- pronom:fmt/446
+- pronom:fmt/447
+- pronom:fmt/448
+- pronom:fmt/449
+pef:
+- fdd:fdd000241
+pfb:
+- pronom:fmt/525
+pff:
+- pronom:fmt/322
+pfm:
+- pronom:fmt/509
+pgm:
+- pronom:fmt/406
+- pronom:fmt/407
+pgma:
+- pronom:fmt/407
+pgmb:
+- pronom:fmt/406
+pgw:
+- pronom:fmt/367
+php:
+- pronom:x-fmt/169
+pic:
+- pronom:x-fmt/82
+- pronom:x-fmt/170
+- pronom:fmt/341
+pict:
+- pronom:x-fmt/80
+- pronom:fmt/341
+pix:
+- pronom:x-fmt/171
+pjt:
+- pronom:x-fmt/342
+pjx:
+- pronom:fmt/380
+- pronom:fmt/381
+pk:
+- pronom:fmt/330
+plb:
+- pronom:x-fmt/172
+plc:
+- pronom:fmt/456
+plt:
+- pronom:x-fmt/83
+pm3:
+- pronom:x-fmt/351
+pm4:
+- pronom:x-fmt/352
+pm5:
+- pronom:x-fmt/173
+pm6:
+- pronom:x-fmt/174
+png:
+- pronom:fmt/11
+- pronom:fmt/12
+- pronom:fmt/13
+- fdd:fdd000153
+pnm:
+- pronom:fmt/409
+pnt:
+- pronom:x-fmt/175
+pod:
+- pronom:fmt/522
+pot:
+- pronom:x-fmt/84
+potm:
+- pronom:fmt/632
+potx:
+- pronom:fmt/631
+pp:
+- pronom:fmt/511
+- pronom:fmt/512
+- pronom:fmt/513
+- pronom:fmt/514
+- pronom:fmt/515
+- pronom:fmt/516
+- pronom:fmt/517
+pp4:
+- pronom:x-fmt/176
+pp5:
+- pronom:x-fmt/85
+ppa:
+- pronom:x-fmt/86
+ppam:
+- pronom:fmt/633
+ppi:
+- pronom:x-fmt/177
+ppm:
+- pronom:x-fmt/178
+- pronom:fmt/408
+ppmb:
+- pronom:fmt/408
+ppp:
+- pronom:fmt/671
+- pronom:fmt/672
+- pronom:fmt/673
+- pronom:fmt/674
+- pronom:fmt/675
+- pronom:fmt/676
+- pronom:fmt/677
+- pronom:fmt/678
+- pronom:fmt/679
+- pronom:fmt/680
+- pronom:fmt/681
+pps:
+- pronom:x-fmt/87
+ppsm:
+- pronom:fmt/630
+ppsx:
+- pronom:fmt/629
+ppt:
+- pronom:x-fmt/88
+- pronom:fmt/125
+- pronom:fmt/126
+- pronom:fmt/179
+- pronom:fmt/180
+- pronom:fmt/181
+- pronom:fmt/182
+pptm:
+- pronom:fmt/487
+pptx:
+- pronom:fmt/215
+- pronom:fmt/494
+ppz:
+- pronom:x-fmt/216
+prc:
+- pronom:fmt/396
+pre:
+- pronom:x-fmt/89
+prj:
+- pronom:fmt/320
+- fdd:fdd000280
+prn:
+- pronom:x-fmt/90
+pro:
+- pronom:fmt/183
+- pronom:fmt/184
+- pronom:fmt/185
+- pronom:fmt/186
+- pronom:fmt/187
+- pronom:fmt/188
+project:
+- pronom:x-fmt/437
+ps:
+- pronom:x-fmt/91
+- pronom:fmt/124
+- pronom:x-fmt/406
+- pronom:x-fmt/407
+- pronom:x-fmt/408
+- pronom:fmt/501
+psd:
+- pronom:x-fmt/92
+psf:
+- pronom:x-fmt/93
+psid:
+- pronom:fmt/314
+- pronom:fmt/315
+psp:
+- pronom:x-fmt/233
+- pronom:x-fmt/234
+- pronom:x-fmt/297
+- pronom:x-fmt/298
+- pronom:x-fmt/377
+pspimage:
+- pronom:x-fmt/297
+- pronom:x-fmt/298
+- pronom:x-fmt/376
+- pronom:fmt/348
+- pronom:fmt/349
+pst:
+- pronom:x-fmt/248
+- pronom:x-fmt/249
+psw:
+- pronom:x-fmt/94
+ptl:
+- pronom:x-fmt/179
+ptm:
+- pronom:fmt/519
+pub:
+- pronom:x-fmt/252
+- pronom:x-fmt/253
+- pronom:x-fmt/254
+- pronom:x-fmt/255
+- pronom:x-fmt/256
+- pronom:x-fmt/257
+pvd:
+- pronom:x-fmt/180
+pw:
+- pronom:x-fmt/353
+pwd:
+- pronom:x-fmt/94
+pwi:
+- pronom:x-fmt/95
+pwt:
+- pronom:x-fmt/96
+pzf:
+- pronom:fmt/576
+pzm:
+- pronom:fmt/575
+qcd:
+- pronom:x-fmt/182
+- pronom:fmt/651
+- pronom:fmt/652
+qct:
+- pronom:fmt/651
+- pronom:fmt/652
+qdf:
+- pronom:x-fmt/213
+- pronom:fmt/308
+qel:
+- pronom:x-fmt/213
+qfx:
+- pronom:fmt/309
+- pronom:fmt/310
+- pronom:fmt/311
+- pronom:fmt/312
+- pronom:fmt/313
+qic:
+- pronom:fmt/508
+qif:
+- pronom:fmt/307
+- fdd:fdd000052
+qpt:
+- pronom:fmt/651
+- pronom:fmt/652
+qt:
+- fdd:fdd000052
+qti:
+- fdd:fdd000052
+qtif:
+- fdd:fdd000052
+qtm:
+- pronom:x-fmt/384
+qxd:
+- pronom:x-fmt/182
+qxl:
+- pronom:x-fmt/182
+qxp:
+- pronom:x-fmt/182
+- pronom:fmt/651
+- pronom:fmt/652
+qxp report:
+- pronom:fmt/650
+qxp%20report:
+- pronom:fmt/650
+qxt:
+- pronom:x-fmt/182
+r3d:
+- pronom:fmt/588
+ra:
+- pronom:x-fmt/278
+- pronom:fmt/404
+- fdd:fdd000051
+raf:
+- pronom:fmt/642
+- fdd:fdd000241
+ram:
+- pronom:x-fmt/183
+rar:
+- pronom:x-fmt/264
+- pronom:fmt/411
+- pronom:fmt/613
+ras:
+- pronom:x-fmt/184
+rasterw:
+- pronom:fmt/367
+rat:
+- fdd:fdd000284
+raw:
+- pronom:x-fmt/185
+- pronom:fmt/655
+- pronom:fmt/656
+- fdd:fdd000011
+rb:
+- pronom:fmt/485
+rfa:
+- pronom:x-fmt/443
+rft:
+- pronom:x-fmt/285
+- pronom:x-fmt/444
+rgb:
+- pronom:x-fmt/140
+rhtm:
+- pronom:fmt/530
+rhtml:
+- pronom:fmt/530
+rif:
+- pronom:x-fmt/187
+rla:
+- pronom:x-fmt/188
+rle:
+- pronom:x-fmt/189
+rm:
+- pronom:x-fmt/190
+- fdd:fdd000050
+rm [for audio?]:
+- fdd:fdd000051
+rmi:
+- fdd:fdd000120
+rmvb:
+- pronom:x-fmt/190
+- fdd:fdd000050
+rqy:
+- pronom:x-fmt/97
+rte:
+- pronom:x-fmt/445
+rtf:
+- pronom:fmt/45
+- pronom:fmt/50
+- pronom:fmt/52
+- pronom:fmt/53
+- pronom:fmt/355
+rv:
+- pronom:x-fmt/277
+- pronom:fmt/204
+- fdd:fdd000050
+rvg:
+- pronom:x-fmt/446
+rvt:
+- pronom:x-fmt/447
+rws:
+- pronom:x-fmt/448
+rxd:
+- pronom:fmt/393
+s3m:
+- fdd:fdd000126
+- fdd:fdd000126
+sam:
+- pronom:x-fmt/191
+sas7bcat:
+- pronom:fmt/605
+- pronom:fmt/606
+sas7bdat:
+- pronom:fmt/607
+- pronom:fmt/608
+sat:
+- pronom:x-fmt/98
+sav:
+- pronom:fmt/638
+sbk:
+- pronom:fmt/470
+sbn:
+- pronom:fmt/319
+- fdd:fdd000280
+sbx:
+- pronom:fmt/319
+- fdd:fdd000280
+sc7:
+- pronom:fmt/605
+- pronom:fmt/606
+scd:
+- pronom:x-fmt/99
+scr:
+- pronom:x-fmt/100
+sct:
+- pronom:x-fmt/192
+sd2:
+- pronom:fmt/209
+sd7:
+- pronom:fmt/607
+- pronom:fmt/608
+sda:
+- pronom:x-fmt/401
+- pronom:x-fmt/402
+sdc:
+- pronom:x-fmt/359
+- pronom:x-fmt/404
+sdd:
+- pronom:x-fmt/360
+- pronom:x-fmt/405
+sdf:
+- pronom:x-fmt/193
+sdn:
+- pronom:x-fmt/449
+sdr:
+- pronom:fmt/623
+sds:
+- pronom:fmt/586
+sdw:
+- pronom:x-fmt/290
+- pronom:x-fmt/400
+- pronom:x-fmt/403
+sec:
+- fdd:fdd000284
+segy:
+- pronom:fmt/363
+sff:
+- pronom:fmt/504
+sgml:
+- pronom:x-fmt/195
+sh3:
+- pronom:x-fmt/101
+shar:
+- pronom:fmt/329
+shn:
+- fdd:fdd000199
+shp:
+- pronom:x-fmt/102
+- pronom:x-fmt/235
+- fdd:fdd000280
+shw:
+- pronom:x-fmt/324
+shx:
+- pronom:x-fmt/103
+- pronom:fmt/277
+- fdd:fdd000280
+siard:
+- pronom:fmt/159
+- pronom:fmt/161
+sid:
+- pronom:fmt/213
+- pronom:fmt/315
+- pronom:fmt/316
+- pronom:fmt/392
+- fdd:fdd000031
+- fdd:fdd000184
+sit:
+- pronom:fmt/639
+sitx:
+- pronom:fmt/399
+skb:
+- pronom:x-fmt/451
+skf:
+- pronom:x-fmt/306
+skp:
+- pronom:x-fmt/451
+slb:
+- pronom:x-fmt/104
+sld:
+- pronom:x-fmt/105
+sldm:
+- pronom:fmt/636
+slk:
+- pronom:x-fmt/106
+smi:
+- pronom:fmt/625
+smil:
+- pronom:fmt/205
+spf:
+- pronom:fmt/112
+- fdd:fdd000019
+spiff:
+- fdd:fdd000019
+spv:
+- pronom:fmt/274
+spx:
+- fdd:fdd000260
+sql:
+- pronom:fmt/206
+srf:
+- fdd:fdd000241
+ssd:
+- pronom:x-fmt/355
+- pronom:x-fmt/356
+stb:
+- pronom:x-fmt/107
+stk:
+- fdd:fdd000281
+stl:
+- pronom:x-fmt/108
+stm:
+- fdd:fdd000126
+stp:
+- pronom:fmt/453
+str:
+- pronom:fmt/210
+sun:
+- pronom:x-fmt/184
+svg:
+- pronom:fmt/91
+- pronom:fmt/92
+- pronom:fmt/413
+- fdd:fdd000020
+svgz:
+- pronom:x-fmt/109
+swf:
+- pronom:fmt/104
+- pronom:fmt/105
+- pronom:fmt/106
+- pronom:fmt/107
+- pronom:fmt/108
+- pronom:fmt/109
+- pronom:fmt/110
+- pronom:fmt/505
+- pronom:fmt/506
+- pronom:fmt/507
+- fdd:fdd000130
+- fdd:fdd000248
+swm:
+- pronom:fmt/614
+sxc:
+- pronom:fmt/129
+sxd:
+- pronom:fmt/127
+sxi:
+- pronom:fmt/130
+sxw:
+- pronom:fmt/128
+sys:
+- pronom:x-fmt/411
+tab:
+- fdd:fdd000300
+tag:
+- pronom:x-fmt/197
+tar:
+- pronom:x-fmt/265
+tar.gz:
+- fdd:fdd000286
+tbk:
+- pronom:fmt/470
+tbl:
+- pronom:x-fmt/198
+tdk:
+- pronom:x-fmt/199
+tf8:
+- fdd:fdd000328
+tfw:
+- pronom:fmt/367
+tfx:
+- pronom:fmt/156
+tga:
+- pronom:x-fmt/367
+- pronom:fmt/402
+- fdd:fdd000179
+- fdd:fdd000180
+thmx:
+- pronom:fmt/524
+thn:
+- pronom:fmt/336
+tif:
+- pronom:x-fmt/387
+- pronom:x-fmt/388
+- pronom:x-fmt/399
+- pronom:fmt/152
+- pronom:fmt/153
+- pronom:fmt/154
+- pronom:fmt/155
+- pronom:fmt/156
+- pronom:fmt/353
+- fdd:fdd000022
+- fdd:fdd000073
+- fdd:fdd000188
+- fdd:fdd000279
+- fdd:fdd000292
+- fdd:fdd000328
+tiff:
+- pronom:fmt/152
+- pronom:fmt/153
+- pronom:fmt/154
+- pronom:fmt/155
+- pronom:fmt/156
+- pronom:fmt/353
+- fdd:fdd000022
+- fdd:fdd000073
+- fdd:fdd000279
+- fdd:fdd000328
+tifw:
+- pronom:fmt/367
+trn:
+- pronom:fmt/455
+ts:
+- pronom:fmt/585
+tsv:
+- pronom:x-fmt/13
+ttf:
+- pronom:x-fmt/453
+txc:
+- pronom:fmt/496
+txt:
+- pronom:x-fmt/111
+- fdd:fdd000284
+tym:
+- pronom:x-fmt/200
+udl:
+- pronom:x-fmt/112
+ulaw:
+- pronom:x-fmt/201
+ult:
+- fdd:fdd000126
+url:
+- pronom:x-fmt/454
+vcf:
+- pronom:fmt/395
+vcs:
+- pronom:fmt/387
+vct:
+- pronom:x-fmt/342
+vcx:
+- pronom:fmt/379
+vda:
+- pronom:x-fmt/367
+- pronom:fmt/402
+- fdd:fdd000179
+vdx:
+- pronom:fmt/216
+vic:
+- pronom:fmt/383
+vicar:
+- pronom:fmt/383
+viv:
+- pronom:fmt/499
+vml:
+- pronom:fmt/583
+vob:
+- pronom:fmt/425
+vsd:
+- pronom:x-fmt/113
+- pronom:x-fmt/258
+- pronom:x-fmt/259
+- pronom:fmt/442
+- pronom:fmt/443
+vst:
+- pronom:x-fmt/367
+- pronom:fmt/402
+- fdd:fdd000179
+vwx:
+- pronom:fmt/450
+- pronom:fmt/451
+w50:
+- pronom:x-fmt/393
+w51:
+- pronom:x-fmt/394
+w52:
+- pronom:x-fmt/203
+w60:
+- pronom:x-fmt/44
+waf:
+- pronom:fmt/500
+warc:
+- pronom:fmt/289
+- fdd:fdd000236
+wav:
+- pronom:fmt/6
+- pronom:fmt/2
+- pronom:x-fmt/389
+- pronom:fmt/1
+- pronom:x-fmt/396
+- pronom:x-fmt/397
+- pronom:fmt/141
+- pronom:fmt/141
+- pronom:fmt/142
+- pronom:fmt/143
+- pronom:fmt/527
+- fdd:fdd000001
+- fdd:fdd000003
+- fdd:fdd000053
+- fdd:fdd000256
+- fdd:fdd000275
+- fdd:fdd000356
+- fdd:fdd000357
+- fdd:fdd000359
+wave:
+- pronom:fmt/142
+- pronom:fmt/143
+wax:
+- pronom:fmt/584
+wbmp:
+- pronom:fmt/497
+wdb:
+- pronom:fmt/169
+- pronom:fmt/170
+- pronom:fmt/171
+- pronom:fmt/219
+- pronom:fmt/222
+- pronom:fmt/223
+- pronom:fmt/224
+- pronom:fmt/225
+- pronom:fmt/226
+- pronom:fmt/246
+- pronom:fmt/249
+- pronom:fmt/252
+- pronom:fmt/256
+- pronom:fmt/259
+- pronom:fmt/260
+- pronom:fmt/261
+- pronom:fmt/268
+- pronom:fmt/269
+wdp:
+- pronom:fmt/590
+- fdd:fdd000243
+webm:
+- pronom:fmt/573
+webp:
+- pronom:fmt/566
+- pronom:fmt/567
+- pronom:fmt/568
+wi:
+- pronom:x-fmt/202
+wim:
+- pronom:fmt/614
+wk1:
+- pronom:x-fmt/114
+wk2:
+- pronom:x-fmt/114
+wk3:
+- pronom:x-fmt/115
+wk4:
+- pronom:x-fmt/116
+wkq:
+- pronom:x-fmt/121
+- pronom:x-fmt/122
+wks:
+- pronom:x-fmt/117
+- pronom:x-fmt/118
+- pronom:fmt/166
+- pronom:fmt/167
+- pronom:fmt/168
+- pronom:fmt/220
+- pronom:fmt/227
+- pronom:fmt/228
+- pronom:fmt/229
+- pronom:fmt/230
+- pronom:fmt/231
+- pronom:fmt/247
+- pronom:fmt/250
+- pronom:fmt/253
+- pronom:fmt/257
+- pronom:fmt/262
+- pronom:fmt/263
+- pronom:fmt/264
+- pronom:fmt/270
+- pronom:fmt/271
+wld:
+- pronom:fmt/459
+- pronom:fmt/461
+wma:
+- pronom:fmt/132
+- fdd:fdd000027
+- fdd:fdd000097
+- fdd:fdd000098
+- fdd:fdd000099
+wmf:
+- pronom:x-fmt/119
+wmo:
+- pronom:fmt/284
+- pronom:fmt/285
+wmv:
+- pronom:fmt/133
+- pronom:fmt/441
+- fdd:fdd000091
+wmx:
+- pronom:fmt/584
+woff:
+- pronom:fmt/616
+wow:
+- fdd:fdd000126
+wp:
+- pronom:x-fmt/44
+- pronom:x-fmt/203
+- pronom:x-fmt/393
+- pronom:x-fmt/394
+wp5:
+- pronom:x-fmt/203
+- pronom:x-fmt/393
+- pronom:x-fmt/394
+wp6:
+- pronom:x-fmt/44
+wpd:
+- pronom:x-fmt/44
+- pronom:x-fmt/203
+- pronom:x-fmt/393
+- pronom:x-fmt/394
+wpg:
+- pronom:x-fmt/395
+wpl:
+- pronom:x-fmt/287
+- pronom:fmt/589
+wpm:
+- pronom:x-fmt/204
+wps:
+- pronom:x-fmt/120
+- pronom:fmt/163
+- pronom:fmt/233
+- pronom:fmt/258
+- pronom:fmt/272
+- pronom:fmt/273
+wq1:
+- pronom:x-fmt/121
+wq2:
+- pronom:x-fmt/122
+wri:
+- pronom:x-fmt/4
+- pronom:x-fmt/12
+wrl:
+- pronom:fmt/93
+- pronom:fmt/94
+ws:
+- pronom:x-fmt/205
+- pronom:x-fmt/206
+- pronom:x-fmt/236
+- pronom:x-fmt/237
+- pronom:x-fmt/260
+- pronom:x-fmt/261
+- pronom:x-fmt/262
+- pronom:x-fmt/370
+ws3:
+- pronom:x-fmt/370
+ws4:
+- pronom:x-fmt/260
+ws5:
+- pronom:x-fmt/205
+ws6:
+- pronom:x-fmt/237
+ws7:
+- pronom:x-fmt/261
+wsd:
+- pronom:x-fmt/206
+wsw:
+- pronom:x-fmt/206
+- pronom:x-fmt/262
+wvx:
+- pronom:fmt/584
+x00:
+- pronom:x-fmt/226
+x3d:
+- pronom:fmt/579
+- pronom:fmt/580
+- pronom:fmt/581
+- pronom:fmt/582
+x3f:
+- pronom:fmt/661
+- fdd:fdd000241
+xar:
+- pronom:fmt/600
+xbm:
+- pronom:x-fmt/207
+- pronom:x-fmt/299
+xcf:
+- pronom:fmt/615
+xdm:
+- pronom:x-fmt/300
+- pronom:fmt/401
+xla:
+- pronom:x-fmt/123
+- pronom:x-fmt/124
+xlam:
+- pronom:fmt/628
+xlb:
+- pronom:x-fmt/125
+xlc:
+- pronom:x-fmt/126
+- pronom:fmt/553
+- pronom:fmt/554
+xlg:
+- pronom:x-fmt/127
+xlk:
+- pronom:x-fmt/23
+xll:
+- pronom:x-fmt/124
+xlm:
+- pronom:x-fmt/123
+- pronom:fmt/555
+- pronom:fmt/556
+xls:
+- pronom:fmt/55
+- pronom:fmt/56
+- pronom:fmt/57
+- pronom:fmt/59
+- pronom:fmt/60
+- pronom:fmt/61
+- pronom:fmt/62
+- pronom:fmt/172
+- pronom:fmt/173
+- pronom:fmt/174
+- pronom:fmt/175
+- pronom:fmt/176
+- pronom:fmt/177
+- pronom:fmt/178
+xlsb:
+- pronom:fmt/595
+xlsm:
+- pronom:fmt/445
+xlsx:
+- pronom:fmt/214
+- pronom:fmt/494
+xlt:
+- pronom:x-fmt/17
+xltm:
+- pronom:fmt/627
+xltx:
+- pronom:fmt/598
+xlw:
+- pronom:x-fmt/128
+- pronom:fmt/58
+- pronom:fmt/59
+- pronom:fmt/61
+- pronom:fmt/62
+xm:
+- pronom:fmt/323
+- fdd:fdd000126
+- fdd:fdd000126
+xmf:
+- fdd:fdd000121
+xml:
+- pronom:fmt/101
+- pronom:fmt/121
+- pronom:fmt/120
+- fdd:fdd000014
+- fdd:fdd000053
+- fdd:fdd000054
+- fdd:fdd000075
+- fdd:fdd000171
+- fdd:fdd000174
+- fdd:fdd000256
+- fdd:fdd000263
+- fdd:fdd000264
+- fdd:fdd000275
+- fdd:fdd000280
+- fdd:fdd000295
+- fdd:fdd000358
+xmp:
+- pronom:fmt/570
+xmt:
+- fdd:fdd000156
+xpm:
+- pronom:x-fmt/208
+xps:
+- pronom:fmt/657
+xpt:
+- pronom:fmt/601
+- pronom:fmt/602
+- pronom:fmt/603
+- pronom:fmt/604
+xsd:
+- pronom:x-fmt/280
+- fdd:fdd000077
+xsl:
+- pronom:x-fmt/281
+xtf:
+- pronom:fmt/653
+xtg:
+- pronom:fmt/650
+xwd:
+- pronom:x-fmt/209
+- pronom:x-fmt/300
+- pronom:fmt/401
+xy:
+- pronom:x-fmt/210
+xy3:
+- pronom:x-fmt/211
+xy4:
+- pronom:x-fmt/373
+xyp:
+- pronom:x-fmt/372
+xyw:
+- pronom:x-fmt/371
+z:
+- pronom:x-fmt/266
+zip:
+- pronom:x-fmt/263
+- fdd:fdd000354
+- fdd:fdd000355
+- fdd:fdd000361
+- fdd:fdd000362
+zoo:
+- pronom:x-fmt/269
