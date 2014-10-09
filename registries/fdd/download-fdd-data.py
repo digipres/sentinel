@@ -10,3 +10,7 @@ urllib.urlretrieve(url,"fddXML.zip")
 # Unpack them:
 command = "unzip -o fddXML.zip"
 os.system(command)
+
+# Ensure Git picks them up:
+command = "git add fddXML"
+os.system(command)

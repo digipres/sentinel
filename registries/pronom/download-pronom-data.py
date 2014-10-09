@@ -56,4 +56,8 @@ def downloadPronomRecords():
         # Download it:
         urllib.urlretrieve(getUrlForPuid(puid),"%s.xml" % puid)
 
-downloadPronomRecords()
+#downloadPronomRecords()
+
+# Ensure Git picks them up:
+command = "git add binsigs contsigs fmt x-fmt *.xml"
+os.system(command)
