@@ -8,26 +8,28 @@
 		</ExtraInfo>
 		<User>Marco Pontello</User>
 		<E-Mail>marcopon@gmail.com</E-Mail>
-		<Home>http://mark0.net</Home>	</Info>
+		<Home>http://mark0.net</Home>
+	</Info>
 	<General>
-		<FileNum>6</FileNum>
+		<FileNum>75</FileNum>
+		<Refine>69 by Stef</Refine>
 		<CheckStrings>True</CheckStrings>
 		<Date>
-			<Year>2007</Year>
-			<Month>05</Month>
-			<Day>02</Day>
+			<Year>2012</Year>
+			<Month>07</Month>
+			<Day>18</Day>
 		</Date>
 		<Time>
-			<Hour>15</Hour>
-			<Min>42</Min>
-			<Sec>25</Sec>
+			<Hour>11</Hour>
+			<Min>38</Min>
+			<Sec>52</Sec>
 		</Time>
 		<Creator>TrIDScan32 v1.56</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
-			<Bytes>3C3F786D6C2076657273696F6E3D22312E30223F3E</Bytes>
-			<ASCII> . ? x m l   v e r s i o n = " 1 . 0 " ?</ASCII>
+			<Bytes>3C3F786D6C2076657273696F6E3D22312E3022</Bytes>
+			<ASCII> . ? x m l   v e r s i o n = " 1 . 0 "</ASCII>
 			<Pos>0</Pos>
 		</Pattern>
 	</FrontBlock>
@@ -40,6 +42,5 @@
 		<String>CHROME</String>
 		<String>XMLNS</String>
 		<String>HTTP</String>
-		<String>TYPE</String>
 	</GlobalStrings>
 </TrID>

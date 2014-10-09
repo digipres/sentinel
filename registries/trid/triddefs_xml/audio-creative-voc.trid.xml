@@ -1,6 +1,6 @@
-<TrID ver="1.18">
+<TrID ver="2.00">
 	<Info>
-		<FileType>Creative Voice (Audio) File</FileType>
+		<FileType>Creative Voice audio</FileType>
 		<Ext>VOC</Ext>
 		<ExtraInfo>
 			<Rem></Rem>
@@ -11,29 +11,25 @@
 		<Home></Home>
 	</Info>
 	<General>
-		<FileNum>82</FileNum>
-		<Refine>41 by Marco Pontello</Refine>
+		<FileNum>83</FileNum>
+		<Refine>42 by Marco Pontello</Refine>
 		<Date>
-			<Year>2003</Year>
-			<Month>10</Month>
-			<Day>18</Day>
+			<Year>2013</Year>
+			<Month>12</Month>
+			<Day>15</Day>
 		</Date>
 		<Time>
 			<Hour>15</Hour>
-			<Min>38</Min>
-			<Sec>14</Sec>
+			<Min>7</Min>
+			<Sec>40</Sec>
 		</Time>
-		<Creator>TrIDScan32 v1.23</Creator>
+		<Creator>TrIDScan/Py v1.90</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
-			<Bytes>437265617469766520566F6963652046696C651A1A000A012911</Bytes>
-			<ASCII> C r e a t i v e   V o i c e   F i l e . . . . . )</ASCII>
+			<Bytes>437265617469766520566F6963652046696C651A1A00</Bytes>
+			<ASCII> C r e a t i v e   V o i c e   F i l e</ASCII>
 			<Pos>0</Pos>
-		</Pattern>
-		<Pattern>
-			<Bytes>00</Bytes>
-			<Pos>29</Pos>
 		</Pattern>
 	</FrontBlock>
 </TrID>

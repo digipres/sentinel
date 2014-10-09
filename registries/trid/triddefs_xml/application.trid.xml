@@ -11,19 +11,20 @@
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>4</FileNum>
+		<FileNum>5</FileNum>
+		<Refine>1 by Marco Pontello</Refine>
 		<CheckStrings>True</CheckStrings>
 		<Date>
-			<Year>2008</Year>
-			<Month>08</Month>
-			<Day>05</Day>
+			<Year>2012</Year>
+			<Month>11</Month>
+			<Day>29</Day>
 		</Date>
 		<Time>
-			<Hour>14</Hour>
-			<Min>16</Min>
-			<Sec>16</Sec>
+			<Hour>15</Hour>
+			<Min>40</Min>
+			<Sec>37</Sec>
 		</Time>
-		<Creator>TrIDScan32 v1.56</Creator>
+		<Creator>TrIDScan/Py v1.80</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
@@ -37,14 +38,13 @@
 		<String>ASM.V1 ASSEMBLY.ADAPTIVE.XSD</String>
 		<String>HASHTRANSFORMS.IDENTITY</String>
 		<String>DIGESTMETHOD ALGORITHM</String>
-		<String>PROCESSORARCHITECTURE</String>
 		<String>ASSEMBLYIDENTITY NAME</String>
+		<String>PROCESSORARCHITECTURE</String>
 		<String>SCHEMAS-MICROSOFT-COM</String>
 		<String>TRANSFORM ALGORITHM</String>
-		<String>XMLSCHEMA-INSTANCE</String>
 		<String>DEPLOYMENT INSTALL</String>
+		<String>XMLSCHEMA-INSTANCE</String>
 		<String>DESCRIPTION ASMV2</String>
-		<String>MAPFILEEXTENSIONS</String>
 		<String>MANIFESTVERSION</String>
 		<String>PUBLICKEYTOKEN</String>
 		<String>SCHEMALOCATION</String>
@@ -52,26 +52,27 @@
 		<String>.APPLICATION</String>
 		<String>ASSEMBLY XSI</String>
 		<String>01-REL-R-NS</String>
-		<String>XML VERSION</String>
 		<String>DIGESTVALUE</String>
+		<String>XML VERSION</String>
 		<String>WWW.W3.ORG</String>
 		<String>PUBLISHER</String>
-		<String>ENCODING</String>
 		<String>CODEBASE</String>
+		<String>ENCODING</String>
 		<String>LANGUAGE</String>
-		<String>XMLDSIG</String>
 		<String>PRODUCT</String>
+		<String>XMLDSIG</String>
 		<String>ASM.V2</String>
 		<String>MPEG21</String>
-		<String>UTF-8</String>
 		<String>ASMV1</String>
-		<String>XMLNS</String>
+		<String>UTF-8</String>
 		<String>WIN32</String>
-		<String>TRUE</String>
-		<String>MSIL</String>
-		<String>SIZE</String>
+		<String>XMLNS</String>
+		<String>FILE</String>
 		<String>HTTP</String>
+		<String>MSIL</String>
 		<String>SHA1</String>
+		<String>SIZE</String>
+		<String>TRUE</String>
 		<String>XRML</String>
 	</GlobalStrings>
 </TrID>

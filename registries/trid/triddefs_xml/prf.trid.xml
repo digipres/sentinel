@@ -1,6 +1,6 @@
 <TrID ver="2.00">
 	<Info>
-		<FileType>Atheros Profile File</FileType>
+		<FileType>Atheros Profile</FileType>
 		<Ext>PRF</Ext>
 		<ExtraInfo>
 			<Rem>Used by Atheros Client Utility.</Rem>

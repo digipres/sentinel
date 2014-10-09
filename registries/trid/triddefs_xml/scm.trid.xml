@@ -11,19 +11,20 @@
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>15</FileNum>
+		<FileNum>22</FileNum>
+		<Refine>7 by Marco Pontello</Refine>
 		<CheckStrings>True</CheckStrings>
 		<Date>
-			<Year>2009</Year>
+			<Year>2012</Year>
 			<Month>12</Month>
-			<Day>12</Day>
+			<Day>2</Day>
 		</Date>
 		<Time>
 			<Hour>15</Hour>
-			<Min>03</Min>
-			<Sec>10</Sec>
+			<Min>42</Min>
+			<Sec>15</Sec>
 		</Time>
-		<Creator>TrIDScan32 v1.56</Creator>
+		<Creator>TrIDScan/Py v1.80</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
@@ -33,10 +34,11 @@
 		</Pattern>
 	</FrontBlock>
 	<GlobalStrings>
-		<String>(SCRIPT-FU-REGISTER</String>
-		<String>(DEFINE (SCRIPT-FU-</String>
+		<String>(DEFINE (</String>
 		<String>-DRAWABLE</String>
-		<String>-IMAGE</String>
 		<String>(GIMP-</String>
+		<String>-IMAGE</String>
+		<String>REGIST</String>
+		<String>SCRIPT</String>
 	</GlobalStrings>
 </TrID>

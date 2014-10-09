@@ -11,20 +11,20 @@
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>72</FileNum>
-		<Refine>9 by Marco Pontello - 11 by Marco Pontello</Refine>
+		<FileNum>83</FileNum>
+		<Refine>20 by Marco Pontello - 11 by Erik Siers</Refine>
 		<CheckStrings>True</CheckStrings>
 		<Date>
-			<Year>2003</Year>
-			<Month>12</Month>
-			<Day>17</Day>
+			<Year>2014</Year>
+			<Month>01</Month>
+			<Day>06</Day>
 		</Date>
 		<Time>
-			<Hour>14</Hour>
-			<Min>39</Min>
-			<Sec>29</Sec>
+			<Hour>22</Hour>
+			<Min>11</Min>
+			<Sec>42</Sec>
 		</Time>
-		<Creator>TrIDScan32 v1.55</Creator>
+		<Creator>TrIDScan32 v1.56</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
@@ -375,94 +375,90 @@
 			<Bytes>03</Bytes>
 			<Pos>459</Pos>
 		</Pattern>
-		<Pattern>
-			<Bytes>03</Bytes>
-			<Pos>463</Pos>
-		</Pattern>
 	</FrontBlock>
 	<GlobalStrings>
-		<String>$DAC</String>
-		<String>B_ULSYMSEG</String>
-		<String>B_ULVARS</String>
-		<String>CDATA</String>
-		<String>COMMON</String>
-		<String>DBDATA</String>
-		<String>ENMALLOC</String>
-		<String>FAR_BSS</String>
-		<String>FAR_DATA</String>
-		<String>FIARQQ</String>
-		<String>FICRQQ</String>
-		<String>FIDRQQ</String>
-		<String>FIERQQ</String>
-		<String>FISRQQ</String>
-		<String>FIWRQQ</String>
-		<String>FJARQQ</String>
-		<String>FJCRQQ</String>
-		<String>FJSRQQ</String>
-		<String>PPPPP+</String>
-		<String>PSHHUP</String>
-		<String>PSQRVW</String>
-		<String>SETUEVENT</String>
-		<String>STACK'SYMBOL</String>
-		<String>STKHQQ</String>
-		<String>STRINGADDRESS</String>
-		<String>STRINGASSIGN</String>
-		<String>STRINGLENGTH</String>
+		<String>__DOSVERMINOR</String>
+		<String>__DOSVERMAJOR</String>
 		<String>STRINGRELEASE</String>
-		<String>UBHTCP</String>
-		<String>XMSSEG</String>
-		<String>_EDATA</String>
-		<String>_END</String>
-		<String>_ERRNO</String>
-		<String>_MAIN</String>
+		<String>STRINGADDRESS</String>
+		<String>STRINGLENGTH</String>
+		<String>__FPTASKDATA</String>
+		<String>___ADBSWPCHK</String>
+		<String>STRINGASSIGN</String>
+		<String>___ADBCALLBK</String>
+		<String>STACK'SYMBOL</String>
+		<String>___ADBSWPFLG</String>
 		<String>__AALTSTKOVR</String>
-		<String>__ACFINFO</String>
-		<String>__ACMDLN</String>
-		<String>__ACMDSEG</String>
-		<String>__ACRTUSED</String>
-		<String>__ADBDOSWP</String>
-		<String>__AENVSEG</String>
-		<String>__AEXIT_RTN</String>
-		<String>__AINTDIV</String>
+		<String>__OSVERSION</String>
+		<String>__NULLCHECK</String>
 		<String>__AMSG_EXIT</String>
 		<String>__ANULLSIZE</String>
-		<String>__ASEGLO</String>
-		<String>__ASIZDS</String>
-		<String>__ATOPSP</String>
-		<String>__AULSTART</String>
-		<String>__BPBC_SAB</String>
-		<String>__CEXIT</String>
-		<String>__CHILD</String>
-		<String>__CHKSTK</String>
-		<String>__CINTDIV</String>
-		<String>__DOSERRNO</String>
-		<String>__DOSVERMAJOR</String>
-		<String>__DOSVERMINOR</String>
-		<String>__EXIT</String>
-		<String>__FAC</String>
 		<String>__FMSG_TEXT</String>
-		<String>__FPMATH</String>
-		<String>__FPRESET</String>
-		<String>__FPSIGNAL</String>
-		<String>__FPTASKDATA</String>
-		<String>__FPTRAP</String>
-		<String>__NFILE</String>
-		<String>__NULLCHECK</String>
-		<String>__OSERR</String>
-		<String>__OSFILE</String>
-		<String>__OSMAJOR</String>
-		<String>__OSMINOR</String>
-		<String>__OSMODE</String>
-		<String>__OSVERSION</String>
-		<String>__PGMPTR</String>
-		<String>__PSPADR</String>
-		<String>__UMASKVAL</String>
-		<String>___ADBCALLBK</String>
-		<String>___ADBEXIT</String>
+		<String>__AEXIT_RTN</String>
 		<String>___ADBRTERR</String>
-		<String>___ADBSWPCHK</String>
-		<String>___ADBSWPFLG</String>
-		<String>___ARGC</String>
+		<String>B_ULSYMSEG</String>
+		<String>__ADBDOSWP</String>
+		<String>__FPSIGNAL</String>
+		<String>__AULSTART</String>
+		<String>__DOSERRNO</String>
+		<String>__ACRTUSED</String>
+		<String>__UMASKVAL</String>
+		<String>___ADBEXIT</String>
+		<String>__BPBC_SAB</String>
+		<String>__CINTDIV</String>
+		<String>__OSMINOR</String>
+		<String>__FPRESET</String>
+		<String>__ACFINFO</String>
+		<String>__AINTDIV</String>
+		<String>__OSMAJOR</String>
+		<String>__ACMDSEG</String>
+		<String>__AENVSEG</String>
+		<String>SETUEVENT</String>
+		<String>__ASEGLO</String>
+		<String>__CHKSTK</String>
+		<String>FAR_DATA</String>
+		<String>__OSMODE</String>
+		<String>ENMALLOC</String>
+		<String>__ACMDLN</String>
+		<String>__PSPADR</String>
+		<String>__FPMATH</String>
+		<String>__ASIZDS</String>
+		<String>__FPTRAP</String>
+		<String>__ATOPSP</String>
+		<String>__PGMPTR</String>
+		<String>B_ULVARS</String>
+		<String>__OSFILE</String>
+		<String>__CEXIT</String>
 		<String>___ARGV</String>
+		<String>___ARGC</String>
+		<String>__CHILD</String>
+		<String>__NFILE</String>
+		<String>__OSERR</String>
+		<String>FAR_BSS</String>
+		<String>STKHQQ</String>
+		<String>FJCRQQ</String>
+		<String>FIARQQ</String>
+		<String>FISRQQ</String>
+		<String>FIDRQQ</String>
+		<String>FICRQQ</String>
+		<String>UBHTCP</String>
+		<String>COMMON</String>
+		<String>DBDATA</String>
+		<String>FJSRQQ</String>
+		<String>FIERQQ</String>
+		<String>PPPPP+</String>
+		<String>XMSSEG</String>
+		<String>_EDATA</String>
+		<String>__EXIT</String>
+		<String>_ERRNO</String>
+		<String>FJARQQ</String>
+		<String>FIWRQQ</String>
+		<String>PSHHUP</String>
+		<String>PSQRVW</String>
+		<String>CDATA</String>
+		<String>_MAIN</String>
+		<String>__FAC</String>
+		<String>_END</String>
+		<String>$DAC</String>
 	</GlobalStrings>
 </TrID>

@@ -4,10 +4,11 @@
 		<Ext>ESP</Ext>
 		<ExtraInfo>
 			<Rem></Rem>
-			<RefURL>http://www.elderscrolls.com/index.php?url=/games/games_overview.htm&amp;bg=02</RefURL>
+			<RefURL>http://en.wikipedia.org/wiki/The_Elder_Scrolls_III:_Morrowind</RefURL>
 		</ExtraInfo>
 		<User>Marco Pontello</User>
-		<E-Mail>marcopon@gmail.com</E-Mail>		<Home>http://mark0.net</Home>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+                <Home>http://mark0.net</Home>
 	</Info>
 	<General>
 		<FileNum>13</FileNum>

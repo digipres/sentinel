@@ -1,24 +1,30 @@
-<TrID ver="1.15">
+<TrID ver="2.00">
 	<Info>
 		<FileType>Indipendent Color Matching profile</FileType>
 		<Ext>ICM</Ext>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL></RefURL>
+		</ExtraInfo>
 		<User>Marco Pontello</User>
 		<E-Mail>marcopon@gmail.com</E-Mail>
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>53</FileNum>
+		<FileNum>450</FileNum>
+		<Refine>397 by Stef</Refine>
+		<CheckStrings>True</CheckStrings>
 		<Date>
-			<Year>2003</Year>
+			<Year>2012</Year>
 			<Month>07</Month>
-			<Day>07</Day>
+			<Day>18</Day>
 		</Date>
 		<Time>
-			<Hour>14</Hour>
-			<Min>51</Min>
-			<Sec>40</Sec>
+			<Hour>11</Hour>
+			<Min>25</Min>
+			<Sec>59</Sec>
 		</Time>
-		<Creator>TrIDScan32 v1.00</Creator>
+		<Creator>TrIDScan32 v1.56</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
@@ -59,7 +65,17 @@
 		</Pattern>
 		<Pattern>
 			<Bytes>61637370</Bytes>
+			<ASCII> a c s p</ASCII>
 			<Pos>36</Pos>
 		</Pattern>
 	</FrontBlock>
+	<GlobalStrings>
+		<String>COPYRIGHT</String>
+		<String>RIGHTS</String>
+		<String>ACSP</String>
+		<String>TEXT</String>
+		<String>CPRT</String>
+		<String>DESC</String>
+		<String>WTPT</String>
+	</GlobalStrings>
 </TrID>

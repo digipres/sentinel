@@ -1,6 +1,6 @@
 <TrID ver="2.00">
 	<Info>
-		<FileType>Scrivener XML Document</FileType>
+		<FileType>Scrivener XML document</FileType>
 		<Ext>SCRIVX</Ext>
 		<ExtraInfo>
 			<Rem></Rem>
@@ -11,19 +11,20 @@
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>6</FileNum>
+		<FileNum>24</FileNum>
+		<Refine>18 by Kristopher Neidecker</Refine>
 		<CheckStrings>True</CheckStrings>
 		<Date>
-			<Year>2011</Year>
+			<Year>2014</Year>
 			<Month>6</Month>
-			<Day>12</Day>
+			<Day>24</Day>
 		</Date>
 		<Time>
-			<Hour>0</Hour>
-			<Min>16</Min>
-			<Sec>0</Sec>
+			<Hour>17</Hour>
+			<Min>53</Min>
+			<Sec>46</Sec>
 		</Time>
-		<Creator>TrIDScan/Py v1.79.11b</Creator>
+		<Creator>TrIDScan/Py v1.90</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
@@ -44,17 +45,13 @@
 		<String>SEARCH RESULTS</String>
 		<String>STATUSSETTINGS</String>
 		<String>BINDERITEM ID</String>
-		<String>FILEEXTENSION</String>
 		<String>LABELSETTINGS</String>
-		<String>MEDIASETTINGS</String>
-		<String>REVISED DRAFT</String>
 		<String>BOTTOMMARGIN</String>
 		<String>RECENTSEARCH</String>
 		<String>TEXTSETTINGS</String>
 		<String>COLLECTIONS</String>
 		<String>DRAFTFOLDER</String>
 		<String>FINAL DRAFT</String>
-		<String>FIRST DRAFT</String>
 		<String>ORIENTATION</String>
 		<String>RIGHTMARGIN</String>
 		<String>STATUSITEMS</String>
@@ -81,8 +78,7 @@
 		<String>TO DO</String>
 		<String>UTF-8</String>
 		<String>WORDS</String>
-		<String>DONE</String>
-		<String>PAGE</String>
+		<String>ENSI</String>
 		<String>TIVE</String>
 		<String>UNTI</String>
 	</GlobalStrings>

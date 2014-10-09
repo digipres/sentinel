@@ -28,7 +28,7 @@
 	</General>
 	<FrontBlock>
 		<Pattern>
-			<Bytes>786F66203</Bytes>
+			<Bytes>786F6620</Bytes>
 			<ASCII> x o f</ASCII>
 			<Pos>0</Pos>
 		</Pattern>

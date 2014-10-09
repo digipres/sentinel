@@ -11,29 +11,34 @@
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>2</FileNum>
+		<FileNum>258</FileNum>
+		<Refine>256 by MBit</Refine>
 		<CheckStrings>True</CheckStrings>
 		<Date>
-			<Year>2010</Year>
+			<Year>2012</Year>
 			<Month>08</Month>
-			<Day>05</Day>
+			<Day>16</Day>
 		</Date>
 		<Time>
-			<Hour>02</Hour>
-			<Min>46</Min>
-			<Sec>48</Sec>
+			<Hour>22</Hour>
+			<Min>03</Min>
+			<Sec>19</Sec>
 		</Time>
 		<Creator>TrIDScan32 v1.56</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
-			<Bytes>B8AFA66070737073A2A9AE60707073725F404140</Bytes>
-			<ASCII> . . . ` p s p s . . . ` p p s r _ @ A @</ASCII>
+			<Bytes>B8AFA660707370</Bytes>
+			<ASCII> . . . ` p s p</ASCII>
 			<Pos>0</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>6070707372</Bytes>
+			<ASCII> ` p p s r</ASCII>
+			<Pos>11</Pos>
 		</Pattern>
 	</FrontBlock>
 	<GlobalStrings>
-		<String>PPSR_</String>
-		<String>PSPS</String>
+		<String>PPSR</String>
 	</GlobalStrings>
 </TrID>

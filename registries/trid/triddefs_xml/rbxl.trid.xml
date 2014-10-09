@@ -11,19 +11,20 @@
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>20</FileNum>
+		<FileNum>23</FileNum>
+		<Refine>3 by Marco Pontello</Refine>
 		<CheckStrings>True</CheckStrings>
 		<Date>
-			<Year>2012</Year>
-			<Month>3</Month>
-			<Day>31</Day>
+			<Year>2014</Year>
+			<Month>6</Month>
+			<Day>3</Day>
 		</Date>
 		<Time>
-			<Hour>20</Hour>
-			<Min>52</Min>
-			<Sec>1</Sec>
+			<Hour>3</Hour>
+			<Min>13</Min>
+			<Sec>5</Sec>
 		</Time>
-		<Creator>TrIDScan/Py v1.79.12b</Creator>
+		<Creator>TrIDScan/Py v1.90</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
@@ -37,21 +38,13 @@
 		<String>SCRIPTINFORMATIONPROVIDER</String>
 		<String>CHANGEHISTORYSERVICE</String>
 		<String>COORDINATEFRAME NAME</String>
-		<String>SCRIPT.PARENT.PARENT</String>
 		<String>BOTTOMSURFACEINPUT</String>
 		<String>SHOWDEVELOPMENTGUI</String>
 		<String>XMLSCHEMA-INSTANCE</String>
-		<String>CONNECT(FUNCTION(</String>
 		<String>FRONTSURFACEINPUT</String>
 		<String>RIGHTSURFACEINPUT</String>
 		<String>BACKSURFACEINPUT</String>
 		<String>LEFTSURFACEINPUT</String>
-		<String>SCRIPT.PARENT.TO</String>
-		<String>BEVEL ROUNDNESS</String>
-		<String>CONTENTPROVIDER</String>
-		<String>FINDFIRSTCHILD(</String>
-		<String>GAME.WORKSPACE.</String>
-		<String>THEN RETURN END</String>
 		<String>TOPSURFACEINPUT</String>
 		<String>DISTANCEFACTOR</String>
 		<String>MODELINPRIMARY</String>
@@ -59,130 +52,72 @@
 		<String>WWW.ROBLOX.COM</String>
 		<String>AMBIENTREVERB</String>
 		<String>CAMERASUBJECT</String>
-		<String>CONTENTFILTER</String>
 		<String>BADGESERVICE</String>
-		<String>CONTENT NAME</String>
-		<String>CYLINDERMESH</String>
-		<String>DESIREDANGLE</String>
 		<String>DOPPLERSCALE</String>
-		<String>LINKEDSOURCE</String>
 		<String>ROBLOX XMLNS</String>
 		<String>ROLLOFFSCALE</String>
 		<String>SOUNDSERVICE</String>
 		<String>TRANSPARENCY</String>
 		<String>BOTTOMPARAM</String>
-		<String>GETCHILDREN</String>
-		<String>LOCAL PRINT</String>
-		<String>MAXVELOCITY</String>
 		<String>PRIMARYPART</String>
 		<String>REFLECTANCE</String>
 		<String>ROTVELOCITY</String>
-		<String>RUN SERVICE</String>
-		<String>SPECIALMESH</String>
 		<String>STARTERPACK</String>
 		<String>STRING NAME</String>
-		<String>VERTEXCOLOR</String>
-		<String>ARCHIVABLE</String>
 		<String>BRICKCOLOR</String>
 		<String>CAMERATYPE</String>
 		<String>CANCOLLIDE</String>
 		<String>ELASTICITY</String>
 		<String>FLOAT NAME</String>
-		<String>FORMFACTOR</String>
 		<String>FRONTPARAM</String>
 		<String>ITEM CLASS</String>
-		<String>MAXPLAYERS</String>
 		<String>PROPERTIES</String>
 		<String>RIGHTPARAM</String>
 		<String>ROBLOX.XSD</String>
-		<String>RUNSERVICE</String>
-		<String>SOUNDSCAPE</String>
 		<String>STARTERGUI</String>
 		<String>TOKEN NAME</String>
 		<String>WWW.W3.ORG</String>
 		<String>BACKPARAM</String>
-		<String>BLOCKMESH</String>
 		<String>BOOL NAME</String>
-		<String>DRAGGINGV</String>
 		<String>LEFTPARAM</String>
 		<String>SELECTION</String>
-		<String>TEXTUREID</String>
+		<String>WORKSPACE</String>
 		<String>ANCHORED</String>
-		<String>DISABLED</String>
 		<String>EXTERNAL</String>
 		<String>FRICTION</String>
 		<String>GEOMETRY</String>
-		<String>HUMANOID</String>
 		<String>LIGHTING</String>
 		<String>MATERIAL</String>
 		<String>MAXITEMS</String>
-		<String>MESHTYPE</String>
-		<String>POSITION</String>
-		<String>RBXASSET</String>
+		<String>NSERVICE</String>
 		<String>REF NAME</String>
 		<String>REFERENT</String>
 		<String>TOPPARAM</String>
 		<String>CURRENT</String>
-		<String>REMOVED</String>
-		<String>TOUCHED</String>
+		<String>NDSCAPE</String>
+		<String>NT NAME</String>
+		<String>PLAYERS</String>
 		<String>VECTOR3</String>
 		<String>VERSION</String>
 		<String>XMLMIME</String>
-		<String>.CHILD</String>
-		<String>.START</String>
-		<String>.VALUE</String>
 		<String>CFRAME</String>
 		<String>DEBRIS</String>
-		<String>HANDLE</String>
 		<String>LOCKED</String>
-		<String>MESHID</String>
-		<String>OBJECT</String>
-		<String>OFFSET</String>
-		<String>RBX100</String>
-		<String>.NAME</String>
-		<String>.SIZE</String>
-		<String>BEING</String>
-		<String>BULGE</String>
-		<String>CLONE</String>
 		<String>FALSE</String>
 		<String>FOCUS</String>
-		<String>IMATE</String>
 		<String>ITUDE</String>
-		<String>MOTOR</String>
-		<String>NNING</String>
-		<String>NOTIF</String>
-		<String>PART0</String>
-		<String>PITCH</String>
-		<String>SHAPE</String>
-		<String>SPAWN</String>
-		<String>SPEED</String>
-		<String>STILL</String>
-		<String>THERE</String>
+		<String>RBX10</String>
 		<String>TIMER</String>
 		<String>XMIME</String>
-		<String>.CLI</String>
-		<String>APOS</String>
-		<String>AUTO</String>
-		<String>BODY</String>
-		<String>ELSE</String>
-		<String>GIVE</String>
-		<String>HEAD</String>
+		<String>ABLE</String>
+		<String>CIAL</String>
+		<String>GAME</String>
 		<String>HTTP</String>
-		<String>KILL</String>
-		<String>LIST</String>
-		<String>LODX</String>
-		<String>LODY</String>
-		<String>LOOP</String>
-		<String>MAKE</String>
+		<String>NDER</String>
+		<String>NESS</String>
 		<String>NULL</String>
-		<String>ONLY</String>
-		<String>OWER</String>
-		<String>STAT</String>
-		<String>STOP</String>
-		<String>TEAM</String>
-		<String>USES</String>
-		<String>WAIT</String>
-		<String>WELD</String>
-		<String>WILL</String>
+		<String>RUNS</String>
+		<String>SIZE</String>
+		<String>TEXT</String>
 	</GlobalStrings>
 </TrID>

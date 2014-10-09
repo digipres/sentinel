@@ -11,19 +11,20 @@
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>8</FileNum>
+		<FileNum>9</FileNum>
+		<Refine>1 by Marco Pontello</Refine>
 		<CheckStrings>True</CheckStrings>
 		<Date>
-			<Year>2010</Year>
-			<Month>10</Month>
-			<Day>02</Day>
+			<Year>2013</Year>
+			<Month>2</Month>
+			<Day>19</Day>
 		</Date>
 		<Time>
-			<Hour>22</Hour>
-			<Min>27</Min>
+			<Hour>14</Hour>
+			<Min>41</Min>
 			<Sec>34</Sec>
 		</Time>
-		<Creator>TrIDScan32 v1.56</Creator>
+		<Creator>TrIDScan/Py v1.90</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
@@ -35,178 +36,174 @@
 	<GlobalStrings>
 		<String>HEADERSECTIONTEXTDRAGGEDOUT</String>
 		<String>HEADERSECTIONTEXTUNDERDRAG</String>
+		<String>HEADERSECTIONTEXTDISABLED</String>
 		<String>HEADERSECTIONTEXTDRAGGING</String>
 		<String>POPUPMENUITEMTEXTDISABLED</String>
 		<String>POPUPMENUITEMTEXTSELECTED</String>
-		<String>HEADERSECTIONTEXTDISABLED</String>
 		<String>HEADERSECTIONTEXTPRESSED</String>
-		<String>RADIOBUTTONTEXTDISABLED</String>
 		<String>HEADERSECTIONTEXTNORMAL</String>
-		<String>STATUSPANELTEXTDISABLED</String>
 		<String>POPUPMENUITEMTEXTNORMAL</String>
+		<String>RADIOBUTTONTEXTDISABLED</String>
+		<String>STATUSPANELTEXTDISABLED</String>
 		<String>TABTEXTINACTIVEDISABLED</String>
-		<String>TEXTMARGINRIGHTSTRETCH</String>
 		<String>RADIOBUTTONTEXTFOCUSED</String>
 		<String>RADIOBUTTONTEXTPRESSED</String>
+		<String>TEXTMARGINRIGHTSTRETCH</String>
+		<String>CLINACTIVECAPTIONTEXT</String>
 		<String>RADIOBUTTONTEXTNORMAL</String>
 		<String>SMCAPTIONTEXTINACTIVE</String>
-		<String>TABTEXTINACTIVENORMAL</String>
 		<String>STATUSPANELTEXTNORMAL</String>
-		<String>CLINACTIVECAPTIONTEXT</String>
 		<String>TABTEXTACTIVEDISABLED</String>
+		<String>TABTEXTINACTIVENORMAL</String>
+		<String>CHECKBOXTEXTDISABLED</String>
 		<String>GROUPBOXTEXTDISABLED</String>
 		<String>HEADERSECTIONTEXTHOT</String>
-		<String>OBJECT BUTTONPORIENT</String>
-		<String>TOOLITEMTEXTSELECTED</String>
-		<String>CHECKBOXTEXTDISABLED</String>
-		<String>TOOLITEMTEXTDISABLED</String>
-		<String>POPUPMENUITEMTEXTHOT</String>
 		<String>LISTITEMTEXTDISABLED</String>
 		<String>LISTITEMTEXTSELECTED</String>
-		<String>TABTEXTACTIVENORMAL</String>
-		<String>EDITBOXTEXTSELECTED</String>
-		<String>CHECKBOXTEXTPRESSED</String>
-		<String>LISTITEMTEXTFOCUSED</String>
+		<String>OBJECT BUTTONPORIENT</String>
+		<String>POPUPMENUITEMTEXTHOT</String>
+		<String>TOOLITEMTEXTDISABLED</String>
+		<String>TOOLITEMTEXTSELECTED</String>
 		<String>CHECKBOXTEXTFOCUSED</String>
+		<String>CHECKBOXTEXTPRESSED</String>
 		<String>EDITBOXTEXTDISABLED</String>
+		<String>EDITBOXTEXTSELECTED</String>
+		<String>LISTITEMTEXTFOCUSED</String>
 		<String>SMCAPTIONTEXTNORMAL</String>
-		<String>RADIOBUTTONTEXTHOT</String>
-		<String>OBJECT PANELTABOUT</String>
-		<String>TOOLITEMTEXTNORMAL</String>
+		<String>TABTEXTACTIVENORMAL</String>
+		<String>CHECKBOXTEXTNORMAL</String>
+		<String>EDITBOXTEXTFOCUSED</String>
+		<String>GROUPBOXTEXTNORMAL</String>
+		<String>LISTITEMTEXTNORMAL</String>
+		<String>OBJECT BUTTONCLOSE</String>
+		<String>OBJECT BUTTONPGOTO</String>
 		<String>OBJECT BUTTONPLAPA</String>
 		<String>OBJECT BUTTONPNEXT</String>
 		<String>OBJECT BUTTONPPREV</String>
-		<String>OBJECT RADIOBUTTON</String>
-		<String>OBJECT BUTTONPGOTO</String>
-		<String>GROUPBOXTEXTNORMAL</String>
-		<String>OBJECT BUTTONCLOSE</String>
-		<String>OBJECT BUTTONTNEXT</String>
 		<String>OBJECT BUTTONPRINT</String>
-		<String>CHECKBOXTEXTNORMAL</String>
-		<String>STATICTEXTDISABLED</String>
-		<String>OBJECT BUTTONROUND</String>
 		<String>OBJECT BUTTONPZOOM</String>
-		<String>WINDOWTEXTDISABLED</String>
-		<String>EDITBOXTEXTFOCUSED</String>
-		<String>TABTEXTINACTIVEHOT</String>
-		<String>OBJECT PANELTPRINT</String>
+		<String>OBJECT BUTTONROUND</String>
+		<String>OBJECT BUTTONTNEXT</String>
 		<String>OBJECT BUTTONTPREV</String>
+		<String>OBJECT PANELTABOUT</String>
+		<String>OBJECT PANELTPRINT</String>
 		<String>OBJECT PROGRESSBAR</String>
-		<String>LISTITEMTEXTNORMAL</String>
-		<String>OBJECT PANELTFIND</String>
-		<String>OBJECT BUTTONPULL</String>
-		<String>OBJECT BUTTONPNUM</String>
-		<String>OBJECT BUTTONFDEL</String>
-		<String>OBJECT PANELBLINE</String>
-		<String>OBJECT BUTTONNEXT</String>
-		<String>OBJECT BUTTONHOME</String>
-		<String>STATICTEXTFOCUSED</String>
-		<String>OBJECT BUTTONFADD</String>
-		<String>OBJECT BUTTONPREV</String>
+		<String>OBJECT RADIOBUTTON</String>
+		<String>RADIOBUTTONTEXTHOT</String>
+		<String>STATICTEXTDISABLED</String>
+		<String>TABTEXTINACTIVEHOT</String>
+		<String>TOOLITEMTEXTNORMAL</String>
+		<String>WINDOWTEXTDISABLED</String>
 		<String>EDITBOXTEXTNORMAL</String>
-		<String>OBJECT BUTTONHELP</String>
-		<String>THEMEENGINE THEME</String>
+		<String>OBJECT BUTTONFADD</String>
+		<String>OBJECT BUTTONFDEL</String>
 		<String>OBJECT BUTTONFIND</String>
+		<String>OBJECT BUTTONHELP</String>
+		<String>OBJECT BUTTONHOME</String>
+		<String>OBJECT BUTTONNEXT</String>
+		<String>OBJECT BUTTONPNUM</String>
+		<String>OBJECT BUTTONPREV</String>
+		<String>OBJECT BUTTONPULL</String>
+		<String>OBJECT PANELTFIND</String>
+		<String>STATICTEXTFOCUSED</String>
+		<String>THEMEENGINE THEME</String>
 		<String>CLINACTIVEBORDER</String>
-		<String>STATICTEXTNORMAL</String>
-		<String>OBJECT BUTTONTOP</String>
-		<String>WINDOWTEXTNORMAL</String>
-		<String>OBJECT PANELNAME</String>
 		<String>OBJECT BUTTONFAV</String>
-		<String>OBJECT BUTTONTES</String>
-		<String>OBJECT BUTTONMEN</String>
 		<String>OBJECT BUTTONMAX</String>
-		<String>OBJECT BUTTONRES</String>
-		<String>OBJECT CONTAINER</String>
-		<String>OBJECT POPUPMENU</String>
+		<String>OBJECT BUTTONMEN</String>
 		<String>OBJECT BUTTONMIN</String>
+		<String>OBJECT BUTTONRES</String>
+		<String>OBJECT BUTTONTES</String>
+		<String>OBJECT BUTTONTOP</String>
+		<String>OBJECT CONTAINER</String>
 		<String>OBJECT PANELTTES</String>
+		<String>OBJECT POPUPMENU</String>
 		<String>OBJECT SCROLLBAR</String>
+		<String>STATICTEXTNORMAL</String>
 		<String>TABTEXTACTIVEHOT</String>
-		<String>OBJECT SPLITTER</String>
-		<String>LISTITEMTEXTHOT</String>
+		<String>WINDOWTEXTNORMAL</String>
 		<String>CAPTIONINACTIVE</String>
-		<String>OBJECT PANELBOT</String>
-		<String>OBJECT PANELTIT</String>
-		<String>DEFAULT_CHARSET</String>
-		<String>TOOLITEMTEXTHOT</String>
-		<String>CLHIGHLIGHTTEXT</String>
-		<String>CLACTIVECAPTION</String>
 		<String>CHECKBOXTEXTHOT</String>
+		<String>CLACTIVECAPTION</String>
+		<String>CLHIGHLIGHTTEXT</String>
+		<String>DEFAULT_CHARSET</String>
+		<String>LISTITEMTEXTHOT</String>
 		<String>OBJECT PANELMEN</String>
-		<String>EDITBOXTEXTHOT</String>
-		<String>KS DEVELOPMENT</String>
-		<String>TEXTMARGINLEFT</String>
-		<String>CLACTIVEBORDER</String>
+		<String>OBJECT SPLITTER</String>
+		<String>TOOLITEMTEXTHOT</String>
 		<String>BUTTONDISABLED</String>
+		<String>CLACTIVEBORDER</String>
 		<String>CLAPPWORKSPACE</String>
 		<String>CLBTNHIGHLIGHT</String>
-		<String>BUTTONPRESSED</String>
-		<String>EDITSELECTION</String>
-		<String>CLCAPTIONTEXT</String>
-		<String>STATICTEXTHOT</String>
-		<String>PANELDISABLED</String>
-		<String>CAPTIONNORMAL</String>
+		<String>EDITBOXTEXTHOT</String>
+		<String>KS DEVELOPMENT</String>
+		<String>OBJECT PANELNA</String>
+		<String>TEXTMARGINLEFT</String>
 		<String>BUTTONFOCUSED</String>
-		<String>OBJECT PANELF</String>
-		<String>TSESKINOBJECT</String>
+		<String>BUTTONPRESSED</String>
+		<String>CAPTIONNORMAL</String>
+		<String>CLCAPTIONTEXT</String>
 		<String>CLWINDOWFRAME</String>
-		<String>MAIN_NAME.BMP</String>
-		<String>WWW.KSDEV.COM</String>
-		<String>OBJECT PANELL</String>
+		<String>EDITSELECTION</String>
+		<String>OBJECT PANELF</String>
+		<String>PANELDISABLED</String>
+		<String>STATICTEXTHOT</String>
 		<String>TEXTMARGINTOP</String>
-		<String>MAIN_SKIN.BMP</String>
+		<String>TSESKINOBJECT</String>
+		<String>WWW.KSDEV.COM</String>
 		<String>BUTTONNORMAL</String>
+		<String>CL3DDKSHADOW</String>
 		<String>CLBACKGROUND</String>
-		<String>EDITDISABLED</String>
 		<String>CLWINDOWTEXT</String>
+		<String>EDITDISABLED</String>
 		<String>FONT.CHARSET</String>
 		<String>MARGINBOTTOM</String>
-		<String>CL3DDKSHADOW</String>
 		<String>WINDOWBORDER</String>
-		<String>FONT.HEIGHT</String>
-		<String>EDITFOCUSED</String>
-		<String>CLSCROLLBAR</String>
 		<String>CLBTNSHADOW</String>
+		<String>CLSCROLLBAR</String>
 		<String>DRAWIFOWNER</String>
+		<String>EDITFOCUSED</String>
+		<String>FONT.HEIGHT</String>
 		<String>OBJECT FORM</String>
-		<String>SKPOPUPMENU</String>
 		<String>PANELNORMAL</String>
+		<String>SKPOPUPMENU</String>
 		<String>CLGRAYTEXT</String>
-		<String>FONT.COLOR</String>
-		<String>CLMENUTEXT</String>
-		<String>TEXTEFFECT</String>
-		<String>FONT.STYLE</String>
-		<String>EDITNORMAL</String>
 		<String>CLINFOTEXT</String>
-		<String>CLDEFAULT</String>
+		<String>CLMENUTEXT</String>
+		<String>EDITNORMAL</String>
+		<String>FONT.COLOR</String>
+		<String>FONT.STYLE</String>
+		<String>TEXTEFFECT</String>
 		<String>BUTTONHOT</String>
 		<String>CL3DLIGHT</String>
+		<String>CLBTNFACE</String>
+		<String>CLBTNTEXT</String>
+		<String>CLDEFAULT</String>
 		<String>FONT.NAME</String>
 		<String>TEXTALIGN</String>
-		<String>CLBTNTEXT</String>
-		<String>CLBTNFACE</String>
-		<String>CLINFOBK</String>
 		<String>CLBLACKA</String>
-		<String>EDITHOT</String>
-		<String>CLWHITE</String>
+		<String>CLINFOBK</String>
+		<String>SKIN.BMP</String>
 		<String>BARDOCK</String>
+		<String>CLWHITE</String>
+		<String>EDITHOT</String>
 		<String>OBJECTS</String>
 		<String>MASKED</String>
-		<String>TALEFT</String>
-		<String>SKFORM</String>
 		<String>SANONE</String>
+		<String>SKFORM</String>
 		<String>SKNONE</String>
+		<String>TALEFT</String>
 		<String>TENONE</String>
 		<String>FALSE</String>
 		<String>SKINS</String>
 		<String>WIDTH</String>
+		<String>GRID</String>
+		<String>HINT</String>
 		<String>HTTP</String>
 		<String>KIND</String>
-		<String>GRID</String>
+		<String>MAIN</String>
 		<String>TREE</String>
 		<String>TRUE</String>
-		<String>HINT</String>
 		<String>_UCT</String>
 	</GlobalStrings>
 </TrID>

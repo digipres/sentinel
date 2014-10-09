@@ -1,30 +1,30 @@
 <TrID ver="2.00">
 	<Info>
-		<FileType>Race Driver: GRID car livery</FileType>
+		<FileType>EGO Engine Textures</FileType>
 		<Ext>PSSG</Ext>
 		<ExtraInfo>
 			<Rem></Rem>
-			<RefURL>http://en.wikipedia.org/wiki/Race_Driver:_GRID</RefURL>
+			<RefURL>http://en.wikipedia.org/wiki/EGO_(game_engine)</RefURL>
 		</ExtraInfo>
 		<User>Marco Pontello</User>
 		<E-Mail>marcopon@gmail.com</E-Mail>
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>39</FileNum>
-		<Refine>1 by Marco Pontello</Refine>
+		<FileNum>44</FileNum>
+		<Refine>6</Refine>
 		<CheckStrings>True</CheckStrings>
 		<Date>
-			<Year>2010</Year>
-			<Month>12</Month>
-			<Day>01</Day>
+			<Year>2014</Year>
+			<Month>3</Month>
+			<Day>13</Day>
 		</Date>
 		<Time>
 			<Hour>14</Hour>
-			<Min>34</Min>
-			<Sec>34</Sec>
+			<Min>37</Min>
+			<Sec>57</Sec>
 		</Time>
-		<Creator>TrIDScan32 v1.56</Creator>
+		<Creator>TrIDScan/Py v1.90</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
@@ -36,278 +36,278 @@
 	<GlobalStrings>
 		<String>MODIFIERNETWORKINSTANCEUNIQUEINPUT</String>
 		<String>NEANIMWEIGHTCONTROLCROSSFADESOURCE</String>
-		<String>NEANIMWEIGHTINTERPOLATORLINEAR</String>
-		<String>NEANIMWEIGHTCONTROLUSERWEIGHTS</String>
 		<String>MODIFIERNETWORKINSTANCECOMPILE</String>
 		<String>NEANIMWEIGHTCONTROLSTACKSOURCE</String>
+		<String>NEANIMWEIGHTCONTROLUSERWEIGHTS</String>
 		<String>NEANIMWEIGHTINTERPOLATORBEZIER</String>
+		<String>NEANIMWEIGHTINTERPOLATORLINEAR</String>
 		<String>2SIDEDSTENCILFRONTSTENCILMASK</String>
-		<String>RENDERINTERFACEBOUNDBUFFERED</String>
-		<String>NEANIMDEFAULTSLOTARRAYOUTPUT</String>
-		<String>NEANIMDEFAULTSCENEBINDINGLOD</String>
-		<String>MODIFIERNETWORKMULTIINSTANCE</String>
 		<String>2SIDEDSTENCILBACKSTENCILMASK</String>
-		<String>NEANIMCHANNEL_BEZIERFLOAT</String>
-		<String>MODIFIERNETWORKCONNECTION</String>
-		<String>RENDERSTREAMMULTIINSTANCE</String>
-		<String>RENDERINDEXSOURCEBUFFERED</String>
+		<String>MODIFIERNETWORKMULTIINSTANCE</String>
+		<String>NEANIMDEFAULTSCENEBINDINGLOD</String>
+		<String>NEANIMDEFAULTSLOTARRAYOUTPUT</String>
+		<String>RENDERINTERFACEBOUNDBUFFERED</String>
 		<String>DEFAULTRENDERSORTPRIORITY</String>
+		<String>MODIFIERNETWORKCONNECTION</String>
+		<String>NEANIMCHANNEL_BEZIERFLOAT</String>
+		<String>RENDERINDEXSOURCEBUFFERED</String>
+		<String>RENDERSTREAMMULTIINSTANCE</String>
 		<String>NEANIMCHANNEL_QUATERNION</String>
 		<String>PACKETMODIFIERINPUTCOUNT</String>
-		<String>RENDERDATASOURCEPACKETS</String>
 		<String>INSTANCESREQUIRESORTING</String>
-		<String>RENDERDATAPACKETSOURCE</String>
+		<String>RENDERDATASOURCEPACKETS</String>
+		<String>MAXTEMPORARYBUFFERSIZE</String>
 		<String>NEANIMBLENDMASKWEIGHTS</String>
-		<String>UNIQUEINPUTELEMENTSIZE</String>
 		<String>NEANIMCHANNEL_GROUPXYZ</String>
+		<String>RENDERDATAPACKETSOURCE</String>
 		<String>SHADERPROGRAMCODEBLOCK</String>
 		<String>SHADERSTREAMDEFINITION</String>
-		<String>MAXTEMPORARYBUFFERSIZE</String>
-		<String>LODRENDERINSTANCELIST</String>
-		<String>NEANIMSLOTARRAYOUTPUT</String>
-		<String>NEANIMCHILDCHANNELREF</String>
-		<String>TEXTUREIMAGEBLOCKDATA</String>
+		<String>UNIQUEINPUTELEMENTSIZE</String>
 		<String>DISCARDLOCALAFTERBIND</String>
+		<String>LODRENDERINSTANCELIST</String>
+		<String>NEANIMCHILDCHANNELREF</String>
+		<String>NEANIMSLOTARRAYOUTPUT</String>
 		<String>SHADERINPUTDEFINITION</String>
-		<String>RENDERINSTANCESTREAM</String>
+		<String>TEXTUREIMAGEBLOCKDATA</String>
 		<String>LODVISIBLERENDERNODE</String>
+		<String>MEMORYSIZEFORPROCESS</String>
+		<String>MODIFIERNETWORKENTRY</String>
+		<String>NEANIMNODEDATASOURCE</String>
+		<String>NEANIMTARGETGROUPREF</String>
+		<String>PARAMETERSTREAMCOUNT</String>
+		<String>POLYGONOFFSETENABLED</String>
 		<String>RENDERINSTANCESOURCE</String>
+		<String>RENDERINSTANCESTREAM</String>
 		<String>RENDERSTREAMINSTANCE</String>
 		<String>STATEBLOCKBUFFERSIZE</String>
 		<String>TOTALINPUTPACKETSIZE</String>
-		<String>POLYGONOFFSETENABLED</String>
-		<String>MODIFIERNETWORKENTRY</String>
-		<String>NEANIMTARGETGROUPREF</String>
-		<String>MEMORYSIZEFORPROCESS</String>
-		<String>NEANIMNODEDATASOURCE</String>
-		<String>PARAMETERSTREAMCOUNT</String>
-		<String>PARAMETERSAVEDCOUNT</String>
-		<String>INVERTBENDDIRECTION</String>
-		<String>PACKETMODIFIERCOUNT</String>
-		<String>POLYGONOFFSETFACTOR</String>
-		<String>NEANIMCHANNEL_FLOAT</String>
-		<String>MAXPACKETOUTPUTSIZE</String>
 		<String>ENABLEVERTEXTEXTURE</String>
+		<String>INVERTBENDDIRECTION</String>
+		<String>MAXPACKETOUTPUTSIZE</String>
+		<String>NEANIMCHANNEL_FLOAT</String>
 		<String>NEANIMCLIPPACKETREF</String>
-		<String>NEANIMPACKET_L4_KA</String>
-		<String>NEANIMSCENEBINDING</String>
-		<String>NEANIMPACKET_S4_KA</String>
-		<String>NEANIMPACKETDATA_L</String>
-		<String>LIGHTINFLUENCENODE</String>
+		<String>PACKETMODIFIERCOUNT</String>
+		<String>PARAMETERSAVEDCOUNT</String>
+		<String>POLYGONOFFSETFACTOR</String>
 		<String>CGSTREAMRENDERTYPE</String>
-		<String>NUMBERMIPMAPLEVELS</String>
-		<String>NEANIMPACKETDATA_B</String>
-		<String>LODRENDERINSTANCES</String>
-		<String>NEANIMPACKETDATA_S</String>
-		<String>POLYGONOFFSETUNITS</String>
-		<String>NEANIMKEYDATABLOCK</String>
 		<String>DYNAMICSTREAMCOUNT</String>
-		<String>NEANIMPACKET_BASE</String>
+		<String>LIGHTINFLUENCENODE</String>
+		<String>LODRENDERINSTANCES</String>
+		<String>NEANIMKEYDATABLOCK</String>
+		<String>NEANIMPACKETDATA_B</String>
+		<String>NEANIMPACKETDATA_L</String>
+		<String>NEANIMPACKETDATA_S</String>
+		<String>NEANIMPACKET_L4_KA</String>
+		<String>NEANIMPACKET_S4_KA</String>
+		<String>NEANIMSCENEBINDING</String>
+		<String>NUMBERMIPMAPLEVELS</String>
+		<String>POLYGONOFFSETUNITS</String>
 		<String>ALPHAFUNCREFVALUE</String>
+		<String>DATABLOCKBUFFERED</String>
+		<String>INVERSEBINDMATRIX</String>
+		<String>NEANIMCLIPBINDING</String>
+		<String>NEANIMPACKET_BASE</String>
+		<String>PACKETINPUTSOURCE</String>
+		<String>POINTTEXCOORDMASK</String>
 		<String>UNIQUEINPUTSOURCE</String>
 		<String>UNIQUEINPUTSTREAM</String>
-		<String>POINTTEXCOORDMASK</String>
-		<String>INVERSEBINDMATRIX</String>
-		<String>PACKETINPUTSOURCE</String>
-		<String>DATABLOCKBUFFERED</String>
-		<String>NEANIMCLIPBINDING</String>
-		<String>PRIMITIVERESTART</String>
-		<String>UNIQUEINPUTCOUNT</String>
-		<String>DEPTHTESTENABLED</String>
-		<String>NEANIMSETBINDING</String>
-		<String>NEANIMIKLIMBDESC</String>
-		<String>NEANIMTARGETNAME</String>
-		<String>POLYOFFSETFACTOR</String>
-		<String>DEPTHMASKENABLED</String>
-		<String>CGSTREAMDATATYPE</String>
 		<String>ALPHATESTENABLED</String>
 		<String>BLENDDESTINATION</String>
-		<String>RENDERTARGETMASK</String>
-		<String>POLYOFFSETENABLE</String>
+		<String>CGSTREAMDATATYPE</String>
+		<String>DEPTHMASKENABLED</String>
+		<String>DEPTHTESTENABLED</String>
+		<String>NEANIMIKLIMBDESC</String>
+		<String>NEANIMSETBINDING</String>
 		<String>NEANIMSETCLIPREF</String>
-		<String>MAXELEMENTCOUNT</String>
-		<String>PACKETINPUTLIST</String>
-		<String>DATABLOCKSTREAM</String>
-		<String>INDEXSOURCEDATA</String>
+		<String>NEANIMTARGETNAME</String>
+		<String>POLYOFFSETENABLE</String>
+		<String>POLYOFFSETFACTOR</String>
+		<String>PRIMITIVERESTART</String>
+		<String>RENDERTARGETMASK</String>
+		<String>UNIQUEINPUTCOUNT</String>
 		<String>CREATIONMACHINE</String>
-		<String>POLYOFFSETUNITS</String>
-		<String>NEANIMTARGETLOD</String>
-		<String>SHADERGROUPPASS</String>
-		<String>INVERTBENDPLANE</String>
-		<String>PACKETLISTCOUNT</String>
-		<String>IMAGEBLOCKCOUNT</String>
-		<String>STENCILFUNCMASK</String>
-		<String>NORMALIZEENABLE</String>
+		<String>DATABLOCKSTREAM</String>
 		<String>FRAGMENTPROGRAM</String>
+		<String>IMAGEBLOCKCOUNT</String>
+		<String>INDEXSOURCEDATA</String>
+		<String>INVERTBENDPLANE</String>
+		<String>MAXELEMENTCOUNT</String>
+		<String>NEANIMTARGETLOD</String>
+		<String>NORMALIZEENABLE</String>
+		<String>PACKETINPUTLIST</String>
+		<String>PACKETLISTCOUNT</String>
 		<String>PACKETSIZECOUNT</String>
+		<String>POLYOFFSETUNITS</String>
+		<String>SHADERGROUPPASS</String>
+		<String>STENCILFUNCMASK</String>
 		<String>ALLOCATESYSTEM</String>
-		<String>COLORMASKGREEN</String>
-		<String>RENDERTYPENAME</String>
-		<String>OUTERCONEANGLE</String>
-		<String>BINARYDATASIZE</String>
-		<String>STENCILFUNCREF</String>
-		<String>SINGLEBUFFERED</String>
-		<String>ROTATEEFFECTOR</String>
-		<String>ISRENDERTARGET</String>
 		<String>ANIMATIONCOUNT</String>
-		<String>STENCILOPZFAIL</String>
-		<String>PASSCONFIGMASK</String>
-		<String>SHADERINSTANCE</String>
-		<String>PARAMETERCOUNT</String>
-		<String>INNERCONEANGLE</String>
+		<String>BINARYDATASIZE</String>
 		<String>COLORMASKALPHA</String>
-		<String>PRIORITIZEREAD</String>
-		<String>STENCILOPZPASS</String>
-		<String>INFOPACKETSIZE</String>
-		<String>STENCILENABLED</String>
+		<String>COLORMASKGREEN</String>
 		<String>CUBEMAPTEXTURE</String>
+		<String>INFOPACKETSIZE</String>
+		<String>INNERCONEANGLE</String>
+		<String>ISRENDERTARGET</String>
 		<String>NEANIMATIONREF</String>
+		<String>OUTERCONEANGLE</String>
+		<String>PARAMETERCOUNT</String>
+		<String>PASSCONFIGMASK</String>
+		<String>PRIORITIZEREAD</String>
+		<String>RENDERTYPENAME</String>
+		<String>ROTATEEFFECTOR</String>
+		<String>SHADERINSTANCE</String>
+		<String>SINGLEBUFFERED</String>
+		<String>STENCILENABLED</String>
+		<String>STENCILFUNCREF</String>
+		<String>STENCILOPZFAIL</String>
+		<String>STENCILOPZPASS</String>
 		<String>ALPHAFUNCFUNC</String>
-		<String>NEANIMNETWORK</String>
-		<String>LOCALDURATION</String>
-		<String>STENCILOPFAIL</String>
-		<String>NEANIMTARGETS</String>
-		<String>TEXTUREMIPMAP</String>
-		<String>VERTEXPROGRAM</String>
 		<String>ALPHATESTFUNC</String>
-		<String>INSTANCECOUNT</String>
-		<String>LODRENDERNODE</String>
-		<String>TARGETBLENDER</String>
-		<String>MAXANISOTROPY</String>
-		<String>STOPTRAVERSAL</String>
-		<String>COLORMASKBLUE</String>
-		<String>ISPERSPECTIVE</String>
-		<String>DATABLOCKDATA</String>
 		<String>AUTOMATICBIND</String>
+		<String>COLORMASKBLUE</String>
+		<String>DATABLOCKDATA</String>
 		<String>DEPTHTESTFUNC</String>
 		<String>ENABLECOMPARE</String>
-		<String>PSSGDATABASE</String>
-		<String>MAXIMUMINDEX</String>
-		<String>COLORMASKRED</String>
-		<String>SEGMENTCOUNT</String>
+		<String>INSTANCECOUNT</String>
+		<String>ISPERSPECTIVE</String>
+		<String>LOCALDURATION</String>
+		<String>LODRENDERNODE</String>
+		<String>MAXANISOTROPY</String>
+		<String>NEANIMNETWORK</String>
+		<String>NEANIMTARGETS</String>
+		<String>STENCILOPFAIL</String>
+		<String>STOPTRAVERSAL</String>
+		<String>TARGETBLENDER</String>
+		<String>TEXTUREMIPMAP</String>
+		<String>VERTEXPROGRAM</String>
 		<String>ALPHATESTREF</String>
-		<String>COEFFICIENTS</String>
-		<String>CHANNELCOUNT</String>
-		<String>CREATIONDATE</String>
-		<String>CGSTREAMNAME</String>
-		<String>NECHANNELREF</String>
-		<String>CULLFACETYPE</String>
-		<String>POLYFILLTYPE</String>
-		<String>MINIMUMINDEX</String>
 		<String>BINARYOBJECT</String>
-		<String>UPDATEBOUNDS</String>
 		<String>BLENDENABLED</String>
-		<String>STARTWEIGHT</String>
-		<String>PACKETCOUNT</String>
-		<String>COMPILENODE</String>
-		<String>WEIGHTINDEX</String>
+		<String>CGSTREAMNAME</String>
+		<String>CHANNELCOUNT</String>
+		<String>COEFFICIENTS</String>
+		<String>COLORMASKRED</String>
+		<String>CREATIONDATE</String>
+		<String>CULLFACETYPE</String>
+		<String>MAXIMUMINDEX</String>
+		<String>MINIMUMINDEX</String>
+		<String>NECHANNELREF</String>
+		<String>POLYFILLTYPE</String>
+		<String>PSSGDATABASE</String>
+		<String>SEGMENTCOUNT</String>
+		<String>UPDATEBOUNDS</String>
+		<String>ATTENUATION</String>
+		<String>BLENDSOURCE</String>
+		<String>BORDERCOLOR</String>
 		<String>BOUNDINGBOX</String>
+		<String>COMPILENODE</String>
+		<String>ENDEFFECTOR</String>
+		<String>GAMMAREMAPA</String>
+		<String>GAMMAREMAPB</String>
+		<String>GAMMAREMAPG</String>
+		<String>GAMMAREMAPR</String>
+		<String>LOCALOFFSET</String>
 		<String>LODSKINNODE</String>
-		<String>STENCILMODE</String>
-		<String>SOURCECOUNT</String>
+		<String>MATRIXCOUNT</String>
 		<String>NEANIMTIMER</String>
-		<String>PARAMETERID</String>
-		<String>NETARGETREF</String>
 		<String>NETARGETLOD</String>
+		<String>NETARGETREF</String>
+		<String>PACKETCOUNT</String>
+		<String>PARAMETERID</String>
+		<String>PROFILETYPE</String>
+		<String>SOURCECOUNT</String>
+		<String>STARTWEIGHT</String>
+		<String>STENCILMODE</String>
 		<String>TARGETCOUNT</String>
 		<String>TEXELFORMAT</String>
 		<String>WEIGHTCOUNT</String>
-		<String>PROFILETYPE</String>
-		<String>ENDEFFECTOR</String>
-		<String>GAMMAREMAPG</String>
-		<String>BORDERCOLOR</String>
-		<String>GAMMAREMAPB</String>
-		<String>GAMMAREMAPR</String>
-		<String>MATRIXCOUNT</String>
-		<String>BLENDSOURCE</String>
-		<String>LOCALOFFSET</String>
-		<String>ATTENUATION</String>
-		<String>GAMMAREMAPA</String>
-		<String>INTERPMODE</String>
-		<String>GROUPCOUNT</String>
-		<String>LOWERJOINT</String>
-		<String>CAMERANODE</String>
-		<String>BUNDLENODE</String>
+		<String>WEIGHTINDEX</String>
 		<String>AUTOMIPMAP</String>
-		<String>SEGMENTSET</String>
-		<String>NEANIMKEYS</String>
+		<String>BUNDLENODE</String>
+		<String>CAMERANODE</String>
 		<String>EVENTCOUNT</String>
-		<String>VALUEBLOCK</String>
+		<String>GROUPCOUNT</String>
+		<String>INTERPMODE</String>
 		<String>JOINTCOUNT</String>
 		<String>LIGHTCOUNT</String>
+		<String>LOWERJOINT</String>
+		<String>NEANIMKEYS</String>
+		<String>SEGMENTSET</String>
 		<String>UPPERJOINT</String>
-		<String>CHAINDESC</String>
-		<String>MAGFILTER</String>
-		<String>NAMECOUNT</String>
-		<String>CODECOUNT</String>
-		<String>LOCALLOOP</String>
-		<String>MINFILTER</String>
-		<String>TRANSIENT</String>
-		<String>CLEARMASK</String>
-		<String>ANIMDATAS</String>
-		<String>LINEWIDTH</String>
-		<String>CLIPCOUNT</String>
-		<String>TIMEBLOCK</String>
+		<String>VALUEBLOCK</String>
 		<String>ALIGNMENT</String>
+		<String>ANIMDATAS</String>
+		<String>CHAINDESC</String>
+		<String>CLEARMASK</String>
+		<String>CLIPCOUNT</String>
+		<String>CODECOUNT</String>
+		<String>CODEENTRY</String>
+		<String>JOINTNODE</String>
+		<String>LIGHTNODE</String>
+		<String>LINEWIDTH</String>
+		<String>LOCALDATA</String>
+		<String>LOCALLOOP</String>
+		<String>MAGFILTER</String>
+		<String>MINFILTER</String>
+		<String>NAMECOUNT</String>
 		<String>NEARPLANE</String>
+		<String>PASSCOUNT</String>
 		<String>POINTSIZE</String>
 		<String>SKINJOINT</String>
 		<String>SUBSTREAM</String>
-		<String>CODEENTRY</String>
-		<String>LIGHTNODE</String>
-		<String>LOCALDATA</String>
-		<String>PASSCOUNT</String>
-		<String>JOINTNODE</String>
+		<String>TIMEBLOCK</String>
 		<String>TRANSFORM</String>
-		<String>USERDATA</String>
-		<String>SOURCEID</String>
-		<String>ROOTNODE</String>
-		<String>FILLMODE</String>
-		<String>MSAATYPE</String>
-		<String>LODCOUNT</String>
-		<String>PSSGFILE</String>
-		<String>DXSHADER</String>
-		<String>KEYCOUNT</String>
-		<String>SKELETON</String>
-		<String>POSITION</String>
-		<String>NICKNAME</String>
-		<String>FARPLANE</String>
-		<String>INFINITE</String>
-		<String>CODETYPE</String>
+		<String>TRANSIENT</String>
 		<String>BEHAVIOR</String>
-		<String>STREAMID</String>
 		<String>CODESIZE</String>
+		<String>CODETYPE</String>
 		<String>CULLMODE</String>
-		<String>PNSTRING</String>
-		<String>SEMANTIC</String>
+		<String>DXSHADER</String>
+		<String>FARPLANE</String>
+		<String>FILLMODE</String>
+		<String>INFINITE</String>
+		<String>KEYCOUNT</String>
+		<String>LODCOUNT</String>
+		<String>MSAATYPE</String>
+		<String>NICKNAME</String>
 		<String>NODEMASK</String>
 		<String>NODENAME</String>
-		<String>INDICES</String>
-		<String>LODNODE</String>
-		<String>KEYTYPE</String>
-		<String>DXSTATE</String>
+		<String>PNSTRING</String>
+		<String>POSITION</String>
+		<String>PSSGFILE</String>
+		<String>ROOTNODE</String>
+		<String>SEMANTIC</String>
+		<String>SKELETON</String>
+		<String>SOURCEID</String>
+		<String>STREAMID</String>
+		<String>USERDATA</String>
 		<String>CREATOR</String>
+		<String>DXSTATE</String>
+		<String>INDICES</String>
+		<String>KEYTYPE</String>
 		<String>LIBRARY</String>
-		<String>VERSION</String>
 		<String>LODBIAS</String>
-		<String>HEIGHT</String>
+		<String>LODNODE</String>
+		<String>VERSION</String>
 		<String>ACTIVE</String>
-		<String>RTMASK</String>
 		<String>APPING</String>
-		<String>DXPASS</String>
 		<String>ASPECT</String>
-		<String>CUSTOM</String>
-		<String>STRIDE</String>
 		<String>BOTTOM</String>
-		<String>RIGHT</String>
-		<String>RANGE</String>
-		<String>WRAPT</String>
-		<String>WRAPR</String>
+		<String>CUSTOM</String>
+		<String>DXPASS</String>
+		<String>HEIGHT</String>
+		<String>RTMASK</String>
+		<String>STRIDE</String>
 		<String>LAYER</String>
+		<String>RANGE</String>
+		<String>RIGHT</String>
+		<String>WRAPR</String>
 		<String>WRAPS</String>
+		<String>WRAPT</String>
 		<String>HINT</String>
+		<String>LEFT</String>
 		<String>NTID</String>
 		<String>OTHE</String>
-		<String>LEFT</String>
 	</GlobalStrings>
 </TrID>

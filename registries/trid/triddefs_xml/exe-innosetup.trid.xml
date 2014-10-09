@@ -11,20 +11,20 @@
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>25</FileNum>
-		<Refine>2 by Marco Pontello</Refine>
+		<FileNum>60</FileNum>
+		<Refine>2 by Marco Pontello - 35 by fengdaolong</Refine>
 		<CheckStrings>True</CheckStrings>
 		<Date>
-			<Year>2006</Year>
-			<Month>06</Month>
-			<Day>05</Day>
+			<Year>2012</Year>
+			<Month>7</Month>
+			<Day>1</Day>
 		</Date>
 		<Time>
-			<Hour>16</Hour>
-			<Min>00</Min>
-			<Sec>21</Sec>
+			<Hour>3</Hour>
+			<Min>22</Min>
+			<Sec>1</Sec>
 		</Time>
-		<Creator>TrIDScan32 v1.56</Creator>
+		<Creator>TrIDScan/Py v1.80</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
@@ -33,54 +33,50 @@
 			<Pos>0</Pos>
 		</Pattern>
 		<Pattern>
-			<Bytes>00FFFF0000B80000000000000040001A000000000000000000000000000000000000000000496E6E6F</Bytes>
-			<ASCII> . . . . . . . . . . . . . @ . . . . . . . . . . . . . . . . . . . . . . . I n n o</ASCII>
+			<Bytes>00FFFF0000B80000000000000040001A000000000000000000000000000000000000000000</Bytes>
+			<ASCII> . . . . . . . . . . . . . @</ASCII>
 			<Pos>11</Pos>
 		</Pattern>
 		<Pattern>
 			<Bytes>00010000BA10000E1FB409CD21B8014CCD219090546869732070726F6772616D206D7573742062652072756E20756E6465722057696E33320D0A243700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000504500004C01</Bytes>
-			<ASCII> . . . . . . . . . . . . ! . . L . ! . . T h i s 	p r o g r a m 	m u s t 	b e 	r u n 	u n d e r 	W i n 3 2 . . $ 7 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . P E . . L</ASCII>
+			<ASCII> . . . . . . . . . . . . ! . . L . ! . . T h i s   p r o g r a m   m u s t   b e   r u n   u n d e r   W i n 3 2 . . $ 7 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . P E . . L</ASCII>
 			<Pos>60</Pos>
 		</Pattern>
 		<Pattern>
-			<Bytes>00195E422A</Bytes>
-			<ASCII> . . ^ B *</ASCII>
+			<Bytes>00</Bytes>
 			<Pos>263</Pos>
 		</Pattern>
 	</FrontBlock>
 	<GlobalStrings>
 		<String>M'A'I'N'I'C'O'N</String>
-		<String>OLEAUT32.DLL</String>
 		<String>KERNEL32.DLL</String>
+		<String>OLEAUT32.DLL</String>
 		<String>VARIANTCLEAR</String>
 		<String>EXITPROCESS</String>
 		<String>OUTOFMEMORY</String>
 		<String>USER32.DLL</String>
-		<String>INVALIDOP</String>
 		<String>EXCEPTION</String>
+		<String>INVALIDOP</String>
 		<String>TVERSION</String>
-		<String>TOBJECT</String>
-		<String>RUNTIME</String>
 		<String>ADDRESS</String>
-		<String>OBTAIN</String>
-		<String>INFNAN</String>
-		<String>SETUP</String>
+		<String>RUNTIME</String>
+		<String>TOBJECT</String>
 		<String>.RSRC</String>
 		<String>ATION</String>
-		<String>SLEEP</String>
 		<String>CLASS</String>
-		<String>INFO</String>
+		<String>SETUP</String>
+		<String>SLEEP</String>
 		<String>BLOC</String>
-		<String>CHAR</String>
 		<String>CAST</String>
+		<String>CHAR</String>
 		<String>CREA</String>
 		<String>DATA</String>
-		<String>AMPM</String>
-		<String>LOAD</String>
 		<String>FREE</String>
-		<String>NAME</String>
-		<String>TYPE</String>
+		<String>INFO</String>
 		<String>INIT</String>
 		<String>INNO</String>
+		<String>LOAD</String>
+		<String>NAME</String>
+		<String>TYPE</String>
 	</GlobalStrings>
 </TrID>

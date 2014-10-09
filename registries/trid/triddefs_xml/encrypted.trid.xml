@@ -1,28 +1,29 @@
 <TrID ver="2.00">
 	<Info>
-		<FileType>Encrypted file</FileType>
+		<FileType>EasyCrypto encrypted</FileType>
 		<Ext>ENCRYPTED</Ext>
 		<ExtraInfo>
-			<Rem>No info yet about what application create this filetype.</Rem>
-			<RefURL></RefURL>
+			<Rem>HandyBits EasyCrypto is an encryption and decryption software.</Rem>
+			<RefURL>http://www.handybits.com/</RefURL>
 		</ExtraInfo>
 		<User>Marco Pontello</User>
 		<E-Mail>marcopon@gmail.com</E-Mail>
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>7</FileNum>
+		<FileNum>2058</FileNum>
+		<Refine>2048 by occasus</Refine>
 		<Date>
-			<Year>2008</Year>
-			<Month>05</Month>
-			<Day>21</Day>
+			<Year>2014</Year>
+			<Month>9</Month>
+			<Day>17</Day>
 		</Date>
 		<Time>
-			<Hour>00</Hour>
-			<Min>27</Min>
-			<Sec>17</Sec>
+			<Hour>14</Hour>
+			<Min>26</Min>
+			<Sec>32</Sec>
 		</Time>
-		<Creator>TrIDScan32 v1.56</Creator>
+		<Creator>TrIDScan/Py v1.90</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>

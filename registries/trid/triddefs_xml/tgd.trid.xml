@@ -1,28 +1,30 @@
 <TrID ver="2.00">
 	<Info>
-		<FileType>Terragen 2 World File</FileType>
+		<FileType>Terragen project</FileType>
 		<Ext>TGD</Ext>
 		<ExtraInfo>
 			<Rem></Rem>
-			<RefURL></RefURL>
+			<RefURL>http://en.wikipedia.org/wiki/Terragen</RefURL>
 		</ExtraInfo>
 		<User>Marco Pontello</User>
 		<E-Mail>marcopon@gmail.com</E-Mail>
-		<Home>http://mark0.net</Home>	</Info>
+		<Home>http://mark0.net</Home>
+	</Info>
 	<General>
-		<FileNum>6</FileNum>
+		<FileNum>11</FileNum>
+		<Refine>5 by Marco Pontello</Refine>
 		<CheckStrings>True</CheckStrings>
 		<Date>
-			<Year>2007</Year>
-			<Month>04</Month>
-			<Day>05</Day>
+			<Year>2014</Year>
+			<Month>1</Month>
+			<Day>2</Day>
 		</Date>
 		<Time>
-			<Hour>11</Hour>
-			<Min>15</Min>
-			<Sec>54</Sec>
+			<Hour>15</Hour>
+			<Min>43</Min>
+			<Sec>24</Sec>
 		</Time>
-		<Creator>TrIDScan32 v1.56</Creator>
+		<Creator>TrIDScan/Py v1.90</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
@@ -33,30 +35,31 @@
 	</FrontBlock>
 	<GlobalStrings>
 		<String>COMPUTE TERRAIN</String>
-		<String>FRACTAL_AMOUNT</String>
-		<String>RENDER CAMERA</String>
 		<String>GUI_NODE_SIZE</String>
-		<String>IMAGE_HEIGHT</String>
-		<String>ENVIRO LIGHT</String>
 		<String>GUI_NODE_POS</String>
-		<String>ORTHOGRAPHIC</String>
 		<String>HAZE_DENSITY</String>
-		<String>PERSPECTIVE</String>
+		<String>IMAGE_HEIGHT</String>
+		<String>ORTHOGRAPHIC</String>
 		<String>IMAGE_WIDTH</String>
+		<String>PERSPECTIVE</String>
 		<String>ELEVATION</String>
 		<String>GUI_GROUP</String>
 		<String>COMMENTS</String>
-		<String>LIGHTING</String>
+		<String>FRACTAL_</String>
 		<String>ROTATION</String>
-		<String>OBJECTS</String>
-		<String>PROJECT</String>
-		<String>CAMERAS</String>
 		<String>HEADING</String>
-		<String>SHADERS</String>
+		<String>OBJECTS</String>
+		<String>_AMOUNT</String>
 		<String>AUTHOR</String>
-		<String>ROTATE</String>
+		<String>CAMERA</String>
+		<String>ENVIRO</String>
 		<String>RADIUS</String>
+		<String>RENDER</String>
+		<String>ROTATE</String>
+		<String>SHADER</String>
 		<String>FLOOR</String>
+		<String>LIGHT</String>
 		<String>SEED</String>
+		<String>TING</String>
 	</GlobalStrings>
 </TrID>

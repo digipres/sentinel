@@ -1,6 +1,6 @@
 <TrID ver="2.00">
 	<Info>
-		<FileType>Parasolid Model</FileType>
+		<FileType>Parasolid model</FileType>
 		<Ext>X_B/X_T</Ext>
 		<ExtraInfo>
 			<Rem></Rem>
@@ -11,20 +11,20 @@
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>12</FileNum>
-		<Refine>1 by Marco Pontello</Refine>
+		<FileNum>16</FileNum>
+		<Refine>4 by Marco Pontello</Refine>
 		<CheckStrings>True</CheckStrings>
 		<Date>
-			<Year>2010</Year>
-			<Month>02</Month>
+			<Year>2013</Year>
+			<Month>1</Month>
 			<Day>11</Day>
 		</Date>
 		<Time>
-			<Hour>18</Hour>
-			<Min>44</Min>
-			<Sec>52</Sec>
+			<Hour>2</Hour>
+			<Min>25</Min>
+			<Sec>10</Sec>
 		</Time>
-		<Creator>TrIDScan32 v1.56</Creator>
+		<Creator>TrIDScan/Py v1.82</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
@@ -37,17 +37,17 @@
 		<String>TRANSMIT FILE CREATED BY MODELLER VERSION</String>
 		<String>**END_OF_HEADER**</String>
 		<String>**PARASOLID</String>
-		<String>USFLD_SIZE</String>
 		<String>OS_RELEASE</String>
+		<String>USFLD_SIZE</String>
 		<String>MC_MODEL</String>
 		<String>**PART</String>
 		<String>FORMAT</String>
-		<String>MC_ID</String>
 		<String>GUISE</String>
-		<String>SCH_1</String>
-		<String>DATE</String>
-		<String>SITE</String>
+		<String>MC_ID</String>
 		<String>APPL</String>
+		<String>DATE</String>
+		<String>SCH_</String>
+		<String>SITE</String>
 		<String>USER</String>
 	</GlobalStrings>
 </TrID>

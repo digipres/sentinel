@@ -1,6 +1,6 @@
 <TrID ver="2.00">
 	<Info>
-		<FileType>Acronis True Image file</FileType>
+		<FileType>Acronis True Image</FileType>
 		<Ext>TIB</Ext>
 		<ExtraInfo>
 			<Rem></Rem>
@@ -12,7 +12,7 @@
 	</Info>
 	<General>
 		<FileNum>39</FileNum>
-		<Refine>1 by Marco Pontello</Refine>
+		<Refine>2 by Marco Pontello</Refine>
 		<Date>
 			<Year>2007</Year>
 			<Month>09</Month>

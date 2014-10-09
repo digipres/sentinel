@@ -26,7 +26,7 @@
 	</General>
 	<FrontBlock>
 		<Pattern>
-			<Bytes>576F726450616C20446174616261736520A</Bytes>
+			<Bytes>576F726450616C20446174616261736520</Bytes>
 			<ASCII> W o r d P a l   D a t a b a s e</ASCII>
 			<Pos>0</Pos>
 		</Pattern>

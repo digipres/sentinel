@@ -11,24 +11,24 @@
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>1428</FileNum>
-		<Refine>1 by Marco Pontello</Refine>
+		<FileNum>1840</FileNum>
+		<Refine>1 by Marco Pontello - 412 by Stef</Refine>
 		<CheckStrings>True</CheckStrings>
 		<Date>
-			<Year>2005</Year>
-			<Month>05</Month>
-			<Day>15</Day>
+			<Year>2012</Year>
+			<Month>07</Month>
+			<Day>18</Day>
 		</Date>
 		<Time>
-			<Hour>23</Hour>
-			<Min>58</Min>
-			<Sec>52</Sec>
+			<Hour>11</Hour>
+			<Min>49</Min>
+			<Sec>25</Sec>
 		</Time>
 		<Creator>TrIDScan32 v1.56</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
-			<Bytes>0101</Bytes>
+			<Bytes>01</Bytes>
 			<Pos>0</Pos>
 		</Pattern>
 		<Pattern>
@@ -36,8 +36,8 @@
 			<Pos>3</Pos>
 		</Pattern>
 		<Pattern>
-			<Bytes>0100</Bytes>
-			<Pos>5</Pos>
+			<Bytes>00</Bytes>
+			<Pos>6</Pos>
 		</Pattern>
 		<Pattern>
 			<Bytes>00</Bytes>
@@ -58,14 +58,6 @@
 		<Pattern>
 			<Bytes>01</Bytes>
 			<Pos>31</Pos>
-		</Pattern>
-		<Pattern>
-			<Bytes>000000</Bytes>
-			<Pos>33</Pos>
-		</Pattern>
-		<Pattern>
-			<Bytes>00</Bytes>
-			<Pos>39</Pos>
 		</Pattern>
 		<Pattern>
 			<Bytes>0000</Bytes>
@@ -92,13 +84,16 @@
 			<Pos>63</Pos>
 		</Pattern>
 		<Pattern>
-			<Bytes>0058000000</Bytes>
-			<ASCII> . X</ASCII>
+			<Bytes>00</Bytes>
 			<Pos>67</Pos>
 		</Pattern>
 		<Pattern>
-			<Bytes>000000FD01</Bytes>
-			<Pos>73</Pos>
+			<Bytes>00</Bytes>
+			<Pos>71</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>00</Bytes>
+			<Pos>75</Pos>
 		</Pattern>
 		<Pattern>
 			<Bytes>00</Bytes>
@@ -109,9 +104,24 @@
 			<Pos>87</Pos>
 		</Pattern>
 		<Pattern>
-			<Bytes>003A005C00570049004E00</Bytes>
-			<ASCII> . : . \ . W . I . N</ASCII>
+			<Bytes>00</Bytes>
 			<Pos>89</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>00</Bytes>
+			<Pos>93</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>00</Bytes>
+			<Pos>95</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>00</Bytes>
+			<Pos>97</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>00</Bytes>
+			<Pos>99</Pos>
 		</Pattern>
 	</FrontBlock>
 	<GlobalStrings>

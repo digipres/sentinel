@@ -1,7 +1,7 @@
 <TrID ver="2.00">
 	<Info>
 		<FileType>SQLite 2.x database</FileType>
-		<Ext></Ext>
+		<Ext>SQLITE</Ext>
 		<ExtraInfo>
 			<Rem>SQLite is a small C library that implements a self-contained, embeddable, zero-configuration SQL database engine.</Rem>
 			<RefURL>http://www.sqlite.org/</RefURL>

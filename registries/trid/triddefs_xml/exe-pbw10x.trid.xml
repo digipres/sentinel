@@ -11,20 +11,20 @@
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>11</FileNum>
-		<Refine>5 by Marco Pontello</Refine>
+		<FileNum>14</FileNum>
+		<Refine>2 by Marco Pontello</Refine>
 		<CheckStrings>True</CheckStrings>
 		<Date>
-			<Year>2011</Year>
-			<Month>5</Month>
-			<Day>7</Day>
+			<Year>2012</Year>
+			<Month>12</Month>
+			<Day>26</Day>
 		</Date>
 		<Time>
-			<Hour>15</Hour>
-			<Min>8</Min>
-			<Sec>49</Sec>
+			<Hour>13</Hour>
+			<Min>40</Min>
+			<Sec>21</Sec>
 		</Time>
-		<Creator>TrIDScan/Py v1.79.11b</Creator>
+		<Creator>TrIDScan/Py v1.80</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
@@ -33,17 +33,22 @@
 			<Pos>0</Pos>
 		</Pattern>
 		<Pattern>
-			<Bytes>00393000000000000000000000E0000E030B010234</Bytes>
-			<ASCII> . 9 0 . . . . . . . . . . . . . . . . . 4</ASCII>
+			<Bytes>00393000000000000000000000E000</Bytes>
+			<ASCII> . 9 0</ASCII>
 			<Pos>135</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>030B010234</Bytes>
+			<ASCII> . . . . 4</ASCII>
+			<Pos>151</Pos>
 		</Pattern>
 		<Pattern>
 			<Bytes>0000</Bytes>
 			<Pos>159</Pos>
 		</Pattern>
 		<Pattern>
-			<Bytes>0000</Bytes>
-			<Pos>162</Pos>
+			<Bytes>00</Bytes>
+			<Pos>163</Pos>
 		</Pattern>
 		<Pattern>
 			<Bytes>0000</Bytes>
@@ -58,9 +63,17 @@
 			<Pos>179</Pos>
 		</Pattern>
 		<Pattern>
-			<Bytes>00000400000000000002000000000010000040000000000100001000000000000010000000000000000000000000</Bytes>
+			<Bytes>00000400000000000002000000000010000040000000000100001000000000000010000000</Bytes>
 			<ASCII> . . . . . . . . . . . . . . . . . . @</ASCII>
 			<Pos>211</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>0000</Bytes>
+			<Pos>250</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>00000000</Bytes>
+			<Pos>253</Pos>
 		</Pattern>
 		<Pattern>
 			<Bytes>00</Bytes>
@@ -75,8 +88,8 @@
 			<Pos>267</Pos>
 		</Pattern>
 		<Pattern>
-			<Bytes>00000000000000000000000000000000000000</Bytes>
-			<Pos>270</Pos>
+			<Bytes>000000000000000000000000000000000000</Bytes>
+			<Pos>271</Pos>
 		</Pattern>
 		<Pattern>
 			<Bytes>00</Bytes>
@@ -145,57 +158,36 @@
 		</Pattern>
 	</FrontBlock>
 	<GlobalStrings>
-		<String>COMCTL32.DLL''GDI32.DLL'KERNEL32.DLL''OLE32.DLL'OLEAUT32.DLL</String>
-		<String>TLSALLOC''''TLSFREE'''TLSGETVALUE'''TLSSETVALUE'''TRANSLATE</String>
 		<String>SYSALLOCSTRINGBYTELEN'''SYSALLOCSTRINGLEN'''SYSFREESTRING</String>
-		<String>P'O'W'E'R'B'A'S'I'C'''C'O'N'I'N'$'''TCP</String>
-		<String>TRANSLATEMESSAGE''''UPDATEWINDOW''''VAR</String>
+		<String>TLSALLOC''''TLSFREE'''TLSGETVALUE'''TLSSETVALUE</String>
+		<String>KERNEL32.DLL''OLE32.DLL'OLEAUT32.DLL</String>
 		<String>$'''''''''''''''''''''PE''L</String>
-		<String>GETVERSIONEXA'''GETWINDOW</String>
-		<String>COUNINITIALIZE''''CREATE</String>
 		<String>GLOBALALLOC'''GLOBALFREE</String>
 		<String>THIS IS A WIN32 PROGRAM.</String>
-		<String>DELETEOBJECT''''DESTROY</String>
 		<String>GETMODULEHANDLEW''''GET</String>
 		<String>GETCOMMANDLINEW'''GET</String>
 		<String>GETSTARTUPINFOA'''GET</String>
 		<String>MULTIBYTETOWIDECHAR</String>
+		<String>P'O'W'E'R'B'A'S'I'C</String>
 		<String>WIDECHARTOMULTIBYTE</String>
 		<String>COINITIALIZE''''CO</String>
-		<String>GETWINDOWRECT'''G</String>
+		<String>GETVERSIONEXA'''G</String>
 		<String>CLOSEHANDLE'''C</String>
-		<String>DISPATCHMESSAGE</String>
-		<String>REGISTERCLASSEX</String>
-		<String>CREATEWINDOWEX</String>
+		<String>COUNINITIALIZE</String>
 		<String>LUCIDA CONSOLE</String>
-		<String>DEFWINDOWPROC</String>
-		<String>GETDC'''GETDE</String>
 		<String>MS SANS SERIF</String>
+		<String>COMCTL32.DLL</String>
 		<String>VARIANTCLEAR</String>
 		<String>0C0G0M0Q0W0</String>
 		<String>EXITPROCESS</String>
-		<String>OBJECT''''S</String>
-		<String>LOADCURSOR</String>
 		<String>USER32.DLL</String>
 		<String>FINDCLOSE</String>
-		<String>LOADIMAGE</String>
-		<String>RELEASEDC</String>
-		<String>A''''GET</String>
 		<String>BBHHOOQQ</String>
 		<String>MESSAGEB</String>
 		<String>PPPPSVPR</String>
 		<String>PPQWSVPR</String>
-		<String>S''''GET</String>
-		<String>TMESSAGE</String>
-		<String>CREATEF</String>
-		<String>EX''''I</String>
-		<String>J'J'J'J</String>
-		<String>T''''SE</String>
 		<String>B('''A</String>
 		<String>B(''0A</String>
-		<String>D''''C</String>
-		<String>E''''G</String>
-		<String>IMAGEW</String>
 		<String>L'''ZX</String>
 		<String>PSQVWF</String>
 		<String>PSSSSS</String>
@@ -206,30 +198,12 @@
 		<String>.RLOC</String>
 		<String>.TEXT</String>
 		<String>E'''G</String>
-		<String>ERECT</String>
-		<String>ETCUR</String>
-		<String>GETCL</String>
-		<String>J'J'H</String>
-		<String>N'''F</String>
 		<String>PPSVJ</String>
 		<String>QWSVJ</String>
-		<String>SINFO</String>
 		<String>SQRVW</String>
 		<String>SQVWU</String>
-		<String>TRECT</String>
-		<String>W'''D</String>
-		<String>W'''S</String>
 		<String>CONT</String>
-		<String>ETER</String>
-		<String>ETME</String>
-		<String>MOVE</String>
-		<String>PJ'J</String>
-		<String>POST</String>
 		<String>PQRV</String>
-		<String>RENT</String>
-		<String>RSIN</String>
-		<String>SVW3</String>
 		<String>SVWH</String>
-		<String>WJ'J</String>
 	</GlobalStrings>
 </TrID>

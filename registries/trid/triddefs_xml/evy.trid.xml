@@ -4,27 +4,26 @@
 		<Ext>EVY</Ext>
 		<ExtraInfo>
 			<Rem></Rem>
-			<RefURL></RefURL>
+			<RefURL>http://en.wikipedia.org/wiki/Envoy_(WordPerfect)</RefURL>
 		</ExtraInfo>
 		<User>Marco Pontello</User>
 		<E-Mail>marcopon@gmail.com</E-Mail>
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>21</FileNum>
-		<Refine>17 by Marco Pontello</Refine>
-		<CheckStrings>True</CheckStrings>
+		<FileNum>34</FileNum>
+		<Refine>30 by Marco Pontello</Refine>
 		<Date>
-			<Year>2006</Year>
-			<Month>06</Month>
-			<Day>12</Day>
+			<Year>2014</Year>
+			<Month>6</Month>
+			<Day>1</Day>
 		</Date>
 		<Time>
-			<Hour>10</Hour>
-			<Min>18</Min>
-			<Sec>35</Sec>
+			<Hour>3</Hour>
+			<Min>51</Min>
+			<Sec>0</Sec>
 		</Time>
-		<Creator>TrIDScan32 v1.56</Creator>
+		<Creator>TrIDScan/Py v1.90</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
@@ -37,8 +36,4 @@
 			<Pos>7</Pos>
 		</Pattern>
 	</FrontBlock>
-	<GlobalStrings>
-		<String>TIME</String>
-		<String>ENVO</String>
-	</GlobalStrings>
 </TrID>

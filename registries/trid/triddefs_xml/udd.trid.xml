@@ -11,19 +11,19 @@
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>10</FileNum>
-		<Refine>2 by Marco Pontello</Refine>
+		<FileNum>11</FileNum>
+		<Refine>3 by Marco Pontello</Refine>
 		<Date>
-			<Year>2011</Year>
-			<Month>3</Month>
-			<Day>8</Day>
+			<Year>2013</Year>
+			<Month>12</Month>
+			<Day>29</Day>
 		</Date>
 		<Time>
-			<Hour>15</Hour>
-			<Min>0</Min>
-			<Sec>23</Sec>
+			<Hour>16</Hour>
+			<Min>51</Min>
+			<Sec>14</Sec>
 		</Time>
-		<Creator>TrIDScan/Py v1.79.11b</Creator>
+		<Creator>TrIDScan/Py v1.90</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
@@ -39,11 +39,6 @@
 		<Pattern>
 			<Bytes>2E</Bytes>
 			<Pos>27</Pos>
-		</Pattern>
-		<Pattern>
-			<Bytes>000A46</Bytes>
-			<ASCII> . . F</ASCII>
-			<Pos>53</Pos>
 		</Pattern>
 	</FrontBlock>
 </TrID>

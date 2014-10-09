@@ -1,6 +1,6 @@
 <TrID ver="2.00">
 	<Info>
-		<FileType>WinFax Sent / Received Document</FileType>
+		<FileType>WinFax Sent / Received document</FileType>
 		<Ext>FXR</Ext>
 		<ExtraInfo>
 			<Rem></Rem>
@@ -11,17 +11,17 @@
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>11</FileNum>
-		<Refine>1 by Marco Pontello</Refine>
+		<FileNum>132</FileNum>
+		<Refine>1 by Marco Pontello - 121 Kenneth Pierce!</Refine>
 		<Date>
-			<Year>2009</Year>
-			<Month>08</Month>
-			<Day>08</Day>
+			<Year>2014</Year>
+			<Month>07</Month>
+			<Day>17</Day>
 		</Date>
 		<Time>
-			<Hour>15</Hour>
-			<Min>16</Min>
-			<Sec>14</Sec>
+			<Hour>10</Hour>
+			<Min>28</Min>
+			<Sec>31</Sec>
 		</Time>
 		<Creator>TrIDScan32 v1.56</Creator>
 	</General>

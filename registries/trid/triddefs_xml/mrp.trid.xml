@@ -1,28 +1,29 @@
 <TrID ver="2.00">
 	<Info>
-		<FileType>MathRevolt Plot</FileType>
+		<FileType>China Mobile application</FileType>
 		<Ext>MRP</Ext>
 		<ExtraInfo>
 			<Rem></Rem>
-			<RefURL>http://www.mathrevolt.com/</RefURL>
+			<RefURL></RefURL>
 		</ExtraInfo>
 		<User>Marco Pontello</User>
 		<E-Mail>marcopon@gmail.com</E-Mail>
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>7</FileNum>
+		<FileNum>9</FileNum>
+		<CheckStrings>True</CheckStrings>
 		<Date>
-			<Year>2009</Year>
-			<Month>11</Month>
-			<Day>01</Day>
+			<Year>2014</Year>
+			<Month>5</Month>
+			<Day>16</Day>
 		</Date>
 		<Time>
-			<Hour>15</Hour>
-			<Min>52</Min>
-			<Sec>20</Sec>
+			<Hour>23</Hour>
+			<Min>35</Min>
+			<Sec>32</Sec>
 		</Time>
-		<Creator>TrIDScan32 v1.56</Creator>
+		<Creator>TrIDScan/Py v1.90</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
@@ -31,4 +32,9 @@
 			<Pos>0</Pos>
 		</Pattern>
 	</FrontBlock>
+	<GlobalStrings>
+		<String>CFUNCTION.EXT</String>
+		<String>START.MR</String>
+		<String>MRPG</String>
+	</GlobalStrings>
 </TrID>

@@ -1,25 +1,27 @@
 <TrID ver="2.00">
 	<Info>
-		<FileType>AutoCAD 2000 Plot Color Table</FileType>
+		<FileType>AutoCAD Color-Based Plot Style</FileType>
 		<Ext>CTB</Ext>
 		<ExtraInfo>
 			<Rem></Rem>
-			<RefURL>http://www.autodesk.com</RefURL>
+			<RefURL>http://en.wikipedia.org/wiki/AutoCAD</RefURL>
 		</ExtraInfo>
-		<User>Marco Pontello</User>
-		<E-Mail>marcopon@gmail.com</E-Mail>
-		<Home>http://mark0.net</Home>	</Info>
+		<User>Peter Glasl</User>
+		<E-Mail></E-Mail>
+		<Home>http://www.cadraktiv.ch</Home>
+	</Info>
 	<General>
-		<FileNum>9</FileNum>
+		<FileNum>119</FileNum>
+		<CheckStrings>True</CheckStrings>
 		<Date>
-			<Year>2007</Year>
-			<Month>01</Month>
-			<Day>25</Day>
+			<Year>2013</Year>
+			<Month>07</Month>
+			<Day>01</Day>
 		</Date>
 		<Time>
-			<Hour>11</Hour>
-			<Min>26</Min>
-			<Sec>57</Sec>
+			<Hour>17</Hour>
+			<Min>08</Min>
+			<Sec>43</Sec>
 		</Time>
 		<Creator>TrIDScan32 v1.56</Creator>
 	</General>
@@ -29,5 +31,20 @@
 			<ASCII> P I A F I L E V E R S I O N _ 2 . 0 , C T B V E R 1 , c o m p r e s s . . p m z l i b c o d e c</ASCII>
 			<Pos>0</Pos>
 		</Pattern>
+		<Pattern>
+			<Bytes>0100</Bytes>
+			<Pos>54</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>000078DA</Bytes>
+			<ASCII> . . x</ASCII>
+			<Pos>58</Pos>
+		</Pattern>
 	</FrontBlock>
+	<GlobalStrings>
+		<String>PIAFILEVERSION_2.0</String>
+		<String>PMZLIBCODEC</String>
+		<String>COMPRESS</String>
+		<String>CTBVER1</String>
+	</GlobalStrings>
 </TrID>

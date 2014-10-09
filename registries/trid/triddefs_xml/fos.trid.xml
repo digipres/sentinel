@@ -11,29 +11,25 @@
 		<Home>http://fenixproductions.qsh.eu</Home>
 	</Info>
 	<General>
-		<FileNum>455</FileNum>
+		<FileNum>572</FileNum>
+		<Refine>117 by Connor Lanigan</Refine>
 		<Date>
-			<Year>2009</Year>
-			<Month>01</Month>
+			<Year>2013</Year>
+			<Month>8</Month>
 			<Day>20</Day>
 		</Date>
 		<Time>
-			<Hour>12</Hour>
-			<Min>46</Min>
-			<Sec>43</Sec>
+			<Hour>13</Hour>
+			<Min>34</Min>
+			<Sec>16</Sec>
 		</Time>
-		<Creator>TrIDScan32 v1.56</Creator>
+		<Creator>TrIDScan/Py v1.90</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
 			<Bytes>464F335341564547414D45</Bytes>
 			<ASCII> F O 3 S A V E G A M E</ASCII>
 			<Pos>0</Pos>
-		</Pattern>
-		<Pattern>
-			<Bytes>000000300000007CB00100007C440100007C</Bytes>
-			<ASCII> . . . 0 . . . | . . . . | D . . . |</ASCII>
-			<Pos>12</Pos>
 		</Pattern>
 	</FrontBlock>
 </TrID>

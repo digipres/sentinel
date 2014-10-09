@@ -1,6 +1,6 @@
 <TrID ver="2.00">
 	<Info>
-		<FileType>Win32 Executable Generic</FileType>
+		<FileType>Win32 Executable (generic)</FileType>
 		<Ext>EXE</Ext>
 		<ExtraInfo>
 			<Rem></Rem>
@@ -11,20 +11,20 @@
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>70</FileNum>
+		<FileNum>71</FileNum>
 		<Refine>1 by Marco Pontello</Refine>
 		<CheckStrings>True</CheckStrings>
 		<Date>
-			<Year>2011</Year>
-			<Month>2</Month>
-			<Day>20</Day>
+			<Year>2013</Year>
+			<Month>6</Month>
+			<Day>5</Day>
 		</Date>
 		<Time>
-			<Hour>17</Hour>
-			<Min>6</Min>
-			<Sec>5</Sec>
+			<Hour>19</Hour>
+			<Min>3</Min>
+			<Sec>22</Sec>
 		</Time>
-		<Creator>TrIDScan/Py v1.79.11b</Creator>
+		<Creator>TrIDScan/Py v1.90</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
@@ -33,15 +33,11 @@
 			<Pos>0</Pos>
 		</Pattern>
 		<Pattern>
-			<Bytes>0000</Bytes>
-			<Pos>14</Pos>
-		</Pattern>
-		<Pattern>
 			<Bytes>00</Bytes>
 			<Pos>25</Pos>
 		</Pattern>
 		<Pattern>
-			<Bytes>0000000000</Bytes>
+			<Bytes>00</Bytes>
 			<Pos>27</Pos>
 		</Pattern>
 		<Pattern>
@@ -63,6 +59,5 @@
 	</FrontBlock>
 	<GlobalStrings>
 		<String>PE''L</String>
-		<String>.DLL</String>
 	</GlobalStrings>
 </TrID>

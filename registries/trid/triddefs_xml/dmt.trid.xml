@@ -1,6 +1,6 @@
 <TrID ver="2.00">
 	<Info>
-		<FileType>Street Atlas Transfer file</FileType>
+		<FileType>DeLorme Street Atlas Map Transfer</FileType>
 		<Ext>DMT</Ext>
 		<ExtraInfo>
 			<Rem></Rem>
@@ -11,20 +11,20 @@
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>7</FileNum>
-		<Refine>2 by Marco Pontello</Refine>
+		<FileNum>10</FileNum>
+		<Refine>3 by Marco Pontello</Refine>
 		<CheckStrings>True</CheckStrings>
 		<Date>
-			<Year>2008</Year>
-			<Month>07</Month>
-			<Day>24</Day>
+			<Year>2012</Year>
+			<Month>12</Month>
+			<Day>23</Day>
 		</Date>
 		<Time>
 			<Hour>16</Hour>
-			<Min>01</Min>
-			<Sec>26</Sec>
+			<Min>13</Min>
+			<Sec>32</Sec>
 		</Time>
-		<Creator>TrIDScan32 v1.56</Creator>
+		<Creator>TrIDScan/Py v1.80</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
@@ -54,10 +54,10 @@
 	</FrontBlock>
 	<GlobalStrings>
 		<String>A'N'N'O'T'A'T'E'.'A'C'T'I'V'E'F'I'L'E'N'A'M'E'S'''''''''''''''''2</String>
-		<String>D'E'L'O'R'M'E'C'O'M'P'O'N'E'N'T'S'''''''''''''''''''''''''''''''$</String>
 		<String>D'E'L'O'R'M'E'.'A'N'N'O'T'A'T'E'.'W'O'R'K'S'P'A'C'E'''''''''''''6</String>
 		<String>D'E'L'O'R'M'E'.'A'U'T'O'N'A'V'.'W'O'R'K'S'P'A'C'E'''''''''''''''4</String>
 		<String>D'E'L'O'R'M'E'A'U'T'O'N'A'V'F'I'L'E'S'''''''''''''''''''''''''''(</String>
+		<String>D'E'L'O'R'M'E'C'O'M'P'O'N'E'N'T'S'''''''''''''''''''''''''''''''$</String>
 		<String>D'E'L'O'R'M'E'.'T'A'R'G'E'T'T'O'O'L'S'.'1</String>
 		<String>A'N'N'O'T'A'T'E'.'F'I'L'E'N'A'M'E'S</String>
 		<String>T'O'O'L'C'L'A'S'S'S'T'O'R'A'G'E</String>
@@ -65,7 +65,7 @@
 		<String>M'A'P'2'D'S'T'A'T'E'2</String>
 		<String>R'O'O'T' 'E'N'T'R'Y</String>
 		<String>DELORME DOCS</String>
-		<String>DRAW</String>
 		<String>.AN1</String>
+		<String>DRAW</String>
 	</GlobalStrings>
 </TrID>

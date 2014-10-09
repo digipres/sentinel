@@ -8,20 +8,21 @@
 		</ExtraInfo>
 		<User>Marco Pontello</User>
 		<E-Mail>marcopon@gmail.com</E-Mail>
-		<Home>http://mark0.net</Home>	</Info>
+		<Home>http://mark0.net</Home>
+	</Info>
 	<General>
-		<FileNum>13</FileNum>
-		<Refine>1 by Marco Pontello</Refine>
+		<FileNum>14</FileNum>
+		<Refine>1 by Stef</Refine>
 		<CheckStrings>True</CheckStrings>
 		<Date>
-			<Year>2008</Year>
-			<Month>04</Month>
-			<Day>16</Day>
+			<Year>2012</Year>
+			<Month>06</Month>
+			<Day>26</Day>
 		</Date>
 		<Time>
-			<Hour>00</Hour>
-			<Min>59</Min>
-			<Sec>09</Sec>
+			<Hour>01</Hour>
+			<Min>05</Min>
+			<Sec>53</Sec>
 		</Time>
 		<Creator>TrIDScan32 v1.56</Creator>
 	</General>
@@ -49,8 +50,6 @@
 		<String>SIGNATURES.XMLPK</String>
 		<String>A'''META-INF</String>
 		<String>MIMETYPEPK</String>
-		<String>.PNGPK</String>
 		<String>HASHPK</String>
-		<String>ICON</String>
 	</GlobalStrings>
 </TrID>

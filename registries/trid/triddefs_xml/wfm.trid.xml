@@ -1,6 +1,6 @@
 <TrID ver="2.00">
 	<Info>
-		<FileType>Tektronik waveform data</FileType>
+		<FileType>Tektronix TDS waveform data</FileType>
 		<Ext>WFM</Ext>
 		<ExtraInfo>
 			<Rem></Rem>
@@ -8,20 +8,22 @@
 		</ExtraInfo>
 		<User>Marco Pontello</User>
 		<E-Mail>marcopon@gmail.com</E-Mail>
-		<Home>http://mark0.net</Home>	</Info>
+		<Home>http://mark0.net</Home>
+	</Info>
 	<General>
-		<FileNum>3</FileNum>
+		<FileNum>6</FileNum>
+		<Refine>3 by Marco Pontello</Refine>
 		<Date>
-			<Year>2007</Year>
-			<Month>03</Month>
-			<Day>01</Day>
+			<Year>2012</Year>
+			<Month>5</Month>
+			<Day>18</Day>
 		</Date>
 		<Time>
-			<Hour>18</Hour>
-			<Min>13</Min>
-			<Sec>54</Sec>
+			<Hour>15</Hour>
+			<Min>12</Min>
+			<Sec>39</Sec>
 		</Time>
-		<Creator>TrIDScan32 v1.56</Creator>
+		<Creator>TrIDScan/Py v1.80</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>

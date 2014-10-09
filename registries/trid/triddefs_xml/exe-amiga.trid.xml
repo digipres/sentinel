@@ -4,26 +4,26 @@
 		<Ext></Ext>
 		<ExtraInfo>
 			<Rem></Rem>
-			<RefURL></RefURL>
+			<RefURL>http://en.wikipedia.org/wiki/Amiga</RefURL>
 		</ExtraInfo>
 		<User>Marco Pontello</User>
 		<E-Mail>marcopon@gmail.com</E-Mail>
 		<Home></Home>
 	</Info>
 	<General>
-		<FileNum>29</FileNum>
-		<Refine>1 by Marco Pontello</Refine>
+		<FileNum>30</FileNum>
+		<Refine>2 by Marco Pontello</Refine>
 		<Date>
-			<Year>2004</Year>
-			<Month>03</Month>
-			<Day>07</Day>
+			<Year>2012</Year>
+			<Month>6</Month>
+			<Day>16</Day>
 		</Date>
 		<Time>
-			<Hour>14</Hour>
-			<Min>24</Min>
-			<Sec>52</Sec>
+			<Hour>3</Hour>
+			<Min>38</Min>
+			<Sec>57</Sec>
 		</Time>
-		<Creator>TrIDScan32 v1.55</Creator>
+		<Creator>TrIDScan/Py v1.80</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
@@ -43,8 +43,8 @@
 			<Pos>24</Pos>
 		</Pattern>
 		<Pattern>
-			<Bytes>0000</Bytes>
-			<Pos>28</Pos>
+			<Bytes>00</Bytes>
+			<Pos>29</Pos>
 		</Pattern>
 	</FrontBlock>
 </TrID>

@@ -26,7 +26,7 @@
 	</General>
 	<FrontBlock>
 		<Pattern>
-			<Bytes>2A2A2A2A2A2A2A2A2045617379506C6F7420736176652066696C65202A2A2A2A2A2A2A2A0D0</Bytes>
+			<Bytes>2A2A2A2A2A2A2A2A2045617379506C6F7420736176652066696C65202A2A2A2A2A2A2A2A0D</Bytes>
 			<ASCII> * * * * * * * *   E a s y P l o t   s a v e   f i l e   * * * * * * * *</ASCII>
 			<Pos>0</Pos>
 		</Pattern>

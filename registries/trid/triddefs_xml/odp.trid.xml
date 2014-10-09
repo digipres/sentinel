@@ -11,20 +11,20 @@
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>22</FileNum>
-		<Refine>2 by Marco Pontello</Refine>
+		<FileNum>23</FileNum>
+		<Refine>3 by Marco Pontello</Refine>
 		<CheckStrings>True</CheckStrings>
 		<Date>
-			<Year>2011</Year>
-			<Month>2</Month>
-			<Day>16</Day>
+			<Year>2013</Year>
+			<Month>10</Month>
+			<Day>9</Day>
 		</Date>
 		<Time>
-			<Hour>1</Hour>
-			<Min>43</Min>
-			<Sec>10</Sec>
+			<Hour>15</Hour>
+			<Min>25</Min>
+			<Sec>0</Sec>
 		</Time>
-		<Creator>TrIDScan/Py v1.79.11b</Creator>
+		<Creator>TrIDScan/Py v1.90</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
@@ -41,7 +41,6 @@
 	<GlobalStrings>
 		<String>VND.OASIS.OPENDOCUMENT.PRESENTATIONPK</String>
 		<String>MIMETYPEAPPLICATION</String>
-		<String>CONFIGURATIONS2</String>
 		<String>MANIFEST.XMLPK</String>
 		<String>SETTINGS.XMLPK</String>
 		<String>CONTENT.XMLPK</String>
@@ -49,6 +48,5 @@
 		<String>META.XMLPK</String>
 		<String>MIMETYPEPK</String>
 		<String>META-INF</String>
-		<String>ERATOR</String>
 	</GlobalStrings>
 </TrID>

@@ -11,20 +11,20 @@
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>23</FileNum>
-		<Refine>2 by Marco Pontello</Refine>
+		<FileNum>87</FileNum>
+		<Refine>2 by Marco Pontello - 64 by fengdaolong</Refine>
 		<CheckStrings>True</CheckStrings>
 		<Date>
 			<Year>2012</Year>
-			<Month>4</Month>
-			<Day>4</Day>
+			<Month>7</Month>
+			<Day>1</Day>
 		</Date>
 		<Time>
-			<Hour>23</Hour>
-			<Min>49</Min>
-			<Sec>44</Sec>
+			<Hour>3</Hour>
+			<Min>16</Min>
+			<Sec>29</Sec>
 		</Time>
-		<Creator>TrIDScan/Py v1.79.12b</Creator>
+		<Creator>TrIDScan/Py v1.80</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
@@ -136,7 +136,6 @@
 		<String>ENDDIALOG</String>
 		<String>FINDCLOSE</String>
 		<String>GDI32.DLL</String>
-		<String>LSTRCMPIA</String>
 		<String>MICROSOFT</String>
 		<String>OLE32.DLL</String>
 		<String>SETBKMODE</String>
@@ -146,7 +145,6 @@
 		<String>DRAWTEXT</String>
 		<String>ENDPAINT</String>
 		<String>FILLRECT</String>
-		<String>LSTRCPYA</String>
 		<String>LSTRLENA</String>
 		<String>READFILE</String>
 		<String>SETTIMER</String>
@@ -154,7 +152,7 @@
 		<String>TVERSION</String>
 		<String>CURRENT</String>
 		<String>LSTRCAT</String>
-		<String>M'S' 'S</String>
+		<String>LSTRCPY</String>
 		<String>.RDATA</String>
 		<String>RENAME</String>
 		<String>.DATA</String>
