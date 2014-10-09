@@ -15,8 +15,8 @@ import org.python.core.PyInteger;
 import org.python.core.PyObject;
 import org.python.util.PythonInterpreter;
 
-import eu.planets_project.ifr.core.techreg.formats.SigFileUtils;
 import uk.gov.nationalarchives.pronom.SigFile;
+import eu.planets_project.ifr.core.techreg.formats.SigFileUtils;
 
 /**
  * @author Andrew.Jackson@bl.uk
@@ -35,7 +35,8 @@ public class ForegCmd {
 	 */
 	public static void main(String[] args) throws Exception  {
 		//downloadSigFile();
-		SigFileUtils.downloadAllPronomFormatRecords(new File("data/pronom"));
+		SigFileUtils.downloadAllPronomFormatRecords(new File(
+				"registries/pronom"));
 		//pythonInvoker();
 	}
 	
