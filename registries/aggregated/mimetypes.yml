@@ -5,16 +5,64 @@
   - fdd:fdd000386
   - fdd:fdd000387
   - fdd:fdd000392
-Application/xml:
-- fdd:fdd000075
-None found:
-- fdd:fdd000245
-Not applicable:
-- fdd:fdd000208
-Text/xml:
-- fdd:fdd000075
+application/acad:
+- tika:image/vnd.dwg
 application/acrobat:
 - fdd:fdd000030
+application/activemessage:
+- tika:application/activemessage
+application/andrew-inset:
+- tika:application/andrew-inset
+application/applefile:
+- tika:application/applefile
+application/applixware:
+- tika:application/applixware
+application/atom+xml:
+- tika:application/atom+xml
+application/atomcat+xml:
+- tika:application/atomcat+xml
+application/atomicmail:
+- tika:application/atomicmail
+application/atomsvc+xml:
+- tika:application/atomsvc+xml
+application/auth-policy+xml:
+- tika:application/auth-policy+xml
+application/autocad_dwg:
+- tika:image/vnd.dwg
+application/batch-smtp:
+- tika:application/batch-smtp
+application/beep+xml:
+- tika:application/beep+xml
+application/binhex:
+- tika:application/mac-binhex40
+application/bizagi-modeler:
+- tika:application/bizagi-modeler
+application/cals-1840:
+- tika:application/cals-1840
+application/ccxml+xml:
+- tika:application/ccxml+xml
+application/cea-2018+xml:
+- tika:application/cea-2018+xml
+application/cellml+xml:
+- tika:application/cellml+xml
+application/cnrp+xml:
+- tika:application/cnrp+xml
+application/commonground:
+- tika:application/commonground
+application/conference-info+xml:
+- tika:application/conference-info+xml
+application/cpl+xml:
+- tika:application/cpl+xml
+application/csta+xml:
+- tika:application/csta+xml
+application/cstadata+xml:
+- tika:application/cstadata+xml
+application/cu-seeme:
+- tika:application/cu-seeme
+application/cybercash:
+- tika:application/cybercash
+application/davmount+xml:
+- tika:application/davmount+xml
 application/dbase:
 - pronom:x-fmt/10
 - fdd:fdd000324
@@ -24,17 +72,67 @@ application/dbf:
 - fdd:fdd000324
 - fdd:fdd000325
 - fdd:fdd000326
+application/dca-rft:
+- tika:application/dca-rft
+application/dec-dx:
+- tika:application/dec-dx
 application/dec-dx.:
 - pronom:x-fmt/286
+application/dialog-info+xml:
+- tika:application/dialog-info+xml
+application/dicom:
+- tika:application/dicom
+application/dita+xml:
+- tika:application/dita+xml
+application/dita+xml;format=concept:
+- tika:application/dita+xml;format=concept
+application/dita+xml;format=map:
+- tika:application/dita+xml;format=map
+application/dita+xml;format=task:
+- tika:application/dita+xml;format=task
+application/dita+xml;format=topic:
+- tika:application/dita+xml;format=topic
+application/dita+xml;format=val:
+- tika:application/dita+xml;format=val
+application/dns:
+- tika:application/dns
+application/dvcs:
+- tika:application/dvcs
 application/dwf:
 - pronom:x-fmt/49
+application/dwg:
+- tika:image/vnd.dwg
+application/ecmascript:
+- tika:application/ecmascript
+application/edi-consent:
+- tika:application/edi-consent
+application/edi-x12:
+- tika:application/edi-x12
+application/edifact:
+- tika:application/edifact
+application/emma+xml:
+- tika:application/emma+xml
+application/epp+xml:
+- tika:application/epp+xml
 application/epub+zip:
+- tika:application/epub+zip
 - pronom:fmt/483
 - fdd:fdd000278
 - fdd:fdd000308
+application/eshop:
+- tika:application/eshop
+application/example:
+- tika:application/example
+application/fastinfoset:
+- tika:application/fastinfoset
+application/fastsoap:
+- tika:application/fastsoap
 application/fits:
+- tika:application/fits
 - pronom:x-fmt/383
 - fdd:fdd000317
+application/font-tdpfr:
+- tika:application/font-tdpfr
 application/font-woff:
 - pronom:fmt/616
 application/futuresplash:
@@ -42,35 +140,154 @@ application/futuresplash:
 - fdd:fdd000248
 application/gml+xml:
 - pronom:x-fmt/227
+application/gzip:
+- tika:application/gzip
+application/gzip-compressed:
+- tika:application/gzip
+- tika:application/gzip
+application/gzipped:
+- tika:application/gzip
+application/h224:
+- tika:application/h224
+application/http:
+- tika:application/http
+application/hyperstudio:
+- tika:application/hyperstudio
+application/ibe-key-request+xml:
+- tika:application/ibe-key-request+xml
+application/ibe-pkg-reply+xml:
+- tika:application/ibe-pkg-reply+xml
+application/ibe-pp-data:
+- tika:application/ibe-pp-data
+application/iges:
+- tika:application/iges
+application/illustrator:
+- tika:application/illustrator
+application/im-iscomposing+xml:
+- tika:application/im-iscomposing+xml
+application/index:
+- tika:application/index
+application/index.cmd:
+- tika:application/index.cmd
+application/index.obj:
+- tika:application/index.obj
+application/index.response:
+- tika:application/index.response
+application/index.vnd:
+- tika:application/index.vnd
 application/inf:
 - pronom:x-fmt/420
+application/iotp:
+- tika:application/iotp
+application/ipp:
+- tika:application/ipp
+application/isup:
+- tika:application/isup
 application/java-archive:
+- tika:application/java-archive
 - pronom:x-fmt/412
+application/java-serialized-object:
+- tika:application/java-serialized-object
+application/java-vm:
+- tika:application/java-vm
 application/javascript:
+- tika:application/javascript
 - pronom:x-fmt/423
 application/jpg:
 - fdd:fdd000018
 application/json:
+- tika:application/json
 - fdd:fdd000381
 - fdd:fdd000382
+application/kate:
+- tika:application/kate
+application/kpml-request+xml:
+- tika:application/kpml-request+xml
+application/kpml-response+xml:
+- tika:application/kpml-response+xml
+application/lost+xml:
+- tika:application/lost+xml
 application/lotus123:
 - pronom:x-fmt/115
 - pronom:x-fmt/116
 application/lwp:
 - pronom:x-fmt/340
 - pronom:fmt/340
+application/mac-binhex:
+- tika:application/mac-binhex40
+application/mac-binhex40:
+- tika:application/mac-binhex40
+application/mac-compactpro:
+- tika:application/mac-compactpro
+application/macwriteii:
+- tika:application/macwriteii
+application/marc:
+- tika:application/marc
+application/mathematica:
+- tika:application/mathematica
+application/mathml+xml:
+- tika:application/mathml+xml
+application/matlab-mat:
+- tika:application/x-matlab-data
+application/mbms-associated-procedure-description+xml:
+- tika:application/mbms-associated-procedure-description+xml
+application/mbms-deregister+xml:
+- tika:application/mbms-deregister+xml
+application/mbms-envelope+xml:
+- tika:application/mbms-envelope+xml
+application/mbms-msk+xml:
+- tika:application/mbms-msk+xml
+application/mbms-msk-response+xml:
+- tika:application/mbms-msk-response+xml
+application/mbms-protection-description+xml:
+- tika:application/mbms-protection-description+xml
+application/mbms-reception-report+xml:
+- tika:application/mbms-reception-report+xml
+application/mbms-register+xml:
+- tika:application/mbms-register+xml
+application/mbms-register-response+xml:
+- tika:application/mbms-register-response+xml
+application/mbms-user-service-description+xml:
+- tika:application/mbms-user-service-description+xml
 application/mbox:
+- tika:application/mbox
 - fdd:fdd000383
+application/media_control+xml:
+- tika:application/media_control+xml
+application/mediaservercontrol+xml:
+- tika:application/mediaservercontrol+xml
+application/mikey:
+- tika:application/mikey
+application/moss-keys:
+- tika:application/moss-keys
+application/moss-signature:
+- tika:application/moss-signature
+application/mosskey-data:
+- tika:application/mosskey-data
+application/mosskey-request:
+- tika:application/mosskey-request
 application/mp4:
+- tika:application/mp4
 - fdd:fdd000155
+application/mpeg4-generic:
+- tika:application/mpeg4-generic
 application/mpeg4-iod:
+- tika:application/mpeg4-iod
 - fdd:fdd000155
 application/mpeg4-iod-xmt:
+- tika:application/mpeg4-iod-xmt
 - fdd:fdd000155
 - fdd:fdd000156
+application/ms-tnef:
+- tika:application/vnd.ms-tnef
+application/msexcel:
+- tika:application/vnd.ms-excel
 application/msonenote:
 - pronom:fmt/637
+application/mspowerpoint:
+- tika:application/vnd.ms-powerpoint
 application/msword:
+- tika:application/msword
 - pronom:x-fmt/64
 - pronom:x-fmt/65
 - pronom:x-fmt/129
@@ -83,13 +300,33 @@ application/msword:
 - pronom:fmt/37
 - pronom:fmt/38
 - pronom:fmt/609
+application/msword2:
+- tika:application/msword2
+application/msword5:
+- tika:application/msword5
 application/mxf:
+- tika:application/mxf
 - pronom:fmt/200
 - fdd:fdd000013
+application/nasdata:
+- tika:application/nasdata
 application/netcdf:
 - pronom:fmt/282
 - pronom:fmt/283
+application/news-checkgroups:
+- tika:application/news-checkgroups
+application/news-groupinfo:
+- tika:application/news-groupinfo
+application/news-transmission:
+- tika:application/news-transmission
+application/nss:
+- tika:application/nss
+application/ocsp-request:
+- tika:application/ocsp-request
+application/ocsp-response:
+- tika:application/ocsp-response
 application/octet-stream:
+- tika:application/octet-stream
 - pronom:x-fmt/411
 - pronom:x-fmt/436
 - pronom:x-fmt/437
@@ -108,12 +345,25 @@ application/octet-stream:
 - pronom:x-fmt/451
 - pronom:x-fmt/452
 - pronom:x-fmt/453
+application/oda:
+- tika:application/oda
+application/oebps-package+xml:
+- tika:application/oebps-package+xml
 application/ogg:
+- tika:application/ogg
 - fdd:fdd000026
 - fdd:fdd000117
+application/onenote:
+- tika:application/onenote
 application/oxps:
+- tika:application/vnd.ms-xpsdocument
 - pronom:fmt/657
+application/parityfec:
+- tika:application/parityfec
+application/patch-ops-error+xml:
+- tika:application/patch-ops-error+xml
 application/pdf:
+- tika:application/pdf
 - pronom:fmt/14
 - pronom:fmt/15
 - pronom:fmt/16
@@ -132,9 +382,44 @@ application/pdf:
 - pronom:fmt/276
 - pronom:fmt/354
 - fdd:fdd000030
+application/pgp:
+- tika:application/pgp-encrypted
+application/pgp-encrypted:
+- tika:application/pgp-encrypted
+application/pgp-keys:
+- tika:application/pgp-keys
+application/pgp-signature:
+- tika:application/pgp-signature
+application/photoshop:
+- tika:image/vnd.adobe.photoshop
+application/pics-rules:
+- tika:application/pics-rules
+application/pidf+xml:
+- tika:application/pidf+xml
+application/pidf-diff+xml:
+- tika:application/pidf-diff+xml
+application/pkcs10:
+- tika:application/pkcs10
+application/pkcs7-mime:
+- tika:application/pkcs7-mime
+application/pkcs7-signature:
+- tika:application/pkcs7-signature
+application/pkix-cert:
+- tika:application/pkix-cert
+application/pkix-crl:
+- tika:application/pkix-crl
+application/pkix-pkipath:
+- tika:application/pkix-pkipath
+application/pkixcmp:
+- tika:application/pkixcmp
 application/playerpro:
 - fdd:fdd000126
+application/pls+xml:
+- tika:application/pls+xml
+application/poc-settings+xml:
+- tika:application/poc-settings+xml
 application/postscript:
+- tika:application/postscript
 - pronom:x-fmt/20
 - pronom:fmt/122
 - pronom:x-fmt/91
@@ -143,9 +428,42 @@ application/postscript:
 - pronom:x-fmt/406
 - pronom:x-fmt/407
 - pronom:x-fmt/408
+application/prs.alvestrand.titrax-sheet:
+- tika:application/prs.alvestrand.titrax-sheet
+application/prs.cww:
+- tika:application/prs.cww
+application/prs.nprend:
+- tika:application/prs.nprend
+application/prs.plucker:
+- tika:application/prs.plucker
 application/qif:
 - pronom:fmt/307
+application/qsig:
+- tika:application/qsig
+application/rdf+xml:
+- tika:application/rdf+xml
+application/reginfo+xml:
+- tika:application/reginfo+xml
+application/relax-ng-compact-syntax:
+- tika:application/relax-ng-compact-syntax
+application/remote-printing:
+- tika:application/remote-printing
+application/resource-lists+xml:
+- tika:application/resource-lists+xml
+application/resource-lists-diff+xml:
+- tika:application/resource-lists-diff+xml
+application/riscos:
+- tika:application/riscos
+application/rlmi+xml:
+- tika:application/rlmi+xml
+application/rls-services+xml:
+- tika:application/rls-services+xml
+application/rsd+xml:
+- tika:application/rsd+xml
+application/rss+xml:
+- tika:application/rss+xml
 application/rtf:
+- tika:application/rtf
 - pronom:fmt/45
 - pronom:fmt/46
 - pronom:fmt/47
@@ -156,18 +474,365 @@ application/rtf:
 - pronom:fmt/52
 - pronom:fmt/53
 - pronom:fmt/355
+application/rtx:
+- tika:application/rtx
+application/samlassertion+xml:
+- tika:application/samlassertion+xml
+application/samlmetadata+xml:
+- tika:application/samlmetadata+xml
+application/sbml+xml:
+- tika:application/sbml+xml
+application/scvp-cv-request:
+- tika:application/scvp-cv-request
+application/scvp-cv-response:
+- tika:application/scvp-cv-response
+application/scvp-vp-request:
+- tika:application/scvp-vp-request
+application/scvp-vp-response:
+- tika:application/scvp-vp-response
+application/sdp:
+- tika:application/sdp
+application/set-payment:
+- tika:application/set-payment
+application/set-payment-initiation:
+- tika:application/set-payment-initiation
+application/set-registration:
+- tika:application/set-registration
+application/set-registration-initiation:
+- tika:application/set-registration-initiation
+application/sgml:
+- tika:application/sgml
+application/sgml-open-catalog:
+- tika:application/sgml-open-catalog
+application/shf+xml:
+- tika:application/shf+xml
+application/sieve:
+- tika:application/sieve
+application/simple-filter+xml:
+- tika:application/simple-filter+xml
+application/simple-message-summary:
+- tika:application/simple-message-summary
+application/simplesymbolcontainer:
+- tika:application/simplesymbolcontainer
+application/slate:
+- tika:application/slate
 application/sld:
 - pronom:x-fmt/105
+application/sldworks:
+- tika:application/sldworks
+application/smil:
+- tika:application/smil+xml
+application/smil+xml:
+- tika:application/smil+xml
+application/soap+fastinfoset:
+- tika:application/soap+fastinfoset
+application/soap+xml:
+- tika:application/soap+xml
 application/soundapp:
 - fdd:fdd000126
 - fdd:fdd000126
+application/sparql-query:
+- tika:application/sparql-query
+application/sparql-results+xml:
+- tika:application/sparql-results+xml
+application/spirits-event+xml:
+- tika:application/spirits-event+xml
+application/srgs:
+- tika:application/srgs
+application/srgs+xml:
+- tika:application/srgs+xml
+application/ssml+xml:
+- tika:application/ssml+xml
 application/tif:
 - fdd:fdd000022
 - fdd:fdd000292
 application/tiff:
 - fdd:fdd000022
 - fdd:fdd000292
+application/timestamp-query:
+- tika:application/timestamp-query
+application/timestamp-reply:
+- tika:application/timestamp-reply
+application/tve-trigger:
+- tika:application/tve-trigger
+application/ulpfec:
+- tika:application/ulpfec
+application/vemmi:
+- tika:application/vemmi
+application/vividence.scriptfile:
+- tika:application/vividence.scriptfile
+application/vnd.3gpp.bsf+xml:
+- tika:application/vnd.3gpp.bsf+xml
+application/vnd.3gpp.pic-bw-large:
+- tika:application/vnd.3gpp.pic-bw-large
+application/vnd.3gpp.pic-bw-small:
+- tika:application/vnd.3gpp.pic-bw-small
+application/vnd.3gpp.pic-bw-var:
+- tika:application/vnd.3gpp.pic-bw-var
+application/vnd.3gpp.sms:
+- tika:application/vnd.3gpp.sms
+application/vnd.3gpp2.bcmcsinfo+xml:
+- tika:application/vnd.3gpp2.bcmcsinfo+xml
+application/vnd.3gpp2.sms:
+- tika:application/vnd.3gpp2.sms
+application/vnd.3gpp2.tcap:
+- tika:application/vnd.3gpp2.tcap
+application/vnd.3m.post-it-notes:
+- tika:application/vnd.3m.post-it-notes
+application/vnd.accpac.simply.aso:
+- tika:application/vnd.accpac.simply.aso
+application/vnd.accpac.simply.imp:
+- tika:application/vnd.accpac.simply.imp
+application/vnd.acucobol:
+- tika:application/vnd.acucobol
+application/vnd.acucorp:
+- tika:application/vnd.acucorp
+application/vnd.adobe.aftereffects.project:
+- tika:application/vnd.adobe.aftereffects.project
+application/vnd.adobe.aftereffects.template:
+- tika:application/vnd.adobe.aftereffects.template
+application/vnd.adobe.air-application-installer-package+zip:
+- tika:application/vnd.adobe.air-application-installer-package+zip
+application/vnd.adobe.xdp+xml:
+- tika:application/vnd.adobe.xdp+xml
+application/vnd.adobe.xfdf:
+- tika:application/vnd.adobe.xfdf
+application/vnd.aether.imp:
+- tika:application/vnd.aether.imp
+application/vnd.airzip.filesecure.azf:
+- tika:application/vnd.airzip.filesecure.azf
+application/vnd.airzip.filesecure.azs:
+- tika:application/vnd.airzip.filesecure.azs
+application/vnd.amazon.ebook:
+- tika:application/vnd.amazon.ebook
+application/vnd.americandynamics.acc:
+- tika:application/vnd.americandynamics.acc
+application/vnd.amiga.ami:
+- tika:application/vnd.amiga.ami
+application/vnd.android.package-archive:
+- tika:application/vnd.android.package-archive
+application/vnd.anser-web-certificate-issue-initiation:
+- tika:application/vnd.anser-web-certificate-issue-initiation
+application/vnd.anser-web-funds-transfer-initiation:
+- tika:application/vnd.anser-web-funds-transfer-initiation
+application/vnd.antix.game-component:
+- tika:application/vnd.antix.game-component
+application/vnd.apple.installer+xml:
+- tika:application/vnd.apple.installer+xml
+application/vnd.apple.iwork:
+- tika:application/vnd.apple.iwork
+application/vnd.apple.keynote:
+- tika:application/vnd.apple.keynote
+application/vnd.apple.numbers:
+- tika:application/vnd.apple.numbers
+application/vnd.apple.pages:
+- tika:application/vnd.apple.pages
+application/vnd.arastra.swi:
+- tika:application/vnd.arastra.swi
+application/vnd.audiograph:
+- tika:application/vnd.audiograph
+application/vnd.autopackage:
+- tika:application/vnd.autopackage
+application/vnd.avistar+xml:
+- tika:application/vnd.avistar+xml
+application/vnd.blueice.multipass:
+- tika:application/vnd.blueice.multipass
+application/vnd.bluetooth.ep.oob:
+- tika:application/vnd.bluetooth.ep.oob
+application/vnd.bmi:
+- tika:application/vnd.bmi
+application/vnd.businessobjects:
+- tika:application/vnd.businessobjects
+application/vnd.cab-jscript:
+- tika:application/vnd.cab-jscript
+application/vnd.canon-cpdl:
+- tika:application/vnd.canon-cpdl
+application/vnd.canon-lips:
+- tika:application/vnd.canon-lips
+application/vnd.cendio.thinlinc.clientconf:
+- tika:application/vnd.cendio.thinlinc.clientconf
+application/vnd.chemdraw+xml:
+- tika:application/vnd.chemdraw+xml
+application/vnd.chipnuts.karaoke-mmd:
+- tika:application/vnd.chipnuts.karaoke-mmd
+application/vnd.cinderella:
+- tika:application/vnd.cinderella
+application/vnd.cirpack.isdn-ext:
+- tika:application/vnd.cirpack.isdn-ext
+application/vnd.claymore:
+- tika:application/vnd.claymore
+application/vnd.clonk.c4group:
+- tika:application/vnd.clonk.c4group
+application/vnd.commerce-battelle:
+- tika:application/vnd.commerce-battelle
+application/vnd.commonspace:
+- tika:application/vnd.commonspace
+application/vnd.contact.cmsg:
+- tika:application/vnd.contact.cmsg
+application/vnd.cosmocaller:
+- tika:application/vnd.cosmocaller
+application/vnd.crick.clicker:
+- tika:application/vnd.crick.clicker
+application/vnd.crick.clicker.keyboard:
+- tika:application/vnd.crick.clicker.keyboard
+application/vnd.crick.clicker.palette:
+- tika:application/vnd.crick.clicker.palette
+application/vnd.crick.clicker.template:
+- tika:application/vnd.crick.clicker.template
+application/vnd.crick.clicker.wordbank:
+- tika:application/vnd.crick.clicker.wordbank
+application/vnd.criticaltools.wbs+xml:
+- tika:application/vnd.criticaltools.wbs+xml
+application/vnd.ctc-posml:
+- tika:application/vnd.ctc-posml
+application/vnd.ctct.ws+xml:
+- tika:application/vnd.ctct.ws+xml
+application/vnd.cups-pdf:
+- tika:application/vnd.cups-pdf
+application/vnd.cups-postscript:
+- tika:application/vnd.cups-postscript
+application/vnd.cups-ppd:
+- tika:application/vnd.cups-ppd
+application/vnd.cups-raster:
+- tika:application/vnd.cups-raster
+application/vnd.cups-raw:
+- tika:application/vnd.cups-raw
+application/vnd.curl.car:
+- tika:application/vnd.curl.car
+application/vnd.curl.pcurl:
+- tika:application/vnd.curl.pcurl
+application/vnd.cybank:
+- tika:application/vnd.cybank
+application/vnd.data-vision.rdz:
+- tika:application/vnd.data-vision.rdz
+application/vnd.denovo.fcselayout-link:
+- tika:application/vnd.denovo.fcselayout-link
+application/vnd.dir-bi.plate-dl-nosuffix:
+- tika:application/vnd.dir-bi.plate-dl-nosuffix
+application/vnd.dna:
+- tika:application/vnd.dna
+application/vnd.dolby.mlp:
+- tika:application/vnd.dolby.mlp
+application/vnd.dolby.mobile.1:
+- tika:application/vnd.dolby.mobile.1
+application/vnd.dolby.mobile.2:
+- tika:application/vnd.dolby.mobile.2
+application/vnd.dpgraph:
+- tika:application/vnd.dpgraph
+application/vnd.dreamfactory:
+- tika:application/vnd.dreamfactory
+application/vnd.dvb.esgcontainer:
+- tika:application/vnd.dvb.esgcontainer
+application/vnd.dvb.ipdcdftnotifaccess:
+- tika:application/vnd.dvb.ipdcdftnotifaccess
+application/vnd.dvb.ipdcesgaccess:
+- tika:application/vnd.dvb.ipdcesgaccess
+application/vnd.dvb.ipdcroaming:
+- tika:application/vnd.dvb.ipdcroaming
+application/vnd.dvb.iptv.alfec-base:
+- tika:application/vnd.dvb.iptv.alfec-base
+application/vnd.dvb.iptv.alfec-enhancement:
+- tika:application/vnd.dvb.iptv.alfec-enhancement
+application/vnd.dvb.notif-aggregate-root+xml:
+- tika:application/vnd.dvb.notif-aggregate-root+xml
+application/vnd.dvb.notif-container+xml:
+- tika:application/vnd.dvb.notif-container+xml
+application/vnd.dvb.notif-generic+xml:
+- tika:application/vnd.dvb.notif-generic+xml
+application/vnd.dvb.notif-ia-msglist+xml:
+- tika:application/vnd.dvb.notif-ia-msglist+xml
+application/vnd.dvb.notif-ia-registration-request+xml:
+- tika:application/vnd.dvb.notif-ia-registration-request+xml
+application/vnd.dvb.notif-ia-registration-response+xml:
+- tika:application/vnd.dvb.notif-ia-registration-response+xml
+application/vnd.dvb.notif-init+xml:
+- tika:application/vnd.dvb.notif-init+xml
+application/vnd.dxr:
+- tika:application/vnd.dxr
+application/vnd.dynageo:
+- tika:application/vnd.dynageo
+application/vnd.ecdis-update:
+- tika:application/vnd.ecdis-update
+application/vnd.ecowin.chart:
+- tika:application/vnd.ecowin.chart
+application/vnd.ecowin.filerequest:
+- tika:application/vnd.ecowin.filerequest
+application/vnd.ecowin.fileupdate:
+- tika:application/vnd.ecowin.fileupdate
+application/vnd.ecowin.series:
+- tika:application/vnd.ecowin.series
+application/vnd.ecowin.seriesrequest:
+- tika:application/vnd.ecowin.seriesrequest
+application/vnd.ecowin.seriesupdate:
+- tika:application/vnd.ecowin.seriesupdate
+application/vnd.emclient.accessrequest+xml:
+- tika:application/vnd.emclient.accessrequest+xml
+application/vnd.enliven:
+- tika:application/vnd.enliven
+application/vnd.epson.esf:
+- tika:application/vnd.epson.esf
+application/vnd.epson.msf:
+- tika:application/vnd.epson.msf
+application/vnd.epson.quickanime:
+- tika:application/vnd.epson.quickanime
+application/vnd.epson.salt:
+- tika:application/vnd.epson.salt
+application/vnd.epson.ssf:
+- tika:application/vnd.epson.ssf
+application/vnd.ericsson.quickcall:
+- tika:application/vnd.ericsson.quickcall
+application/vnd.eszigno3+xml:
+- tika:application/vnd.eszigno3+xml
+application/vnd.etsi.aoc+xml:
+- tika:application/vnd.etsi.aoc+xml
+application/vnd.etsi.cug+xml:
+- tika:application/vnd.etsi.cug+xml
+application/vnd.etsi.iptvcommand+xml:
+- tika:application/vnd.etsi.iptvcommand+xml
+application/vnd.etsi.iptvdiscovery+xml:
+- tika:application/vnd.etsi.iptvdiscovery+xml
+application/vnd.etsi.iptvprofile+xml:
+- tika:application/vnd.etsi.iptvprofile+xml
+application/vnd.etsi.iptvsad-bc+xml:
+- tika:application/vnd.etsi.iptvsad-bc+xml
+application/vnd.etsi.iptvsad-cod+xml:
+- tika:application/vnd.etsi.iptvsad-cod+xml
+application/vnd.etsi.iptvsad-npvr+xml:
+- tika:application/vnd.etsi.iptvsad-npvr+xml
+application/vnd.etsi.iptvueprofile+xml:
+- tika:application/vnd.etsi.iptvueprofile+xml
+application/vnd.etsi.mcid+xml:
+- tika:application/vnd.etsi.mcid+xml
+application/vnd.etsi.sci+xml:
+- tika:application/vnd.etsi.sci+xml
+application/vnd.etsi.simservs+xml:
+- tika:application/vnd.etsi.simservs+xml
+application/vnd.eudora.data:
+- tika:application/vnd.eudora.data
+application/vnd.ezpix-album:
+- tika:application/vnd.ezpix-album
+application/vnd.ezpix-package:
+- tika:application/vnd.ezpix-package
+application/vnd.f-secure.mobile:
+- tika:application/vnd.f-secure.mobile
+application/vnd.fdf:
+- tika:application/vnd.fdf
+application/vnd.fdsn.mseed:
+- tika:application/vnd.fdsn.mseed
+application/vnd.fdsn.seed:
+- tika:application/vnd.fdsn.seed
+application/vnd.ffsns:
+- tika:application/vnd.ffsns
+application/vnd.fints:
+- tika:application/vnd.fints
+application/vnd.flographit:
+- tika:application/vnd.flographit
+application/vnd.fluxtime.clip:
+- tika:application/vnd.fluxtime.clip
+application/vnd.font-fontforge-sfd:
+- tika:application/vnd.font-fontforge-sfd
 application/vnd.framemaker:
+- tika:application/vnd.framemaker
 - pronom:x-fmt/302
 - pronom:fmt/190
 - pronom:fmt/533
@@ -177,32 +842,311 @@ application/vnd.framemaker:
 - pronom:fmt/537
 - pronom:fmt/538
 - pronom:fmt/539
+application/vnd.frogans.fnc:
+- tika:application/vnd.frogans.fnc
+application/vnd.frogans.ltf:
+- tika:application/vnd.frogans.ltf
+application/vnd.fsc.weblaunch:
+- tika:application/vnd.fsc.weblaunch
+application/vnd.fujitsu.oasys:
+- tika:application/vnd.fujitsu.oasys
+application/vnd.fujitsu.oasys2:
+- tika:application/vnd.fujitsu.oasys2
+application/vnd.fujitsu.oasys3:
+- tika:application/vnd.fujitsu.oasys3
+application/vnd.fujitsu.oasysgp:
+- tika:application/vnd.fujitsu.oasysgp
+application/vnd.fujitsu.oasysprs:
+- tika:application/vnd.fujitsu.oasysprs
+application/vnd.fujixerox.art-ex:
+- tika:application/vnd.fujixerox.art-ex
+application/vnd.fujixerox.art4:
+- tika:application/vnd.fujixerox.art4
+application/vnd.fujixerox.ddd:
+- tika:application/vnd.fujixerox.ddd
+application/vnd.fujixerox.docuworks:
+- tika:application/vnd.fujixerox.docuworks
+application/vnd.fujixerox.docuworks.binder:
+- tika:application/vnd.fujixerox.docuworks.binder
+application/vnd.fujixerox.hbpl:
+- tika:application/vnd.fujixerox.hbpl
+application/vnd.fut-misnet:
+- tika:application/vnd.fut-misnet
+application/vnd.fuzzysheet:
+- tika:application/vnd.fuzzysheet
+application/vnd.genomatix.tuxedo:
+- tika:application/vnd.genomatix.tuxedo
+application/vnd.geogebra.file:
+- tika:application/vnd.geogebra.file
+application/vnd.geogebra.tool:
+- tika:application/vnd.geogebra.tool
+application/vnd.geometry-explorer:
+- tika:application/vnd.geometry-explorer
+application/vnd.gmx:
+- tika:application/vnd.gmx
 application/vnd.google-earth.kml+xml:
+- tika:application/vnd.google-earth.kml+xml
 - fdd:fdd000340
+application/vnd.google-earth.kmz:
+- tika:application/vnd.google-earth.kmz
+application/vnd.grafeq:
+- tika:application/vnd.grafeq
+application/vnd.gridmp:
+- tika:application/vnd.gridmp
+application/vnd.groove-account:
+- tika:application/vnd.groove-account
+application/vnd.groove-help:
+- tika:application/vnd.groove-help
+application/vnd.groove-identity-message:
+- tika:application/vnd.groove-identity-message
+application/vnd.groove-injector:
+- tika:application/vnd.groove-injector
+application/vnd.groove-tool-message:
+- tika:application/vnd.groove-tool-message
+application/vnd.groove-tool-template:
+- tika:application/vnd.groove-tool-template
+application/vnd.groove-vcard:
+- tika:application/vnd.groove-vcard
+application/vnd.handheld-entertainment+xml:
+- tika:application/vnd.handheld-entertainment+xml
+application/vnd.hbci:
+- tika:application/vnd.hbci
+application/vnd.hcl-bireports:
+- tika:application/vnd.hcl-bireports
+application/vnd.hhe.lesson-player:
+- tika:application/vnd.hhe.lesson-player
+application/vnd.hp-hpgl:
+- tika:application/vnd.hp-hpgl
+application/vnd.hp-hpid:
+- tika:application/vnd.hp-hpid
+application/vnd.hp-hps:
+- tika:application/vnd.hp-hps
+application/vnd.hp-jlyt:
+- tika:application/vnd.hp-jlyt
+application/vnd.hp-pcl:
+- tika:application/vnd.hp-pcl
+application/vnd.hp-pclxl:
+- tika:application/vnd.hp-pclxl
+application/vnd.httphone:
+- tika:application/vnd.httphone
+application/vnd.hydrostatix.sof-data:
+- tika:application/vnd.hydrostatix.sof-data
+application/vnd.hzn-3d-crossword:
+- tika:application/vnd.hzn-3d-crossword
+application/vnd.ibm.afplinedata:
+- tika:application/vnd.ibm.afplinedata
+application/vnd.ibm.electronic-media:
+- tika:application/vnd.ibm.electronic-media
+application/vnd.ibm.minipay:
+- tika:application/vnd.ibm.minipay
+application/vnd.ibm.modcap:
+- tika:application/vnd.ibm.modcap
+application/vnd.ibm.rights-management:
+- tika:application/vnd.ibm.rights-management
+application/vnd.ibm.secure-container:
+- tika:application/vnd.ibm.secure-container
+application/vnd.iccprofile:
+- tika:application/vnd.iccprofile
+application/vnd.igloader:
+- tika:application/vnd.igloader
+application/vnd.immervision-ivp:
+- tika:application/vnd.immervision-ivp
+application/vnd.immervision-ivu:
+- tika:application/vnd.immervision-ivu
+application/vnd.informedcontrol.rms+xml:
+- tika:application/vnd.informedcontrol.rms+xml
+application/vnd.informix-visionary:
+- tika:application/vnd.informix-visionary
+application/vnd.intercon.formnet:
+- tika:application/vnd.intercon.formnet
+application/vnd.intertrust.digibox:
+- tika:application/vnd.intertrust.digibox
+application/vnd.intertrust.nncp:
+- tika:application/vnd.intertrust.nncp
+application/vnd.intu.qbo:
+- tika:application/vnd.intu.qbo
+application/vnd.intu.qfx:
+- tika:application/vnd.intu.qfx
+application/vnd.iptc.g2.conceptitem+xml:
+- tika:application/vnd.iptc.g2.conceptitem+xml
+application/vnd.iptc.g2.knowledgeitem+xml:
+- tika:application/vnd.iptc.g2.knowledgeitem+xml
+application/vnd.iptc.g2.newsitem+xml:
+- tika:application/vnd.iptc.g2.newsitem+xml
+application/vnd.iptc.g2.packageitem+xml:
+- tika:application/vnd.iptc.g2.packageitem+xml
+application/vnd.ipunplugged.rcprofile:
+- tika:application/vnd.ipunplugged.rcprofile
+application/vnd.irepository.package+xml:
+- tika:application/vnd.irepository.package+xml
+application/vnd.is-xpr:
+- tika:application/vnd.is-xpr
+application/vnd.jam:
+- tika:application/vnd.jam
+application/vnd.japannet-directory-service:
+- tika:application/vnd.japannet-directory-service
+application/vnd.japannet-jpnstore-wakeup:
+- tika:application/vnd.japannet-jpnstore-wakeup
+application/vnd.japannet-payment-wakeup:
+- tika:application/vnd.japannet-payment-wakeup
+application/vnd.japannet-registration:
+- tika:application/vnd.japannet-registration
+application/vnd.japannet-registration-wakeup:
+- tika:application/vnd.japannet-registration-wakeup
+application/vnd.japannet-setstore-wakeup:
+- tika:application/vnd.japannet-setstore-wakeup
+application/vnd.japannet-verification:
+- tika:application/vnd.japannet-verification
+application/vnd.japannet-verification-wakeup:
+- tika:application/vnd.japannet-verification-wakeup
+application/vnd.jcp.javame.midlet-rms:
+- tika:application/vnd.jcp.javame.midlet-rms
+application/vnd.jisp:
+- tika:application/vnd.jisp
+application/vnd.joost.joda-archive:
+- tika:application/vnd.joost.joda-archive
+application/vnd.kahootz:
+- tika:application/vnd.kahootz
+application/vnd.kde.karbon:
+- tika:application/vnd.kde.karbon
+application/vnd.kde.kchart:
+- tika:application/vnd.kde.kchart
+application/vnd.kde.kformula:
+- tika:application/vnd.kde.kformula
+application/vnd.kde.kivio:
+- tika:application/vnd.kde.kivio
+application/vnd.kde.kontour:
+- tika:application/vnd.kde.kontour
+application/vnd.kde.kpresenter:
+- tika:application/vnd.kde.kpresenter
+application/vnd.kde.kspread:
+- tika:application/vnd.kde.kspread
+application/vnd.kde.kword:
+- tika:application/vnd.kde.kword
+application/vnd.kenameaapp:
+- tika:application/vnd.kenameaapp
+application/vnd.kidspiration:
+- tika:application/vnd.kidspiration
+application/vnd.kinar:
+- tika:application/vnd.kinar
+application/vnd.koan:
+- tika:application/vnd.koan
+application/vnd.kodak-descriptor:
+- tika:application/vnd.kodak-descriptor
+application/vnd.liberty-request+xml:
+- tika:application/vnd.liberty-request+xml
+application/vnd.llamagraphics.life-balance.desktop:
+- tika:application/vnd.llamagraphics.life-balance.desktop
+application/vnd.llamagraphics.life-balance.exchange+xml:
+- tika:application/vnd.llamagraphics.life-balance.exchange+xml
 application/vnd.lotus-1-2-3:
+- tika:application/vnd.lotus-1-2-3
 - pronom:x-fmt/114
 - pronom:x-fmt/115
 - pronom:x-fmt/116
 - pronom:x-fmt/117
 - pronom:x-fmt/212
 application/vnd.lotus-approach:
+- tika:application/vnd.lotus-approach
 - pronom:x-fmt/334
 application/vnd.lotus-freelance:
+- tika:application/vnd.lotus-freelance
 - pronom:x-fmt/335
 application/vnd.lotus-notes:
+- tika:application/vnd.lotus-notes
 - pronom:x-fmt/336
 - pronom:x-fmt/337
 - pronom:x-fmt/338
+application/vnd.lotus-organizer:
+- tika:application/vnd.lotus-organizer
+application/vnd.lotus-screencam:
+- tika:application/vnd.lotus-screencam
 application/vnd.lotus-wordpro:
+- tika:application/vnd.lotus-wordpro
 - pronom:x-fmt/191
 - pronom:x-fmt/340
 - pronom:fmt/340
+application/vnd.macports.portpkg:
+- tika:application/vnd.macports.portpkg
+application/vnd.marlin.drm.actiontoken+xml:
+- tika:application/vnd.marlin.drm.actiontoken+xml
+application/vnd.marlin.drm.conftoken+xml:
+- tika:application/vnd.marlin.drm.conftoken+xml
+application/vnd.marlin.drm.license+xml:
+- tika:application/vnd.marlin.drm.license+xml
+application/vnd.marlin.drm.mdcf:
+- tika:application/vnd.marlin.drm.mdcf
+application/vnd.mcd:
+- tika:application/vnd.mcd
+application/vnd.medcalcdata:
+- tika:application/vnd.medcalcdata
+application/vnd.mediastation.cdkey:
+- tika:application/vnd.mediastation.cdkey
+application/vnd.meridian-slingshot:
+- tika:application/vnd.meridian-slingshot
+application/vnd.mfer:
+- tika:application/vnd.mfer
+application/vnd.mfmp:
+- tika:application/vnd.mfmp
+application/vnd.micrografx.flo:
+- tika:application/vnd.micrografx.flo
+application/vnd.micrografx.igx:
+- tika:application/vnd.micrografx.igx
 application/vnd.mif:
+- tika:application/vnd.mif
 - pronom:x-fmt/162
+application/vnd.mindjet.mindmanager:
+- tika:application/vnd.mindjet.mindmanager
+application/vnd.minisoft-hp3000-save:
+- tika:application/vnd.minisoft-hp3000-save
+application/vnd.mitsubishi.misty-guard.trustweb:
+- tika:application/vnd.mitsubishi.misty-guard.trustweb
+application/vnd.mobius.daf:
+- tika:application/vnd.mobius.daf
+application/vnd.mobius.dis:
+- tika:application/vnd.mobius.dis
+application/vnd.mobius.mbk:
+- tika:application/vnd.mobius.mbk
+application/vnd.mobius.mqy:
+- tika:application/vnd.mobius.mqy
+application/vnd.mobius.msl:
+- tika:application/vnd.mobius.msl
+application/vnd.mobius.plc:
+- tika:application/vnd.mobius.plc
+application/vnd.mobius.txf:
+- tika:application/vnd.mobius.txf
+application/vnd.mophun.application:
+- tika:application/vnd.mophun.application
+application/vnd.mophun.certificate:
+- tika:application/vnd.mophun.certificate
+application/vnd.motorola.flexsuite:
+- tika:application/vnd.motorola.flexsuite
+application/vnd.motorola.flexsuite.adsi:
+- tika:application/vnd.motorola.flexsuite.adsi
+application/vnd.motorola.flexsuite.fis:
+- tika:application/vnd.motorola.flexsuite.fis
+application/vnd.motorola.flexsuite.gotap:
+- tika:application/vnd.motorola.flexsuite.gotap
+application/vnd.motorola.flexsuite.kmr:
+- tika:application/vnd.motorola.flexsuite.kmr
+application/vnd.motorola.flexsuite.ttc:
+- tika:application/vnd.motorola.flexsuite.ttc
+application/vnd.motorola.flexsuite.wem:
+- tika:application/vnd.motorola.flexsuite.wem
+application/vnd.motorola.iprm:
+- tika:application/vnd.motorola.iprm
+application/vnd.mozilla.xul+xml:
+- tika:application/vnd.mozilla.xul+xml
+application/vnd.ms-artgalry:
+- tika:application/vnd.ms-artgalry
 application/vnd.ms-asf:
+- tika:application/vnd.ms-asf
 - pronom:fmt/131
 - fdd:fdd000067
+application/vnd.ms-cab-compressed:
+- tika:application/vnd.ms-cab-compressed
 application/vnd.ms-excel:
+- tika:application/vnd.ms-excel
 - pronom:x-fmt/123
 - pronom:fmt/55
 - pronom:fmt/56
@@ -216,141 +1160,784 @@ application/vnd.ms-excel:
 - pronom:fmt/554
 - pronom:fmt/555
 - pronom:fmt/556
-application/vnd.ms-excel.addin.macroEnabled.12:
+application/vnd.ms-excel.addin.macroenabled.12:
+- tika:application/vnd.ms-excel.addin.macroenabled.12
 - pronom:fmt/628
-application/vnd.ms-excel.sheet.binary.macroEnabled.12:
+application/vnd.ms-excel.sheet.binary.macroenabled.12:
+- tika:application/vnd.ms-excel.sheet.binary.macroenabled.12
 - pronom:fmt/595
-application/vnd.ms-excel.sheet.macroEnabled.12:
+application/vnd.ms-excel.sheet.macroenabled.12:
+- tika:application/vnd.ms-excel.sheet.macroenabled.12
 - pronom:fmt/445
-application/vnd.ms-excel.template.macroEnabled.12:
+application/vnd.ms-excel.template.macroenabled.12:
+- tika:application/vnd.ms-excel.template.macroenabled.12
 - pronom:fmt/627
+application/vnd.ms-fontobject:
+- tika:application/vnd.ms-fontobject
 application/vnd.ms-htmlhelp:
+- tika:application/vnd.ms-htmlhelp
 - pronom:fmt/634
+application/vnd.ms-ims:
+- tika:application/vnd.ms-ims
+application/vnd.ms-lrm:
+- tika:application/vnd.ms-lrm
 application/vnd.ms-officetheme:
 - pronom:fmt/524
 application/vnd.ms-outlook:
+- tika:application/vnd.ms-outlook
 - fdd:fdd000377
 - fdd:fdd000379
+application/vnd.ms-outlook-pst:
+- tika:application/vnd.ms-outlook-pst
+application/vnd.ms-pki.seccat:
+- tika:application/vnd.ms-pki.seccat
+application/vnd.ms-pki.stl:
+- tika:application/vnd.ms-pki.stl
+application/vnd.ms-playready.initiator+xml:
+- tika:application/vnd.ms-playready.initiator+xml
 application/vnd.ms-powerpoint:
+- tika:application/vnd.ms-powerpoint
 - pronom:x-fmt/87
 - pronom:x-fmt/88
 - pronom:fmt/125
 - pronom:fmt/126
-application/vnd.ms-powerpoint.addin.macroEnabled.12:
+application/vnd.ms-powerpoint.addin.macroenabled.12:
+- tika:application/vnd.ms-powerpoint.addin.macroenabled.12
 - pronom:fmt/633
-application/vnd.ms-powerpoint.presentation.macroEnabled.12:
+application/vnd.ms-powerpoint.presentation.macroenabled.12:
+- tika:application/vnd.ms-powerpoint.presentation.macroenabled.12
 - pronom:fmt/487
-application/vnd.ms-powerpoint.slide.macroEnabled.12:
+application/vnd.ms-powerpoint.slide.macroenabled.12:
+- tika:application/vnd.ms-powerpoint.slide.macroenabled.12
 - pronom:fmt/636
-application/vnd.ms-powerpoint.slideshow.macroEnabled.12:
+application/vnd.ms-powerpoint.slideshow.macroenabled.12:
+- tika:application/vnd.ms-powerpoint.slideshow.macroenabled.12
 - pronom:fmt/630
-application/vnd.ms-powerpoint.template.macroEnabled.12:
+application/vnd.ms-powerpoint.template.macroenabled.12:
+- tika:application/vnd.ms-powerpoint.template.macroenabled.12
 - pronom:fmt/632
 application/vnd.ms-project:
+- tika:application/vnd.ms-project
 - pronom:x-fmt/243
 - pronom:x-fmt/244
 - pronom:x-fmt/245
 - pronom:x-fmt/247
-application/vnd.ms-word.document.macroEnabled.12:
+application/vnd.ms-tnef:
+- tika:application/vnd.ms-tnef
+application/vnd.ms-wmdrm.lic-chlg-req:
+- tika:application/vnd.ms-wmdrm.lic-chlg-req
+application/vnd.ms-wmdrm.lic-resp:
+- tika:application/vnd.ms-wmdrm.lic-resp
+application/vnd.ms-wmdrm.meter-chlg-req:
+- tika:application/vnd.ms-wmdrm.meter-chlg-req
+application/vnd.ms-wmdrm.meter-resp:
+- tika:application/vnd.ms-wmdrm.meter-resp
+application/vnd.ms-word:
+- tika:application/msword
+application/vnd.ms-word.document.macroenabled.12:
+- tika:application/vnd.ms-word.document.macroenabled.12
 - pronom:fmt/523
-application/vnd.ms-word.template.macroEnabled.12:
+application/vnd.ms-word.template.macroenabled.12:
+- tika:application/vnd.ms-word.template.macroenabled.12
 - pronom:fmt/599
+application/vnd.ms-works:
+- tika:application/vnd.ms-works
 application/vnd.ms-wpl:
+- tika:application/vnd.ms-wpl
 - pronom:fmt/589
+application/vnd.ms-xpsdocument:
+- tika:application/vnd.ms-xpsdocument
+application/vnd.mseq:
+- tika:application/vnd.mseq
+application/vnd.msign:
+- tika:application/vnd.msign
+application/vnd.multiad.creator:
+- tika:application/vnd.multiad.creator
+application/vnd.multiad.creator.cif:
+- tika:application/vnd.multiad.creator.cif
+application/vnd.music-niff:
+- tika:application/vnd.music-niff
+application/vnd.musician:
+- tika:application/vnd.musician
+application/vnd.muvee.style:
+- tika:application/vnd.muvee.style
+application/vnd.ncd.control:
+- tika:application/vnd.ncd.control
+application/vnd.ncd.reference:
+- tika:application/vnd.ncd.reference
+application/vnd.nervana:
+- tika:application/vnd.nervana
+application/vnd.netfpx:
+- tika:application/vnd.netfpx
+application/vnd.neurolanguage.nlu:
+- tika:application/vnd.neurolanguage.nlu
+application/vnd.noblenet-directory:
+- tika:application/vnd.noblenet-directory
+application/vnd.noblenet-sealer:
+- tika:application/vnd.noblenet-sealer
+application/vnd.noblenet-web:
+- tika:application/vnd.noblenet-web
+application/vnd.nokia.catalogs:
+- tika:application/vnd.nokia.catalogs
+application/vnd.nokia.conml+wbxml:
+- tika:application/vnd.nokia.conml+wbxml
+application/vnd.nokia.conml+xml:
+- tika:application/vnd.nokia.conml+xml
+application/vnd.nokia.iptv.config+xml:
+- tika:application/vnd.nokia.iptv.config+xml
+application/vnd.nokia.isds-radio-presets:
+- tika:application/vnd.nokia.isds-radio-presets
+application/vnd.nokia.landmark+wbxml:
+- tika:application/vnd.nokia.landmark+wbxml
+application/vnd.nokia.landmark+xml:
+- tika:application/vnd.nokia.landmark+xml
+application/vnd.nokia.landmarkcollection+xml:
+- tika:application/vnd.nokia.landmarkcollection+xml
+application/vnd.nokia.n-gage.ac+xml:
+- tika:application/vnd.nokia.n-gage.ac+xml
+application/vnd.nokia.n-gage.data:
+- tika:application/vnd.nokia.n-gage.data
+application/vnd.nokia.n-gage.symbian.install:
+- tika:application/vnd.nokia.n-gage.symbian.install
+application/vnd.nokia.ncd:
+- tika:application/vnd.nokia.ncd
+application/vnd.nokia.pcd+wbxml:
+- tika:application/vnd.nokia.pcd+wbxml
+application/vnd.nokia.pcd+xml:
+- tika:application/vnd.nokia.pcd+xml
+application/vnd.nokia.radio-preset:
+- tika:application/vnd.nokia.radio-preset
+application/vnd.nokia.radio-presets:
+- tika:application/vnd.nokia.radio-presets
+application/vnd.novadigm.edm:
+- tika:application/vnd.novadigm.edm
+application/vnd.novadigm.edx:
+- tika:application/vnd.novadigm.edx
+application/vnd.novadigm.ext:
+- tika:application/vnd.novadigm.ext
+application/vnd.oasis.opendocument.chart:
+- tika:application/vnd.oasis.opendocument.chart
+application/vnd.oasis.opendocument.chart-template:
+- tika:application/vnd.oasis.opendocument.chart-template
+application/vnd.oasis.opendocument.database:
+- tika:application/vnd.oasis.opendocument.database
+application/vnd.oasis.opendocument.formula:
+- tika:application/vnd.oasis.opendocument.formula
+application/vnd.oasis.opendocument.formula-template:
+- tika:application/vnd.oasis.opendocument.formula-template
 application/vnd.oasis.opendocument.graphics:
+- tika:application/vnd.oasis.opendocument.graphics
 - pronom:fmt/139
 - pronom:fmt/296
 - pronom:fmt/297
+application/vnd.oasis.opendocument.graphics-template:
+- tika:application/vnd.oasis.opendocument.graphics-template
+application/vnd.oasis.opendocument.image:
+- tika:application/vnd.oasis.opendocument.image
+application/vnd.oasis.opendocument.image-template:
+- tika:application/vnd.oasis.opendocument.image-template
 application/vnd.oasis.opendocument.presentation:
+- tika:application/vnd.oasis.opendocument.presentation
 - pronom:fmt/138
 - pronom:fmt/292
 - pronom:fmt/293
+application/vnd.oasis.opendocument.presentation-template:
+- tika:application/vnd.oasis.opendocument.presentation-template
 application/vnd.oasis.opendocument.spreadsheet:
+- tika:application/vnd.oasis.opendocument.spreadsheet
 - pronom:fmt/137
 - pronom:fmt/294
 - pronom:fmt/295
+application/vnd.oasis.opendocument.spreadsheet-template:
+- tika:application/vnd.oasis.opendocument.spreadsheet-template
 application/vnd.oasis.opendocument.text:
+- tika:application/vnd.oasis.opendocument.text
 - pronom:fmt/136
 - pronom:fmt/290
 - pronom:fmt/291
+application/vnd.oasis.opendocument.text-master:
+- tika:application/vnd.oasis.opendocument.text-master
+application/vnd.oasis.opendocument.text-template:
+- tika:application/vnd.oasis.opendocument.text-template
+application/vnd.oasis.opendocument.text-web:
+- tika:application/vnd.oasis.opendocument.text-web
+application/vnd.obn:
+- tika:application/vnd.obn
+application/vnd.olpc-sugar:
+- tika:application/vnd.olpc-sugar
+application/vnd.oma-scws-config:
+- tika:application/vnd.oma-scws-config
+application/vnd.oma-scws-http-request:
+- tika:application/vnd.oma-scws-http-request
+application/vnd.oma-scws-http-response:
+- tika:application/vnd.oma-scws-http-response
+application/vnd.oma.bcast.associated-procedure-parameter+xml:
+- tika:application/vnd.oma.bcast.associated-procedure-parameter+xml
+application/vnd.oma.bcast.drm-trigger+xml:
+- tika:application/vnd.oma.bcast.drm-trigger+xml
+application/vnd.oma.bcast.imd+xml:
+- tika:application/vnd.oma.bcast.imd+xml
+application/vnd.oma.bcast.ltkm:
+- tika:application/vnd.oma.bcast.ltkm
+application/vnd.oma.bcast.notification+xml:
+- tika:application/vnd.oma.bcast.notification+xml
+application/vnd.oma.bcast.provisioningtrigger:
+- tika:application/vnd.oma.bcast.provisioningtrigger
+application/vnd.oma.bcast.sgboot:
+- tika:application/vnd.oma.bcast.sgboot
+application/vnd.oma.bcast.sgdd+xml:
+- tika:application/vnd.oma.bcast.sgdd+xml
+application/vnd.oma.bcast.sgdu:
+- tika:application/vnd.oma.bcast.sgdu
+application/vnd.oma.bcast.simple-symbol-container:
+- tika:application/vnd.oma.bcast.simple-symbol-container
+application/vnd.oma.bcast.smartcard-trigger+xml:
+- tika:application/vnd.oma.bcast.smartcard-trigger+xml
+application/vnd.oma.bcast.sprov+xml:
+- tika:application/vnd.oma.bcast.sprov+xml
+application/vnd.oma.bcast.stkm:
+- tika:application/vnd.oma.bcast.stkm
+application/vnd.oma.dcd:
+- tika:application/vnd.oma.dcd
+application/vnd.oma.dcdc:
+- tika:application/vnd.oma.dcdc
+application/vnd.oma.dd2+xml:
+- tika:application/vnd.oma.dd2+xml
+application/vnd.oma.drm.risd+xml:
+- tika:application/vnd.oma.drm.risd+xml
+application/vnd.oma.group-usage-list+xml:
+- tika:application/vnd.oma.group-usage-list+xml
+application/vnd.oma.poc.detailed-progress-report+xml:
+- tika:application/vnd.oma.poc.detailed-progress-report+xml
+application/vnd.oma.poc.final-report+xml:
+- tika:application/vnd.oma.poc.final-report+xml
+application/vnd.oma.poc.groups+xml:
+- tika:application/vnd.oma.poc.groups+xml
+application/vnd.oma.poc.invocation-descriptor+xml:
+- tika:application/vnd.oma.poc.invocation-descriptor+xml
+application/vnd.oma.poc.optimized-progress-report+xml:
+- tika:application/vnd.oma.poc.optimized-progress-report+xml
+application/vnd.oma.xcap-directory+xml:
+- tika:application/vnd.oma.xcap-directory+xml
+application/vnd.omads-email+xml:
+- tika:application/vnd.omads-email+xml
+application/vnd.omads-file+xml:
+- tika:application/vnd.omads-file+xml
+application/vnd.omads-folder+xml:
+- tika:application/vnd.omads-folder+xml
+application/vnd.omaloc-supl-init:
+- tika:application/vnd.omaloc-supl-init
+application/vnd.openofficeorg.extension:
+- tika:application/vnd.openofficeorg.extension
 application/vnd.openxmlformats-officedocument.presentationml.presentation:
+- tika:application/vnd.openxmlformats-officedocument.presentationml.presentation
 - pronom:fmt/215
 - pronom:fmt/440
+application/vnd.openxmlformats-officedocument.presentationml.slide:
+- tika:application/vnd.openxmlformats-officedocument.presentationml.slide
 application/vnd.openxmlformats-officedocument.presentationml.slideshow:
+- tika:application/vnd.openxmlformats-officedocument.presentationml.slideshow
 - pronom:fmt/629
 application/vnd.openxmlformats-officedocument.presentationml.template:
+- tika:application/vnd.openxmlformats-officedocument.presentationml.template
 - pronom:fmt/631
 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet:
+- tika:application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
 - pronom:fmt/214
 application/vnd.openxmlformats-officedocument.spreadsheetml.template:
+- tika:application/vnd.openxmlformats-officedocument.spreadsheetml.template
 - pronom:fmt/598
 application/vnd.openxmlformats-officedocument.wordprocessingml.document:
+- tika:application/vnd.openxmlformats-officedocument.wordprocessingml.document
 - pronom:fmt/412
 application/vnd.openxmlformats-officedocument.wordprocessingml.template:
+- tika:application/vnd.openxmlformats-officedocument.wordprocessingml.template
 - pronom:fmt/597
+application/vnd.osa.netdeploy:
+- tika:application/vnd.osa.netdeploy
+application/vnd.osgi.bundle:
+- tika:application/vnd.osgi.bundle
+application/vnd.osgi.dp:
+- tika:application/vnd.osgi.dp
+application/vnd.otps.ct-kip+xml:
+- tika:application/vnd.otps.ct-kip+xml
+application/vnd.palm:
+- tika:application/vnd.palm
+application/vnd.paos.xml:
+- tika:application/vnd.paos.xml
 application/vnd.pdf:
 - fdd:fdd000030
+application/vnd.pg.format:
+- tika:application/vnd.pg.format
+application/vnd.pg.osasli:
+- tika:application/vnd.pg.osasli
+application/vnd.piaccess.application-licence:
+- tika:application/vnd.piaccess.application-licence
+application/vnd.picsel:
+- tika:application/vnd.picsel
+application/vnd.poc.group-advertisement+xml:
+- tika:application/vnd.poc.group-advertisement+xml
+application/vnd.pocketlearn:
+- tika:application/vnd.pocketlearn
+application/vnd.powerbuilder6:
+- tika:application/vnd.powerbuilder6
+application/vnd.powerbuilder6-s:
+- tika:application/vnd.powerbuilder6-s
+application/vnd.powerbuilder7:
+- tika:application/vnd.powerbuilder7
+application/vnd.powerbuilder7-s:
+- tika:application/vnd.powerbuilder7-s
+application/vnd.powerbuilder75:
+- tika:application/vnd.powerbuilder75
+application/vnd.powerbuilder75-s:
+- tika:application/vnd.powerbuilder75-s
+application/vnd.preminet:
+- tika:application/vnd.preminet
+application/vnd.previewsystems.box:
+- tika:application/vnd.previewsystems.box
+application/vnd.proteus.magazine:
+- tika:application/vnd.proteus.magazine
+application/vnd.publishare-delta-tree:
+- tika:application/vnd.publishare-delta-tree
+application/vnd.pvi.ptid1:
+- tika:application/vnd.pvi.ptid1
+application/vnd.pwg-multiplexed:
+- tika:application/vnd.pwg-multiplexed
+application/vnd.pwg-xhtml-print+xml:
+- tika:application/vnd.pwg-xhtml-print+xml
+application/vnd.qualcomm.brew-app-res:
+- tika:application/vnd.qualcomm.brew-app-res
+application/vnd.quark.quarkxpress:
+- tika:application/vnd.quark.quarkxpress
+application/vnd.rapid:
+- tika:application/vnd.rapid
+application/vnd.recordare.musicxml:
+- tika:application/vnd.recordare.musicxml
 application/vnd.recordare.musicxml+xml:
+- tika:application/vnd.recordare.musicxml+xml
 - fdd:fdd000358
+application/vnd.renlearn.rlprint:
+- tika:application/vnd.renlearn.rlprint
+application/vnd.rim.cod:
+- tika:application/vnd.rim.cod
 application/vnd.rn-realmedia:
+- tika:application/vnd.rn-realmedia
 - pronom:x-fmt/190
 - fdd:fdd000050
 - fdd:fdd000051
+application/vnd.route66.link66+xml:
+- tika:application/vnd.route66.link66+xml
+application/vnd.ruckus.download:
+- tika:application/vnd.ruckus.download
+application/vnd.s3sms:
+- tika:application/vnd.s3sms
+application/vnd.sbm.cid:
+- tika:application/vnd.sbm.cid
+application/vnd.sbm.mid2:
+- tika:application/vnd.sbm.mid2
+application/vnd.scribus:
+- tika:application/vnd.scribus
+application/vnd.sealed.3df:
+- tika:application/vnd.sealed.3df
+application/vnd.sealed.csf:
+- tika:application/vnd.sealed.csf
+application/vnd.sealed.doc:
+- tika:application/vnd.sealed.doc
+application/vnd.sealed.eml:
+- tika:application/vnd.sealed.eml
+application/vnd.sealed.mht:
+- tika:application/vnd.sealed.mht
+application/vnd.sealed.net:
+- tika:application/vnd.sealed.net
+application/vnd.sealed.ppt:
+- tika:application/vnd.sealed.ppt
+application/vnd.sealed.tiff:
+- tika:application/vnd.sealed.tiff
+application/vnd.sealed.xls:
+- tika:application/vnd.sealed.xls
+application/vnd.sealedmedia.softseal.html:
+- tika:application/vnd.sealedmedia.softseal.html
+application/vnd.sealedmedia.softseal.pdf:
+- tika:application/vnd.sealedmedia.softseal.pdf
+application/vnd.seemail:
+- tika:application/vnd.seemail
+application/vnd.sema:
+- tika:application/vnd.sema
+application/vnd.semd:
+- tika:application/vnd.semd
+application/vnd.semf:
+- tika:application/vnd.semf
+application/vnd.shana.informed.formdata:
+- tika:application/vnd.shana.informed.formdata
+application/vnd.shana.informed.formtemplate:
+- tika:application/vnd.shana.informed.formtemplate
+application/vnd.shana.informed.interchange:
+- tika:application/vnd.shana.informed.interchange
+application/vnd.shana.informed.package:
+- tika:application/vnd.shana.informed.package
+application/vnd.simtech-mindmapper:
+- tika:application/vnd.simtech-mindmapper
+application/vnd.smaf:
+- tika:application/vnd.smaf
+application/vnd.smart.teacher:
+- tika:application/vnd.smart.teacher
+application/vnd.software602.filler.form+xml:
+- tika:application/vnd.software602.filler.form+xml
+application/vnd.software602.filler.form-xml-zip:
+- tika:application/vnd.software602.filler.form-xml-zip
+application/vnd.solent.sdkm+xml:
+- tika:application/vnd.solent.sdkm+xml
+application/vnd.spotfire.dxp:
+- tika:application/vnd.spotfire.dxp
+application/vnd.spotfire.sfs:
+- tika:application/vnd.spotfire.sfs
+application/vnd.sss-cod:
+- tika:application/vnd.sss-cod
+application/vnd.sss-dtf:
+- tika:application/vnd.sss-dtf
+application/vnd.sss-ntf:
+- tika:application/vnd.sss-ntf
 application/vnd.stardivision.calc:
+- tika:application/vnd.stardivision.calc
 - pronom:x-fmt/404
 application/vnd.stardivision.draw:
+- tika:application/vnd.stardivision.draw
 - pronom:x-fmt/401
 - pronom:x-fmt/402
 application/vnd.stardivision.impress:
+- tika:application/vnd.stardivision.impress
 - pronom:x-fmt/405
+application/vnd.stardivision.math:
+- tika:application/vnd.stardivision.math
 application/vnd.stardivision.writer:
+- tika:application/vnd.stardivision.writer
 - pronom:x-fmt/400
 - pronom:x-fmt/403
+application/vnd.stardivision.writer-global:
+- tika:application/vnd.stardivision.writer-global
+application/vnd.street-stream:
+- tika:application/vnd.street-stream
+application/vnd.sun.wadl+xml:
+- tika:application/vnd.sun.wadl+xml
 application/vnd.sun.xml.calc:
+- tika:application/vnd.sun.xml.calc
 - pronom:fmt/129
+application/vnd.sun.xml.calc.template:
+- tika:application/vnd.sun.xml.calc.template
 application/vnd.sun.xml.draw:
+- tika:application/vnd.sun.xml.draw
 - pronom:fmt/127
+application/vnd.sun.xml.draw.template:
+- tika:application/vnd.sun.xml.draw.template
 application/vnd.sun.xml.impress:
+- tika:application/vnd.sun.xml.impress
 - pronom:fmt/130
+application/vnd.sun.xml.impress.template:
+- tika:application/vnd.sun.xml.impress.template
+application/vnd.sun.xml.math:
+- tika:application/vnd.sun.xml.math
 application/vnd.sun.xml.writer:
+- tika:application/vnd.sun.xml.writer
 - pronom:fmt/128
+application/vnd.sun.xml.writer.global:
+- tika:application/vnd.sun.xml.writer.global
+application/vnd.sun.xml.writer.template:
+- tika:application/vnd.sun.xml.writer.template
+application/vnd.sus-calendar:
+- tika:application/vnd.sus-calendar
+application/vnd.svd:
+- tika:application/vnd.svd
+application/vnd.swiftview-ics:
+- tika:application/vnd.swiftview-ics
+application/vnd.symbian.install:
+- tika:application/vnd.symbian.install
+application/vnd.syncml+xml:
+- tika:application/vnd.syncml+xml
+application/vnd.syncml.dm+wbxml:
+- tika:application/vnd.syncml.dm+wbxml
+application/vnd.syncml.dm+xml:
+- tika:application/vnd.syncml.dm+xml
+application/vnd.syncml.dm.notification:
+- tika:application/vnd.syncml.dm.notification
+application/vnd.syncml.ds.notification:
+- tika:application/vnd.syncml.ds.notification
+application/vnd.tao.intent-module-archive:
+- tika:application/vnd.tao.intent-module-archive
+application/vnd.tcpdump.pcap:
+- tika:application/vnd.tcpdump.pcap
+application/vnd.tmobile-livetv:
+- tika:application/vnd.tmobile-livetv
+application/vnd.trid.tpt:
+- tika:application/vnd.trid.tpt
+application/vnd.triscape.mxs:
+- tika:application/vnd.triscape.mxs
+application/vnd.trueapp:
+- tika:application/vnd.trueapp
+application/vnd.truedoc:
+- tika:application/vnd.truedoc
+application/vnd.ufdl:
+- tika:application/vnd.ufdl
+application/vnd.uiq.theme:
+- tika:application/vnd.uiq.theme
+application/vnd.umajin:
+- tika:application/vnd.umajin
+application/vnd.unity:
+- tika:application/vnd.unity
+application/vnd.uoml+xml:
+- tika:application/vnd.uoml+xml
+application/vnd.uplanet.alert:
+- tika:application/vnd.uplanet.alert
+application/vnd.uplanet.alert-wbxml:
+- tika:application/vnd.uplanet.alert-wbxml
+application/vnd.uplanet.bearer-choice:
+- tika:application/vnd.uplanet.bearer-choice
+application/vnd.uplanet.bearer-choice-wbxml:
+- tika:application/vnd.uplanet.bearer-choice-wbxml
+application/vnd.uplanet.cacheop:
+- tika:application/vnd.uplanet.cacheop
+application/vnd.uplanet.cacheop-wbxml:
+- tika:application/vnd.uplanet.cacheop-wbxml
+application/vnd.uplanet.channel:
+- tika:application/vnd.uplanet.channel
+application/vnd.uplanet.channel-wbxml:
+- tika:application/vnd.uplanet.channel-wbxml
+application/vnd.uplanet.list:
+- tika:application/vnd.uplanet.list
+application/vnd.uplanet.list-wbxml:
+- tika:application/vnd.uplanet.list-wbxml
+application/vnd.uplanet.listcmd:
+- tika:application/vnd.uplanet.listcmd
+application/vnd.uplanet.listcmd-wbxml:
+- tika:application/vnd.uplanet.listcmd-wbxml
+application/vnd.uplanet.signal:
+- tika:application/vnd.uplanet.signal
+application/vnd.vcx:
+- tika:application/vnd.vcx
+application/vnd.vd-study:
+- tika:application/vnd.vd-study
+application/vnd.vectorworks:
+- tika:application/vnd.vectorworks
+application/vnd.vidsoft.vidconference:
+- tika:application/vnd.vidsoft.vidconference
 application/vnd.visio:
+- tika:application/vnd.visio
 - pronom:x-fmt/113
 - pronom:x-fmt/258
 - pronom:x-fmt/259
 - pronom:fmt/442
 - pronom:fmt/443
+application/vnd.visionary:
+- tika:application/vnd.visionary
+application/vnd.vividence.scriptfile:
+- tika:application/vnd.vividence.scriptfile
+application/vnd.vsf:
+- tika:application/vnd.vsf
+application/vnd.wap.sic:
+- tika:application/vnd.wap.sic
+application/vnd.wap.slc:
+- tika:application/vnd.wap.slc
+application/vnd.wap.wbxml:
+- tika:application/vnd.wap.wbxml
+application/vnd.wap.wmlc:
+- tika:application/vnd.wap.wmlc
+application/vnd.wap.wmlscriptc:
+- tika:application/vnd.wap.wmlscriptc
+application/vnd.webturbo:
+- tika:application/vnd.webturbo
+application/vnd.wfa.wsc:
+- tika:application/vnd.wfa.wsc
+application/vnd.wmc:
+- tika:application/vnd.wmc
+application/vnd.wmf.bootstrap:
+- tika:application/vnd.wmf.bootstrap
 application/vnd.wordperfect:
+- tika:application/vnd.wordperfect
 - pronom:x-fmt/44
 - pronom:x-fmt/203
 - pronom:x-fmt/393
 - pronom:x-fmt/394
+application/vnd.wqd:
+- tika:application/vnd.wqd
+application/vnd.wrq-hp3000-labelled:
+- tika:application/vnd.wrq-hp3000-labelled
+application/vnd.wt.stf:
+- tika:application/vnd.wt.stf
+application/vnd.wv.csp+wbxml:
+- tika:application/vnd.wv.csp+wbxml
+application/vnd.wv.csp+xml:
+- tika:application/vnd.wv.csp+xml
+application/vnd.wv.ssp+xml:
+- tika:application/vnd.wv.ssp+xml
+application/vnd.xara:
+- tika:application/vnd.xara
+application/vnd.xfdl:
+- tika:application/vnd.xfdl
+application/vnd.xfdl.webform:
+- tika:application/vnd.xfdl.webform
+application/vnd.xmi+xml:
+- tika:application/vnd.xmi+xml
+application/vnd.xmpie.cpkg:
+- tika:application/vnd.xmpie.cpkg
+application/vnd.xmpie.dpkg:
+- tika:application/vnd.xmpie.dpkg
+application/vnd.xmpie.plan:
+- tika:application/vnd.xmpie.plan
+application/vnd.xmpie.ppkg:
+- tika:application/vnd.xmpie.ppkg
+application/vnd.xmpie.xlim:
+- tika:application/vnd.xmpie.xlim
+application/vnd.yamaha.hv-dic:
+- tika:application/vnd.yamaha.hv-dic
+application/vnd.yamaha.hv-script:
+- tika:application/vnd.yamaha.hv-script
+application/vnd.yamaha.hv-voice:
+- tika:application/vnd.yamaha.hv-voice
+application/vnd.yamaha.openscoreformat:
+- tika:application/vnd.yamaha.openscoreformat
+application/vnd.yamaha.openscoreformat.osfpvg+xml:
+- tika:application/vnd.yamaha.openscoreformat.osfpvg+xml
+application/vnd.yamaha.smaf-audio:
+- tika:application/vnd.yamaha.smaf-audio
+application/vnd.yamaha.smaf-phrase:
+- tika:application/vnd.yamaha.smaf-phrase
+application/vnd.yellowriver-custom-menu:
+- tika:application/vnd.yellowriver-custom-menu
+application/vnd.zul:
+- tika:application/vnd.zul
+application/vnd.zzazz.deck+xml:
+- tika:application/vnd.zzazz.deck+xml
+application/voicexml+xml:
+- tika:application/voicexml+xml
 application/warc:
 - fdd:fdd000236
+application/watcherinfo+xml:
+- tika:application/watcherinfo+xml
+application/whoispp-query:
+- tika:application/whoispp-query
+application/whoispp-response:
+- tika:application/whoispp-response
+application/winhlp:
+- tika:application/winhlp
+application/wita:
+- tika:application/wita
+application/wordperfect:
+- tika:application/vnd.wordperfect
+application/wordperfect5.1:
+- tika:application/wordperfect5.1
+application/wsdl+xml:
+- tika:application/wsdl+xml
+application/wspolicy+xml:
+- tika:application/wspolicy+xml
 application/x-123:
+- tika:application/x-123
 - pronom:x-fmt/114
 - pronom:x-fmt/117
 - pronom:x-fmt/212
+application/x-7z-compressed:
+- tika:application/x-7z-compressed
+application/x-abiword:
+- tika:application/x-abiword
+application/x-acad:
+- tika:image/vnd.dwg
+application/x-ace-compressed:
+- tika:application/x-ace-compressed
+application/x-adobe-indesign:
+- tika:application/x-adobe-indesign
+application/x-adobe-indesign-interchange:
+- tika:application/x-adobe-indesign-interchange
+application/x-apple-diskimage:
+- tika:application/x-apple-diskimage
+application/x-appleworks:
+- tika:application/x-appleworks
+application/x-archive:
+- tika:application/x-archive
+application/x-arj:
+- tika:application/x-arj
+application/x-arj-compressed:
+- tika:application/x-arj
+application/x-authorware-bin:
+- tika:application/x-authorware-bin
+application/x-authorware-map:
+- tika:application/x-authorware-map
+application/x-authorware-seg:
+- tika:application/x-authorware-seg
+application/x-autocad:
+- tika:image/vnd.dwg
+application/x-axcrypt:
+- tika:application/x-axcrypt
+application/x-bcpio:
+- tika:application/x-bcpio
+application/x-berkeley-db:
+- tika:application/x-berkeley-db
+application/x-bibtex-text-file:
+- tika:application/x-bibtex-text-file
+application/x-bittorrent:
+- tika:application/x-bittorrent
+application/x-bplist:
+- tika:application/x-bplist
+application/x-bzip:
+- tika:application/x-bzip
 application/x-bzip2:
+- tika:application/x-bzip2
 - pronom:x-fmt/268
 application/x-cdf:
 - pronom:x-fmt/222
+application/x-cdlink:
+- tika:application/x-cdlink
+application/x-chat:
+- tika:application/x-chat
+application/x-chess-pgn:
+- tika:application/x-chess-pgn
+application/x-chrome-package:
+- tika:application/x-chrome-package
+application/x-compress:
+- tika:application/x-compress
+application/x-coredump:
+- tika:application/x-coredump
+application/x-corelpresentations:
+- tika:application/x-corelpresentations
+application/x-cpio:
+- tika:application/x-cpio
+application/x-csh:
+- tika:application/x-csh
 application/x-dbase:
 - fdd:fdd000325
 application/x-dbf:
 - fdd:fdd000325
+application/x-debian-package:
+- tika:application/x-debian-package
+application/x-dex:
+- tika:application/x-dex
 application/x-director:
+- tika:application/x-director
 - pronom:x-fmt/341
 - pronom:fmt/317
+application/x-doom:
+- tika:application/x-doom
+application/x-dosexec:
+- tika:application/x-dosexec
 application/x-dtbncx+xml:
+- tika:application/x-dtbncx+xml
 - fdd:fdd000275
 application/x-dtbook+xml:
+- tika:application/x-dtbook+xml
 - fdd:fdd000275
+application/x-dtbresource+xml:
+- tika:application/x-dtbresource+xml
 application/x-dvi:
+- tika:application/x-dvi
 - pronom:x-fmt/365
 - pronom:fmt/160
 application/x-dwf:
 - pronom:x-fmt/49
+application/x-dwg:
+- tika:image/vnd.dwg
+application/x-elc:
+- tika:application/x-elc
+application/x-elf:
+- tika:application/x-elf
+application/x-emf:
+- tika:application/x-emf
 application/x-endnote-connect:
 - pronom:fmt/326
 application/x-endnote-connection:
@@ -359,28 +1946,184 @@ application/x-endnote-refer:
 - pronom:fmt/328
 application/x-endnote-style:
 - pronom:fmt/324
+application/x-executable:
+- tika:application/x-executable
+application/x-fictionbook+xml:
+- tika:application/x-fictionbook+xml
 application/x-filemaker:
+- tika:application/x-filemaker
 - pronom:x-fmt/318
+application/x-font-adobe-metric:
+- tika:application/x-font-adobe-metric
+application/x-font-bdf:
+- tika:application/x-font-bdf
+application/x-font-dos:
+- tika:application/x-font-dos
+application/x-font-framemaker:
+- tika:application/x-font-framemaker
+application/x-font-ghostscript:
+- tika:application/x-font-ghostscript
+application/x-font-libgrx:
+- tika:application/x-font-libgrx
+application/x-font-linux-psf:
+- tika:application/x-font-linux-psf
+application/x-font-otf:
+- tika:application/x-font-otf
+application/x-font-pcf:
+- tika:application/x-font-pcf
+application/x-font-printer-metric:
+- tika:application/x-font-printer-metric
+application/x-font-snf:
+- tika:application/x-font-snf
+application/x-font-speedo:
+- tika:application/x-font-speedo
+application/x-font-sunos-news:
+- tika:application/x-font-sunos-news
+application/x-font-ttf:
+- tika:application/x-font-ttf
+application/x-font-type1:
+- tika:application/x-font-type1
+application/x-font-vfont:
+- tika:application/x-font-vfont
+application/x-foxmail:
+- tika:application/x-foxmail
+application/x-frame:
+- tika:application/vnd.mif
+application/x-futuresplash:
+- tika:application/x-futuresplash
+application/x-gnucash:
+- tika:application/x-gnucash
+application/x-gnumeric:
+- tika:application/x-gnumeric
+application/x-gnumeric-spreadsheet:
+- tika:application/x-gnumeric
+application/x-gtar:
+- tika:application/x-gtar
+application/x-gunzip:
+- tika:application/gzip
 application/x-gzip:
+- tika:application/gzip
 - pronom:x-fmt/266
+application/x-gzip-compressed:
+- tika:application/gzip
 application/x-hdf:
+- tika:application/x-hdf
 - fdd:fdd000228
+application/x-httpd-jsp:
+- tika:text/x-jsp
+application/x-hwp:
+- tika:application/x-hwp
 application/x-ibooks+zip:
+- tika:application/x-ibooks+zip
 - pronom:fmt/482
 application/x-internet-archive:
 - pronom:x-fmt/219
 application/x-iso9660-image:
+- tika:application/x-iso9660-image
 - fdd:fdd000348
+application/x-itunes-ipa:
+- tika:application/x-itunes-ipa
+application/x-java:
+- tika:application/java-vm
+application/x-java-jnilib:
+- tika:application/x-java-jnilib
+application/x-java-jnlp-file:
+- tika:application/x-java-jnlp-file
+application/x-java-pack200:
+- tika:application/x-java-pack200
+application/x-java-vm:
+- tika:application/java-vm
+application/x-javascript:
+- tika:application/javascript
 application/x-jpg:
 - fdd:fdd000018
+application/x-kchart:
+- tika:application/vnd.kde.kchart
+application/x-kdelnk:
+- tika:application/x-kdelnk
+application/x-killustrator:
+- tika:application/x-killustrator
+application/x-koan:
+- tika:application/vnd.koan
+application/x-kpresenter:
+- tika:application/vnd.kde.kpresenter
+application/x-kspread:
+- tika:application/vnd.kde.kspread
+application/x-kword:
+- tika:application/vnd.kde.kword
+application/x-latex:
+- tika:application/x-latex
+application/x-lha:
+- tika:application/x-lha
+application/x-lharc:
+- tika:application/x-lharc
+application/x-matlab-data:
+- tika:application/x-matlab-data
+application/x-matroska:
+- tika:application/x-matroska
 application/x-midi:
 - fdd:fdd000119
+application/x-mif:
+- tika:application/vnd.mif
+application/x-mobipocket-ebook:
+- tika:application/x-mobipocket-ebook
 application/x-mplayer2:
 - fdd:fdd000067
+application/x-ms-application:
+- tika:application/x-ms-application
+application/x-ms-installer:
+- tika:application/x-ms-installer
+application/x-ms-wmd:
+- tika:application/x-ms-wmd
+application/x-ms-wmz:
+- tika:application/x-ms-wmz
+application/x-ms-xbap:
+- tika:application/x-ms-xbap
+application/x-msaccess:
+- tika:application/x-msaccess
+application/x-msbinder:
+- tika:application/x-msbinder
+application/x-mscardfile:
+- tika:application/x-mscardfile
+application/x-msclip:
+- tika:application/x-msclip
+application/x-msdownload:
+- tika:application/x-msdownload
+application/x-msdownload;format=pe:
+- tika:application/x-msdownload;format=pe
+application/x-msdownload;format=pe-arm7:
+- tika:application/x-msdownload;format=pe-arm7
+application/x-msdownload;format=pe-armle:
+- tika:application/x-msdownload;format=pe-armLE
+application/x-msdownload;format=pe-itanium:
+- tika:application/x-msdownload;format=pe-itanium
+application/x-msdownload;format=pe32:
+- tika:application/x-msdownload;format=pe32
+application/x-msdownload;format=pe64:
+- tika:application/x-msdownload;format=pe64
+application/x-msi:
+- tika:application/x-ms-installer
+application/x-msmediaview:
+- tika:application/x-msmediaview
+application/x-msmetafile:
+- tika:application/x-msmetafile
+application/x-msmoney:
+- tika:application/x-msmoney
+application/x-mspublisher:
+- tika:application/x-mspublisher
+application/x-msschedule:
+- tika:application/x-msschedule
+application/x-msterminal:
+- tika:application/x-msterminal
+application/x-mswrite:
+- tika:application/x-mswrite
 application/x-netcdf:
+- tika:application/x-netcdf
 - pronom:fmt/282
 - pronom:fmt/283
 - fdd:fdd000330
+application/x-object:
+- tika:application/x-object
 application/x-ofx:
 - pronom:fmt/309
 - pronom:fmt/310
@@ -388,27 +2131,87 @@ application/x-ofx:
 - pronom:fmt/312
 - pronom:fmt/313
 application/x-ogg:
+- tika:application/ogg
+- tika:audio/vorbis
 - fdd:fdd000026
 - fdd:fdd000117
 application/x-pdf:
+- tika:application/pdf
 - fdd:fdd000030
+application/x-pkcs12:
+- tika:application/x-pkcs12
+application/x-pkcs7-certificates:
+- tika:application/x-pkcs7-certificates
+application/x-pkcs7-certreqresp:
+- tika:application/x-pkcs7-certreqresp
 application/x-pn-mpg:
 - fdd:fdd000028
 - fdd:fdd000035
 - fdd:fdd000335
 application/x-project:
+- tika:application/x-project
 - pronom:x-fmt/232
 - pronom:fmt/342
 - pronom:fmt/343
+application/x-prt:
+- tika:application/x-prt
+application/x-quattro-pro:
+- tika:application/x-quattro-pro
+application/x-rar:
+- tika:application/x-rar-compressed
 application/x-rar-compressed:
+- tika:application/x-rar-compressed
 - pronom:x-fmt/264
 - pronom:fmt/411
 - pronom:fmt/613
+application/x-roxio-toast:
+- tika:application/x-roxio-toast
+application/x-rpm:
+- tika:application/x-rpm
+application/x-sas:
+- tika:application/x-sas
+application/x-sas-access:
+- tika:application/x-sas-access
+application/x-sas-audit:
+- tika:application/x-sas-audit
+application/x-sas-backup:
+- tika:application/x-sas-backup
+application/x-sas-catalog:
+- tika:application/x-sas-catalog
+application/x-sas-data:
+- tika:application/x-sas-data
+application/x-sas-data-index:
+- tika:application/x-sas-data-index
+application/x-sas-dmdb:
+- tika:application/x-sas-dmdb
+application/x-sas-fdb:
+- tika:application/x-sas-fdb
+application/x-sas-itemstor:
+- tika:application/x-sas-itemstor
+application/x-sas-mddb:
+- tika:application/x-sas-mddb
+application/x-sas-program-data:
+- tika:application/x-sas-program-data
+application/x-sas-putility:
+- tika:application/x-sas-putility
+application/x-sas-transport:
+- tika:application/x-sas-transport
+application/x-sas-utility:
+- tika:application/x-sas-utility
+application/x-sas-view:
+- tika:application/x-sas-view
+application/x-sc:
+- tika:application/x-sc
 application/x-sh:
+- tika:application/x-sh
 - pronom:fmt/329
 application/x-shar:
+- tika:application/x-shar
 - pronom:fmt/329
+application/x-sharedlib:
+- tika:application/x-sharedlib
 application/x-shockwave-flash:
+- tika:application/x-shockwave-flash
 - pronom:fmt/104
 - pronom:fmt/105
 - pronom:fmt/106
@@ -424,51 +2227,222 @@ application/x-shockwave-flash:
 application/x-shockwave-flash2-preview:
 - fdd:fdd000130
 - fdd:fdd000248
+application/x-silverlight-app:
+- tika:application/x-silverlight-app
 application/x-sld:
 - pronom:x-fmt/105
+application/x-speex:
+- tika:audio/speex
+application/x-staroffice-template:
+- tika:application/x-staroffice-template
+application/x-stuffit:
+- tika:application/x-stuffit
+application/x-stuffitx:
+- tika:application/x-stuffitx
+application/x-sv4cpio:
+- tika:application/x-sv4cpio
+application/x-sv4crc:
+- tika:application/x-sv4crc
 application/x-tar:
+- tika:application/x-tar
 - pronom:x-fmt/265
+application/x-tcl:
+- tika:text/x-tcl
+application/x-tex:
+- tika:application/x-tex
+application/x-tex-tfm:
+- tika:application/x-tex-tfm
+application/x-texinfo:
+- tika:application/x-texinfo
 application/x-tif:
 - fdd:fdd000022
 - fdd:fdd000292
 application/x-tiff:
 - fdd:fdd000022
 - fdd:fdd000292
+application/x-tika-iworks-protected:
+- tika:application/x-tika-iworks-protected
+application/x-tika-java-enterprise-archive:
+- tika:application/x-tika-java-enterprise-archive
+application/x-tika-java-web-archive:
+- tika:application/x-tika-java-web-archive
+application/x-tika-msoffice:
+- tika:application/x-tika-msoffice
+application/x-tika-msoffice-embedded:
+- tika:application/x-tika-msoffice-embedded
+application/x-tika-msoffice-embedded;format=comp_obj:
+- tika:application/x-tika-msoffice-embedded;format=comp_obj
+application/x-tika-msoffice-embedded;format=ole10_native:
+- tika:application/x-tika-msoffice-embedded;format=ole10_native
+application/x-tika-msworks-spreadsheet:
+- tika:application/x-tika-msworks-spreadsheet
+application/x-tika-ooxml:
+- tika:application/x-tika-ooxml
+application/x-tika-ooxml-protected:
+- tika:application/x-tika-ooxml-protected
+application/x-tika-staroffice:
+- tika:application/x-tika-staroffice
+application/x-tika-unix-dump:
+- tika:application/x-tika-unix-dump
+application/x-troff:
+- tika:text/troff
+application/x-troff-man:
+- tika:text/troff
+application/x-troff-me:
+- tika:text/troff
+application/x-troff-ms:
+- tika:text/troff
 application/x-troff-msvideo:
 - fdd:fdd000059
+application/x-uc2-compressed:
+- tika:application/x-uc2-compressed
+application/x-unix-archive:
+- tika:application/x-archive
+application/x-ustar:
+- tika:application/x-ustar
+application/x-vmdk:
+- tika:application/x-vmdk
+application/x-vnd.oasis.opendocument.chart:
+- tika:application/vnd.oasis.opendocument.chart
+application/x-vnd.oasis.opendocument.chart-template:
+- tika:application/vnd.oasis.opendocument.chart-template
+application/x-vnd.oasis.opendocument.formula:
+- tika:application/vnd.oasis.opendocument.formula
+application/x-vnd.oasis.opendocument.formula-template:
+- tika:application/vnd.oasis.opendocument.formula-template
+application/x-vnd.oasis.opendocument.graphics:
+- tika:application/vnd.oasis.opendocument.graphics
+application/x-vnd.oasis.opendocument.graphics-template:
+- tika:application/vnd.oasis.opendocument.graphics-template
+application/x-vnd.oasis.opendocument.image:
+- tika:application/vnd.oasis.opendocument.image
+application/x-vnd.oasis.opendocument.image-template:
+- tika:application/vnd.oasis.opendocument.image-template
+application/x-vnd.oasis.opendocument.presentation:
+- tika:application/vnd.oasis.opendocument.presentation
+application/x-vnd.oasis.opendocument.presentation-template:
+- tika:application/vnd.oasis.opendocument.presentation-template
+application/x-vnd.oasis.opendocument.spreadsheet:
+- tika:application/vnd.oasis.opendocument.spreadsheet
+application/x-vnd.oasis.opendocument.spreadsheet-template:
+- tika:application/vnd.oasis.opendocument.spreadsheet-template
+application/x-vnd.oasis.opendocument.text:
+- tika:application/vnd.oasis.opendocument.text
+application/x-vnd.oasis.opendocument.text-master:
+- tika:application/vnd.oasis.opendocument.text-master
+application/x-vnd.oasis.opendocument.text-template:
+- tika:application/vnd.oasis.opendocument.text-template
+application/x-vnd.oasis.opendocument.text-web:
+- tika:application/vnd.oasis.opendocument.text-web
+application/x-vnd.sun.xml.writer:
+- tika:application/vnd.sun.xml.writer
+application/x-wais-source:
+- tika:application/x-wais-source
+application/x-webarchive:
+- tika:application/x-webarchive
+application/x-windows-installer:
+- tika:application/x-ms-installer
+application/x-x509-ca-cert:
+- tika:application/x-x509-ca-cert
+application/x-xfig:
+- tika:application/x-xfig
+application/x-xmind:
+- tika:application/x-xmind
+application/x-xml:
+- tika:application/xml
+application/x-xpinstall:
+- tika:application/x-xpinstall
+application/x-xz:
+- tika:application/x-xz
+application/x-zip-compressed:
+- tika:application/zip
+application/x-zoo:
+- tika:application/x-zoo
+application/x400-bp:
+- tika:application/x400-bp
+application/xcap-att+xml:
+- tika:application/xcap-att+xml
+application/xcap-caps+xml:
+- tika:application/xcap-caps+xml
+application/xcap-el+xml:
+- tika:application/xcap-el+xml
+application/xcap-error+xml:
+- tika:application/xcap-error+xml
+application/xcap-ns+xml:
+- tika:application/xcap-ns+xml
+application/xcon-conference-info+xml:
+- tika:application/xcon-conference-info+xml
+application/xcon-conference-info-diff+xml:
+- tika:application/xcon-conference-info-diff+xml
+application/xenc+xml:
+- tika:application/xenc+xml
 application/xhtml+xml:
+- tika:application/xhtml+xml
 - pronom:fmt/102
 - pronom:fmt/103
+application/xhtml-voice+xml:
+- tika:application/xhtml-voice+xml
 application/xml:
+- tika:application/xml
 - pronom:x-fmt/280
 - pronom:x-fmt/281
 - pronom:fmt/101
+- fdd:fdd000075
 application/xml-dtd:
+- tika:application/xml-dtd
 - fdd:fdd000076
+application/xml-external-parsed-entity:
+- tika:application/xml-external-parsed-entity
+application/xmpp+xml:
+- tika:application/xmpp+xml
+application/xop+xml:
+- tika:application/xop+xml
+application/xquery:
+- tika:application/xquery
+application/xslfo+xml:
+- tika:application/xslfo+xml
+application/xslt+xml:
+- tika:application/xslt+xml
+application/xspf+xml:
+- tika:application/xspf+xml
+application/xv+xml:
+- tika:application/xv+xml
 application/zip:
+- tika:application/zip
 - pronom:x-fmt/263
 - fdd:fdd000354
 - fdd:fdd000355
 - fdd:fdd000361
 - fdd:fdd000362
+audio/32kadpcm:
+- tika:audio/32kadpcm
 audio/3gpp:
+- tika:audio/3gpp
 - pronom:fmt/357
 - fdd:fdd000254
-audio/AMR:
-- fdd:fdd000254
-audio/AMR-WB+:
-- fdd:fdd000253
-audio/AMR-wb:
-- fdd:fdd000255
-audio/MPA:
-- fdd:fdd000338
+audio/3gpp2:
+- tika:audio/3gpp2
 audio/ac3:
+- tika:audio/ac3
 - fdd:fdd000209
+audio/adpcm:
+- tika:audio/adpcm
 audio/aiff:
+- tika:audio/x-aiff
 - fdd:fdd000005
 - fdd:fdd000116
 audio/amr:
+- tika:audio/amr
 - pronom:fmt/356
+- fdd:fdd000254
+audio/amr-wb:
+- tika:audio/amr-wb
+- fdd:fdd000255
+audio/amr-wb+:
+- tika:audio/amr-wb+
+- fdd:fdd000253
+audio/asc:
+- tika:audio/asc
 audio/asf:
 - fdd:fdd000067
 audio/audible:
@@ -476,11 +2450,100 @@ audio/audible:
 audio/avi:
 - fdd:fdd000059
 audio/basic:
+- tika:audio/basic
 - pronom:x-fmt/139
+audio/bv16:
+- tika:audio/bv16
+audio/bv32:
+- tika:audio/bv32
+audio/clearmode:
+- tika:audio/clearmode
+audio/cn:
+- tika:audio/cn
+audio/dat12:
+- tika:audio/dat12
+audio/dls:
+- tika:audio/dls
+audio/dsr-es201108:
+- tika:audio/dsr-es201108
+audio/dsr-es202050:
+- tika:audio/dsr-es202050
+audio/dsr-es202211:
+- tika:audio/dsr-es202211
+audio/dsr-es202212:
+- tika:audio/dsr-es202212
+audio/dvi4:
+- tika:audio/dvi4
+audio/eac3:
+- tika:audio/eac3
+audio/evrc:
+- tika:audio/evrc
+audio/evrc-qcp:
+- tika:audio/evrc-qcp
+audio/evrc0:
+- tika:audio/evrc0
+audio/evrc1:
+- tika:audio/evrc1
+audio/evrcb:
+- tika:audio/evrcb
+audio/evrcb0:
+- tika:audio/evrcb0
+audio/evrcb1:
+- tika:audio/evrcb1
+audio/evrcwb:
+- tika:audio/evrcwb
+audio/evrcwb0:
+- tika:audio/evrcwb0
+audio/evrcwb1:
+- tika:audio/evrcwb1
+audio/example:
+- tika:audio/example
 audio/flac:
 - fdd:fdd000198
+audio/g719:
+- tika:audio/g719
+audio/g722:
+- tika:audio/g722
+audio/g7221:
+- tika:audio/g7221
+audio/g723:
+- tika:audio/g723
+audio/g726-16:
+- tika:audio/g726-16
+audio/g726-24:
+- tika:audio/g726-24
+audio/g726-32:
+- tika:audio/g726-32
+audio/g726-40:
+- tika:audio/g726-40
+audio/g728:
+- tika:audio/g728
+audio/g729:
+- tika:audio/g729
+audio/g7291:
+- tika:audio/g7291
+audio/g729d:
+- tika:audio/g729d
+audio/g729e:
+- tika:audio/g729e
+audio/gsm:
+- tika:audio/gsm
+audio/gsm-efr:
+- tika:audio/gsm-efr
+audio/ilbc:
+- tika:audio/ilbc
 audio/it:
 - fdd:fdd000126
+audio/l16:
+- tika:audio/l16
+audio/l20:
+- tika:audio/l20
+audio/l24:
+- tika:audio/l24
+audio/l8:
+- tika:audio/l8
+audio/lpc:
+- tika:audio/lpc
 audio/m:
 - fdd:fdd000119
 audio/med:
@@ -489,9 +2552,11 @@ audio/mid:
 - fdd:fdd000119
 - fdd:fdd000120
 audio/midi:
+- tika:audio/midi
 - pronom:x-fmt/230
 - fdd:fdd000119
 audio/mobile-xmf:
+- tika:audio/mobile-xmf
 - fdd:fdd000121
 audio/mod:
 - fdd:fdd000126
@@ -500,8 +2565,17 @@ audio/module-xm:
 audio/mp3:
 - fdd:fdd000105
 audio/mp4:
+- tika:audio/mp4
 - fdd:fdd000155
+audio/mp4a-latm:
+- tika:audio/mp4a-latm
+audio/mpa:
+- tika:audio/mpa
+- fdd:fdd000338
+audio/mpa-robust:
+- tika:audio/mpa-robust
 audio/mpeg:
+- tika:audio/mpeg
 - pronom:x-fmt/279
 - pronom:fmt/134
 - pronom:fmt/198
@@ -512,77 +2586,232 @@ audio/mpeg:
 audio/mpeg3:
 - fdd:fdd000105
 audio/mpeg4-generic:
+- tika:audio/mpeg4-generic
 - fdd:fdd000275
 audio/mpg:
 - fdd:fdd000105
 audio/ogg:
+- tika:audio/ogg
 - pronom:fmt/203
 audio/ogg; codecs=speex:
 - fdd:fdd000259
 - fdd:fdd000260
+audio/opus:
+- tika:audio/opus
+audio/parityfec:
+- tika:audio/parityfec
+audio/pcma:
+- tika:audio/pcma
+audio/pcma-wb:
+- tika:audio/pcma-wb
+audio/pcmu:
+- tika:audio/pcmu
+audio/pcmu-wb:
+- tika:audio/pcmu-wb
 audio/prs.sid:
+- tika:audio/prs.sid
 - pronom:fmt/314
 - pronom:fmt/315
 - pronom:fmt/316
+audio/qcelp:
+- tika:audio/qcelp
+audio/red:
+- tika:audio/red
 audio/rmf:
 - fdd:fdd000005
+audio/rtp-enc-aescm128:
+- tika:audio/rtp-enc-aescm128
+audio/rtp-midi:
+- tika:audio/rtp-midi
+audio/rtx:
+- tika:audio/rtx
 audio/s3m:
 - fdd:fdd000126
+audio/smv:
+- tika:audio/smv
+audio/smv-qcp:
+- tika:audio/smv-qcp
+audio/smv0:
+- tika:audio/smv0
+audio/sp-midi:
+- tika:audio/sp-midi
 audio/speex:
+- tika:audio/speex
 - fdd:fdd000259
 - fdd:fdd000260
+audio/t140c:
+- tika:audio/t140c
+audio/t38:
+- tika:audio/t38
+audio/telephone-event:
+- tika:audio/telephone-event
+audio/tone:
+- tika:audio/tone
+audio/ulpfec:
+- tika:audio/ulpfec
+audio/vdvi:
+- tika:audio/vdvi
+audio/vmr-wb:
+- tika:audio/vmr-wb
+audio/vnd.3gpp.iufp:
+- tika:audio/vnd.3gpp.iufp
+audio/vnd.4sb:
+- tika:audio/vnd.4sb
+audio/vnd.adobe.soundbooth:
+- tika:audio/vnd.adobe.soundbooth
+audio/vnd.audiokoz:
+- tika:audio/vnd.audiokoz
+audio/vnd.celp:
+- tika:audio/vnd.celp
+audio/vnd.cisco.nse:
+- tika:audio/vnd.cisco.nse
+audio/vnd.cmles.radio-events:
+- tika:audio/vnd.cmles.radio-events
+audio/vnd.cns.anp1:
+- tika:audio/vnd.cns.anp1
+audio/vnd.cns.inf1:
+- tika:audio/vnd.cns.inf1
+audio/vnd.digital-winds:
+- tika:audio/vnd.digital-winds
+audio/vnd.dlna.adts:
+- tika:audio/vnd.dlna.adts
+audio/vnd.dolby.heaac.1:
+- tika:audio/vnd.dolby.heaac.1
+audio/vnd.dolby.heaac.2:
+- tika:audio/vnd.dolby.heaac.2
+audio/vnd.dolby.mlp:
+- tika:audio/vnd.dolby.mlp
+audio/vnd.dolby.mps:
+- tika:audio/vnd.dolby.mps
+audio/vnd.dolby.pl2:
+- tika:audio/vnd.dolby.pl2
+audio/vnd.dolby.pl2x:
+- tika:audio/vnd.dolby.pl2x
+audio/vnd.dolby.pl2z:
+- tika:audio/vnd.dolby.pl2z
+audio/vnd.dts:
+- tika:audio/vnd.dts
+audio/vnd.dts.hd:
+- tika:audio/vnd.dts.hd
+audio/vnd.everad.plj:
+- tika:audio/vnd.everad.plj
+audio/vnd.hns.audio:
+- tika:audio/vnd.hns.audio
+audio/vnd.lucent.voice:
+- tika:audio/vnd.lucent.voice
+audio/vnd.ms-playready.media.pya:
+- tika:audio/vnd.ms-playready.media.pya
+audio/vnd.nokia.mobile-xmf:
+- tika:audio/vnd.nokia.mobile-xmf
+audio/vnd.nortel.vbk:
+- tika:audio/vnd.nortel.vbk
+audio/vnd.nuera.ecelp4800:
+- tika:audio/vnd.nuera.ecelp4800
+audio/vnd.nuera.ecelp7470:
+- tika:audio/vnd.nuera.ecelp7470
+audio/vnd.nuera.ecelp9600:
+- tika:audio/vnd.nuera.ecelp9600
+audio/vnd.octel.sbc:
+- tika:audio/vnd.octel.sbc
 audio/vnd.qcelp:
+- tika:audio/vnd.qcelp
 - fdd:fdd000005
+audio/vnd.rhetorex.32kadpcm:
+- tika:audio/vnd.rhetorex.32kadpcm
 audio/vnd.rn-realaudio:
 - pronom:x-fmt/183
 - pronom:x-fmt/278
 - fdd:fdd000051
+audio/vnd.sealedmedia.softseal.mpeg:
+- tika:audio/vnd.sealedmedia.softseal.mpeg
+audio/vnd.vmx.cvsd:
+- tika:audio/vnd.vmx.cvsd
 audio/vnd.wave:
 - fdd:fdd000001
+audio/vorbis:
+- tika:audio/vorbis
+audio/vorbis-config:
+- tika:audio/vorbis-config
 audio/wav:
 - fdd:fdd000001
 audio/wave:
 - fdd:fdd000001
+audio/x-aac:
+- tika:audio/x-aac
+audio/x-adbcm:
+- tika:audio/x-adbcm
 audio/x-aiff:
+- tika:audio/x-aiff
 - pronom:x-fmt/135
 - pronom:x-fmt/136
 - fdd:fdd000005
 - fdd:fdd000116
+audio/x-dec-adbcm:
+- tika:audio/x-dec-adbcm
+audio/x-dec-basic:
+- tika:audio/x-dec-basic
+audio/x-flac:
+- tika:audio/x-flac
 audio/x-gsm:
 - fdd:fdd000005
+audio/x-m4a:
+- tika:audio/mp4
 audio/x-matroska:
+- tika:audio/x-matroska
 - fdd:fdd000342
 audio/x-midi:
 - fdd:fdd000005
 - fdd:fdd000119
 audio/x-mod:
+- tika:audio/x-mod
 - fdd:fdd000126
 - fdd:fdd000126
 audio/x-mp3:
 - fdd:fdd000105
+audio/x-mp4a:
+- tika:audio/mp4
 audio/x-mpeg:
+- tika:audio/mpeg
 - fdd:fdd000105
 audio/x-mpeg3:
 - fdd:fdd000105
 audio/x-mpegaudio:
 - fdd:fdd000105
+audio/x-mpegurl:
+- tika:audio/x-mpegurl
 audio/x-mpg:
 - fdd:fdd000105
+audio/x-ms-wax:
+- tika:audio/x-ms-wax
 audio/x-ms-wma:
+- tika:audio/x-ms-wma
 - pronom:fmt/132
 - fdd:fdd000027
 audio/x-ogg:
 - fdd:fdd000026
 - fdd:fdd000117
+audio/x-ogg-flac:
+- tika:audio/x-oggflac
+audio/x-ogg-pcm:
+- tika:audio/x-oggpcm
+audio/x-oggflac:
+- tika:audio/x-oggflac
+audio/x-oggpcm:
+- tika:audio/x-oggpcm
 audio/x-pn-aiff:
 - fdd:fdd000005
 - fdd:fdd000116
 audio/x-pn-audibleaudio:
 - fdd:fdd000103
 audio/x-pn-realaudio:
+- tika:audio/x-pn-realaudio
 - pronom:x-fmt/183
+audio/x-pn-realaudio-plugin:
+- tika:audio/x-pn-realaudio-plugin
 audio/x-pn-wav:
 - fdd:fdd000001
+audio/x-realaudio:
+- tika:audio/x-pn-realaudio
 audio/x-rmf:
 - fdd:fdd000005
 audio/x-s3m:
@@ -591,6 +2820,7 @@ audio/x-speex:
 - fdd:fdd000259
 - fdd:fdd000260
 audio/x-wav:
+- tika:audio/x-wav
 - pronom:fmt/6
 - pronom:fmt/2
 - pronom:x-fmt/389
@@ -609,16 +2839,34 @@ audio/xm:
 - pronom:fmt/323
 - fdd:fdd000126
 chemical/x-cdx:
+- tika:chemical/x-cdx
 - pronom:fmt/378
+chemical/x-cif:
+- tika:chemical/x-cif
+chemical/x-cmdf:
+- tika:chemical/x-cmdf
+chemical/x-cml:
+- tika:chemical/x-cml
+chemical/x-csml:
+- tika:chemical/x-csml
+chemical/x-pdb:
+- tika:chemical/x-pdb
+chemical/x-xyz:
+- tika:chemical/x-xyz
 com.adobe.photoshop-image:
 - pronom:x-fmt/92
 com.microsoft.word.doc:
 - pronom:x-fmt/64
+drawing/dwg:
+- tika:image/vnd.dwg
 drawing/x-dwf:
 - pronom:x-fmt/49
+gzip/document:
+- tika:application/gzip
 image/avi:
 - fdd:fdd000059
 image/bmp:
+- tika:image/x-ms-bmp
 - pronom:x-fmt/270
 - pronom:fmt/114
 - pronom:fmt/115
@@ -628,6 +2876,7 @@ image/bmp:
 - pronom:fmt/119
 - fdd:fdd000189
 image/cgm:
+- tika:image/cgm
 - pronom:x-fmt/142
 image/cgm; version=1:
 - pronom:fmt/303
@@ -637,17 +2886,27 @@ image/cgm; version=3:
 - pronom:fmt/305
 image/cgm; version=4:
 - pronom:fmt/306
+image/example:
+- tika:image/example
 image/fits:
+- tika:image/fits
 - pronom:x-fmt/383
 - fdd:fdd000317
+image/g3fax:
+- tika:image/g3fax
 image/gif:
+- tika:image/gif
 - pronom:fmt/3
 - pronom:fmt/4
 - fdd:fdd000133
+image/ief:
+- tika:image/ief
 image/jp2:
+- tika:image/jp2
 - pronom:x-fmt/392
 - fdd:fdd000143
 image/jpeg:
+- tika:image/jpeg
 - pronom:fmt/42
 - pronom:fmt/43
 - pronom:fmt/44
@@ -667,28 +2926,45 @@ image/jpeg2000-image:
 image/jpg:
 - fdd:fdd000018
 image/jpm:
+- tika:image/jpm
 - pronom:fmt/463
 - fdd:fdd000144
 image/jpx:
+- tika:image/jpx
 - fdd:fdd000154
 image/mov:
 - fdd:fdd000052
+image/naplps:
+- tika:image/naplps
+image/nitf:
+- tika:image/nitf
+image/ntf:
+- tika:image/nitf
 image/png:
+- tika:image/png
 - pronom:fmt/11
 - pronom:fmt/12
 - pronom:fmt/13
 - fdd:fdd000153
+image/prs.btif:
+- tika:image/prs.btif
+image/prs.pti:
+- tika:image/prs.pti
 image/svg+xml:
+- tika:image/svg+xml
 - pronom:x-fmt/109
 - pronom:fmt/91
 - pronom:fmt/92
 - fdd:fdd000020
 image/svg-xml:
 - fdd:fdd000020
+image/t38:
+- tika:image/t38
 image/tif:
 - fdd:fdd000022
 - fdd:fdd000292
 image/tiff:
+- tika:image/tiff
 - pronom:x-fmt/387
 - pronom:x-fmt/388
 - pronom:x-fmt/399
@@ -706,14 +2982,24 @@ image/tiff:
 - fdd:fdd000279
 - fdd:fdd000292
 - fdd:fdd000328
+image/tiff-fx:
+- tika:image/tiff-fx
 image/vnd.adobe.photoshop:
+- tika:image/vnd.adobe.photoshop
 - pronom:x-fmt/92
+image/vnd.adobe.premiere:
+- tika:image/vnd.adobe.premiere
+image/vnd.cns.inf2:
+- tika:image/vnd.cns.inf2
 image/vnd.djvu:
+- tika:image/vnd.djvu
 - pronom:fmt/255
 - pronom:fmt/318
 image/vnd.dwf:
 - pronom:x-fmt/49
 image/vnd.dwg:
+- tika:image/vnd.dwg
+- tika:image/vnd.dwg
 - pronom:fmt/21
 - pronom:fmt/22
 - pronom:fmt/23
@@ -734,6 +3020,7 @@ image/vnd.dwg:
 - pronom:fmt/434
 - pronom:fmt/531
 image/vnd.dxf:
+- tika:image/vnd.dxf
 - pronom:fmt/64
 - pronom:fmt/65
 - pronom:fmt/66
@@ -760,17 +3047,53 @@ image/vnd.dxf:
 - pronom:fmt/433
 - pronom:fmt/435
 - pronom:fmt/532
+image/vnd.fastbidsheet:
+- tika:image/vnd.fastbidsheet
+image/vnd.fpx:
+- tika:image/vnd.fpx
+image/vnd.fst:
+- tika:image/vnd.fst
+image/vnd.fujixerox.edmics-mmr:
+- tika:image/vnd.fujixerox.edmics-mmr
+image/vnd.fujixerox.edmics-rlc:
+- tika:image/vnd.fujixerox.edmics-rlc
+image/vnd.globalgraphics.pgb:
+- tika:image/vnd.globalgraphics.pgb
 image/vnd.microsoft.icon:
+- tika:image/vnd.microsoft.icon
 - pronom:x-fmt/418
 image/vnd.mix:
+- tika:image/vnd.mix
 - pronom:fmt/594
+image/vnd.ms-modi:
+- tika:image/vnd.ms-modi
 image/vnd.ms-photo:
 - fdd:fdd000243
+image/vnd.net-fpx:
+- tika:image/vnd.net-fpx
+image/vnd.radiance:
+- tika:image/vnd.radiance
 image/vnd.rn-realflash:
 - fdd:fdd000130
 - fdd:fdd000248
+image/vnd.sealed.png:
+- tika:image/vnd.sealed.png
+image/vnd.sealedmedia.softseal.gif:
+- tika:image/vnd.sealedmedia.softseal.gif
+image/vnd.sealedmedia.softseal.jpg:
+- tika:image/vnd.sealedmedia.softseal.jpg
+image/vnd.svf:
+- tika:image/vnd.svf
+image/vnd.wap.wbmp:
+- tika:image/vnd.wap.wbmp
+image/vnd.xiff:
+- tika:image/vnd.xiff
 image/x-bmp:
 - fdd:fdd000189
+image/x-cmu-raster:
+- tika:image/x-cmu-raster
+image/x-cmx:
+- tika:image/x-cmx
 image/x-dcx:
 - pronom:x-fmt/348
 image/x-djvu:
@@ -778,30 +3101,97 @@ image/x-djvu:
 - pronom:fmt/318
 image/x-dwf:
 - pronom:x-fmt/49
+image/x-dwg:
+- tika:image/vnd.dwg
 image/x-emf:
 - pronom:x-fmt/153
 - pronom:fmt/344
 - pronom:fmt/345
+image/x-freehand:
+- tika:image/x-freehand
 image/x-icon:
+- tika:image/vnd.microsoft.icon
 - pronom:x-fmt/418
 image/x-jng:
 - pronom:fmt/529
+image/x-jp2-codestream:
+- tika:image/x-jp2-codestream
+image/x-jp2-container:
+- tika:image/x-jp2-container
 image/x-jpeg2000-image:
 - fdd:fdd000143
 image/x-mrsid-image:
 - fdd:fdd000031
 - fdd:fdd000184
 image/x-ms-bmp:
+- tika:image/x-ms-bmp
 - fdd:fdd000189
+image/x-niff:
+- tika:image/x-niff
+image/x-pcx:
+- tika:image/x-pcx
 image/x-pict:
+- tika:image/x-pict
 - pronom:x-fmt/80
 - pronom:fmt/341
+image/x-portable-anymap:
+- tika:image/x-portable-anymap
 image/x-portable-bitmap:
+- tika:image/x-portable-bitmap
 - pronom:x-fmt/164
+image/x-portable-graymap:
+- tika:image/x-portable-graymap
 image/x-portable-pixmap:
+- tika:image/x-portable-pixmap
 - pronom:x-fmt/178
+image/x-psd:
+- tika:image/vnd.adobe.photoshop
 image/x-quicktime:
 - fdd:fdd000052
+image/x-raw-adobe:
+- tika:image/x-raw-adobe
+image/x-raw-canon:
+- tika:image/x-raw-canon
+image/x-raw-casio:
+- tika:image/x-raw-casio
+image/x-raw-epson:
+- tika:image/x-raw-epson
+image/x-raw-fuji:
+- tika:image/x-raw-fuji
+image/x-raw-hasselblad:
+- tika:image/x-raw-hasselblad
+image/x-raw-imacon:
+- tika:image/x-raw-imacon
+image/x-raw-kodak:
+- tika:image/x-raw-kodak
+image/x-raw-leaf:
+- tika:image/x-raw-leaf
+image/x-raw-logitech:
+- tika:image/x-raw-logitech
+image/x-raw-mamiya:
+- tika:image/x-raw-mamiya
+image/x-raw-minolta:
+- tika:image/x-raw-minolta
+image/x-raw-nikon:
+- tika:image/x-raw-nikon
+image/x-raw-olympus:
+- tika:image/x-raw-olympus
+image/x-raw-panasonic:
+- tika:image/x-raw-panasonic
+image/x-raw-pentax:
+- tika:image/x-raw-pentax
+image/x-raw-phaseone:
+- tika:image/x-raw-phaseone
+image/x-raw-rawzor:
+- tika:image/x-raw-rawzor
+image/x-raw-red:
+- tika:image/x-raw-red
+image/x-raw-sigma:
+- tika:image/x-raw-sigma
+image/x-raw-sony:
+- tika:image/x-raw-sony
+image/x-rgb:
+- tika:image/x-rgb
 image/x-sgi-bw:
 - pronom:x-fmt/140
 image/x-sld:
@@ -816,41 +3206,167 @@ image/x-tiff:
 - fdd:fdd000292
 image/x-win-bitmap:
 - pronom:fmt/385
+image/x-wmf:
+- tika:application/x-msmetafile
 image/x-xbitmap:
+- tika:image/x-xbitmap
 - pronom:x-fmt/207
 - pronom:x-fmt/299
+image/x-xcf:
+- tika:image/x-xcf
 image/x-xpixmap:
+- tika:image/x-xpixmap
 - pronom:x-fmt/208
 image/x-xwindowdump:
+- tika:image/x-xwindowdump
 - pronom:x-fmt/300
+image/xcf:
+- tika:image/x-xcf
+message/cpim:
+- tika:message/cpim
+message/delivery-status:
+- tika:message/delivery-status
+message/disposition-notification:
+- tika:message/disposition-notification
+message/example:
+- tika:message/example
+message/external-body:
+- tika:message/external-body
+message/global:
+- tika:message/global
+message/global-delivery-status:
+- tika:message/global-delivery-status
+message/global-disposition-notification:
+- tika:message/global-disposition-notification
+message/global-headers:
+- tika:message/global-headers
+message/http:
+- tika:message/http
+message/imdn+xml:
+- tika:message/imdn+xml
+message/news:
+- tika:message/news
+message/partial:
+- tika:message/partial
 message/rfc822:
+- tika:message/rfc822
 - pronom:x-fmt/429
 - pronom:fmt/278
 - fdd:fdd000388
 - fdd:fdd000393
+message/s-http:
+- tika:message/s-http
+message/sip:
+- tika:message/sip
+message/sipfrag:
+- tika:message/sipfrag
+message/tracking-status:
+- tika:message/tracking-status
+message/vnd.si.simp:
+- tika:message/vnd.si.simp
+message/x-emlx:
+- tika:message/x-emlx
+model/example:
+- tika:model/example
 model/iges:
+- tika:model/iges
 - pronom:x-fmt/158
+model/mesh:
+- tika:model/mesh
 model/vnd.dwf:
+- tika:model/vnd.dwf
 - pronom:x-fmt/49
+model/vnd.dwfx+xps:
+- tika:model/vnd.dwfx+xps
+model/vnd.flatland.3dml:
+- tika:model/vnd.flatland.3dml
+model/vnd.gdl:
+- tika:model/vnd.gdl
+model/vnd.gs-gdl:
+- tika:model/vnd.gs-gdl
+model/vnd.gs.gdl:
+- tika:model/vnd.gs.gdl
+model/vnd.gtw:
+- tika:model/vnd.gtw
+model/vnd.moml+xml:
+- tika:model/vnd.moml+xml
+model/vnd.mts:
+- tika:model/vnd.mts
+model/vnd.parasolid.transmit.binary:
+- tika:model/vnd.parasolid.transmit.binary
+model/vnd.parasolid.transmit.text:
+- tika:model/vnd.parasolid.transmit.text
+model/vnd.vtu:
+- tika:model/vnd.vtu
 model/vrml:
+- tika:model/vrml
 - pronom:fmt/93
 - pronom:fmt/94
+multipart/alternative:
+- tika:multipart/alternative
+multipart/appledouble:
+- tika:multipart/appledouble
+multipart/byteranges:
+- tika:multipart/byteranges
+multipart/digest:
+- tika:multipart/digest
+multipart/encrypted:
+- tika:multipart/encrypted
+multipart/example:
+- tika:multipart/example
+multipart/form-data:
+- tika:multipart/form-data
+multipart/header-set:
+- tika:multipart/header-set
+multipart/mixed:
+- tika:multipart/mixed
+multipart/parallel:
+- tika:multipart/parallel
 multipart/related:
+- tika:multipart/related
 - pronom:x-fmt/429
+multipart/report:
+- tika:multipart/report
+multipart/signed:
+- tika:multipart/signed
+multipart/voice-message:
+- tika:multipart/voice-message
+none found:
+- fdd:fdd000245
+not applicable:
+- fdd:fdd000208
 ptif:
 - fdd:fdd000237
 sound/aiff:
 - fdd:fdd000005
 - fdd:fdd000116
+text/asp:
+- tika:text/asp
+text/aspdotnet:
+- tika:text/aspdotnet
 text/calendar:
+- tika:text/calendar
 - pronom:fmt/388
 - fdd:fdd000394
 text/css:
+- tika:text/css
 - pronom:x-fmt/224
 text/csv:
+- tika:text/csv
 - pronom:x-fmt/18
 - fdd:fdd000323
+text/directory:
+- tika:text/directory
+text/dns:
+- tika:text/dns
+text/ecmascript:
+- tika:text/ecmascript
+text/enriched:
+- tika:text/enriched
+text/example:
+- tika:text/example
 text/html:
+- tika:text/html
 - pronom:x-fmt/160
 - pronom:x-fmt/169
 - pronom:fmt/97
@@ -860,12 +3376,16 @@ text/html:
 - pronom:fmt/96
 - pronom:fmt/471
 text/javascript:
+- tika:application/javascript
 - fdd:fdd000381
 text/json:
 - fdd:fdd000381
+text/parityfec:
+- tika:text/parityfec
 text/pdf:
 - fdd:fdd000030
 text/plain:
+- tika:text/plain
 - pronom:x-fmt/13
 - pronom:x-fmt/14
 - pronom:x-fmt/15
@@ -879,7 +3399,20 @@ text/plain:
 - pronom:x-fmt/283
 - pronom:x-fmt/449
 - pronom:x-fmt/454
+text/prs.fallenstein.rst:
+- tika:text/prs.fallenstein.rst
+text/prs.lines.tag:
+- tika:text/prs.lines.tag
+text/red:
+- tika:text/red
+text/rfc822-headers:
+- tika:text/rfc822-headers
+text/richtext:
+- tika:text/richtext
+text/rss:
+- tika:application/rss+xml
 text/rtf:
+- tika:application/rtf
 - pronom:fmt/45
 - pronom:fmt/46
 - pronom:fmt/47
@@ -890,51 +3423,319 @@ text/rtf:
 - pronom:fmt/52
 - pronom:fmt/53
 - pronom:fmt/355
+text/rtp-enc-aescm128:
+- tika:text/rtp-enc-aescm128
+text/rtx:
+- tika:text/rtx
 text/sgml:
+- tika:text/sgml
 - pronom:x-fmt/195
-text/vnd.IPTC.NITF:
+text/t140:
+- tika:text/t140
+text/tab-separated-values:
+- tika:text/tab-separated-values
+text/troff:
+- tika:text/troff
+text/ulpfec:
+- tika:text/ulpfec
+text/uri-list:
+- tika:text/uri-list
+text/vnd.abc:
+- tika:text/vnd.abc
+text/vnd.curl:
+- tika:text/vnd.curl
+text/vnd.curl.dcurl:
+- tika:text/vnd.curl.dcurl
+text/vnd.curl.mcurl:
+- tika:text/vnd.curl.mcurl
+text/vnd.curl.scurl:
+- tika:text/vnd.curl.scurl
+text/vnd.dmclientscript:
+- tika:text/vnd.dmclientscript
+text/vnd.esmertec.theme-descriptor:
+- tika:text/vnd.esmertec.theme-descriptor
+text/vnd.fly:
+- tika:text/vnd.fly
+text/vnd.fmi.flexstor:
+- tika:text/vnd.fmi.flexstor
+text/vnd.graphviz:
+- tika:text/vnd.graphviz
+text/vnd.in3d.3dml:
+- tika:text/vnd.in3d.3dml
+text/vnd.in3d.spot:
+- tika:text/vnd.in3d.spot
+text/vnd.iptc.anpa:
+- tika:text/vnd.iptc.anpa
+text/vnd.iptc.newsml:
+- tika:text/vnd.iptc.newsml
+text/vnd.iptc.nitf:
+- tika:text/vnd.iptc.nitf
 - fdd:fdd000014
+text/vnd.latex-z:
+- tika:text/vnd.latex-z
+text/vnd.motorola.reflex:
+- tika:text/vnd.motorola.reflex
+text/vnd.ms-mediapackage:
+- tika:text/vnd.ms-mediapackage
+text/vnd.net2phone.commcenter.command:
+- tika:text/vnd.net2phone.commcenter.command
+text/vnd.si.uricatalogue:
+- tika:text/vnd.si.uricatalogue
+text/vnd.sun.j2me.app-descriptor:
+- tika:text/vnd.sun.j2me.app-descriptor
+text/vnd.trolltech.linguist:
+- tika:text/vnd.trolltech.linguist
+text/vnd.wap.si:
+- tika:text/vnd.wap.si
+text/vnd.wap.sl:
+- tika:text/vnd.wap.sl
+text/vnd.wap.wml:
+- tika:text/vnd.wap.wml
+text/vnd.wap.wmlscript:
+- tika:text/vnd.wap.wmlscript
+text/x-actionscript:
+- tika:text/x-actionscript
+text/x-ada:
+- tika:text/x-ada
+text/x-applescript:
+- tika:text/x-applescript
+text/x-asciidoc:
+- tika:text/x-asciidoc
+text/x-asm:
+- tika:text/x-assembly
+text/x-aspectj:
+- tika:text/x-aspectj
+text/x-assembly:
+- tika:text/x-assembly
+text/x-awk:
+- tika:text/x-awk
+text/x-basic:
+- tika:text/x-basic
+text/x-c:
+- tika:text/x-csrc
+text/x-c++hdr:
+- tika:text/x-c++hdr
+text/x-c++src:
+- tika:text/x-c++src
+text/x-cgi:
+- tika:text/x-cgi
+text/x-chdr:
+- tika:text/x-chdr
+text/x-clojure:
+- tika:text/x-clojure
+text/x-cobol:
+- tika:text/x-cobol
+text/x-coffeescript:
+- tika:text/x-coffeescript
+text/x-coldfusion:
+- tika:text/x-coldfusion
+text/x-common-lisp:
+- tika:text/x-common-lisp
+text/x-csharp:
+- tika:text/x-csharp
+text/x-csrc:
+- tika:text/x-csrc
+text/x-d:
+- tika:text/x-d
+text/x-diff:
+- tika:text/x-diff
+text/x-dtd:
+- tika:application/xml-dtd
+text/x-eiffel:
+- tika:text/x-eiffel
+text/x-emacs-lisp:
+- tika:text/x-emacs-lisp
+text/x-erlang:
+- tika:text/x-erlang
+text/x-expect:
+- tika:text/x-expect
+text/x-forth:
+- tika:text/x-forth
+text/x-fortran:
+- tika:text/x-fortran
+text/x-go:
+- tika:text/x-go
+text/x-groovy:
+- tika:text/x-groovy
+text/x-haml:
+- tika:text/x-haml
+text/x-haskell:
+- tika:text/x-haskell
+text/x-haxe:
+- tika:text/x-haxe
+text/x-idl:
+- tika:text/x-idl
+text/x-ini:
+- tika:text/x-ini
+text/x-java:
+- tika:text/x-java-source
+text/x-java-source:
+- tika:text/x-java-source
+text/x-jsp:
+- tika:text/x-jsp
+text/x-less:
+- tika:text/x-less
+text/x-lex:
+- tika:text/x-lex
+text/x-log:
+- tika:text/x-log
+text/x-lua:
+- tika:text/x-lua
+text/x-matlab:
+- tika:text/x-matlab
+text/x-ml:
+- tika:text/x-ml
+text/x-modula:
+- tika:text/x-modula
+text/x-objcsrc:
+- tika:text/x-objcsrc
+text/x-ocaml:
+- tika:text/x-ocaml
+text/x-pascal:
+- tika:text/x-pascal
 text/x-pdf:
 - fdd:fdd000030
-text/x-vCalendar:
+text/x-perl:
+- tika:text/x-perl
+text/x-php:
+- tika:text/x-php
+text/x-prolog:
+- tika:text/x-prolog
+text/x-python:
+- tika:text/x-python
+text/x-rexx:
+- tika:text/x-rexx
+text/x-rsrc:
+- tika:text/x-rsrc
+text/x-rst:
+- tika:text/x-rst
+text/x-ruby:
+- tika:text/x-ruby
+text/x-scala:
+- tika:text/x-scala
+text/x-scheme:
+- tika:text/x-scheme
+text/x-sed:
+- tika:text/x-sed
+text/x-setext:
+- tika:text/x-setext
+text/x-sql:
+- tika:text/x-sql
+text/x-stsrc:
+- tika:text/x-stsrc
+text/x-tcl:
+- tika:text/x-tcl
+text/x-tex:
+- tika:application/x-tex
+text/x-texinfo:
+- tika:application/x-texinfo
+text/x-uuencode:
+- tika:text/x-uuencode
+text/x-vbasic:
+- tika:text/x-vbasic
+text/x-vbdotnet:
+- tika:text/x-vbdotnet
+text/x-vbscript:
+- tika:text/x-vbscript
+text/x-vcalendar:
+- tika:text/x-vcalendar
 - pronom:fmt/387
+text/x-vcard:
+- tika:text/x-vcard
+text/x-verilog:
+- tika:text/x-verilog
+text/x-vhdl:
+- tika:text/x-vhdl
+text/x-web-markdown:
+- tika:text/x-web-markdown
+text/x-yacc:
+- tika:text/x-yacc
+text/x-yaml:
+- tika:text/x-yaml
 text/xml:
+- tika:application/xml
 - pronom:fmt/101
 - pronom:fmt/121
 - pronom:fmt/120
+- fdd:fdd000075
 - fdd:fdd000275
 - fdd:fdd000295
 - fdd:fdd000296
+text/xml-external-parsed-entity:
+- tika:application/xml-external-parsed-entity
+text/xsl:
+- tika:application/xslfo+xml
+- tika:application/xslt+xml
 tif:
 - fdd:fdd000237
 tiff:
 - fdd:fdd000237
 video/3gpp:
+- tika:video/3gpp
 - pronom:fmt/357
+video/3gpp-tt:
+- tika:video/3gpp-tt
+video/3gpp2:
+- tika:video/3gpp2
 video/avi:
+- tika:video/x-msvideo
 - fdd:fdd000059
+video/bmpeg:
+- tika:video/bmpeg
+video/bt656:
+- tika:video/bt656
+video/celb:
+- tika:video/celb
+video/daala:
+- tika:video/daala
 video/dv:
+- tika:video/dv
 - pronom:x-fmt/152
+video/example:
+- tika:video/example
+video/h261:
+- tika:video/h261
+video/h263:
+- tika:video/h263
+video/h263-1998:
+- tika:video/h263-1998
+video/h263-2000:
+- tika:video/h263-2000
+video/h264:
+- tika:video/h264
+video/jpeg:
+- tika:video/jpeg
+video/jpeg2000:
+- tika:video/jpeg2000
+video/jpm:
+- tika:image/jpm
 video/mj2:
+- tika:video/mj2
 - pronom:fmt/337
 - fdd:fdd000127
 video/mp1s:
+- tika:video/mp1s
 - fdd:fdd000028
 - fdd:fdd000035
 - fdd:fdd000335
 video/mp2p:
+- tika:video/mp2p
 - fdd:fdd000028
 - fdd:fdd000335
 video/mp2t:
+- tika:video/mp2t
 - fdd:fdd000028
 - fdd:fdd000335
 video/mp4:
+- tika:video/mp4
 - fdd:fdd000037
 - fdd:fdd000137
 - fdd:fdd000155
 video/mp4v-es:
+- tika:video/mp4v-es
 - fdd:fdd000155
 video/mpeg:
+- tika:video/mpeg
 - pronom:x-fmt/385
 - pronom:x-fmt/386
 - fdd:fdd000028
@@ -944,35 +3745,123 @@ video/mpeg2:
 - fdd:fdd000028
 - fdd:fdd000335
 video/mpeg4-generic:
+- tika:video/mpeg4-generic
 - fdd:fdd000155
 video/mpg:
 - fdd:fdd000028
 - fdd:fdd000035
 - fdd:fdd000335
 video/mpv:
+- tika:video/mpv
 - fdd:fdd000028
 - fdd:fdd000035
 - fdd:fdd000335
 video/msvideo:
+- tika:video/x-msvideo
 - fdd:fdd000059
+video/nv:
+- tika:video/nv
+video/ogg:
+- tika:video/ogg
+video/parityfec:
+- tika:video/parityfec
+video/pointer:
+- tika:video/pointer
 video/quicktime:
+- tika:video/quicktime
 - pronom:x-fmt/384
 - fdd:fdd000052
+video/raw:
+- tika:video/raw
+video/rtp-enc-aescm128:
+- tika:video/rtp-enc-aescm128
+video/rtx:
+- tika:video/rtx
+video/smpte292m:
+- tika:video/smpte292m
+video/theora:
+- tika:video/theora
+video/ulpfec:
+- tika:video/ulpfec
+video/vc1:
+- tika:video/vc1
 video/vnd.avi:
 - fdd:fdd000059
+video/vnd.cctv:
+- tika:video/vnd.cctv
+video/vnd.dlna.mpeg-tts:
+- tika:video/vnd.dlna.mpeg-tts
+video/vnd.fvt:
+- tika:video/vnd.fvt
+video/vnd.hns.video:
+- tika:video/vnd.hns.video
+video/vnd.iptvforum.1dparityfec-1010:
+- tika:video/vnd.iptvforum.1dparityfec-1010
+video/vnd.iptvforum.1dparityfec-2005:
+- tika:video/vnd.iptvforum.1dparityfec-2005
+video/vnd.iptvforum.2dparityfec-1010:
+- tika:video/vnd.iptvforum.2dparityfec-1010
+video/vnd.iptvforum.2dparityfec-2005:
+- tika:video/vnd.iptvforum.2dparityfec-2005
+video/vnd.iptvforum.ttsavc:
+- tika:video/vnd.iptvforum.ttsavc
+video/vnd.iptvforum.ttsmpeg2:
+- tika:video/vnd.iptvforum.ttsmpeg2
+video/vnd.motorola.video:
+- tika:video/vnd.motorola.video
+video/vnd.motorola.videop:
+- tika:video/vnd.motorola.videop
+video/vnd.mpegurl:
+- tika:video/vnd.mpegurl
+video/vnd.ms-playready.media.pyv:
+- tika:video/vnd.ms-playready.media.pyv
+video/vnd.nokia.interleaved-multimedia:
+- tika:video/vnd.nokia.interleaved-multimedia
+video/vnd.nokia.videovoip:
+- tika:video/vnd.nokia.videovoip
+video/vnd.objectvideo:
+- tika:video/vnd.objectvideo
 video/vnd.rn-realvideo:
 - pronom:x-fmt/277
 - fdd:fdd000050
+video/vnd.sealed.mpeg1:
+- tika:video/vnd.sealed.mpeg1
+video/vnd.sealed.mpeg4:
+- tika:video/vnd.sealed.mpeg4
+video/vnd.sealed.swf:
+- tika:video/vnd.sealed.swf
+video/vnd.sealedmedia.softseal.mov:
+- tika:video/vnd.sealedmedia.softseal.mov
+video/vnd.vivo:
+- tika:video/vnd.vivo
 video/webm:
+- tika:video/webm
 - pronom:fmt/573
+video/x-daala:
+- tika:video/daala
+video/x-dirac:
+- tika:video/x-dirac
 video/x-dv:
 - fdd:fdd000173
+video/x-f4v:
+- tika:video/x-f4v
+video/x-flc:
+- tika:video/x-flc
+video/x-fli:
+- tika:video/x-fli
 video/x-flv:
+- tika:video/x-flv
 - pronom:x-fmt/382
 - fdd:fdd000131
+video/x-jng:
+- tika:video/x-jng
+video/x-m4v:
+- tika:video/x-m4v
 video/x-matroska:
+- tika:video/x-matroska
 - fdd:fdd000342
 video/x-mng:
+- tika:video/x-mng
 - pronom:fmt/528
 video/x-mpeg:
 - fdd:fdd000028
@@ -986,21 +3875,48 @@ video/x-mpg:
 - fdd:fdd000035
 - fdd:fdd000335
 video/x-ms-asf:
+- tika:video/x-ms-asf
 - fdd:fdd000067
 video/x-ms-asf-plugin:
 - fdd:fdd000067
 - fdd:fdd000067
 video/x-ms-wm:
+- tika:video/x-ms-wm
 - fdd:fdd000067
 video/x-ms-wmv:
+- tika:video/x-ms-wmv
 - pronom:fmt/133
 - fdd:fdd000091
 video/x-ms-wmx:
+- tika:video/x-ms-wmx
 - fdd:fdd000067
+video/x-ms-wvx:
+- tika:video/x-ms-wvx
 video/x-msvideo:
+- tika:video/x-msvideo
 - pronom:fmt/5
 - fdd:fdd000059
+video/x-ogg-rgb:
+- tika:video/x-oggrgb
+video/x-ogg-uvs:
+- tika:video/x-ogguvs
+video/x-ogg-yuv:
+- tika:video/x-oggyuv
+video/x-oggrgb:
+- tika:video/x-oggrgb
+video/x-ogguvs:
+- tika:video/x-ogguvs
+video/x-oggyuv:
+- tika:video/x-oggyuv
+video/x-ogm:
+- tika:video/x-ogm
 video/x-quicktime:
 - fdd:fdd000052
+video/x-sgi-movie:
+- tika:video/x-sgi-movie
+video/x-theora:
+- tika:video/theora
 vnd.lotus-approach:
 - pronom:x-fmt/333
+x-conference/x-cooltalk:
+- tika:x-conference/x-cooltalk
