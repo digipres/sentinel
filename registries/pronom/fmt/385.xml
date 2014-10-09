@@ -62,7 +62,7 @@
           </IndirectOffsetLength>
           <Endianness>
           </Endianness>
-          <ByteSequenceValue>00000200[01:09]00{3}00{1}00{1}00{3}00</ByteSequenceValue>
+          <ByteSequenceValue>00000200[01:09]00{3}00{1}00{1}00{3}00*000028000000{2}0000{2}00000100[01:20]0000000000</ByteSequenceValue>
         </ByteSequence>
         <ByteSequence>
           <ByteSequenceID>703</ByteSequenceID>

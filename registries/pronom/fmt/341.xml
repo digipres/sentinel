@@ -24,8 +24,9 @@
       <ProvenanceSourceID>165</ProvenanceSourceID>
       <ProvenanceName>Georgia Tech Research Institute / Georgia Tech Research Institute</ProvenanceName>
       <ProvenanceSourceDate>21 Apr 2011</ProvenanceSourceDate>
-      <ProvenanceDescription>Submitted by Georgia Tech Research Institute</ProvenanceDescription>
-      <LastUpdatedDate>21 Apr 2011</LastUpdatedDate>
+      <ProvenanceDescription>
+      </ProvenanceDescription>
+      <LastUpdatedDate>19 Jul 2013</LastUpdatedDate>
       <FormatNote>
       </FormatNote>
       <FormatRisk>
@@ -44,6 +45,20 @@
         <Identifier>image/x-pict</Identifier>
         <IdentifierType>MIME</IdentifierType>
       </FileFormatIdentifier>
+      <Developers>
+        <DeveloperID>15</DeveloperID>
+        <DeveloperName>
+        </DeveloperName>
+        <OrganisationName>Apple Computer, Inc.</OrganisationName>
+        <DeveloperCompoundName>Apple Computer, Inc.</DeveloperCompoundName>
+      </Developers>
+      <Support>
+        <SupportID>15</SupportID>
+        <SupportName>
+        </SupportName>
+        <OrganisationName>Apple Computer, Inc.</OrganisationName>
+        <SupportCompoundName>Apple Computer, Inc.</SupportCompoundName>
+      </Support>
       <ExternalSignature>
         <ExternalSignatureID>1100</ExternalSignatureID>
         <Signature>pct</Signature>

@@ -23,7 +23,8 @@ The signature identification proposed for PDF/A 1b has been tested against a num
       <ProvenanceSourceID>1</ProvenanceSourceID>
       <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
       <ProvenanceSourceDate>11 Jul 2011</ProvenanceSourceDate>
-      <ProvenanceDescription>Additional information regarding violations of PDF/A 1b conformance added November 2011.</ProvenanceDescription>
+      <ProvenanceDescription>Additional information regarding violations of PDF/A 1b conformance added November 2011.
+Additional information regarding violations of PDF/A 1b conformance added February 2014.</ProvenanceDescription>
       <LastUpdatedDate>08 Nov 2011</LastUpdatedDate>
       <FormatNote>
       </FormatNote>
@@ -82,7 +83,7 @@ The signature identification proposed for PDF/A 1b has been tested against a num
       </ExternalSignature>
       <InternalSignature>
         <SignatureID>521</SignatureID>
-        <SignatureName>Acrobat PDF/A 1b</SignatureName>
+        <SignatureName>Acrobat PDF/A 1b 1</SignatureName>
         <SignatureNote>Describes a signature for the PDF/A format with 1b conformance. Identifies the PDF header (1.3 through to 1.7) and byte sequence which equals - xmlns:pdfaid="http://www.aiim.org/pdfa/ns/id/"&gt;.&lt;pdfaid:part&gt;1&lt;/pdfaid:part&gt;.&lt;pdfaid:conformance&gt;B&lt;/pdfaid:conformance&gt;. Which is the PDF/A identification namespace within the PDF/A meta-data, and the 1b conformance. See ISO 19005-1:2005 and Technical Corrigendum 1 for further information.</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>642</ByteSequenceID>
@@ -110,21 +111,56 @@ The signature identification proposed for PDF/A 1b has been tested against a num
           </IndirectOffsetLength>
           <Endianness>
           </Endianness>
-          <ByteSequenceValue>786D6C6E733A7064666169643D(22|27)687474703A2F2F7777772E6169696D2E6F72672F706466612F6E732F6964{0-20}7064666169643A70617274(3D22|3D27|3E)31(22|27|3C2F7064666169643A706172743E){0-13}7064666169643A636F6E666F726D616E6365(3E|3D22|3D27)42(22|27|3C2F7064666169643A636F6E666F726D616E63653E)</ByteSequenceValue>
+          <ByteSequenceValue>786D6C6E733A7064666169643D(22|27)687474703A2F2F7777772E6169696D2E6F72672F706466612F6E732F6964*7064666169643A70617274(3D22|3D27|3E)31(22|27|3C2F7064666169643A706172743E){0-13}7064666169643A636F6E666F726D616E6365(3E|3D22|3D27)42(22|27|3C2F7064666169643A636F6E666F726D616E63653E)</ByteSequenceValue>
         </ByteSequence>
+      </InternalSignature>
+      <InternalSignature>
+        <SignatureID>966</SignatureID>
+        <SignatureName>Acrobat PDF/A 1b 2</SignatureName>
+        <SignatureNote>Describes a signature for the PDF/A format with 1b conformance. Identifies the PDF header (1.3 through to 1.7) and byte sequence which equals - xmlns:pdfaid="http://www.aiim.org/pdfa/ns/id/"&gt;.&lt;pdfaid:conformance&gt;B&lt;/pdfaid:conformance&gt;.&lt;pdfaid:part&gt;1&lt;/pdfaid:part&gt;. Which is the PDF/A identification namespace within the PDF/A meta-data, and the 1b conformance. See ISO 19005-1:2005 and Technical Corrigendum 1 for further information.</SignatureNote>
         <ByteSequence>
-          <ByteSequenceID>692</ByteSequenceID>
-          <PositionType>Absolute from EOF</PositionType>
+          <ByteSequenceID>1186</ByteSequenceID>
+          <PositionType>Absolute from BOF</PositionType>
           <Offset>0</Offset>
-          <MaxOffset>332</MaxOffset>
+          <MaxOffset>144</MaxOffset>
           <IndirectOffsetLocation>
           </IndirectOffsetLocation>
           <IndirectOffsetLength>
           </IndirectOffsetLength>
-          <Endianness>Little-endian</Endianness>
-          <ByteSequenceValue>0A{10}20{5}20(66|6E){1}0A{10}20{5}20(66|6E){1}0A{10}20{5}20(66|6E){1}0A{10}20{5}20(66|6E){1}0A{10}20{5}20(66|6E){1}0A{10}20{5}20(66|6E){1}0A747261696C6572</ByteSequenceValue>
+          <Endianness>
+          </Endianness>
+          <ByteSequenceValue>255044462D312E(33|34|35|36|37)</ByteSequenceValue>
+        </ByteSequence>
+        <ByteSequence>
+          <ByteSequenceID>1187</ByteSequenceID>
+          <PositionType>Variable</PositionType>
+          <Offset>
+          </Offset>
+          <MaxOffset>
+          </MaxOffset>
+          <IndirectOffsetLocation>
+          </IndirectOffsetLocation>
+          <IndirectOffsetLength>
+          </IndirectOffsetLength>
+          <Endianness>
+          </Endianness>
+          <ByteSequenceValue>786D6C6E733A7064666169643D(22|27)687474703A2F2F7777772E6169696D2E6F72672F706466612F6E732F6964*7064666169643A636F6E666F726D616E6365(3E|3D22|3D27)42(22|27|3C2F7064666169643A636F6E666F726D616E63653E){0-20}7064666169643A70617274(3D22|3D27|3E)31(22|27|3C2F7064666169643A706172743E)</ByteSequenceValue>
         </ByteSequence>
       </InternalSignature>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>818</RelatedFormatID>
+        <RelatedFormatName>Acrobat PDF/X - Portable Document Format - Exchange 1a:2001</RelatedFormatName>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
+      </RelatedFormat>
+      <RelatedFormat>
+        <RelationshipType>Has lower priority than</RelationshipType>
+        <RelatedFormatID>819</RelatedFormatID>
+        <RelatedFormatName>Acrobat PDF/X - Portable Document Format - Exchange 3:2002</RelatedFormatName>
+        <RelatedFormatVersion>
+        </RelatedFormatVersion>
+      </RelatedFormat>
       <RelatedFormat>
         <RelationshipType>Has priority over</RelationshipType>
         <RelatedFormatID>616</RelatedFormatID>
