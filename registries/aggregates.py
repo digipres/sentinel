@@ -1,6 +1,8 @@
 from __future__ import with_statement
 from __future__ import print_function
-from BeautifulSoup import BeautifulSoup
+from lxml import etree
+from bs4 import BeautifulSoup
+from StringIO import StringIO
 import yaml
 import os
 import re
@@ -22,13 +24,16 @@ def parse_mime_type(mime_type):
 
 def addEntry(results,key,rid,fid,name):
     if not key in results:
-        results[key] = []
-    results[key].append("%s:%s" % ( rid, fid ) )
+        results[key] = {}
+        results[key]['name'] = key
+        results[key]['identifiers'] = []
+    results[key]['identifiers'].append( { 'regId': rid, 'formatId': fid } )
 
 def addFormat(rid,fid,name,hasMagic,extensions,mimetypes,supertype):
     # Add to the formats list:
     if not rid in fmts:
         fmts[rid] = {}
+        fmts[rid]['id'] = rid
         fmts[rid]['formats'] = {}
         fmts[rid]['errors'] = []
         fmts[rid]['warnings'] = []
@@ -68,89 +73,112 @@ def addFormat(rid,fid,name,hasMagic,extensions,mimetypes,supertype):
 
 def aggregateFDD():
     rid = "fdd"
+    print("Parsing %s..." % rid)
+
     for filename in os.listdir('fdd/fddXML'):
         if filename.endswith(".xml"):
             # Get Identifier?
             with open('fdd/fddXML/'+filename, "r") as f:
-                soup = BeautifulSoup(f.read())
-                ffd_id = soup.find('fdd:fdd').get('id')
-                fname = soup.find('fdd:fdd').get('titlename')
-                if soup.find('fdd:magicnumbers'):
+                xml = f.read()
+                try:
+                  parser = etree.XMLParser()
+                  root = etree.parse(StringIO(xml), parser)
+                except Exception as e:
+                    fmts[rid]['errors'].append("Error when parsing XML: "+str(e))
+                root = BeautifulSoup(xml, "xml")
+                #print(root.prettify())
+                ffd_id = root.find('FDD').get('id')
+                fname = root.find('FDD').get('titleName')
+                if root.find('magicNumbers'):
                     hasMagic = True
                 else:
                     hasMagic = False
                 # Get extensions:
                 extensions = list()
-                for fe in soup.findAll('fdd:filenameextension'):
-                    for fev in fe.findAll('fdd:sigvalue'):
+                for fe in root.findAll('fdd:filenameExtension'):
+                    for fev in fe.findAll('sigValue'):
                         extensions.append(fev.text)
                 # Get MIME types:
                 mimetypes = list()
-                for imts in soup.findAll('fdd:internetmediatype'):
-                    for mt in imts.findAll('fdd:sigvalue'):
+                for imts in root.findAll('internetMediaType'):
+                    for mt in imts.findAll('sigValue'):
                         mimetypes.append(mt.text)
                 addFormat(rid,ffd_id,fname,hasMagic,extensions,mimetypes,None)
 
 def aggregateTRiD():
     rid = "trid"
+    print("Parsing %s..." % rid)
+
     for filename in os.listdir('trid/triddefs_xml'):
         if filename.endswith(".trid.xml"):
             # Get Identifier?
             with open('trid/triddefs_xml/'+filename, "r") as f:
-                soup = BeautifulSoup(f.read())
+                root = etree.parse(f)
                 fid = filename[:-9]
-                fname = soup.find('filetype').text
-                if soup.find('frontblock'):
+                fname = root.findall('Info/FileType')[0].text
+                if root.find('FrontBlock') is not None:
                     hasMagic = True
                 else:
                     hasMagic = False
                 # Get extensions:
                 extensions = list()
-                for fe in soup.findAll('ext'):
-                    extensions.append(fe.text)
+                for fe in root.findall('Info/Ext'):
+                    if(fe.text != None):
+                        extensions.append(fe.text)
                 # Get MIME types:
                 mimetypes = list()
                 addFormat(rid,fid,fname,hasMagic,extensions,mimetypes,None)
 
 def aggregatePronom():
     rid = "pronom"
+    print("Parsing %s..." % rid)
 
     # Get identifiers from DROID BinSigs:
     with open("pronom/droid-signature-file.xml", "r") as f:
-        soup = BeautifulSoup(f.read())
-        for ff in soup.findAll('fileformat'):
-            puid = ff.get('puid')
+        root = BeautifulSoup(f, "xml")
+        ffc = root.find('FileFormatCollection')
+        for ff in ffc.findAll('FileFormat'):
+            puid = ff.get('PUID')
             # Build the name:
-            fname = ff.get('name')
-            if ff.get('version') != None:
-                fname += " " + ff.get('version')
+            fname = ff.get('Name')
+            if ff.get('Version') != None:
+                fname += " " + ff.get('Version')
             # Has Magic?
-            if ff.find('internalsignatureid'):
+            if ff.find('InternalSignatureID'):
                 hasMagic = True
             else:
                 hasMagic = False
             # Look for extensions:
             extensions = list()
-            for ext in ff.findAll('extension'):
+            for ext in ff.findAll('Extension'):
                 extensions.append(ext.text)
             # Look for MIME Types:
             mimetypes = list()
-            if ff.get('mimetype') != None:
-                for mime in ff.get('mimetype').split(", "):
+            if ff.get('MIMEType') != None:
+                for mime in ff.get('MIMEType').split(", "):
                     mimetypes.append(mime)
             addFormat(rid,puid,fname,hasMagic,extensions,mimetypes,None)
 
 def aggregateTika():
     rid = "tika"
+    print("Parsing %s..." % rid)
 
     # Get identifiers from DROID BinSigs:
     with open("tika/tika-mimetypes.xml", "r") as f:
-        soup = BeautifulSoup(f.read())
-        for ff in soup.findAll('mime-type'):
+        xml = f.read()
+        try:
+            parser = etree.XMLParser()
+            root = etree.parse(StringIO(xml), parser)
+        except Exception as e:
+            xml_error = "Error when parsing XML: "+str(e)
+            parser = etree.XMLParser(recover=True)
+            root = etree.parse(StringIO(xml), parser)
+        for ff in root.findall('mime-type'):
             fid = ff.get('type')
+            print(ff.sourceline, fid)
             # Build the name:
             fname = None
-            if ff.find('_comment'):
+            if ff.find('_comment') is not None:
                 fname = ff.find('_comment').text
             # Has Magic?
             if ff.find('match'):
@@ -159,21 +187,24 @@ def aggregateTika():
                 hasMagic = False
             # Look for extensions:
             extensions = list()
-            for ext in ff.findAll('glob'):
+            for ext in ff.findall('glob'):
                 extension = ext.get('pattern')[2:]
                 extensions.append(extension)
             # Look for MIME Types:
             mimetypes = list()
             mimetypes.append(fid)
-            if ff.find('alias'):
-                for alias in ff.findAll('alias'):
+            if ff.find('alias') is not None:
+                for alias in ff.findall('alias'):
                     if alias.get('type'):
                         mimetypes.append(alias.get('type'))
             # Relationships:
             supertype = None
-            if ff.find('sub-class-of'):
+            if ff.find('sub-class-of') is not None:
                 supertype = ff.find('sub-class-of').get('type')
             addFormat(rid,fid,fname,hasMagic,extensions,mimetypes,supertype)
+        # Also record the XML error, if there was one:
+        if ( xml_error ):
+            fmts[rid]['errors'].append(xml_error)
 
 # Set up hashtables to fill:
 exts = {}
@@ -182,15 +213,39 @@ fmts = {}
 
 # Grab the data:
 aggregateTika()
+# Note, add line numbers please:
+# https://github.com/anjackson/foreg/blob/master/registries/tika/tika-mimetypes.xml#L4263
 aggregatePronom()
 aggregateFDD()
 aggregateTRiD()
 
+site_dir = "../digipres.github.io/formats"
+data_dir = "../digipres.github.io/_data/formats"
+
 # Write out as a data file to feed into other systems:
 for fmt in fmts:
-    with open("aggregated/formats/%s.yml" % fmt, 'w') as outfile:
+    fmts[fmt]['errors'] = sorted(fmts[fmt]['errors'])
+    fmts[fmt]['warnings'] = sorted(fmts[fmt]['warnings'])
+    with open("%s/%s.yml" % (data_dir,fmt), 'w') as outfile:
         outfile.write( yaml.safe_dump(fmts[fmt], default_flow_style=False) ) 
-with open("aggregated/extensions.yml", 'w') as outfile:
+with open("%s/extensions.yml" % data_dir, 'w') as outfile:
     outfile.write( yaml.safe_dump(exts, default_flow_style=False) ) 
-with open("aggregated/mimetypes.yml", 'w') as outfile:
+with open("%s/mimetypes.yml" % data_dir, 'w') as outfile:
     outfile.write( yaml.safe_dump(mimes, default_flow_style=False) ) 
+
+# Write out lots of pages for individual formats:
+#for extension in exts:
+#    if extension == '':
+#        filename = '-no-extension-'
+#    else:
+#        filename = extension.replace('/','-')
+#    with open("%s/extensions/%s.html" % (site_dir,filename), 'w') as outfile:
+#        outdata = {}
+#        outdata['permalink'] = "/formats/extensions/%s/" % extension
+#        outdata['layout'] = "format"
+#        outdata['title'] = "*.%s files" % extension
+#        outdata['identifiers'] = exts[extension]
+#        outfile.write("---\n")
+#        outfile.write(yaml.safe_dump(outdata, default_flow_style=False))
+#        outfile.write("---\n")
+

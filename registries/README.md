@@ -1,12 +1,14 @@
 Registries
 ==========
 
-Known registries, and copies of registry contents, as appropriate.
+This holds copies of the data from:
 
 * PRONOM
 * Library of Congress [FFD](http://www.digitalpreservation.gov/formats/fdd/fdd_xml_info.shtml)
 * TRiD
 * Apache Tika
+
+There are scripts to download and refresh the data from each source, and another aggregator script that attempts to combine and compare the data from each source.
 
 
 TODO
@@ -19,7 +21,7 @@ TODO
     * Number of external links.
     * Some kind of overall quality metric for format descriptions.
     * Canonical MIME type.
-    * ...
+    * ???
 * Improve cross-referencing:
     * Expose cross-referencing by file extension, etc.
     * Expose agreement and disagreement between tools.
