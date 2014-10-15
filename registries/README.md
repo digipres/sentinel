@@ -37,3 +37,6 @@ TODO
 	* [Freebase](https://www.freebase.com/query?autorun=1&q=[{%22id%22:null,%22name%22:null,%22type%22:%22/computer/file_format%22}])
 	* UDFR (not sure if there's enough new data to be worth it given the point-in-time PRONOM import issue).
 	* NIST SWRL?
+
+* Related
+    * https://github.com/srnsw/Preservation-Pathway & http://www.records.nsw.gov.au/digitalarchives/pathways/
