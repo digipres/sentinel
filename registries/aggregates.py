@@ -22,51 +22,48 @@ def parse_mime_type(mime_type):
     (type, subtype) = parts[0].split("/")
     return (type.strip(), subtype.strip(), params)
 
-def addEntry(results,key,rid,fid,name):
+def addEntry(results,key,rid,fid):
     if not key in results:
         results[key] = {}
         results[key]['name'] = key
         results[key]['identifiers'] = []
     results[key]['identifiers'].append( { 'regId': rid, 'formatId': fid } )
 
-def addFormat(rid,fid,name,hasMagic,extensions,mimetypes,supertype):
+def addFormat(rid,fid,finfo):
     # Add to the formats list:
     if not rid in fmts:
         fmts[rid] = {}
         fmts[rid]['id'] = rid
         fmts[rid]['formats'] = {}
         fmts[rid]['warnings'] = []
+        fmts[rid]['stats'] = {}
+        fmts[rid]['stats']['empty_names'] = 0
     if not fid in fmts[rid]['formats']:
         fmts[rid]['formats'][fid] = {}
     # Populate:
-    fmts[rid]['formats'][fid]['name'] = name
-    if name == None or name == "":
-        fmts[rid]['warnings'].append("Format name for entry %s is empty." % fid)
-    elif name != name.strip():
-        fmts[rid]['warnings'].append("Format name '%s' for entry %s contains leading and/or trailing whitespace." % (name,fid))
-    fmts[rid]['formats'][fid]['hasMagic'] = hasMagic
-    fmts[rid]['formats'][fid]['supertype'] = supertype
-    fmts[rid]['formats'][fid]['extensions'] = extensions
-    fmts[rid]['formats'][fid]['mimetypes'] = mimetypes
+    if ('name' not in finfo) or finfo['name'] == "":
+        fmts[rid]['stats']['empty_names'] += 1
+    elif finfo['name'] != finfo['name'].strip():
+        fmts[rid]['warnings'].append("Format name '%s' for entry %s contains leading and/or trailing whitespace." % (finfo['name'],fid))
 
     # Assemble cross-references:
-    ext_pattern = re.compile("^[A-Za-z0-9_\-\+][A-Za-z0-9_\-\+\.]*$")
-    for extension in extensions:
+    ext_pattern = re.compile("^\*[\.|-][A-Za-z0-9_\-\+][A-Za-z0-9_\-\+\.]*$")
+    for extension in finfo['extensions']:
         extension = extension.lower()
-        addEntry(exts,extension,rid,fid,name)
+        addEntry(exts,extension,rid,fid)
         # Also attempt to validate:
-        if extension.startswith("."):
-            fmts[rid]['warnings'].append("File extension '%s' for entry %s should not start with a '.' (by convention)." % (extension,fid))
-        elif not ext_pattern.match(extension):
+        if not ext_pattern.match(extension):
             fmts[rid]['warnings'].append("File extension '%s' for entry %s does not appear to be a valid file extension." % (extension,fid))
-    for mimetype in mimetypes:
+    for mimetype in finfo['mimetypes']:
         mimetype = mimetype.lower()
-        addEntry(mimes,mimetype,rid,fid,name)
+        addEntry(mimes,mimetype,rid,fid)
         # Also attempt to parse:
         try:
             (type, subtype, params) = parse_mime_type(mimetype)
         except:
             fmts[rid]['warnings'].append("Could not parse MIME type '%s' for entry %s" % (mimetype,fid))
+    # And add:
+    fmts[rid]['formats'][fid] = finfo
 
 
 
@@ -78,6 +75,8 @@ def aggregateFDD():
         if filename.endswith(".xml"):
             # Get Identifier?
             with open('fdd/fddXML/'+filename, "r") as f:
+                finfo = {}
+                finfo['source'] = filename
                 xml = f.read()
                 try:
                   parser = etree.XMLParser()
@@ -87,22 +86,24 @@ def aggregateFDD():
                 root = BeautifulSoup(xml, "xml")
                 #print(root.prettify())
                 ffd_id = root.find('FDD').get('id')
-                fname = root.find('FDD').get('titleName')
+                finfo['name'] = root.find('FDD').get('titleName')
                 if root.find('magicNumbers'):
-                    hasMagic = True
+                    finfo['hasMagic'] = True
                 else:
-                    hasMagic = False
+                    finfo['hasMagic'] = False
                 # Get extensions:
                 extensions = list()
                 for fe in root.findAll('filenameExtension'):
                     for fev in fe.findAll('sigValue'):
-                        extensions.append(fev.text)
+                        extensions.append("*.%s" % fev.text)
+                finfo['extensions'] = extensions
                 # Get MIME types:
                 mimetypes = list()
                 for imts in root.findAll('internetMediaType'):
                     for mt in imts.findAll('sigValue'):
                         mimetypes.append(mt.text)
-                addFormat(rid,ffd_id,fname,hasMagic,extensions,mimetypes,None)
+                finfo['mimetypes'] = mimetypes
+                addFormat(rid,ffd_id,finfo)
 
 def aggregateTRiD():
     rid = "trid"
@@ -112,21 +113,25 @@ def aggregateTRiD():
         if filename.endswith(".trid.xml"):
             # Get Identifier?
             with open('trid/triddefs_xml/'+filename, "r") as f:
+                finfo = {}
+                finfo['source'] = filename
                 root = etree.parse(f)
                 fid = filename[:-9]
-                fname = root.findall('Info/FileType')[0].text
+                finfo['name'] = root.findall('Info/FileType')[0].text
                 if root.find('FrontBlock') is not None:
-                    hasMagic = True
+                    finfo['hasMagic'] = True
                 else:
-                    hasMagic = False
+                    finfo['hasMagic'] = False
                 # Get extensions:
                 extensions = list()
                 for fe in root.findall('Info/Ext'):
                     if(fe.text != None):
-                        extensions.append(fe.text)
+                        for ext in fe.text.split("/"):
+                            extensions.append("*.%s" % ext)
+                finfo['extensions'] = extensions
                 # Get MIME types:
-                mimetypes = list()
-                addFormat(rid,fid,fname,hasMagic,extensions,mimetypes,None)
+                finfo['mimetypes'] = list()
+                addFormat(rid,fid,finfo)
 
 def aggregatePronom():
     rid = "pronom"
@@ -134,29 +139,36 @@ def aggregatePronom():
 
     # Get identifiers from DROID BinSigs:
     with open("pronom/droid-signature-file.xml", "r") as f:
-        root = BeautifulSoup(f, "xml")
-        ffc = root.find('FileFormatCollection')
-        for ff in ffc.findAll('FileFormat'):
+        parser = etree.XMLParser()  
+        root = etree.parse(f, parser)
+        ffc = root.find('{http://www.nationalarchives.gov.uk/pronom/SignatureFile}FileFormatCollection')
+        for ff in ffc.findall('{http://www.nationalarchives.gov.uk/pronom/SignatureFile}FileFormat'):
+            finfo = {}
             puid = ff.get('PUID')
+            finfo['source'] = "droid-signature-file.xml#%s" % ff.sourceline
             # Build the name:
-            fname = ff.get('Name')
+            finfo['name'] = ff.get('Name')
             if ff.get('Version') != None:
-                fname += " " + ff.get('Version')
+                finfo['name'] += " " + ff.get('Version')
             # Has Magic?
-            if ff.find('InternalSignatureID'):
-                hasMagic = True
+            if ff.find('{http://www.nationalarchives.gov.uk/pronom/SignatureFile}InternalSignatureID') is not None:
+                finfo['hasMagic'] = True
             else:
-                hasMagic = False
+                finfo['hasMagic'] = False
             # Look for extensions:
             extensions = list()
-            for ext in ff.findAll('Extension'):
-                extensions.append(ext.text)
+            for ext in ff.findall('{http://www.nationalarchives.gov.uk/pronom/SignatureFile}Extension'):
+                extensions.append( "*.%s" % ext.text)
+            finfo['extensions'] = extensions
             # Look for MIME Types:
             mimetypes = list()
             if ff.get('MIMEType') != None:
                 for mime in ff.get('MIMEType').split(", "):
+                    if ff.get('Version'):
+                        mime = mime + "; version=\"%s\"" % ff.get('Version')
                     mimetypes.append(mime)
-            addFormat(rid,puid,fname,hasMagic,extensions,mimetypes,None)
+            finfo['mimetypes'] = mimetypes
+            addFormat(rid,puid,finfo)
 
 def aggregateTika():
     rid = "tika"
@@ -173,22 +185,24 @@ def aggregateTika():
             parser = etree.XMLParser(recover=True)
             root = etree.parse(StringIO(xml), parser)
         for ff in root.findall('mime-type'):
+            finfo = {}
             fid = ff.get('type')
-            print(ff.sourceline, fid)
+            finfo['id'] = fid
+            finfo['source'] = "tika-mimetypes.xml#%s" % ff.sourceline
             # Build the name:
-            fname = None
             if ff.find('_comment') is not None:
-                fname = ff.find('_comment').text
+                finfo['name'] = ff.find('_comment').text
             # Has Magic?
-            if ff.find('match'):
-                hasMagic = True
+            if ff.find('magic') is not None:
+                finfo['hasMagic'] = True
             else:
-                hasMagic = False
+                finfo['hasMagic'] = False
             # Look for extensions:
             extensions = list()
             for ext in ff.findall('glob'):
-                extension = ext.get('pattern')[2:]
+                extension = ext.get('pattern')
                 extensions.append(extension)
+            finfo['extensions'] = extensions
             # Look for MIME Types:
             mimetypes = list()
             mimetypes.append(fid)
@@ -196,11 +210,12 @@ def aggregateTika():
                 for alias in ff.findall('alias'):
                     if alias.get('type'):
                         mimetypes.append(alias.get('type'))
+            # TODO Spot duplicate aliases.
+            finfo['mimetypes'] = mimetypes
             # Relationships:
-            supertype = None
             if ff.find('sub-class-of') is not None:
-                supertype = ff.find('sub-class-of').get('type')
-            addFormat(rid,fid,fname,hasMagic,extensions,mimetypes,supertype)
+                finfo['supertype'] = ff.find('sub-class-of').get('type')
+            addFormat(rid,fid,finfo)
         # Also record the XML error, if there was one:
         if ( xml_error ):
             fmts[rid]['warnings'].append(xml_error)
@@ -211,20 +226,35 @@ mimes = {}
 fmts = {}
 
 # Grab the data:
-aggregateTika()
-# Note, add line numbers please:
-# https://github.com/anjackson/foreg/blob/master/registries/tika/tika-mimetypes.xml#L4263
+#aggregateTika()
 aggregatePronom()
-aggregateFDD()
-aggregateTRiD()
+#aggregateTRiD()
+#aggregateFDD()
 
 site_dir = "../digipres.github.io/formats"
 data_dir = "../digipres.github.io/_data/formats"
 
 # Write out as a data file to feed into other systems:
 for fmt in fmts:
+    # Skip through formats and make more stats:
+    total_w_glob = 0
+    total_w_magic = 0
+    total_w_mime = 0
+    for findex in fmts[fmt]['formats']:
+        finfo = fmts[fmt]['formats'][findex]
+        if finfo['hasMagic']:
+            total_w_magic += 1
+        if len(finfo['extensions']) > 0:
+            total_w_glob += 1
+        if len(finfo['mimetypes']) > 0:
+            total_w_mime += 1
+    fmts[fmt]['stats']['total_w_magic'] = total_w_magic
+    fmts[fmt]['stats']['total_w_glob'] = total_w_glob
+    fmts[fmt]['stats']['total_w_mime'] = total_w_mime
+    # Warn about empty names:
+    if fmts[fmt]['stats']['empty_names'] > 0:
+        fmts[fmt]['warnings'].append("There are %i format records with empty 'name' fields." % fmts[fmt]['stats']['empty_names'])
     fmts[fmt]['warnings'] = sorted(fmts[fmt]['warnings'])
-    fmts[fmt]['stats'] = {}
     fmts[fmt]['stats']['total_warnings'] = len(fmts[fmt]['warnings'])
     fmts[fmt]['stats']['total_formats'] = len(fmts[fmt]['formats'])
     with open("%s/%s.yml" % (data_dir,fmt), 'w') as outfile:
@@ -236,6 +266,8 @@ extensions['stats'] = {}
 extensions['stats']['total_extensions'] = len(exts)
 with open("%s/extensions.yml" % data_dir, 'w') as outfile:
     outfile.write( yaml.safe_dump(extensions, default_flow_style=False) ) 
+
+# TODO Resolve MIME heirarchy...
 
 mimetypes = {}
 mimetypes['mimetypes'] = mimes

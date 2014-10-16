@@ -13,7 +13,15 @@ There are scripts to download and refresh the data from each source, and another
 
 TODO
 ----
+
+* Use sorted(d, key=lambda i: int(d[i])) form to sort PRONOM IDs numerically
+* Refer back to sources and mirrors of sig. files.
+    * Add line numbers please - needed for Tika at least and maybe PRONOM.
+    * https://github.com/anjackson/foreg/blob/master/registries/tika/tika-mimetypes.xml#L4263
+    * http://www.digitalpreservation.gov/formats/fdd/fdd000393.shtml
+    * http://apps.nationalarchives.gov.uk/pronom/fmt/278
 * Add more fields:
+    * hasParser? (.eml example and Tika)
     * Relationships (particularly sub/supertype).
     * Apple UTIs (and cross-ref).
     * 'Deprecated' status.
