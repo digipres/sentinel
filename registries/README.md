@@ -15,6 +15,7 @@ TODO
 ----
 
 * Use sorted(d, key=lambda i: int(d[i])) form to sort PRONOM IDs numerically
+* Note Parsers for Tika, note Container for DROID.
 * Refer back to sources and mirrors of sig. files.
     * Add line numbers please - needed for Tika at least and maybe PRONOM.
     * https://github.com/anjackson/foreg/blob/master/registries/tika/tika-mimetypes.xml#L4263
@@ -41,7 +42,8 @@ TODO
 * More sources:
 	* fileformats.archiveteam.org
 	* Wikipedia
-	* Fine Free File/libmagic DB.
+	* Use Fido as a way of getting Tika-compatible sigs.
+	* Fine Free File/libmagic DB? (not really well-structured enough)
 	* [Freebase](https://www.freebase.com/query?autorun=1&q=[{%22id%22:null,%22name%22:null,%22type%22:%22/computer/file_format%22}])
 	* UDFR (not sure if there's enough new data to be worth it given the point-in-time PRONOM import issue).
 	* NIST SWRL?
