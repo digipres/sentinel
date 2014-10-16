@@ -226,10 +226,10 @@ mimes = {}
 fmts = {}
 
 # Grab the data:
-#aggregateTika()
+aggregateTika()
 aggregatePronom()
-#aggregateTRiD()
-#aggregateFDD()
+aggregateTRiD()
+aggregateFDD()
 
 site_dir = "../digipres.github.io/formats"
 data_dir = "../digipres.github.io/_data/formats"
