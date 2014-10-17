@@ -5,3 +5,6 @@
 /target
 /_site
 /bin
+/pywikibot.lwp
+/passwordfile
+

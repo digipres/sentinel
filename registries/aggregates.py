@@ -98,7 +98,7 @@ def aggregateFDD():
                     fmts[rid]['warnings'].append("Error when parsing XML: "+str(e))
                 root = BeautifulSoup(xml, "xml")
                 #print(root.prettify())
-                ffd_id = root.find('FDD').get('id')
+                ffd_id = "%s (%s)" % ( root.find('FDD').get('shortName'), root.find('FDD').get('id') )
                 finfo['name'] = root.find('FDD').get('titleName')
                 if root.find('magicNumbers'):
                     finfo['hasMagic'] = True

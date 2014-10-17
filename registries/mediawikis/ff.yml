@@ -1,0 +1,4604 @@
+- name: Graphics
+- name: Binary Data
+- name: Audio and Music
+- name: Archiving
+- name: Video
+- name: Document
+- name: Character Encodings
+- name: Saved Games
+- name: Quetzal
+- fdd:
+  - fdd000241
+  name: Cameras and Digital Image Sensors
+- extension:
+  - htm
+  mimetype:
+  - text/html
+  name: HTML
+- extension:
+  - prc
+  name: MOBI
+- extension:
+  - azw3
+  name: AZW
+- extension:
+  - epub
+  mimetype:
+  - application/epub+zip
+  name: EPUB
+  pronom:
+  - fmt/483
+- extension:
+  - txt
+  mimetype:
+  - text/plain
+  name: TXT
+- name: Web
+- extension:
+  - css
+  mimetype:
+  - text/css
+  name: Cascading Style Sheets
+- extension:
+  - bik
+  name: Bink Video
+- name: 3D and CAD/CAM Models
+- name: Databases
+- extension:
+  - egg
+  name: EGG
+- name: Interactive Fiction
+- name: Error Code Modeler
+- name: Serialization
+- extension:
+  - plist
+  name: Property List
+- extension:
+  - plist
+  name: Property List/Binary
+- name: Filesystem
+- extension:
+  - markdn
+  mimetype:
+  - text/x-markdown
+  name: Markdown
+- extension:
+  - nsf
+  name: NES Sound Format
+- extension:
+  - imp
+  name: IMP
+- name: Impression
+- name: TechWriter
+- extension:
+  - shi
+  name: SHI
+- extension:
+  - sho
+  name: SHO
+- extension:
+  - abw.gz
+  name: AbiWord
+- extension:
+  - doc
+  mimetype:
+  - application/vnd.ms-word
+  name: DOC
+- extension:
+  - zip
+  fdd:
+  - fdd000361
+  mimetype:
+  - application/zip
+  name: ZIP
+  pronom:
+  - x-fmt/263
+- extension:
+  - ark
+  name: ARC (compression format)
+- name: BFS
+- name: Calendars
+- name: Address books and contacts
+- name: Genealogical data
+- name: Text-based data
+- name: E-Mail, newsgroups, and forums
+- extension:
+  - eml
+  fdd:
+  - fdd000388
+  mimetype:
+  - message/rfc822
+  name: Internet e-mail message format
+  pronom:
+  - fmt/278
+- extension:
+  - psf1lib
+  name: PSF1
+- extension:
+  - psf2lib
+  name: PSF2
+- extension:
+  - ssflib
+  name: SSF
+- extension:
+  - dsflib
+  name: DSF
+- extension:
+  - usflib
+  name: USF
+- extension:
+  - gsflib
+  name: GSF
+- extension:
+  - qsflib
+  name: QSF
+- extension:
+  - snsflib
+  name: SNSF
+- extension:
+  - acorn
+  name: Acorn Sprite
+- extension:
+  - psflib
+  name: Portable Sound Format
+- name: Acorn Font
+- extension:
+  - psf
+  name: Soundfactory
+- extension:
+  - smap
+  name: 2SF
+- extension:
+  - s3m
+  name: Scream Tracker 3 module
+- extension:
+  - svg
+  mimetype:
+  - image/svg+xml
+  name: Scalable Vector Graphics
+- extension:
+  - dwc
+  name: DWC
+- name: Acorn Draw
+- name: ADFS
+- extension:
+  - '669'
+  name: Composer 669 module
+- extension:
+  - mss
+  name: Advanced Mario Sequencer file
+- extension:
+  - msq
+  name: Mario Sequencer file
+- name: Mario Paint Composer
+- extension:
+  - nsd
+  name: NSD
+- name: Disk Image Formats
+- name: ISZ
+- extension:
+  - iff
+  mimetype:
+  - audio/x-8svx
+  name: 8-Bit Sampled Voice
+  pronom:
+  - fmt/339
+- name: Machine Embroidery
+- name: NZB
+- name: YEnc
+- name: MFS
+- extension:
+  - udf
+  name: Softdisk Publishing UDF files
+- name: Geospatial
+- extension:
+  - zip
+  name: Z-code
+- extension:
+  - mdl
+  name: Digitrakker module
+- extension:
+  - taf
+  name: ADRIFT
+- extension:
+  - b00
+  name: BOO
+- extension:
+  - evt
+  name: EVT
+- extension:
+  - evt
+  name: ELECTONE
+- name: MDR (Floppy Disk)
+- name: Mind maps, Topic maps etc
+- extension:
+  - glb
+  name: Blorb
+- name: Chemical data
+- name: Bibliographic data
+- name: Security
+- name: Personal Digital Assistant formats
+- name: Electronic Publishing formats
+- name: Help files
+- name: Scientific Data formats
+- extension:
+  - cif
+  mimetype:
+  - chemical/x-cif
+  name: CIF
+- name: User:AndyJackson/CIF
+- extension:
+  - cml
+  mimetype:
+  - chemical/x-cml
+  name: CML
+- extension:
+  - csv
+  mimetype:
+  - text/comma-separated-values
+  name: CSV
+  pronom:
+  - x-fmt/18
+- extension:
+  - uop
+  name: UOF
+- extension:
+  - xml
+  mimetype:
+  - text/xml
+  name: XML
+  pronom:
+  - fmt/101
+- extension:
+  - sgml
+  mimetype:
+  - text/sgml
+  name: SGML
+- extension:
+  - docx
+  mimetype:
+  - application/vnd.openxmlformats-officedocument.wordprocessingml.document
+  name: DOCX
+- extension:
+  - ppt
+  mimetype:
+  - application/vnd.ms-powerpoint
+  name: PPT
+  pronom:
+  - fmt/126
+- extension:
+  - pptx
+  mimetype:
+  - application/vnd.openxmlformats-officedocument.presentationml.presentation
+  name: PPTX
+- extension:
+  - xlsx
+  mimetype:
+  - application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+  name: XLSX
+- extension:
+  - wave
+  fdd:
+  - fdd000357
+  mimetype:
+  - audio/x-pn-wav
+  name: WAV
+  pronom:
+  - fmt/6
+- name: Resource Fork
+- name: ASCII
+- name: DART
+- name: UTF-8
+- name: Text Encoding Initiative
+- extension:
+  - rst
+  name: ReStructuredText
+- extension:
+  - yaml
+  name: YAML
+- extension:
+  - mm
+  mimetype:
+  - application/x-freemind
+  name: Mm
+- name: Mind Manager formats
+- extension:
+  - ods
+  mimetype:
+  - application/vnd.oasis.opendocument.spreadsheet
+  name: OpenDocument Spreadsheet
+  pronom:
+  - fmt/295
+- name: Unicode
+- extension:
+  - json
+  mimetype:
+  - application/json
+  name: JSON
+- extension:
+  - cdf
+  name: CDF
+- extension:
+  - hdf
+  mimetype:
+  - application/x-hdf
+  name: HDF
+- extension:
+  - nc
+  fdd:
+  - fdd000339
+  mimetype:
+  - application/netcdf
+  name: NetCDF
+  pronom:
+  - fmt/283
+- name: EBCDIC
+- name: Morse code
+- extension:
+  - xml
+  name: Early Mind Manager XML format
+- name: ISO 646
+- extension:
+  - txt
+  name: Inform
+- extension:
+  - gblorb
+  name: Glulx
+- extension:
+  - fig
+  name: Fig
+- extension:
+  - bru
+  name: BRU
+- name: Windows 1252
+- name: Macintosh encodings
+- extension:
+  - nmind
+  name: Nmind
+- name: Encryption
+- name: ROT13
+- extension:
+  - iff
+  fdd:
+  - fdd000115
+  name: IFF
+  pronom:
+  - x-fmt/157
+- extension:
+  - spk
+  name: Spark
+- extension:
+  - tif
+  fdd:
+  - fdd000279
+  name: GeoTIFF
+  pronom:
+  - fmt/155
+- extension:
+  - sas7dat
+  name: SAS
+- extension:
+  - arff
+  name: Attribute-Relation File Format
+- name: Executables
+- name: Intel HEX
+- name: PETSCII
+- extension:
+  - exe
+  name: EXE
+- name: COFF
+- extension:
+  - flx
+  name: FLIC
+  pronom:
+  - fmt/298
+- name: Source code
+- name: QCDml
+- extension:
+  - jp2
+  fdd:
+  - fdd000193
+  mimetype:
+  - image/jp2
+  name: JP2
+  pronom:
+  - x-fmt/392
+- extension:
+  - ome.tiff
+  name: OME-TIFF
+- extension:
+  - ome.xml
+  name: OME-XML
+- name: ROM and memory images
+- extension:
+  - icalendar
+  mimetype:
+  - text/calendar
+  name: ICalendar
+- extension:
+  - org
+  name: Org-mode
+- extension:
+  - ged
+  name: GEDCOM
+- extension:
+  - chi
+  name: ChiWriter
+  pronom:
+  - fmt/300
+- extension:
+  - eas
+  name: EAS3
+- extension:
+  - all
+  name: ALL
+- extension:
+  - arr
+  name: ARR
+- extension:
+  - npr
+  name: CUBASE
+- name: ELF
+- extension:
+  - pdf
+  fdd:
+  - fdd000312
+  mimetype:
+  - application/pdf
+  name: PDF
+  pronom:
+  - fmt/493
+- name: Guitar tablatures
+- extension:
+  - sxw
+  mimetype:
+  - application/vnd.sun.xml.writer
+  name: SXW
+- name: Fonts
+- extension:
+  - sdw
+  name: SDW
+- extension:
+  - sxi
+  name: SXI
+- extension:
+  - sdc
+  name: SDC
+- extension:
+  - gam
+  name: TADS
+- extension:
+  - wp2
+  name: WP2
+- name: Wiki markup
+- name: KOI8
+- name: VISCII
+- name: MS-DOS encodings
+- name: Game data files
+- name: Page description languages
+- extension:
+  - gl
+  name: GRASP GL
+- extension:
+  - clp
+  name: PICtor
+  pronom:
+  - x-fmt/170
+- name: JIS
+- extension:
+  - bga
+  name: OS/2 BMP
+  pronom:
+  - x-fmt/270
+- extension:
+  - arj
+  name: ARJ
+  pronom:
+  - fmt/610
+- extension:
+  - pcc
+  mimetype:
+  - image/x-pcx
+  name: PCX
+  pronom:
+  - fmt/90
+- extension:
+  - psd
+  name: PSD
+  pronom:
+  - x-fmt/92
+- extension:
+  - aff
+  mimetype:
+  - audio/aiff
+  name: AIFF
+  pronom:
+  - x-fmt/136
+- extension:
+  - aifc
+  name: AIFC
+- extension:
+  - t3
+  name: TADS 3
+- extension:
+  - gif
+  fdd:
+  - fdd000133
+  mimetype:
+  - image/gif
+  name: GIF
+  pronom:
+  - fmt/4
+- extension:
+  - lib
+  name: AR
+- extension:
+  - png
+  fdd:
+  - fdd000153
+  mimetype:
+  - image/png
+  name: PNG
+  pronom:
+  - fmt/11
+- extension:
+  - hex
+  name: Hugo
+- extension:
+  - xcfbz2
+  name: XCF
+  pronom:
+  - fmt/615
+- extension:
+  - fts
+  fdd:
+  - fdd000317
+  mimetype:
+  - application/fits
+  name: Flexible Image Transport System
+  pronom:
+  - x-fmt/383
+- extension:
+  - dta
+  name: Stata
+- extension:
+  - tz
+  mimetype:
+  - application/x-tar
+  name: Tape Archive
+  pronom:
+  - x-fmt/265
+- extension:
+  - sav
+  name: GB
+- name: UTF-7
+- name: Baudot code
+- name: Adobe Standard Encoding
+- extension:
+  - djvu
+  mimetype:
+  - image/vnd.djvu
+  name: DjVu
+  pronom:
+  - fmt/318
+- name: ARMSCII
+- name: PRONOM
+- name: Development
+- extension:
+  - vot
+  mimetype:
+  - application/x-votable+xml
+  name: VOTable
+- extension:
+  - sdf
+  name: Starlink Data Format
+- name: N-Dimensional Data Format
+- name: FAT32
+- extension:
+  - jif
+  fdd:
+  - fdd000019
+  mimetype:
+  - image/jpeg
+  name: JPEG
+  pronom:
+  - fmt/112
+- extension:
+  - tiff
+  fdd:
+  - fdd000022
+  mimetype:
+  - image/tiff
+  name: TIFF
+  pronom:
+  - fmt/353
+- name: Mime-type
+- name: Submission Information Package
+- name: OAIS
+- extension:
+  - sdf
+  name: Simple Data format
+- name: Tabular Data Package
+- name: Structure Data File
+- extension:
+  - '128'
+  name: Soundtrakker 128 module
+- extension:
+  - 1tm
+  name: 1tracker module
+- extension:
+  - fdi
+  name: FDI
+- extension:
+  - td0
+  name: TD0
+- extension:
+  - d81
+  name: D64
+- extension:
+  - g64
+  name: G64
+- name: IPF
+- extension:
+  - dxf
+  name: DXF
+  pronom:
+  - fmt/532
+- extension:
+  - dwg
+  mimetype:
+  - drawing/dwg
+  name: DWG
+- extension:
+  - max
+  mimetype:
+  - image/x-3ds
+  name: 3DS
+- extension:
+  - bdf
+  name: BDF
+- name: BUFR
+- extension:
+  - sdo
+  name: Standard Delay Format
+- extension:
+  - mat
+  name: MAT
+- extension:
+  - nrw
+  name: Nikon
+- extension:
+  - dng
+  fdd:
+  - fdd000188
+  name: DNG
+  pronom:
+  - fmt/438
+- name: NTSC
+- name: DOL
+- extension:
+  - a2w
+  name: Adlib Tracker II instrument bank
+- extension:
+  - a2i
+  name: Adlib Tracker II instrument
+- extension:
+  - a2t
+  name: Adlib Tracker II module
+- extension:
+  - a2p
+  name: Adlib Tracker II pattern
+- extension:
+  - ym
+  name: YM
+- extension:
+  - dmf
+  name: D-Lusion Music File
+- extension:
+  - dtm
+  name: DigiTrekker module
+- extension:
+  - j
+  name: Jar
+  pronom:
+  - x-fmt/412
+- extension:
+  - flac
+  name: FLAC
+  pronom:
+  - fmt/279
+- name: Finance and Accounting
+- extension:
+  - ace
+  name: ACE
+- extension:
+  - rar
+  mimetype:
+  - application/x-rar-compressed
+  name: RAR
+  pronom:
+  - fmt/613
+- extension:
+  - hlp
+  name: HLP (WinHelp)
+- extension:
+  - def
+  name: PSI-MI XML
+- extension:
+  - aax
+  name: Audible Audiobook
+- extension:
+  - ses
+  name: Cool Edit / Audition Multi Track Session file
+- extension:
+  - far
+  name: Farandole Composer module
+- extension:
+  - usm
+  name: Farandole Composer sample
+- extension:
+  - fpt
+  name: Farandole Composer pattern
+- extension:
+  - f2r
+  name: Farandole Form 2.0
+- extension:
+  - fnk
+  name: FunkTracker module
+- name: MITAB
+- extension:
+  - edl
+  name: EdLib packed module
+- extension:
+  - itz
+  name: Impulse Tracker module
+- extension:
+  - mtm
+  name: Multi Track Module
+- extension:
+  - ptm
+  name: Poly Tracker module
+- extension:
+  - pt1
+  name: Pro Tracker v1.xx module
+- extension:
+  - pt2
+  name: Pro Tracker v2.xx module
+- extension:
+  - pt3
+  name: Pro Tracker v3.xx module
+- name: PSI-PAR
+- extension:
+  - mzml
+  name: MzML
+- name: ATASCII
+- name: ISO 8859
+- extension:
+  - mp3
+  fdd:
+  - fdd000105
+  mimetype:
+  - audio/mpeg
+  name: MP3
+  pronom:
+  - fmt/134
+- extension:
+  - f3m
+  name: Softdisk Family Tree
+- extension:
+  - lst
+  name: Exact
+- name: Planets Core Registry
+- extension:
+  - pub
+  name: Microsoft Publisher
+- extension:
+  - dbf
+  name: DBase III
+  pronom:
+  - x-fmt/9
+- name: Moving Blocks
+- name: Acorn Replay
+- name: UTF-32
+- name: UTF-1
+- name: ISO 8859-1
+- extension:
+  - text
+  name: ScreenWriter II
+- extension:
+  - lyr
+  name: LBR
+- name: JIS X 0201
+- name: CP/M file system
+- extension:
+  - dsk
+  name: DSK (CPCEMU)
+- extension:
+  - txt
+  name: PC-Write
+- name: DEFLATE
+  pronom:
+  - x-cmp/16
+- extension:
+  - ddb
+  fdd:
+  - fdd000189
+  name: BMP
+  pronom:
+  - x-fmt/270
+- fdd:
+  - fdd000136
+  name: CCITT Group 4
+  pronom:
+  - x-cmp/15
+- extension:
+  - tif
+  fdd:
+  - fdd000073
+  name: TIFF/EP
+  pronom:
+  - fmt/154
+- extension:
+  - tif
+  fdd:
+  - fdd000072
+  name: TIFF/IT
+  pronom:
+  - fmt/153
+- extension:
+  - vst
+  fdd:
+  - fdd000180
+  name: TGA
+  pronom:
+  - fmt/402
+- fdd:
+  - fdd000135
+  name: LZW
+  pronom:
+  - x-cmp/12
+- name: PUID
+- extension:
+  - arc
+  name: ARC (Internet Archive)
+- extension:
+  - zoo
+  name: ZOO
+  pronom:
+  - x-fmt/269
+- extension:
+  - bas
+  name: Tokenized BASIC
+- extension:
+  - warc.gz
+  name: WARC
+  pronom:
+  - fmt/289
+- name: CRC
+- extension:
+  - sid
+  fdd:
+  - fdd000184
+  mimetype:
+  - image/x-mrsid
+  name: MrSID
+  pronom:
+  - fmt/392
+- extension:
+  - abk
+  name: AMOS Music Bank
+- extension:
+  - abk
+  name: User:Halftheisland/Template
+- extension:
+  - rad
+  name: Reality AdLib Tracker module
+- extension:
+  - dbf
+  name: Shapefile
+  pronom:
+  - x-fmt/235
+- extension:
+  - kmz
+  mimetype:
+  - application/vnd.google-earth.kmz
+  name: KML
+  pronom:
+  - fmt/244
+- extension:
+  - aas
+  name: AAS
+- name: Adventure Definition Language
+- name: AGT
+- name: GAGS
+- extension:
+  - e00
+  name: E00
+  pronom:
+  - x-fmt/226
+- extension:
+  - hdf
+  fdd:
+  - fdd000228
+  mimetype:
+  - application/x-hdf
+  name: HDF4
+- extension:
+  - asf
+  fdd:
+  - fdd000067
+  mimetype:
+  - application/vnd.ms-asf
+  name: ASF
+  pronom:
+  - fmt/131
+- extension:
+  - h5
+  fdd:
+  - fdd000229
+  name: HDF5
+  pronom:
+  - fmt/287
+- name: VOB
+- extension:
+  - jpx
+  fdd:
+  - fdd000154
+  mimetype:
+  - image/jpx
+  name: JPX
+  pronom:
+  - fmt/151
+- extension:
+  - csf
+  name: PCRaster Map
+- extension:
+  - jpm
+  fdd:
+  - fdd000144
+  mimetype:
+  - image/jpm
+  name: JPM
+  pronom:
+  - fmt/463
+- extension:
+  - adv
+  name: AdvSys
+- extension:
+  - sou
+  name: SBStudio module
+- extension:
+  - mjp2
+  fdd:
+  - fdd000127
+  mimetype:
+  - video/mj2
+  name: MJ2
+  pronom:
+  - fmt/337
+- extension:
+  - sa2
+  name: Surprise! Adlib Tracker v2.0
+- extension:
+  - ult
+  name: Ultra Tracker
+- extension:
+  - acq
+  name: ACQ
+- extension:
+  - head
+  name: BRIK/HEAD
+- extension:
+  - dic
+  name: DICOM
+  pronom:
+  - fmt/574
+- extension:
+  - wsd
+  name: WordStar
+- extension:
+  - xm
+  name: Extended Module
+  pronom:
+  - fmt/323
+- extension:
+  - gs9
+  name: Genecyst Save State
+- fdd:
+  - fdd000011
+  name: LPCM
+- extension:
+  - gsv
+  name: Genecyst Backup RAM
+- extension:
+  - gns
+  name: Genital Save State
+- extension:
+  - acm
+  name: Interplay ACM
+- extension:
+  - wq1
+  name: WQ1
+  pronom:
+  - x-fmt/121
+- extension:
+  - wq2
+  name: WQ2
+  pronom:
+  - x-fmt/122
+- extension:
+  - wb1
+  name: WB1
+- extension:
+  - wb2
+  name: WB2
+- extension:
+  - wb3
+  name: WB3
+- extension:
+  - qpw
+  name: QPW
+- extension:
+  - agsc
+  name: AGSC Audio File
+- fdd:
+  - fdd000025
+  name: RIFF
+- extension:
+  - spo
+  name: SPSS
+  pronom:
+  - fmt/638
+- extension:
+  - asc
+  mimetype:
+  - text/plain
+  name: ASCII Art
+- extension:
+  - ans
+  name: ANSI Art
+- extension:
+  - avi
+  fdd:
+  - fdd000059
+  mimetype:
+  - video/msvideo
+  name: AVI
+  pronom:
+  - fmt/5
+- extension:
+  - aks
+  name: Arkos Tracker
+- extension:
+  - nii.gz
+  name: NII
+- extension:
+  - snn
+  name: Statistica
+- extension:
+  - hdr
+  name: IMG/HDR
+- extension:
+  - nrrd
+  name: NRRD
+- extension:
+  - imd
+  name: IMD
+- extension:
+  - qpw
+  name: Quattro Pro
+- extension:
+  - ahx
+  name: AHX (Abyss)
+- extension:
+  - chm
+  name: CHM
+  pronom:
+  - fmt/634
+- name: Ace Film
+- name: Zig Zag Ancient Greeks
+- extension:
+  - midi
+  fdd:
+  - fdd000119
+  mimetype:
+  - application/x-midi
+  name: MIDI
+  pronom:
+  - x-fmt/230
+- extension:
+  - cmc
+  name: CMC
+- extension:
+  - gp4
+  name: Guitar Pro 4
+- name: Apple Intermediate Codec
+- extension:
+  - mss
+  name: Scribe
+- name: Euclid (Ace Computing)
+- name: Hashtags, at-signs, retweets, etc.
+- extension:
+  - spx
+  mimetype:
+  - video/ogg
+  name: OGG
+- extension:
+  - dem
+  name: DEM
+- name: FidoNet nodelist
+- name: FidoNet message packet
+- extension:
+  - pnl
+  name: Pegasus Mail
+- extension:
+  - wp7
+  name: WordPerfect
+- extension:
+  - sap
+  name: Slight Atari Player
+- extension:
+  - mj2
+  mimetype:
+  - video/mj2
+  name: JPEG 2000
+- extension:
+  - capx
+  name: CapXML
+- extension:
+  - si7
+  name: Sibelius
+- extension:
+  - slb
+  name: Softlib
+- extension:
+  - cm3
+  name: CM3
+- extension:
+  - cmr
+  name: CMR
+- extension:
+  - dmc
+  name: DMC
+- extension:
+  - cmf
+  name: Creative Music Format
+- extension:
+  - dro
+  name: DOSBox Raw OPL
+- name: God of Thunder Music Format
+- extension:
+  - ibk
+  name: Instrument Bank
+- extension:
+  - imf
+  name: Id Software Music Format
+- name: ABCD
+- name: Squash (RISC OS)
+- extension:
+  - ct
+  name: CyberTracker module
+- extension:
+  - ci
+  name: CyberTracker instrument
+- extension:
+  - dbm
+  name: DigiBooster PRO v2.x / DigiBooster 3 module
+- extension:
+  - ddf
+  name: SDTS
+- name: Byte Order Mark
+- extension:
+  - arc
+  name: ARC (database backup format)
+- extension:
+  - m4a
+  name: ALAC
+  pronom:
+  - fmt/596
+- extension:
+  - wvc
+  name: WavPack
+- name: BagIt
+- name: Emoticons
+- extension:
+  - wpt
+  name: Kingsoft Office
+- extension:
+  - mdp
+  name: MDA
+- name: APL code page
+- name: Web browser files
+- extension:
+  - wav
+  fdd:
+  - fdd000357
+  mimetype:
+  - audio/x-wav
+  name: BWF
+  pronom:
+  - fmt/2
+- extension:
+  - bin
+  name: RAW (Audio)
+- extension:
+  - nsfe
+  name: NES Sound Format Extended
+- extension:
+  - ac1d
+  name: AC1D-DC1A Packer
+- extension:
+  - chan
+  name: Channel Players
+- name: MBR
+- extension:
+  - di
+  name: Digital Illusions
+- extension:
+  - eu
+  name: Eureka Packer module
+- name: C0 controls
+- name: BIOS
+- extension:
+  - fcm
+  name: FC-M Packer module
+- extension:
+  - ft
+  name: Fuchs Tracker
+- extension:
+  - fuzz
+  name: Fuzzac Packer module
+- extension:
+  - gmc
+  name: Game Music Creator
+- name: Firmware
+- extension:
+  - amd
+  name: AMusic module
+- extension:
+  - xms
+  name: XMS-Tracker module
+- extension:
+  - aps
+  name: AProSys module
+- extension:
+  - rol
+  name: AdLib Visual Composer / Roland Synthesizer song
+- extension:
+  - tak
+  name: TAK
+- extension:
+  - woff
+  mimetype:
+  - application/font-woff
+  name: WOFF
+  pronom:
+  - fmt/616
+- name: UTF-16
+- extension:
+  - vcard
+  mimetype:
+  - text/vcard
+  name: VCard
+  pronom:
+  - fmt/395
+- extension:
+  - ldif
+  name: LDIF
+  pronom:
+  - fmt/611
+- extension:
+  - scriv
+  name: Scrivener
+- extension:
+  - bnk
+  name: AdLib instrument bank
+- extension:
+  - ins
+  name: Adlib Tracker instrument
+- extension:
+  - sng
+  name: Adlib Tracker module
+- extension:
+  - pat
+  name: MultiMate Professional Word Processor
+- name: Wang OIS
+- name: Wang 1200
+- extension:
+  - amf
+  name: Dual Module Player DSMI
+- extension:
+  - ast
+  name: All Sound Tracker module
+- name: X.509 certificate
+- extension:
+  - gz
+  mimetype:
+  - application/x-gzip
+  name: Gzip
+  pronom:
+  - x-fmt/266
+- extension:
+  - bz2
+  mimetype:
+  - application/x-bzip2
+  name: Bzip2
+  pronom:
+  - x-fmt/268
+- extension:
+  - aon
+  name: Art of Noise module
+- extension:
+  - 7z
+  mimetype:
+  - application/x-7z-compressed
+  name: 7z
+  pronom:
+  - fmt/484
+- extension:
+  - sndh
+  name: Atari SoundHeader
+- extension:
+  - mnc
+  name: MINC
+- extension:
+  - dtp
+  name: PageMagic
+- extension:
+  - dtp
+  name: Timeworks Publisher
+- name: ADA
+- name: APAC
+- name: Dakx Wav
+- extension:
+  - la
+  name: LA
+- name: LiteWave
+- extension:
+  - pac
+  name: LPAC
+- name: Error detection and correction
+- name: MLP
+- name: Split2000
+- extension:
+  - ofs
+  name: OptimFROG
+- name: Reed-Solomon error correction
+- name: Sonarc
+- name: Sorenson
+- extension:
+  - tnef
+  mimetype:
+  - application/vnd.ms-tnef
+  name: Transport Neutral Encapsulation Format
+- extension:
+  - sqlite-shm
+  mimetype:
+  - application/x-sqlite3
+  name: DB (SQLite)
+- extension:
+  - xls
+  mimetype:
+  - application/vnd.ms-excel
+  name: XLS
+- name: Microsoft Office Drawing
+- fdd:
+  - fdd000081
+  name: H.264
+- extension:
+  - rm
+  name: RealMedia
+- extension:
+  - ram
+  mimetype:
+  - audio/x-pn-realaudio
+  name: RealAudio
+- extension:
+  - bps
+  name: B's Pro Tracker module
+- extension:
+  - bbsong
+  name: Beepola song
+- extension:
+  - db
+  mimetype:
+  - application/octet-stream
+  name: DB (Watcom-SQL)
+- name: C1 controls
+- extension:
+  - pis
+  name: Beni Tracker module
+- extension:
+  - cff
+  name: Boom Tracker v4.0 module
+- extension:
+  - mp4
+  name: MPEG-4
+- extension:
+  - bp
+  name: Brian Postma SoundMon v1.x module
+- extension:
+  - brk
+  name: Protein Data Bank
+- extension:
+  - pdb
+  name: Visual Studio PDB
+- name: Compression
+- extension:
+  - DS_Store
+  name: Desktop Services Store
+  pronom:
+  - fmt/394
+- name: Libwww-perl cookie jar
+- name: Firefox cookie database
+- name: Netscape bookmarks
+- extension:
+  - tsv
+  mimetype:
+  - text/tab-separated-values
+  name: Tab delimited
+- name: Column Delimited
+- extension:
+  - bp3
+  name: Brian Postma SoundMon v2.x & v3.x module
+- extension:
+  - sbi
+  name: Sound Blaster Instrument
+- extension:
+  - voc
+  name: Creative Voice File
+- name: Chrome bookmarks
+- extension:
+  - url
+  name: Internet Explorer favorites
+- extension:
+  - url
+  mimetype:
+  - wwwserver/redirection
+  name: Internet Shortcut
+  pronom:
+  - x-fmt/454
+- name: Safari bookmarks
+- extension:
+  - json
+  name: Firefox bookmarks
+- name: Lynx bookmarks
+- name: Mosaic hotlists
+- name: PageMaker
+- extension:
+  - dcx
+  name: Dublin Core
+- extension:
+  - ctx
+  name: Softdisk Text Compressor
+- name: Diskmagazines
+- name: Softdisk PC
+- extension:
+  - ape
+  name: Monkey's Audio
+- extension:
+  - digi
+  name: DigiBooster v1.x module
+- extension:
+  - ist
+  name: Digitrakker instrument
+- extension:
+  - spl
+  name: Digitrakker sample
+- name: Indeo
+- extension:
+  - plm
+  name: DisorderTracker 2 module
+- extension:
+  - mod
+  name: Amiga Module
+- extension:
+  - emd
+  name: Extended MOD
+- extension:
+  - ams
+  name: Extreme's Tracker module
+- extension:
+  - tta
+  name: True Audio
+- extension:
+  - gsm
+  name: GSM
+- extension:
+  - bonk
+  name: Bonk
+- extension:
+  - vhd
+  name: VHD (Virtual Hard Disk)
+- extension:
+  - ico
+  mimetype:
+  - image/x-icon
+  name: ICO
+  pronom:
+  - x-fmt/418
+- extension:
+  - cur
+  name: CUR
+- extension:
+  - ico
+  mimetype:
+  - image/x-icon
+  name: Favicon
+- extension:
+  - txt
+  name: Robots Exclusion Standard
+- extension:
+  - caf
+  mimetype:
+  - application/octet-stream
+  name: Codisk Audio File
+- name: Web server files
+- extension:
+  - bak
+  name: Temporary files
+- extension:
+  - lock
+  name: Lock file
+- extension:
+  - com
+  mimetype:
+  - application/octet-stream
+  name: DOS executable (.com)
+- extension:
+  - zzz
+  name: Crunch
+- extension:
+  - qqq
+  name: Squeeze
+- extension:
+  - yyy
+  name: CrLZH
+- extension:
+  - ft
+  name: FastTracker module
+- extension:
+  - dex
+  name: Disk Imploder
+- extension:
+  - imp
+  name: File Imploder
+- name: Microsoft Office File Format Specifications
+- extension:
+  - lnx
+  name: Lynx (archiver)
+- extension:
+  - prg
+  name: Commodore 64 binary executable
+- extension:
+  - smod
+  name: Future Composer v1.x module
+- extension:
+  - gbs
+  name: Game Boy Sound
+- extension:
+  - ue2
+  name: UltraCompressor II
+- extension:
+  - hex
+  mimetype:
+  - application/binhex
+  name: BinHex
+  pronom:
+  - x-fmt/416
+- extension:
+  - ovf
+  name: OVF (Open Virtualization Format)
+- extension:
+  - gdm
+  name: General Digital Music module
+- extension:
+  - gtk
+  name: Graoumf Tracker module
+- extension:
+  - gt2
+  name: Graoumf Tracker 2 module
+- extension:
+  - imf
+  name: Imago Orpheus module
+- name: MPEG-4 ALS
+- name: MPEG-4 SLS
+- name: RALF
+- extension:
+  - shn
+  name: Shorten
+- name: Base64
+- name: Quoted-printable
+- extension:
+  - smp
+  name: Jason Page
+- name: File transfer
+- extension:
+  - mov
+  mimetype:
+  - video/quicktime
+  name: QuickTime
+  pronom:
+  - x-fmt/384
+- extension:
+  - torrent
+  mimetype:
+  - application/x-bittorrent
+  name: Torrent file
+- name: Bencode
+- extension:
+  - bmx
+  name: Jeskola Buzz song
+- extension:
+  - vp
+  name: VocPack
+- name: WavArc
+- extension:
+  - ecc
+  name: DVDisaster Error Correction File
+- extension:
+  - pui
+  name: UltraEdit project file
+- extension:
+  - ksm
+  name: Ken's Adlib Music
+- extension:
+  - dxf
+  name: APL workspace
+- extension:
+  - xml
+  name: Aiee!
+- extension:
+  - lds
+  name: Liquid Digitized Sample
+- extension:
+  - liq
+  name: Liquid Tracker module
+- extension:
+  - mt2
+  name: MadTracker 2 module
+- extension:
+  - sbm
+  name: SCC Blaffer NT music
+- extension:
+  - sbk
+  name: SCC Blaffer NT instrument kit
+- extension:
+  - mar
+  name: Mozilla Archive
+- name: FidoNet nodediff
+- name: Bsdiff
+  pronom:
+  - fmt/439
+- name: RTPatch
+- extension:
+  - cb7
+  mimetype:
+  - application/x-cbr
+  name: Comic Book Archive
+- name: Twitter
+- extension:
+  - mtr
+  name: Master Tracker module
+- extension:
+  - wow
+  name: Grave Composer module
+- name: Common Log Format
+- name: Combined Log Format
+- extension:
+  - kss
+  name: KSS
+- extension:
+  - kss
+  name: KSSX
+- extension:
+  - webapp
+  mimetype:
+  - application/x-web-app-manifest+json
+  name: Open Web App Manifest
+- name: CDMA phone data
+- name: SIM contact data
+- extension:
+  - dar
+  name: Disk Archiver
+- extension:
+  - ned
+  name: Nerdtracker II module
+- extension:
+  - z
+  name: Pack
+- extension:
+  - okta
+  name: Oktalyzer module
+- extension:
+  - omf
+  name: Onyx Music File
+- extension:
+  - bh
+  name: BlakHole
+- extension:
+  - crw
+  name: CHDK raw
+- name: Currency
+- name: Bitcoin
+- extension:
+  - uca
+  name: PerfectCompress
+- extension:
+  - paq8p
+  name: PAQ
+- extension:
+  - srr
+  name: SRR
+- extension:
+  - srs
+  name: SRS
+- extension:
+  - x??
+  name: BARF
+- extension:
+  - mod
+  name: NoiseTracker module
+- extension:
+  - pttune
+  name: Piston Collage song
+- extension:
+  - kgb
+  name: KGB Archiver
+- extension:
+  - sha
+  name: Shar
+- extension:
+  - bas
+  name: GW-BASIC tokenized file
+- extension:
+  - org
+  name: Organya
+- extension:
+  - prg
+  name: Commodore BASIC tokenized file
+- extension:
+  - tap
+  name: Tap file
+- name: BBC BASIC tokenized file
+- extension:
+  - plist
+  name: Property List/XML
+- name: Apple Integer BASIC tokenized file
+- name: Applesoft BASIC tokenized file
+- name: Atari BASIC tokenized file
+- extension:
+  - bas
+  name: MBASIC tokenized file
+- name: TRS-80 Color BASIC tokenized file
+- name: Exidy Sorcerer BASIC tokenized file
+- name: NASCOM BASIC tokenized file
+- name: Ohio Scientific BASIC tokenized file
+- name: Tiny BASIC tokenized file
+- name: TRS-80 Level II BASIC tokenized file
+- name: Compucolor character set
+- extension:
+  - bas
+  name: Compucolor BASIC tokenized file
+- extension:
+  - pdb
+  name: PalmOS Database
+- extension:
+  - prc
+  name: PRC
+- name: ISO 8859-15
+- name: The Electric Pencil
+- name: Software Music Synthesis System
+- extension:
+  - uef
+  name: Unified Emulator Format
+- name: Sol BASIC tokenized file
+- name: Internet Archive metadata
+- extension:
+  - F
+  name: Freeze/Melt
+- name: Telephony
+- name: Telephone numbering
+- extension:
+  - wav
+  name: CELT
+- extension:
+  - cml
+  name: ChordML
+- extension:
+  - psm
+  name: Epic Megagames MASI
+- extension:
+  - rtm
+  name: Real Tracker module
+- extension:
+  - stx
+  name: Scream Tracker Music Interface Kit module
+- extension:
+  - xz
+  mimetype:
+  - application/x-xz
+  name: XZ
+- name: URL shorteners
+- extension:
+  - xml
+  name: ITunes Music Library
+- extension:
+  - stm
+  name: Scream Tracker 1 & 2 module
+- extension:
+  - sfx2
+  name: SoundFX module
+- extension:
+  - st26
+  name: Soundtracker v2.6 / Ice Tracker module
+- extension:
+  - nt
+  name: StarTrekker / Star Tracker module
+- extension:
+  - sss
+  name: (Super) Studio Session song
+- extension:
+  - hwp
+  name: HWP
+- extension:
+  - aup
+  name: Audacity Project Format
+- extension:
+  - hmi
+  name: HMI
+- extension:
+  - opus
+  name: Opus
+- extension:
+  - xmf
+  name: Extensible Music Format
+- extension:
+  - kris
+  name: KRIS Packer / ChipTracker module
+- extension:
+  - mka
+  fdd:
+  - fdd000347
+  name: Matroska Audio
+- extension:
+  - wma
+  name: WMA Lossless
+- extension:
+  - ccm
+  name: Creative Commons Module
+- extension:
+  - pca
+  name: Perfect Clarity Audio
+- extension:
+  - w64
+  name: Sony Wave64
+- name: Endianness
+- extension:
+  - jc
+  name: JCalG1
+- extension:
+  - cfs
+  mimetype:
+  - application/x-cfs-compressed
+  name: Compact File Set
+- extension:
+  - mpp
+  name: Musepack Audio
+- extension:
+  - spx
+  name: Speex
+- extension:
+  - rmf
+  name: Rich Music Format
+- extension:
+  - sit
+  mimetype:
+  - application/x-sit
+  name: StuffIt
+  pronom:
+  - fmt/639
+- extension:
+  - sitx
+  mimetype:
+  - application/x-sitx
+  name: StuffIt X
+  pronom:
+  - fmt/399
+- extension:
+  - pit
+  name: PackIt
+- extension:
+  - xml
+  mimetype:
+  - application/rss+xml
+  name: RSS
+- extension:
+  - rdf
+  mimetype:
+  - application/rdf+xml
+  name: RDF
+- extension:
+  - xml
+  name: EAD
+- name: Unix time
+- extension:
+  - ort
+  name: Opus-CBCS
+- extension:
+  - sx2
+  name: Propellerhead Reason NN-XT Patch File
+- extension:
+  - rk
+  name: RK
+- extension:
+  - rka
+  name: RK Audio
+- extension:
+  - sf
+  name: Berkeley/IRCAM/Carl Sound Format
+- extension:
+  - puma
+  name: Pumatracker module
+- extension:
+  - bsi
+  name: Future Composer (BSI) module
+- extension:
+  - pck
+  name: In the Groove PCK
+- extension:
+  - caf
+  name: Core Audio Format
+- extension:
+  - sb0
+  name: Vorbis
+- extension:
+  - crw
+  fdd:
+  - fdd000241
+  mimetype:
+  - image/x-canon-crw
+  name: Camera Image File Format
+  pronom:
+  - fmt/593
+- extension:
+  - textile
+  name: Textile
+- extension:
+  - txt
+  name: AsciiDoc
+- extension:
+  - gbs
+  name: Opus Embedded Commands
+- extension:
+  - hes
+  name: HES
+- name: BAGS
+- extension:
+  - ic
+  name: IAGE
+- name: APF Imagination Machine BASIC tokenized file
+- name: Markup
+- extension:
+  - apt
+  name: APT
+- extension:
+  - apw
+  name: APW
+- extension:
+  - apd
+  name: APD
+- extension:
+  - cr2
+  name: Canon RAW 2
+  pronom:
+  - fmt/592
+- name: Facebook
+- extension:
+  - strings
+  name: Strings File
+- extension:
+  - d
+  name: SPPACK
+- extension:
+  - aud
+  name: INRS-Telecom file
+- extension:
+  - ast
+  name: Nintendo GameCube / Wii AST
+- extension:
+  - brstm
+  name: Nintendo GameCube / Wii BRSTM
+- name: MEGA file system
+- extension:
+  - sprite
+  name: Scratch 1.4 File Format
+- extension:
+  - erf
+  name: Epson ERF
+- extension:
+  - sb2
+  name: Scratch 2.0 File Format
+- extension:
+  - wav
+  name: DCT
+- name: SUP
+- extension:
+  - as
+  name: Audio Sculpture
+- name: Coleco Adam SmartBASIC tokenized file
+- extension:
+  - dw
+  name: David Whittaker
+- extension:
+  - snd
+  name: Crystal Caves Sound format
+- extension:
+  - als
+  name: Ableton Live Set
+- extension:
+  - lsm
+  name: LSM
+- extension:
+  - fxm
+  name: Fuxoft AY Language
+- extension:
+  - asc
+  name: ASC Sound Master module
+- name: TI BASIC tokenized file
+- extension:
+  - cpp
+  name: Buzzic v1.x
+- extension:
+  - 4xm
+  name: 4X IMA ADPCM
+- name: IMA ADPCM
+- extension:
+  - wsr
+  name: WSR
+- extension:
+  - mdx
+  name: MDX
+- extension:
+  - xcodeproj
+  name: Xcode Project
+- fdd:
+  - fdd000387
+  mimetype:
+  - application/mbox
+  name: Mbox
+- extension:
+  - lbr
+  name: LBR (Commodore)
+- extension:
+  - arc
+  name: ARC (Commodore)
+- extension:
+  - wri
+  name: Microsoft Write
+- extension:
+  - arc
+  name: ARC (FreeArc)
+- name: Greenleaf ArchiveLib
+- extension:
+  - xml
+  mimetype:
+  - application/atom+xml
+  name: Atom
+- extension:
+  - tjs
+  name: KiriKiri Adventure Game System
+- name: MODS
+- extension:
+  - nsp
+  name: Computerized Speech Lab NSP
+- extension:
+  - mus
+  name: Make-A-Melody
+- extension:
+  - ds2
+  name: Digital Speech Standard
+- extension:
+  - mdb
+  name: Access
+  pronom:
+  - x-fmt/241
+- extension:
+  - txf
+  name: TXF
+- extension:
+  - ipa
+  name: IPA
+- name: Tax XML
+- extension:
+  - tax2012
+  name: TurboTax
+- name: Silent Circle Instant Messaging Protocol
+- extension:
+  - thd
+  name: Dolby TrueHD
+- name: HyperMedia
+- name: WOBA
+- extension:
+  - bundle
+  name: Bundle file (Linux)
+- extension:
+  - bundle
+  name: Bundle file (OS X)
+- extension:
+  - t12
+  name: H&R Block
+- name: HyperCard stack
+- extension:
+  - dfont
+  name: Macintosh resource file
+- name: Apple File and App Icons
+- name: Braille
+- extension:
+  - lzh
+  mimetype:
+  - application/x-lzh-compressed
+  name: LHA
+  pronom:
+  - fmt/626
+- name: Distributed computing projects
+- extension:
+  - lzx
+  name: LZX
+- extension:
+  - cab
+  mimetype:
+  - application/vnd.ms-cab-compressed
+  name: Cabinet
+  pronom:
+  - x-fmt/414
+- extension:
+  - puz
+  name: PUZ
+- extension:
+  - alz
+  name: ALZ
+- extension:
+  - egg
+  name: EGG (ALZip)
+- name: QWK
+- extension:
+  - webp
+  mimetype:
+  - image/webp
+  name: WebP
+  pronom:
+  - fmt/568
+- extension:
+  - raf
+  name: Fujifilm RAF
+- extension:
+  - mrw
+  name: Minolta MRW
+- name: Leica
+- fdd:
+  - fdd000145
+  name: Exif
+  pronom:
+  - fmt/645
+- extension:
+  - icc
+  name: ICC profile
+- name: Photoshop Image Resources
+- name: IPTC
+- name: UCS-2
+- extension:
+  - jfi
+  fdd:
+  - fdd000018
+  mimetype:
+  - image/jpeg
+  name: JFIF
+  pronom:
+  - fmt/44
+- name: XMP
+  pronom:
+  - fmt/570
+- extension:
+  - fpx
+  mimetype:
+  - image/vnd.fpx
+  name: FlashPix
+  pronom:
+  - x-fmt/56
+- name: Posterous
+- extension:
+  - mng
+  mimetype:
+  - video/x-mng
+  name: MNG
+  pronom:
+  - fmt/528
+- extension:
+  - hostnames
+  name: Archive Team hostname file
+- extension:
+  - pea
+  name: PEA
+- extension:
+  - mif
+  name: MIFF
+- name: IEEE floating point
+- extension:
+  - rz
+  name: Rzip
+- extension:
+  - lrz
+  name: Lrzip
+- name: Partimage
+- extension:
+  - arc
+  name: ArcFS
+- extension:
+  - xml
+  name: Scifer
+- extension:
+  - qda
+  name: Quadruple D Archiver
+- name: CESU-8
+- extension:
+  - hki
+  name: HKI
+- extension:
+  - tiff
+  fdd:
+  - fdd000328
+  name: BigTIFF
+- extension:
+  - bm
+  mimetype:
+  - image/x-xbitmap
+  name: XBM
+  pronom:
+  - x-fmt/299
+- name: Exif MakerNote
+- extension:
+  - atk
+  name: CMU Andrew Toolkit image
+- name: Andrew File System
+- name: Zlib
+- extension:
+  - z
+  mimetype:
+  - application/x-compress
+  name: Compress
+- extension:
+  - pnm
+  mimetype:
+  - image/x-portable-anymap
+  name: Netpbm formats
+  pronom:
+  - fmt/408
+- extension:
+  - amf
+  name: Asylum Music Format
+- extension:
+  - xarc
+  name: Funcom ISS
+- name: Huffman coding
+  pronom:
+  - x-cmp/19
+- name: Arithmetic coding
+- name: Run-length encoding
+  pronom:
+  - x-cmp/13
+- extension:
+  - png
+  mimetype:
+  - image/png
+  name: APNG
+- extension:
+  - hdv
+  name: DSK (Apple II)
+- extension:
+  - shk
+  name: ShrinkIt
+- extension:
+  - 2mg
+  mimetype:
+  - application/x-apple-diskimage
+  name: Apple Disk Image
+- extension:
+  - uha
+  name: UHARC
+- extension:
+  - cdr
+  fdd:
+  - fdd000348
+  mimetype:
+  - application/x-iso9660-image
+  name: ISO image
+  pronom:
+  - fmt/468
+- extension:
+  - ps
+  name: PostScript
+  pronom:
+  - fmt/501
+- extension:
+  - epi
+  name: Encapsulated PostScript
+  pronom:
+  - fmt/124
+- extension:
+  - sea
+  name: Compact Pro
+- extension:
+  - msv
+  name: Memory Stick Voice
+- name: VML
+  pronom:
+  - fmt/583
+- extension:
+  - emz
+  name: Windows Metafile
+  pronom:
+  - fmt/345
+- name: Courgette
+- extension:
+  - img
+  name: IMA
+- extension:
+  - zz
+  name: Zzip
+- extension:
+  - oma
+  name: ATRAC Advanced Lossless
+- name: Modified Huffman
+- extension:
+  - g3
+  name: CCITT Group 3
+  pronom:
+  - x-cmp/14
+- extension:
+  - ice
+  name: ICE
+- extension:
+  - spf
+  fdd:
+  - fdd000019
+  mimetype:
+  - image/jpeg
+  name: SPIFF
+  pronom:
+  - fmt/112
+- name: Modified READ
+- name: Modified Modified READ
+- extension:
+  - jls
+  fdd:
+  - fdd000151
+  name: JPEG-LS
+  pronom:
+  - fmt/150
+- extension:
+  - mime
+  name: MIME
+- extension:
+  - bie
+  name: JBIG
+- name: Domain name
+- extension:
+  - jng
+  name: JNG
+  pronom:
+  - fmt/529
+- name: URL
+- name: Punycode
+- extension:
+  - pak
+  name: PAK
+- extension:
+  - gca
+  mimetype:
+  - application/x-gca-compressed
+  name: GCA
+- extension:
+  - dgc
+  mimetype:
+  - application/x-dgc-compressed
+  name: DGCA
+- extension:
+  - sqx
+  name: SQX
+- extension:
+  - xar
+  name: Xar
+  pronom:
+  - fmt/600
+- extension:
+  - pm
+  name: XPM
+  pronom:
+  - x-fmt/208
+- extension:
+  - msp
+  name: MSP (Microsoft Paint file)
+  pronom:
+  - x-fmt/214
+- extension:
+  - wdp
+  fdd:
+  - fdd000243
+  mimetype:
+  - image/vnd.ms-photo
+  name: JPEG XR
+  pronom:
+  - fmt/590
+- name: Google File System
+- extension:
+  - rle
+  name: Utah RLE
+- extension:
+  - pfc
+  name: AOL Personal Filing Cabinet
+- name: Metadata
+- extension:
+  - jpeg
+  name: JPEG-HDR
+- extension:
+  - png
+  name: CgBI
+- extension:
+  - wbmp
+  mimetype:
+  - image/vnd.wap.wbmp
+  name: WBMP
+  pronom:
+  - fmt/497
+- extension:
+  - rgba
+  name: SGI (image file format)
+  pronom:
+  - x-fmt/140
+- extension:
+  - pc3
+  name: DEGAS formats
+- extension:
+  - s7z
+  name: S7z
+- extension:
+  - sps
+  name: Spectrum 512 formats
+- extension:
+  - dvi
+  mimetype:
+  - application/x-dvi
+  name: DVI (Device Independent File Format)
+  pronom:
+  - x-fmt/365
+- name: TIFF annotation data
+- extension:
+  - yuv
+  name: Abekas YUV
+- extension:
+  - pal
+  name: Dr. Halo
+  pronom:
+  - x-fmt/316
+- extension:
+  - pfm
+  name: PFM (Portable Float Map)
+- extension:
+  - scad
+  name: OpenSCAD
+- extension:
+  - ximg
+  name: GEM Raster
+  pronom:
+  - x-fmt/159
+- extension:
+  - art
+  name: ART (AOL compressed image)
+- extension:
+  - art
+  name: 'ART (PFS: First Publisher)'
+- extension:
+  - apm
+  name: ArcPad
+- extension:
+  - apk
+  name: APK
+- extension:
+  - xml
+  name: Binary XML
+- extension:
+  - tif
+  name: Kodak
+- extension:
+  - xwd
+  name: XWD
+  pronom:
+  - x-fmt/300
+- extension:
+  - im32
+  name: Sun Raster
+  pronom:
+  - x-fmt/184
+- extension:
+  - afa
+  mimetype:
+  - application/x-astrotite-afa
+  name: Astrotite
+- extension:
+  - ha
+  name: HA
+- extension:
+  - pim
+  name: PIM
+- extension:
+  - infl
+  name: Inflate
+- extension:
+  - ??_
+  name: MS-DOS installation compression
+  pronom:
+  - fmt/469
+- extension:
+  - yz1
+  name: Yamazaki zipper archive
+- extension:
+  - pic
+  name: ILBM
+  pronom:
+  - x-fmt/424
+- name: Atari File Management Subsystem
+- extension:
+  - ct4
+  name: JEDMICS C4
+- name: TOSEC Naming Convention
+- extension:
+  - cpio
+  mimetype:
+  - application/x-cpio
+  name: Cpio
+  pronom:
+  - fmt/635
+- extension:
+  - jpc
+  fdd:
+  - fdd000192
+  name: JPEG 2000 codestream
+- extension:
+  - framework
+  name: Apple framework
+- extension:
+  - mdi
+  mimetype:
+  - image/vnd.ms-modi
+  name: MDI
+- extension:
+  - neo
+  name: NEOchrome
+- extension:
+  - pma
+  name: PMA
+- extension:
+  - xp3
+  name: XP3
+- extension:
+  - pdb
+  name: Palm Database ImageViewer
+- extension:
+  - pdb
+  name: TealPaint PDB
+- extension:
+  - ani
+  name: Windows Animated Cursor
+  pronom:
+  - fmt/386
+- extension:
+  - ani
+  name: NEOchrome Animation
+- name: Coconizer module
+- extension:
+  - rla
+  name: RLA
+  pronom:
+  - x-fmt/188
+- extension:
+  - pix
+  name: Alias PIX
+- name: Hamming code
+- extension:
+  - pic
+  name: MacPaint
+  pronom:
+  - x-fmt/161
+- extension:
+  - sda
+  name: SDA
+- extension:
+  - sfx
+  name: SFX
+- extension:
+  - pic
+  mimetype:
+  - image/pict
+  name: PICT
+  pronom:
+  - x-fmt/80
+- extension:
+  - sea
+  name: SEA
+- extension:
+  - bqy
+  name: Binary II
+- extension:
+  - bin
+  mimetype:
+  - application/x-macbinary
+  name: MacBinary
+- name: BACKUP (MS-DOS)
+- extension:
+  - swm
+  name: Windows Imaging Format
+  pronom:
+  - fmt/614
+- extension:
+  - jbig2
+  name: JBIG2
+- extension:
+  - mht
+  name: MHTML
+  pronom:
+  - x-fmt/429
+- extension:
+  - db
+  name: Consolidated.db
+- name: Radio
+- name: Call signs
+- fdd:
+  - fdd000108
+  name: ID3
+- extension:
+  - mtv
+  name: MTV ray tracer
+- extension:
+  - dis
+  name: QRT Ray Tracer bitmap image
+- extension:
+  - qrt
+  name: QRT Ray Tracer scene description
+- name: Foursquare
+- name: FAT12
+- extension:
+  - tdi
+  name: Maya IFF
+- extension:
+  - gym
+  name: GYM
+- extension:
+  - pcl
+  name: PCL
+- extension:
+  - afp
+  name: AFP
+- extension:
+  - img
+  name: VICAR
+  pronom:
+  - fmt/383
+- extension:
+  - cym
+  name: Callus OPL Register Log
+- extension:
+  - mus
+  name: Accolade MIDI File Format
+- extension:
+  - pds
+  name: PDS
+- name: Education
+- name: Health and Medicine
+- name: InBloom student data
+- extension:
+  - pm
+  name: PM (XV image)
+- extension:
+  - sc?
+  name: ColoRIX
+- extension:
+  - dat
+  name: PRT scene description
+- extension:
+  - otb
+  name: OTA bitmap
+- extension:
+  - alm
+  name: Aley's Module
+- extension:
+  - c4
+  name: CALS raster
+  pronom:
+  - x-fmt/28
+- extension:
+  - tim
+  name: TIM (PlayStation graphics)
+- name: Alt codes
+- name: ArchiveTeam Warrior
+- extension:
+  - sah
+  name: SETI@Home (classic)
+- extension:
+  - raw
+  name: PSRFITS
+- extension:
+  - msp
+  name: Windows Installer
+- extension:
+  - wu
+  name: BOINC
+- name: WS FTP configuration files
+- name: FTP
+- name: PackBits
+- extension:
+  - ct3
+  name: NIFF (Navy Image File Format)
+- extension:
+  - ast
+  name: Actionamics Sound Tool
+- extension:
+  - sbig
+  name: SBIG CCDOPS image
+- name: Two's complement
+- extension:
+  - fco
+  name: FIASCO
+- name: Run-length colour encoding
+- name: ThunderScan compression
+- name: Inverse Frequency Sound format
+- name: Dangerous Dave level format
+- name: Dangerous Dave tileset format
+- name: CRC-32
+- name: Adler-32
+- name: MD5
+- name: SHA-1
+- name: SHA-2
+- extension:
+  - lz4
+  name: LZ4
+- name: Project Xanadu
+- name: Tumbler
+- name: Enfilade
+- name: LZ77
+  pronom:
+  - x-cmp/17
+- name: LZ78
+  pronom:
+  - x-cmp/18
+- extension:
+  - mgr
+  name: MGR bitmap
+- extension:
+  - aai
+  name: AAI
+- extension:
+  - rad
+  mimetype:
+  - image/vnd.radiance
+  name: Radiance HDR
+  pronom:
+  - fmt/591
+- name: Sitemap
+- extension:
+  - icon
+  name: Sun icon
+- extension:
+  - m4
+  name: M4
+- extension:
+  - fra
+  name: FRA (Fractint)
+- extension:
+  - tag
+  name: Cache Directory Tagging Standard
+- extension:
+  - rle
+  name: CompuServe RLE
+- name: Lemon
+- name: ISO 9660
+- name: ZFS
+- extension:
+  - sff
+  name: Structured Fax File
+- extension:
+  - id
+  name: IBM Audio Visual Connection (AVC) Still Video Image
+- extension:
+  - exr
+  name: OpenEXR
+- extension:
+  - gg
+  name: KoalaPainter (C64)
+- name: SecureDrop
+- extension:
+  - tn4
+  name: Tiny Stuff
+- name: MLM
+- name: CBMFS
+- name: GEOS VLIR
+- name: GEOS Font
+- name: Apple DOS file system
+- extension:
+  - abh
+  name: User:Halftheisland/ABC
+- name: Advanced Encryption Standard
+- name: Sinclair BASIC tokenized file
+- name: Retail sales
+- extension:
+  - abh
+  name: ABC (musical notation)
+- name: Data Encryption Standard
+- extension:
+  - cpc
+  fdd:
+  - fdd000007
+  name: Cartesian Perceptual Compression
+- extension:
+  - vff
+  name: Sun TAAC image
+- extension:
+  - viff
+  name: VIFF
+- extension:
+  - bxy
+  name: NuFX
+- extension:
+  - wk4
+  mimetype:
+  - application/vnd.lotus-1-2-3
+  name: Lotus 1-2-3
+- name: Atari graphics formats
+- extension:
+  - xsd
+  name: DFDL
+- name: Palm bitmap
+- extension:
+  - xsd
+  mimetype:
+  - text/xml
+  name: XML Schema Definition
+- extension:
+  - dcx
+  name: DCX
+  pronom:
+  - x-fmt/348
+- name: OpenSSL salted format
+- extension:
+  - dif
+  name: Data Interchange Format
+  pronom:
+  - x-fmt/41
+- extension:
+  - vcs
+  name: VisiCalc
+- name: UDF
+- extension:
+  - tiff
+  mimetype:
+  - image/tiff-fx
+  name: TIFF-FX
+  pronom:
+  - fmt/156
+- extension:
+  - dds
+  name: DirectDraw Surface
+- name: Pump.io
+- extension:
+  - vw3
+  name: Volkswriter
+- extension:
+  - dpx
+  fdd:
+  - fdd000178
+  name: DPX
+  pronom:
+  - fmt/193
+- extension:
+  - cin
+  name: Cineon
+- extension:
+  - pgf
+  name: PGF (Progressive Graphics File)
+- extension:
+  - pgn
+  mimetype:
+  - application/x-chess-pgn
+  name: PGN
+- extension:
+  - fen
+  name: FEN
+- extension:
+  - pdn
+  name: Portable Draughts Notation
+- extension:
+  - pdn
+  name: Paint.NET image
+- name: MySpace
+- extension:
+  - sie
+  name: Alter Ego Vignette Script format
+- extension:
+  - stw
+  mimetype:
+  - application/vnd.sun.xml.writer.template
+  name: STW
+- name: Microsoft Compound File
+  pronom:
+  - fmt/111
+- extension:
+  - db
+  name: Windows thumbnail cache
+- extension:
+  - ray
+  name: Rayshade scene description
+- extension:
+  - nff
+  name: NFF
+- extension:
+  - bff
+  name: Sense8 NFF
+- extension:
+  - tlg
+  name: TLG (KiriKiri)
+- extension:
+  - ed
+  mimetype:
+  - image/vnd.fujixerox.edmics-mmr
+  name: Xerox EDMICS-MMR
+- extension:
+  - lbx
+  name: P-touch Editor Label
+- extension:
+  - pgf
+  name: PGF (Portfolio Graphics)
+- extension:
+  - pgc
+  name: PGC (Portfolio Graphics Compressed)
+- extension:
+  - wbp
+  name: Webshots picture
+- name: Google Content API for Shopping
+- name: Coupons and Tickets
+- extension:
+  - pkpass
+  mimetype:
+  - application/vnd.apple.pkpass
+  name: PKPass
+- name: Gopher
+- extension:
+  - cmu
+  name: CMU Window Manager bitmap
+- extension:
+  - cip
+  name: Cisco IP Phone image
+- extension:
+  - bibtex
+  name: BibTeX
+- extension:
+  - lwf
+  name: LuraWave
+- name: Triple DES
+- name: MD4
+- name: RIPEMD
+- name: RIPEMD-160
+- name: Xanga
+- name: WordPress
+- extension:
+  - mrf
+  name: MRF (Monochrome Recursive Format)
+- extension:
+  - spl
+  fdd:
+  - fdd000248
+  mimetype:
+  - application/futuresplash
+  name: SWF
+  pronom:
+  - fmt/507
+- extension:
+  - pcs
+  name: PhotoChrome
+- extension:
+  - flv
+  fdd:
+  - fdd000131
+  mimetype:
+  - video/x-flv
+  name: FLV
+  pronom:
+  - x-fmt/382
+- name: GB 2312
+- extension:
+  - geom
+  name: OFF (DEC-WSE Object File Format)
+- extension:
+  - prf
+  name: PRF (Polychrome Recursive Format)
+- extension:
+  - 'off'
+  name: OFF (Geomview Object File Format)
+- extension:
+  - ora
+  mimetype:
+  - image/openraster
+  name: OpenRaster
+- extension:
+  - kcf
+  name: KiSS CEL
+- name: LZMA
+- extension:
+  - lzma
+  mimetype:
+  - application/x-lzma
+  name: LZMA Alone
+- extension:
+  - lz
+  mimetype:
+  - application/x-lzip
+  name: Lzip
+- name: LZMA2
+- extension:
+  - apm
+  name: Aldus Placeable Metafile
+- extension:
+  - aam
+  name: Art & Magic
+- extension:
+  - bss
+  name: Beathoven Synthesiser
+- extension:
+  - anim
+  name: ANIM
+- extension:
+  - mbfavs
+  name: AVS X image
+- extension:
+  - xps
+  mimetype:
+  - application/vnd.ms-xpsdocument
+  name: OpenXPS
+  pronom:
+  - fmt/657
+- extension:
+  - info
+  name: Amiga Workbench icon
+- extension:
+  - info
+  name: NewIcons
+- extension:
+  - info
+  name: GlowIcons
+- extension:
+  - txt
+  name: ASCII tab
+- name: Wavelet compression
+- extension:
+  - gem
+  name: GEM VDI Metafile
+  pronom:
+  - x-fmt/215
+- extension:
+  - ldf
+  name: LuraDocument Format
+- extension:
+  - nol
+  name: Nokia Operator Logo
+- extension:
+  - iwc
+  name: IWC (WaveL)
+- extension:
+  - rmp
+  name: Ragnarok Online 2 RMP
+- extension:
+  - ecw
+  name: ECW
+  pronom:
+  - fmt/371
+- extension:
+  - tz
+  name: Tzip
+- extension:
+  - dic
+  name: Tzip (Text ZIP)
+- extension:
+  - lzo
+  name: Lzop
+- name: Apple II graphics formats
+- extension:
+  - dat
+  name: DKBTrace scene description
+- name: PDS4
+- name: ODL (NASA Object Description Language)
+- extension:
+  - xml
+  name: Microsoft Office File List
+- extension:
+  - icns
+  name: ICNS
+- extension:
+  - abk
+  name: AMOS Sprite Bank
+- extension:
+  - abk
+  name: AMOS Icon Bank
+- extension:
+  - jif
+  name: Jeff's Image Format
+- extension:
+  - bmh
+  name: RIPscrip Icon
+- extension:
+  - nsl
+  name: Nokia Startup Logo
+- extension:
+  - pcd
+  name: Photo CD
+  pronom:
+  - fmt/211
+- extension:
+  - ngg
+  name: Nokia Group Graphic
+- extension:
+  - npm
+  name: Nokia Picture Message
+- extension:
+  - pic
+  name: Psion PIC
+- extension:
+  - mbm
+  name: EPOC MBM
+- extension:
+  - nlm
+  name: Nokia Logo Manager bitmap
+- extension:
+  - fbx
+  name: FBX
+- extension:
+  - wsq
+  name: WSQ
+- name: Project management
+- extension:
+  - ch
+  name: Scitex CT
+  pronom:
+  - x-fmt/146
+- name: SMB
+- extension:
+  - '8'
+  name: Man page
+- extension:
+  - tap
+  name: TAP (ZX Spectrum)
+- extension:
+  - tzx
+  name: TZX
+- extension:
+  - scr
+  name: SCR (ZX Spectrum)
+- extension:
+  - pzx
+  name: PZX
+- name: Maildir
+- extension:
+  - xnb
+  name: Microsoft XNA Compiled Format
+- name: LilyPond
+- name: HCalendar
+- name: HCard
+- name: XOXO
+- name: XFN
+- name: Rel-license
+- name: Rel-nofollow
+- name: Rel-tag
+- name: XMDP
+- name: Adr
+- name: Geo
+- name: HAtom
+- extension:
+  - pes
+  name: PES
+- name: SHA-3
+- name: HListing
+- name: HMedia
+- name: HNews
+- name: HProduct
+- name: Culinary arts
+- name: HRecipe
+- name: Metaformats
+- name: HResume
+- name: HReview
+- name: Rel-author
+- name: Rel-home
+- name: Rel-payment
+- name: Tor
+- extension:
+  - 3d2
+  name: CAD-3D
+- name: Boxes/atoms format
+- extension:
+  - anm
+  name: DeluxePaint Animation
+- name: Sixel
+- extension:
+  - spec
+  name: RPM
+- name: Fax machine
+- extension:
+  - hprj
+  name: Heroglyph Project Format
+- extension:
+  - rlc
+  mimetype:
+  - image/vnd.fujixerox.edmics-rlc
+  name: Xerox EDMICS-RLC
+- extension:
+  - fac
+  name: FaceSaver
+- extension:
+  - asf
+  name: Electronic Arts AS4 / ASF Music
+- extension:
+  - lib
+  name: Microsoft Library
+- extension:
+  - med
+  name: OctaMED module (MED)
+- extension:
+  - nap
+  name: NAPLPS
+- name: Loadstar
+- name: Professor Calhoon
+- name: Modem
+- name: ZIPI
+- name: Disney Sound Source
+- extension:
+  - rtf
+  mimetype:
+  - application/rtf
+  name: RTF
+  pronom:
+  - fmt/355
+- extension:
+  - obj
+  name: Imagine Object File
+- name: Imagine Texture File
+- name: TCP/IP
+- extension:
+  - tdd
+  name: TDDD
+- name: FOSSIL
+- name: EMSI/IEMSI
+- extension:
+  - cgm
+  mimetype:
+  - image/cgm
+  name: CGM
+  pronom:
+  - fmt/306
+- name: ExFAT
+- name: PhpBB
+- extension:
+  - kro
+  name: Kolor Raw
+- extension:
+  - diz
+  name: FILE ID.DIZ
+- name: EPOC Sketch
+- extension:
+  - dmk
+  name: DMK
+- extension:
+  - hdv
+  name: HDV (disk image)
+- extension:
+  - pac
+  name: STAD PAC
+- name: Nemeth Code
+- extension:
+  - brf
+  name: BRF
+- name: Txtspeak
+- name: Routing transit number
+- extension:
+  - stl
+  name: STL
+- extension:
+  - fodp
+  mimetype:
+  - application/vnd.oasis.opendocument.text-master
+  name: OpenDocument
+  pronom:
+  - fmt/424
+- name: Mailpile
+- name: Google Drive
+- extension:
+  - jpg
+  name: Multi-Picture Format
+- extension:
+  - jps
+  name: JPS
+- name: Square Cash
+- name: Locoscript
+- name: Amstrad CP/M Plus character set
+- name: HTTP
+- extension:
+  - xml
+  name: DocBook
+- extension:
+  - jp2
+  mimetype:
+  - image/jp2
+  name: GeoJP2
+- extension:
+  - pem
+  name: PEM
+- extension:
+  - cer
+  name: PEM encoded certificate
+- extension:
+  - cer
+  mimetype:
+  - application/x-x509-ca-cert
+  name: DER encoded certificate
+- name: YouTube
+- extension:
+  - pem
+  name: PEM encoded RSA private key
+- extension:
+  - 3g2
+  mimetype:
+  - audio/3gpp2
+  name: 3G2
+- extension:
+  - 3gp
+  mimetype:
+  - audio/3gpp
+  name: 3GP
+  pronom:
+  - fmt/357
+- extension:
+  - jpx
+  fdd:
+  - fdd000303
+  mimetype:
+  - image/jpx
+  name: GMLJP2
+- extension:
+  - pem
+  name: PKCS7 certificate
+- extension:
+  - pvk
+  name: PVK
+- extension:
+  - bin
+  name: CUE and BIN
+- name: Forensics and Law Enforcement
+- extension:
+  - index
+  name: Digital Evidence Bag
+- name: EnCase hash map
+- extension:
+  - stm
+  name: Extensible Storage Engine
+- extension:
+  - gpx
+  name: GPX
+  pronom:
+  - fmt/243
+- extension:
+  - key
+  name: DER encoded RSA private key
+- extension:
+  - der
+  name: DER
+- extension:
+  - dat
+  name: Internet Explorer history file
+- extension:
+  - lnk
+  name: Windows Shortcut
+  pronom:
+  - x-fmt/428
+- name: Firefox history file
+- extension:
+  - dat
+  name: Mork
+  pronom:
+  - fmt/612
+- extension:
+  - nk2
+  name: Nickfile
+- extension:
+  - nsf
+  mimetype:
+  - application/x-lotus-notes
+  name: Notes Storage Facility
+- name: World File
+- extension:
+  - dbx
+  name: Outlook Express Database
+- extension:
+  - ost
+  mimetype:
+  - application/vnd.ms-outlook
+  name: Personal Folder File
+- extension:
+  - qcow2
+  name: Qcow
+- extension:
+  - pfx
+  name: PKCS12
+- extension:
+  - pem
+  name: Certificate Revocation List
+- extension:
+  - csr
+  name: Certificate Signing Request
+- name: RSA private key
+- extension:
+  - vdi
+  name: VDI
+- extension:
+  - vmdk
+  name: VMDK
+- name: Supaplex Level format
+- name: PKCS7
+- name: SafeSlinger
+- mimetype:
+  - application/applefile
+  name: AppleSingle
+- mimetype:
+  - multipart/appledouble
+  name: AppleDouble
+- extension:
+  - webloc
+  name: Webloc
+- extension:
+  - lsb
+  name: LSB
+- name: System files
+- extension:
+  - reg
+  name: Windows Registry
+- name: Privacy-Enhanced Mail (RFC 1421)
+- extension:
+  - log2
+  name: Windows Event Log
+- extension:
+  - v2i
+  name: TI picture file
+- name: SAML
+- extension:
+  - bmp
+  name: Alpha Microsystems BMP
+- name: TTComp archive
+- name: PGP
+- name: Mark of the Web
+- name: Canonical Link Relation
+- extension:
+  - bz
+  name: Bzip
+  pronom:
+  - x-fmt/267
+- extension:
+  - vsq
+  name: Voice Sequence
+- extension:
+  - spc
+  name: SPC
+- name: Amazon S3
+- name: OpenStack Swift
+- extension:
+  - svg
+  name: SuperView Graphics
+- extension:
+  - umz
+  name: Universal Machine (ICFP programming contest 2006)
+- extension:
+  - gdoc
+  name: Google Document
+- extension:
+  - gsheet
+  name: Google Sheet
+- extension:
+  - p12
+  name: PFX (original format)
+- extension:
+  - uu
+  name: Uuencoding
+- name: SRGB
+- extension:
+  - sav
+  mimetype:
+  - application/x-spss-sav
+  name: SAV
+  pronom:
+  - fmt/638
+- extension:
+  - ggb
+  mimetype:
+  - application-x/geogebra-file
+  name: Ggb
+  pronom:
+  - fmt/622
+- name: Moodle
+- extension:
+  - cbm
+  name: FBM image
+- name: Blackboard Learning System
+- name: Encyclopedia of Graphics File Formats
+- extension:
+  - m2k
+  name: M2k
+- name: Netpbm
+- name: +D filesystem
+- name: DOI
+- name: XnView
+- name: ImageMagick
+- name: RECOIL
+- extension:
+  - p7
+  name: XV thumbnail
+- name: ISBN
+- name: ISSN
+- name: Law
+- name: The State Decoded
+- extension:
+  - odt
+  mimetype:
+  - application/vnd.oasis.opendocument.text
+  name: OpenDocument Text
+  pronom:
+  - fmt/291
+- extension:
+  - ljpeg
+  fdd:
+  - fdd000334
+  name: Lossless JPEG (original)
+- name: Pinterest
+- name: LOCO-I
+- extension:
+  - musink
+  name: Musink
+- extension:
+  - flp
+  name: Raw FL Studio Project
+- name: Commodore 64 color palette
+- extension:
+  - '411'
+  name: Sony Mavica 411
+- extension:
+  - psb
+  name: PSB
+- extension:
+  - tex
+  name: LaTeX
+  pronom:
+  - fmt/281
+- extension:
+  - rmt
+  name: RASTER Music Tracker module
+- name: PFS (Portable Floatmap Stream)
+- extension:
+  - pat
+  name: GIMP Pattern
+- extension:
+  - gpb
+  name: GIMP Brush
+- extension:
+  - gih
+  name: GIMP Animated Brush
+- extension:
+  - odl
+  name: ODL (Microsoft Object Description Language)
+- name: 23andMe
+- extension:
+  - tdf
+  name: TheDraw font
+- extension:
+  - pam
+  mimetype:
+  - image/x-portable-arbitrarymap
+  name: PAM (Portable Arbitrary Map)
+  pronom:
+  - fmt/405
+- extension:
+  - pcb
+  name: PCBoard
+- name: Fido BBS
+- extension:
+  - map
+  name: Mapsforge Binary Map
+- extension:
+  - pak
+  name: Quantum compressed archive
+- extension:
+  - doo
+  name: Doodle (Atari)
+- extension:
+  - rdi
+  name: RDIB
+- extension:
+  - iso
+  name: Apple Partition Map
+- extension:
+  - hfs
+  name: HFS
+- name: ProDOS file system
+- extension:
+  - avt
+  name: AVATAR
+- name: Gerber format
+- extension:
+  - dms
+  name: Disk Masher System
+- extension:
+  - wpg
+  name: WordPerfect Graphics
+  pronom:
+  - x-fmt/395
+- name: BFD
+- extension:
+  - fodg
+  mimetype:
+  - application/vnd.oasis.opendocument.graphics
+  name: OpenDocument Drawing
+  pronom:
+  - fmt/297
+- name: HFS+
+- extension:
+  - exe
+  name: Self-extracting ZIP
+- extension:
+  - pog
+  name: The Print Shop
+- extension:
+  - sdx
+  name: PrintMaster
+- name: Dogecoin
+- extension:
+  - m4a
+  fdd:
+  - fdd000110
+  name: AAC
+- extension:
+  - wmv
+  mimetype:
+  - video/x-ms-wmv
+  name: WMV
+- extension:
+  - wma
+  mimetype:
+  - video/x-ms-wma
+  name: WMA
+- name: VC-1
+- extension:
+  - pax
+  name: Pax
+- name: Friendster
+- extension:
+  - rad
+  name: Radiance Scene Description
+- extension:
+  - atr
+  name: ATR
+- extension:
+  - cas
+  name: CAS (Atari)
+- extension:
+  - dat
+  name: BVE train.dat file
+- extension:
+  - animated
+  name: BVE object formats
+- extension:
+  - rw
+  name: BVE route formats
+- extension:
+  - st
+  name: ST disk image
+- extension:
+  - json
+  mimetype:
+  - application/vnd.api+json
+  name: JSON API
+- name: VSAM
+- name: Netflix Streaming
+- name: Hayes command set
+- extension:
+  - grb
+  name: GRIB
+  pronom:
+  - fmt/285
+- extension:
+  - dvm
+  name: DVM
+- name: Mtree
+- extension:
+  - msa
+  name: MSA (Magic Shadow Archiver)
+- extension:
+  - rip
+  name: RIPscrip
+- extension:
+  - tnd
+  name: TUNDRA
+- name: DCT compression
+- name: Snake
+- name: Drupal
+- extension:
+  - its
+  name: Impulse Tracker sample
+- extension:
+  - img
+  name: "Dor\xE9 Raster"
+- name: Radio Data System
+- name: Coinye
+- extension:
+  - bfli
+  name: BFLI
+- extension:
+  - 4bt
+  name: GoDot
+- extension:
+  - icl
+  name: Icon library
+- name: Bar
+- extension:
+  - avw
+  name: Analyze AVW
+- extension:
+  - ffli
+  name: FFLI
+- extension:
+  - drv
+  name: Dynamic-link library (Windows)
+- extension:
+  - chn
+  name: Turbo Pascal chain file
+- extension:
+  - ithmb
+  name: IThmb
+- name: Xbox Live Avatar
+- extension:
+  - cpt
+  name: Corel Photo-Paint image
+  pronom:
+  - x-fmt/144
+- extension:
+  - img
+  name: Interleaf image
+- name: Twister
+- extension:
+  - wrz
+  mimetype:
+  - model/vrml
+  name: VRML
+  pronom:
+  - fmt/94
+- extension:
+  - seq
+  name: Cyber Paint Sequence
+- extension:
+  - apx
+  name: Ability Office PhotoPaint
+- name: DissidentX
+- name: 7-Zip
+- extension:
+  - awp
+  name: Ability Write
+- extension:
+  - xmi
+  name: XMI (Extended MIDI)
+- extension:
+  - ast
+  name: Ability Spreadsheet
+- extension:
+  - adb
+  name: Ability Database
+- extension:
+  - pic
+  name: BioRad confocal image
+- extension:
+  - jj
+  name: Doodle! (C64)
+- extension:
+  - yal
+  name: Arts & Letters clip art library
+- name: ESC/P
+- name: ESC/POS
+- name: Epson Printer Bitmaps
+- extension:
+  - deep
+  name: IFF-DEEP
+- extension:
+  - 4pp
+  name: PhotoParade slideshow
+- name: Content Scramble System
+- extension:
+  - amz
+  name: Amazon downloader file
+- extension:
+  - p10
+  mimetype:
+  - application/pkcs10
+  name: PKCS10
+- name: SPKAC
+- name: LUKS
+- extension:
+  - scn
+  name: BSAVE Image
+- extension:
+  - cpio
+  name: Afio
+- name: Transportation
+- extension:
+  - pmd
+  name: PmDraw
+- extension:
+  - ico
+  name: OS/2 Icon
+- extension:
+  - ptr
+  name: OS/2 Pointer
+- extension:
+  - pgx
+  name: PGX (JPEG 2000)
+- extension:
+  - pgx
+  name: PGX (Portfolio)
+- extension:
+  - alb
+  name: Seattle FilmWorks
+- name: Bank Street Writer
+- extension:
+  - tbl
+  name: TRANS.TBL
+- name: Ascii85
+- extension:
+  - sft
+  name: ChiWriter font
+- extension:
+  - exe
+  name: NSIS
+- extension:
+  - puz
+  name: PUZ (crossword puzzles)
+- name: Binary-coded decimal
+- name: Puzzles
+- extension:
+  - ipuz
+  name: IPUZ
+- extension:
+  - web
+  name: Xar (vector graphics)
+- extension:
+  - wve
+  name: WVE (Psion)
+- extension:
+  - huh
+  name: HydroCAD Stormwater Modeling System Unit Hydrograph file
+- extension:
+  - tub
+  name: PaintShop Pro
+  pronom:
+  - fmt/217
+- name: NeXT 2-bit RLE
+- extension:
+  - pjxl
+  name: HP Paintjet
+- extension:
+  - liff
+  name: LIFF
+- extension:
+  - ntf
+  name: National Imagery Transmission Format
+  pronom:
+  - fmt/366
+- extension:
+  - siard
+  name: SIARD
+  pronom:
+  - fmt/161
+- name: Mixed Raster Content
+- extension:
+  - mrc
+  name: MRC
+- extension:
+  - kpl
+  name: IBM KIPS bitmap
+- extension:
+  - ptg
+  name: PTG
+- extension:
+  - zim
+  name: ZIM
+- extension:
+  - zeno
+  name: Zeno
+- extension:
+  - nfo
+  mimetype:
+  - text/x-nfo
+  name: NFO
+- extension:
+  - adz
+  name: ADF (Amiga)
+- name: Puffchat
+- extension:
+  - mod
+  name: Wavefront OBJ
+- extension:
+  - mtl
+  name: Wavefront MTL
+- extension:
+  - ttd
+  name: TTDDD
+- name: DEC64
+- extension:
+  - clp
+  name: PCPaint CLP
+- extension:
+  - obj
+  name: Object file format
+- name: Pono
+- name: SPF
+- name: Habeas Warrant Mark
+- extension:
+  - cms
+  name: CMS (Creative Music System)
+- extension:
+  - ttf
+  name: TrueType
+  pronom:
+  - x-fmt/453
+- extension:
+  - ttf
+  name: OpenType
+  pronom:
+  - fmt/520
+- extension:
+  - ttc
+  name: Open Font Format
+- extension:
+  - b16
+  name: PCO B16
+- extension:
+  - '16'
+  name: LSS16
+- extension:
+  - manifest
+  name: Assembly manifest (Windows)
+- name: Bytecode
+- name: PPMd
+- extension:
+  - img
+  name: IMG
+- extension:
+  - ddi
+  name: DDI
+- name: Sudoers
+- name: JOT
+- extension:
+  - hrz
+  name: Slow-scan television
+- fdd:
+  - fdd000014
+  mimetype:
+  - text/vnd.iptc.nitf
+  name: News Industry Text Format
+- extension:
+  - x3dvz
+  mimetype:
+  - model/x3d+vrml
+  name: X3D
+  pronom:
+  - fmt/582
+- extension:
+  - xml
+  name: SpreadsheetML
+- extension:
+  - xml
+  name: WordProcessingML
+- extension:
+  - vtx
+  name: DataDiagrammingML
+- extension:
+  - vsl
+  name: Visio
+- extension:
+  - m4v
+  fdd:
+  - fdd000155
+  mimetype:
+  - video/mp4
+  name: MP4
+  pronom:
+  - fmt/199
+- fdd:
+  - fdd000079
+  name: ISO Base Media File Format
+- name: SolarCoin
+- name: MazaCoin
+- extension:
+  - scss
+  name: Sass
+- extension:
+  - mp4
+  fdd:
+  - fdd000158
+  name: AVC (file format)
+- extension:
+  - bz2
+  name: Complete Genomics
+- extension:
+  - f4v
+  name: F4V
+- extension:
+  - xlsb
+  name: XLSB
+- extension:
+  - fastq
+  name: FASTA and FASTQ
+- extension:
+  - img
+  name: Raw disk image
+- extension:
+  - mk3d
+  fdd:
+  - fdd000342
+  name: Matroska
+  pronom:
+  - fmt/569
+- extension:
+  - eygl
+  name: Eyeglass file format (Ross Spencer)
+- extension:
+  - aipd
+  name: AIPD
+- extension:
+  - mkv
+  fdd:
+  - fdd000375
+  mimetype:
+  - video/x-matroska
+  name: MKV
+- extension:
+  - app
+  name: Psion OPO/OPA
+- extension:
+  - app
+  name: Psion IMG/APP
+- extension:
+  - aif
+  name: EPOC AIF
+- extension:
+  - sisx
+  name: SIS
+- extension:
+  - font
+  name: Amiga bitmap font
+- extension:
+  - lib
+  name: IntelliFont
+- extension:
+  - dotx
+  mimetype:
+  - application/vnd.ms-word
+  name: Microsoft Word
+- extension:
+  - dot
+  name: DOT
+- extension:
+  - gv
+  name: DOT (graph description language)
+- name: JuggaloCoin
+- name: Namecoin
+- extension:
+  - xbg
+  name: HP 100LX/200LX icon
+- name: E-gold
+- name: DigiCash
+- name: Ecash
+- name: ECache
+- extension:
+  - v
+  name: VIPS
+- name: MintChip
+- name: Checksum
+- name: Commodore 1581 filesystem
+- extension:
+  - ibd
+  name: MySQL
+- name: OneDrive
+- extension:
+  - XXX
+  fdd:
+  - fddXXXXXX
+  mimetype:
+  - application/octet-stream
+  name: Template:File Format/Preload
+- extension:
+  - lfp
+  name: Lytro
+- extension:
+  - gnm
+  mimetype:
+  - application/x-gnumeric
+  name: Gnumeric
+- name: BigTable
+- extension:
+  - hgt
+  name: HGT
+- extension:
+  - uew
+  name: UltraEdit wordfile
+- name: PostScript font
+- extension:
+  - abr
+  name: Photoshop brush
+- name: EBML
+- extension:
+  - icn
+  name: Micrografx Icon
+- name: PDP-1 alphanumeric codes
+- name: Adobe RGB (1998)
+- extension:
+  - nct
+  name: Nero CoverDesigner
+- extension:
+  - exe
+  name: MS-DOS EXE
+  pronom:
+  - x-fmt/409
+- extension:
+  - dll
+  name: NE
+  pronom:
+  - x-fmt/410
+- extension:
+  - dll
+  name: PE
+  pronom:
+  - x-fmt/411
+- name: Flag semaphore
+- extension:
+  - id
+  name: Disc.id
+- name: On-board diagnostics
+- name: Automotive black box
+- name: LDAP
+- name: Xxencoding
+- extension:
+  - sys
+  name: Linear Executable
+- extension:
+  - mus
+  name: Electronic Arts MUS
+- extension:
+  - act
+  name: Cartooners actor file
+- extension:
+  - vbproj
+  name: Visual Basic project file
+- extension:
+  - afm
+  name: Adobe Type 1
+  pronom:
+  - fmt/509
+- name: Crockford Base32
+- extension:
+  - j
+  name: JAR (ARJ Software)
+- name: Snappy
+- extension:
+  - iwa
+  name: IWA
+- extension:
+  - pb
+  name: Protobuf
+- extension:
+  - key.zip
+  name: IWork
+- extension:
+  - pages.zip
+  name: Pages
+- extension:
+  - numbers.zip
+  name: Numbers
+- extension:
+  - key.zip
+  name: Keynote
+- extension:
+  - pickle
+  name: Pickle
+- extension:
+  - fon
+  name: FON
+- name: Zotero
+- extension:
+  - fnt
+  name: FNT (Windows Font)
+- extension:
+  - csl
+  name: Citation Style Language
+- extension:
+  - diff
+  name: Diff
+- extension:
+  - diff
+  name: Unified diff
+- name: Diddle sketch
+- name: DiddleBug sketch
+- extension:
+  - vcs
+  name: VCalendar
+- extension:
+  - crd
+  name: Cardfile
+- name: Bit order
+- extension:
+  - tc
+  name: TrueCrypt
+- extension:
+  - fla
+  fdd:
+  - fdd000132
+  name: FLA
+- extension:
+  - srt
+  name: FWKCS
+- name: RC4
+- name: MPEG
+- extension:
+  - mpv
+  fdd:
+  - fdd000012
+  mimetype:
+  - video/mpeg
+  name: MPEG-1
+  pronom:
+  - fmt/649
+- fdd:
+  - fdd000335
+  name: MPEG-2
+  pronom:
+  - fmt/640
+- name: MPEG-3
+- extension:
+  - ai
+  name: Adobe Illustrator Artwork
+- extension:
+  - ccx
+  name: CorelDRAW
+- name: PLOT-10
+- extension:
+  - wms
+  name: Windows Media Player Skin Package
+- name: Web Map Service
+- name: Google Maps
+- name: Open Street Map
+- extension:
+  - iges
+  name: IGES
+  pronom:
+  - x-fmt/158
+- name: HP-GL
+- extension:
+  - book
+  name: FrameMaker
+- name: METS
+- extension:
+  - idx
+  name: VobSub
+- name: Packetized Elementary Stream
+  pronom:
+  - fmt/640
+- extension:
+  - ogx
+  mimetype:
+  - application/kate
+  name: Kate
+- extension:
+  - srt
+  name: SubRip text file format
+- extension:
+  - vtt
+  mimetype:
+  - text/vtt
+  name: WebVTT
+- extension:
+  - yuv
+  name: Raw bitmap
+  pronom:
+  - x-fmt/185
+- extension:
+  - t64
+  name: T64
+- extension:
+  - tex
+  mimetype:
+  - application/x-tex
+  name: TeX
+- name: ISO 8859-2
+- name: ISO 8859-3
+- name: ISO 8859-6
+- name: ISO 8859-7
+- extension:
+  - adg
+  name: Ableton Device Group File
+- name: Wiglet
+- name: Permacoin
+- name: IBM Writing Assistant
+- name: Anglo-American Cataloguing Rules
+- name: Resource Description and Access
+- name: Slack
+- name: VP9
+- name: VP8
+- extension:
+  - webm
+  mimetype:
+  - audio/webm
+  name: WebM
+- name: Sonasoft
+- name: Storj
+- extension:
+  - vtk
+  name: VTK
+- extension:
+  - pjg
+  name: PackJPG
+- extension:
+  - ppp
+  name: Serif PagePlus
+- name: Thunderbird
+- extension:
+  - psf
+  name: PC Screen Font
+- extension:
+  - rwz
+  name: Rawzor
+- name: LZO
+- extension:
+  - wpb
+  name: WPB (openCanvas)
+- name: Prodigy
+- name: Amazon Marketplace Web Service
+- name: AOL
+- name: "Burrows\u2013Wheeler transform"
+- extension:
+  - csvs
+  name: CSV Schema
+- extension:
+  - info
+  name: ZoomBrowser Ex thumbnail cache
+- name: JSON Table Schema
+- name: CSV Dialect Description Format
+- extension:
+  - 2bp
+  name: Pocket PC Bitmap
+- extension:
+  - rwl
+  name: Panasonic RAW/RW2
+- name: CinemaDNG
+- name: Longaccess
+- extension:
+  - mef
+  name: Mamiya MEF
+- name: Stripe
+- name: TI-Writer
+- extension:
+  - pzl
+  name: Puzzle image (X11)
+- name: Commodore graphics formats
+- extension:
+  - fh11
+  name: FreeHand
+- name: MacWrite
+- extension:
+  - cwk
+  name: ClarisWorks
+- extension:
+  - cwk
+  name: AppleWorks
+- extension:
+  - aiml
+  name: AIML
+- name: ProtonMail
+- name: BIBFRAME
+- extension:
+  - ca3
+  name: Crack Art
+- extension:
+  - pal
+  name: Canvas (Atari)
+- extension:
+  - mpp
+  name: Multi Palette Picture
+- extension:
+  - gro
+  name: GROB
+- extension:
+  - asc
+  name: ASCII Encoded HP 48 Object
+- extension:
+  - ms
+  name: Troff
+- name: Xcursor
+- extension:
+  - cpg
+  name: Manga Studio
+- name: Confide
+- name: CCE MC-1000 BASIC tokenized file
+- name: Cut & Paste
+- name: Mouse Calc
+- extension:
+  - otx
+  name: Outerra engine
+- extension:
+  - 3fr
+  name: Hasselblad 3FR
+- extension:
+  - arr
+  name: Amber ARR Bitmap Image
+- extension:
+  - pct
+  name: NIST IHead
+- name: Mattel Aquarius BASIC tokenized file
+- name: Mattel Aquarius character set
+- extension:
+  - zipx
+  name: Zipx
+- extension:
+  - amc
+  name: Acclaim ASF/AMC
+- mimetype:
+  - application/gdiff
+  name: GDIFF
+- extension:
+  - udeb
+  mimetype:
+  - application/vnd.debian.binary-package
+  name: Deb
+- name: UUID
+- name: Cryptolocker
+- extension:
+  - z
+  name: InstallShield Z
+- extension:
+  - harp
+  name: HAR
+- extension:
+  - cab
+  name: InstallShield CAB
+- extension:
+  - pkg
+  name: Package File (OS X)
+- extension:
+  - mpkg
+  name: Meta-Package File
+- extension:
+  - fff
+  name: Imacon 3F
+- extension:
+  - ptx
+  name: Pentax PEF
+- extension:
+  - arw
+  name: Sony ARW
+- extension:
+  - aae
+  name: AAE sidecar format
+- name: Dat
+- name: LevelDB
+- name: Transfer Encodings
+- extension:
+  - srw
+  name: Samsung SRW
+- name: Hex encoding
+- name: Concurrent Versions System
+- name: PAL
+- extension:
+  - markdown
+  mimetype:
+  - text/x-markdown
+  name: CommonMark
+- name: CP437
+- extension:
+  - brush
+  name: Xerox Doodle brush
+- extension:
+  - orf
+  name: Olympus ORF
+- extension:
+  - x3f
+  name: X3F
+- extension:
+  - cvt
+  name: GEOS Convert
+- name: Bang path
+- name: GeoPaint
+- extension:
+  - mos
+  name: Leaf MOS
+- extension:
+  - dcp
+  name: DNG camera profile
+- extension:
+  - cpx
+  name: ImgStar
+- name: News media
+- name: IPTC message format
+- name: ANPA-1312
+- extension:
+  - hr
+  name: TRS-80 image
+- name: Base32
+- name: Base58
+- name: KONTRON
+- extension:
+  - ypc
+  name: WhyPic
+- extension:
+  - pwc
+  name: PWC (Piecewise-Constant Image Model)
+- extension:
+  - apf
+  name: Apple Preferred
+- extension:
+  - apf
+  name: TIBCO Foresight HIPAA Validator Validation Profile File
+- name: Autodesk Slide
+- extension:
+  - svx
+  name: SVX
+- extension:
+  - wzl
+  name: Winzle Puzzle
+- name: Neos
+- name: IIIF
+- extension:
+  - fountain
+  name: Fountain
+- name: JSON-RPC
+- name: Heroku
+- extension:
+  - vs
+  name: Vivid scene description
+- extension:
+  - img
+  name: Vivid IMG
+- name: Bob ray tracer scene description
+- extension:
+  - bob
+  name: Bob ray tracer bitmap
+- name: Node.js
+- extension:
+  - gifv
+  name: GIFV
+- name: ScienceServer XML format
+- name: TI variable file
+- extension:
+  - b3d
+  name: BodyPaint 3D
+- extension:
+  - fig
+  name: Matlab figure
+- extension:
+  - mat
+  name: Matfile
+- name: Apple volume label image
+- name: NASA Raster Metafile
+- name: UNIX Plot Format
+- extension:
+  - picio
+  name: Pixar picture
+- extension:
+  - lff
+  name: Lucasfilm picture
