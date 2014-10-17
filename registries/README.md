@@ -1,19 +1,44 @@
 Registries
 ==========
 
-This holds copies of the data from:
+This repository holds versioned copies of the data from a number of registries:
 
-* PRONOM
-* Library of Congress [FFD](http://www.digitalpreservation.gov/formats/fdd/fdd_xml_info.shtml)
-* TRiD
 * Apache Tika
+* [Library of Congress FFD](http://www.digitalpreservation.gov/formats/fdd/fdd_xml_info.shtml)
+* PRONOM
+* TRiD
 
-There are scripts to download and refresh the data from each source, and another aggregator script that attempts to combine and compare the data from each source.
+and combines this information to provide [an overview of all the formats known to these systems](http://www.digipres.org/formats/).
 
+How it works
+------------
+
+There are scripts to download and refresh the data from each source, which can be run together as:
+
+    $ cd registries
+    $ ./refresh-sources.sh
+
+This 'master' script updates the data from each source, and checks it into this repository.
+
+Then, another aggregator script can be used to combine and compare the data from each source, and put the data a copy of the www.digipres.org website source.
+
+    $ python aggregates.py
+
+This populates the _data/formats directory of the digipres.github.io sub-repository:
+
+    $ cd ../digipres.github.io/_data/formats
+
+TODO automatic adding and committing of the updated information.
+
+When this content is pushed to GitHub, the source templates in digipres.github.io use the data files in _data to build up a static website that exposes this information to the web (using Jekyll via GitHub Pages).
+
+TODO Add master Travis CI script to run this automatically.
 
 TODO
 ----
 
+* Build stats-log, so we can track the stats over time.
+* Build a change-log, so when new formats turn up, we know about them?
 * Use sorted(d, key=lambda i: int(d[i])) form to sort PRONOM IDs numerically
 * Note Parsers for Tika, note Container for DROID.
 * Refer back to sources and mirrors of sig. files.

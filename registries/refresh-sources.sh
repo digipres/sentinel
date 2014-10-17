@@ -14,5 +14,5 @@ cd trid
 python download-trid-data.py
 cd ..
 
-git status
+git commit -m "Refreshed the known format data sources." .
 
