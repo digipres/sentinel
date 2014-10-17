@@ -145,7 +145,7 @@ def enumerate_ff_formats(site):
         total_formats += 1
         if total_formats % 20 == 0:
             print("Processed %s format pages..." % total_formats)
-            break
+            #break
         formats.append(fmt)
 
     # And write out:
