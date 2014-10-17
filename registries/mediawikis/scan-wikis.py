@@ -98,8 +98,15 @@ pywikibot.handleArgs()
 
 def enumerate_ff_formats(site):
     template = pywikibot.Page(site,"Template:FormatInfo")
+    source = {}
+    source['stats'] = {}
     formats = []
     total_formats = 0
+    total_w_extension = 0
+    total_w_pronom = 0
+    total_w_fdd = 0
+    total_w_mimetype = 0
+    total_w_egff = 0
     for page in site.page_embeddedin(template):
         # Check if it's an electronic file format:
         eff = False
@@ -107,21 +114,28 @@ def enumerate_ff_formats(site):
             if cat.title() == "Category:Electronic File Formats":
                 eff = True
         if not eff:
+            print("Skipping page '%s' as it is not categorised as an electronic file format." % page.title())
             continue
         # Pick out the useful data:
         fmt = {}
         fmt['name'] = page.title()
+        fmt['source'] = page.title(asUrl=True)
         for t in page.templatesWithParams():
             if t[0].title() == "Template:Ext":
                 fmt["extension"] = t[1]
+                total_w_extension += 1
             elif t[0].title() == "Template:Mimetype":
                 fmt["mimetype"] = t[1]
+                total_w_mimetype += 1
             elif t[0].title() == "Template:PRONOM":
                 fmt["pronom"] = t[1]
+                total_w_pronom += 1
             elif t[0].title() == "Template:LoCFDD":
                 fmt["fdd"] = t[1]
+                total_w_fdd += 1
             elif t[0].title() == "Template:EGFF":
                 fmt["egff"] = t[1]
+                total_w_egff += 1
             elif t[0].title() == "Template:FormatInfo":
                 for param in t[1]:
                     if param.startswith('released='):
@@ -135,8 +149,16 @@ def enumerate_ff_formats(site):
         formats.append(fmt)
 
     # And write out:
+    source['formats'] = formats
+    source['stats']['total_formats'] = total_formats
+    source['stats']['total_w_egff'] = total_w_egff
+    source['stats']['total_w_fdd'] = total_w_fdd
+    source['stats']['total_w_pronom'] = total_w_pronom
+    source['stats']['total_w_mimetype'] = total_w_mimetype
+    source['stats']['total_w_extension'] = total_w_extension
+    source['source_prefix'] = "http://fileformats.archiveteam.org/wiki/"
     with open("registries/mediawikis/ff.yml", 'w') as outfile:
-        outfile.write( yaml.safe_dump(formats, default_flow_style=False) ) 
+        outfile.write( yaml.safe_dump(source, default_flow_style=False) ) 
 
 
 # Process a site:
