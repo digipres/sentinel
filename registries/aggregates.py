@@ -254,7 +254,7 @@ def aggregateFFW():
         finfo['extensions'] = []
         finfo['mimetypes'] = []
         finfo['hasMagic'] = False
-        fid = fmt['name']
+        fid = fmt['name'].lower()
         for key in fmt:
             if key == 'extensions':
                 for ext in fmt[key]:
