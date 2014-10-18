@@ -242,12 +242,37 @@ def aggregateTika():
         # Also record the XML error, if there was one:
         fmts[rid]['warnings'] += warnings
 
+def aggregateFFW():
+    rid = "ffw"
+    print("Parsing %s..." % rid)
+    stream = open("registries/mediawikis/ffw.yml", 'r')
+    ffw = yaml.load(stream)
+    stream.close()
+
+    for fmt in ffw['formats']:
+        finfo = {}
+        finfo['extensions'] = []
+        finfo['mimetypes'] = []
+        finfo['hasMagic'] = False
+        fid = fmt['name']
+        for key in fmt:
+            if key == 'extensions':
+                for ext in fmt[key]:
+                    finfo['extensions'].append("*.%s" % ext)
+            else:
+                finfo[key] = fmt[key]
+        #
+        addFormat(rid,fid,finfo)
+
+
+
 # Set up hashtables to fill:
 exts = {}
 mimes = {}
 fmts = {}
 
 # Grab the data:
+aggregateFFW()
 aggregateTika()
 aggregatePronom()
 aggregateTRiD()

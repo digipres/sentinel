@@ -35,46 +35,46 @@ formats:
   - fdd000241
   name: Cameras and Digital Image Sensors
   source: Cameras_and_Digital_Image_Sensors
-- extension:
+- extensions:
   - htm
-  mimetype:
+  mimetypes:
   - text/html
   name: HTML
   released: '1990'
   source: HTML
-- extension:
+- extensions:
   - prc
   name: MOBI
   source: MOBI
-- extension:
+- extensions:
   - azw3
   name: AZW
   source: AZW
-- extension:
+- extensions:
   - epub
-  mimetype:
+  mimetypes:
   - application/epub+zip
   name: EPUB
   pronom:
   - fmt/483
   source: EPUB
-- extension:
+- extensions:
   - txt
-  mimetype:
+  mimetypes:
   - text/plain
   name: TXT
   source: TXT
 - name: Web
   released: '1990'
   source: Web
-- extension:
+- extensions:
   - css
-  mimetype:
+  mimetypes:
   - text/css
   name: Cascading Style Sheets
   released: '1996'
   source: Cascading_Style_Sheets
-- extension:
+- extensions:
   - bik
   name: Bink Video
   source: Bink_Video
@@ -82,7 +82,7 @@ formats:
   source: 3D_and_CAD/CAM_Models
 - name: Databases
   source: Databases
-- extension:
+- extensions:
   - egg
   name: EGG
   source: EGG
@@ -98,11 +98,11 @@ formats:
   source: Error_Code_Modeler
 - name: Serialization
   source: Serialization
-- extension:
+- extensions:
   - plist
   name: Property List
   source: Property_List
-- extension:
+- extensions:
   - plist
   name: Property List/Binary
   source: Property_List/Binary
@@ -115,17 +115,17 @@ formats:
 - name: Written Languages
   released: ~4000 BC
   source: Written_Languages
-- extension:
+- extensions:
   - markdn
-  mimetype:
+  mimetypes:
   - text/x-markdown
   name: Markdown
   source: Markdown
-- extension:
+- extensions:
   - nsf
   name: NES Sound Format
   source: NES_Sound_Format
-- extension:
+- extensions:
   - imp
   name: IMP
   source: IMP
@@ -133,11 +133,11 @@ formats:
   source: Impression
 - name: TechWriter
   source: TechWriter
-- extension:
+- extensions:
   - shi
   name: SHI
   source: SHI
-- extension:
+- extensions:
   - sho
   name: SHO
   source: SHO
@@ -145,28 +145,28 @@ formats:
   source: Disk_cartridge
 - name: SyQuest
   source: SyQuest
-- extension:
+- extensions:
   - abw.gz
   name: AbiWord
   source: AbiWord
-- extension:
+- extensions:
   - doc
-  mimetype:
+  mimetypes:
   - application/vnd.ms-word
   name: DOC
   source: DOC
-- extension:
+- extensions:
   - zip
   fdd:
   - fdd000361
-  mimetype:
+  mimetypes:
   - application/zip
   name: ZIP
   pronom:
   - x-fmt/263
   released: '1989'
   source: ZIP
-- extension:
+- extensions:
   - ark
   name: ARC (compression format)
   released: '1985'
@@ -183,84 +183,84 @@ formats:
   source: Text-based_data
 - name: E-Mail, newsgroups, and forums
   source: E-Mail%2C_newsgroups%2C_and_forums
-- extension:
+- extensions:
   - eml
   fdd:
   - fdd000388
-  mimetype:
+  mimetypes:
   - message/rfc822
   name: Internet e-mail message format
   pronom:
   - fmt/278
   released: '1977'
   source: Internet_e-mail_message_format
-- extension:
+- extensions:
   - psf1lib
   name: PSF1
   source: PSF1
-- extension:
+- extensions:
   - psf2lib
   name: PSF2
   source: PSF2
-- extension:
+- extensions:
   - ssflib
   name: SSF
   source: SSF
-- extension:
+- extensions:
   - dsflib
   name: DSF
   source: DSF
-- extension:
+- extensions:
   - usflib
   name: USF
   source: USF
-- extension:
+- extensions:
   - gsflib
   name: GSF
   source: GSF
-- extension:
+- extensions:
   - qsflib
   name: QSF
   source: QSF
 - name: Paper
   released: ~200 BC
   source: Paper
-- extension:
+- extensions:
   - snsflib
   name: SNSF
   source: SNSF
-- extension:
+- extensions:
   - acorn
   name: Acorn Sprite
   source: Acorn_Sprite
-- extension:
+- extensions:
   - psflib
   name: Portable Sound Format
   source: Portable_Sound_Format
 - name: Acorn Font
   source: Acorn_Font
-- extension:
+- extensions:
   - psf
   name: Soundfactory
   source: Soundfactory
-- extension:
+- extensions:
   - smap
   name: 2SF
   source: 2SF
-- extension:
+- extensions:
   - s3m
   name: Scream Tracker 3 module
   source: Scream_Tracker_3_module
-- extension:
+- extensions:
   - svg
-  mimetype:
+  mimetypes:
   - image/svg+xml
   name: Scalable Vector Graphics
   source: Scalable_Vector_Graphics
 - name: Programming Languages
   released: ~1950
   source: Programming_Languages
-- extension:
+- extensions:
   - dwc
   name: DWC
   released: '1986'
@@ -269,21 +269,21 @@ formats:
   source: Acorn_Draw
 - name: ADFS
   source: ADFS
-- extension:
+- extensions:
   - '669'
   name: Composer 669 module
   source: Composer_669_module
-- extension:
+- extensions:
   - mss
   name: Advanced Mario Sequencer file
   source: Advanced_Mario_Sequencer_file
-- extension:
+- extensions:
   - msq
   name: Mario Sequencer file
   source: Mario_Sequencer_file
 - name: Mario Paint Composer
   source: Mario_Paint_Composer
-- extension:
+- extensions:
   - nsd
   name: NSD
   source: NSD
@@ -295,9 +295,9 @@ formats:
   source: Quipu
 - name: ISZ
   source: ISZ
-- extension:
+- extensions:
   - iff
-  mimetype:
+  mimetypes:
   - audio/x-8svx
   name: 8-Bit Sampled Voice
   pronom:
@@ -320,36 +320,36 @@ formats:
 - name: Spoken Languages
   released: ~100,000 BC
   source: Spoken_Languages
-- extension:
+- extensions:
   - udf
   name: Softdisk Publishing UDF files
   source: Softdisk_Publishing_UDF_files
 - name: Geospatial
   source: Geospatial
-- extension:
+- extensions:
   - zip
   name: Z-code
   source: Z-code
-- extension:
+- extensions:
   - mdl
   name: Digitrakker module
   source: Digitrakker_module
-- extension:
+- extensions:
   - taf
   name: ADRIFT
   source: ADRIFT
 - name: Piano Rolls
   released: '1896'
   source: Piano_Rolls
-- extension:
+- extensions:
   - b00
   name: BOO
   source: BOO
-- extension:
+- extensions:
   - evt
   name: EVT
   source: EVT
-- extension:
+- extensions:
   - evt
   name: ELECTONE
   source: ELECTONE
@@ -357,7 +357,7 @@ formats:
   source: MDR_%28Floppy_Disk%29
 - name: Mind maps, Topic maps etc
   source: Mind_maps%2C_Topic_maps_etc
-- extension:
+- extensions:
   - glb
   name: Blorb
   source: Blorb
@@ -375,35 +375,35 @@ formats:
   source: Help_files
 - name: Scientific Data formats
   source: Scientific_Data_formats
-- extension:
+- extensions:
   - cif
-  mimetype:
+  mimetypes:
   - chemical/x-cif
   name: CIF
   source: CIF
 - name: User:AndyJackson/CIF
   source: User%3AAndyJackson/CIF
-- extension:
+- extensions:
   - cml
-  mimetype:
+  mimetypes:
   - chemical/x-cml
   name: CML
   source: CML
-- extension:
+- extensions:
   - csv
-  mimetype:
+  mimetypes:
   - text/comma-separated-values
   name: CSV
   pronom:
   - x-fmt/18
   source: CSV
-- extension:
+- extensions:
   - uop
   name: UOF
   source: UOF
-- extension:
+- extensions:
   - xml
-  mimetype:
+  mimetypes:
   - text/xml
   name: XML
   pronom:
@@ -412,45 +412,45 @@ formats:
   source: XML
 - name: ISO/IEC 7813
   source: ISO/IEC_7813
-- extension:
+- extensions:
   - sgml
-  mimetype:
+  mimetypes:
   - text/sgml
   name: SGML
   source: SGML
-- extension:
+- extensions:
   - docx
-  mimetype:
+  mimetypes:
   - application/vnd.openxmlformats-officedocument.wordprocessingml.document
   name: DOCX
   source: DOCX
 - name: Magnetic stripe card
   source: Magnetic_stripe_card
-- extension:
+- extensions:
   - ppt
-  mimetype:
+  mimetypes:
   - application/vnd.ms-powerpoint
   name: PPT
   pronom:
   - fmt/126
   source: PPT
-- extension:
+- extensions:
   - pptx
-  mimetype:
+  mimetypes:
   - application/vnd.openxmlformats-officedocument.presentationml.presentation
   name: PPTX
   source: PPTX
-- extension:
+- extensions:
   - xlsx
-  mimetype:
+  mimetypes:
   - application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
   name: XLSX
   source: XLSX
-- extension:
+- extensions:
   - wave
   fdd:
   - fdd000357
-  mimetype:
+  mimetypes:
   - audio/x-pn-wav
   name: WAV
   pronom:
@@ -470,30 +470,30 @@ formats:
   source: UTF-8
 - name: Text Encoding Initiative
   source: Text_Encoding_Initiative
-- extension:
+- extensions:
   - pyd
   name: Python
   released: '1991'
   source: Python
-- extension:
+- extensions:
   - rst
   name: ReStructuredText
   source: ReStructuredText
-- extension:
+- extensions:
   - yaml
   name: YAML
   source: YAML
-- extension:
+- extensions:
   - mm
-  mimetype:
+  mimetypes:
   - application/x-freemind
   name: Mm
   source: Mm
 - name: Mind Manager formats
   source: Mind_Manager_formats
-- extension:
+- extensions:
   - ods
-  mimetype:
+  mimetypes:
   - application/vnd.oasis.opendocument.spreadsheet
   name: OpenDocument Spreadsheet
   pronom:
@@ -503,27 +503,27 @@ formats:
 - name: Unicode
   released: '1991'
   source: Unicode
-- extension:
+- extensions:
   - json
-  mimetype:
+  mimetypes:
   - application/json
   name: JSON
   source: JSON
-- extension:
+- extensions:
   - cdf
   name: CDF
   source: CDF
-- extension:
+- extensions:
   - hdf
-  mimetype:
+  mimetypes:
   - application/x-hdf
   name: HDF
   source: HDF
-- extension:
+- extensions:
   - nc
   fdd:
   - fdd000339
-  mimetype:
+  mimetypes:
   - application/netcdf
   name: NetCDF
   pronom:
@@ -534,25 +534,25 @@ formats:
 - name: Morse code
   released: '1836'
   source: Morse_code
-- extension:
+- extensions:
   - xml
   name: Early Mind Manager XML format
   source: Early_Mind_Manager_XML_format
 - name: ISO 646
   source: ISO_646
-- extension:
+- extensions:
   - txt
   name: Inform
   source: Inform
-- extension:
+- extensions:
   - gblorb
   name: Glulx
   source: Glulx
-- extension:
+- extensions:
   - fig
   name: Fig
   source: Fig
-- extension:
+- extensions:
   - bru
   name: BRU
   source: BRU
@@ -560,7 +560,7 @@ formats:
   source: Windows_1252
 - name: Macintosh encodings
   source: Macintosh_encodings
-- extension:
+- extensions:
   - nmind
   name: Nmind
   source: Nmind
@@ -568,7 +568,7 @@ formats:
   source: Encryption
 - name: ROT13
   source: ROT13
-- extension:
+- extensions:
   - iff
   fdd:
   - fdd000115
@@ -576,11 +576,11 @@ formats:
   pronom:
   - x-fmt/157
   source: IFF
-- extension:
+- extensions:
   - spk
   name: Spark
   source: Spark
-- extension:
+- extensions:
   - tif
   fdd:
   - fdd000279
@@ -588,11 +588,11 @@ formats:
   pronom:
   - fmt/155
   source: GeoTIFF
-- extension:
+- extensions:
   - sas7dat
   name: SAS
   source: SAS
-- extension:
+- extensions:
   - arff
   name: Attribute-Relation File Format
   source: Attribute-Relation_File_Format
@@ -602,13 +602,13 @@ formats:
   source: Intel_HEX
 - name: PETSCII
   source: PETSCII
-- extension:
+- extensions:
   - exe
   name: EXE
   source: EXE
 - name: COFF
   source: COFF
-- extension:
+- extensions:
   - flx
   name: FLIC
   pronom:
@@ -618,73 +618,73 @@ formats:
   source: Source_code
 - name: QCDml
   source: QCDml
-- extension:
+- extensions:
   - jp2
   fdd:
   - fdd000193
-  mimetype:
+  mimetypes:
   - image/jp2
   name: JP2
   pronom:
   - x-fmt/392
   source: JP2
-- extension:
+- extensions:
   - ome.tiff
   name: OME-TIFF
   source: OME-TIFF
 - name: Bar codes
   source: Bar_codes
-- extension:
+- extensions:
   - ome.xml
   name: OME-XML
   source: OME-XML
 - name: ROM and memory images
   source: ROM_and_memory_images
-- extension:
+- extensions:
   - icalendar
-  mimetype:
+  mimetypes:
   - text/calendar
   name: ICalendar
   source: ICalendar
-- extension:
+- extensions:
   - org
   name: Org-mode
   source: Org-mode
-- extension:
+- extensions:
   - ged
   name: GEDCOM
   released: '1984'
   source: GEDCOM
-- extension:
+- extensions:
   - chi
   name: ChiWriter
   pronom:
   - fmt/300
   released: '1986'
   source: ChiWriter
-- extension:
+- extensions:
   - eas
   name: EAS3
   source: EAS3
-- extension:
+- extensions:
   - all
   name: ALL
   source: ALL
-- extension:
+- extensions:
   - arr
   name: ARR
   source: ARR
-- extension:
+- extensions:
   - npr
   name: CUBASE
   source: CUBASE
 - name: ELF
   source: ELF
-- extension:
+- extensions:
   - pdf
   fdd:
   - fdd000312
-  mimetype:
+  mimetypes:
   - application/pdf
   name: PDF
   pronom:
@@ -692,31 +692,31 @@ formats:
   source: PDF
 - name: Guitar tablatures
   source: Guitar_tablatures
-- extension:
+- extensions:
   - sxw
-  mimetype:
+  mimetypes:
   - application/vnd.sun.xml.writer
   name: SXW
   source: SXW
 - name: Fonts
   source: Fonts
-- extension:
+- extensions:
   - sdw
   name: SDW
   source: SDW
-- extension:
+- extensions:
   - sxi
   name: SXI
   source: SXI
-- extension:
+- extensions:
   - sdc
   name: SDC
   source: SDC
-- extension:
+- extensions:
   - gam
   name: TADS
   source: TADS
-- extension:
+- extensions:
   - wp2
   name: WP2
   source: WP2
@@ -736,7 +736,7 @@ formats:
 - egff:
   - grasp
   - GRASP File Format Summary
-  extension:
+  extensions:
   - gl
   name: GRASP GL
   released: "\u22641986"
@@ -744,7 +744,7 @@ formats:
 - egff:
   - pictor
   - Pictor PC Paint File Format Summary
-  extension:
+  extensions:
   - clp
   name: PICtor
   pronom:
@@ -755,13 +755,13 @@ formats:
 - egff:
   - os2bmp
   - OS/2 Bitmap File Format Summary
-  extension:
+  extensions:
   - bga
   name: OS/2 BMP
   pronom:
   - x-fmt/270
   source: OS/2_BMP
-- extension:
+- extensions:
   - arj
   name: ARJ
   pronom:
@@ -770,9 +770,9 @@ formats:
 - egff:
   - pcx
   - PCX File Format Summary
-  extension:
+  extensions:
   - pcc
-  mimetype:
+  mimetypes:
   - image/x-pcx
   name: PCX
   pronom:
@@ -781,67 +781,67 @@ formats:
 - egff:
   - psd
   - Adobe Photoshop File Format Summary
-  extension:
+  extensions:
   - psd
   name: PSD
   pronom:
   - x-fmt/92
   source: PSD
-- extension:
+- extensions:
   - aff
-  mimetype:
+  mimetypes:
   - audio/aiff
   name: AIFF
   pronom:
   - x-fmt/136
   source: AIFF
-- extension:
+- extensions:
   - aifc
   name: AIFC
   source: AIFC
-- extension:
+- extensions:
   - t3
   name: TADS 3
   source: TADS_3
 - egff:
   - gif
   - GIF File Format Summary
-  extension:
+  extensions:
   - gif
   fdd:
   - fdd000133
-  mimetype:
+  mimetypes:
   - image/gif
   name: GIF
   pronom:
   - fmt/4
   released: '1987'
   source: GIF
-- extension:
+- extensions:
   - lib
   name: AR
   source: AR
 - egff:
   - png
   - PNG File Format Summary
-  extension:
+  extensions:
   - png
   fdd:
   - fdd000153
-  mimetype:
+  mimetypes:
   - image/png
   name: PNG
   pronom:
   - fmt/11
   released: '1996'
   source: PNG
-- extension:
+- extensions:
   - hex
   name: Hugo
   source: Hugo
 - name: Magneto-optical drive
   source: Magneto-optical_drive
-- extension:
+- extensions:
   - xcfbz2
   name: XCF
   pronom:
@@ -850,29 +850,29 @@ formats:
 - egff:
   - fits
   - FITS File Format Summary
-  extension:
+  extensions:
   - fts
   fdd:
   - fdd000317
-  mimetype:
+  mimetypes:
   - application/fits
   name: Flexible Image Transport System
   pronom:
   - x-fmt/383
   source: Flexible_Image_Transport_System
-- extension:
+- extensions:
   - dta
   name: Stata
   source: Stata
-- extension:
+- extensions:
   - tz
-  mimetype:
+  mimetypes:
   - application/x-tar
   name: Tape Archive
   pronom:
   - x-fmt/265
   source: Tape_Archive
-- extension:
+- extensions:
   - sav
   name: GB
   source: GB
@@ -882,9 +882,9 @@ formats:
   source: Baudot_code
 - name: Adobe Standard Encoding
   source: Adobe_Standard_Encoding
-- extension:
+- extensions:
   - djvu
-  mimetype:
+  mimetypes:
   - image/vnd.djvu
   name: DjVu
   pronom:
@@ -896,13 +896,13 @@ formats:
   source: PRONOM
 - name: Development
   source: Development
-- extension:
+- extensions:
   - vot
-  mimetype:
+  mimetypes:
   - application/x-votable+xml
   name: VOTable
   source: VOTable
-- extension:
+- extensions:
   - sdf
   name: Starlink Data Format
   source: Starlink_Data_Format
@@ -913,11 +913,11 @@ formats:
 - name: Comics
   released: '1895'
   source: Comics
-- extension:
+- extensions:
   - jif
   fdd:
   - fdd000019
-  mimetype:
+  mimetypes:
   - image/jpeg
   name: JPEG
   pronom:
@@ -927,11 +927,11 @@ formats:
 - egff:
   - tiff
   - TIFF File Format Summary
-  extension:
+  extensions:
   - tiff
   fdd:
   - fdd000022
-  mimetype:
+  mimetypes:
   - image/tiff
   name: TIFF
   pronom:
@@ -943,7 +943,7 @@ formats:
   source: Submission_Information_Package
 - name: OAIS
   source: OAIS
-- extension:
+- extensions:
   - sdf
   name: Simple Data format
   source: Simple_Data_format
@@ -951,27 +951,27 @@ formats:
   source: Tabular_Data_Package
 - name: Structure Data File
   source: Structure_Data_File
-- extension:
+- extensions:
   - '128'
   name: Soundtrakker 128 module
   source: Soundtrakker_128_module
-- extension:
+- extensions:
   - 1tm
   name: 1tracker module
   source: 1tracker_module
-- extension:
+- extensions:
   - fdi
   name: FDI
   source: FDI
-- extension:
+- extensions:
   - td0
   name: TD0
   source: TD0
-- extension:
+- extensions:
   - d81
   name: D64
   source: D64
-- extension:
+- extensions:
   - g64
   name: G64
   source: G64
@@ -979,7 +979,7 @@ formats:
   source: IPF
 - name: Magnetic tape
   source: Magnetic_tape
-- extension:
+- extensions:
   - dxf
   name: DXF
   pronom:
@@ -987,15 +987,15 @@ formats:
   source: DXF
 - name: Audio Cassette
   source: Audio_Cassette
-- extension:
+- extensions:
   - dwg
-  mimetype:
+  mimetypes:
   - drawing/dwg
   name: DWG
   source: DWG
-- extension:
+- extensions:
   - max
-  mimetype:
+  mimetypes:
   - image/x-3ds
   name: 3DS
   source: 3DS
@@ -1006,7 +1006,7 @@ formats:
 - egff:
   - bdf
   - BDF File Format Summary
-  extension:
+  extensions:
   - bdf
   name: BDF
   source: BDF
@@ -1014,21 +1014,21 @@ formats:
   source: Linear_Tape_File_System
 - name: BUFR
   source: BUFR
-- extension:
+- extensions:
   - sdo
   name: Standard Delay Format
   source: Standard_Delay_Format
 - name: Akai Disk Format
   source: Akai_Disk_Format
-- extension:
+- extensions:
   - mat
   name: MAT
   source: MAT
-- extension:
+- extensions:
   - nrw
   name: Nikon
   source: Nikon
-- extension:
+- extensions:
   - dng
   fdd:
   - fdd000188
@@ -1059,44 +1059,44 @@ formats:
   source: NTSC
 - name: DOL
   source: DOL
-- extension:
+- extensions:
   - a2w
   name: Adlib Tracker II instrument bank
   source: Adlib_Tracker_II_instrument_bank
-- extension:
+- extensions:
   - a2i
   name: Adlib Tracker II instrument
   source: Adlib_Tracker_II_instrument
-- extension:
+- extensions:
   - a2t
   name: Adlib Tracker II module
   source: Adlib_Tracker_II_module
-- extension:
+- extensions:
   - a2p
   name: Adlib Tracker II pattern
   source: Adlib_Tracker_II_pattern
-- extension:
+- extensions:
   - ym
   name: YM
   source: YM
-- extension:
+- extensions:
   - dmf
   name: D-Lusion Music File
   source: D-Lusion_Music_File
-- extension:
+- extensions:
   - dtm
   name: DigiTrekker module
   source: DigiTrekker_module
 - name: U-matic HB
   released: '1982'
   source: U-matic_HB
-- extension:
+- extensions:
   - j
   name: Jar
   pronom:
   - x-fmt/412
   source: Jar
-- extension:
+- extensions:
   - flac
   name: FLAC
   pronom:
@@ -1104,23 +1104,23 @@ formats:
   source: FLAC
 - name: Finance and Accounting
   source: Finance_and_Accounting
-- extension:
+- extensions:
   - ace
   name: ACE
   source: ACE
-- extension:
+- extensions:
   - rar
-  mimetype:
+  mimetypes:
   - application/x-rar-compressed
   name: RAR
   pronom:
   - fmt/613
   source: RAR
-- extension:
+- extensions:
   - hlp
   name: HLP (WinHelp)
   source: HLP_%28WinHelp%29
-- extension:
+- extensions:
   - def
   name: PSI-MI XML
   source: PSI-MI_XML
@@ -1136,67 +1136,67 @@ formats:
   source: Hi8
 - name: MiniDV
   source: MiniDV
-- extension:
+- extensions:
   - aax
   name: Audible Audiobook
   source: Audible_Audiobook
-- extension:
+- extensions:
   - ses
   name: Cool Edit / Audition Multi Track Session file
   source: Cool_Edit_/_Audition_Multi_Track_Session_file
-- extension:
+- extensions:
   - far
   name: Farandole Composer module
   source: Farandole_Composer_module
-- extension:
+- extensions:
   - usm
   name: Farandole Composer sample
   source: Farandole_Composer_sample
-- extension:
+- extensions:
   - fpt
   name: Farandole Composer pattern
   source: Farandole_Composer_pattern
-- extension:
+- extensions:
   - f2r
   name: Farandole Form 2.0
   source: Farandole_Form_2.0
-- extension:
+- extensions:
   - fnk
   name: FunkTracker module
   source: FunkTracker_module
 - name: MITAB
   source: MITAB
-- extension:
+- extensions:
   - edl
   name: EdLib packed module
   source: EdLib_packed_module
-- extension:
+- extensions:
   - itz
   name: Impulse Tracker module
   source: Impulse_Tracker_module
-- extension:
+- extensions:
   - mtm
   name: Multi Track Module
   source: Multi_Track_Module
-- extension:
+- extensions:
   - ptm
   name: Poly Tracker module
   source: Poly_Tracker_module
-- extension:
+- extensions:
   - pt1
   name: Pro Tracker v1.xx module
   source: Pro_Tracker_v1.xx_module
-- extension:
+- extensions:
   - pt2
   name: Pro Tracker v2.xx module
   source: Pro_Tracker_v2.xx_module
-- extension:
+- extensions:
   - pt3
   name: Pro Tracker v3.xx module
   source: Pro_Tracker_v3.xx_module
 - name: PSI-PAR
   source: PSI-PAR
-- extension:
+- extensions:
   - mzml
   name: MzML
   source: MzML
@@ -1204,33 +1204,33 @@ formats:
   source: ATASCII
 - name: ISO 8859
   source: ISO_8859
-- extension:
+- extensions:
   - mp3
   fdd:
   - fdd000105
-  mimetype:
+  mimetypes:
   - audio/mpeg
   name: MP3
   pronom:
   - fmt/134
   released: '1993'
   source: MP3
-- extension:
+- extensions:
   - f3m
   name: Softdisk Family Tree
   released: '1987'
   source: Softdisk_Family_Tree
-- extension:
+- extensions:
   - lst
   name: Exact
   source: Exact
 - name: Planets Core Registry
   source: Planets_Core_Registry
-- extension:
+- extensions:
   - pub
   name: Microsoft Publisher
   source: Microsoft_Publisher
-- extension:
+- extensions:
   - dbf
   name: DBase III
   pronom:
@@ -1248,12 +1248,12 @@ formats:
   source: Game_cartridges
 - name: ISO 8859-1
   source: ISO_8859-1
-- extension:
+- extensions:
   - text
   name: ScreenWriter II
   released: '1981'
   source: ScreenWriter_II
-- extension:
+- extensions:
   - lyr
   name: LBR
   source: LBR
@@ -1261,11 +1261,11 @@ formats:
   source: JIS_X_0201
 - name: CP/M file system
   source: CP/M_file_system
-- extension:
+- extensions:
   - dsk
   name: DSK (CPCEMU)
   source: DSK_%28CPCEMU%29
-- extension:
+- extensions:
   - txt
   name: PC-Write
   released: '1983'
@@ -1274,7 +1274,7 @@ formats:
   pronom:
   - x-cmp/16
   source: DEFLATE
-- extension:
+- extensions:
   - ddb
   fdd:
   - fdd000189
@@ -1293,7 +1293,7 @@ formats:
   source: DNA
 - name: RNA
   source: RNA
-- extension:
+- extensions:
   - tif
   fdd:
   - fdd000073
@@ -1301,7 +1301,7 @@ formats:
   pronom:
   - fmt/154
   source: TIFF/EP
-- extension:
+- extensions:
   - tif
   fdd:
   - fdd000072
@@ -1313,7 +1313,7 @@ formats:
 - egff:
   - tga
   - TGA File Format Summary
-  extension:
+  extensions:
   - vst
   fdd:
   - fdd000180
@@ -1333,22 +1333,22 @@ formats:
   source: LZW
 - name: PUID
   source: PUID
-- extension:
+- extensions:
   - arc
   name: ARC (Internet Archive)
   released: '1996'
   source: ARC_%28Internet_Archive%29
-- extension:
+- extensions:
   - zoo
   name: ZOO
   pronom:
   - x-fmt/269
   source: ZOO
-- extension:
+- extensions:
   - bas
   name: Tokenized BASIC
   source: Tokenized_BASIC
-- extension:
+- extensions:
   - warc.gz
   name: WARC
   pronom:
@@ -1356,47 +1356,47 @@ formats:
   source: WARC
 - name: CRC
   source: CRC
-- extension:
+- extensions:
   - sid
   fdd:
   - fdd000184
-  mimetype:
+  mimetypes:
   - image/x-mrsid
   name: MrSID
   pronom:
   - fmt/392
   source: MrSID
-- extension:
+- extensions:
   - abk
   name: AMOS Music Bank
   source: AMOS_Music_Bank
-- extension:
+- extensions:
   - abk
   name: User:Halftheisland/Template
   source: User%3AHalftheisland/Template
-- extension:
+- extensions:
   - rad
   name: Reality AdLib Tracker module
   source: Reality_AdLib_Tracker_module
 - name: Clay tablets
   released: ~3000 BC
   source: Clay_tablets
-- extension:
+- extensions:
   - dbf
   name: Shapefile
   pronom:
   - x-fmt/235
   source: Shapefile
-- extension:
+- extensions:
   - kmz
-  mimetype:
+  mimetypes:
   - application/vnd.google-earth.kmz
   name: KML
   pronom:
   - fmt/244
   released: '2008'
   source: KML
-- extension:
+- extensions:
   - aas
   name: AAS
   source: AAS
@@ -1406,31 +1406,31 @@ formats:
   source: AGT
 - name: GAGS
   source: GAGS
-- extension:
+- extensions:
   - e00
   name: E00
   pronom:
   - x-fmt/226
   source: E00
-- extension:
+- extensions:
   - hdf
   fdd:
   - fdd000228
-  mimetype:
+  mimetypes:
   - application/x-hdf
   name: HDF4
   source: HDF4
-- extension:
+- extensions:
   - asf
   fdd:
   - fdd000067
-  mimetype:
+  mimetypes:
   - application/vnd.ms-asf
   name: ASF
   pronom:
   - fmt/131
   source: ASF
-- extension:
+- extensions:
   - h5
   fdd:
   - fdd000229
@@ -1440,83 +1440,83 @@ formats:
   source: HDF5
 - name: VOB
   source: VOB
-- extension:
+- extensions:
   - jpx
   fdd:
   - fdd000154
-  mimetype:
+  mimetypes:
   - image/jpx
   name: JPX
   pronom:
   - fmt/151
   source: JPX
-- extension:
+- extensions:
   - csf
   name: PCRaster Map
   source: PCRaster_Map
-- extension:
+- extensions:
   - jpm
   fdd:
   - fdd000144
-  mimetype:
+  mimetypes:
   - image/jpm
   name: JPM
   pronom:
   - fmt/463
   source: JPM
-- extension:
+- extensions:
   - adv
   name: AdvSys
   source: AdvSys
-- extension:
+- extensions:
   - sou
   name: SBStudio module
   source: SBStudio_module
-- extension:
+- extensions:
   - mjp2
   fdd:
   - fdd000127
-  mimetype:
+  mimetypes:
   - video/mj2
   name: MJ2
   pronom:
   - fmt/337
   source: MJ2
-- extension:
+- extensions:
   - sa2
   name: Surprise! Adlib Tracker v2.0
   source: Surprise%21_Adlib_Tracker_v2.0
-- extension:
+- extensions:
   - ult
   name: Ultra Tracker
   source: Ultra_Tracker
-- extension:
+- extensions:
   - acq
   name: ACQ
   source: ACQ
-- extension:
+- extensions:
   - head
   name: BRIK/HEAD
   source: BRIK/HEAD
-- extension:
+- extensions:
   - dic
   name: DICOM
   pronom:
   - fmt/574
   released: '1985'
   source: DICOM
-- extension:
+- extensions:
   - wsd
   name: WordStar
   released: '1978'
   source: WordStar
-- extension:
+- extensions:
   - xm
   name: Extended Module
   pronom:
   - fmt/323
   source: Extended_Module
-- extension:
+- extensions:
   - gs9
   name: Genecyst Save State
   source: Genecyst_Save_State
@@ -1524,47 +1524,47 @@ formats:
   - fdd000011
   name: LPCM
   source: LPCM
-- extension:
+- extensions:
   - gsv
   name: Genecyst Backup RAM
   source: Genecyst_Backup_RAM
-- extension:
+- extensions:
   - gns
   name: Genital Save State
   source: Genital_Save_State
-- extension:
+- extensions:
   - acm
   name: Interplay ACM
   source: Interplay_ACM
-- extension:
+- extensions:
   - wq1
   name: WQ1
   pronom:
   - x-fmt/121
   source: WQ1
-- extension:
+- extensions:
   - wq2
   name: WQ2
   pronom:
   - x-fmt/122
   source: WQ2
-- extension:
+- extensions:
   - wb1
   name: WB1
   source: WB1
-- extension:
+- extensions:
   - wb2
   name: WB2
   source: WB2
-- extension:
+- extensions:
   - wb3
   name: WB3
   source: WB3
-- extension:
+- extensions:
   - qpw
   name: QPW
   source: QPW
-- extension:
+- extensions:
   - agsc
   name: AGSC Audio File
   source: AGSC_Audio_File
@@ -1576,66 +1576,66 @@ formats:
   name: RIFF
   released: '1991'
   source: RIFF
-- extension:
+- extensions:
   - spo
   name: SPSS
   pronom:
   - fmt/638
   source: SPSS
-- extension:
+- extensions:
   - asc
-  mimetype:
+  mimetypes:
   - text/plain
   name: ASCII Art
   source: ASCII_Art
-- extension:
+- extensions:
   - ans
   name: ANSI Art
   source: ANSI_Art
-- extension:
+- extensions:
   - avi
   fdd:
   - fdd000059
-  mimetype:
+  mimetypes:
   - video/msvideo
   name: AVI
   pronom:
   - fmt/5
   released: ~1992
   source: AVI
-- extension:
+- extensions:
   - aks
   name: Arkos Tracker
   source: Arkos_Tracker
-- extension:
+- extensions:
   - nii.gz
   name: NII
   source: NII
-- extension:
+- extensions:
   - snn
   name: Statistica
   source: Statistica
-- extension:
+- extensions:
   - hdr
   name: IMG/HDR
   source: IMG/HDR
-- extension:
+- extensions:
   - nrrd
   name: NRRD
   source: NRRD
-- extension:
+- extensions:
   - imd
   name: IMD
   source: IMD
-- extension:
+- extensions:
   - qpw
   name: Quattro Pro
   source: Quattro_Pro
-- extension:
+- extensions:
   - ahx
   name: AHX (Abyss)
   source: AHX_%28Abyss%29
-- extension:
+- extensions:
   - chm
   name: CHM
   pronom:
@@ -1646,27 +1646,27 @@ formats:
   source: Ace_Film
 - name: Zig Zag Ancient Greeks
   source: Zig_Zag_Ancient_Greeks
-- extension:
+- extensions:
   - midi
   fdd:
   - fdd000119
-  mimetype:
+  mimetypes:
   - application/x-midi
   name: MIDI
   pronom:
   - x-fmt/230
   source: MIDI
-- extension:
+- extensions:
   - cmc
   name: CMC
   source: CMC
-- extension:
+- extensions:
   - gp4
   name: Guitar Pro 4
   source: Guitar_Pro_4
 - name: Apple Intermediate Codec
   source: Apple_Intermediate_Codec
-- extension:
+- extensions:
   - mss
   name: Scribe
   source: Scribe
@@ -1682,14 +1682,14 @@ formats:
   source: Euclid_%28Ace_Computing%29
 - name: Hashtags, at-signs, retweets, etc.
   source: Hashtags%2C_at-signs%2C_retweets%2C_etc.
-- extension:
+- extensions:
   - spx
-  mimetype:
+  mimetypes:
   - video/ogg
   name: OGG
   released: '1993'
   source: OGG
-- extension:
+- extensions:
   - dem
   name: DEM
   released: '1992'
@@ -1700,98 +1700,98 @@ formats:
 - name: FidoNet message packet
   released: '1984'
   source: FidoNet_message_packet
-- extension:
+- extensions:
   - pnl
   name: Pegasus Mail
   released: '1990'
   source: Pegasus_Mail
-- extension:
+- extensions:
   - wp7
   name: WordPerfect
   released: '1979'
   source: WordPerfect
-- extension:
+- extensions:
   - sap
   name: Slight Atari Player
   source: Slight_Atari_Player
-- extension:
+- extensions:
   - mj2
-  mimetype:
+  mimetypes:
   - video/mj2
   name: JPEG 2000
   source: JPEG_2000
-- extension:
+- extensions:
   - capx
   name: CapXML
   source: CapXML
-- extension:
+- extensions:
   - si7
   name: Sibelius
   source: Sibelius
-- extension:
+- extensions:
   - m
   name: Matlab
   source: Matlab
-- extension:
+- extensions:
   - php
   name: PHP
   released: '1995'
   source: PHP
-- extension:
+- extensions:
   - slb
   name: Softlib
   source: Softlib
-- extension:
+- extensions:
   - fcgi
   name: Perl
   released: '1987'
   source: Perl
-- extension:
+- extensions:
   - pas
   name: Pascal
   source: Pascal
-- extension:
+- extensions:
   - js
-  mimetype:
+  mimetypes:
   - application/javascript
   name: JavaScript
   pronom:
   - x-fmt/423
   released: '1995'
   source: JavaScript
-- extension:
+- extensions:
   - jar
   name: Java
   released: '1995'
   source: Java
-- extension:
+- extensions:
   - cm3
   name: CM3
   source: CM3
-- extension:
+- extensions:
   - cmr
   name: CMR
   source: CMR
-- extension:
+- extensions:
   - dmc
   name: DMC
   source: DMC
-- extension:
+- extensions:
   - cmf
   name: Creative Music Format
   source: Creative_Music_Format
-- extension:
+- extensions:
   - dro
   name: DOSBox Raw OPL
   source: DOSBox_Raw_OPL
 - name: God of Thunder Music Format
   released: '1993'
   source: God_of_Thunder_Music_Format
-- extension:
+- extensions:
   - ibk
   name: Instrument Bank
   source: Instrument_Bank
-- extension:
+- extensions:
   - imf
   name: Id Software Music Format
   source: Id_Software_Music_Format
@@ -1799,36 +1799,36 @@ formats:
   source: ABCD
 - name: Squash (RISC OS)
   source: Squash_%28RISC_OS%29
-- extension:
+- extensions:
   - ct
   name: CyberTracker module
   source: CyberTracker_module
-- extension:
+- extensions:
   - ci
   name: CyberTracker instrument
   source: CyberTracker_instrument
-- extension:
+- extensions:
   - dbm
   name: DigiBooster PRO v2.x / DigiBooster 3 module
   source: DigiBooster_PRO_v2.x_/_DigiBooster_3_module
-- extension:
+- extensions:
   - ddf
   name: SDTS
   source: SDTS
 - name: Byte Order Mark
   source: Byte_Order_Mark
-- extension:
+- extensions:
   - arc
   name: ARC (database backup format)
   source: ARC_%28database_backup_format%29
-- extension:
+- extensions:
   - m4a
   name: ALAC
   pronom:
   - fmt/596
   released: '2004-04-28'
   source: ALAC
-- extension:
+- extensions:
   - wvc
   name: WavPack
   released: '1998'
@@ -1838,11 +1838,11 @@ formats:
 - name: Emoticons
   released: '1982'
   source: Emoticons
-- extension:
+- extensions:
   - wpt
   name: Kingsoft Office
   source: Kingsoft_Office
-- extension:
+- extensions:
   - mdp
   name: MDA
   source: MDA
@@ -1858,39 +1858,39 @@ formats:
   source: APL_code_page
 - name: Web browser files
   source: Web_browser_files
-- extension:
+- extensions:
   - wav
   fdd:
   - fdd000357
-  mimetype:
+  mimetypes:
   - audio/x-wav
   name: BWF
   pronom:
   - fmt/2
   source: BWF
-- extension:
+- extensions:
   - bin
   name: RAW (Audio)
   source: RAW_%28Audio%29
-- extension:
+- extensions:
   - nsfe
   name: NES Sound Format Extended
   source: NES_Sound_Format_Extended
-- extension:
+- extensions:
   - ac1d
   name: AC1D-DC1A Packer
   source: AC1D-DC1A_Packer
-- extension:
+- extensions:
   - chan
   name: Channel Players
   source: Channel_Players
 - name: MBR
   source: MBR
-- extension:
+- extensions:
   - di
   name: Digital Illusions
   source: Digital_Illusions
-- extension:
+- extensions:
   - eu
   name: Eureka Packer module
   source: Eureka_Packer_module
@@ -1898,47 +1898,47 @@ formats:
   source: C0_controls
 - name: BIOS
   source: BIOS
-- extension:
+- extensions:
   - fcm
   name: FC-M Packer module
   source: FC-M_Packer_module
-- extension:
+- extensions:
   - ft
   name: Fuchs Tracker
   source: Fuchs_Tracker
-- extension:
+- extensions:
   - fuzz
   name: Fuzzac Packer module
   source: Fuzzac_Packer_module
-- extension:
+- extensions:
   - gmc
   name: Game Music Creator
   source: Game_Music_Creator
 - name: Firmware
   source: Firmware
-- extension:
+- extensions:
   - amd
   name: AMusic module
   source: AMusic_module
-- extension:
+- extensions:
   - xms
   name: XMS-Tracker module
   source: XMS-Tracker_module
-- extension:
+- extensions:
   - aps
   name: AProSys module
   source: AProSys_module
-- extension:
+- extensions:
   - rol
   name: AdLib Visual Composer / Roland Synthesizer song
   source: AdLib_Visual_Composer_/_Roland_Synthesizer_song
-- extension:
+- extensions:
   - tak
   name: TAK
   source: TAK
-- extension:
+- extensions:
   - woff
-  mimetype:
+  mimetypes:
   - application/font-woff
   name: WOFF
   pronom:
@@ -1949,38 +1949,38 @@ formats:
 - name: DVD
   released: '1995'
   source: DVD
-- extension:
+- extensions:
   - vcard
-  mimetype:
+  mimetypes:
   - text/vcard
   name: VCard
   pronom:
   - fmt/395
   released: '1995'
   source: VCard
-- extension:
+- extensions:
   - ldif
   name: LDIF
   pronom:
   - fmt/611
   source: LDIF
-- extension:
+- extensions:
   - scriv
   name: Scrivener
   source: Scrivener
-- extension:
+- extensions:
   - bnk
   name: AdLib instrument bank
   source: AdLib_instrument_bank
-- extension:
+- extensions:
   - ins
   name: Adlib Tracker instrument
   source: Adlib_Tracker_instrument
-- extension:
+- extensions:
   - sng
   name: Adlib Tracker module
   source: Adlib_Tracker_module
-- extension:
+- extensions:
   - pat
   name: MultiMate Professional Word Processor
   source: MultiMate_Professional_Word_Processor
@@ -1990,58 +1990,58 @@ formats:
 - name: Wang 1200
   released: '1972'
   source: Wang_1200
-- extension:
+- extensions:
   - amf
   name: Dual Module Player DSMI
   source: Dual_Module_Player_DSMI
-- extension:
+- extensions:
   - ast
   name: All Sound Tracker module
   source: All_Sound_Tracker_module
 - name: X.509 certificate
   source: X.509_certificate
-- extension:
+- extensions:
   - gz
-  mimetype:
+  mimetypes:
   - application/x-gzip
   name: Gzip
   pronom:
   - x-fmt/266
   source: Gzip
-- extension:
+- extensions:
   - bz2
-  mimetype:
+  mimetypes:
   - application/x-bzip2
   name: Bzip2
   pronom:
   - x-fmt/268
   released: '1997'
   source: Bzip2
-- extension:
+- extensions:
   - aon
   name: Art of Noise module
   source: Art_of_Noise_module
-- extension:
+- extensions:
   - 7z
-  mimetype:
+  mimetypes:
   - application/x-7z-compressed
   name: 7z
   pronom:
   - fmt/484
   source: 7z
-- extension:
+- extensions:
   - sndh
   name: Atari SoundHeader
   source: Atari_SoundHeader
-- extension:
+- extensions:
   - mnc
   name: MINC
   source: MINC
-- extension:
+- extensions:
   - dtp
   name: PageMagic
   source: PageMagic
-- extension:
+- extensions:
   - dtp
   name: Timeworks Publisher
   source: Timeworks_Publisher
@@ -2060,13 +2060,13 @@ formats:
   source: APAC
 - name: Dakx Wav
   source: Dakx_Wav
-- extension:
+- extensions:
   - la
   name: LA
   source: LA
 - name: LiteWave
   source: LiteWave
-- extension:
+- extensions:
   - pac
   name: LPAC
   source: LPAC
@@ -2076,7 +2076,7 @@ formats:
   source: MLP
 - name: Split2000
   source: Split2000
-- extension:
+- extensions:
   - ofs
   name: OptimFROG
   source: OptimFROG
@@ -2086,24 +2086,24 @@ formats:
   source: Sonarc
 - name: Sorenson
   source: Sorenson
-- extension:
+- extensions:
   - tnef
-  mimetype:
+  mimetypes:
   - application/vnd.ms-tnef
   name: Transport Neutral Encapsulation Format
   source: Transport_Neutral_Encapsulation_Format
 - name: Phonograph cylinder
   released: '1877'
   source: Phonograph_cylinder
-- extension:
+- extensions:
   - sqlite-shm
-  mimetype:
+  mimetypes:
   - application/x-sqlite3
   name: DB (SQLite)
   source: DB_%28SQLite%29
-- extension:
+- extensions:
   - xls
-  mimetype:
+  mimetypes:
   - application/vnd.ms-excel
   name: XLS
   source: XLS
@@ -2113,59 +2113,59 @@ formats:
   - fdd000081
   name: H.264
   source: H.264
-- extension:
+- extensions:
   - rm
   name: RealMedia
   source: RealMedia
-- extension:
+- extensions:
   - ram
-  mimetype:
+  mimetypes:
   - audio/x-pn-realaudio
   name: RealAudio
   source: RealAudio
-- extension:
+- extensions:
   - bps
   name: B's Pro Tracker module
   source: B%27s_Pro_Tracker_module
-- extension:
+- extensions:
   - bbsong
   name: Beepola song
   source: Beepola_song
-- extension:
+- extensions:
   - db
-  mimetype:
+  mimetypes:
   - application/octet-stream
   name: DB (Watcom-SQL)
   source: DB_%28Watcom-SQL%29
 - name: C1 controls
   source: C1_controls
-- extension:
+- extensions:
   - pis
   name: Beni Tracker module
   source: Beni_Tracker_module
-- extension:
+- extensions:
   - cff
   name: Boom Tracker v4.0 module
   source: Boom_Tracker_v4.0_module
-- extension:
+- extensions:
   - mp4
   name: MPEG-4
   source: MPEG-4
-- extension:
+- extensions:
   - bp
   name: Brian Postma SoundMon v1.x module
   source: Brian_Postma_SoundMon_v1.x_module
-- extension:
+- extensions:
   - brk
   name: Protein Data Bank
   source: Protein_Data_Bank
-- extension:
+- extensions:
   - pdb
   name: Visual Studio PDB
   source: Visual_Studio_PDB
 - name: Compression
   source: Compression
-- extension:
+- extensions:
   - DS_Store
   name: Desktop Services Store
   pronom:
@@ -2177,36 +2177,36 @@ formats:
   source: Firefox_cookie_database
 - name: Netscape bookmarks
   source: Netscape_bookmarks
-- extension:
+- extensions:
   - tsv
-  mimetype:
+  mimetypes:
   - text/tab-separated-values
   name: Tab delimited
   source: Tab_delimited
 - name: Column Delimited
   source: Column_Delimited
-- extension:
+- extensions:
   - bp3
   name: Brian Postma SoundMon v2.x & v3.x module
   source: Brian_Postma_SoundMon_v2.x_%26_v3.x_module
-- extension:
+- extensions:
   - sbi
   name: Sound Blaster Instrument
   source: Sound_Blaster_Instrument
-- extension:
+- extensions:
   - voc
   name: Creative Voice File
   source: Creative_Voice_File
 - name: Chrome bookmarks
   released: '2008'
   source: Chrome_bookmarks
-- extension:
+- extensions:
   - url
   name: Internet Explorer favorites
   source: Internet_Explorer_favorites
-- extension:
+- extensions:
   - url
-  mimetype:
+  mimetypes:
   - wwwserver/redirection
   name: Internet Shortcut
   pronom:
@@ -2216,7 +2216,7 @@ formats:
   source: Date_and_time_formats
 - name: Safari bookmarks
   source: Safari_bookmarks
-- extension:
+- extensions:
   - json
   name: Firefox bookmarks
   source: Firefox_bookmarks
@@ -2226,11 +2226,11 @@ formats:
   source: Mosaic_hotlists
 - name: PageMaker
   source: PageMaker
-- extension:
+- extensions:
   - dcx
   name: Dublin Core
   source: Dublin_Core
-- extension:
+- extensions:
   - ctx
   name: Softdisk Text Compressor
   released: '1993'
@@ -2245,7 +2245,7 @@ formats:
 - name: COBOL
   released: '1959'
   source: COBOL
-- extension:
+- extensions:
   - bas
   name: BASIC
   released: '1964'
@@ -2253,19 +2253,19 @@ formats:
 - name: RPG
   released: '1959'
   source: RPG
-- extension:
+- extensions:
   - ape
   name: Monkey's Audio
   source: Monkey%27s_Audio
-- extension:
+- extensions:
   - digi
   name: DigiBooster v1.x module
   source: DigiBooster_v1.x_module
-- extension:
+- extensions:
   - ist
   name: Digitrakker instrument
   source: Digitrakker_instrument
-- extension:
+- extensions:
   - spl
   name: Digitrakker sample
   source: Digitrakker_sample
@@ -2278,7 +2278,7 @@ formats:
   source: LISP
 - name: Indeo
   source: Indeo
-- extension:
+- extensions:
   - f90
   name: FORTRAN
   released: '1957'
@@ -2291,124 +2291,124 @@ formats:
   source: Stone_carving
 - name: Read Only Memory
   source: Read_Only_Memory
-- extension:
+- extensions:
   - plm
   name: DisorderTracker 2 module
   source: DisorderTracker_2_module
 - name: 35 mm slides
   source: 35_mm_slides
-- extension:
+- extensions:
   - mod
   name: Amiga Module
   source: Amiga_Module
-- extension:
+- extensions:
   - emd
   name: Extended MOD
   source: Extended_MOD
-- extension:
+- extensions:
   - ams
   name: Extreme's Tracker module
   source: Extreme%27s_Tracker_module
-- extension:
+- extensions:
   - tta
   name: True Audio
   source: True_Audio
-- extension:
+- extensions:
   - gsm
   name: GSM
   source: GSM
-- extension:
+- extensions:
   - bonk
   name: Bonk
   source: Bonk
-- extension:
+- extensions:
   - vhd
   name: VHD (Virtual Hard Disk)
   source: VHD_%28Virtual_Hard_Disk%29
-- extension:
+- extensions:
   - ico
-  mimetype:
+  mimetypes:
   - image/x-icon
   name: ICO
   pronom:
   - x-fmt/418
   source: ICO
-- extension:
+- extensions:
   - cur
   name: CUR
   source: CUR
-- extension:
+- extensions:
   - ico
-  mimetype:
+  mimetypes:
   - image/x-icon
   name: Favicon
   released: '1999'
   source: Favicon
-- extension:
+- extensions:
   - txt
   name: Robots Exclusion Standard
   source: Robots_Exclusion_Standard
-- extension:
+- extensions:
   - caf
-  mimetype:
+  mimetypes:
   - application/octet-stream
   name: Codisk Audio File
   source: Codisk_Audio_File
 - name: Web server files
   source: Web_server_files
-- extension:
+- extensions:
   - bak
   name: Temporary files
   source: Temporary_files
-- extension:
+- extensions:
   - lock
   name: Lock file
   source: Lock_file
-- extension:
+- extensions:
   - com
-  mimetype:
+  mimetypes:
   - application/octet-stream
   name: DOS executable (.com)
   source: DOS_executable_%28.com%29
-- extension:
+- extensions:
   - zzz
   name: Crunch
   source: Crunch
-- extension:
+- extensions:
   - qqq
   name: Squeeze
   source: Squeeze
-- extension:
+- extensions:
   - yyy
   name: CrLZH
   source: CrLZH
-- extension:
+- extensions:
   - ft
   name: FastTracker module
   source: FastTracker_module
-- extension:
+- extensions:
   - dex
   name: Disk Imploder
   source: Disk_Imploder
-- extension:
+- extensions:
   - imp
   name: File Imploder
   source: File_Imploder
 - name: Microsoft Office File Format Specifications
   source: Microsoft_Office_File_Format_Specifications
-- extension:
+- extensions:
   - lnx
   name: Lynx (archiver)
   source: Lynx_%28archiver%29
-- extension:
+- extensions:
   - prg
   name: Commodore 64 binary executable
   source: Commodore_64_binary_executable
-- extension:
+- extensions:
   - smod
   name: Future Composer v1.x module
   source: Future_Composer_v1.x_module
-- extension:
+- extensions:
   - gbs
   name: Game Boy Sound
   source: Game_Boy_Sound
@@ -2418,7 +2418,7 @@ formats:
 - name: Programmable calculators
   released: '1977'
   source: Programmable_calculators
-- extension:
+- extensions:
   - rbw
   name: Ruby
   released: '1995'
@@ -2441,37 +2441,37 @@ formats:
 - name: Capacitance Electronic Disc
   released: '1981'
   source: Capacitance_Electronic_Disc
-- extension:
+- extensions:
   - ue2
   name: UltraCompressor II
   released: '1994'
   source: UltraCompressor_II
-- extension:
+- extensions:
   - hex
-  mimetype:
+  mimetypes:
   - application/binhex
   name: BinHex
   pronom:
   - x-fmt/416
   released: '1981'
   source: BinHex
-- extension:
+- extensions:
   - ovf
   name: OVF (Open Virtualization Format)
   source: OVF_%28Open_Virtualization_Format%29
-- extension:
+- extensions:
   - gdm
   name: General Digital Music module
   source: General_Digital_Music_module
-- extension:
+- extensions:
   - gtk
   name: Graoumf Tracker module
   source: Graoumf_Tracker_module
-- extension:
+- extensions:
   - gt2
   name: Graoumf Tracker 2 module
   source: Graoumf_Tracker_2_module
-- extension:
+- extensions:
   - imf
   name: Imago Orpheus module
   source: Imago_Orpheus_module
@@ -2481,7 +2481,7 @@ formats:
   source: MPEG-4_SLS
 - name: RALF
   source: RALF
-- extension:
+- extensions:
   - shn
   name: Shorten
   source: Shorten
@@ -2492,7 +2492,7 @@ formats:
 - name: Dictabelt
   released: '1947'
   source: Dictabelt
-- extension:
+- extensions:
   - smp
   name: Jason Page
   source: Jason_Page
@@ -2501,56 +2501,56 @@ formats:
 - egff:
   - quicktime
   - QuickTime File Format Summary
-  extension:
+  extensions:
   - mov
-  mimetype:
+  mimetypes:
   - video/quicktime
   name: QuickTime
   pronom:
   - x-fmt/384
   source: QuickTime
-- extension:
+- extensions:
   - torrent
-  mimetype:
+  mimetypes:
   - application/x-bittorrent
   name: Torrent file
   released: '2001'
   source: Torrent_file
 - name: Bencode
   source: Bencode
-- extension:
+- extensions:
   - h
   name: Objective-C
   released: '1983'
   source: Objective-C
-- extension:
+- extensions:
   - h
   name: C
   released: '1972'
   source: C
-- extension:
+- extensions:
   - bmx
   name: Jeskola Buzz song
   source: Jeskola_Buzz_song
-- extension:
+- extensions:
   - vp
   name: VocPack
   source: VocPack
 - name: WavArc
   source: WavArc
-- extension:
+- extensions:
   - ecc
   name: DVDisaster Error Correction File
   source: DVDisaster_Error_Correction_File
-- extension:
+- extensions:
   - pui
   name: UltraEdit project file
   source: UltraEdit_project_file
-- extension:
+- extensions:
   - ksm
   name: Ken's Adlib Music
   source: Ken%27s_Adlib_Music
-- extension:
+- extensions:
   - dxf
   name: APL workspace
   source: APL_workspace
@@ -2563,31 +2563,31 @@ formats:
 - name: UNIVAC 90-column card
   released: '1930'
   source: UNIVAC_90-column_card
-- extension:
+- extensions:
   - xml
   name: Aiee!
   source: Aiee%21
-- extension:
+- extensions:
   - lds
   name: Liquid Digitized Sample
   source: Liquid_Digitized_Sample
-- extension:
+- extensions:
   - liq
   name: Liquid Tracker module
   source: Liquid_Tracker_module
-- extension:
+- extensions:
   - mt2
   name: MadTracker 2 module
   source: MadTracker_2_module
-- extension:
+- extensions:
   - sbm
   name: SCC Blaffer NT music
   source: SCC_Blaffer_NT_music
-- extension:
+- extensions:
   - sbk
   name: SCC Blaffer NT instrument kit
   source: SCC_Blaffer_NT_instrument_kit
-- extension:
+- extensions:
   - mar
   name: Mozilla Archive
   source: Mozilla_Archive
@@ -2602,19 +2602,19 @@ formats:
 - name: RTPatch
   released: '1991'
   source: RTPatch
-- extension:
+- extensions:
   - cb7
-  mimetype:
+  mimetypes:
   - application/x-cbr
   name: Comic Book Archive
   source: Comic_Book_Archive
 - name: Twitter
   source: Twitter
-- extension:
+- extensions:
   - mtr
   name: Master Tracker module
   source: Master_Tracker_module
-- extension:
+- extensions:
   - wow
   name: Grave Composer module
   source: Grave_Composer_module
@@ -2622,17 +2622,17 @@ formats:
   source: Common_Log_Format
 - name: Combined Log Format
   source: Combined_Log_Format
-- extension:
+- extensions:
   - kss
   name: KSS
   source: KSS
-- extension:
+- extensions:
   - kss
   name: KSSX
   source: KSSX
-- extension:
+- extensions:
   - webapp
-  mimetype:
+  mimetypes:
   - application/x-web-app-manifest+json
   name: Open Web App Manifest
   source: Open_Web_App_Manifest
@@ -2642,34 +2642,34 @@ formats:
   source: SIM_contact_data
 - name: SIM card
   source: SIM_card
-- extension:
+- extensions:
   - dar
   name: Disk Archiver
   source: Disk_Archiver
-- extension:
+- extensions:
   - ned
   name: Nerdtracker II module
   source: Nerdtracker_II_module
-- extension:
+- extensions:
   - z
   name: Pack
   source: Pack
-- extension:
+- extensions:
   - okta
   name: Oktalyzer module
   source: Oktalyzer_module
-- extension:
+- extensions:
   - omf
   name: Onyx Music File
   released: '1993'
   source: Onyx_Music_File
 - name: Magnetic tape data storage
   source: Magnetic_tape_data_storage
-- extension:
+- extensions:
   - bh
   name: BlakHole
   source: BlakHole
-- extension:
+- extensions:
   - crw
   name: CHDK raw
   source: CHDK_raw
@@ -2684,62 +2684,62 @@ formats:
 - name: Bitcoin
   released: '2009'
   source: Bitcoin
-- extension:
+- extensions:
   - uca
   name: PerfectCompress
   released: '2009'
   source: PerfectCompress
-- extension:
+- extensions:
   - paq8p
   name: PAQ
   released: '2002'
   source: PAQ
-- extension:
+- extensions:
   - srr
   name: SRR
   source: SRR
-- extension:
+- extensions:
   - srs
   name: SRS
   source: SRS
-- extension:
+- extensions:
   - x??
   name: BARF
   released: '2003'
   source: BARF
-- extension:
+- extensions:
   - mod
   name: NoiseTracker module
   released: 1989-08
   source: NoiseTracker_module
-- extension:
+- extensions:
   - pttune
   name: Piston Collage song
   source: Piston_Collage_song
-- extension:
+- extensions:
   - kgb
   name: KGB Archiver
   released: '2006'
   source: KGB_Archiver
-- extension:
+- extensions:
   - sha
   name: Shar
   source: Shar
-- extension:
+- extensions:
   - bas
   name: GW-BASIC tokenized file
   released: '1981'
   source: GW-BASIC_tokenized_file
-- extension:
+- extensions:
   - org
   name: Organya
   source: Organya
-- extension:
+- extensions:
   - prg
   name: Commodore BASIC tokenized file
   released: '1977'
   source: Commodore_BASIC_tokenized_file
-- extension:
+- extensions:
   - tap
   name: Tap file
   released: '1997'
@@ -2752,7 +2752,7 @@ formats:
 - name: Commodore 1541 disk
   released: '1983'
   source: Commodore_1541_disk
-- extension:
+- extensions:
   - plist
   name: Property List/XML
   source: Property_List/XML
@@ -2765,7 +2765,7 @@ formats:
 - name: Atari BASIC tokenized file
   released: '1979'
   source: Atari_BASIC_tokenized_file
-- extension:
+- extensions:
   - bas
   name: MBASIC tokenized file
   released: '1975'
@@ -2799,16 +2799,16 @@ formats:
 - name: Compucolor II disk
   released: '1978'
   source: Compucolor_II_disk
-- extension:
+- extensions:
   - bas
   name: Compucolor BASIC tokenized file
   released: '1976'
   source: Compucolor_BASIC_tokenized_file
-- extension:
+- extensions:
   - pdb
   name: PalmOS Database
   source: PalmOS_Database
-- extension:
+- extensions:
   - prc
   name: PRC
   source: PRC
@@ -2822,7 +2822,7 @@ formats:
   source: The_Electric_Pencil
 - name: Software Music Synthesis System
   source: Software_Music_Synthesis_System
-- extension:
+- extensions:
   - uef
   name: Unified Emulator Format
   source: Unified_Emulator_Format
@@ -2831,7 +2831,7 @@ formats:
   source: Sol_BASIC_tokenized_file
 - name: Internet Archive metadata
   source: Internet_Archive_metadata
-- extension:
+- extensions:
   - F
   name: Freeze/Melt
   source: Freeze/Melt
@@ -2842,19 +2842,19 @@ formats:
   source: Telephone_numbering
 - name: Thumb drive
   source: Thumb_drive
-- extension:
+- extensions:
   - wav
   name: CELT
   source: CELT
-- extension:
+- extensions:
   - cml
   name: ChordML
   source: ChordML
-- extension:
+- extensions:
   - psm
   name: Epic Megagames MASI
   source: Epic_Megagames_MASI
-- extension:
+- extensions:
   - rtm
   name: Real Tracker module
   source: Real_Tracker_module
@@ -2863,35 +2863,35 @@ formats:
   source: Ada
 - name: Contactless smart card
   source: Contactless_smart_card
-- extension:
+- extensions:
   - stx
   name: Scream Tracker Music Interface Kit module
   source: Scream_Tracker_Music_Interface_Kit_module
-- extension:
+- extensions:
   - xz
-  mimetype:
+  mimetypes:
   - application/x-xz
   name: XZ
   source: XZ
 - name: URL shorteners
   source: URL_shorteners
-- extension:
+- extensions:
   - xml
   name: ITunes Music Library
   source: ITunes_Music_Library
-- extension:
+- extensions:
   - stm
   name: Scream Tracker 1 & 2 module
   source: Scream_Tracker_1_%26_2_module
-- extension:
+- extensions:
   - sfx2
   name: SoundFX module
   source: SoundFX_module
-- extension:
+- extensions:
   - st26
   name: Soundtracker v2.6 / Ice Tracker module
   source: Soundtracker_v2.6_/_Ice_Tracker_module
-- extension:
+- extensions:
   - P
   name: Prolog
   released: '1972'
@@ -2902,11 +2902,11 @@ formats:
 - name: SNOBOL
   released: '1962'
   source: SNOBOL
-- extension:
+- extensions:
   - nt
   name: StarTrekker / Star Tracker module
   source: StarTrekker_/_Star_Tracker_module
-- extension:
+- extensions:
   - sss
   name: (Super) Studio Session song
   source: '%28Super%29_Studio_Session_song'
@@ -2916,45 +2916,45 @@ formats:
 - name: PL/I
   released: '1964'
   source: PL/I
-- extension:
+- extensions:
   - hwp
   name: HWP
   released: '1989'
   source: HWP
-- extension:
+- extensions:
   - aup
   name: Audacity Project Format
   source: Audacity_Project_Format
-- extension:
+- extensions:
   - hmi
   name: HMI
   source: HMI
-- extension:
+- extensions:
   - opus
   name: Opus
   source: Opus
-- extension:
+- extensions:
   - xmf
   name: Extensible Music Format
   source: Extensible_Music_Format
-- extension:
+- extensions:
   - kris
   name: KRIS Packer / ChipTracker module
   source: KRIS_Packer_/_ChipTracker_module
-- extension:
+- extensions:
   - mka
   fdd:
   - fdd000347
   name: Matroska Audio
   source: Matroska_Audio
-- extension:
+- extensions:
   - sql
   name: SQL
   pronom:
   - fmt/206
   released: '1974'
   source: SQL
-- extension:
+- extensions:
   - prg
   name: DBase programming language
   released: '1980'
@@ -2965,166 +2965,166 @@ formats:
 - name: Smalltalk
   released: '1972'
   source: Smalltalk
-- extension:
+- extensions:
   - btm
   name: Batch file
   pronom:
   - x-fmt/413
   released: '1981'
   source: Batch_file
-- extension:
+- extensions:
   - wma
   name: WMA Lossless
   source: WMA_Lossless
-- extension:
+- extensions:
   - ccm
   name: Creative Commons Module
   source: Creative_Commons_Module
-- extension:
+- extensions:
   - pcl
   name: Programmable Command Language
   released: '1983'
   source: Programmable_Command_Language
-- extension:
+- extensions:
   - pca
   name: Perfect Clarity Audio
   source: Perfect_Clarity_Audio
-- extension:
+- extensions:
   - w64
   name: Sony Wave64
   source: Sony_Wave64
 - name: Endianness
   source: Endianness
-- extension:
+- extensions:
   - jc
   name: JCalG1
   source: JCalG1
-- extension:
+- extensions:
   - cfs
-  mimetype:
+  mimetypes:
   - application/x-cfs-compressed
   name: Compact File Set
   source: Compact_File_Set
-- extension:
+- extensions:
   - mpp
   name: Musepack Audio
   released: '1997'
   source: Musepack_Audio
-- extension:
+- extensions:
   - spx
   name: Speex
   source: Speex
-- extension:
+- extensions:
   - rmf
   name: Rich Music Format
   source: Rich_Music_Format
-- extension:
+- extensions:
   - sit
-  mimetype:
+  mimetypes:
   - application/x-sit
   name: StuffIt
   pronom:
   - fmt/639
   released: '1987'
   source: StuffIt
-- extension:
+- extensions:
   - sitx
-  mimetype:
+  mimetypes:
   - application/x-sitx
   name: StuffIt X
   pronom:
   - fmt/399
   released: '2002'
   source: StuffIt_X
-- extension:
+- extensions:
   - pit
   name: PackIt
   released: '1986'
   source: PackIt
-- extension:
+- extensions:
   - xml
-  mimetype:
+  mimetypes:
   - application/rss+xml
   name: RSS
   released: '1999'
   source: RSS
-- extension:
+- extensions:
   - rdf
-  mimetype:
+  mimetypes:
   - application/rdf+xml
   name: RDF
   released: '1999'
   source: RDF
-- extension:
+- extensions:
   - xml
   name: EAD
   source: EAD
 - name: Unix time
   source: Unix_time
-- extension:
+- extensions:
   - ort
   name: Opus-CBCS
   released: '1985'
   source: Opus-CBCS
-- extension:
+- extensions:
   - sx2
   name: Propellerhead Reason NN-XT Patch File
   source: Propellerhead_Reason_NN-XT_Patch_File
-- extension:
+- extensions:
   - rk
   name: RK
   source: RK
-- extension:
+- extensions:
   - rka
   name: RK Audio
   source: RK_Audio
-- extension:
+- extensions:
   - sf
   name: Berkeley/IRCAM/Carl Sound Format
   source: Berkeley/IRCAM/Carl_Sound_Format
-- extension:
+- extensions:
   - puma
   name: Pumatracker module
   source: Pumatracker_module
-- extension:
+- extensions:
   - bsi
   name: Future Composer (BSI) module
   released: '1990'
   source: Future_Composer_%28BSI%29_module
-- extension:
+- extensions:
   - pck
   name: In the Groove PCK
   released: '2004'
   source: In_the_Groove_PCK
-- extension:
+- extensions:
   - caf
   name: Core Audio Format
   released: '2005'
   source: Core_Audio_Format
-- extension:
+- extensions:
   - sb0
   name: Vorbis
   source: Vorbis
-- extension:
+- extensions:
   - crw
   fdd:
   - fdd000241
-  mimetype:
+  mimetypes:
   - image/x-canon-crw
   name: Camera Image File Format
   pronom:
   - fmt/593
   released: '1997'
   source: Camera_Image_File_Format
-- extension:
+- extensions:
   - textile
   name: Textile
   source: Textile
-- extension:
+- extensions:
   - txt
   name: AsciiDoc
   source: AsciiDoc
-- extension:
+- extensions:
   - gbs
   name: Opus Embedded Commands
   released: '1985'
@@ -3132,14 +3132,14 @@ formats:
 - name: Hangul
   released: '1443'
   source: Hangul
-- extension:
+- extensions:
   - hes
   name: HES
   released: '2000-08-17'
   source: HES
 - name: BAGS
   source: BAGS
-- extension:
+- extensions:
   - ic
   name: IAGE
   source: IAGE
@@ -3151,19 +3151,19 @@ formats:
 - name: APF Imagination Machine data cassette
   released: '1978'
   source: APF_Imagination_Machine_data_cassette
-- extension:
+- extensions:
   - apt
   name: APT
   source: APT
-- extension:
+- extensions:
   - apw
   name: APW
   source: APW
-- extension:
+- extensions:
   - apd
   name: APD
   source: APD
-- extension:
+- extensions:
   - cr2
   name: Canon RAW 2
   pronom:
@@ -3174,81 +3174,81 @@ formats:
 - name: IBM PC data cassette
   released: '1981'
   source: IBM_PC_data_cassette
-- extension:
+- extensions:
   - strings
   name: Strings File
   source: Strings_File
-- extension:
+- extensions:
   - d
   name: SPPACK
   source: SPPACK
-- extension:
+- extensions:
   - aud
   name: INRS-Telecom file
   source: INRS-Telecom_file
-- extension:
+- extensions:
   - ast
   name: Nintendo GameCube / Wii AST
   source: Nintendo_GameCube_/_Wii_AST
-- extension:
+- extensions:
   - brstm
   name: Nintendo GameCube / Wii BRSTM
   source: Nintendo_GameCube_/_Wii_BRSTM
 - name: MEGA file system
   released: '2013-01-19'
   source: MEGA_file_system
-- extension:
+- extensions:
   - sb2
   name: Scratch
   released: '2006'
   source: Scratch
-- extension:
+- extensions:
   - sprite
   name: Scratch 1.4 File Format
   source: Scratch_1.4_File_Format
-- extension:
+- extensions:
   - erf
   name: Epson ERF
   source: Epson_ERF
-- extension:
+- extensions:
   - sb2
   name: Scratch 2.0 File Format
   source: Scratch_2.0_File_Format
-- extension:
+- extensions:
   - wav
   name: DCT
   source: DCT
 - name: SUP
   source: SUP
-- extension:
+- extensions:
   - as
   name: Audio Sculpture
   source: Audio_Sculpture
 - name: Coleco Adam SmartBASIC tokenized file
   released: '1983'
   source: Coleco_Adam_SmartBASIC_tokenized_file
-- extension:
+- extensions:
   - dw
   name: David Whittaker
   source: David_Whittaker
-- extension:
+- extensions:
   - snd
   name: Crystal Caves Sound format
   released: '1991-10-23'
   source: Crystal_Caves_Sound_format
-- extension:
+- extensions:
   - als
   name: Ableton Live Set
   source: Ableton_Live_Set
-- extension:
+- extensions:
   - lsm
   name: LSM
   source: LSM
-- extension:
+- extensions:
   - fxm
   name: Fuxoft AY Language
   source: Fuxoft_AY_Language
-- extension:
+- extensions:
   - asc
   name: ASC Sound Master module
   released: '1992-07-05'
@@ -3259,103 +3259,103 @@ formats:
 - name: Coleco Adam Digital Data Pack
   released: '1983'
   source: Coleco_Adam_Digital_Data_Pack
-- extension:
+- extensions:
   - cpp
   name: Buzzic v1.x
   released: '2008'
   source: Buzzic_v1.x
-- extension:
+- extensions:
   - 4xm
   name: 4X IMA ADPCM
   source: 4X_IMA_ADPCM
 - name: IMA ADPCM
   source: IMA_ADPCM
-- extension:
+- extensions:
   - wsr
   name: WSR
   source: WSR
-- extension:
+- extensions:
   - mdx
   name: MDX
   source: MDX
-- extension:
+- extensions:
   - xcodeproj
   name: Xcode Project
   source: Xcode_Project
 - fdd:
   - fdd000387
-  mimetype:
+  mimetypes:
   - application/mbox
   name: Mbox
   released: 1970s
   source: Mbox
-- extension:
+- extensions:
   - lbr
   name: LBR (Commodore)
   source: LBR_%28Commodore%29
-- extension:
+- extensions:
   - arc
   name: ARC (Commodore)
   source: ARC_%28Commodore%29
-- extension:
+- extensions:
   - wri
   name: Microsoft Write
   source: Microsoft_Write
-- extension:
+- extensions:
   - arc
   name: ARC (FreeArc)
   source: ARC_%28FreeArc%29
 - name: Greenleaf ArchiveLib
   source: Greenleaf_ArchiveLib
-- extension:
+- extensions:
   - xml
-  mimetype:
+  mimetypes:
   - application/atom+xml
   name: Atom
   released: '2005'
   source: Atom
-- extension:
+- extensions:
   - tjs
   name: KiriKiri Adventure Game System
   source: KiriKiri_Adventure_Game_System
 - name: MODS
   source: MODS
-- extension:
+- extensions:
   - nsp
   name: Computerized Speech Lab NSP
   source: Computerized_Speech_Lab_NSP
-- extension:
+- extensions:
   - mus
   name: Make-A-Melody
   source: Make-A-Melody
-- extension:
+- extensions:
   - ds2
   name: Digital Speech Standard
   released: '1997'
   source: Digital_Speech_Standard
-- extension:
+- extensions:
   - mdb
   name: Access
   pronom:
   - x-fmt/241
   source: Access
-- extension:
+- extensions:
   - txf
   name: TXF
   source: TXF
-- extension:
+- extensions:
   - ipa
   name: IPA
   source: IPA
 - name: Tax XML
   source: Tax_XML
-- extension:
+- extensions:
   - tax2012
   name: TurboTax
   source: TurboTax
 - name: Silent Circle Instant Messaging Protocol
   source: Silent_Circle_Instant_Messaging_Protocol
-- extension:
+- extensions:
   - thd
   name: Dolby TrueHD
   source: Dolby_TrueHD
@@ -3363,21 +3363,21 @@ formats:
   source: HyperMedia
 - name: WOBA
   source: WOBA
-- extension:
+- extensions:
   - bundle
   name: Bundle file (Linux)
   source: Bundle_file_%28Linux%29
-- extension:
+- extensions:
   - bundle
   name: Bundle file (OS X)
   source: Bundle_file_%28OS_X%29
-- extension:
+- extensions:
   - t12
   name: H&R Block
   source: H%26R_Block
 - name: HyperCard stack
   source: HyperCard_stack
-- extension:
+- extensions:
   - dfont
   name: Macintosh resource file
   source: Macintosh_resource_file
@@ -3386,9 +3386,9 @@ formats:
 - name: Braille
   released: '1824'
   source: Braille
-- extension:
+- extensions:
   - lzh
-  mimetype:
+  mimetypes:
   - application/x-lzh-compressed
   name: LHA
   pronom:
@@ -3397,59 +3397,59 @@ formats:
   source: LHA
 - name: Distributed computing projects
   source: Distributed_computing_projects
-- extension:
+- extensions:
   - lzx
   name: LZX
   released: '1995'
   source: LZX
-- extension:
+- extensions:
   - cab
-  mimetype:
+  mimetypes:
   - application/vnd.ms-cab-compressed
   name: Cabinet
   pronom:
   - x-fmt/414
   released: '1995'
   source: Cabinet
-- extension:
+- extensions:
   - puz
   name: PUZ
   source: PUZ
-- extension:
+- extensions:
   - alz
   name: ALZ
   source: ALZ
-- extension:
+- extensions:
   - egg
   name: EGG (ALZip)
   source: EGG_%28ALZip%29
 - name: QWK
   released: '1992'
   source: QWK
-- extension:
+- extensions:
   - go
   name: Go
   released: '2009'
   source: Go
-- extension:
+- extensions:
   - d
   name: D
   released: '2001'
   source: D
-- extension:
+- extensions:
   - webp
-  mimetype:
+  mimetypes:
   - image/webp
   name: WebP
   pronom:
   - fmt/568
   released: '2010'
   source: WebP
-- extension:
+- extensions:
   - raf
   name: Fujifilm RAF
   source: Fujifilm_RAF
-- extension:
+- extensions:
   - mrw
   name: Minolta MRW
   source: Minolta_MRW
@@ -3461,7 +3461,7 @@ formats:
   pronom:
   - fmt/645
   source: Exif
-- extension:
+- extensions:
   - icc
   name: ICC profile
   source: ICC_profile
@@ -3475,19 +3475,19 @@ formats:
   source: BCPL
 - name: IPTC
   source: IPTC
-- extension:
+- extensions:
   - b
   name: B
   released: '1969'
   source: B
-- extension:
+- extensions:
   - h
   name: C++
   released: '1983'
   source: C%2B%2B
-- extension:
+- extensions:
   - as
-  mimetype:
+  mimetypes:
   - application/ecmascript
   name: ActionScript
   released: '1998'
@@ -3497,11 +3497,11 @@ formats:
 - egff:
   - jpeg
   - JPEG File Interchange Format File Format Summary
-  extension:
+  extensions:
   - jfi
   fdd:
   - fdd000018
-  mimetype:
+  mimetypes:
   - image/jpeg
   name: JFIF
   pronom:
@@ -3512,20 +3512,20 @@ formats:
   pronom:
   - fmt/570
   source: XMP
-- extension:
+- extensions:
   - asm
   name: Assembly language
   source: Assembly_language
-- extension:
+- extensions:
   - sh
   name: Bourne shell script
   released: '1977'
   source: Bourne_shell_script
 - name: 16 mm movies
   source: 16_mm_movies
-- extension:
+- extensions:
   - fpx
-  mimetype:
+  mimetypes:
   - image/vnd.fpx
   name: FlashPix
   pronom:
@@ -3534,26 +3534,26 @@ formats:
 - name: Posterous
   released: '2008'
   source: Posterous
-- extension:
+- extensions:
   - mng
-  mimetype:
+  mimetypes:
   - video/x-mng
   name: MNG
   pronom:
   - fmt/528
   source: MNG
-- extension:
+- extensions:
   - hostnames
   name: Archive Team hostname file
   source: Archive_Team_hostname_file
-- extension:
+- extensions:
   - pea
   name: PEA
   source: PEA
 - egff:
   - miff
   - MIFF File Format Summary
-  extension:
+  extensions:
   - mif
   name: MIFF
   source: MIFF
@@ -3561,37 +3561,37 @@ formats:
   source: IEEE_floating_point
 - name: Construction toys
   source: Construction_toys
-- extension:
+- extensions:
   - rz
   name: Rzip
   source: Rzip
-- extension:
+- extensions:
   - lrz
   name: Lrzip
   released: '2006'
   source: Lrzip
 - name: Partimage
   source: Partimage
-- extension:
+- extensions:
   - arc
   name: ArcFS
   source: ArcFS
-- extension:
+- extensions:
   - xml
   name: Scifer
   released: '2008'
   source: Scifer
-- extension:
+- extensions:
   - qda
   name: Quadruple D Archiver
   source: Quadruple_D_Archiver
 - name: CESU-8
   source: CESU-8
-- extension:
+- extensions:
   - hki
   name: HKI
   source: HKI
-- extension:
+- extensions:
   - tiff
   fdd:
   - fdd000328
@@ -3600,9 +3600,9 @@ formats:
 - egff:
   - xbm
   - XBM File Format Summary
-  extension:
+  extensions:
   - bm
-  mimetype:
+  mimetypes:
   - image/x-xbitmap
   name: XBM
   pronom:
@@ -3610,7 +3610,7 @@ formats:
   source: XBM
 - name: Exif MakerNote
   source: Exif_MakerNote
-- extension:
+- extensions:
   - atk
   name: CMU Andrew Toolkit image
   source: CMU_Andrew_Toolkit_image
@@ -3622,9 +3622,9 @@ formats:
   source: Andrew_File_System
 - name: Zlib
   source: Zlib
-- extension:
+- extensions:
   - z
-  mimetype:
+  mimetypes:
   - application/x-compress
   name: Compress
   source: Compress
@@ -3636,26 +3636,26 @@ formats:
 - egff:
   - pbm
   - PBM, PGM, PNM, and PPM File Format Summary
-  extension:
+  extensions:
   - pnm
-  mimetype:
+  mimetypes:
   - image/x-portable-anymap
   name: Netpbm formats
   pronom:
   - fmt/408
   released: '1988'
   source: Netpbm_formats
-- extension:
+- extensions:
   - amf
   name: Asylum Music Format
   source: Asylum_Music_Format
-- extension:
+- extensions:
   - xarc
   name: Funcom ISS
   source: Funcom_ISS
 - name: Networked devices
   source: Networked_devices
-- extension:
+- extensions:
   - lua
   name: Lua
   released: '1993'
@@ -3672,47 +3672,47 @@ formats:
   source: Run-length_encoding
 - name: Maps
   source: Maps
-- extension:
+- extensions:
   - cs
   name: C Sharp
   released: '2000'
   source: C_Sharp
-- extension:
+- extensions:
   - erl
   name: Erlang
   released: '1986'
   source: Erlang
-- extension:
+- extensions:
   - png
-  mimetype:
+  mimetypes:
   - image/png
   name: APNG
   source: APNG
-- extension:
+- extensions:
   - hdv
   name: DSK (Apple II)
   source: DSK_%28Apple_II%29
-- extension:
+- extensions:
   - shk
   name: ShrinkIt
   source: ShrinkIt
-- extension:
+- extensions:
   - 2mg
-  mimetype:
+  mimetypes:
   - application/x-apple-diskimage
   name: Apple Disk Image
   source: Apple_Disk_Image
-- extension:
+- extensions:
   - uha
   name: UHARC
   released: '1997'
   source: UHARC
-- extension:
+- extensions:
   - prg
   name: FoxPro
   released: '1984'
   source: FoxPro
-- extension:
+- extensions:
   - prg
   name: Clipper
   released: '1985'
@@ -3720,17 +3720,17 @@ formats:
 - name: Graphics Programming Language
   released: '1979'
   source: Graphics_Programming_Language
-- extension:
+- extensions:
   - cdr
   fdd:
   - fdd000348
-  mimetype:
+  mimetypes:
   - application/x-iso9660-image
   name: ISO image
   pronom:
   - fmt/468
   source: ISO_image
-- extension:
+- extensions:
   - ps
   name: PostScript
   pronom:
@@ -3739,13 +3739,13 @@ formats:
 - egff:
   - eps
   - Encapsulated PostScript File Format Summary
-  extension:
+  extensions:
   - epi
   name: Encapsulated PostScript
   pronom:
   - fmt/124
   source: Encapsulated_PostScript
-- extension:
+- extensions:
   - lhs
   name: Haskell
   released: '1990'
@@ -3754,18 +3754,18 @@ formats:
   source: Machine_language
 - name: Music Macro Language
   source: Music_Macro_Language
-- extension:
+- extensions:
   - txt
   name: Pixilang
   source: Pixilang
 - name: TUTOR
   released: '1969'
   source: TUTOR
-- extension:
+- extensions:
   - sea
   name: Compact Pro
   source: Compact_Pro
-- extension:
+- extensions:
   - msv
   name: Memory Stick Voice
   source: Memory_Stick_Voice
@@ -3776,7 +3776,7 @@ formats:
 - egff:
   - wmf
   - Microsoft Windows Metafile File Format Summary
-  extension:
+  extensions:
   - emz
   name: Windows Metafile
   pronom:
@@ -3785,36 +3785,36 @@ formats:
 - name: Courgette
   released: '2009'
   source: Courgette
-- extension:
+- extensions:
   - img
   name: IMA
   source: IMA
-- extension:
+- extensions:
   - zz
   name: Zzip
   source: Zzip
-- extension:
+- extensions:
   - oma
   name: ATRAC Advanced Lossless
   released: '2006'
   source: ATRAC_Advanced_Lossless
 - name: Modified Huffman
   source: Modified_Huffman
-- extension:
+- extensions:
   - g3
   name: CCITT Group 3
   pronom:
   - x-cmp/14
   source: CCITT_Group_3
-- extension:
+- extensions:
   - ice
   name: ICE
   source: ICE
-- extension:
+- extensions:
   - spf
   fdd:
   - fdd000019
-  mimetype:
+  mimetypes:
   - image/jpeg
   name: SPIFF
   pronom:
@@ -3824,7 +3824,7 @@ formats:
   source: Modified_READ
 - name: Modified Modified READ
   source: Modified_Modified_READ
-- extension:
+- extensions:
   - jls
   fdd:
   - fdd000151
@@ -3845,11 +3845,11 @@ formats:
 - name: Fitbit
   released: '2007'
   source: Fitbit
-- extension:
+- extensions:
   - mime
   name: MIME
   source: MIME
-- extension:
+- extensions:
   - bie
   name: JBIG
   released: '1993'
@@ -3857,7 +3857,7 @@ formats:
 - name: Domain name
   released: '1985'
   source: Domain_name
-- extension:
+- extensions:
   - jng
   name: JNG
   pronom:
@@ -3868,29 +3868,29 @@ formats:
   source: URL
 - name: Punycode
   source: Punycode
-- extension:
+- extensions:
   - pak
   name: PAK
   source: PAK
-- extension:
+- extensions:
   - gca
-  mimetype:
+  mimetypes:
   - application/x-gca-compressed
   name: GCA
   released: '2000'
   source: GCA
-- extension:
+- extensions:
   - dgc
-  mimetype:
+  mimetypes:
   - application/x-dgc-compressed
   name: DGCA
   released: '2001'
   source: DGCA
-- extension:
+- extensions:
   - sqx
   name: SQX
   source: SQX
-- extension:
+- extensions:
   - xar
   name: Xar
   pronom:
@@ -3899,7 +3899,7 @@ formats:
 - egff:
   - xpm
   - XPM File Format Summary
-  extension:
+  extensions:
   - pm
   name: XPM
   pronom:
@@ -3909,17 +3909,17 @@ formats:
 - egff:
   - mspaint
   - Microsoft Paint File Format Summary
-  extension:
+  extensions:
   - msp
   name: MSP (Microsoft Paint file)
   pronom:
   - x-fmt/214
   source: MSP_%28Microsoft_Paint_file%29
-- extension:
+- extensions:
   - wdp
   fdd:
   - fdd000243
-  mimetype:
+  mimetypes:
   - image/vnd.ms-photo
   name: JPEG XR
   pronom:
@@ -3931,28 +3931,28 @@ formats:
 - egff:
   - utah
   - Utah RLE File Format Summary
-  extension:
+  extensions:
   - rle
   name: Utah RLE
   released: "\u22641987"
   source: Utah_RLE
-- extension:
+- extensions:
   - pfc
   name: AOL Personal Filing Cabinet
   source: AOL_Personal_Filing_Cabinet
 - name: Metadata
   source: Metadata
-- extension:
+- extensions:
   - jpeg
   name: JPEG-HDR
   source: JPEG-HDR
-- extension:
+- extensions:
   - png
   name: CgBI
   source: CgBI
-- extension:
+- extensions:
   - wbmp
-  mimetype:
+  mimetypes:
   - image/vnd.wap.wbmp
   name: WBMP
   pronom:
@@ -3961,27 +3961,27 @@ formats:
 - egff:
   - sgiimage
   - SGI Image File Format File Format Summary
-  extension:
+  extensions:
   - rgba
   name: SGI (image file format)
   pronom:
   - x-fmt/140
   source: SGI_%28image_file_format%29
-- extension:
+- extensions:
   - pc3
   name: DEGAS formats
   source: DEGAS_formats
-- extension:
+- extensions:
   - s7z
   name: S7z
   source: S7z
-- extension:
+- extensions:
   - sps
   name: Spectrum 512 formats
   source: Spectrum_512_formats
-- extension:
+- extensions:
   - dvi
-  mimetype:
+  mimetypes:
   - application/x-dvi
   name: DVI (Device Independent File Format)
   pronom:
@@ -3990,103 +3990,103 @@ formats:
   source: DVI_%28Device_Independent_File_Format%29
 - name: TIFF annotation data
   source: TIFF_annotation_data
-- extension:
+- extensions:
   - yuv
   name: Abekas YUV
   source: Abekas_YUV
 - egff:
   - drhalo
   - Dr. Halo File Format Summary
-  extension:
+  extensions:
   - pal
   name: Dr. Halo
   pronom:
   - x-fmt/316
   source: Dr._Halo
-- extension:
+- extensions:
   - pfm
   name: PFM (Portable Float Map)
   source: PFM_%28Portable_Float_Map%29
-- extension:
+- extensions:
   - scad
   name: OpenSCAD
   source: OpenSCAD
 - egff:
   - gemraster
   - GEM Raster File Format Summary
-  extension:
+  extensions:
   - ximg
   name: GEM Raster
   pronom:
   - x-fmt/159
   released: '1985'
   source: GEM_Raster
-- extension:
+- extensions:
   - art
   name: ART (AOL compressed image)
   source: ART_%28AOL_compressed_image%29
-- extension:
+- extensions:
   - art
   name: 'ART (PFS: First Publisher)'
   source: ART_%28PFS%3A_First_Publisher%29
 - name: LibraryBox
   released: '2012'
   source: LibraryBox
-- extension:
+- extensions:
   - apm
   name: ArcPad
   source: ArcPad
-- extension:
+- extensions:
   - apk
   name: APK
   source: APK
-- extension:
+- extensions:
   - xml
   name: Binary XML
   source: Binary_XML
-- extension:
+- extensions:
   - tif
   name: Kodak
   source: Kodak
-- extension:
+- extensions:
   - xwd
   name: XWD
   pronom:
   - x-fmt/300
   source: XWD
-- extension:
+- extensions:
   - im32
   name: Sun Raster
   pronom:
   - x-fmt/184
   source: Sun_Raster
-- extension:
+- extensions:
   - afa
-  mimetype:
+  mimetypes:
   - application/x-astrotite-afa
   name: Astrotite
   source: Astrotite
-- extension:
+- extensions:
   - ha
   name: HA
   released: '1993'
   source: HA
-- extension:
+- extensions:
   - pim
   name: PIM
   released: '2004'
   source: PIM
-- extension:
+- extensions:
   - infl
   name: Inflate
   source: Inflate
-- extension:
+- extensions:
   - ??_
   name: MS-DOS installation compression
   pronom:
   - fmt/469
   source: MS-DOS_installation_compression
-- extension:
+- extensions:
   - yz1
   name: Yamazaki zipper archive
   source: Yamazaki_zipper_archive
@@ -4095,7 +4095,7 @@ formats:
 - egff:
   - iff
   - IFF File Format Summary
-  extension:
+  extensions:
   - pic
   name: ILBM
   pronom:
@@ -4103,7 +4103,7 @@ formats:
   source: ILBM
 - name: Atari File Management Subsystem
   source: Atari_File_Management_Subsystem
-- extension:
+- extensions:
   - ct4
   name: JEDMICS C4
   source: JEDMICS_C4
@@ -4111,57 +4111,57 @@ formats:
   source: Atari_data_cassette
 - name: TOSEC Naming Convention
   source: TOSEC_Naming_Convention
-- extension:
+- extensions:
   - cpio
-  mimetype:
+  mimetypes:
   - application/x-cpio
   name: Cpio
   pronom:
   - fmt/635
   source: Cpio
-- extension:
+- extensions:
   - jpc
   fdd:
   - fdd000192
   name: JPEG 2000 codestream
   source: JPEG_2000_codestream
-- extension:
+- extensions:
   - framework
   name: Apple framework
   source: Apple_framework
-- extension:
+- extensions:
   - mdi
-  mimetype:
+  mimetypes:
   - image/vnd.ms-modi
   name: MDI
   source: MDI
-- extension:
+- extensions:
   - neo
   name: NEOchrome
   source: NEOchrome
-- extension:
+- extensions:
   - pma
   name: PMA
   source: PMA
-- extension:
+- extensions:
   - xp3
   name: XP3
   source: XP3
-- extension:
+- extensions:
   - pdb
   name: Palm Database ImageViewer
   source: Palm_Database_ImageViewer
-- extension:
+- extensions:
   - pdb
   name: TealPaint PDB
   source: TealPaint_PDB
-- extension:
+- extensions:
   - ani
   name: Windows Animated Cursor
   pronom:
   - fmt/386
   source: Windows_Animated_Cursor
-- extension:
+- extensions:
   - ani
   name: NEOchrome Animation
   source: NEOchrome_Animation
@@ -4170,13 +4170,13 @@ formats:
 - egff:
   - wavefrontrla
   - Wavefront RLA File Format Summary
-  extension:
+  extensions:
   - rla
   name: RLA
   pronom:
   - x-fmt/188
   source: RLA
-- extension:
+- extensions:
   - pix
   name: Alias PIX
   source: Alias_PIX
@@ -4185,65 +4185,65 @@ formats:
 - egff:
   - macpaint
   - Macintosh Paint
-  extension:
+  extensions:
   - pic
   name: MacPaint
   pronom:
   - x-fmt/161
   source: MacPaint
-- extension:
+- extensions:
   - sda
   name: SDA
   source: SDA
-- extension:
+- extensions:
   - sfx
   name: SFX
   source: SFX
 - egff:
   - macpict
   - Macintosh PICT File Format Summary
-  extension:
+  extensions:
   - pic
-  mimetype:
+  mimetypes:
   - image/pict
   name: PICT
   pronom:
   - x-fmt/80
   source: PICT
-- extension:
+- extensions:
   - sea
   name: SEA
   source: SEA
-- extension:
+- extensions:
   - bqy
   name: Binary II
   source: Binary_II
-- extension:
+- extensions:
   - bin
-  mimetype:
+  mimetypes:
   - application/x-macbinary
   name: MacBinary
   source: MacBinary
 - name: BACKUP (MS-DOS)
   source: BACKUP_%28MS-DOS%29
-- extension:
+- extensions:
   - swm
   name: Windows Imaging Format
   pronom:
   - fmt/614
   source: Windows_Imaging_Format
-- extension:
+- extensions:
   - jbig2
   name: JBIG2
   released: '2000'
   source: JBIG2
-- extension:
+- extensions:
   - mht
   name: MHTML
   pronom:
   - x-fmt/429
   source: MHTML
-- extension:
+- extensions:
   - db
   name: Consolidated.db
   source: Consolidated.db
@@ -4255,17 +4255,17 @@ formats:
   - fdd000108
   name: ID3
   source: ID3
-- extension:
+- extensions:
   - mtv
   name: MTV ray tracer
   released: '1988'
   source: MTV_ray_tracer
-- extension:
+- extensions:
   - dis
   name: QRT Ray Tracer bitmap image
   released: '1989'
   source: QRT_Ray_Tracer_bitmap_image
-- extension:
+- extensions:
   - qrt
   name: QRT Ray Tracer scene description
   released: '1989'
@@ -4274,43 +4274,43 @@ formats:
   source: Foursquare
 - name: FAT12
   source: FAT12
-- extension:
+- extensions:
   - tdi
   name: Maya IFF
   source: Maya_IFF
-- extension:
+- extensions:
   - gym
   name: GYM
   source: GYM
-- extension:
+- extensions:
   - pcl
   name: PCL
   released: '1984'
   source: PCL
-- extension:
+- extensions:
   - afp
   name: AFP
   released: '1984'
   source: AFP
-- extension:
+- extensions:
   - img
   name: VICAR
   pronom:
   - fmt/383
   released: ~1966
   source: VICAR
-- extension:
+- extensions:
   - cym
   name: Callus OPL Register Log
   source: Callus_OPL_Register_Log
-- extension:
+- extensions:
   - mus
   name: Accolade MIDI File Format
   source: Accolade_MIDI_File_Format
 - egff:
   - pds
   - PDS File Format Summary
-  extension:
+  extensions:
   - pds
   name: PDS
   source: PDS
@@ -4320,19 +4320,19 @@ formats:
   source: Health_and_Medicine
 - name: InBloom student data
   source: InBloom_student_data
-- extension:
+- extensions:
   - pm
   name: PM (XV image)
   source: PM_%28XV_image%29
-- extension:
+- extensions:
   - sc?
   name: ColoRIX
   source: ColoRIX
-- extension:
+- extensions:
   - dat
   name: PRT scene description
   source: PRT_scene_description
-- extension:
+- extensions:
   - vbe
   name: VBScript
   released: '1996'
@@ -4345,7 +4345,7 @@ formats:
 - name: Apple II 13 sector disk
   released: '1978'
   source: Apple_II_13_sector_disk
-- extension:
+- extensions:
   - otb
   name: OTA bitmap
   source: OTA_bitmap
@@ -4354,18 +4354,18 @@ formats:
   source: Apple_II_16_sector_disk
 - name: ChordQL
   source: ChordQL
-- extension:
+- extensions:
   - alm
   name: Aley's Module
   source: Aley%27s_Module
-- extension:
+- extensions:
   - c4
   name: CALS raster
   pronom:
   - x-fmt/28
   released: "\u22641990"
   source: CALS_raster
-- extension:
+- extensions:
   - tim
   name: TIM (PlayStation graphics)
   source: TIM_%28PlayStation_graphics%29
@@ -4373,20 +4373,20 @@ formats:
   source: Alt_codes
 - name: ArchiveTeam Warrior
   source: ArchiveTeam_Warrior
-- extension:
+- extensions:
   - sah
   name: SETI@Home (classic)
   released: '1999'
   source: SETI%40Home_%28classic%29
-- extension:
+- extensions:
   - raw
   name: PSRFITS
   source: PSRFITS
-- extension:
+- extensions:
   - msp
   name: Windows Installer
   source: Windows_Installer
-- extension:
+- extensions:
   - wu
   name: BOINC
   released: '2002'
@@ -4399,21 +4399,21 @@ formats:
   source: FTP
 - name: PackBits
   source: PackBits
-- extension:
+- extensions:
   - ct3
   name: NIFF (Navy Image File Format)
   source: NIFF_%28Navy_Image_File_Format%29
-- extension:
+- extensions:
   - ast
   name: Actionamics Sound Tool
   source: Actionamics_Sound_Tool
-- extension:
+- extensions:
   - sbig
   name: SBIG CCDOPS image
   source: SBIG_CCDOPS_image
 - name: Two's complement
   source: Two%27s_complement
-- extension:
+- extensions:
   - fco
   name: FIASCO
   released: '2000'
@@ -4443,7 +4443,7 @@ formats:
 - name: SHA-2
   released: '2002'
   source: SHA-2
-- extension:
+- extensions:
   - lz4
   name: LZ4
   released: '2011'
@@ -4467,12 +4467,12 @@ formats:
   - x-cmp/18
   released: '1978'
   source: LZ78
-- extension:
+- extensions:
   - mgr
   name: MGR bitmap
   released: ~1984
   source: MGR_bitmap
-- extension:
+- extensions:
   - aai
   name: AAI
   source: AAI
@@ -4482,9 +4482,9 @@ formats:
   source: Code_128
 - name: Interleaved 2 of 5
   source: Interleaved_2_of_5
-- extension:
+- extensions:
   - rad
-  mimetype:
+  mimetypes:
   - image/vnd.radiance
   name: Radiance HDR
   pronom:
@@ -4492,11 +4492,11 @@ formats:
   source: Radiance_HDR
 - name: Sitemap
   source: Sitemap
-- extension:
+- extensions:
   - icon
   name: Sun icon
   source: Sun_icon
-- extension:
+- extensions:
   - m4
   name: M4
   released: '1977'
@@ -4508,7 +4508,7 @@ formats:
   source: MFM_encoding
 - name: GCR encoding
   source: GCR_encoding
-- extension:
+- extensions:
   - fra
   name: FRA (Fractint)
   released: ~1989
@@ -4520,7 +4520,7 @@ formats:
   source: Apple_double-density_3_1/2%22_disk
 - name: PC-DOS 360K format
   source: PC-DOS_360K_format
-- extension:
+- extensions:
   - tag
   name: Cache Directory Tagging Standard
   released: '2004'
@@ -4531,7 +4531,7 @@ formats:
   source: PC-DOS_1.44M_format
 - name: PC-DOS 1.2M format
   source: PC-DOS_1.2M_format
-- extension:
+- extensions:
   - rle
   name: CompuServe RLE
   source: CompuServe_RLE
@@ -4565,11 +4565,11 @@ formats:
 - name: ZFS
   released: '2005'
   source: ZFS
-- extension:
+- extensions:
   - sff
   name: Structured Fax File
   source: Structured_Fax_File
-- extension:
+- extensions:
   - id
   name: IBM Audio Visual Connection (AVC) Still Video Image
   source: IBM_Audio_Visual_Connection_%28AVC%29_Still_Video_Image
@@ -4581,12 +4581,12 @@ formats:
 - name: Microform
   released: '1925'
   source: Microform
-- extension:
+- extensions:
   - exr
   name: OpenEXR
   released: '2003'
   source: OpenEXR
-- extension:
+- extensions:
   - gg
   name: KoalaPainter (C64)
   released: '1984'
@@ -4601,7 +4601,7 @@ formats:
 - name: Instabeat
   released: '2013'
   source: Instabeat
-- extension:
+- extensions:
   - tn4
   name: Tiny Stuff
   source: Tiny_Stuff
@@ -4620,7 +4620,7 @@ formats:
   source: GEOS_Font
 - name: Apple DOS file system
   source: Apple_DOS_file_system
-- extension:
+- extensions:
   - abh
   name: User:Halftheisland/ABC
   released: '1993-12-08'
@@ -4643,7 +4643,7 @@ formats:
   source: Sinclair_BASIC_tokenized_file
 - name: Retail sales
   source: Retail_sales
-- extension:
+- extensions:
   - abh
   name: ABC (musical notation)
   released: '1993-12-08'
@@ -4657,7 +4657,7 @@ formats:
 - name: Video High Density
   released: '1983'
   source: Video_High_Density
-- extension:
+- extensions:
   - cpc
   fdd:
   - fdd000007
@@ -4673,14 +4673,14 @@ formats:
 - name: X-ray
   released: '1895'
   source: X-ray
-- extension:
+- extensions:
   - vff
   name: Sun TAAC image
   source: Sun_TAAC_image
 - egff:
   - viff
   - VIFF File Format Summary
-  extension:
+  extensions:
   - viff
   name: VIFF
   released: '1990'
@@ -4688,30 +4688,30 @@ formats:
 - name: Code 1
   released: '1992'
   source: Code_1
-- extension:
+- extensions:
   - bxy
   name: NuFX
   released: '1989'
   source: NuFX
-- extension:
+- extensions:
   - wk4
-  mimetype:
+  mimetypes:
   - application/vnd.lotus-1-2-3
   name: Lotus 1-2-3
   released: '1983-01-26'
   source: Lotus_1-2-3
 - name: Atari graphics formats
   source: Atari_graphics_formats
-- extension:
+- extensions:
   - xsd
   name: DFDL
   released: '2011-01-31'
   source: DFDL
 - name: Palm bitmap
   source: Palm_bitmap
-- extension:
+- extensions:
   - xsd
-  mimetype:
+  mimetypes:
   - text/xml
   name: XML Schema Definition
   released: 2001-05
@@ -4719,7 +4719,7 @@ formats:
 - egff:
   - pcx
   - PCX File Format Summary
-  extension:
+  extensions:
   - dcx
   name: DCX
   pronom:
@@ -4727,29 +4727,29 @@ formats:
   source: DCX
 - name: OpenSSL salted format
   source: OpenSSL_salted_format
-- extension:
+- extensions:
   - dif
   name: Data Interchange Format
   pronom:
   - x-fmt/41
   source: Data_Interchange_Format
-- extension:
+- extensions:
   - vcs
   name: VisiCalc
   released: '1979'
   source: VisiCalc
 - name: UDF
   source: UDF
-- extension:
+- extensions:
   - tiff
-  mimetype:
+  mimetypes:
   - image/tiff-fx
   name: TIFF-FX
   pronom:
   - fmt/156
   released: "\u22641998"
   source: TIFF-FX
-- extension:
+- extensions:
   - dds
   name: DirectDraw Surface
   released: ~1999
@@ -4759,7 +4759,7 @@ formats:
   source: Whistle
 - name: Pump.io
   source: Pump.io
-- extension:
+- extensions:
   - vw3
   name: Volkswriter
   released: '1982'
@@ -4771,7 +4771,7 @@ formats:
 - egff:
   - dpx
   - DPX File Format Summary
-  extension:
+  extensions:
   - dpx
   fdd:
   - fdd000178
@@ -4779,12 +4779,12 @@ formats:
   pronom:
   - fmt/193
   source: DPX
-- extension:
+- extensions:
   - cin
   name: Cineon
   released: "1990\u20131993"
   source: Cineon
-- extension:
+- extensions:
   - pgf
   name: PGF (Progressive Graphics File)
   released: "\u22642006"
@@ -4797,22 +4797,22 @@ formats:
   source: Code_11
 - name: Code 49
   source: Code_49
-- extension:
+- extensions:
   - pgn
-  mimetype:
+  mimetypes:
   - application/x-chess-pgn
   name: PGN
   source: PGN
-- extension:
+- extensions:
   - fen
   name: FEN
   source: FEN
-- extension:
+- extensions:
   - pdn
   name: Portable Draughts Notation
   released: "\u22642000"
   source: Portable_Draughts_Notation
-- extension:
+- extensions:
   - pdn
   name: Paint.NET image
   source: Paint.NET_image
@@ -4821,7 +4821,7 @@ formats:
 - name: Code 16K
   released: '1989'
   source: Code_16K
-- extension:
+- extensions:
   - sie
   name: Alter Ego Vignette Script format
   source: Alter_Ego_Vignette_Script_format
@@ -4851,9 +4851,9 @@ formats:
 - name: ArrayTag
   released: '1993'
   source: ArrayTag
-- extension:
+- extensions:
   - stw
-  mimetype:
+  mimetypes:
   - application/vnd.sun.xml.writer.template
   name: STW
   source: STW
@@ -4861,14 +4861,14 @@ formats:
   pronom:
   - fmt/111
   source: Microsoft_Compound_File
-- extension:
+- extensions:
   - db
   name: Windows thumbnail cache
   source: Windows_thumbnail_cache
 - name: Aztec Code
   released: '1995'
   source: Aztec_Code
-- extension:
+- extensions:
   - ray
   name: Rayshade scene description
   released: ~1989
@@ -4879,7 +4879,7 @@ formats:
 - egff:
   - nff
   - NFF File Format Summary
-  extension:
+  extensions:
   - nff
   name: NFF
   released: ~1988
@@ -4889,37 +4889,37 @@ formats:
 - egff:
   - sense8
   - Sense8 NFF File Format Summary
-  extension:
+  extensions:
   - bff
   name: Sense8 NFF
   source: Sense8_NFF
-- extension:
+- extensions:
   - tlg
   name: TLG (KiriKiri)
   source: TLG_%28KiriKiri%29
-- extension:
+- extensions:
   - ed
-  mimetype:
+  mimetypes:
   - image/vnd.fujixerox.edmics-mmr
   name: Xerox EDMICS-MMR
   source: Xerox_EDMICS-MMR
 - name: CP Code
   source: CP_Code
-- extension:
+- extensions:
   - lbx
   name: P-touch Editor Label
   source: P-touch_Editor_Label
-- extension:
+- extensions:
   - pgf
   name: PGF (Portfolio Graphics)
   released: "1989\u20131991"
   source: PGF_%28Portfolio_Graphics%29
-- extension:
+- extensions:
   - pgc
   name: PGC (Portfolio Graphics Compressed)
   released: "1989\u20131991"
   source: PGC_%28Portfolio_Graphics_Compressed%29
-- extension:
+- extensions:
   - wbp
   name: Webshots picture
   source: Webshots_picture
@@ -4933,9 +4933,9 @@ formats:
   source: Google_Content_API_for_Shopping
 - name: Coupons and Tickets
   source: Coupons_and_Tickets
-- extension:
+- extensions:
   - pkpass
-  mimetype:
+  mimetypes:
   - application/vnd.apple.pkpass
   name: PKPass
   source: PKPass
@@ -4946,23 +4946,23 @@ formats:
   source: D-touch
 - name: Data Matrix
   source: Data_Matrix
-- extension:
+- extensions:
   - cmu
   name: CMU Window Manager bitmap
   source: CMU_Window_Manager_bitmap
 - name: Datastrip Code
   released: '1985'
   source: Datastrip_Code
-- extension:
+- extensions:
   - cip
   name: Cisco IP Phone image
   source: Cisco_IP_Phone_image
-- extension:
+- extensions:
   - bibtex
   name: BibTeX
   released: '1985'
   source: BibTeX
-- extension:
+- extensions:
   - lwf
   name: LuraWave
   released: "\u22641997"
@@ -4983,16 +4983,16 @@ formats:
   source: Xanga
 - name: WordPress
   source: WordPress
-- extension:
+- extensions:
   - mrf
   name: MRF (Monochrome Recursive Format)
   released: '1997'
   source: MRF_%28Monochrome_Recursive_Format%29
-- extension:
+- extensions:
   - spl
   fdd:
   - fdd000248
-  mimetype:
+  mimetypes:
   - application/futuresplash
   name: SWF
   pronom:
@@ -5005,7 +5005,7 @@ formats:
   source: EAN-14
 - name: EAN-2
   source: EAN-2
-- extension:
+- extensions:
   - pcs
   name: PhotoChrome
   source: PhotoChrome
@@ -5016,11 +5016,11 @@ formats:
 - name: EZcode
   released: '2006'
   source: EZcode
-- extension:
+- extensions:
   - flv
   fdd:
   - fdd000131
-  mimetype:
+  mimetypes:
   - video/x-flv
   name: FLV
   pronom:
@@ -5038,34 +5038,34 @@ formats:
 - egff:
   - 'off'
   - OFF File Format Summary
-  extension:
+  extensions:
   - geom
   name: OFF (DEC-WSE Object File Format)
   released: '1986'
   source: OFF_%28DEC-WSE_Object_File_Format%29
 - name: PaperDisk
   source: PaperDisk
-- extension:
+- extensions:
   - prf
   name: PRF (Polychrome Recursive Format)
   released: '2001'
   source: PRF_%28Polychrome_Recursive_Format%29
 - name: GS1 DataBar
   source: GS1_DataBar
-- extension:
+- extensions:
   - 'off'
   name: OFF (Geomview Object File Format)
   source: OFF_%28Geomview_Object_File_Format%29
 - name: Han Xin Code
   released: '2005'
   source: Han_Xin_Code
-- extension:
+- extensions:
   - ora
-  mimetype:
+  mimetypes:
   - image/openraster
   name: OpenRaster
   source: OpenRaster
-- extension:
+- extensions:
   - kcf
   name: KiSS CEL
   released: '1991'
@@ -5073,15 +5073,15 @@ formats:
 - name: LZMA
   released: '2001'
   source: LZMA
-- extension:
+- extensions:
   - lzma
-  mimetype:
+  mimetypes:
   - application/x-lzma
   name: LZMA Alone
   source: LZMA_Alone
-- extension:
+- extensions:
   - lz
-  mimetype:
+  mimetypes:
   - application/x-lzip
   name: Lzip
   released: '2008'
@@ -5098,7 +5098,7 @@ formats:
   source: U-matic_3/4%22
 - name: INTACTA.CODE
   source: INTACTA.CODE
-- extension:
+- extensions:
   - apm
   name: Aldus Placeable Metafile
   source: Aldus_Placeable_Metafile
@@ -5123,12 +5123,12 @@ formats:
   source: Australia_Post_standard_customer_barcode
 - name: DAFT
   source: DAFT
-- extension:
+- extensions:
   - aam
   name: Art & Magic
   released: '1992'
   source: Art_%26_Magic
-- extension:
+- extensions:
   - bss
   name: Beathoven Synthesiser
   released: '1987'
@@ -5136,7 +5136,7 @@ formats:
 - name: PDF417
   released: '1991'
   source: PDF417
-- extension:
+- extensions:
   - anim
   name: ANIM
   released: '1988'
@@ -5147,7 +5147,7 @@ formats:
   source: DPD_Barcode
 - name: Flattermarken
   source: Flattermarken
-- extension:
+- extensions:
   - mbfavs
   name: AVS X image
   source: AVS_X_image
@@ -5155,30 +5155,30 @@ formats:
   source: Japanese_postal_barcode
 - name: KIX barcode
   source: KIX_barcode
-- extension:
+- extensions:
   - xps
-  mimetype:
+  mimetypes:
   - application/vnd.ms-xpsdocument
   name: OpenXPS
   pronom:
   - fmt/657
   released: '2006'
   source: OpenXPS
-- extension:
+- extensions:
   - info
   name: Amiga Workbench icon
   source: Amiga_Workbench_icon
-- extension:
+- extensions:
   - info
   name: NewIcons
   source: NewIcons
-- extension:
+- extensions:
   - info
   name: GlowIcons
   source: GlowIcons
 - name: Korean Postal Authority Code
   source: Korean_Postal_Authority_Code
-- extension:
+- extensions:
   - txt
   name: ASCII tab
   source: ASCII_tab
@@ -5203,7 +5203,7 @@ formats:
 - egff:
   - gemvector
   - GEM VDI File Format Summary
-  extension:
+  extensions:
   - gem
   name: GEM VDI Metafile
   pronom:
@@ -5220,7 +5220,7 @@ formats:
   source: Secure_Seal
 - name: SmartCode
   source: SmartCode
-- extension:
+- extensions:
   - ldf
   name: LuraDocument Format
   source: LuraDocument_Format
@@ -5230,13 +5230,13 @@ formats:
 - name: ShotCode
   released: '1999'
   source: ShotCode
-- extension:
+- extensions:
   - nol
   name: Nokia Operator Logo
   source: Nokia_Operator_Logo
 - name: SPARQCode
   source: SPARQCode
-- extension:
+- extensions:
   - iwc
   name: IWC (WaveL)
   released: "\u22642001"
@@ -5247,7 +5247,7 @@ formats:
 - name: Telepen
   released: '1972'
   source: Telepen
-- extension:
+- extensions:
   - rmp
   name: Ragnarok Online 2 RMP
   released: '2012'
@@ -5264,23 +5264,23 @@ formats:
   source: WaterCode
 - name: Satis
   source: Satis
-- extension:
+- extensions:
   - ecw
   name: ECW
   pronom:
   - fmt/371
   source: ECW
-- extension:
+- extensions:
   - tz
   name: Tzip
   released: "\u22641998"
   source: Tzip
-- extension:
+- extensions:
   - dic
   name: Tzip (Text ZIP)
   released: "\u22641998"
   source: Tzip_%28Text_ZIP%29
-- extension:
+- extensions:
   - lzo
   name: Lzop
   released: '1997'
@@ -5288,7 +5288,7 @@ formats:
 - name: Apple II graphics formats
   released: '1977'
   source: Apple_II_graphics_formats
-- extension:
+- extensions:
   - dat
   name: DKBTrace scene description
   released: ~1990
@@ -5298,51 +5298,51 @@ formats:
   source: PDS4
 - name: ODL (NASA Object Description Language)
   source: ODL_%28NASA_Object_Description_Language%29
-- extension:
+- extensions:
   - xml
   name: Microsoft Office File List
   source: Microsoft_Office_File_List
-- extension:
+- extensions:
   - icns
   name: ICNS
   source: ICNS
-- extension:
+- extensions:
   - abk
   name: AMOS Sprite Bank
   source: AMOS_Sprite_Bank
-- extension:
+- extensions:
   - abk
   name: AMOS Icon Bank
   source: AMOS_Icon_Bank
-- extension:
+- extensions:
   - jif
   name: Jeff's Image Format
   released: "\u22641999"
   source: Jeff%27s_Image_Format
-- extension:
+- extensions:
   - bmh
   name: RIPscrip Icon
   released: '1993'
   source: RIPscrip_Icon
-- extension:
+- extensions:
   - nsl
   name: Nokia Startup Logo
   source: Nokia_Startup_Logo
 - egff:
   - photocd
   - Kodak Photo CD File Format Summary
-  extension:
+  extensions:
   - pcd
   name: Photo CD
   pronom:
   - fmt/211
   released: '1992'
   source: Photo_CD
-- extension:
+- extensions:
   - ngg
   name: Nokia Group Graphic
   source: Nokia_Group_Graphic
-- extension:
+- extensions:
   - npm
   name: Nokia Picture Message
   source: Nokia_Picture_Message
@@ -5352,19 +5352,19 @@ formats:
 - name: Tile
   released: '2013'
   source: Tile
-- extension:
+- extensions:
   - pic
   name: Psion PIC
   released: ~1991
   source: Psion_PIC
-- extension:
+- extensions:
   - mbm
   name: EPOC MBM
   released: '1997'
   source: EPOC_MBM
 - name: Fingerprints
   source: Fingerprints
-- extension:
+- extensions:
   - nlm
   name: Nokia Logo Manager bitmap
   source: Nokia_Logo_Manager_bitmap
@@ -5376,11 +5376,11 @@ formats:
   source: Arduino_programming_language
 - name: LikeUs
   source: LikeUs
-- extension:
+- extensions:
   - fbx
   name: FBX
   source: FBX
-- extension:
+- extensions:
   - wsq
   name: WSQ
   source: WSQ
@@ -5392,7 +5392,7 @@ formats:
   source: Trading_cards
 - name: Project management
   source: Project_management
-- extension:
+- extensions:
   - ch
   name: Scitex CT
   pronom:
@@ -5403,31 +5403,31 @@ formats:
   source: SMB
 - name: Commodore 2040 disk
   source: Commodore_2040_disk
-- extension:
+- extensions:
   - '8'
   name: Man page
   source: Man_page
-- extension:
+- extensions:
   - tap
   name: TAP (ZX Spectrum)
   source: TAP_%28ZX_Spectrum%29
-- extension:
+- extensions:
   - tzx
   name: TZX
   source: TZX
-- extension:
+- extensions:
   - scr
   name: SCR (ZX Spectrum)
   released: '1982'
   source: SCR_%28ZX_Spectrum%29
-- extension:
+- extensions:
   - pzx
   name: PZX
   released: '2007'
   source: PZX
 - name: Maildir
   source: Maildir
-- extension:
+- extensions:
   - xnb
   name: Microsoft XNA Compiled Format
   source: Microsoft_XNA_Compiled_Format
@@ -5457,7 +5457,7 @@ formats:
   source: ResponseCard_RF
 - name: HAtom
   source: HAtom
-- extension:
+- extensions:
   - pes
   name: PES
   source: PES
@@ -5494,52 +5494,52 @@ formats:
 - name: Tor
   released: '2002'
   source: Tor
-- extension:
+- extensions:
   - 3d2
   name: CAD-3D
   released: '1986'
   source: CAD-3D
 - name: Boxes/atoms format
   source: Boxes/atoms_format
-- extension:
+- extensions:
   - anm
   name: DeluxePaint Animation
   released: '1989'
   source: DeluxePaint_Animation
 - name: Sixel
   source: Sixel
-- extension:
+- extensions:
   - spec
   name: RPM
   source: RPM
 - name: Fax machine
   source: Fax_machine
-- extension:
+- extensions:
   - hprj
   name: Heroglyph Project Format
   source: Heroglyph_Project_Format
-- extension:
+- extensions:
   - rlc
-  mimetype:
+  mimetypes:
   - image/vnd.fujixerox.edmics-rlc
   name: Xerox EDMICS-RLC
   source: Xerox_EDMICS-RLC
-- extension:
+- extensions:
   - fac
   name: FaceSaver
   released: '1987'
   source: FaceSaver
-- extension:
+- extensions:
   - asf
   name: Electronic Arts AS4 / ASF Music
   source: Electronic_Arts_AS4_/_ASF_Music
-- extension:
+- extensions:
   - lib
   name: Microsoft Library
   source: Microsoft_Library
 - name: Random Access Memory
   source: Random_Access_Memory
-- extension:
+- extensions:
   - med
   name: OctaMED module (MED)
   released: '1989'
@@ -5547,7 +5547,7 @@ formats:
 - egff:
   - naplps
   - NAPLPS File Format Summary
-  extension:
+  extensions:
   - nap
   name: NAPLPS
   source: NAPLPS
@@ -5564,16 +5564,16 @@ formats:
   source: Disney_Sound_Source
 - name: RLL encoding
   source: RLL_encoding
-- extension:
+- extensions:
   - rtf
-  mimetype:
+  mimetypes:
   - application/rtf
   name: RTF
   pronom:
   - fmt/355
   released: '1987'
   source: RTF
-- extension:
+- extensions:
   - obj
   name: Imagine Object File
   source: Imagine_Object_File
@@ -5585,7 +5585,7 @@ formats:
 - egff:
   - tddd
   - TDDD File Format Summary
-  extension:
+  extensions:
   - tdd
   name: TDDD
   released: ~1986
@@ -5595,9 +5595,9 @@ formats:
 - name: EMSI/IEMSI
   released: '1991'
   source: EMSI/IEMSI
-- extension:
+- extensions:
   - cgm
-  mimetype:
+  mimetypes:
   - image/cgm
   name: CGM
   pronom:
@@ -5608,25 +5608,25 @@ formats:
   source: ExFAT
 - name: PhpBB
   source: PhpBB
-- extension:
+- extensions:
   - kro
   name: Kolor Raw
   source: Kolor_Raw
-- extension:
+- extensions:
   - diz
   name: FILE ID.DIZ
   source: FILE_ID.DIZ
 - name: EPOC Sketch
   source: EPOC_Sketch
-- extension:
+- extensions:
   - dmk
   name: DMK
   source: DMK
-- extension:
+- extensions:
   - hdv
   name: HDV (disk image)
   source: HDV_%28disk_image%29
-- extension:
+- extensions:
   - pac
   name: STAD PAC
   source: STAD_PAC
@@ -5635,7 +5635,7 @@ formats:
 - name: Nemeth Code
   released: '1952'
   source: Nemeth_Code
-- extension:
+- extensions:
   - brf
   name: BRF
   source: BRF
@@ -5655,16 +5655,16 @@ formats:
 - name: NFC Ring
   released: '2013'
   source: NFC_Ring
-- extension:
+- extensions:
   - stl
   name: STL
   source: STL
 - name: Lego
   released: '1949'
   source: Lego
-- extension:
+- extensions:
   - fodp
-  mimetype:
+  mimetypes:
   - application/vnd.oasis.opendocument.text-master
   name: OpenDocument
   pronom:
@@ -5675,12 +5675,12 @@ formats:
   source: Mailpile
 - name: Google Drive
   source: Google_Drive
-- extension:
+- extensions:
   - jpg
   name: Multi-Picture Format
   released: '2009'
   source: Multi-Picture_Format
-- extension:
+- extensions:
   - jps
   name: JPS
   released: "\u22641997"
@@ -5697,45 +5697,45 @@ formats:
   source: HTTP
 - name: Core rope memory
   source: Core_rope_memory
-- extension:
+- extensions:
   - xml
   name: DocBook
   source: DocBook
-- extension:
+- extensions:
   - jp2
-  mimetype:
+  mimetypes:
   - image/jp2
   name: GeoJP2
   source: GeoJP2
-- extension:
+- extensions:
   - pem
   name: PEM
   source: PEM
-- extension:
+- extensions:
   - cer
   name: PEM encoded certificate
   source: PEM_encoded_certificate
-- extension:
+- extensions:
   - cer
-  mimetype:
+  mimetypes:
   - application/x-x509-ca-cert
   name: DER encoded certificate
   source: DER_encoded_certificate
 - name: YouTube
   source: YouTube
-- extension:
+- extensions:
   - pem
   name: PEM encoded RSA private key
   source: PEM_encoded_RSA_private_key
-- extension:
+- extensions:
   - 3g2
-  mimetype:
+  mimetypes:
   - audio/3gpp2
   name: 3G2
   source: 3G2
-- extension:
+- extensions:
   - 3gp
-  mimetype:
+  mimetypes:
   - audio/3gpp
   name: 3GP
   pronom:
@@ -5743,57 +5743,57 @@ formats:
   source: 3GP
 - name: Fink-Mao notation
   source: Fink-Mao_notation
-- extension:
+- extensions:
   - jpx
   fdd:
   - fdd000303
-  mimetype:
+  mimetypes:
   - image/jpx
   name: GMLJP2
   source: GMLJP2
-- extension:
+- extensions:
   - pem
   name: PKCS7 certificate
   source: PKCS7_certificate
-- extension:
+- extensions:
   - pvk
   name: PVK
   source: PVK
-- extension:
+- extensions:
   - bin
   name: CUE and BIN
   source: CUE_and_BIN
 - name: Forensics and Law Enforcement
   source: Forensics_and_Law_Enforcement
-- extension:
+- extensions:
   - index
   name: Digital Evidence Bag
   source: Digital_Evidence_Bag
 - name: EnCase hash map
   source: EnCase_hash_map
-- extension:
+- extensions:
   - stm
   name: Extensible Storage Engine
   source: Extensible_Storage_Engine
-- extension:
+- extensions:
   - gpx
   name: GPX
   pronom:
   - fmt/243
   source: GPX
-- extension:
+- extensions:
   - key
   name: DER encoded RSA private key
   source: DER_encoded_RSA_private_key
-- extension:
+- extensions:
   - der
   name: DER
   source: DER
-- extension:
+- extensions:
   - dat
   name: Internet Explorer history file
   source: Internet_Explorer_history_file
-- extension:
+- extensions:
   - lnk
   name: Windows Shortcut
   pronom:
@@ -5801,58 +5801,58 @@ formats:
   source: Windows_Shortcut
 - name: Firefox history file
   source: Firefox_history_file
-- extension:
+- extensions:
   - dat
   name: Mork
   pronom:
   - fmt/612
   source: Mork
-- extension:
+- extensions:
   - nk2
   name: Nickfile
   source: Nickfile
-- extension:
+- extensions:
   - nsf
-  mimetype:
+  mimetypes:
   - application/x-lotus-notes
   name: Notes Storage Facility
   source: Notes_Storage_Facility
 - name: World File
   source: World_File
-- extension:
+- extensions:
   - dbx
   name: Outlook Express Database
   source: Outlook_Express_Database
-- extension:
+- extensions:
   - ost
-  mimetype:
+  mimetypes:
   - application/vnd.ms-outlook
   name: Personal Folder File
   source: Personal_Folder_File
-- extension:
+- extensions:
   - qcow2
   name: Qcow
   source: Qcow
-- extension:
+- extensions:
   - pfx
   name: PKCS12
   released: ~1997
   source: PKCS12
-- extension:
+- extensions:
   - pem
   name: Certificate Revocation List
   source: Certificate_Revocation_List
-- extension:
+- extensions:
   - csr
   name: Certificate Signing Request
   source: Certificate_Signing_Request
 - name: RSA private key
   source: RSA_private_key
-- extension:
+- extensions:
   - vdi
   name: VDI
   source: VDI
-- extension:
+- extensions:
   - vmdk
   name: VMDK
   source: VMDK
@@ -5866,19 +5866,19 @@ formats:
 - name: SafeSlinger
   released: '2013'
   source: SafeSlinger
-- mimetype:
+- mimetypes:
   - application/applefile
   name: AppleSingle
   source: AppleSingle
-- mimetype:
+- mimetypes:
   - multipart/appledouble
   name: AppleDouble
   source: AppleDouble
-- extension:
+- extensions:
   - webloc
   name: Webloc
   source: Webloc
-- extension:
+- extensions:
   - lsb
   name: LSB
   source: LSB
@@ -5887,24 +5887,24 @@ formats:
   source: Hauntbox
 - name: System files
   source: System_files
-- extension:
+- extensions:
   - reg
   name: Windows Registry
   source: Windows_Registry
 - name: Privacy-Enhanced Mail (RFC 1421)
   released: ~1987
   source: Privacy-Enhanced_Mail_%28RFC_1421%29
-- extension:
+- extensions:
   - log2
   name: Windows Event Log
   source: Windows_Event_Log
-- extension:
+- extensions:
   - v2i
   name: TI picture file
   source: TI_picture_file
 - name: SAML
   source: SAML
-- extension:
+- extensions:
   - bmp
   name: Alpha Microsystems BMP
   source: Alpha_Microsystems_BMP
@@ -5917,19 +5917,19 @@ formats:
   source: Mark_of_the_Web
 - name: Canonical Link Relation
   source: Canonical_Link_Relation
-- extension:
+- extensions:
   - bz
   name: Bzip
   pronom:
   - x-fmt/267
   released: '1996'
   source: Bzip
-- extension:
+- extensions:
   - vsq
   name: Voice Sequence
   released: '2007-06-29'
   source: Voice_Sequence
-- extension:
+- extensions:
   - spc
   name: SPC
   source: SPC
@@ -5940,48 +5940,48 @@ formats:
 - name: CD-DA
   released: '1982'
   source: CD-DA
-- extension:
+- extensions:
   - svg
   name: SuperView Graphics
   source: SuperView_Graphics
-- extension:
+- extensions:
   - umz
   name: Universal Machine (ICFP programming contest 2006)
   released: '2006'
   source: Universal_Machine_%28ICFP_programming_contest_2006%29
-- extension:
+- extensions:
   - gdoc
   name: Google Document
   released: '2006'
   source: Google_Document
-- extension:
+- extensions:
   - gsheet
   name: Google Sheet
   released: '2006'
   source: Google_Sheet
-- extension:
+- extensions:
   - p12
   name: PFX (original format)
   released: "\u22641996"
   source: PFX_%28original_format%29
-- extension:
+- extensions:
   - uu
   name: Uuencoding
   source: Uuencoding
 - name: SRGB
   released: '1996'
   source: SRGB
-- extension:
+- extensions:
   - sav
-  mimetype:
+  mimetypes:
   - application/x-spss-sav
   name: SAV
   pronom:
   - fmt/638
   source: SAV
-- extension:
+- extensions:
   - ggb
-  mimetype:
+  mimetypes:
   - application-x/geogebra-file
   name: Ggb
   pronom:
@@ -5990,7 +5990,7 @@ formats:
 - name: Moodle
   released: '1999'
   source: Moodle
-- extension:
+- extensions:
   - cbm
   name: FBM image
   released: '1989'
@@ -6004,7 +6004,7 @@ formats:
   name: Encyclopedia of Graphics File Formats
   released: '1994'
   source: Encyclopedia_of_Graphics_File_Formats
-- extension:
+- extensions:
   - m2k
   name: M2k
   source: M2k
@@ -6016,7 +6016,7 @@ formats:
   source: SAM_Coup%C3%A9_disk
 - name: +D filesystem
   source: '%2BD_filesystem'
-- extension:
+- extensions:
   - edn
   name: Clojure
   source: Clojure
@@ -6029,7 +6029,7 @@ formats:
 - name: RECOIL
   released: '2009'
   source: RECOIL
-- extension:
+- extensions:
   - p7
   name: XV thumbnail
   released: ~1993
@@ -6044,16 +6044,16 @@ formats:
   source: Law
 - name: The State Decoded
   source: The_State_Decoded
-- extension:
+- extensions:
   - odt
-  mimetype:
+  mimetypes:
   - application/vnd.oasis.opendocument.text
   name: OpenDocument Text
   pronom:
   - fmt/291
   released: '2005-05-01'
   source: OpenDocument_Text
-- extension:
+- extensions:
   - ljpeg
   fdd:
   - fdd000334
@@ -6067,23 +6067,23 @@ formats:
   source: Coin_%28device%29
 - name: LOCO-I
   source: LOCO-I
-- extension:
+- extensions:
   - musink
   name: Musink
   released: '2012'
   source: Musink
-- extension:
+- extensions:
   - flp
   name: Raw FL Studio Project
   source: Raw_FL_Studio_Project
 - name: Commodore 64 color palette
   source: Commodore_64_color_palette
-- extension:
+- extensions:
   - '411'
   name: Sony Mavica 411
   released: "\u22641998"
   source: Sony_Mavica_411
-- extension:
+- extensions:
   - psb
   name: PSB
   released: '2003'
@@ -6096,53 +6096,53 @@ formats:
 - name: Brain
   released: 550-600 MYA
   source: Brain
-- extension:
+- extensions:
   - tex
   name: LaTeX
   pronom:
   - fmt/281
   released: early 1980s
   source: LaTeX
-- extension:
+- extensions:
   - rmt
   name: RASTER Music Tracker module
   source: RASTER_Music_Tracker_module
 - name: PFS (Portable Floatmap Stream)
   released: '2003'
   source: PFS_%28Portable_Floatmap_Stream%29
-- extension:
+- extensions:
   - pat
   name: GIMP Pattern
   source: GIMP_Pattern
-- extension:
+- extensions:
   - gpb
   name: GIMP Brush
   source: GIMP_Brush
-- extension:
+- extensions:
   - gih
   name: GIMP Animated Brush
   source: GIMP_Animated_Brush
-- extension:
+- extensions:
   - odl
   name: ODL (Microsoft Object Description Language)
   source: ODL_%28Microsoft_Object_Description_Language%29
 - name: 23andMe
   source: 23andMe
-- extension:
+- extensions:
   - tdf
   name: TheDraw font
   released: '1986'
   source: TheDraw_font
-- extension:
+- extensions:
   - pam
-  mimetype:
+  mimetypes:
   - image/x-portable-arbitrarymap
   name: PAM (Portable Arbitrary Map)
   pronom:
   - fmt/405
   released: '2000'
   source: PAM_%28Portable_Arbitrary_Map%29
-- extension:
+- extensions:
   - pcb
   name: PCBoard
   released: '1983'
@@ -6150,11 +6150,11 @@ formats:
 - name: Fido BBS
   released: '1984'
   source: Fido_BBS
-- extension:
+- extensions:
   - map
   name: Mapsforge Binary Map
   source: Mapsforge_Binary_Map
-- extension:
+- extensions:
   - pak
   name: Quantum compressed archive
   released: "\u22641995"
@@ -6168,39 +6168,39 @@ formats:
 - name: BlooP, FlooP, and GlooP
   released: '1979'
   source: BlooP%2C_FlooP%2C_and_GlooP
-- extension:
+- extensions:
   - doo
   name: Doodle (Atari)
   source: Doodle_%28Atari%29
-- extension:
+- extensions:
   - rdi
   name: RDIB
   released: "\u22641991"
   source: RDIB
-- extension:
+- extensions:
   - iso
   name: Apple Partition Map
   source: Apple_Partition_Map
-- extension:
+- extensions:
   - hfs
   name: HFS
   source: HFS
 - name: ProDOS file system
   source: ProDOS_file_system
-- extension:
+- extensions:
   - avt
   name: AVATAR
   source: AVATAR
 - name: Gerber format
   source: Gerber_format
-- extension:
+- extensions:
   - dms
   name: Disk Masher System
   source: Disk_Masher_System
 - egff:
   - wpg
   - WordPerfect Graphics Metafile File Format Summary
-  extension:
+  extensions:
   - wpg
   name: WordPerfect Graphics
   pronom:
@@ -6210,9 +6210,9 @@ formats:
   source: Flowchart
 - name: BFD
   source: BFD
-- extension:
+- extensions:
   - fodg
-  mimetype:
+  mimetypes:
   - application/vnd.oasis.opendocument.graphics
   name: OpenDocument Drawing
   pronom:
@@ -6220,15 +6220,15 @@ formats:
   source: OpenDocument_Drawing
 - name: HFS+
   source: HFS%2B
-- extension:
+- extensions:
   - exe
   name: Self-extracting ZIP
   source: Self-extracting_ZIP
-- extension:
+- extensions:
   - pog
   name: The Print Shop
   source: The_Print_Shop
-- extension:
+- extensions:
   - sdx
   name: PrintMaster
   source: PrintMaster
@@ -6238,28 +6238,28 @@ formats:
 - name: Dogecoin
   released: '2013'
   source: Dogecoin
-- extension:
+- extensions:
   - m4a
   fdd:
   - fdd000110
   name: AAC
   released: '1997'
   source: AAC
-- extension:
+- extensions:
   - wmv
-  mimetype:
+  mimetypes:
   - video/x-ms-wmv
   name: WMV
   source: WMV
-- extension:
+- extensions:
   - wma
-  mimetype:
+  mimetypes:
   - video/x-ms-wma
   name: WMA
   source: WMA
 - name: VC-1
   source: VC-1
-- extension:
+- extensions:
   - pax
   name: Pax
   source: Pax
@@ -6269,38 +6269,38 @@ formats:
 - egff:
   - radiance
   - Radiance File Format Summary
-  extension:
+  extensions:
   - rad
   name: Radiance Scene Description
   source: Radiance_Scene_Description
-- extension:
+- extensions:
   - atr
   name: ATR
   source: ATR
-- extension:
+- extensions:
   - cas
   name: CAS (Atari)
   released: '1997'
   source: CAS_%28Atari%29
-- extension:
+- extensions:
   - dat
   name: BVE train.dat file
   source: BVE_train.dat_file
-- extension:
+- extensions:
   - animated
   name: BVE object formats
   source: BVE_object_formats
-- extension:
+- extensions:
   - rw
   name: BVE route formats
   source: BVE_route_formats
-- extension:
+- extensions:
   - st
   name: ST disk image
   source: ST_disk_image
-- extension:
+- extensions:
   - json
-  mimetype:
+  mimetypes:
   - application/vnd.api+json
   name: JSON API
   source: JSON_API
@@ -6316,28 +6316,28 @@ formats:
 - egff:
   - grib
   - GRIB File Format Summary
-  extension:
+  extensions:
   - grb
   name: GRIB
   pronom:
   - fmt/285
   source: GRIB
-- extension:
+- extensions:
   - dvm
   name: DVM
   source: DVM
 - name: Mtree
   source: Mtree
-- extension:
+- extensions:
   - msa
   name: MSA (Magic Shadow Archiver)
   source: MSA_%28Magic_Shadow_Archiver%29
-- extension:
+- extensions:
   - rip
   name: RIPscrip
   released: '1993'
   source: RIPscrip
-- extension:
+- extensions:
   - tnd
   name: TUNDRA
   source: TUNDRA
@@ -6348,14 +6348,14 @@ formats:
   source: Snake
 - name: Drupal
   source: Drupal
-- extension:
+- extensions:
   - its
   name: Impulse Tracker sample
   source: Impulse_Tracker_sample
 - egff:
   - dore
   - Dore Raster File Format File Format Summary
-  extension:
+  extensions:
   - img
   name: "Dor\xE9 Raster"
   released: "\u22641994"
@@ -6366,60 +6366,60 @@ formats:
 - name: Coinye
   released: '2014'
   source: Coinye
-- extension:
+- extensions:
   - bfli
   name: BFLI
   source: BFLI
-- extension:
+- extensions:
   - 4bt
   name: GoDot
   source: GoDot
-- extension:
+- extensions:
   - icl
   name: Icon library
   source: Icon_library
 - name: Bar
   source: Bar
-- extension:
+- extensions:
   - avw
   name: Analyze AVW
   source: Analyze_AVW
-- extension:
+- extensions:
   - ffli
   name: FFLI
   released: "\u22641995"
   source: FFLI
-- extension:
+- extensions:
   - drv
   name: Dynamic-link library (Windows)
   source: Dynamic-link_library_%28Windows%29
-- extension:
+- extensions:
   - chn
   name: Turbo Pascal chain file
   source: Turbo_Pascal_chain_file
-- extension:
+- extensions:
   - ithmb
   name: IThmb
   source: IThmb
 - name: Xbox Live Avatar
   source: Xbox_Live_Avatar
-- extension:
+- extensions:
   - cpt
   name: Corel Photo-Paint image
   pronom:
   - x-fmt/144
   released: '1992'
   source: Corel_Photo-Paint_image
-- extension:
+- extensions:
   - img
   name: Interleaf image
   released: "\u22641994"
   source: Interleaf_image
 - name: Twister
   source: Twister
-- extension:
+- extensions:
   - wrz
-  mimetype:
+  mimetypes:
   - model/vrml
   name: VRML
   pronom:
@@ -6429,12 +6429,12 @@ formats:
 - egff:
   - atari
   - Atari ST Graphics Formats File Format Summary
-  extension:
+  extensions:
   - seq
   name: Cyber Paint Sequence
   released: '1987'
   source: Cyber_Paint_Sequence
-- extension:
+- extensions:
   - apx
   name: Ability Office PhotoPaint
   released: '1994'
@@ -6444,42 +6444,42 @@ formats:
   source: DissidentX
 - name: 7-Zip
   source: 7-Zip
-- extension:
+- extensions:
   - es
-  mimetype:
+  mimetypes:
   - application/ecmascript
   name: ECMAScript
   released: '1997'
   source: ECMAScript
-- extension:
+- extensions:
   - awp
   name: Ability Write
   released: '1994'
   source: Ability_Write
-- extension:
+- extensions:
   - xmi
   name: XMI (Extended MIDI)
   source: XMI_%28Extended_MIDI%29
-- extension:
+- extensions:
   - ast
   name: Ability Spreadsheet
   released: '1994'
   source: Ability_Spreadsheet
-- extension:
+- extensions:
   - adb
   name: Ability Database
   released: '1994'
   source: Ability_Database
-- extension:
+- extensions:
   - pic
   name: BioRad confocal image
   source: BioRad_confocal_image
-- extension:
+- extensions:
   - jj
   name: Doodle! (C64)
   released: ~1985
   source: Doodle%21_%28C64%29
-- extension:
+- extensions:
   - yal
   name: Arts & Letters clip art library
   source: Arts_%26_Letters_clip_art_library
@@ -6489,11 +6489,11 @@ formats:
   source: ESC/POS
 - name: Epson Printer Bitmaps
   source: Epson_Printer_Bitmaps
-- extension:
+- extensions:
   - deep
   name: IFF-DEEP
   source: IFF-DEEP
-- extension:
+- extensions:
   - 4pp
   name: PhotoParade slideshow
   source: PhotoParade_slideshow
@@ -6503,13 +6503,13 @@ formats:
 - name: Content Scramble System
   released: '1996'
   source: Content_Scramble_System
-- extension:
+- extensions:
   - amz
   name: Amazon downloader file
   source: Amazon_downloader_file
-- extension:
+- extensions:
   - p10
-  mimetype:
+  mimetypes:
   - application/pkcs10
   name: PKCS10
   source: PKCS10
@@ -6521,18 +6521,18 @@ formats:
 - egff:
   - pictor
   - Pictor PC Paint File Format Summary
-  extension:
+  extensions:
   - scn
   name: BSAVE Image
   source: BSAVE_Image
-- extension:
+- extensions:
   - cpio
   name: Afio
   released: '1987'
   source: Afio
 - name: Transportation
   source: Transportation
-- extension:
+- extensions:
   - pmd
   name: PmDraw
   released: "\u22641994"
@@ -6540,32 +6540,32 @@ formats:
 - egff:
   - os2bmp
   - OS/2 Bitmap File Format Summary
-  extension:
+  extensions:
   - ico
   name: OS/2 Icon
   source: OS/2_Icon
 - egff:
   - os2bmp
   - OS/2 Bitmap File Format Summary
-  extension:
+  extensions:
   - ptr
   name: OS/2 Pointer
   source: OS/2_Pointer
-- extension:
+- extensions:
   - pgx
   name: PGX (JPEG 2000)
   source: PGX_%28JPEG_2000%29
-- extension:
+- extensions:
   - pgx
   name: PGX (Portfolio)
   released: '1991'
   source: PGX_%28Portfolio%29
-- extension:
+- extensions:
   - alb
   name: Seattle FilmWorks
   released: ~1994
   source: Seattle_FilmWorks
-- extension:
+- extensions:
   - jl
   name: Julia
   released: '2012'
@@ -6573,22 +6573,22 @@ formats:
 - name: Bank Street Writer
   released: '1981'
   source: Bank_Street_Writer
-- extension:
+- extensions:
   - tbl
   name: TRANS.TBL
   source: TRANS.TBL
 - name: Ascii85
   source: Ascii85
-- extension:
+- extensions:
   - sft
   name: ChiWriter font
   released: '1986'
   source: ChiWriter_font
-- extension:
+- extensions:
   - exe
   name: NSIS
   source: NSIS
-- extension:
+- extensions:
   - puz
   name: PUZ (crossword puzzles)
   source: PUZ_%28crossword_puzzles%29
@@ -6596,24 +6596,24 @@ formats:
   source: Binary-coded_decimal
 - name: Puzzles
   source: Puzzles
-- extension:
+- extensions:
   - ipuz
   name: IPUZ
   source: IPUZ
-- extension:
+- extensions:
   - web
   name: Xar (vector graphics)
   released: '1997'
   source: Xar_%28vector_graphics%29
-- extension:
+- extensions:
   - wve
   name: WVE (Psion)
   source: WVE_%28Psion%29
-- extension:
+- extensions:
   - huh
   name: HydroCAD Stormwater Modeling System Unit Hydrograph file
   source: HydroCAD_Stormwater_Modeling_System_Unit_Hydrograph_file
-- extension:
+- extensions:
   - tub
   name: PaintShop Pro
   pronom:
@@ -6622,21 +6622,21 @@ formats:
   source: PaintShop_Pro
 - name: NeXT 2-bit RLE
   source: NeXT_2-bit_RLE
-- extension:
+- extensions:
   - pjxl
   name: HP Paintjet
   source: HP_Paintjet
-- extension:
+- extensions:
   - liff
   name: LIFF
   source: LIFF
-- extension:
+- extensions:
   - ntf
   name: National Imagery Transmission Format
   pronom:
   - fmt/366
   source: National_Imagery_Transmission_Format
-- extension:
+- extensions:
   - siard
   name: SIARD
   pronom:
@@ -6644,39 +6644,39 @@ formats:
   source: SIARD
 - name: Mixed Raster Content
   source: Mixed_Raster_Content
-- extension:
+- extensions:
   - mrc
   name: MRC
   source: MRC
-- extension:
+- extensions:
   - ini
   name: MIRC scripting language
   released: '1995'
   source: MIRC_scripting_language
-- extension:
+- extensions:
   - kpl
   name: IBM KIPS bitmap
   source: IBM_KIPS_bitmap
-- extension:
+- extensions:
   - ptg
   name: PTG
   released: '2004'
   source: PTG
-- extension:
+- extensions:
   - zim
   name: ZIM
   source: ZIM
-- extension:
+- extensions:
   - zeno
   name: Zeno
   source: Zeno
-- extension:
+- extensions:
   - nfo
-  mimetype:
+  mimetypes:
   - text/x-nfo
   name: NFO
   source: NFO
-- extension:
+- extensions:
   - adz
   name: ADF (Amiga)
   source: ADF_%28Amiga%29
@@ -6685,18 +6685,18 @@ formats:
 - egff:
   - wavefrontobj
   - Wavefront OBJ File Format Summary
-  extension:
+  extensions:
   - mod
   name: Wavefront OBJ
   source: Wavefront_OBJ
-- extension:
+- extensions:
   - mtl
   name: Wavefront MTL
   source: Wavefront_MTL
 - egff:
   - ttddd
   - TTDDD File Format Summary
-  extension:
+  extensions:
   - ttd
   name: TTDDD
   released: ~1991
@@ -6706,11 +6706,11 @@ formats:
 - egff:
   - pictor
   - Pictor PC Paint File Format Summary
-  extension:
+  extensions:
   - clp
   name: PCPaint CLP
   source: PCPaint_CLP
-- extension:
+- extensions:
   - obj
   name: Object file format
   source: Object_file_format
@@ -6721,36 +6721,36 @@ formats:
   source: SPF
 - name: Habeas Warrant Mark
   source: Habeas_Warrant_Mark
-- extension:
+- extensions:
   - cms
   name: CMS (Creative Music System)
   source: CMS_%28Creative_Music_System%29
-- extension:
+- extensions:
   - ttf
   name: TrueType
   pronom:
   - x-fmt/453
   released: '1991'
   source: TrueType
-- extension:
+- extensions:
   - ttf
   name: OpenType
   pronom:
   - fmt/520
   source: OpenType
-- extension:
+- extensions:
   - ttc
   name: Open Font Format
   source: Open_Font_Format
-- extension:
+- extensions:
   - b16
   name: PCO B16
   source: PCO_B16
-- extension:
+- extensions:
   - '16'
   name: LSS16
   source: LSS16
-- extension:
+- extensions:
   - xir
   name: C+=
   released: '2013'
@@ -6763,12 +6763,12 @@ formats:
 - name: SAIL
   released: '1970'
   source: SAIL
-- extension:
+- extensions:
   - rs
   name: Rust
   released: '2012'
   source: Rust
-- extension:
+- extensions:
   - manifest
   name: Assembly manifest (Windows)
   source: Assembly_manifest_%28Windows%29
@@ -6776,11 +6776,11 @@ formats:
   source: Bytecode
 - name: PPMd
   source: PPMd
-- extension:
+- extensions:
   - img
   name: IMG
   source: IMG
-- extension:
+- extensions:
   - ddi
   name: DDI
   source: DDI
@@ -6789,52 +6789,52 @@ formats:
 - name: JOT
   released: 1970s/1980s
   source: JOT
-- extension:
+- extensions:
   - hrz
   name: Slow-scan television
   released: "\u22641992"
   source: Slow-scan_television
 - fdd:
   - fdd000014
-  mimetype:
+  mimetypes:
   - text/vnd.iptc.nitf
   name: News Industry Text Format
   source: News_Industry_Text_Format
-- extension:
+- extensions:
   - tcl
   name: Tcl
   released: '1988'
   source: Tcl
-- extension:
+- extensions:
   - x3dvz
-  mimetype:
+  mimetypes:
   - model/x3d+vrml
   name: X3D
   pronom:
   - fmt/582
   source: X3D
-- extension:
+- extensions:
   - xml
   name: SpreadsheetML
   source: SpreadsheetML
-- extension:
+- extensions:
   - xml
   name: WordProcessingML
   source: WordProcessingML
-- extension:
+- extensions:
   - vtx
   name: DataDiagrammingML
   source: DataDiagrammingML
-- extension:
+- extensions:
   - vsl
   name: Visio
   released: '1992'
   source: Visio
-- extension:
+- extensions:
   - m4v
   fdd:
   - fdd000155
-  mimetype:
+  mimetypes:
   - video/mp4
   name: MP4
   pronom:
@@ -6850,37 +6850,37 @@ formats:
 - name: MazaCoin
   released: '2014'
   source: MazaCoin
-- extension:
+- extensions:
   - scss
   name: Sass
   source: Sass
-- extension:
+- extensions:
   - mp4
   fdd:
   - fdd000158
   name: AVC (file format)
   source: AVC_%28file_format%29
-- extension:
+- extensions:
   - bz2
   name: Complete Genomics
   source: Complete_Genomics
-- extension:
+- extensions:
   - f4v
   name: F4V
   source: F4V
-- extension:
+- extensions:
   - xlsb
   name: XLSB
   source: XLSB
-- extension:
+- extensions:
   - fastq
   name: FASTA and FASTQ
   source: FASTA_and_FASTQ
-- extension:
+- extensions:
   - img
   name: Raw disk image
   source: Raw_disk_image
-- extension:
+- extensions:
   - mk3d
   fdd:
   - fdd000342
@@ -6888,57 +6888,57 @@ formats:
   pronom:
   - fmt/569
   source: Matroska
-- extension:
+- extensions:
   - eygl
   name: Eyeglass file format (Ross Spencer)
   source: Eyeglass_file_format_%28Ross_Spencer%29
-- extension:
+- extensions:
   - aipd
   name: AIPD
   source: AIPD
-- extension:
+- extensions:
   - mkv
   fdd:
   - fdd000375
-  mimetype:
+  mimetypes:
   - video/x-matroska
   name: MKV
   source: MKV
-- extension:
+- extensions:
   - app
   name: Psion OPO/OPA
   source: Psion_OPO/OPA
-- extension:
+- extensions:
   - app
   name: Psion IMG/APP
   source: Psion_IMG/APP
-- extension:
+- extensions:
   - aif
   name: EPOC AIF
   source: EPOC_AIF
-- extension:
+- extensions:
   - sisx
   name: SIS
   source: SIS
-- extension:
+- extensions:
   - font
   name: Amiga bitmap font
   source: Amiga_bitmap_font
-- extension:
+- extensions:
   - lib
   name: IntelliFont
   source: IntelliFont
-- extension:
+- extensions:
   - dotx
-  mimetype:
+  mimetypes:
   - application/vnd.ms-word
   name: Microsoft Word
   source: Microsoft_Word
-- extension:
+- extensions:
   - dot
   name: DOT
   source: DOT
-- extension:
+- extensions:
   - gv
   name: DOT (graph description language)
   source: DOT_%28graph_description_language%29
@@ -6948,7 +6948,7 @@ formats:
 - name: Namecoin
   released: '2011'
   source: Namecoin
-- extension:
+- extensions:
   - xbg
   name: HP 100LX/200LX icon
   released: ~1993
@@ -6964,7 +6964,7 @@ formats:
   source: Ecash
 - name: ECache
   source: ECache
-- extension:
+- extensions:
   - v
   name: VIPS
   source: VIPS
@@ -6978,7 +6978,7 @@ formats:
   source: Commodore_1581_disk
 - name: Commodore 1581 filesystem
   source: Commodore_1581_filesystem
-- extension:
+- extensions:
   - ibd
   name: MySQL
   source: MySQL
@@ -6988,49 +6988,49 @@ formats:
 - name: Blu-ray Disc
   released: '2006'
   source: Blu-ray_Disc
-- extension:
+- extensions:
   - XXX
   fdd:
   - fddXXXXXX
-  mimetype:
+  mimetypes:
   - application/octet-stream
   name: Template:File Format/Preload
   source: Template%3AFile_Format/Preload
-- extension:
+- extensions:
   - lfp
   name: Lytro
   source: Lytro
-- extension:
+- extensions:
   - ci
   name: "\u0106"
   source: '%C4%86'
-- extension:
+- extensions:
   - gnm
-  mimetype:
+  mimetypes:
   - application/x-gnumeric
   name: Gnumeric
   released: ~2001
   source: Gnumeric
 - name: BigTable
   source: BigTable
-- extension:
+- extensions:
   - hgt
   name: HGT
   source: HGT
-- extension:
+- extensions:
   - uew
   name: UltraEdit wordfile
   source: UltraEdit_wordfile
 - name: PostScript font
   released: '1984'
   source: PostScript_font
-- extension:
+- extensions:
   - abr
   name: Photoshop brush
   source: Photoshop_brush
 - name: EBML
   source: EBML
-- extension:
+- extensions:
   - icn
   name: Micrografx Icon
   source: Micrografx_Icon
@@ -7040,25 +7040,25 @@ formats:
 - name: Adobe RGB (1998)
   released: '1998'
   source: Adobe_RGB_%281998%29
-- extension:
+- extensions:
   - nct
   name: Nero CoverDesigner
   source: Nero_CoverDesigner
 - name: Coq
   source: Coq
-- extension:
+- extensions:
   - exe
   name: MS-DOS EXE
   pronom:
   - x-fmt/409
   source: MS-DOS_EXE
-- extension:
+- extensions:
   - dll
   name: NE
   pronom:
   - x-fmt/410
   source: NE
-- extension:
+- extensions:
   - dll
   name: PE
   pronom:
@@ -7067,7 +7067,7 @@ formats:
 - name: Flag semaphore
   released: 1800s
   source: Flag_semaphore
-- extension:
+- extensions:
   - id
   name: Disc.id
   source: Disc.id
@@ -7085,32 +7085,32 @@ formats:
 - name: Polaroid
   released: '1937'
   source: Polaroid
-- extension:
+- extensions:
   - vb
   name: Visual Basic
   released: '1991'
   source: Visual_Basic
 - name: Xxencoding
   source: Xxencoding
-- extension:
+- extensions:
   - sys
   name: Linear Executable
   source: Linear_Executable
-- extension:
+- extensions:
   - mus
   name: Electronic Arts MUS
   released: '1989'
   source: Electronic_Arts_MUS
-- extension:
+- extensions:
   - act
   name: Cartooners actor file
   released: '1989'
   source: Cartooners_actor_file
-- extension:
+- extensions:
   - vbproj
   name: Visual Basic project file
   source: Visual_Basic_project_file
-- extension:
+- extensions:
   - afm
   name: Adobe Type 1
   pronom:
@@ -7119,64 +7119,64 @@ formats:
   source: Adobe_Type_1
 - name: Crockford Base32
   source: Crockford_Base32
-- extension:
+- extensions:
   - j
   name: JAR (ARJ Software)
   source: JAR_%28ARJ_Software%29
 - name: Snappy
   source: Snappy
-- extension:
+- extensions:
   - iwa
   name: IWA
   source: IWA
-- extension:
+- extensions:
   - pb
   name: Protobuf
   source: Protobuf
-- extension:
+- extensions:
   - key.zip
   name: IWork
   released: '2005'
   source: IWork
-- extension:
+- extensions:
   - pages.zip
   name: Pages
   released: '2005'
   source: Pages
-- extension:
+- extensions:
   - numbers.zip
   name: Numbers
   released: '2005'
   source: Numbers
-- extension:
+- extensions:
   - key.zip
   name: Keynote
   released: '2005'
   source: Keynote
-- extension:
+- extensions:
   - pickle
   name: Pickle
   source: Pickle
-- extension:
+- extensions:
   - fon
   name: FON
   source: FON
 - name: Zotero
   source: Zotero
-- extension:
+- extensions:
   - fnt
   name: FNT (Windows Font)
   source: FNT_%28Windows_Font%29
-- extension:
+- extensions:
   - csl
   name: Citation Style Language
   released: '2010'
   source: Citation_Style_Language
-- extension:
+- extensions:
   - diff
   name: Diff
   source: Diff
-- extension:
+- extensions:
   - diff
   name: Unified diff
   released: '1991'
@@ -7185,34 +7185,34 @@ formats:
   source: Diddle_sketch
 - name: DiddleBug sketch
   source: DiddleBug_sketch
-- extension:
+- extensions:
   - vcs
   name: VCalendar
   source: VCalendar
-- extension:
+- extensions:
   - crd
   name: Cardfile
   released: '1985'
   source: Cardfile
 - name: Bit order
   source: Bit_order
-- extension:
+- extensions:
   - tc
   name: TrueCrypt
   released: '2004'
   source: TrueCrypt
-- extension:
+- extensions:
   - fla
   fdd:
   - fdd000132
   name: FLA
   source: FLA
-- extension:
+- extensions:
   - srt
   name: FWKCS
   released: '1989'
   source: FWKCS
-- extension:
+- extensions:
   - swift
   name: Swift
   released: '2014'
@@ -7222,11 +7222,11 @@ formats:
   source: RC4
 - name: MPEG
   source: MPEG
-- extension:
+- extensions:
   - mpv
   fdd:
   - fdd000012
-  mimetype:
+  mimetypes:
   - video/mpeg
   name: MPEG-1
   pronom:
@@ -7245,18 +7245,18 @@ formats:
 - egff:
   - ai
   - Adobe Illustrator File Format Summary
-  extension:
+  extensions:
   - ai
   name: Adobe Illustrator Artwork
   source: Adobe_Illustrator_Artwork
-- extension:
+- extensions:
   - ccx
   name: CorelDRAW
   source: CorelDRAW
 - name: PLOT-10
   released: '1972'
   source: PLOT-10
-- extension:
+- extensions:
   - wms
   name: Windows Media Player Skin Package
   source: Windows_Media_Player_Skin_Package
@@ -7272,7 +7272,7 @@ formats:
 - egff:
   - iges
   - IGES File Format Summary
-  extension:
+  extensions:
   - iges
   name: IGES
   pronom:
@@ -7281,14 +7281,14 @@ formats:
   source: IGES
 - name: HP-GL
   source: HP-GL
-- extension:
+- extensions:
   - book
   name: FrameMaker
   released: '1986'
   source: FrameMaker
 - name: METS
   source: METS
-- extension:
+- extensions:
   - idx
   name: VobSub
   source: VobSub
@@ -7296,36 +7296,36 @@ formats:
   pronom:
   - fmt/640
   source: Packetized_Elementary_Stream
-- extension:
+- extensions:
   - ogx
-  mimetype:
+  mimetypes:
   - application/kate
   name: Kate
   source: Kate
-- extension:
+- extensions:
   - srt
   name: SubRip text file format
   source: SubRip_text_file_format
-- extension:
+- extensions:
   - vtt
-  mimetype:
+  mimetypes:
   - text/vtt
   name: WebVTT
   released: '2014'
   source: WebVTT
-- extension:
+- extensions:
   - yuv
   name: Raw bitmap
   pronom:
   - x-fmt/185
   source: Raw_bitmap
-- extension:
+- extensions:
   - t64
   name: T64
   source: T64
-- extension:
+- extensions:
   - tex
-  mimetype:
+  mimetypes:
   - application/x-tex
   name: TeX
   released: '1978'
@@ -7340,7 +7340,7 @@ formats:
 - name: ISO 8859-7
   released: '1987'
   source: ISO_8859-7
-- extension:
+- extensions:
   - adg
   name: Ableton Device Group File
   source: Ableton_Device_Group_File
@@ -7364,9 +7364,9 @@ formats:
   source: VP9
 - name: VP8
   source: VP8
-- extension:
+- extensions:
   - webm
-  mimetype:
+  mimetypes:
   - audio/webm
   name: WebM
   source: WebM
@@ -7374,36 +7374,36 @@ formats:
   source: Sonasoft
 - name: Storj
   source: Storj
-- extension:
+- extensions:
   - vtk
   name: VTK
   source: VTK
-- extension:
+- extensions:
   - pjg
   name: PackJPG
   source: PackJPG
-- extension:
+- extensions:
   - ppp
   name: Serif PagePlus
   source: Serif_PagePlus
 - name: Thunderbird
   source: Thunderbird
-- extension:
+- extensions:
   - psf
   name: PC Screen Font
   source: PC_Screen_Font
-- extension:
+- extensions:
   - dart
   name: Dart
   released: '2011'
   source: Dart
-- extension:
+- extensions:
   - rwz
   name: Rawzor
   source: Rawzor
 - name: LZO
   source: LZO
-- extension:
+- extensions:
   - wpb
   name: WPB (openCanvas)
   source: WPB_%28openCanvas%29
@@ -7416,12 +7416,12 @@ formats:
 - name: "Burrows\u2013Wheeler transform"
   released: '1994'
   source: Burrows%E2%80%93Wheeler_transform
-- extension:
+- extensions:
   - csvs
   name: CSV Schema
   released: '2014'
   source: CSV_Schema
-- extension:
+- extensions:
   - info
   name: ZoomBrowser Ex thumbnail cache
   source: ZoomBrowser_Ex_thumbnail_cache
@@ -7435,12 +7435,12 @@ formats:
 - name: Vessyl
   released: Planned for 2015
   source: Vessyl
-- extension:
+- extensions:
   - 2bp
   name: Pocket PC Bitmap
   released: ~1996
   source: Pocket_PC_Bitmap
-- extension:
+- extensions:
   - rwl
   name: Panasonic RAW/RW2
   source: Panasonic_RAW/RW2
@@ -7453,7 +7453,7 @@ formats:
 - name: Longaccess
   released: '2014'
   source: Longaccess
-- extension:
+- extensions:
   - mef
   name: Mamiya MEF
   source: Mamiya_MEF
@@ -7461,7 +7461,7 @@ formats:
   source: Stripe
 - name: TI-Writer
   source: TI-Writer
-- extension:
+- extensions:
   - pzl
   name: Puzzle image (X11)
   released: ~1988
@@ -7472,7 +7472,7 @@ formats:
   source: WaveGL
 - name: Commodore graphics formats
   source: Commodore_graphics_formats
-- extension:
+- extensions:
   - fh11
   name: FreeHand
   released: '1988'
@@ -7480,21 +7480,21 @@ formats:
 - name: MacWrite
   released: '1984'
   source: MacWrite
-- extension:
+- extensions:
   - cwk
   name: ClarisWorks
   source: ClarisWorks
-- extension:
+- extensions:
   - cwk
   name: AppleWorks
   released: '1984'
   source: AppleWorks
-- extension:
+- extensions:
   - aiml
   name: AIML
   released: '2001'
   source: AIML
-- extension:
+- extensions:
   - cf
   name: CFEngine
   source: CFEngine
@@ -7503,37 +7503,37 @@ formats:
   source: ProtonMail
 - name: BIBFRAME
   source: BIBFRAME
-- extension:
+- extensions:
   - ca3
   name: Crack Art
   source: Crack_Art
-- extension:
+- extensions:
   - pal
   name: Canvas (Atari)
   source: Canvas_%28Atari%29
-- extension:
+- extensions:
   - mpp
   name: Multi Palette Picture
   released: '2012'
   source: Multi_Palette_Picture
-- extension:
+- extensions:
   - gro
   name: GROB
   released: ~1990
   source: GROB
-- extension:
+- extensions:
   - asc
   name: ASCII Encoded HP 48 Object
   released: '1990'
   source: ASCII_Encoded_HP_48_Object
-- extension:
+- extensions:
   - ms
   name: Troff
   released: ~1976
   source: Troff
 - name: Xcursor
   source: Xcursor
-- extension:
+- extensions:
   - cpg
   name: Manga Studio
   source: Manga_Studio
@@ -7549,22 +7549,22 @@ formats:
   source: Cut_%26_Paste
 - name: Mouse Calc
   source: Mouse_Calc
-- extension:
+- extensions:
   - otx
   name: Outerra engine
   source: Outerra_engine
 - name: Drone
   released: '2014'
   source: Drone
-- extension:
+- extensions:
   - 3fr
   name: Hasselblad 3FR
   source: Hasselblad_3FR
-- extension:
+- extensions:
   - arr
   name: Amber ARR Bitmap Image
   source: Amber_ARR_Bitmap_Image
-- extension:
+- extensions:
   - pct
   name: NIST IHead
   released: "\u22641991"
@@ -7575,23 +7575,23 @@ formats:
 - name: Mattel Aquarius character set
   released: '1983'
   source: Mattel_Aquarius_character_set
-- extension:
+- extensions:
   - zipx
   name: Zipx
   released: '2009'
   source: Zipx
-- extension:
+- extensions:
   - amc
   name: Acclaim ASF/AMC
   source: Acclaim_ASF/AMC
-- mimetype:
+- mimetypes:
   - application/gdiff
   name: GDIFF
   released: '1997'
   source: GDIFF
-- extension:
+- extensions:
   - udeb
-  mimetype:
+  mimetypes:
   - application/vnd.debian.binary-package
   name: Deb
   source: Deb
@@ -7600,40 +7600,40 @@ formats:
 - name: Cryptolocker
   released: '2013'
   source: Cryptolocker
-- extension:
+- extensions:
   - z
   name: InstallShield Z
   source: InstallShield_Z
-- extension:
+- extensions:
   - harp
   name: HAR
   released: '2012'
   source: HAR
-- extension:
+- extensions:
   - cab
   name: InstallShield CAB
   source: InstallShield_CAB
-- extension:
+- extensions:
   - pkg
   name: Package File (OS X)
   source: Package_File_%28OS_X%29
-- extension:
+- extensions:
   - mpkg
   name: Meta-Package File
   source: Meta-Package_File
-- extension:
+- extensions:
   - fff
   name: Imacon 3F
   source: Imacon_3F
-- extension:
+- extensions:
   - ptx
   name: Pentax PEF
   source: Pentax_PEF
-- extension:
+- extensions:
   - arw
   name: Sony ARW
   source: Sony_ARW
-- extension:
+- extensions:
   - aae
   name: AAE sidecar format
   source: AAE_sidecar_format
@@ -7643,7 +7643,7 @@ formats:
   source: LevelDB
 - name: Transfer Encodings
   source: Transfer_Encodings
-- extension:
+- extensions:
   - srw
   name: Samsung SRW
   released: "\u22642010"
@@ -7655,25 +7655,25 @@ formats:
   source: Concurrent_Versions_System
 - name: PAL
   source: PAL
-- extension:
+- extensions:
   - markdown
-  mimetype:
+  mimetypes:
   - text/x-markdown
   name: CommonMark
   released: '2014'
   source: CommonMark
 - name: CP437
   source: CP437
-- extension:
+- extensions:
   - brush
   name: Xerox Doodle brush
   released: '1980'
   source: Xerox_Doodle_brush
-- extension:
+- extensions:
   - orf
   name: Olympus ORF
   source: Olympus_ORF
-- extension:
+- extensions:
   - x3f
   name: X3F
   source: X3F
@@ -7686,7 +7686,7 @@ formats:
   source: DVCAM
 - name: Open Reel Audiotape
   source: Open_Reel_Audiotape
-- extension:
+- extensions:
   - cvt
   name: GEOS Convert
   source: GEOS_Convert
@@ -7694,16 +7694,16 @@ formats:
   source: Bang_path
 - name: GeoPaint
   source: GeoPaint
-- extension:
+- extensions:
   - mos
   name: Leaf MOS
   source: Leaf_MOS
-- extension:
+- extensions:
   - dcp
   name: DNG camera profile
   released: '2008'
   source: DNG_camera_profile
-- extension:
+- extensions:
   - cpx
   name: ImgStar
   released: '1994'
@@ -7714,7 +7714,7 @@ formats:
   source: IPTC_message_format
 - name: ANPA-1312
   source: ANPA-1312
-- extension:
+- extensions:
   - hr
   name: TRS-80 image
   source: TRS-80_image
@@ -7729,31 +7729,31 @@ formats:
   source: VHS-C
 - name: 1/2" Open Reel
   source: 1/2%22_Open_Reel
-- extension:
+- extensions:
   - ypc
   name: WhyPic
   released: ~1998
   source: WhyPic
-- extension:
+- extensions:
   - pwc
   name: PWC (Piecewise-Constant Image Model)
   released: ~1998
   source: PWC_%28Piecewise-Constant_Image_Model%29
-- extension:
+- extensions:
   - apf
   name: Apple Preferred
   source: Apple_Preferred
-- extension:
+- extensions:
   - apf
   name: TIBCO Foresight HIPAA Validator Validation Profile File
   source: TIBCO_Foresight_HIPAA_Validator_Validation_Profile_File
 - name: Autodesk Slide
   source: Autodesk_Slide
-- extension:
+- extensions:
   - svx
   name: SVX
   source: SVX
-- extension:
+- extensions:
   - wzl
   name: Winzle Puzzle
   released: ~1994
@@ -7764,7 +7764,7 @@ formats:
 - name: IIIF
   released: '2012-08-10'
   source: IIIF
-- extension:
+- extensions:
   - fountain
   name: Fountain
   released: '2012'
@@ -7776,7 +7776,7 @@ formats:
 - egff:
   - vividbob
   - Vivid and Bob File Format Summary
-  extension:
+  extensions:
   - vs
   name: Vivid scene description
   released: ~1989
@@ -7784,7 +7784,7 @@ formats:
 - egff:
   - vividbob
   - Vivid and Bob File Format Summary
-  extension:
+  extensions:
   - img
   name: Vivid IMG
   released: ~1989
@@ -7798,19 +7798,19 @@ formats:
 - egff:
   - vividbob
   - Vivid and Bob File Format Summary
-  extension:
+  extensions:
   - bob
   name: Bob ray tracer bitmap
   released: '1992'
   source: Bob_ray_tracer_bitmap
-- extension:
+- extensions:
   - scala
   name: Scala
   released: '2003'
   source: Scala
 - name: Node.js
   source: Node.js
-- extension:
+- extensions:
   - gifv
   name: GIFV
   released: '2014'
@@ -7819,15 +7819,15 @@ formats:
   source: ScienceServer_XML_format
 - name: TI variable file
   source: TI_variable_file
-- extension:
+- extensions:
   - b3d
   name: BodyPaint 3D
   source: BodyPaint_3D
-- extension:
+- extensions:
   - fig
   name: Matlab figure
   source: Matlab_figure
-- extension:
+- extensions:
   - mat
   name: Matfile
   source: Matfile
@@ -7838,11 +7838,11 @@ formats:
   source: NASA_Raster_Metafile
 - name: UNIX Plot Format
   source: UNIX_Plot_Format
-- extension:
+- extensions:
   - picio
   name: Pixar picture
   source: Pixar_picture
-- extension:
+- extensions:
   - lff
   name: Lucasfilm picture
   source: Lucasfilm_picture
@@ -7850,7 +7850,7 @@ source_prefix: http://fileformats.archiveteam.org/wiki/
 stats:
   total_formats: 2015
   total_w_egff: 153
-  total_w_extension: 1863
+  total_w_extensions: 1863
   total_w_fdd: 165
-  total_w_mimetype: 255
+  total_w_mimetypes: 255
   total_w_pronom: 384

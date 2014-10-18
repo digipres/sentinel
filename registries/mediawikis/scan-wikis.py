@@ -124,10 +124,10 @@ def enumerate_ff_formats(site):
         fmt['source'] = page.title(asUrl=True)
         for t in page.templatesWithParams():
             if t[0].title() == "Template:Ext":
-                fmt["extension"] = t[1]
+                fmt["extensions"] = t[1]
                 total_w_extension += 1
             elif t[0].title() == "Template:Mimetype":
-                fmt["mimetype"] = t[1]
+                fmt["mimetypes"] = t[1]
                 total_w_mimetype += 1
             elif t[0].title() == "Template:PRONOM":
                 fmt["pronom"] = t[1]
