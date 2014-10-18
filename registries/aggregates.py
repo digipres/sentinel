@@ -57,7 +57,7 @@ def addFormat(rid,fid,finfo):
         fmts[rid]['warnings'].append("Format name '%s' for entry %s contains leading and/or trailing whitespace." % (finfo['name'],fid))
 
     # Assemble cross-references:
-    ext_pattern = re.compile("^\*[\.|-][A-Za-z0-9_\-\+][A-Za-z0-9_\-\+\.]*$")
+    ext_pattern = re.compile("^\*[\.|-][A-Za-z0-9_~\-\+][A-Za-z0-9_\% \-\+\.]*$")
     for extension in finfo['extensions']:
         extension = extension.lower()
         addEntry(exts,extension,rid,fid)
@@ -84,10 +84,10 @@ def aggregateFDD():
     rid = "fdd"
     print("Parsing %s..." % rid)
 
-    for filename in os.listdir('fdd/fddXML'):
+    for filename in os.listdir('registries/fdd/fddXML'):
         if filename.endswith(".xml"):
             # Get Identifier?
-            with open('fdd/fddXML/'+filename, "r") as f:
+            with open('registries/fdd/fddXML/'+filename, "r") as f:
                 finfo = {}
                 finfo['source'] = filename
                 xml = f.read()
@@ -98,7 +98,7 @@ def aggregateFDD():
                     fmts[rid]['warnings'].append("Error when parsing XML: "+str(e))
                 root = BeautifulSoup(xml, "xml")
                 #print(root.prettify())
-                ffd_id = "%s (%s)" % ( root.find('FDD').get('shortName'), root.find('FDD').get('id') )
+                ffd_id = root.find('FDD').get('id')
                 finfo['name'] = root.find('FDD').get('titleName')
                 if root.find('magicNumbers'):
                     finfo['hasMagic'] = True
@@ -122,10 +122,10 @@ def aggregateTRiD():
     rid = "trid"
     print("Parsing %s..." % rid)
 
-    for filename in os.listdir('trid/triddefs_xml'):
+    for filename in os.listdir('registries/trid/triddefs_xml'):
         if filename.endswith(".trid.xml"):
             # Get Identifier?
-            with open('trid/triddefs_xml/'+filename, "r") as f:
+            with open('registries/trid/triddefs_xml/'+filename, "r") as f:
                 finfo = {}
                 finfo['source'] = filename
                 root = etree.parse(f)
@@ -151,14 +151,14 @@ def aggregatePronom():
     print("Parsing %s..." % rid)
 
     # Get identifiers from DROID BinSigs:
-    with open("pronom/droid-signature-file.xml", "r") as f:
+    with open("registries/pronom/droid-signature-file.xml", "r") as f:
         parser = etree.XMLParser()  
         root = etree.parse(f, parser)
         ffc = root.find('{http://www.nationalarchives.gov.uk/pronom/SignatureFile}FileFormatCollection')
         for ff in ffc.findall('{http://www.nationalarchives.gov.uk/pronom/SignatureFile}FileFormat'):
             finfo = {}
             puid = ff.get('PUID')
-            finfo['source'] = "droid-signature-file.xml#%s" % ff.sourceline
+            finfo['source'] = "droid-signature-file.xml#L%s" % ff.sourceline
             # Build the name:
             finfo['name'] = ff.get('Name')
             if ff.get('Version') != None:
@@ -192,7 +192,7 @@ def aggregateTika():
     print("Parsing %s..." % rid)
 
     # Get identifiers from DROID BinSigs:
-    with open("tika/tika-mimetypes.xml", "r") as f:
+    with open("registries/tika/tika-mimetypes.xml", "r") as f:
         xml = f.read()
         warnings = []
         try:
@@ -206,7 +206,7 @@ def aggregateTika():
             finfo = {}
             fid = ff.get('type')
             finfo['id'] = fid
-            finfo['source'] = "tika-mimetypes.xml#%s" % ff.sourceline
+            finfo['source'] = "tika-mimetypes.xml#L%s" % ff.sourceline
             # Build the name:
             if ff.find('_comment') is not None:
                 finfo['name'] = ff.find('_comment').text
@@ -273,8 +273,8 @@ for mt in mimes:
             break
 
 # Set output locations:
-site_dir = "../digipres.github.io/formats"
-data_dir = "../digipres.github.io/_data/formats"
+site_dir = "digipres.github.io/formats"
+data_dir = "digipres.github.io/_data/formats"
 
 # Output:
 print("Outputting MIME types...")
