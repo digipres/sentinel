@@ -168,7 +168,7 @@ def recent_changes(fam,site):
 def contribs(fam):
     # Set up the site
     pywikibot.config.family = fam
-    site = pywikibot.Site() 
+    site = pywikibot.Site()
 
     # Make output folders if needed:
     if not os.path.exists("digipres.github.io/contribs"):
