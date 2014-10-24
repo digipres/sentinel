@@ -14,6 +14,7 @@ import string
 import sys
 import collections
 import yaml
+from yaml.representer import Representer
 
 reload(sys)
 sys.setdefaultencoding("utf-8")
@@ -27,18 +28,22 @@ site = pywikibot.getSite()
 #page = pywikibot.Page(site, u"Xena")
 #print( page.exists() )
 
-# Now go through pages by function:
-cat = pywikibot.Category(site, u"Tool Grid")
-
 # functions
 functions = {}
 # tree
 func_tree = []
+# content types
+types = {}
 # tools
 tools = {}
 # functions and tools
 table = collections.defaultdict(lambda: collections.defaultdict(bool))
 
+# Ensure YAML knows how to handle defaultdicts of ints - as dicts:
+yaml.add_representer(collections.defaultdict, Representer.represent_dict)
+
+# Now go through pages by function:
+cat = pywikibot.Category(site, u"Tool Grid")
 # For every Function category:
 for sub in cat.subcategories():
     print("Processing "+sub.title())
@@ -58,8 +63,19 @@ for sub in cat.subcategories():
     # And append it:
     func_tree.append(func)
 
+# Now go through pages by function:
+cat = pywikibot.Category(site, u"Content Type")
+# For every type category:
+for sub in cat.subcategories():
+    print("Processing "+sub.title())
+    ctype = {}
+    ctype['title'] = sub.title().replace("Category:","")
+    ctype['title_url'] = sub.title(asUrl=True)
+    ctype['tool_count'] = 0
+    types[ctype['title_url']] = ctype
+
 # Then, at get the articles under the second-level categories.
-toolgrid = []
+toolgrid = {}
 for func_name in functions:
     func = functions[func_name]['cat']
     parent = functions[func_name]['parent']
@@ -67,23 +83,57 @@ for func_name in functions:
     listOfArticles = func.articles()
     for a in listOfArticles:
         print("For "+parent.title()+" :: "+func_name+", found article "+a.title())
-        tinfo = { 
-            "title": a.title(),
-            "title_url": a.title(asUrl=True),
-            "topcat": parent.title(),
-            "topcat_url": parent.title(asUrl=True),
-            "subcat": func.title(),
-            "subcat_url": func.title(asUrl=True)
-        }
-        toolgrid.append(tinfo)
+        # Adding to hash to bring tool info together:
+        if not a.title() in toolgrid:
+            toolgrid[a.title()] = {}
+            toolgrid[a.title()]['title_full'] = a.title()
+            tn = a.title()
+            if len(tn) > 25:
+                tn = tn[0:25]+"..."
+            toolgrid[a.title()]['title'] = tn
+            toolgrid[a.title()]['title_url'] = a.title(asUrl=True)
+            toolgrid[a.title()]['topcats'] = []
+            toolgrid[a.title()]['subcats'] = []
+            toolgrid[a.title()]['content_types'] = []
+        toolgrid[a.title()]['topcats'].append( parent.title().replace("Category:","") )
+        toolgrid[a.title()]['subcats'].append( func.title().replace("Category:","") )
+        #
         tools[a.title()] = a
         table[a.title()][func.title()] = True
+
+# Go through the tool pages to get all the categories at that level:
+for tool_name in sorted(tools.keys(), key=lambda s: s.lower() ):
+    a = tools[tool_name]
+    # Get all categories to see what content types this item applies to
+    ctype_count = 0
+    for cat in a.categories():
+        title = cat.title().replace("Category:","")
+        title_url = cat.title(asUrl=True)
+        # Counters for content-type:
+        if title_url in types:
+            types[title_url]['tool_count'] += 1
+            if not title in toolgrid[a.title()]['content_types']:
+                toolgrid[a.title()]['content_types'].append(title)
+            ctype_count += 1
+        # Counters for functions:?
+    if ctype_count == 0:
+        types['Category%3AUnknown_Type']['tool_count'] += 1
+        title = 'Unknown Type'
+        if not title in toolgrid[a.title()]['content_types']:
+            toolgrid[a.title()]['content_types'].append(title)
+
+with open('digipres.github.io/_data/tools/tools.yml', 'w') as outfile:
+    outfile.write( yaml.safe_dump(toolgrid.values(), default_flow_style=False) ) 
+
+with open('digipres.github.io/_data/tools/content_types.yml', 'w') as outfile:
+    outfile.write( yaml.safe_dump(types, default_flow_style=False) ) 
 
 with open('digipres.github.io/_data/tools/function_tree.yml', 'w') as outfile:
     outfile.write( yaml.safe_dump(func_tree, default_flow_style=False) ) 
 
-with open('digipres.github.io/_data/tools/tool_grid.yml', 'w') as outfile:
-    outfile.write( yaml.safe_dump(toolgrid, default_flow_style=False) ) 
+
+
+
 
 sys.exit(0)
 
