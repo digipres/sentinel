@@ -16,7 +16,7 @@ import collections
 import yaml
 from yaml.representer import Representer
 
-with open('digipres.github.io/_data/tools/tool_grid.yml', 'r') as infile:
+with open('digipres.github.io/_data/tools/tools.yml', 'r') as infile:
     toolgrid = yaml.load( infile ) 
 
 # Loop through the tool lists and count the matrix:

@@ -83,7 +83,6 @@ for func_name in functions:
     listOfArticles = func.articles()
     for a in listOfArticles:
         print("For "+parent.title()+" :: "+func_name+", found article "+a.title())
-        # Adding to hash to bring tool info together:
         if not a.title() in toolgrid:
             toolgrid[a.title()] = {}
             toolgrid[a.title()]['title_full'] = a.title()
@@ -97,6 +96,17 @@ for func_name in functions:
             toolgrid[a.title()]['content_types'] = []
         toolgrid[a.title()]['topcats'].append( parent.title().replace("Category:","") )
         toolgrid[a.title()]['subcats'].append( func.title().replace("Category:","") )
+        #
+        for t in a.templatesWithParams():
+            if t[0].title() == "Template:Infobox tool":
+                for param in t[1]:
+                    if "=" in param:
+                        (key, val) = param.split("=",1)
+                        toolgrid[a.title()][key] = val.strip()
+            elif t[0].title() == "Template:Format":
+                if not 'formats' in toolgrid[a.title()]:
+                    toolgrid[a.title()]['formats'] = []
+                toolgrid[a.title()]['formats'].append(t[1])
         #
         tools[a.title()] = a
         table[a.title()][func.title()] = True
