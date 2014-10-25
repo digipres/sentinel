@@ -15,7 +15,8 @@ install:
   - python pywikibot/pwb.py -dir:. login
 
 script:
-  - python projections/powrr-projection.py
+  - python projections/download-coptr-tools.py
+  - python projections/tools-to-grid.py
   - python projections/mw-contribs.py
   - ./deploy.sh
 
