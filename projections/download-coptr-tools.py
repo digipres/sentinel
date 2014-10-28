@@ -46,33 +46,40 @@ yaml.add_representer(collections.defaultdict, Representer.represent_dict)
 cat = pywikibot.Category(site, u"Tool Grid")
 # For every Function category:
 for sub in cat.subcategories():
-    print("Processing "+sub.title())
-    func = {}
-    func['title'] = sub.title().replace("Category:","")
-    func['title_url'] = sub.title(asUrl=True)
-    func['subcats'] = []
-    # Get subcategories?
-    for sub2 in sub.subcategories():
-        func['subcats'].append({
-                'title': sub2.title().replace("Category:",""),
-                'title_url': sub2.title(asUrl=True)
-            })
-        functions[sub2.title()] = {}
-        functions[sub2.title()]['cat'] = sub2
-        functions[sub2.title()]['parent'] = sub
-    # And append it:
-    func_tree.append(func)
+    if sub.isRedirectPage():
+        print("Skipping redirect page "+sub.title())
+    else:
+        print("Processing "+sub.title())
+        func = {}
+        func['title'] = sub.title().replace("Category:","")
+        func['title_url'] = sub.title(asUrl=True)
+        func['subcats'] = []
+        # Get subcategories?
+        for sub2 in sub.subcategories():
+            if not sub2.isRedirectPage():
+                func['subcats'].append({
+                        'title': sub2.title().replace("Category:",""),
+                        'title_url': sub2.title(asUrl=True)
+                    })
+                functions[sub2.title()] = {}
+                functions[sub2.title()]['cat'] = sub2
+                functions[sub2.title()]['parent'] = sub
+        # And append it:
+        func_tree.append(func)
 
 # Now go through pages by function:
 cat = pywikibot.Category(site, u"Content Type")
 # For every type category:
 for sub in cat.subcategories():
-    print("Processing "+sub.title())
-    ctype = {}
-    ctype['title'] = sub.title().replace("Category:","")
-    ctype['title_url'] = sub.title(asUrl=True)
-    ctype['tool_count'] = 0
-    types[ctype['title_url']] = ctype
+    if sub.isRedirectPage():
+        print("Skipping redirect page "+sub.title())
+    else:
+        print("Processing "+sub.title())
+        ctype = {}
+        ctype['title'] = sub.title().replace("Category:","")
+        ctype['title_url'] = sub.title(asUrl=True)
+        ctype['tool_count'] = 0
+        types[ctype['title_url']] = ctype
 
 # Then, at get the articles under the second-level categories.
 toolgrid = {}
