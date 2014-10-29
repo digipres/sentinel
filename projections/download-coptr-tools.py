@@ -80,6 +80,11 @@ for sub in cat.subcategories():
         ctype['title_url'] = sub.title(asUrl=True)
         ctype['tool_count'] = 0
         types[ctype['title_url']] = ctype
+# Add faux-type:
+types['Category:~Not Content Type Specific~'] = {}
+types['Category:~Not Content Type Specific~']['title'] = '~Not Content Type Specific~'
+types['Category:~Not Content Type Specific~']['title_url'] = ''
+types['Category:~Not Content Type Specific~']['tool_count'] = 0
 
 # Then, at get the articles under the second-level categories.
 toolgrid = {}
@@ -118,7 +123,14 @@ for func_name in functions:
         tools[a.title()] = a
         table[a.title()][func.title()] = True
 
+with open('digipres.github.io/_data/tools/content_types.yml', 'w') as outfile:
+    outfile.write( yaml.safe_dump(types, default_flow_style=False) ) 
+
+with open('digipres.github.io/_data/tools/function_tree.yml', 'w') as outfile:
+    outfile.write( yaml.safe_dump(func_tree, default_flow_style=False) ) 
+
 # Go through the tool pages to get all the categories at that level:
+print("Processing tool pages to get all categories...")
 for tool_name in sorted(tools.keys(), key=lambda s: s.lower() ):
     a = tools[tool_name]
     # Get all categories to see what content types this item applies to
@@ -134,19 +146,13 @@ for tool_name in sorted(tools.keys(), key=lambda s: s.lower() ):
             ctype_count += 1
         # Counters for functions:?
     if ctype_count == 0:
-        types['Category%3AUnknown_Type']['tool_count'] += 1
-        title = 'Unknown Type'
+        types['Category:~Not Content Type Specific~']['tool_count'] += 1
+        title = types['Category:~Not Content Type Specific~']['title']
         if not title in toolgrid[a.title()]['content_types']:
             toolgrid[a.title()]['content_types'].append(title)
 
 with open('digipres.github.io/_data/tools/tools.yml', 'w') as outfile:
     outfile.write( yaml.safe_dump(toolgrid.values(), default_flow_style=False) ) 
-
-with open('digipres.github.io/_data/tools/content_types.yml', 'w') as outfile:
-    outfile.write( yaml.safe_dump(types, default_flow_style=False) ) 
-
-with open('digipres.github.io/_data/tools/function_tree.yml', 'w') as outfile:
-    outfile.write( yaml.safe_dump(func_tree, default_flow_style=False) ) 
 
 
 
