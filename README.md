@@ -17,9 +17,30 @@ Talking to the wiki requires the 'pywikipedia' codebase which is installed here 
 Automated build and update process
 ----------------------------------
 
-    travis env set COPTR_PW XXXXXX
     travis env set GIT_NAME "Andrew Jackson"
     travis env set GIT_EMAIL anj@anjackson.net
     travis env set GH_TOKEN XXXXXX
 
 See also password.enc etc.
+
+http://docs.travis-ci.com/user/encrypting-files/
+
+opf:foreg andy$ curl -u anjackson  -d '{"scopes":["public_repo"],"note":"CI: sentinel"}' https://api.github.com/authorizations
+Enter host password for user 'anjackson':
+{
+  "id": 12861208,
+  "url": "https://api.github.com/authorizations/12861208",
+  "app": {
+    "name": "CI: sentinel (API)",
+    "url": "https://developer.github.com/v3/oauth_authorizations/",
+    "client_id": "00000000000000000000"
+  },
+  "token": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "note": "CI: sentinel",
+  "note_url": null,
+  "created_at": "2014-11-13T21:35:54Z",
+  "updated_at": "2014-11-13T21:35:54Z",
+  "scopes": [
+    "public_repo"
+  ]
+}
