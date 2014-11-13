@@ -1,7 +1,9 @@
 Sentinel
 ========
 
-TBC
+[![Build Status](https://travis-ci.org/digipres/sentinel.svg?branch=master)](https://travis-ci.org/digipres/sentinel)
+
+...UNDER CONSTRUCTION...
 
 To Do:
 

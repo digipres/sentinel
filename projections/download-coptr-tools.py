@@ -23,7 +23,7 @@ sys.path.append("pywikibot")
 import pywikibot as pywikibot
 
 pywikibot.handleArgs()
-site = pywikibot.getSite()
+site = pywikibot.Site()
 
 #page = pywikibot.Page(site, u"Xena")
 #print( page.exists() )
