@@ -1,6 +1,6 @@
 [submodule "digipres.github.io"]
 	path = digipres.github.io
-	url = git@github.com:digipres/digipres.github.io.git
+	url = https://github.com/digipres/digipres.github.io.git
 [submodule "pywikibot"]
 	path = pywikibot
 	url = https://gerrit.wikimedia.org/r/pywikibot/core.git
