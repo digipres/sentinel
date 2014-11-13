@@ -9,6 +9,7 @@ This is the watcher that watches the watched and reports the reports to <http://
 
 To Do:
 
+* Find ToDos in notes/code and put them here or in issues.
 * Link to PRONOM itself.
 * http://en.wikipedia.org/wiki/Alphabetical_list_of_filename_extensions_%28M%E2%80%93R%29
 * http://www.webarchive.org.uk/aadda-discovery/formats?f[0]=content_type_ext:%22.bmp%22
