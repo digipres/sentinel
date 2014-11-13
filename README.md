@@ -3,6 +3,8 @@ Sentinel
 
 [![Build Status](https://travis-ci.org/digipres/sentinel.svg?branch=master)](https://travis-ci.org/digipres/sentinel)
 
+This is the watcher that watches the watched and reports the reports to <http://www.digipres.org>
+
 ...UNDER CONSTRUCTION...
 
 To Do:
