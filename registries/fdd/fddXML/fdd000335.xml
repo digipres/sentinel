@@ -118,7 +118,7 @@
 		<fdd:preference>Content received as MPEG-2 files will be held in this format for the near term although there is discussion of future migrations into <fddLink id="fdd000206">MXF_OP1a_JP2_LL</fddLink>, the format currently being employed by the Packard Campus facility as an archival master when reformatting videotapes.</fdd:preference>
 	</fdd:localUse>
 	<fdd:sustainabilityFactors>
-		<fdd:disclosure>Open standard. Developed through ISO technical program <a href="http://www.iso.org/iso/iso_technical_committee.html?commid=45316">JTC 1/SC 29</a> for coding of audio, picture, multimedia and hypermedia information by Working Group 11 (WG11) aka the Motion Pictures Expert Group (<a href="http://mpeg.chiariglione.org">MPEG</a>).  The video coding aspects were co-developed with the International Telecommunication Union (ITU) Telecommunication Standardization Sector (ITU-T), who published the &#34;common text&#34; as H.262.</fdd:disclosure>
+		<fdd:disclosure>Open standard. Developed through ISO technical program <a href="http://www.iso.org/iso/iso_technical_committee.html?commid=45316">JTC 1/SC 29</a> for coding of audio, picture, multimedia and hypermedia information by Working Group 11 (WG11) aka the Moving Picture Experts Group (<a href="http://mpeg.chiariglione.org">MPEG</a>).  The video coding aspects were co-developed with the International Telecommunication Union (ITU) Telecommunication Standardization Sector (ITU-T), who published the &#34;common text&#34; as H.262.</fdd:disclosure>
 		<fdd:documentation>ISO/IEC 13818; first approvals in 1994.  Ten parts have been published; parts 1, 2, 3, and 7 are central.  Part 2 concerns the coding and specifies profiles and levels.  See list of ISO documents in <a href="#specs">Format specifications</a> below.</fdd:documentation>
 		<fdd:adoption>Widely adopted for filemaking, DVD disks, and other applications.   Most significant is the format's required use in digital terrestrial broadcasting to homes in the United States and several other nations, as governed by the ATSC (Advanced Television Systems Committee) specifications. Many software tools exist for encoding and decoding.<br/>
 			<br/>Wide adoption may not extend to all profiles, levels, or parts of the standard.  Evidence in various documents suggests that the Simple, Main, and 4:2:2 profiles are the most widely adopted. <a href="../contact_format.shtml">Comments welcome</a>.
@@ -128,7 +128,8 @@ Managed by <a href="http://www.mpegla.com/main/default.aspx">MPEG LA LLC</a> (ht
 		<fdd:transparency>Depends upon algorithms and tools to read; will require sophistication to build tools.</fdd:transparency>
 		<fdd:selfDocumentation>
 			<p>Technical (coding) information is contained in the MPEG-2 bitstream in macroblock headers, slice headers, picture headers, Group of Picture (GOP) headers, and sequence headers.  The sequence header provides data needed before decoding can begin, such as the size of the picture and the frame rate. Because it is so important, the sequence header is usually repeated as often as twice a second.</p>
-			<p>The lack of metadata of the type called <i>bibliographic</i> by librarians motivated the MPEG group to develop MPEG-7, a separately standardized structure for metadata to support discovery and other purposes.</p></fdd:selfDocumentation>
+			<p>The lack of metadata of the type called <i>bibliographic</i> by librarians motivated the MPEG group to develop MPEG-7, a separately standardized structure for metadata to support discovery and other purposes.</p>
+		</fdd:selfDocumentation>
 		<fdd:externalDependencies>Playback of surround sound requires multiple loudspeakers.
 		</fdd:externalDependencies>
 		<fdd:techProtection>MPEG-2 shares with MPEG-4 elements of a standardized Intellectual Property Management and Protection (IPMP) scheme; see <a href="https://datatracker.ietf.org/documents/LIAISON/file944.htm">Intellectual Property Management and Protection
@@ -143,11 +144,13 @@ in MPEG Standards</a>.	</fdd:techProtection>
 		<fdd:soundQF>
 			<fdd:normalSound>Good support.</fdd:normalSound>
 			<fdd:fidelity>
-				<p>Moderate to very good, given that the options for audio employ lossy compression.  Widespread use is made of MPEG-2 layer 3 audio, aka <fddLink id="fdd000012">MP3_ENC</fddLink>.  Some producers make use of Advanced Audio Coding, aka <fddLink id="fdd000036">AAC</fddLink>, considered to be superior to MP3 at a given bit rate.</p><p>Producers are not limited to the audio structures inherent in MPEG-2.  The Society of Motion Picture and Television Engineers (SMPTE) provides specifications for incorporating <fddLink id="fdd000208">AES3_SMPTE</fddLink> data into the MPEG-2 transport stream.  Among other things, this permits the use of <fddLink id="fdd000209">AC-3</fddLink> compressed audio (aka Dolby Digital).</p>
+				<p>Moderate to very good, given that the options for audio employ lossy compression.  Widespread use is made of MPEG-2 layer 3 audio, aka <fddLink id="fdd000012">MP3_ENC</fddLink>.  Some producers make use of Advanced Audio Coding, aka <fddLink id="fdd000036">AAC</fddLink>, considered to be superior to MP3 at a given bit rate.</p>
+				<p>Producers are not limited to the audio structures inherent in MPEG-2.  The Society of Motion Picture and Television Engineers (SMPTE) provides specifications for incorporating <fddLink id="fdd000208">AES3_SMPTE</fddLink> data into the MPEG-2 transport stream.  Among other things, this permits the use of <fddLink id="fdd000209">AC-3</fddLink> compressed audio (aka Dolby Digital).</p>
 				<p>For all types of compressed audio, the quality of the outcome will depend on the type and extent of compression, and the encoder used.</p>
 			</fdd:fidelity>
 			<fdd:channels>
-				<p>Multi-channel sound is supported in both the backwardly compatible (BC) audio structures shared with <fddLink id="fdd000035">MPEG-1</fddLink>, which includes layer 3 audio (<fddLink id="fdd000012">MP3_ENC</fddLink>), and in the non-backwardly compatible <fddLink id="fdd000036">AAC</fddLink> audio structure.  MPEG-2 BC can deliver five main channels and an optional LFE (Low Frequency Encoding or Effects) channel, i.e., 5.1 surround sound.  AAC provides a capability of up to 48 main audio channels, 16 LFE channels, 16 overdub/multilingual channels, and 16 data streams.</p><p>The use of <fddLink id="fdd000209">AC-3</fddLink> compressed audio (aka Dolby Digital), described above in connection with <fddLink id="fdd000208">AES3_SMPTE</fddLink> data, provides another means for presenting surround sound.</p>
+				<p>Multi-channel sound is supported in both the backwardly compatible (BC) audio structures shared with <fddLink id="fdd000035">MPEG-1</fddLink>, which includes layer 3 audio (<fddLink id="fdd000012">MP3_ENC</fddLink>), and in the non-backwardly compatible <fddLink id="fdd000036">AAC</fddLink> audio structure.  MPEG-2 BC can deliver five main channels and an optional LFE (Low Frequency Encoding or Effects) channel, i.e., 5.1 surround sound.  AAC provides a capability of up to 48 main audio channels, 16 LFE channels, 16 overdub/multilingual channels, and 16 data streams.</p>
+				<p>The use of <fddLink id="fdd000209">AC-3</fddLink> compressed audio (aka Dolby Digital), described above in connection with <fddLink id="fdd000208">AES3_SMPTE</fddLink> data, provides another means for presenting surround sound.</p>
 			</fdd:channels>
 			<fdd:beyondSound>None</fdd:beyondSound>
 		</fdd:soundQF>
@@ -198,7 +201,7 @@ in MPEG Standards</a>.	</fdd:techProtection>
 		</fdd:signifiersGroup>
 	</fdd:fileTypeSignifiers>
 	<fdd:notes>
-		<fdd:history>MPEG stands for the Motion Pictures Expert Group, which began developing video compression standards in the 1980s.  The group was founded by two men described by one commentator as "the fiery Leonardo Chiariglione (CSELT, Italy)" and "the peaceful Hiroshi Yasuda (JVC, Japan)."  MPEG's initial development (of MPEG-1) was partly inspired by the H.261 video coding standard published by the ITU (International Telecom Union).</fdd:history>
+		<fdd:history>MPEG stands for the Moving Picture Experts Group, which began developing video compression standards in the 1980s.  The group was founded by two men described by one commentator as "the fiery Leonardo Chiariglione (CSELT, Italy)" and "the peaceful Hiroshi Yasuda (JVC, Japan)."  MPEG's initial development (of MPEG-1) was partly inspired by the H.261 video coding standard published by the ITU (International Telecom Union).</fdd:history>
 	</fdd:notes>
 	<fdd:formatSpecifications>
 		<fdd:citations>

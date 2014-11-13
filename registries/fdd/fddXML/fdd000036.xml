@@ -66,7 +66,7 @@
 		<fdd:preference>The Broadcast WAVE format (either version, <fddLink id="fdd000356">WAVE_BWF_1</fddLink> or <fddLink id="fdd000357">WAVE_BWF_2</fddLink>), wrapping <fddLink id="fdd000011">LPCM</fddLink>, is preferred as the archival master format for mono and stereo audio when reformatting analog sound recordings.  </fdd:preference>
 	</fdd:localUse>
 	<fdd:sustainabilityFactors>
-		<fdd:disclosure>Open standard. Developed through ISO technical program <a href="http://www.iso.org/iso/iso_technical_committee.html?commid=45316">JTC 1/SC 29</a> for coding of audio, picture, multimedia and hypermedia information by Working Group 11 (WG11) aka the Motion Pictures Expert Group (<a href="http://mpeg.chiariglione.org">MPEG</a>).</fdd:disclosure>
+		<fdd:disclosure>Open standard. Developed through ISO technical program <a href="http://www.iso.org/iso/iso_technical_committee.html?commid=45316">JTC 1/SC 29</a> for coding of audio, picture, multimedia and hypermedia information by Working Group 11 (WG11) aka the Moving Picture Experts Group (<a href="http://mpeg.chiariglione.org">MPEG</a>).</fdd:disclosure>
 		<fdd:documentation>ISO/IEC 13818-7. Generic coding of moving pictures and associated audio information -- Part 7: Advanced Audio Coding. See also <fddLink id="fdd000028">MPEG-2</fddLink>.
 		</fdd:documentation>
 		<fdd:adoption>Some adoption for World Wide Web dissemination and playback on specialized devices.  <fddLink id="fdd000110">QTA_AAC</fddLink>, QuickTime AAC, is used in Apple's iTunes service. Software tools exist for encoding and decoding.

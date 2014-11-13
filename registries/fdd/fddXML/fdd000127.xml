@@ -52,7 +52,7 @@
 		<fdd:preference>For preservation reformatting, the Library of Congress&apos; Packard Campus for Audio-Visual Conservation has chosen <fddLink id="fdd000206">MXF_OP1a_JP2_LL</fddLink> (lossless JPEG 2000 wrapped in MXF operational pattern 1a).</fdd:preference>
 	</fdd:localUse>
 	<fdd:sustainabilityFactors>
-		<fdd:disclosure>Open standard. Developed jointly by the Motion Pictures Expert Group (MPEG), a working groups within the ISO/IEC committee structure formally known as ISO/IEC JTC 1/SC 29.
+		<fdd:disclosure>Open standard. Developed jointly by the Moving Picture Experts Group (MPEG), a working groups within the ISO/IEC committee structure formally known as ISO/IEC JTC 1/SC 29.
 		</fdd:disclosure>
 		<fdd:documentation>ISO/IEC 15444-3:2007. Information technology -- JPEG 2000 image coding system: Motion JPEG 2000. Also ISO/IEC 15444-3:2007, Amendment 1 (2010): Additional profiles for archiving applications.</fdd:documentation>
 		<fdd:adoption>No adoption by broadcasters or other media-industry professionals known to the compiler of this description; <a href="../contact_format.shtml">comments welcome</a>.  There are, however, in Chapter 6 of <a href="http://exelisvis.com/docs/pdf/using.pdf">Using IDL</a>, from software vendor Exelisvis, instructions for the creation of Motion JPEG 2000 animations using the IDL programming language (used primarily for scientific visualization).</fdd:adoption>

@@ -42,7 +42,7 @@
 	</fdd:identificationAndDescription>
 	<fdd:localUse/>
 	<fdd:sustainabilityFactors>
-		<fdd:disclosure>Partially documented through RFC 5322 but specific documentation about EML specifically is not readily available.</fdd:disclosure>
+		<fdd:disclosure>Partially documented through RFC 5322 but documentation about EML specifically is not readily available.</fdd:disclosure>
 		<fdd:documentation>There is no known specification that defines EML as a file format to store email messages on a file system although it is commonly considered to be an extension of <fddLink id="fdd000393">IMF</fddLink> as defined in RFC 5322. </fdd:documentation>
 		<fdd:adoption>
 			<p>Besides the Microsoft Outlook Express, EML files can be opened using most email clients, such as Microsoft Outlook, Microsoft Entourage, Mozilla Thunderbird, Apple Mail, or IncrediMail. Since EML files are plain text and formatted much like MHT (MIME HTML) files, they can also be opened directly in the Internet Explorer, Mozilla Firefox and Opera, by first changing the file extension from .eml to .mht. It is also possible to view EML files using notepad or any other text editor. </p>

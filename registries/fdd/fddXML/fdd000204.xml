@@ -71,7 +71,7 @@
 		</fdd:preference>
 	</fdd:localUse>
 	<fdd:sustainabilityFactors>
-		<fdd:disclosure>Open standard. MXF developed by the Society of Motion Picture and Television Engineers (SMPTE), a member of the American National Standards Institute (ANSI).  MPEG-2 developed by ISO technical program JTC 1/SC 29 (WG11), aka the Motion Pictures Expert Group (MPEG)</fdd:disclosure>
+		<fdd:disclosure>Open standard. MXF developed by the Society of Motion Picture and Television Engineers (SMPTE), a member of the American National Standards Institute (ANSI).  MPEG-2 developed by ISO technical program JTC 1/SC 29 (WG11), aka the Moving Picture Experts Group (MPEG)</fdd:disclosure>
 		<fdd:documentation>MXF: SMPTE 378M-2004, Material Exchange Format (MXF) -- Operational pattern 1A (Single Item, Single Package) (and other specifications); MPEG-2: ISO/IEC 13818, multiple parts.</fdd:documentation>
 		<fdd:adoption>
 			<p>MXF OP1a is supported in a number of systems; see <fddLink id="fdd000013">MXF</fddLink>. <fddLink id="fdd000028">MPEG-2</fddLink> is very widely adopted.</p>

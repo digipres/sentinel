@@ -35,7 +35,7 @@
 			<p>The three subtypes described at this Web site at this time are ones frequently used by preservation-oriented archives when reformatting older analog and media-dependent digital videotapes.  All are packed formats and our description titles use the encodings&apos; FOURCC codes.  The descriptions provide additional identifying tags from Apple (sometimes consisting of Apple&apos;s own four-character codes), the ffmpeg organization, and the Society of Motion Picture and Television Engineers (SMPTE).</p>
 		</fdd:description>
 		<fdd:shortDescription>A digital, color-difference component video picture stream in which the two chroma components are sampled at half the rate of luma.  Reducing the horizontal chroma resolution by one-half reduces the bandwidth of the uncompressed video signal by one-third with little visual impact. </fdd:shortDescription>
-		<fdd:productionPhase>Employed in creation (initial phase), post-production or editing (middle phase), and dissemination (final phase).</fdd:productionPhase>
+		<fdd:productionPhase>Employed in creation(initial phase), post-production or editing (middle phase), and dissemination (final phase).</fdd:productionPhase>
 		<fdd:relationships>
 			<fdd:relationship>
 				<fdd:typeOfRelationship>Subtype of</fdd:typeOfRelationship>
@@ -151,14 +151,14 @@
 			</fdd:url>
 			<fdd:url>
 				<fdd:urlReference>
-					<link>https://developer.apple.com/quicktime/icefloe/dispatch019.html </link>
+					<link>https://developer.apple.com/library/mac/technotes/tn2162/_index.html</link>
 					<tag>Uncompressed Y´CbCr Video in QuickTime Files</tag>
 					<comment>Although focused on Quicktime, includes generally useful information.</comment>
 				</fdd:urlReference>
 			</fdd:url>
 			<fdd:url>
 				<fdd:urlReference>
-					<link>https://developer.apple.com/quicktime/icefloe/dispatch020.html </link>
+					<link>https://developer.apple.com/library/mac/technotes/tn2273/_index.html</link>
 					<tag>QuickTime Pixel Format FourCCs</tag>
 				</fdd:urlReference>
 			</fdd:url>

@@ -1,6 +1,6 @@
 <TrID ver="2.00">
 	<Info>
-		<FileType>Pencil Project sketch</FileType>
+		<FileType>Pencil sketch</FileType>
 		<Ext>EP</Ext>
 		<ExtraInfo>
 			<Rem></Rem>
@@ -11,19 +11,20 @@
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>15</FileNum>
+		<FileNum>16</FileNum>
+		<Refine>1 by Marco Pontello</Refine>
 		<CheckStrings>True</CheckStrings>
 		<Date>
-			<Year>2012</Year>
-			<Month>5</Month>
-			<Day>8</Day>
+			<Year>2014</Year>
+			<Month>10</Month>
+			<Day>20</Day>
 		</Date>
 		<Time>
-			<Hour>13</Hour>
-			<Min>56</Min>
-			<Sec>20</Sec>
+			<Hour>12</Hour>
+			<Min>52</Min>
+			<Sec>36</Sec>
 		</Time>
-		<Creator>TrIDScan/Py v1.80</Creator>
+		<Creator>TrIDScan/Py v1.90</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
@@ -64,11 +65,9 @@
 		<String>ECT X</String>
 		<String>PAGES</String>
 		<String>SHAPE</String>
-		<String>CENT</String>
 		<String>DING</String>
 		<String>HTTP</String>
 		<String>KEST</String>
-		<String>LINK</String>
 		<String>NONE</String>
 		<String>PATH</String>
 		<String>RECT</String>

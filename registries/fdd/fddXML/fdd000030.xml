@@ -165,8 +165,7 @@
 	</fdd:localUse>
 	<fdd:sustainabilityFactors>
 		<fdd:disclosure>
-			<p>Fully documented.  PDF was developed by <a href="http://www.adobe.com/">Adobe Systems Incorporated</a>, which makes the specification available openly and at no charge.  Several subtypes of this proprietary format have been adopted as international standards by ISO. These include PDF/X (ISO 15930), PDF/A (ISO 19005), and PDF version 1.7 (ISO 32000-1:2008).
-</p>
+			<p>Fully documented. Most members of the PDF family were developed by <a href="http://www.adobe.com/">Adobe Systems Incorporated</a>, which makes the specifications available openly and at no charge. Several members of the family have been adopted as ISO international standards, e.g,. PDF/X (ISO 15930), PDF/A (ISO 19005), and PDF version 1.7 (ISO 32000-1:2008).  Additional information about specifications and standardization is provided in the format descriptions for several of the subtypes.</p>
 		</fdd:disclosure>
 		<fdd:documentation>Adobe provides documentation for the current version at <a href="http://www.adobe.com/devnet/pdf/pdf_reference.html">http://www.adobe.com/devnet/pdf/pdf_reference.html</a> and an archive of earlier versions at <a href="http://www.adobe.com/devnet/pdf/pdf_reference_archive.html">http://www.adobe.com/devnet/pdf/pdf_reference_archive.html</a>.
 		</fdd:documentation>
@@ -308,7 +307,7 @@ Later versions of PDF can include XMP metadata packages.
 			<fdd:url>
 				<fdd:urlReference>
 					<link>http://www.ietf.org/rfc/rfc3778.txt</link>
-					<tag>The application/pdf Media Type</tag>
+					<tag>Registration for application/pdf Media Type</tag>
 					<comment/>
 				</fdd:urlReference>
 			</fdd:url>
@@ -317,6 +316,12 @@ Later versions of PDF can include XMP metadata packages.
 					<link>http://blog.pdf-tools.com/2014/01/why-is-extraction-of-text-from-pdf.html</link>
 					<tag>Why is the extraction of text from a PDF document such a hassle?</tag>
 					<comment>January 2014 blog post from pdf-tools.com</comment>
+				</fdd:urlReference>
+			</fdd:url>
+			<fdd:url>
+				<fdd:urlReference>
+					<link>http://www.luratech.com/en/subscribe-to-newsletter/detail-vr/article/pdfa-ua-x-vt-and-e/</link>
+					<tag>PDF/A, UA, X, VT and E (explanation from Luratech)</tag>
 				</fdd:urlReference>
 			</fdd:url>
 		</fdd:urls>

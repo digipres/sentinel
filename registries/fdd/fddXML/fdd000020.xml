@@ -124,6 +124,7 @@
 			<p>SVG files can be used for <a href="http://www.w3.org/TR/SVG/animate.html">animations</a> but there appears to be little or no practice of doing this.  Most web sites present simple animations as <fddLink id="fdd000133">GIF_89a</fddLink> files and more complex animations and interactives as Flash <fddLink id="fdd000130">SWF_7</fddLink> or <fddLink id="fdd000248">SWF_8</fddLink> files (or later versions). Commentators with an interest in animation, including advocates for SVG as a publicly disclosed format, have compared SVG and SWF but they note that the powerful authoring software available for Flash gives SWF the edge.</p>
 		</fdd:general>
 		<fdd:history>
+			<p>SVG was originally developed through a process that began in 1996, with a call for responses to <a href="http://www.w3.org/Graphics/ScalableReq">W3C Scalable Graphics Requirements</a>.  According to <a href="http://www.w3.org/Graphics/SVG/WG/wiki/Secret_Origin_of_SVG">Secret Origin of SVG</a>, there were six proposals submitted by 1998, and SVG was particularly influenced by VML (Vector Markup Language), already deployed in Microsoft products, and PGML, a proposal from a partnership led by Adobe and using the same imaging model as in Postscript and PDF.</p>
 			<p>Version 2 of SVG has been under development for several years.  As of March 2012, the intent is to be ready to publish a new recommendation in 2013.  See <a href="http://www.w3.org/Graphics/SVG/WG/wiki/SVG2_Planning_Page">SVG2 Planning Page</a> at W3C.  The new version will be built in modular fashion, with several modules designed for incorporation into either SVG_1_1 or SVG_2.</p>
 		</fdd:history>
 	</fdd:notes>
@@ -222,6 +223,21 @@
 					<link>http://www.w3.org/Graphics/SVG/WG/wiki/SVG2_Planning_Page</link>
 					<tag>SVG2 Planning Page</tag>
 					<comment>From W3C.</comment>
+				</fdd:urlReference>
+			</fdd:url>
+			<fdd:url>
+				<fdd:urlReference>
+					<link>http://www.w3.org/Graphics/ScalableReq</link>
+					<tag>
+W3C Scalable Graphics Requirements</tag>
+					<comment>1996 call for proposals.  This call brought in six proposals and led to the formation of the W3C group that developed SVG. </comment>
+				</fdd:urlReference>
+			</fdd:url>
+			<fdd:url>
+				<fdd:urlReference>
+					<link>http://www.w3.org/Graphics/SVG/WG/wiki/Secret_Origin_of_SVG</link>
+					<tag>Secret Origin of SVG</tag>
+					<comment>Describes proposals from 1998 that influenced the development of SVG.</comment>
 				</fdd:urlReference>
 			</fdd:url>
 		</fdd:urls>

@@ -90,7 +90,7 @@
 		<fdd:preference>General preference for preservation-oriented recorded sound is <fddLink id="fdd000002">WAVE_LCPM</fddLink>.  For compressed sound, MP3 is acceptable, especially at data rates of 128 Kb/s (mono) or 256 Kb/s (stereo) or higher.</fdd:preference>
 	</fdd:localUse>
 	<fdd:sustainabilityFactors>
-		<fdd:disclosure>Open standard. Developed by the Motion Pictures Expert Group (MPEG), Coding of audio, picture, multimedia and hypermedia information.</fdd:disclosure>
+		<fdd:disclosure>Open standard. Developed by the Moving Picture Experts Group (MPEG), Coding of audio, picture, multimedia and hypermedia information.</fdd:disclosure>
 		<fdd:documentation>
 			<p>(1) MPEG-1: ISO/IEC 11172-3. Information technology -- Coding of moving pictures and associated audio for digital storage media at up to about 1,5 Mbit/s -- Part 3: Audio. (2) MPEG-2: ISO/IEC 13818-3. Information technology -- Generic coding of moving pictures and associated audio information -- Part 3: Audio.</p>
 			<p>These specifications describe the syntax and semantics for three classes of compression methods known as Layers I, II, and III.  MP3 is Layer III. See list of ISO documents in <a href="#specs">Format specifications</a> below; see also <fddLink id="fdd000035">MPEG-1</fddLink> and <fddLink id="fdd000335">MPEG-2</fddLink>.

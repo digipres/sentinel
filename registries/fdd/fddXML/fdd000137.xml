@@ -19,10 +19,10 @@
 			<fdd:keyword>MPEG-4</fdd:keyword>
 		</fdd:keywords>
 		<fdd:description>
-			<p>The third MPEG-4 file format developed by the Motion Picture Experts Group (MPEG).  The format's object-based design defines a set of tools that present binary coded representation of individual audiovisual objects, text, graphics, and synthetic objects.  (See <a href="#notes">Notes</a> below.)  This format wraps Advanced Video Coding (AVC) with certain extensions, described in <fddLink id="fdd000162">MPEG-4_AVC_EXT</fddLink>.  Without those extensions, AVC may be wrapped in <fddLink id="fdd000155">MP4_FF_2</fddLink>.</p>
+			<p>The third MPEG-4 file format developed by the Moving Picture Experts Group (MPEG).  The format's object-based design defines a set of tools that present binary coded representation of individual audiovisual objects, text, graphics, and synthetic objects.  (See <a href="#notes">Notes</a> below.)  This format wraps Advanced Video Coding (AVC) with certain extensions, described in <fddLink id="fdd000162">MPEG-4_AVC_EXT</fddLink>.  Without those extensions, AVC may be wrapped in <fddLink id="fdd000155">MP4_FF_2</fddLink>.</p>
 			<p>The extensions described here predate the FRExt (Fidelity Range Extensions), being finalized in 2005 and represented by four new profiles: <fddLink id="fdd000215">MPEG-4_AVC_HP</fddLink>, <fddLink id="fdd000216">MPEG-4_AVC_H10P</fddLink>, <fddLink id="fdd000217">MPEG-4_AVC_H422P</fddLink>, and <fddLink id="fdd000215">MPEG-4_AVC_H444P</fddLink>.</p>
 		</fdd:description>
-		<fdd:shortDescription>Emerging format developed by the Motion Picture Experts Group (MPEG) for communicating audiovisual scenes, likely to be used for web content, other online applications, and mobile devices, i.e., cell phones and PDAs, although potential applications are much broader.  Wraps Advanced Video Coding (AVC) with certain extensions, described in MPEG-4_AVC_EXT.</fdd:shortDescription>
+		<fdd:shortDescription>Emerging format developed by the Moving Picture Experts Group (MPEG) for communicating audiovisual scenes, likely to be used for web content, other online applications, and mobile devices, i.e., cell phones and PDAs, although potential applications are much broader.  Wraps Advanced Video Coding (AVC) with certain extensions, described in MPEG-4_AVC_EXT.</fdd:shortDescription>
 		<fdd:productionPhase>Generally a final-state (end-user delivery) format. </fdd:productionPhase>
 		<fdd:relationships>
 			<fdd:relationship>
@@ -45,7 +45,7 @@
 	</fdd:identificationAndDescription>
 	<fdd:sustainabilityFactors>
 		<fdd:disclosure>
-			Open standard.  Developed by ISO technical program JTC 1/SC 29 (WG11), aka the <a href="http://mpeg.chiariglione.org/">Motion Picture Experts Group (MPEG),</a> Coding of audio, picture, multimedia and hypermedia information. </fdd:disclosure>
+			Open standard.  Developed by ISO technical program JTC 1/SC 29 (WG11), aka the <a href="http://mpeg.chiariglione.org/">Moving Picture Experts Group (MPEG),</a> Coding of audio, picture, multimedia and hypermedia information. </fdd:disclosure>
 		<fdd:documentation>
 			ISO/IEC 14496-15:2004. Information technology -- Coding of audio-visual objects -- Part 15: Advanced Video Coding (AVC) File Format.  See complete list of ISO MPEG-4 documents in the description of <a href="fdd000155.shtml#specs">MP4_FF_2</a>.
 		</fdd:documentation>

@@ -11,31 +11,29 @@
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>226</FileNum>
-		<Refine>1 by Marco Pontello</Refine>
+		<FileNum>228</FileNum>
+		<Refine>3 by Marco Pontello</Refine>
 		<CheckStrings>True</CheckStrings>
 		<Date>
-			<Year>2011</Year>
-			<Month>6</Month>
-			<Day>22</Day>
+			<Year>2014</Year>
+			<Month>11</Month>
+			<Day>4</Day>
 		</Date>
 		<Time>
-			<Hour>19</Hour>
-			<Min>18</Min>
-			<Sec>14</Sec>
+			<Hour>17</Hour>
+			<Min>11</Min>
+			<Sec>34</Sec>
 		</Time>
-		<Creator>TrIDScan/Py v1.79.11b</Creator>
+		<Creator>TrIDScan/Py v1.90</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
-			<Bytes>D0CF11E0A1B11AE100</Bytes>
+			<Bytes>D0CF11E0A1B11AE1</Bytes>
 			<Pos>0</Pos>
 		</Pattern>
 	</FrontBlock>
 	<GlobalStrings>
-		<String>S'U'M'M'A'R'Y'I'N'F'O'R'M'A'T'I'O'N'''''''''''''''''''''''''''(</String>
 		<String>ASSOCIATED WITH THE</String>
-		<String>R'O'O'T' 'E'N'T'R'Y</String>
 		<String>THIS MAY CONTAIN A</String>
 		<String>NOT BE INSTALLED</String>
 		<String>THE VISIBLE TEXT</String>
@@ -118,7 +116,6 @@
 		<String>PRINTED</String>
 		<String>REGPATH</String>
 		<String>RESPECT</String>
-		<String>SERVICE</String>
 		<String>SETTING</String>
 		<String>WHETHER</String>
 		<String>WINDOWS</String>
@@ -186,6 +183,7 @@
 		<String>ROOT</String>
 		<String>RTED</String>
 		<String>SAME</String>
+		<String>SERV</String>
 		<String>SIGN</String>
 		<String>SIZE</String>
 		<String>SOME</String>

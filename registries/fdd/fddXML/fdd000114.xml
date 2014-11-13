@@ -148,8 +148,8 @@
 		<fdd:preference>The Broadcast WAVE format (either version, <fddLink id="fdd000356">WAVE_BWF_1</fddLink> or <fddLink id="fdd000357">WAVE_BWF_2</fddLink>), wrapping <fddLink id="fdd000011">LPCM</fddLink>, is preferred as the archival master format for mono and stereo audio when reformatting analog sound recordings. Preferences for born-digital acquisitions have not been formally established as of this writing, but acceptable formats will certainly include WAVE, MP3, AAC, and possibly others.</fdd:preference>
 	</fdd:localUse>
 	<fdd:sustainabilityFactors>
-		<fdd:disclosure>Open standard. Developed through ISO technical program <a href="http://www.iso.org/iso/iso_technical_committee.html?commid=45316">JTC 1/SC 29</a> for coding of audio, picture, multimedia and hypermedia information by Working Group 11 (WG11) aka the Motion Pictures Expert Group (<a href="http://mpeg.chiariglione.org">MPEG</a>).</fdd:disclosure>
-		<fdd:documentation>ISO/IEC 14496-3:2001. Information technology -- Coding of audio-visual objects -- Part 3: Audio. See also <fddLink id="fdd000155">MP4_FF_2</fddLink>.
+		<fdd:disclosure>Open standard. Developed through ISO technical program <a href="http://www.iso.org/iso/iso_technical_committee.html?commid=45316">JTC 1/SC 29</a> for coding of audio, picture, multimedia and hypermedia information by Working Group 11 (WG11) aka the Moving Picture Experts Group (<a href="http://mpeg.chiariglione.org">MPEG</a>).</fdd:disclosure>
+		<fdd:documentation>ISO/IEC 14496-3:2001. Information technology -- Coding of audio-visual objects -- Part 3: Audio. Later editions were published in 2005 and 2009; these have not yet been assessed for this description. See also <fddLink id="fdd000155">MP4_FF_2</fddLink>.
 		</fdd:documentation>
 		<fdd:adoption>Some adoption for World Wide Web dissemination and playback on specialized devices.  <fddLink id="fdd000110">QTA_AAC</fddLink>, QuickTime AAC, is used in Apple's iTunes service. Software tools exist for encoding and decoding.
 		</fdd:adoption>
@@ -198,13 +198,12 @@
 				<li>Low Delay Audio Profile</li>
 				<li>Natural Audio Profile</li>
 				<li>Mobile Audio Internet Working Profile</li>
-			</ul>The profiles are described in the specification on pages 15-20.  In a given file, the profile and the level chosen for use are indicated by embedded metadata, not documented at this time.  The profiles are associated with <i>audio objects</i>.<br/>
-			<br/>There is an AAC_MP4 object called <i>Low Complexity</i> (<fddLink id="fdd000233">AAC_MP4_LC</fddLink>), which is comparable to the <fddLink id="fdd000036">AAC_MP2</fddLink> Low Complexity <i>profile</i>.  The compiler of this page seeks more information about this matter; <a href="../contact_format.shtml">Comments welcome</a>.</fdd:general>
+			</ul>These profiles are described in the specification on pages 15-20.  In a given file, the profile and the level chosen for use are indicated by embedded metadata, not documented at this time.  The profiles are associated with <i>audio objects</i>.<br/>Additional profiles are listed in the Wikipedia article <a href="http://en.wikipedia.org/wiki/Advanced_Audio_Coding">Advanced Audio Coding</a> (consulted October 22, 2014): AAC Profile (defined 2003), High Efficiency AAC Profile (2003), and High Efficiency AAC v2 Profile (2006). <br/>There is an AAC_MP4 object called <i>Low Complexity</i> (<fddLink id="fdd000233">AAC_MP4_LC</fddLink>), which is comparable to the <fddLink id="fdd000036">AAC_MP2</fddLink> Low Complexity <i>profile</i>.  The compiler of this page seeks more information about this matter; <a href="../contact_format.shtml">Comments welcome</a>.</fdd:general>
 	</fdd:notes>
 	<fdd:formatSpecifications>
 		<fdd:citations>
 			<fdd:citation>
-				<fdd:specReference> ISO/IEC 14496-3:2001   Information technology -- Coding of audio-visual objects -- Part 3: Audio</fdd:specReference>
+				<fdd:specReference> ISO/IEC 14496-3:2001   Information technology -- Coding of audio-visual objects -- Part 3: Audio. (Note: later editions from 2005 and 2009 have also been published.)</fdd:specReference>
 			</fdd:citation>
 		</fdd:citations>
 	</fdd:formatSpecifications>
@@ -249,9 +248,16 @@
 				</fdd:urlReference>
 			</fdd:url>
 			<fdd:url>
-				<fdd:urlGroup>
-					<fdd:intro>See <fddLink id="fdd000155">MP4_FF_2</fddLink> for information on MPEG-4 in general.</fdd:intro>
-				</fdd:urlGroup>
+				<fdd:urlReference>
+					<link>http://en.wikipedia.org/wiki/MPEG-4_Part_3</link>
+					<tag>Wikipedia article &quot;MPEG-4 Part 3&quot;</tag>
+				</fdd:urlReference>
+			</fdd:url>
+			<fdd:url>
+				<fdd:urlReference>
+					<link>http://en.wikipedia.org/wiki/Advanced_Audio_Coding</link>
+					<tag>Wikipedia article &quot;Advanced Audio Coding&quot;</tag>
+				</fdd:urlReference>
 			</fdd:url>
 		</fdd:urls>
 	</fdd:usefulReferences>

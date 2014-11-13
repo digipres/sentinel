@@ -52,7 +52,7 @@
 		<fdd:experience>None</fdd:experience>
 	</fdd:localUse>
 	<fdd:sustainabilityFactors>
-		<fdd:disclosure>Both Mastroska and MPEG-4 are openly documented. Matroska is an open-source specification that is an offshoot of the <a href="http://en.wikipedia.org/wiki/Multimedia_Container_Format">Multimedia Container Format</a> project. MPEG-4 is a standard developed by the ISO technical program JTC 1/SC 29 (WG11), aka the Motion Picture Experts Group (MPEG). See <a href="http://mpeg.chiariglione.org">MPEG web site</a>.</fdd:disclosure>
+		<fdd:disclosure>Both Mastroska and MPEG-4 are openly documented. Matroska is an open-source specification that is an offshoot of the <a href="http://en.wikipedia.org/wiki/Multimedia_Container_Format">Multimedia Container Format</a> project. MPEG-4 is a standard developed by the ISO technical program JTC 1/SC 29 (WG11), aka the Moving Picture Experts Group (MPEG). See <a href="http://mpeg.chiariglione.org">MPEG web site</a>.</fdd:disclosure>
 		<fdd:documentation>The Matroska specification is published online at <a href="http://www.matroska.org/technical/specs/index.html">http://www.matroska.org/technical/specs/index.html</a>. 	The specification of MPEG-4, Advanced Video Coding (Part 10)  is ISO/IEC 14496-10:2003. Information technology -- Coding of audio-visual objects -- Part 10: Advanced Video Coding. </fdd:documentation>
 		<fdd:adoption>A format popular among independent and low-budget filmmakers for online dissemination of their finished works. Adoption in heritage repositories is not known to the authors of this website. <a href="http://www.digitalpreservation.gov/formats/contact_format.shtml">Comments Welcome</a>
 		</fdd:adoption>

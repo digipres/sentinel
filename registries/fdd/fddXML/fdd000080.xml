@@ -113,7 +113,7 @@
 		<fdd:experience>The content produced by the <a href="http://www.loc.gov/today/pr/2006/06-147.html">NDIIPP partnership project</a> with <a href="http://www.scola.org">SCOLA</a> consists of foreign television news broadcasts in <fddLink id="fdd000157">MP4_FF_2_V</fddLink>, MPEG-4 File Format, V.2, with Visual Encoding.</fdd:experience>
 	</fdd:localUse>
 	<fdd:sustainabilityFactors>
-		<fdd:disclosure>Open standard. Developed through ISO technical program <a href="http://www.iso.org/iso/iso_technical_committee.html?commid=45316">JTC 1/SC 29</a> for coding of audio, picture, multimedia and hypermedia information by Working Group 11 (WG11) aka the Motion Pictures Expert Group (<a href="http://mpeg.chiariglione.org">MPEG</a>).</fdd:disclosure>
+		<fdd:disclosure>Open standard. Developed through ISO technical program <a href="http://www.iso.org/iso/iso_technical_committee.html?commid=45316">JTC 1/SC 29</a> for coding of audio, picture, multimedia and hypermedia information by Working Group 11 (WG11) aka the Moving Picture Experts Group (<a href="http://mpeg.chiariglione.org">MPEG</a>).</fdd:disclosure>
 		<fdd:documentation>ISO/IEC 14496-2:2004. Information technology -- Coding of audio-visual objects -- Part 2: Visual; ISO/IEC 14496-2:2004/Cor 1:2004; ISO/IEC 14496-2:2004/Amd 1:2004. Error resilient simple scalable profile.  These specifications supercede earlier versions.
 		</fdd:documentation>
 		<fdd:adoption>

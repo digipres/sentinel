@@ -58,7 +58,7 @@
 		<fdd:preference>For preservation reformatting, the Library of Congress&apos; Packard Campus for Audio-Visual Conservation has chosen <fddLink id="fdd000206">MPEG-2, Main Profile</fddLink>  (lossless JPEG 2000 wrapped in MXF operational pattern 1a).</fdd:preference>
 	</fdd:localUse>
 	<fdd:sustainabilityFactors>
-		<fdd:disclosure>Open standard. Developed through ISO technical program <a href="http://www.iso.org/iso/iso_technical_committee.html?commid=45316">JTC 1/SC 29</a> for coding of audio, picture, multimedia and hypermedia information by Working Group 11 (WG11) aka the Motion Pictures Expert Group (<a href="http://mpeg.chiariglione.org">MPEG</a>).</fdd:disclosure>
+		<fdd:disclosure>Open standard. Developed through ISO technical program <a href="http://www.iso.org/iso/iso_technical_committee.html?commid=45316">JTC 1/SC 29</a> for coding of audio, picture, multimedia and hypermedia information by Working Group 11 (WG11) aka the Moving Picture Experts Group (<a href="http://mpeg.chiariglione.org">MPEG</a>).</fdd:disclosure>
 		<fdd:documentation>ISO/IEC 11172; first approvals in 1991.  Five parts have been published; parts 1, 2, and 3 are central.  See list of ISO documents in <a href="#specs">Format specifications</a> below.
 		</fdd:documentation>
 		<fdd:adoption>
@@ -129,7 +129,7 @@
 		</fdd:signifiersGroup>
 	</fdd:fileTypeSignifiers>
 	<fdd:notes>
-		<fdd:history>MPEG stands for the Motion Pictures Expert Group, which began developing video compression standards in the 1980s.  The group was founded by two men described by one commentator as "the fiery Leonardo Chiariglione (CSELT, Italy)" and "the peaceful Hiroshi Yasuda (JVC, Japan)."  MPEG's initial development was partly inspired by the H.261 video coding standard published by the ITU (International Telecom Union).</fdd:history>
+		<fdd:history>MPEG stands for the Moving Picture Experts Group, which began developing video compression standards in the 1980s.  The group was founded by two men described by one commentator as "the fiery Leonardo Chiariglione (CSELT, Italy)" and "the peaceful Hiroshi Yasuda (JVC, Japan)."  MPEG's initial development was partly inspired by the H.261 video coding standard published by the ITU (International Telecom Union).</fdd:history>
 	</fdd:notes>
 	<fdd:formatSpecifications>
 		<fdd:citations>
@@ -218,7 +218,7 @@
 				<fdd:urlReference>
 					<link>http://www.iso.org/iso/home/store/catalogue_tc/catalogue_tc_browse.htm?commid=45316</link>
 					<tag>JTC 1/SC 29 </tag>
-					<comment>The ISO technical committees of which the Motion Pictures Expert Group (MPEG) acts as a subgroup.</comment>
+					<comment>The ISO technical committees of which the Moving Picture Experts Group (MPEG) acts as a subgroup.</comment>
 				</fdd:urlReference>
 			</fdd:url>
 			<fdd:url>

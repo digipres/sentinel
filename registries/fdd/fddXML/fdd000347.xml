@@ -48,7 +48,7 @@
 		<fdd:experience>None</fdd:experience>
 	</fdd:localUse>
 	<fdd:sustainabilityFactors>
-		<fdd:disclosure>Both Mastroska and MP3 are open standards. Matroska is an offshoot of the <a href="http://en.wikipedia.org/wiki/Multimedia_Container_Format">Multimedia Container Format</a> project. MP3 was developed by the Motion Pictures Expert Group (MPEG), Coding of audio, picture, multimedia and hypermedia information.</fdd:disclosure>
+		<fdd:disclosure>Both Mastroska and MP3 are open standards. Matroska is an offshoot of the <a href="http://en.wikipedia.org/wiki/Multimedia_Container_Format">Multimedia Container Format</a> project. MP3 was developed by the Moving Picture Experts Group (MPEG), Coding of audio, picture, multimedia and hypermedia information.</fdd:disclosure>
 		<fdd:documentation>
 			<p>The Matroska specification is published online at <a href="http://www.matroska.org/technical/specs/index.html">http://www.matroska.org/technical/specs/index.html</a>. </p>
 			<p>For MP3: (1) MPEG-1: ISO/IEC 11172-3. Information technology -- Coding of moving pictures and associated audio for digital storage media at up to about 1,5 Mbit/s -- Part 3: Audio. (2) MPEG-2: ISO/IEC 13818-3. Information technology -- Generic coding of moving pictures and associated audio information -- Part 3: Audio.
@@ -72,7 +72,7 @@
 	<fdd:qualityAndFunctionalityFactors/>
 	<fdd:fileTypeSignifiers>
 		<fdd:signifiersGroup>
-		<fdd:filenameExtension>
+			<fdd:filenameExtension>
 				<fdd:sigValueNA>See related format.</fdd:sigValueNA>
 				<fdd:note>See <fddLink id="fdd000342">Matroska</fddLink>.</fdd:note>
 			</fdd:filenameExtension>

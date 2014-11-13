@@ -125,7 +125,7 @@
 		</fdd:relationships>
 	</fdd:identificationAndDescription>
 	<fdd:sustainabilityFactors>
-		<fdd:disclosure>Open standard. Developed through ISO technical program <a href="http://www.iso.org/iso/iso_technical_committee.html?commid=45316">JTC 1/SC 29</a> for coding of audio, picture, multimedia and hypermedia information by Working Group 11 (WG11) aka the Motion Pictures Expert Group (<a href="http://mpeg.chiariglione.org">MPEG</a>).</fdd:disclosure>
+		<fdd:disclosure>Open standard. Developed through ISO technical program <a href="http://www.iso.org/iso/iso_technical_committee.html?commid=45316">JTC 1/SC 29</a> for coding of audio, picture, multimedia and hypermedia information by Working Group 11 (WG11) aka the Moving Picture Experts Group (<a href="http://mpeg.chiariglione.org">MPEG</a>).</fdd:disclosure>
 		<fdd:documentation>ISO/IEC 14496-10:2003.  Information technology -- Coding of audio-visual objects -- Part 10: Advanced Video Coding.
 		</fdd:documentation>
 		<fdd:adoption>The underlying encoding, sometimes under the name of ITU-T H.264, is being adopted in various sectors. In 2004, for example, a key group of Japanese broadcasters adopted the format for transmission to mobile telephones and other devices, and the format received provisional approval for use in DVD systems, where it will coexist with <fddLink id="fdd000028">MPEG-2</fddLink> and Microsoft's VC-9 video codec (see <fddLink id="fdd000096">WMV9_PRO</fddLink>).  In 2005, the ability of MPEG-4_AVC to support high definition contributed to further adoptions by direct broadcast satellite (DBS) services in the United States (DirecTV) and in Europe. The FRExt high-end profiles are being introduced in 2005; adoption not determined.<br/>

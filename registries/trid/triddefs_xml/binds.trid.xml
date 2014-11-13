@@ -11,17 +11,18 @@
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>20</FileNum>
+		<FileNum>21</FileNum>
+		<Refine>1 by Marco Pontello</Refine>
 		<CheckStrings>True</CheckStrings>
 		<Date>
 			<Year>2014</Year>
-			<Month>9</Month>
-			<Day>12</Day>
+			<Month>10</Month>
+			<Day>29</Day>
 		</Date>
 		<Time>
-			<Hour>22</Hour>
-			<Min>45</Min>
-			<Sec>15</Sec>
+			<Hour>21</Hour>
+			<Min>20</Min>
+			<Sec>34</Sec>
 		</Time>
 		<Creator>TrIDScan/Py v1.90</Creator>
 	</General>
@@ -99,7 +100,6 @@
 		<String>CAMTRANSLATEDOWN</String>
 		<String>CAMTRANSLATELEFT</String>
 		<String>HEADLOOKYAWRIGHT</String>
-		<String>MOUSEDECAY VALUE</String>
 		<String>MOUSEXMODE VALUE</String>
 		<String>MOUSEYMODE VALUE</String>
 		<String>ROLLAXIS_LANDING</String>
@@ -142,6 +142,7 @@
 		<String>BACKWARDKEY</String>
 		<String>CAMYAWRIGHT</String>
 		<String>CAMZOOMAXIS</String>
+		<String>DECAY VALUE</String>
 		<String>OCULUSRESET</String>
 		<String>PRIMARYFIRE</String>
 		<String>SETSPEED100</String>
@@ -152,6 +153,7 @@
 		<String>CAMZOOMOUT</String>
 		<String>FORWARDKEY</String>
 		<String>HYPERSPACE</String>
+		<String>MOUSEDECAY</String>
 		<String>SETSPEED25</String>
 		<String>SETSPEED50</String>
 		<String>SETSPEED75</String>
