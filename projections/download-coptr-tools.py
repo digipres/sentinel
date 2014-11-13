@@ -54,13 +54,27 @@ for sub in cat.subcategories():
         func['title'] = sub.title().replace("Category:","")
         func['title_url'] = sub.title(asUrl=True)
         func['subcats'] = []
+        # Get metadata:
+        for t in sub.templatesWithParams():
+            if t[0].title() == "Template:Infobox stage":
+                for param in t[1]:
+                    if "=" in param:
+                        (key, val) = param.split("=",1)
+                        func[key] = val.strip()
         # Get subcategories?
         for sub2 in sub.subcategories():
             if not sub2.isRedirectPage():
-                func['subcats'].append({
-                        'title': sub2.title().replace("Category:",""),
-                        'title_url': sub2.title(asUrl=True)
-                    })
+                subcat = {
+                    'title': sub2.title().replace("Category:",""),
+                    'title_url': sub2.title(asUrl=True)
+                }
+                for t in sub2.templatesWithParams():
+                    if t[0].title() == "Template:Infobox function":
+                        for param in t[1]:
+                            if "=" in param:
+                                (key, val) = param.split("=",1)
+                                subcat[key] = val.strip()
+                func['subcats'].append(subcat)
                 functions[sub2.title()] = {}
                 functions[sub2.title()]['cat'] = sub2
                 functions[sub2.title()]['parent'] = sub
