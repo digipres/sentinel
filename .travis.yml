@@ -1,0 +1,23 @@
+language: python
+python:
+  - "2.7"
+
+before_install:
+  - openssl aes-256-cbc -K $encrypted_cd1b9e7f7ca0_key -iv $encrypted_cd1b9e7f7ca0_iv -in passwordfile.enc -out passwordfile -d
+
+install: 
+  - pip install -r pywikibot/requirements.txt
+  - pip install "ipython[notebook]"
+  - pip install pyyaml
+  - git config --global user.name "$GIT_NAME"
+  - git config --global user.email $GIT_EMAIL
+  - git clone https://github.com/digipres/digipres.github.io.git
+  - python pywikibot/pwb.py -dir:. login
+
+script:
+  - python projections/download-coptr-tools.py
+  - python projections/tools-to-grid.py
+  - python projections/mw-contribs.py
+  - ./deploy.sh
+
+
