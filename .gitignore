@@ -4,6 +4,7 @@
 /.classpath
 /target
 /_site
+/apicache
 /bin
 /pywikibot.lwp
 /passwordfile
