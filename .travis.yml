@@ -3,7 +3,7 @@ python:
   - "2.7"
 
 before_install:
-  - openssl aes-256-cbc -K $encrypted_cd1b9e7f7ca0_key -iv $encrypted_cd1b9e7f7ca0_iv -in passwordfile.enc -out passwordfile -d
+ - openssl aes-256-cbc -K $encrypted_6e6cf0e3465b_key -iv $encrypted_6e6cf0e3465b_iv -in passwordfile.enc -out passwordfile -d 
 
 install: 
   - pip install -r pywikibot/requirements.txt
