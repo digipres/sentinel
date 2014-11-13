@@ -8,6 +8,7 @@ before_install:
 install: 
   - pip install -r pywikibot/requirements.txt
   - pip install pyyaml
+  - pip install BeautifulSoup
   - git config --global user.name "$GIT_NAME"
   - git config --global user.email $GIT_EMAIL
   - python pywikibot/pwb.py login -family:coptr
