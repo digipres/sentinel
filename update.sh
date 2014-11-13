@@ -6,5 +6,5 @@ python projections/mw-contribs.py
 cd registries
 ./refresh-sources.sh
 cd ..
-aggregates.py
+python registries/aggregates.py
 
