@@ -122,24 +122,30 @@ def enumerate_ff_formats(site):
         fmt = {}
         fmt['name'] = page.title()
         fmt['source'] = page.title(asUrl=True)
+        fmt["extensions"] = []
+        fmt["mimetypes"] = []
+        fmt["pronom"] = []
+        fmt["fdd"] = []
+        fmt["egff"] = []
+        fmt["uti"] = []
         for t in page.templatesWithParams():
             if t[0].title() == "Template:Ext":
-                fmt["extensions"] = t[1]
+                fmt["extensions"].append(t[1])
                 total_w_extension += 1
             elif t[0].title() == "Template:Mimetype":
-                fmt["mimetypes"] = t[1]
+                fmt["mimetypes"].append(t[1])
                 total_w_mimetype += 1
             elif t[0].title() == "Template:PRONOM":
-                fmt["pronom"] = t[1]
+                fmt["pronom"].append(t[1])
                 total_w_pronom += 1
             elif t[0].title() == "Template:LoCFDD":
-                fmt["fdd"] = t[1]
+                fmt["fdd"].append(t[1])
                 total_w_fdd += 1
             elif t[0].title() == "Template:EGFF":
-                fmt["egff"] = t[1]
+                fmt["egff"].append(t[1])
                 total_w_egff += 1
             elif t[0].title() == "Template:UTI":
-                fmt["uti"] = t[1]
+                fmt["uti"].append(t[1])
                 total_w_uti += 1
             elif t[0].title() == "Template:FormatInfo":
                 for param in t[1]:

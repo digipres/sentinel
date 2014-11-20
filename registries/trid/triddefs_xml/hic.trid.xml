@@ -1,34 +1,33 @@
 <TrID ver="2.00">
 	<Info>
-		<FileType>ACCAreader document</FileType>
-		<Ext>AR</Ext>
+		<FileType>PC-Bibliothek Hierarchy Compressed</FileType>
+		<Ext>HIC</Ext>
 		<ExtraInfo>
 			<Rem></Rem>
-			<RefURL>http://www.acca.it</RefURL>
+			<RefURL></RefURL>
 		</ExtraInfo>
 		<User>Marco Pontello</User>
 		<E-Mail>marcopon@gmail.com</E-Mail>
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>9</FileNum>
-		<Refine>1 by Marco Pontello</Refine>
+		<FileNum>3</FileNum>
 		<Date>
 			<Year>2014</Year>
 			<Month>11</Month>
-			<Day>14</Day>
+			<Day>10</Day>
 		</Date>
 		<Time>
-			<Hour>16</Hour>
-			<Min>42</Min>
-			<Sec>15</Sec>
+			<Hour>23</Hour>
+			<Min>10</Min>
+			<Sec>52</Sec>
 		</Time>
 		<Creator>TrIDScan/Py v1.90</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
-			<Bytes>12000000414343415F5245414445525F464F524D4154</Bytes>
-			<ASCII> . . . . A C C A _ R E A D E R _ F O R M A T</ASCII>
+			<Bytes>636F6D707265737365642050432D4269626C696F7468656B20486965726172636879</Bytes>
+			<ASCII> c o m p r e s s e d   P C - B i b l i o t h e k   H i e r a r c h y</ASCII>
 			<Pos>0</Pos>
 		</Pattern>
 	</FrontBlock>

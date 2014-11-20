@@ -1,16 +1,16 @@
 <TrID ver="2.00">
 	<Info>
-		<FileType>Microsoft Security Catalog</FileType>
+		<FileType>Microsoft Security Catalog (DER encoded)</FileType>
 		<Ext>CAT</Ext>
 		<ExtraInfo>
 			<Rem></Rem>
-			<RefURL>http://stackoverflow.com/questions/1598236/microsoft-security-catalog-format-documentation-and-api-samples</RefURL>
+			<RefURL>http://en.wikipedia.org/wiki/X.509</RefURL>
 		</ExtraInfo>
 		<User>Joerg Jenderek</User>
 		<E-Mail>joerg.jen.der.ek@gmx.net</E-Mail>
 	</Info>
 	<General>
-		<FileNum>6</FileNum>
+		<FileNum>866</FileNum>
 		<Date>
 			<Year>2008</Year>
 			<Month>12</Month>
@@ -25,44 +25,40 @@
 	</General>
 	<FrontBlock>
 		<Pattern>
-			<Bytes>3083</Bytes>
+			<Bytes>3082</Bytes>
 			<ASCII> 0</ASCII>
 			<Pos>0</Pos>
 		</Pattern>
 		<Pattern>
 			<Bytes>0609</Bytes>
-			<Pos>5</Pos>
+			<Pos>4</Pos>
 		</Pattern>
 		<Pattern>
 			<Bytes>2A864886F70D010702A0</Bytes>
-			<Pos>7</Pos>
+			<Pos>6</Pos>
 		</Pattern>
 		<Pattern>
-			<Bytes>83</Bytes>
-			<Pos>17</Pos>
+			<Bytes>82</Bytes>
+			<Pos>16</Pos>
 		</Pattern>
 		<Pattern>
 			<Bytes>30</Bytes>
 			<ASCII> 0</ASCII>
-			<Pos>21</Pos>
+			<Pos>19</Pos>
 		</Pattern>
 		<Pattern>
-			<Bytes>83</Bytes>
-			<Pos>22</Pos>
+			<Bytes>82</Bytes>
+			<Pos>20</Pos>
 		</Pattern>
 		<Pattern>
 			<Bytes>02010131</Bytes>
 			<ASCII> . . . 1</ASCII>
-			<Pos>26</Pos>
+			<Pos>23</Pos>
 		</Pattern>
 		<Pattern>
 			<Bytes>30</Bytes>
 			<ASCII> 0</ASCII>
-			<Pos>31</Pos>
-		</Pattern>
-		<Pattern>
-			<Bytes>06</Bytes>
-			<Pos>33</Pos>
+			<Pos>28</Pos>
 		</Pattern>
 	</FrontBlock>
 </TrID>

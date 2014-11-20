@@ -1,28 +1,28 @@
 <TrID ver="2.00">
 	<Info>
-		<FileType>WindowsXP Backup Utility backup set</FileType>
+		<FileType>Windows NTBackup archive</FileType>
 		<Ext>BKF</Ext>
 		<ExtraInfo>
-			<Rem>Backup file created with the backup utility shipped with Windows XP</Rem>
-			<RefURL></RefURL>
+			<Rem>Backup file created with the backup utility shipped with Windows NT/2K/XP/2003</Rem>
+			<RefURL>http://en.wikipedia.org/wiki/NTBackup</RefURL>
 		</ExtraInfo>
 		<User>Marco Pontello</User>
 		<E-Mail>marcopon@gmail.com</E-Mail>
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>7</FileNum>
-		<Refine>3 by Marco Pontello</Refine>
+		<FileNum>10</FileNum>
+		<Refine>3 by Marco Pontello - 3 by Joerg Jenderek</Refine>
 		<CheckStrings>True</CheckStrings>
 		<Date>
-			<Year>2006</Year>
-			<Month>12</Month>
-			<Day>29</Day>
+			<Year>2014</Year>
+			<Month>10</Month>
+			<Day>18</Day>
 		</Date>
 		<Time>
-			<Hour>12</Hour>
-			<Min>40</Min>
-			<Sec>13</Sec>
+			<Hour>22</Hour>
+			<Min>22</Min>
+			<Sec>50</Sec>
 		</Time>
 		<Creator>TrIDScan32 v1.56</Creator>
 	</General>
@@ -34,7 +34,7 @@
 		</Pattern>
 	</FrontBlock>
 	<GlobalStrings>
-		<String>B'A'C'K'U'P' 'U'T'I'L'I'T'Y' '('N'T'B'A'C'K'U'P'.'E'X'E')</String>
-		<String>.'B'K'F' 'C'R'E'A'T'E'D</String>
+		<String>'('N'T'B'A'C'K'U'P'.'E'X'E')</String>
+		<String>.'B'K'F' </String>
 	</GlobalStrings>
 </TrID>

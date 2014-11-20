@@ -11,36 +11,29 @@
 		<Home>http://mark0.net</Home>
 	</Info>
 	<General>
-		<FileNum>6</FileNum>
+		<FileNum>8</FileNum>
+		<Refine>2 by Marco Pontello</Refine>
 		<CheckStrings>True</CheckStrings>
 		<Date>
-			<Year>2010</Year>
-			<Month>10</Month>
-			<Day>11</Day>
+			<Year>2014</Year>
+			<Month>11</Month>
+			<Day>14</Day>
 		</Date>
 		<Time>
-			<Hour>02</Hour>
-			<Min>40</Min>
-			<Sec>59</Sec>
+			<Hour>16</Hour>
+			<Min>31</Min>
+			<Sec>19</Sec>
 		</Time>
-		<Creator>TrIDScan32 v1.56</Creator>
+		<Creator>TrIDScan/Py v1.90</Creator>
 	</General>
 	<FrontBlock>
 		<Pattern>
-			<Bytes>447367000A640A0000010A000000000000FF6E0A00000011B0BCB0BCB1ACACAD</Bytes>
+			<Bytes>447367000A640A0000010A000000000000FF6E0A00000011B0BCB0BCB1ACAC</Bytes>
 			<ASCII> D s g . . d . . . . . . . . . . . . n</ASCII>
 			<Pos>0</Pos>
 		</Pattern>
 	</FrontBlock>
 	<GlobalStrings>
-		<String>FCHARSET0</String>
-		<String>FONTTBL{</String>
-		<String>DEFTAB</String>
-		<String>DEFF0</String>
-		<String>ANSI</String>
-		<String>FNIL</String>
 		<String>PAGE</String>
-		<String>PARD</String>
-		<String>RTF1</String>
 	</GlobalStrings>
 </TrID>
