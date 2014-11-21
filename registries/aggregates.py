@@ -4,6 +4,8 @@ from lxml import etree
 from bs4 import BeautifulSoup
 from StringIO import StringIO
 from operator import itemgetter
+from collections import defaultdict
+from sets import Set
 import yaml
 import os
 import re
@@ -317,6 +319,43 @@ extensions['stats'] = {}
 extensions['stats']['total_extensions'] = len(exts)
 with open("%s/extensions.yml" % data_dir, 'w') as outfile:
     outfile.write( yaml.safe_dump(extensions, default_flow_style=False) ) 
+
+# Write out Venn data
+print("Outputting Venn data based on extensions...")
+# Key all the RID-to-integer mappings:
+vennls = {}
+i = 0
+for fmt in fmts:
+    vennls[fmt] = str(i)
+    i += 1
+# Now build up the counts, both overlaps and totals:
+vennds = defaultdict(int)
+venndsl = defaultdict(list)
+vennlt = defaultdict(int)
+vennids = {}
+for extension in exts:
+    regs = Set()
+    regIds = Set()
+    for ridder in exts[extension]['identifiers']:
+        regs.add(vennls[ridder['regId']])
+        regIds.add(ridder['regId'])
+    for rid in regs:
+        vennlt[rid] += 1
+    key = ','.join(sorted(regs))
+    vennids[key] = sorted(regIds)
+    venndsl[key].append(extension)
+    vennds[key] += 1
+# Now assemble data to write out:
+vennd = {}
+vennd['sets'] = []
+for fmt in fmts:
+    vennd['sets'].append( { 'regId': fmt, 'size': vennlt[vennls[fmt]] } )
+vennd['overlaps'] = []
+for key, value in sorted(vennds.items(), key=itemgetter(1), reverse=True):
+    vennd['overlaps'].append( { 'sets': "[%s]" % key, 'regIds': vennids[key], 'size': value, 'extensions': venndsl[key] } )
+with open("%s/extensions-venn.yml" % data_dir, 'w') as outfile:
+    outfile.write( yaml.safe_dump(vennd, default_flow_style=False) ) 
+
 
 # Write out as a data file to feed into other systems:
 for fmt in fmts:
