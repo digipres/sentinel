@@ -59,13 +59,13 @@ def addFormat(rid,fid,finfo):
         fmts[rid]['warnings'].append("Format name '%s' for entry %s contains leading and/or trailing whitespace." % (finfo['name'],fid))
 
     # Assemble cross-references:
-    ext_pattern = re.compile("^\*[\.|-][A-Za-z0-9_~\-\+][A-Za-z0-9_\% \-\+\.]*$")
+    ext_pattern = re.compile("^\*?[\.|-]?[A-Za-z0-9_~\-\+\?\!\$][A-Za-z0-9_\% \-\+\.\?\!\$]*$")
     for extension in finfo['extensions']:
         extension = extension.lower()
         addEntry(exts,extension,rid,fid)
         # Also attempt to validate:
         if not ext_pattern.match(extension):
-            fmts[rid]['warnings'].append("File extension '%s' for entry %s does not appear to be a valid file extension." % (extension,fid))
+            fmts[rid]['warnings'].append("Glob '%s' for entry %s does not appear to be a valid filename specification." % (extension,fid))
     # MIME
     if 'supertype' not in finfo:
         finfo['supertype'] = None
@@ -79,7 +79,6 @@ def addFormat(rid,fid,finfo):
             fmts[rid]['warnings'].append("Could not parse MIME type '%s' for entry %s" % (mimetype,fid))
     # And add:
     fmts[rid]['formats'][fid] = finfo
-
 
 
 def aggregateFDD():
