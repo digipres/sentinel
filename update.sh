@@ -8,8 +8,8 @@ python projections/download-coptr-tools.py
 python projections/tools-to-grid.py
 python projections/mw-contribs.py
 # Update format registry sources and output
-cd registries
+cd digipres.github.io/_sources/registries
 ./refresh-sources.sh
-cd ..
-python registries/aggregates.py
+cd -
+python aggregates.py
 
