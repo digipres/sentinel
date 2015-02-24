@@ -24,7 +24,7 @@ There are a few different aggregation processes in place currently:
 * The COPTR and File Formats wikis [user contributions](http://www.digipres.org/contribs/) are noted.
 * Various format registries are brought together and [presented](http://www.digipres.org/formats/) so that they can be [compared](http://www.digipres.org/formats/overlaps/).
 
-See [[README-registries.md]] to see how the format register aggregation works.
+See [README-registries.md](./README-registries.md) to see how the format register aggregation works.
 
 
 To Do
