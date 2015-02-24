@@ -6,9 +6,29 @@ Sentinel
 This is the watcher that watches the watched and reports the reports to <http://www.digipres.org>
 
 
-...UNDER CONSTRUCTION...
+How it works
+------------
 
-To Do:
+Overall, this system works as follows:
+
+* Every night, we launch a [Travis CI job](https://travis-ci.org/digipres/sentinel) that:
+    * Checks out the [Jekyll source](https://github.com/digipres/digipres.github.io) for [digipres.org](http://www.digipres.org/).
+    * Updates copies of various data sources held elsewhere.
+    * Analyses that data into aggregated forms.
+    * Add this updated, aggregated data to the digipres.github.io [sources](https://github.com/digipres/digipres.github.io/tree/master/_sources) and [data](https://github.com/digipres/digipres.github.io/tree/master/_data) folders.
+    * Commits the changes to the digipres.org repository (which the causes the website to get updated)
+
+There are a few different aggregation processes in place currently:
+
+* The COPTR wiki is scanned to build version two of the [POWRR Tool Grid](http://www.digipres.org/tools/).
+* The COPTR and File Formats wikis [user contributions](http://www.digipres.org/contribs/) are noted.
+* Various format registries are brought together and [presented](http://www.digipres.org/formats/) so that they can be [compared](http://www.digipres.org/formats/overlaps/).
+
+See [README-registries.md] to see how the format register aggregation works.
+
+
+To Do
+-----
 
 * Find ToDos in notes/code and put them here or in issues.
 * Link to PRONOM itself.
