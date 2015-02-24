@@ -4,6 +4,7 @@ Registries
 This repository holds versioned copies of the data from a number of registries:
 
 * Apache Tika
+* [The File Formats Wiki](http://fileformats.archiveteam.org/)
 * [Library of Congress FFD](http://www.digitalpreservation.gov/formats/fdd/fdd_xml_info.shtml)
 * PRONOM
 * TRiD
@@ -28,11 +29,7 @@ This populates the _data/formats directory of the digipres.github.io sub-reposit
 
     $ cd ../digipres.github.io/_data/formats
 
-TODO automatic adding and committing of the updated information.
-
 When this content is pushed to GitHub, the source templates in digipres.github.io use the data files in _data to build up a static website that exposes this information to the web (using Jekyll via GitHub Pages).
-
-TODO Add master Travis CI script to run this automatically.
 
 TODO
 ----
