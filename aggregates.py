@@ -153,7 +153,7 @@ def aggregatePronom():
 
     # Get identifiers from DROID BinSigs:
     with open("digipres.github.io/_sources/registries/pronom/droid-signature-file.xml", "r") as f:
-        parser = etree.XMLParser()  
+        parser = etree.XMLParser()
         root = etree.parse(f, parser)
         ffc = root.find('{http://www.nationalarchives.gov.uk/pronom/SignatureFile}FileFormatCollection')
         for ff in ffc.findall('{http://www.nationalarchives.gov.uk/pronom/SignatureFile}FileFormat'):
@@ -265,6 +265,31 @@ def aggregateFFW():
         #
         addFormat(rid,fid,finfo)
 
+def aggregateGithubLinguist():
+    rid = "githublinguist"
+    print("Parsing %s..." % rid)
+    stream = open("digipres.github.io/_sources/registries/githublinguist/languages.yml", 'r')
+    gl = yaml.load(stream)
+    stream.close()
+
+    for fmt in gl:
+        finfo = {}
+        finfo['name'] = fmt
+        finfo['extensions'] = []
+        finfo['mimetypes'] = []
+        finfo['hasMagic'] = False
+        fid = gl[fmt]['language_id']
+        for key in gl[fmt]:
+            if key == 'extensions':
+                for ext in gl[fmt][key]:
+                    finfo['extensions'].append("*%s" % ext)
+            elif key == 'codemirror_mime_type':
+                finfo['mimetypes'].append(gl[fmt][key])
+            else:
+                finfo[key] = gl[fmt][key]
+        #
+        addFormat(rid,fid,finfo)
+
 
 
 # Set up hashtables to fill:
@@ -278,6 +303,7 @@ aggregateTika()
 aggregatePronom()
 aggregateTRiD()
 aggregateFDD()
+aggregateGithubLinguist()
 
 # Resolve MIME heirarchy...
 print("Resolving MIME type heirarchy...")
@@ -309,7 +335,7 @@ mimetypes['mimetypes'] = sorted(mimes.items(), key=lambda (x, y): y['sort_key'])
 mimetypes['stats'] = {}
 mimetypes['stats']['total_mimetypes'] = len(mimes)
 with open("%s/mimetypes.yml" % data_dir, 'w') as outfile:
-    outfile.write( yaml.safe_dump(mimetypes, default_flow_style=False) ) 
+    outfile.write( yaml.safe_dump(mimetypes, default_flow_style=False) )
 
 print("Outputting file extensions...")
 extensions = {}
@@ -317,7 +343,7 @@ extensions['extensions'] = exts
 extensions['stats'] = {}
 extensions['stats']['total_extensions'] = len(exts)
 with open("%s/extensions.yml" % data_dir, 'w') as outfile:
-    outfile.write( yaml.safe_dump(extensions, default_flow_style=False) ) 
+    outfile.write( yaml.safe_dump(extensions, default_flow_style=False) )
 
 # Write out Venn data
 print("Outputting Venn data based on extensions...")
@@ -353,7 +379,7 @@ vennd['overlaps'] = []
 for key, value in sorted(vennds.items(), key=itemgetter(1), reverse=True):
     vennd['overlaps'].append( { 'sets': "[%s]" % key, 'regIds': vennids[key], 'size': value, 'extensions': venndsl[key] } )
 with open("%s/extensions-venn.yml" % data_dir, 'w') as outfile:
-    outfile.write( yaml.safe_dump(vennd, default_flow_style=False) ) 
+    outfile.write( yaml.safe_dump(vennd, default_flow_style=False) )
 
 
 # Write out as a data file to feed into other systems:
@@ -381,7 +407,7 @@ for fmt in fmts:
     fmts[fmt]['stats']['total_warnings'] = len(fmts[fmt]['warnings'])
     fmts[fmt]['stats']['total_formats'] = len(fmts[fmt]['formats'])
     with open("%s/%s.yml" % (data_dir,fmt), 'w') as outfile:
-        outfile.write( yaml.safe_dump(fmts[fmt], default_flow_style=False) ) 
+        outfile.write( yaml.safe_dump(fmts[fmt], default_flow_style=False) )
 
 
 # Write out lots of pages for individual formats:
@@ -399,4 +425,3 @@ for fmt in fmts:
 #        outfile.write("---\n")
 #        outfile.write(yaml.safe_dump(outdata, default_flow_style=False))
 #        outfile.write("---\n")
-
