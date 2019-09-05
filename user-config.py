@@ -3,7 +3,7 @@ family='coptr'
 
 usernames['coptr']['coptr'] = u"COPTR Bot"
 usernames['coptr']['en'] = u"COPTR Bot"
-family_files['coptr'] = 'http://coptr.digipres.org/api.php'
+family_files['coptr'] = 'https://coptr.digipres.org/api.php'
 
 usernames['ff']['ff'] = u"AndyJackson"
 usernames['ff']['en'] = u"AndyJackson"
