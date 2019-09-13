@@ -51,6 +51,7 @@ See also password.enc etc.
 
 http://docs.travis-ci.com/user/encrypting-files/
 
+```
 opf:foreg andy$ curl -u anjackson  -d '{"scopes":["public_repo"],"note":"CI: sentinel"}' https://api.github.com/authorizations
 Enter host password for user 'anjackson':
 {
@@ -70,4 +71,5 @@ Enter host password for user 'anjackson':
     "public_repo"
   ]
 }
+```
 
