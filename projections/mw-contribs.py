@@ -182,7 +182,7 @@ def contribs(fam):
     recent_changes(fam,site)
 
 # Process contributions from COPTR:
-contribs("coptr")
+#contribs("coptr")
 # Process contributions from FileFormats:
 contribs("ff")
 

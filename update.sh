@@ -4,8 +4,8 @@ git checkout master
 git pull origin master
 cd ..
 # Update tool info etc.
-python projections/download-coptr-tools.py
-python projections/tools-to-grid.py
+#python projections/download-coptr-tools.py
+#python projections/tools-to-grid.py
 python projections/mw-contribs.py
 # Update format registry sources and output
 cd digipres.github.io/_sources/registries
