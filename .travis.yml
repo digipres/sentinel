@@ -15,7 +15,6 @@ install:
   - pip install lxml
   - git config --global user.name "$GIT_NAME"
   - git config --global user.email $GIT_EMAIL
-  - python pywikibot/pwb.py login -family:coptr
   - python pywikibot/pwb.py login -family:ff
 
 script:
