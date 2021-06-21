@@ -10,8 +10,8 @@ install:
   - pip install -U setuptools
   - pip install -r pywikibot/requirements.txt
   - pip install pyyaml
-  - pip install BeautifulSoup
   - pip install beautifulsoup4
+  - pip install BeautifulSoup
   - pip install lxml
   - git config --global user.name "$GIT_NAME"
   - git config --global user.email $GIT_EMAIL
