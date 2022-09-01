@@ -20,10 +20,6 @@ import collections
 import datetime
 import yaml
 
-reload(sys)
-sys.setdefaultencoding("utf-8")
-
-sys.path.append("pywikibot")
 import pywikibot as pywikibot
 
 def RecentChangesPageGenerator(start=None, end=None, reverse=False,
@@ -94,7 +90,7 @@ def month_diff(d1, d2):
     return diff
 
 # Process the arguments:
-pywikibot.handleArgs()
+pywikibot.handle_args()
 
 
 # Function to process user contribs:
@@ -117,7 +113,7 @@ def recent_changes(fam,site):
     cf = 'digipres.github.io/_data/'+fam+'-changes.yml'
     if os.path.isfile(cf):
         stream = open(cf, 'r')
-        changes = yaml.load(stream)
+        changes = yaml.safe_load(stream)
         stream.close()
     else:
         changes = {}

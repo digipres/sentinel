@@ -2,10 +2,9 @@ from __future__ import with_statement
 from __future__ import print_function
 from lxml import etree
 from bs4 import BeautifulSoup
-from StringIO import StringIO
+from io import BytesIO
 from operator import itemgetter
 from collections import defaultdict
-from sets import Set
 import yaml
 import os
 import re
@@ -88,13 +87,13 @@ def aggregateFDD():
     for filename in os.listdir('digipres.github.io/_sources/registries/fdd/fddXML'):
         if filename.endswith(".xml"):
             # Get Identifier?
-            with open('digipres.github.io/_sources/registries/fdd/fddXML/'+filename, "r") as f:
+            with open('digipres.github.io/_sources/registries/fdd/fddXML/'+filename, "rb") as f:
                 finfo = {}
                 finfo['source'] = filename
                 xml = f.read()
                 try:
                   parser = etree.XMLParser()
-                  root = etree.parse(StringIO(xml), parser)
+                  root = etree.parse(BytesIO(xml), parser)
                 except Exception as e:
                     fmts[rid]['warnings'].append("Error when parsing XML: "+str(e))
                 root = BeautifulSoup(xml, "xml")
@@ -193,16 +192,16 @@ def aggregateTika():
     print("Parsing %s..." % rid)
 
     # Get identifiers from DROID BinSigs:
-    with open("digipres.github.io/_sources/registries/tika/tika-mimetypes.xml", "r") as f:
+    with open("digipres.github.io/_sources/registries/tika/tika-mimetypes.xml", "rb") as f:
         xml = f.read()
         warnings = []
         try:
             parser = etree.XMLParser()
-            root = etree.parse(StringIO(xml), parser)
+            root = etree.parse(BytesIO(xml), parser)
         except Exception as e:
             warnings.append("Error when parsing XML: "+str(e))
             parser = etree.XMLParser(recover=True)
-            root = etree.parse(StringIO(xml), parser)
+            root = etree.parse(BytesIO(xml), parser)
         for ff in root.findall('mime-type'):
             finfo = {}
             fid = ff.get('type')
@@ -247,7 +246,7 @@ def aggregateFFW():
     rid = "ffw"
     print("Parsing %s..." % rid)
     stream = open("digipres.github.io/_sources/registries/mediawikis/ffw.yml", 'r')
-    ffw = yaml.load(stream)
+    ffw = yaml.safe_load(stream)
     stream.close()
 
     for fmt in ffw['formats']:
@@ -269,7 +268,7 @@ def aggregateGithubLinguist():
     rid = "githublinguist"
     print("Parsing %s..." % rid)
     stream = open("digipres.github.io/_sources/registries/githublinguist/languages.yml", 'r')
-    gl = yaml.load(stream)
+    gl = yaml.safe_load(stream)
     stream.close()
 
     for fmt in gl:
@@ -331,7 +330,7 @@ data_dir = "digipres.github.io/_data/formats"
 # Output:
 print("Outputting MIME types...")
 mimetypes = {}
-mimetypes['mimetypes'] = sorted(mimes.items(), key=lambda (x, y): y['sort_key'])
+mimetypes['mimetypes'] = sorted(mimes.items(), key=lambda x: x[1]['sort_key'])
 mimetypes['stats'] = {}
 mimetypes['stats']['total_mimetypes'] = len(mimes)
 with open("%s/mimetypes.yml" % data_dir, 'w') as outfile:
@@ -359,8 +358,8 @@ venndsl = defaultdict(list)
 vennlt = defaultdict(int)
 vennids = {}
 for extension in exts:
-    regs = Set()
-    regIds = Set()
+    regs = set()
+    regIds = set()
     for ridder in exts[extension]['identifiers']:
         regs.add(vennls[ridder['regId']])
         regIds.add(ridder['regId'])

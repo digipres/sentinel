@@ -1,0 +1,23 @@
+on:
+  push:
+     branches:
+       - master
+
+jobs:
+  update-digipresorg-site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+
+      - name: Setup Python environment...
+        run: ./setup.sh
+
+      - name: Update from various data sources...
+        run: ./update.sh
+
+      - name: Deploy updated site...
+        run: ./deploy.sh
+
+

@@ -1,3 +1,8 @@
+#!/bin/sh
+set -e
+
+source venv/bin/activate
+
 # Make sure the branch is up to date
 cd digipres.github.io
 git checkout master
