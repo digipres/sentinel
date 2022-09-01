@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # - openssl aes-256-cbc -K $encrypted_6e6cf0e3465b_key -iv $encrypted_6e6cf0e3465b_iv -in passwordfile.enc -out passwordfile -d 
 # - sudo apt-get install -y unrar
 
