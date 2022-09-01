@@ -298,6 +298,7 @@ def aggregateWikiData():
 
     for fmt in wd:
         finfo = {}
+        finfo['name'] = fmt['name']
         finfo['extensions'] = []
         finfo['mimetypes'] = []
         finfo['hasMagic'] = False
@@ -306,7 +307,9 @@ def aggregateWikiData():
             if key == 'extension' and fmt[key]:
                 finfo['extensions'].append("*.%s" % fmt[key])
             if key == 'mimetype' and fmt[key]:
-                finfo['mimetypes'].append("*.%s" % fmt[key])
+                finfo['mimetypes'].append(fmt[key])
+            if key == 'sig' and fmt[key]:
+                finfo['hasMagic'] = True
         #
         addFormat(rid,fid,finfo)
 

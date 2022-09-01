@@ -7,3 +7,8 @@
 # --yes to assume "yes" for questions
 gpg --quiet --batch --yes --decrypt --passphrase="$FFW_PASSWORDFILE_SECRET" \
 --output passwordfile passwordfile.gpg
+
+# Also set up Git commit info
+git config --global user.email "${GITHUB_ACTOR}"
+git config --global user.name "${GITHUB_ACTOR}@users.noreply.github.com"
+
