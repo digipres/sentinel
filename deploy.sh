@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-source venv/usr/local/bin/activate
+source venv/bin/activate
 
 # This all happens in here:
 cd digipres.github.io
