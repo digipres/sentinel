@@ -299,6 +299,7 @@ def aggregateWikiData():
     for fmt in wd:
         finfo = {}
         finfo['name'] = fmt['name']
+        finfo['source'] = fmt['source']
         finfo['extensions'] = []
         finfo['mimetypes'] = []
         finfo['hasMagic'] = False
