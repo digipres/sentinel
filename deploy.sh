@@ -9,7 +9,7 @@ cd digipres.github.io
 # Grab a version ID:
 VERSION=$(git describe --always --tag)
 
-echo -e "\nDeploying into master branch:"
+echo "\nDeploying into master branch:"
 # Just in case something changed while we generated the data:
 git checkout master
 git pull origin master
@@ -22,6 +22,6 @@ git config credential.helper "store --file=../git-credentials"
 echo "https://$GH_TOKEN:@github.com" > ../git-credentials
 
 # And PUSH IT
-echo -e "\nPushing to master..."
+echo "\nPushing to master..."
 git push origin master
-echo -e "\n DONE."
+echo "\n DONE."

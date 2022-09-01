@@ -6,6 +6,7 @@ from io import BytesIO
 from operator import itemgetter
 from collections import defaultdict
 import yaml
+import json
 import os
 import re
 
@@ -289,6 +290,25 @@ def aggregateGithubLinguist():
         #
         addFormat(rid,fid,finfo)
 
+def aggregateWikiData():
+    rid = "wikidata"
+    print("Parsing %s..." % rid)
+    with open ("digipres.github.io/_sources/registries/wikidata/wikidata.json", 'r') as f:
+        wd = json.load(f)
+
+    for fmt in wd:
+        finfo = {}
+        finfo['extensions'] = []
+        finfo['mimetypes'] = []
+        finfo['hasMagic'] = False
+        fid = fmt['id']
+        for key in fmt:
+            if key == 'extension' and fmt[key]:
+                finfo['extensions'].append("*.%s" % fmt[key])
+            if key == 'mimetype' and fmt[key]:
+                finfo['mimetypes'].append("*.%s" % fmt[key])
+        #
+        addFormat(rid,fid,finfo)
 
 
 # Set up hashtables to fill:
@@ -303,6 +323,7 @@ aggregatePronom()
 aggregateTRiD()
 aggregateFDD()
 aggregateGithubLinguist()
+aggregateWikiData()
 
 # Resolve MIME heirarchy...
 print("Resolving MIME type heirarchy...")
