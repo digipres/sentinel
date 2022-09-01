@@ -11,6 +11,11 @@ jobs:
         with:
           submodules: true
 
+      - name: Decrypt credentials...
+        run: ./decrypt_secrets.sh
+        env:
+          FFW_PASSWORD_SECRET: ${{ secrets.FFW_PASSWORD_SECRET }}
+
       - name: Setup Python environment...
         run: ./setup.sh
 
