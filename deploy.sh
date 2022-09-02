@@ -19,7 +19,7 @@ git commit -am "New site version ${VERSION} deployed." --allow-empty
 
 # Set up the credentials for digipres.github.io
 git config credential.helper "store --file=../git-credentials"
-echo "https://$GH_TOKEN:@github.com" > ../git-credentials
+echo "https://$GITHUB_TOKEN:@github.com" > ../git-credentials
 
 # And PUSH IT
 echo "\nPushing to master..."

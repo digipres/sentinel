@@ -34,5 +34,7 @@ jobs:
 
       - name: Deploy updated site...
         run: ./deploy.sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
