@@ -1,13 +1,13 @@
 Sentinel
 ========
 
-[![Build Status](https://travis-ci.org/digipres/sentinel.svg?branch=master)](https://travis-ci.org/digipres/sentinel)
-
 This is the watcher that watches the watched and reports the reports to <http://www.digipres.org>
 
 
 How it works
 ------------
+
+_WARNING! This is outdated since we no longer use Travis!_
 
 Overall, this system works as follows:
 
