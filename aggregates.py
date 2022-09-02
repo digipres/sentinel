@@ -42,6 +42,11 @@ def addMIMEType(rid,fid,mimetype,supertype):
         mimes[mimetype]['supertype'] = supertype
 
 def addFormat(rid,fid,finfo):
+    # Convert possible sets to lists:
+    for key in ['extensions', 'mimetypes', 'identifiers']:
+        if key in finfo:
+            finfo[key] = list(set(finfo[key]))
+
     # Add to the formats list:
     if not rid in fmts:
         fmts[rid] = {}
@@ -296,23 +301,35 @@ def aggregateWikiData():
     with open ("digipres.github.io/_sources/registries/wikidata/wikidata.json", 'r') as f:
         wd = json.load(f)
 
+    current_fid = None
+
     for fmt in wd:
-        finfo = {}
-        finfo['name'] = fmt['name']
-        finfo['source'] = fmt['source']
-        finfo['extensions'] = []
-        finfo['mimetypes'] = []
-        finfo['hasMagic'] = False
         fid = fmt['id']
+        # items are ordered by ID, so we can aggregate as we go
+        if fid != current_fid:
+            # Store the last record:
+            if current_fid:
+                addFormat(rid,current_fid,finfo)
+            current_fid = fid
+            # Start a new record:
+            finfo = {}
+            finfo['name'] = fmt['name']
+            finfo['source'] = fmt['source']
+            finfo['extensions'] = set()
+            finfo['mimetypes'] = set()
+            finfo['hasMagic'] = False
+        # Aggregate value for each ID
         for key in fmt:
             if key == 'extension' and fmt[key]:
-                finfo['extensions'].append("*.%s" % fmt[key])
+                finfo['extensions'].add("*.%s" % fmt[key])
             if key == 'mimetype' and fmt[key]:
-                finfo['mimetypes'].append(fmt[key])
+                finfo['mimetypes'].add(fmt[key])
             if key == 'sig' and fmt[key]:
                 finfo['hasMagic'] = True
-        #
-        addFormat(rid,fid,finfo)
+
+    # Add the final one:
+    if current_fid:
+        addFormat(rid,current_fid,finfo)
 
 
 # Set up hashtables to fill:
