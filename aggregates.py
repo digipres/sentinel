@@ -430,17 +430,25 @@ for fmt in fmts:
     total_w_glob = 0
     total_w_magic = 0
     total_w_mime = 0
+    all_extensions = []
+    all_mimetypes = []
     for findex in fmts[fmt]['formats']:
         finfo = fmts[fmt]['formats'][findex]
         if finfo['hasMagic']:
             total_w_magic += 1
         if len(finfo['extensions']) > 0:
             total_w_glob += 1
+            all_extensions.extend(finfo['extensions'])
         if len(finfo['mimetypes']) > 0:
             total_w_mime += 1
+            all_mimetypes.extend(finfo['mimetypes'])
     fmts[fmt]['stats']['total_w_magic'] = total_w_magic
     fmts[fmt]['stats']['total_w_glob'] = total_w_glob
     fmts[fmt]['stats']['total_w_mime'] = total_w_mime
+    fmts[fmt]['stats']['total_extensions'] = len(all_extensions) 
+    fmts[fmt]['stats']['total_unique_extensions'] = len(set(all_extensions))
+    fmts[fmt]['stats']['total_mimetypes'] = len(all_mimetypes) 
+    fmts[fmt]['stats']['total_unique_mimetypes'] = len(set(all_mimetypes))
     # Warn about empty names:
     if fmts[fmt]['stats']['empty_names'] > 0:
         fmts[fmt]['warnings'].append("There are %i format records with empty 'name' fields." % fmts[fmt]['stats']['empty_names'])
