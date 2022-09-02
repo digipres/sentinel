@@ -18,8 +18,14 @@ git add --all .
 git commit -am "New site version ${VERSION} deployed." --allow-empty 
 
 # Set up the credentials for digipres.github.io
-git config credential.helper "store --file=../git-credentials"
-echo "https://$GITHUB_TOKEN:@github.com" > ../git-credentials
+# if GITHUB_TOKEN
+if [[ -z "${GITHUB_TOKEN}" ]]; then
+  echo No GITHUB_TOKEN set: using standard remote.
+  git remote get-url origin
+else
+  echo GITHUB_TOKEN set: using https://${GITHUB_ACTOR}:$${GITHUB_TOKEN}@github.com/digipres/digipres.github.io.git remote.
+  git remote set-url --push origin https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/digipres/digipres.github.io.git
+fi
 
 # And PUSH IT
 echo "\nPushing to master..."
