@@ -16,6 +16,9 @@ jobs:
         env:
           FFW_PASSWORDFILE_SECRET: ${{ secrets.FFW_PASSWORDFILE_SECRET }}
 
+      - name: Setup Git configuration...
+        run: ./setup_git.sh
+
       - name: Setup Python environment...
         run: ./setup.sh
 
