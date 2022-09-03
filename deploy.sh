@@ -35,7 +35,7 @@ else
   echo LOCAL
   git config --local --list
   echo "ATTEMPT"
-  git config --global --unset url.https://github.com/.insteadof
+  git config --local --unset url."https://github.com/".insteadof
   echo GLOBAL
   git config --global --list
   echo LOCAL
