@@ -23,8 +23,8 @@ if [[ -z "${GITHUB_TOKEN}" ]]; then
   echo No GITHUB_TOKEN set: using standard remote.
   git remote get-url origin
 else
-  echo GITHUB_TOKEN set: using https://${GITHUB_ACTOR}:$${GITHUB_TOKEN}@github.com/digipres/digipres.github.io.git remote.
-  git remote set-url --push origin https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/digipres/digipres.github.io.git
+  echo GITHUB_TOKEN set: using https://${GITHUB_ACTOR}:\${DIGIPRES_REPO_TOKEN}@github.com/digipres/digipres.github.io.git remote.
+  git remote set-url --push origin https://${GITHUB_ACTOR}:${DIGIPRES_REPO_TOKEN}@github.com/digipres/digipres.github.io.git
 fi
 
 # And PUSH IT
