@@ -23,9 +23,9 @@ if [[ -z "${DIGIPRES_REPO_DEPLOY_PRIVATE_KEY}" ]]; then
   echo No DIGIPRES_REPO_DEPLOY_PRIVATE_KEY set: using standard remote.
   git remote get-url origin
 else
-  echo DIGIPRES_REPO_DEPLOY_PRIVATE_KEY set: using ssh -i ~/.ssh/id_ed25519
-  echo "${DIGIPRES_REPO_DEPLOY_PRIVATE_KEY}" > ~/.ssh/id_ed25519
-  export GIT_SSH_COMMAND='ssh -i ~/.ssh/id_ed25519' 
+  echo DIGIPRES_REPO_DEPLOY_PRIVATE_KEY set: using ssh -i ~/ssh_id_ed25519
+  echo "${DIGIPRES_REPO_DEPLOY_PRIVATE_KEY}" > ~/ssh_id_ed25519
+  export GIT_SSH_COMMAND='ssh -i ~/ssh_id_ed25519' 
   git remote set-url --push origin git@github.com:digipres/digipres.github.io.git
 fi
 
