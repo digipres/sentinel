@@ -23,13 +23,13 @@ if [[ -z "${DIGIPRES_REPO_DEPLOY_PRIVATE_KEY}" ]]; then
   echo No DIGIPRES_REPO_DEPLOY_PRIVATE_KEY set: using standard remote.
   git remote get-url origin
 else
-  echo DIGIPRES_REPO_DEPLOY_PRIVATE_KEY set: using ssh -i ~/ssh_id_ed25519
+  echo DIGIPRES_REPO_DEPLOY_PRIVATE_KEY set: git config core.sshCommand "ssh -i keyfile"
   echo "${DIGIPRES_REPO_DEPLOY_PRIVATE_KEY}" > ~/ssh_id_ed25519
-  export GIT_SSH_COMMAND='ssh -i ~/ssh_id_ed25519' 
-  git remote set-url --push origin git@github.com:digipres/digipres.github.io.git
+  git config core.sshCommand "ssh -i ~/ssh_id_ed25519"
+  git remote add origin-ssh git@github.com:digipres/digipres.github.io.git
 fi
 
 # And PUSH IT
 echo "\nPushing to master..."
-git push origin master
+git push origin-ssh master
 echo "\n DONE."
