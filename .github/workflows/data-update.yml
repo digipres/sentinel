@@ -35,6 +35,6 @@ jobs:
       - name: Deploy updated site...
         run: ./deploy.sh
         env:
-          GITHUB_TOKEN: ${{ secrets.DIGIPRES_REPO_TOKEN }}
+          DIGIPRES_REPO_DEPLOY_PRIVATE_KEY: ${{ secrets.DIGIPRES_REPO_DEPLOY_PRIVATE_KEY }}
 
 
