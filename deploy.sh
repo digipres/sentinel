@@ -9,7 +9,7 @@ cd digipres.github.io
 # Grab a version ID:
 VERSION=$(git describe --always --tag)
 
-echo "\nDeploying into master branch:"
+echo "Deploying into master branch:"
 # Just in case something changed while we generated the data:
 git checkout master
 git pull origin master
@@ -23,14 +23,18 @@ if [[ -z "${DIGIPRES_REPO_DEPLOY_PRIVATE_KEY}" ]]; then
   echo No DIGIPRES_REPO_DEPLOY_PRIVATE_KEY set: using standard remote.
   git remote get-url origin
 else
-  echo DIGIPRES_REPO_DEPLOY_PRIVATE_KEY set: git config core.sshCommand "ssh -i keyfile ..."
+  echo DIGIPRES_REPO_DEPLOY_PRIVATE_KEY set: git config --local core.sshCommand \"ssh -i keyfile ...\"
+  which git
   echo "${DIGIPRES_REPO_DEPLOY_PRIVATE_KEY}" > ~/ssh_id_ed25519
+  head -2 ~/ssh_id_ed25519
   git config --local core.sshCommand "ssh -i ~/ssh_id_ed25519 -o 'IdentitiesOnly yes' -o 'StrictHostKeyChecking no' -vv"
   git config --local --get-regexp core\.sshCommand
-  git remote add origin-ssh git@github.com:digipres/digipres.github.io.git
+  /usr/bin/git config --local --get-regexp core\.sshCommand
+  git remote add origin_ssh git@github.com:digipres/digipres.github.io.git
+  git remote -v
 fi
 
 # And PUSH IT
-echo "\nPushing to master..."
-git push origin-ssh master
-echo "\n DONE."
+echo "Pushing to origin_ssh master..."
+git push -v origin_ssh master
+echo "DONE."

@@ -26,13 +26,13 @@ jobs:
       - name: Setup Git configuration...
         run: ./setup_git.sh
 
-      - name: Setup Python environment...
-        run: ./setup.sh
-
       - name: Dummy-deploy updated site, for debugging purposes...
         run: ./deploy.sh
         env:
           DIGIPRES_REPO_DEPLOY_PRIVATE_KEY: ${{ secrets.DIGIPRES_REPO_DEPLOY_PRIVATE_KEY }}
+
+      - name: Setup Python environment...
+        run: ./setup.sh
 
       - name: Update from various data sources...
         run: ./update.sh
