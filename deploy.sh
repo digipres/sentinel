@@ -19,12 +19,13 @@ git commit -am "New site version ${VERSION} deployed." --allow-empty
 
 # Set up the credentials for digipres.github.io
 # if GITHUB_TOKEN
-if [[ -z "${GITHUB_TOKEN}" ]]; then
-  echo No GITHUB_TOKEN set: using standard remote.
+if [[ -z "${DIGIPRES_REPO_DEPLOY_PRIVATE_KEY}" ]]; then
+  echo No DIGIPRES_REPO_DEPLOY_PRIVATE_KEY set: using standard remote.
   git remote get-url origin
 else
-  echo GITHUB_TOKEN set: using https://${GITHUB_ACTOR}:\${DIGIPRES_REPO_TOKEN}@github.com/digipres/digipres.github.io.git remote.
-  git remote set-url --push origin https://${GITHUB_ACTOR}:${DIGIPRES_REPO_TOKEN}@github.com/digipres/digipres.github.io.git
+  echo DIGIPRES_REPO_DEPLOY_PRIVATE_KEY set: using id_ed25519
+  echo "${DIGIPRES_REPO_DEPLOY_PRIVATE_KEY}" > ~/.ssh/id_ed25519
+  git remote set-url --push origin git@github.com:digipres/digipres.github.io.git
 fi
 
 # And PUSH IT
