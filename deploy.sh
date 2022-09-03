@@ -30,11 +30,15 @@ else
   /usr/bin/git config --local --get-regexp core\.sshCommand
   git remote add origin_ssh git@github.com:digipres/digipres.github.io.git
   git remote -v
+  echo GLOBAL
   git config --global --list
+  echo LOCAL
   git config --local --list
-  git config --local --unset url."https://github".insteadOf
-  echo "WARP"
+  echo "ATTEMPT"
+  git config --global --unset url.https://github.com/.insteadof
+  echo GLOBAL
   git config --global --list
+  echo LOCAL
   git config --local --list
 fi
 
