@@ -1,8 +1,6 @@
 #!/bin/bash
 set -e
 
-source venv/bin/activate
-
 # This all happens in here:
 cd digipres.github.io
 
