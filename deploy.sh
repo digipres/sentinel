@@ -23,9 +23,10 @@ if [[ -z "${DIGIPRES_REPO_DEPLOY_PRIVATE_KEY}" ]]; then
   echo No DIGIPRES_REPO_DEPLOY_PRIVATE_KEY set: using standard remote.
   git remote get-url origin
 else
-  echo DIGIPRES_REPO_DEPLOY_PRIVATE_KEY set: git config core.sshCommand "ssh -i keyfile"
+  echo DIGIPRES_REPO_DEPLOY_PRIVATE_KEY set: git config core.sshCommand "ssh -i keyfile ..."
   echo "${DIGIPRES_REPO_DEPLOY_PRIVATE_KEY}" > ~/ssh_id_ed25519
-  git config core.sshCommand "ssh -i ~/ssh_id_ed25519"
+  git config --local core.sshCommand "ssh -i ~/ssh_id_ed25519 -o 'IdentitiesOnly yes' -o 'StrictHostKeyChecking no' -vv"
+  git config --local --get-regexp core\.sshCommand
   git remote add origin-ssh git@github.com:digipres/digipres.github.io.git
 fi
 
