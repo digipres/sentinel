@@ -22,24 +22,16 @@ if [[ -z "${DIGIPRES_REPO_DEPLOY_PRIVATE_KEY}" ]]; then
   git remote get-url origin
 else
   echo DIGIPRES_REPO_DEPLOY_PRIVATE_KEY set: git config --local core.sshCommand \"ssh -i keyfile ...\"
-  which git
   echo "${DIGIPRES_REPO_DEPLOY_PRIVATE_KEY}" > ~/ssh_id_ed25519
+  chmod 600 ~/ssh_id_ed25519
   head -2 ~/ssh_id_ed25519
   git config --local core.sshCommand "ssh -i ~/ssh_id_ed25519 -o 'IdentitiesOnly yes' -o 'StrictHostKeyChecking no' -vv"
   git config --local --get-regexp core\.sshCommand
-  /usr/bin/git config --local --get-regexp core\.sshCommand
+  git config --local --get-regexp core\.sshCommand
+  # Add an SSH remote:
   git remote add origin_ssh git@github.com:digipres/digipres.github.io.git
-  git remote -v
-  echo GLOBAL
-  git config --global --list
-  echo LOCAL
-  git config --local --list
-  echo "ATTEMPT"
+  # Avoid Git forcing ssh remoted over to https:
   git config --local --unset-all url."https://github.com/".insteadof
-  echo GLOBAL
-  git config --global --list
-  echo LOCAL
-  git config --local --list
 fi
 
 # And PUSH IT
