@@ -34,5 +34,6 @@ fi
 
 # And PUSH IT
 echo "Pushing to origin_ssh master..."
-git push -v origin_ssh master
+#git push -v origin_ssh master
+git push -v git@github.com:digipres/digipres.github.io.git master
 echo "DONE."
