@@ -30,10 +30,15 @@ else
   /usr/bin/git config --local --get-regexp core\.sshCommand
   git remote add origin_ssh git@github.com:digipres/digipres.github.io.git
   git remote -v
+  git config --global --list
+  git config --local --list
+  git config --local --unset url."https://github".insteadOf
+  echo "WARP"
+  git config --global --list
+  git config --local --list
 fi
 
 # And PUSH IT
 echo "Pushing to origin_ssh master..."
-#git push -v origin_ssh master
-git push -v git@github.com:digipres/digipres.github.io.git master
+git push -v origin_ssh master
 echo "DONE."
