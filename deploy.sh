@@ -15,8 +15,7 @@ git pull origin master
 git add --all .
 git commit -am "New site version ${VERSION} deployed." --allow-empty 
 
-# Set up the credentials for digipres.github.io
-# if GITHUB_TOKEN
+# Set up the credentials for digipres.github.io deploy key, if set:
 if [[ -z "${DIGIPRES_REPO_DEPLOY_PRIVATE_KEY}" ]]; then
   echo No DIGIPRES_REPO_DEPLOY_PRIVATE_KEY set: using standard remote.
   git remote get-url origin
@@ -25,9 +24,7 @@ else
   echo "${DIGIPRES_REPO_DEPLOY_PRIVATE_KEY}" > ~/ssh_id_ed25519
   chmod 600 ~/ssh_id_ed25519
   head -2 ~/ssh_id_ed25519
-  git config --local core.sshCommand "ssh -i ~/ssh_id_ed25519 -o 'IdentitiesOnly yes' -o 'StrictHostKeyChecking no' -vv"
-  git config --local --get-regexp core\.sshCommand
-  git config --local --get-regexp core\.sshCommand
+  git config --local core.sshCommand "ssh -i ~/ssh_id_ed25519 -o 'IdentitiesOnly yes' -o 'StrictHostKeyChecking no'"
   # Add an SSH remote:
   git remote add origin_ssh git@github.com:digipres/digipres.github.io.git
   # Avoid Git forcing ssh remoted over to https:
@@ -36,5 +33,5 @@ fi
 
 # And PUSH IT
 echo "Pushing to origin_ssh master..."
-git push -v origin_ssh master
+git push origin_ssh master
 echo "DONE."
