@@ -1,11 +1,11 @@
 on:
   push:
-     branches:
-       - master
+    branches:
+      - master
   schedule:
+    - cron: "0 3 * * *"
     # Attempt to refresh the site every morning.
     # * is a special character in YAML so you have to quote this string
-    - cron:  '0 3 * * *'
 
 jobs:
   update-digipresorg-site:
