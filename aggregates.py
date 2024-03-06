@@ -92,37 +92,39 @@ def aggregateFDD():
 
     for filename in os.listdir('digipres.github.io/_sources/registries/fdd/fddXML'):
         if filename.endswith(".xml"):
+            print(f"Parsing {filename}...")
             # Get Identifier?
             with open('digipres.github.io/_sources/registries/fdd/fddXML/'+filename, "rb") as f:
                 finfo = {}
                 finfo['source'] = filename
                 xml = f.read()
                 try:
-                  parser = etree.XMLParser()
-                  root = etree.parse(BytesIO(xml), parser)
+                    parser = etree.XMLParser()
+                    root = etree.parse(BytesIO(xml), parser)
+                    root = BeautifulSoup(xml, "xml")
+                    #print(root.prettify())
+                    ffd_id = root.find('FDD').get('id')
+                    finfo['name'] = root.find('FDD').get('titleName')
+                    if root.find('magicNumbers'):
+                        finfo['hasMagic'] = True
+                    else:
+                        finfo['hasMagic'] = False
+                    # Get extensions:
+                    extensions = list()
+                    for fe in root.findAll('filenameExtension'):
+                        for fev in fe.findAll('sigValue'):
+                            extensions.append("*.%s" % fev.text)
+                    finfo['extensions'] = extensions
+                    # Get MIME types:
+                    mimetypes = list()
+                    for imts in root.findAll('internetMediaType'):
+                        for mt in imts.findAll('sigValue'):
+                            mimetypes.append(mt.text)
+                    finfo['mimetypes'] = mimetypes
+                    addFormat(rid,ffd_id,finfo)
                 except Exception as e:
+                    print(f"Parsing {filename} failed: {e}")
                     fmts[rid]['warnings'].append("Error when parsing XML: "+str(e))
-                root = BeautifulSoup(xml, "xml")
-                #print(root.prettify())
-                ffd_id = root.find('FDD').get('id')
-                finfo['name'] = root.find('FDD').get('titleName')
-                if root.find('magicNumbers'):
-                    finfo['hasMagic'] = True
-                else:
-                    finfo['hasMagic'] = False
-                # Get extensions:
-                extensions = list()
-                for fe in root.findAll('filenameExtension'):
-                    for fev in fe.findAll('sigValue'):
-                        extensions.append("*.%s" % fev.text)
-                finfo['extensions'] = extensions
-                # Get MIME types:
-                mimetypes = list()
-                for imts in root.findAll('internetMediaType'):
-                    for mt in imts.findAll('sigValue'):
-                        mimetypes.append(mt.text)
-                finfo['mimetypes'] = mimetypes
-                addFormat(rid,ffd_id,finfo)
 
 def aggregateTRiD():
     rid = "trid"
