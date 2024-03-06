@@ -124,7 +124,7 @@ def aggregateFDD():
                     addFormat(rid,ffd_id,finfo)
                 except Exception as e:
                     print(f"Parsing {filename} failed: {e}")
-                    fmts[rid]['warnings'].append("Error when parsing XML: "+str(e))
+                    fmts[rid]['warnings'].append(f"Error when parsing XML from '{filename}': {e}")
 
 def aggregateTRiD():
     rid = "trid"
