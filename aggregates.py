@@ -7,6 +7,7 @@ from operator import itemgetter
 from collections import defaultdict
 import yaml
 import json
+import sys
 import os
 import re
 
@@ -98,11 +99,11 @@ def aggregateFDD():
                 finfo = {}
                 finfo['source'] = filename
                 xml = f.read()
+                root = None
                 try:
-                    parser = etree.XMLParser()
-                    root = etree.parse(BytesIO(xml), parser)
+                    #parser = etree.XMLParser()
+                    #root = etree.parse(BytesIO(xml), parser)
                     root = BeautifulSoup(xml, "xml")
-                    #print(root.prettify())
                     ffd_id = root.find('FDD').get('id')
                     finfo['name'] = root.find('FDD').get('titleName')
                     if root.find('magicNumbers'):
@@ -124,7 +125,12 @@ def aggregateFDD():
                     addFormat(rid,ffd_id,finfo)
                 except Exception as e:
                     print(f"Parsing {filename} failed: {e}")
-                    fmts[rid]['warnings'].append(f"Error when parsing XML from '{filename}': {e}")
+                    if root:
+                        print("XML parsed as:")
+                        print(root.prettify())
+                        #print(etree.tostring(root, pretty_print=True).decode('utf-8'))
+                    if rid in fmts: # FIXME this needs to be more robust, rather than relying on happening after 'addFormat' is called for the first time.
+                        fmts[rid]['warnings'].append(f"Error when parsing XML from '{filename}': {e}")
 
 def aggregateTRiD():
     rid = "trid"
