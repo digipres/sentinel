@@ -143,6 +143,10 @@ def recent_changes(fam,site):
         # Look for changes:
         for item in RecentChangesPageGenerator(reverse=True, namespaces=[0],
                start=qstart, end=qend):
+            # Skip items with no title
+            if "title" not in item:
+                print(f"Skipping {item}")
+                continue
             change = pywikibot.Page(pywikibot.Link(item["title"], site))
             print(change)
             if( change.exists() ):
