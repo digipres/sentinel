@@ -8,3 +8,4 @@
 /bin
 /pywikibot.lwp
 /passwordfile
+*.pyc
