@@ -1,0 +1,46 @@
+schema: '2.0'
+stages:
+  transform-format-data:
+    cmd:
+    - python -m foreging.pronom > pronom.jsonl
+    - python -m foreging.loc_fdd > loc.jsonl
+    deps:
+    - path: digipres.github.io/_sources/registries
+      hash: md5
+      md5: 6f3d9b2b5ba1f6fdc7a123e86579852d.dir
+      size: 211853546
+      nfiles: 26983
+    - path: foreging
+      hash: md5
+      md5: a42a3fc4caca882d4e69d4d060a285b6.dir
+      size: 22005
+      nfiles: 9
+    outs:
+    - path: loc.jsonl
+      hash: md5
+      md5: 380914567a5637ad1a6c075403b1db89
+      size: 503541
+    - path: pronom.jsonl
+      hash: md5
+      md5: f000bb466510df9f0f8a8378fe71543f
+      size: 2368966
+  generate-sqlite:
+    cmd:
+    - sqlite-utils insert registries.db formats --nl loc.jsonl
+    - sqlite-utils insert registries.db formats --nl pronom.jsonl
+    - sqlite-utils enable-fts registries.db formats name summary extensions iana_media_types
+      genres
+    deps:
+    - path: loc.jsonl
+      hash: md5
+      md5: 380914567a5637ad1a6c075403b1db89
+      size: 503541
+    - path: pronom.jsonl
+      hash: md5
+      md5: f000bb466510df9f0f8a8378fe71543f
+      size: 2368966
+    outs:
+    - path: registries.db
+      hash: md5
+      md5: cdb4dfcf2d6d6eb0bef2029ef5bef17a
+      size: 3174400

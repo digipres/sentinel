@@ -4,15 +4,16 @@ stages:
     - python -m foreging.pronom > pronom.jsonl
     - python -m foreging.loc_fdd > loc.jsonl
     deps:
-    - digipres.github.io/_sources/registries
+    - digipres.github.io/_sources/registries # source data
+    - foreging # source code
     outs:
     - loc.jsonl
     - pronom.jsonl
   generate-sqlite:
     cmd:
-    - sqlite-utils insert registries.db format --nl loc.jsonl
-    - sqlite-utils insert registries.db format --nl pronom.jsonl
-    - sqlite-utils enable-fts registries.db format name summary extensions media_types genres
+    - sqlite-utils insert registries.db formats --nl loc.jsonl
+    - sqlite-utils insert registries.db formats --nl pronom.jsonl
+    - sqlite-utils enable-fts registries.db formats name summary extensions iana_media_types genres
     deps:
     - loc.jsonl
     - pronom.jsonl

@@ -9,3 +9,6 @@
 /pywikibot.lwp
 /passwordfile
 *.pyc
+/registries.db
+/loc.jsonl
+/pronom.jsonl

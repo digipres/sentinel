@@ -28,6 +28,12 @@ class LocFDD():
                         root = BeautifulSoup(xml, "xml")
                         ffd_id = root.find('FDD').get('id')
                         f_name = root.find('FDD').get('titleName')
+                        # Genre:
+                        f_genres = list()
+                        for gns in root.findAll('gdfrGenreSelection'):
+                            for gn in gns.findAll('gdfrGenre'):
+                                f_genres.append(f"gdfr:{gn.text}")
+                        # Haz Magic?
                         if root.find('magicNumbers'):
                             f_magic = True
                         else:
@@ -44,14 +50,17 @@ class LocFDD():
                             for mt in imts.findAll('sigValue'):
                                 mimetypes.append(mt.text)
                         f_mimetypes = mimetypes
+                        # Find the date:
+                        edit_date = root.findAll('date')[-1].text
                         # Create record:
                         f = Format(
                             registry_id=self.registry_id,
                             id=ffd_id,
                             name=f_name,
                             summary=root.find("shortDescription").text,
+                            genres=f_genres,
                             extensions=f_extensions,
-                            media_types=f_mimetypes,
+                            iana_media_types=f_mimetypes,
                             has_magic=f_magic,
                             primary_media_type=None,
                             parent_media_type=None,
@@ -59,7 +68,8 @@ class LocFDD():
                             registry_source_data_url=f"https://www.loc.gov/preservation/digital/formats/fdd/{ffd_id}.xml",
                             registry_index_data_url=f"https://github.com/digipres/digipres.github.io/blob/master/_sources/registries/fdd/fddXML/{ffd_id}.xml",
                             additional_fields= None,
-                            last_modified=root.findAll('date')[-1].text,
+                            created=edit_date,
+                            last_modified=edit_date,
                         )
                         yield f
                     except Exception as e:

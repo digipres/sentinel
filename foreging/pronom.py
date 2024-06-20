@@ -36,8 +36,12 @@ class PRONOM():
                             #root = etree.parse(BytesIO(xml), parser)
                             root = BeautifulSoup(xml, "xml")
                             ffd_id = f"{source_folder_name}/{filename[0:-4]}"
-                            # To Do check FileFormatIdentifier.Identifier matches for FileFormatIdentifier.Identifier.Type == 'PUID'
                             f_name = root.find('FormatName').text
+                            # Genres:
+                            f_types = root.find('FormatTypes').text.strip().split(',')
+                            if( len(f_types) == 0 ):
+                                f_types = [""]
+                            # Internal signatures:
                             if root.find('InternalSignature'):
                                 f_magic = True
                             else:
@@ -60,8 +64,9 @@ class PRONOM():
                                 id=ffd_id,
                                 name=f_name,
                                 summary=root.find("FormatDescription").text,
+                                genres=f_types,
                                 extensions=f_extensions,
-                                media_types=f_mimetypes,
+                                iana_media_types=f_mimetypes,
                                 has_magic=f_magic,
                                 primary_media_type=None,
                                 parent_media_type=None,

@@ -7,8 +7,9 @@ class Format(BaseModel):
     id: str
     name: str
     summary: str
+    genres: List[str] = []
     extensions: List[str] = []
-    media_types: List[str] = []
+    iana_media_types: List[str] = []
     has_magic: bool
     primary_media_type: Optional[str]
     parent_media_type: Optional[str]
