@@ -12,8 +12,8 @@ stages:
       nfiles: 26983
     - path: foreging
       hash: md5
-      md5: a42a3fc4caca882d4e69d4d060a285b6.dir
-      size: 22005
+      md5: 3d4810f7fa7c96d09297bf43a15acd0d.dir
+      size: 22575
       nfiles: 9
     outs:
     - path: loc.jsonl
@@ -22,8 +22,8 @@ stages:
       size: 503541
     - path: pronom.jsonl
       hash: md5
-      md5: f000bb466510df9f0f8a8378fe71543f
-      size: 2368966
+      md5: ee8fe400d5fbf6b405b39e77e7b713b8
+      size: 2372708
   generate-sqlite:
     cmd:
     - sqlite-utils insert registries.db formats --nl loc.jsonl
@@ -37,10 +37,10 @@ stages:
       size: 503541
     - path: pronom.jsonl
       hash: md5
-      md5: f000bb466510df9f0f8a8378fe71543f
-      size: 2368966
+      md5: ee8fe400d5fbf6b405b39e77e7b713b8
+      size: 2372708
     outs:
     - path: registries.db
       hash: md5
-      md5: cdb4dfcf2d6d6eb0bef2029ef5bef17a
-      size: 3174400
+      md5: 479eb87b8af1d3208b57f59137f6719b
+      size: 3182592

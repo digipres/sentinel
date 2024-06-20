@@ -41,6 +41,10 @@ class PRONOM():
                             f_types = root.find('FormatTypes').text.strip().split(',')
                             if( len(f_types) == 0 ):
                                 f_types = [""]
+                            # Strip whitespace from genres:
+                            f_types = [g.strip() for g in f_types]
+                            # Replace empty strings with "Undefined"
+                            f_types = ['undefined' if not g else g for g in f_types]
                             # Internal signatures:
                             if root.find('InternalSignature'):
                                 f_magic = True

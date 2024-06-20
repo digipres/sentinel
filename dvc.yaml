@@ -6,7 +6,7 @@ stages:
     deps:
     - digipres.github.io/_sources/registries # source data
     - foreging # source code
-    outs:
+    outs: # Note that 'outs' means DVC will wipe them before running:
     - loc.jsonl
     - pronom.jsonl
   generate-sqlite:
