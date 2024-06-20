@@ -87,6 +87,11 @@ def compare_csv(csv_file):
         _print_comparison(set_key, ext_set, collection_set, collection_counts, collection_total)
     _print_comparison("_ALL_", all_extensions, collection_set, collection_counts, collection_total)
 
+def write_extensions(output_json):
+    ext_sets = reindex_by_registry(load_extensions())
+    with open(output_json,"w") as f:
+        json.dump(ext_sets, f, default=list)
+
 
 if __name__ == "__main__":
     common_args = argparse.ArgumentParser(prog="species", add_help=False)
@@ -100,6 +105,9 @@ if __name__ == "__main__":
     parser_cmp = subparsers.add_parser('compare', parents=[common_args], help="Compare extensions from a CSV file with the registry contents.")
     parser_cmp.add_argument('csv_file', type=str, help='CSV file to load')
 
+    parser_exts = subparsers.add_parser('extensions', parents=[common_args], help="Write the extensions data out as a JSON file.")
+    parser_exts.add_argument('json_file', type=str, help='JSON file to write')
+
     args = parser.parse_args()
 
     # Set up verbose logging:
@@ -112,3 +120,5 @@ if __name__ == "__main__":
         compute_sac()
     elif args.action == 'compare':
         compare_csv(args.csv_file)
+    elif args.action == "extensions":
+        write_extensions(args.json_file)

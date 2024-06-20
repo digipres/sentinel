@@ -4,6 +4,14 @@ Sentinel
 This is the watcher that watches the watched and reports the reports to <http://www.digipres.org>
 
 
+```
+$ python -m foreging.pronom 2>&1 > pronom.jsonl
+$ python -m foreging.loc_fdd 2>&1 > loc.jsonl
+$ sqlite-utils insert registries.db format --nl loc.jsonl
+$ sqlite-utils insert registries.db format --nl pronom.jsonl
+$ sqlite-utils enable-fts registries.db format name summary extensions media_types
+```
+
 How it works
 ------------
 

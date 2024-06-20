@@ -1,7 +1,7 @@
 import os
 import logging
 from bs4 import BeautifulSoup
-from models import Format
+from .models import Format
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

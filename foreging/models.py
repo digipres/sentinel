@@ -14,6 +14,7 @@ class Format(BaseModel):
     parent_media_type: Optional[str]
     registry_url: AnyHttpUrl
     registry_source_data_url: AnyHttpUrl
+    registry_index_data_url: Optional[AnyHttpUrl]
     created: Optional[PastDate] = None
     last_modified: Optional[PastDate] = None
     # A spot of any additional fields:
