@@ -3,19 +3,23 @@ stages:
     cmd: 
     - python -m foreging.pronom > pronom.jsonl
     - python -m foreging.loc_fdd > loc.jsonl
+    - python -m foreging.nara > nara.jsonl
     deps:
     - digipres.github.io/_sources/registries # source data
     - foreging # source code
     outs: # Note that 'outs' means DVC will wipe them before running:
     - loc.jsonl
     - pronom.jsonl
+    - nara.jsonl
   generate-sqlite:
     cmd:
     - sqlite-utils insert registries.db formats --nl loc.jsonl
     - sqlite-utils insert registries.db formats --nl pronom.jsonl
+    - sqlite-utils insert registries.db formats --nl nara.jsonl
     - sqlite-utils enable-fts registries.db formats name summary extensions iana_media_types genres
     deps:
     - loc.jsonl
+    - nara.jsonl
     - pronom.jsonl
     outs:
     - registries.db
