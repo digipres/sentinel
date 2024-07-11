@@ -20,6 +20,7 @@ pip install requests
 pip install pyyaml
 pip install beautifulsoup4
 pip install lxml
+pip install rdflib
 
 # Running...
 echo "And login..."

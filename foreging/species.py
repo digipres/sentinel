@@ -111,10 +111,11 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # Set up verbose logging:
-    if args.verbose == 1:
-        logging.getLogger().setLevel(logging.INFO)
-    elif args.verbose >= 2:
-        logging.getLogger().setLevel(logging.DEBUG)
+    if 'verbose' in args:
+        if args.verbose == 1:
+            logging.getLogger().setLevel(logging.INFO)
+        elif args.verbose >= 2:
+            logging.getLogger().setLevel(logging.DEBUG)
 
     if args.action == 'curve':
         compute_sac()

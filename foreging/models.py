@@ -19,4 +19,4 @@ class Format(BaseModel):
     created: Optional[PastDate] = None
     last_modified: Optional[PastDate] = None
     # A spot of any additional fields:
-    additional_fields: Optional[Dict[str,str]]
+    additional_fields: Optional[Dict[str,List[str]]]
