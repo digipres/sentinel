@@ -6,6 +6,7 @@ class Format(BaseModel):
     registry_id: str
     id: str
     name: str
+    version: Optional[str]
     summary: str
     genres: List[str] = []
     extensions: List[str] = []

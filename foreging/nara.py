@@ -60,6 +60,7 @@ class NARA_FFPP():
                 registry_id=self.registry_id,
                 id=ff_id,
                 name=g.value(s, NARA.formatName),
+                version=None,
                 summary=g.value(s, DCTERMS.description),
                 genres=[o for s, p, o in g.triples((s, NARA.category, None))],
                 extensions=[o for s, p, o in g.triples((s, WDT.p1195, None))],

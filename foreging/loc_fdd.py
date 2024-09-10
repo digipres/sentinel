@@ -28,6 +28,10 @@ class LocFDD():
                         root = BeautifulSoup(xml, "xml")
                         ffd_id = root.find('FDD').get('id')
                         f_name = root.find('FDD').get('titleName')
+                        # If there's a version string, grab it:
+                        f_version = None
+                        if ", Version " in f_name:
+                            f_version = f_name.split(", Version ", 1)[1]
                         # Genre:
                         f_genres = list()
                         for gns in root.findAll('gdfrGenreSelection'):
@@ -57,6 +61,7 @@ class LocFDD():
                             registry_id=self.registry_id,
                             id=ffd_id,
                             name=f_name,
+                            version=f_version,
                             summary=root.find("shortDescription").text,
                             genres=f_genres,
                             extensions=f_extensions,

@@ -67,6 +67,7 @@ class PRONOM():
                                 registry_id=self.registry_id,
                                 id=ffd_id,
                                 name=f_name,
+                                version=root.find("FormatVersion").text,
                                 summary=root.find("FormatDescription").text,
                                 genres=f_types,
                                 extensions=f_extensions,
