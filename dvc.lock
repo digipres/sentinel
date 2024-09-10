@@ -8,27 +8,27 @@ stages:
     deps:
     - path: digipres.github.io/_sources/registries
       hash: md5
-      md5: 19b255a97dce0ce49a396d4c7ddcdaa8.dir
-      size: 216499227
-      nfiles: 27072
+      md5: 2fbddb654293f1999c201be2db60b393.dir
+      size: 219597556
+      nfiles: 27236
     - path: foreging
       hash: md5
-      md5: 85ed7928fc1ba6db8855fa23adbe8e4a.dir
-      size: 32957
+      md5: 9f5a3d0919d80673cab7b5352513b3bb.dir
+      size: 33535
       nfiles: 12
     outs:
     - path: loc.jsonl
       hash: md5
-      md5: 380914567a5637ad1a6c075403b1db89
-      size: 503541
+      md5: 40f36b114a5d92d33b2766acddf2d11f
+      size: 513352
     - path: nara.jsonl
       hash: md5
-      md5: 9e00363e4dfdd006d597aeb9bf7cdeab
-      size: 1257013
+      md5: b7e77b685e0514e37bc16cefdc187db1
+      size: 1267948
     - path: pronom.jsonl
       hash: md5
-      md5: a1e49e58d2be69a27ad2e5f75203e37a
-      size: 2376855
+      md5: 780f7bf1add431a306d7e8874e97be33
+      size: 2416106
   generate-sqlite:
     cmd:
     - sqlite-utils insert registries.db formats --nl loc.jsonl
@@ -39,18 +39,18 @@ stages:
     deps:
     - path: loc.jsonl
       hash: md5
-      md5: 380914567a5637ad1a6c075403b1db89
-      size: 503541
+      md5: 40f36b114a5d92d33b2766acddf2d11f
+      size: 513352
     - path: nara.jsonl
       hash: md5
-      md5: 9e00363e4dfdd006d597aeb9bf7cdeab
-      size: 1257013
+      md5: b7e77b685e0514e37bc16cefdc187db1
+      size: 1267948
     - path: pronom.jsonl
       hash: md5
-      md5: a1e49e58d2be69a27ad2e5f75203e37a
-      size: 2376855
+      md5: 780f7bf1add431a306d7e8874e97be33
+      size: 2416106
     outs:
     - path: registries.db
       hash: md5
-      md5: 81d65d6f0e722015f8cbf8c8828b069f
-      size: 4759552
+      md5: b07a80e8ad84f0f007d08e1ae7cb3ac4
+      size: 4767744
