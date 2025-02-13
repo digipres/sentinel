@@ -35,7 +35,7 @@ jobs:
         run: ./update.sh
 
       - name: Generate derivatives...
-        run: make
+        run: ./derive.sh
 
       - name: Deploy updated site...
         run: ./deploy.sh
