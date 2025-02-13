@@ -15,11 +15,7 @@ cd pywikibot
 pip install .
 cd ..
 
-pip install requests
-pip install pyyaml
-pip install beautifulsoup4
-pip install lxml
-pip install rdflib
+pip install .
 
 # Running...
 echo "And login..."

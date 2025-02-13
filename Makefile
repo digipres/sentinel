@@ -1,19 +1,22 @@
 
-DATAFILES := data/pronom.jsonl data/loc.jsonl data/nara.jsonl data/tcdb.jsonl
+DATAFILES := data/pronom.jsonl data/loc.jsonl data/nara.jsonl data/tcdb.jsonl data/wikidata.jsonl
 
 all: data/registries.db
 
-data/pronom.jsonl: foreging digipres.github.io/_sources/registries
+data/pronom.jsonl: foreging/pronom.py digipres.github.io/_sources/registries
 	python -m foreging.pronom > $@
 
-data/loc.jsonl: foreging digipres.github.io/_sources/registries
+data/loc.jsonl: foreging/loc_fdd.py digipres.github.io/_sources/registries
 	python -m foreging.loc_fdd > $@
 
-data/nara.jsonl: foreging digipres.github.io/_sources/registries
+data/nara.jsonl: foreging/nara.py digipres.github.io/_sources/registries
 	python -m foreging.nara > $@
 
-data/tcdb.jsonl: foreging digipres.github.io/_sources/registries
+data/tcdb.jsonl: foreging/tcdb.py digipres.github.io/_sources/registries
 	python -m foreging.tcdb > $@
+
+data/wikidata.jsonl: foreging/wikidata.py digipres.github.io/_sources/registries
+	python -m foreging.wikidata > $@
 
 data/registries.db: $(DATAFILES)
 	rm -f $@
@@ -21,4 +24,5 @@ data/registries.db: $(DATAFILES)
 	sqlite-utils insert $@ formats --nl data/loc.jsonl
 	sqlite-utils insert $@ formats --nl data/nara.jsonl
 	sqlite-utils insert $@ formats --nl data/tcdb.jsonl
-	sqlite-utils enable-fts $@ formats name summary extensions iana_media_types genres additional_fields
+	sqlite-utils insert $@ formats --nl data/wikidata.jsonl
+	sqlite-utils enable-fts $@ formats name summary extensions iana_media_types genres readers writers additional_fields
