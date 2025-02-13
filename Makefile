@@ -21,4 +21,4 @@ data/registries.db: $(DATAFILES)
 	sqlite-utils insert $@ formats --nl data/loc.jsonl
 	sqlite-utils insert $@ formats --nl data/nara.jsonl
 	sqlite-utils insert $@ formats --nl data/tcdb.jsonl
-	sqlite-utils enable-fts $@ formats name summary extensions iana_media_types genres
+	sqlite-utils enable-fts $@ formats name summary extensions iana_media_types genres additional_fields
