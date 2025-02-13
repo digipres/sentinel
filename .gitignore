@@ -10,6 +10,6 @@
 /passwordfile
 *.pyc
 /registries.db
-/loc.jsonl
-/pronom.jsonl
-/nara.jsonl
+/data
+/.venv
+/build

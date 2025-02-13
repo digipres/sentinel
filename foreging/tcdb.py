@@ -22,19 +22,28 @@ class TCDB():
         with open(self.source_file, "r", encoding='utf-8-sig') as csv_file:
             reader = csv.DictReader(csv_file)
             for row in reader:
+                logger.debug(f"Processing row: {row}")
+                type_code = row['Type'].strip()
+                creator_code = row['Creator'].strip()
+                extension = row['Extension'].strip()
+                category = row['Category'].strip()
+                name = row['File Name'].strip()
+                comments = row['Comments'].strip()
+                # Store additional fields:
                 additionals = {
-                    'mac-type': [row['Type']],
-                    'mac-creator': [row['Creator']]
+                    'mac-type-code': [type_code],
+                    'mac-creator-code': [creator_code],
+                    'comments': [comments]
                 }
                 # Set up as a format entity: 
                 f = Format(
                     registry_id=self.registry_id,
-                    id=f"tcdb:{row['Type']}:{row['Creator']}",
-                    name=row['File Name'],
+                    id=f"tcdb:{type_code}:{creator_code}",
+                    name=name,
                     version=None,
-                    summary=f"Type: {row['Type']}, Creator: {row['Creator']}, Comments: {row['Comments']}",
-                    genres=[row['Category']],
-                    extensions=[row['Extension']],
+                    summary=None,
+                    genres=[category] if category else [],
+                    extensions=[extension] if extension else [],
                     iana_media_types=[],
                     has_magic=False,
                     primary_media_type=None,
@@ -46,6 +55,7 @@ class TCDB():
                     created=None,
                     last_modified=None,
                 )
+                logger.debug(f"Generated format: {f}")
                 yield f
 
 

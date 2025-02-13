@@ -7,7 +7,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 class LocFDD():
-    registry_id = "loc_fdd"
+    registry_id = "loc-fdd"
     source_folder = 'digipres.github.io/_sources/registries/fdd/fddXML'
     warnings = []
     show_parsed_xml_on_errors = False

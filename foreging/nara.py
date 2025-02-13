@@ -37,7 +37,7 @@ class WDT(DefinedNamespace):
 # NARA File Format Preservation Plan parser
 #
 class NARA_FFPP():
-    registry_id = "nara_ffpp"
+    registry_id = "nara-ffpp"
     source_file = 'digipres.github.io/_sources/registries/nara/fileformats.ttl'
     warnings = []
 
