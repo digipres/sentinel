@@ -11,9 +11,8 @@ virtualenv -p python3 venv
 source venv/bin/activate
 
 
-
 cd pywikibot
-python setup.py install
+pip install .
 cd ..
 
 pip install requests
