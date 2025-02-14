@@ -109,7 +109,7 @@ class MediaType(SQLModel, table=True):
 
 class Format(SQLModel, table=True):
     id: str | None = Field(default=None, primary_key=True)
-    name: str = Field(index=True)
+    name: str | None = Field(index=True)
     version: str | None = Field(index=True)
     summary: str | None = Field(index=True)
     genres: list["Genre"] = Relationship(back_populates="formats", link_model=FormatGenresLink)

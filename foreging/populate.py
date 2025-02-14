@@ -1,17 +1,18 @@
 from .loc_fdd import LocFDD
-from .nara import NARA
+from .nara import NARA_FFPP
 from .pronom import PRONOM
 from .tcdb import TCDB
 from .wikidata import WikiData
 
 from sqlmodel import Session, SQLModel, create_engine
+import argparse
 import logging
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Size of the chunks of data to commit (makes things faster but more memory load)
-COMMIT_SIZE = 200
+COMMIT_SIZE = 250
 
 # Push in the data:
 def populate_database(session, gen, exts, mts, genres):
@@ -27,6 +28,18 @@ def populate_database(session, gen, exts, mts, genres):
     session.commit()
 
 if __name__ == "__main__":
+    # Registries
+    registries = {}
+    for r in [LocFDD(), NARA_FFPP(), PRONOM(), TCDB(), WikiData()]:
+        registries[r.registry.id] = r
+    # TO-ADD: FFW, GithubLinguist, Tika, TRiD
+
+    # Args
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--only', required=False, choices=registries.keys())
+    parser.add_argument('output_file')
+    args = parser.parse_args()
+
 
     # Cache the cross-referenced entities:
     exts = {}
@@ -34,7 +47,7 @@ if __name__ == "__main__":
     genres = {}
 
     # Set up the session
-    sqlite_file_name = "database.db"
+    sqlite_file_name = args.output_file
     sqlite_url = f"sqlite:///{sqlite_file_name}"
 
     engine = create_engine(sqlite_url, echo=False)
@@ -42,24 +55,10 @@ if __name__ == "__main__":
     SQLModel.metadata.create_all(engine)
 
     with Session(engine) as session:
-        # FFW
-        
-        # GithubLinguist
-        
-        # LC FDD
-        populate_database(session, LocFDD(), exts, mts, genres)
-        # NARA
-        ##populate_database(session, NARA(), exts, mts, genres)
-        # PRONOM
-        populate_database(session, PRONOM(), exts, mts, genres)
-        # TCDB
-        populate_database(session, TCDB(), exts, mts, genres)
-        # Tika
-        
-        # TRiD
-
-        # WikiData
-        populate_database(session, WikiData(), exts, mts, genres)
+        for reg_id in registries:
+            reg = registries[reg_id]
+            if args.only == None or args.only == reg_id:
+                populate_database(session, reg, exts, mts, genres)
 
 
 

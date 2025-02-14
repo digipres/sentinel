@@ -5,5 +5,5 @@ source venv/bin/activate
 
 make
 
-cp data/registries.db digipres.github.io/_data/formats/
+cp registries.db digipres.github.io/_data/formats/
 

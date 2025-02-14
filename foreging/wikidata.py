@@ -87,7 +87,7 @@ class WikiData():
                 # Check it's in the set:
                 if qid not in fmts:
                     warning = f"Software entry '{sw_qid}: {sw['formatLabel']}' references missing format '{qid}'"
-                    logger.warning( warning )
+                    logger.debug( warning )
                     warnings.add( RegistryDataLogEntry(level="warning", message=warning, url=sw['source'] ) )
                     continue
                 if sw_qid not in sws:
