@@ -1,5 +1,6 @@
 import os
 import logging
+import datetime
 from bs4 import BeautifulSoup
 from .models import Format, Software, Registry, Extension, Genre, MediaType, RegistryDataLogEntry
 
@@ -69,9 +70,20 @@ class LocFDD():
                         f_mimetypes = set()
                         for imts in root.findAll('internetMediaType'):
                             for mt in imts.findAll('sigValue'):
-                                f_mimetypes.add(mt.text)
+                                mt = mt.text
+                                mts[mt] = mts.get(mt, MediaType(id=mt))
+                                f_mimetypes.add(mts[mt])
                         # Find the date:
                         edit_date = root.findAll('date')[-1].text
+                        try:
+                             edit_date = datetime.date.fromisoformat(edit_date)
+                        except ValueError:
+                            self.registry.data_log.append(RegistryDataLogEntry(
+                                level='warning',
+                                message=f"Unexpected data format '{edit_date}' for record {ffd_id}, expected 'YYYY-MM-DD'.",
+                            ))
+                            edit_date = None
+                        
                         # Create record:
                         f = Format(
                             registry=self.registry,
@@ -81,7 +93,7 @@ class LocFDD():
                             summary=root.find("shortDescription").text,
                             genres=f_genres,
                             extensions=list(f_extensions),
-                            #iana_media_types=f_mimetypes,
+                            media_types=list(f_mimetypes),
                             has_magic=f_magic,
                             primary_media_type=None,
                             parent_media_type=None,
@@ -89,8 +101,8 @@ class LocFDD():
                             registry_source_data_url=f"https://www.loc.gov/preservation/digital/formats/fddXML/{filename}",
                             registry_index_data_url=f"https://github.com/digipres/digipres.github.io/blob/master/_sources/registries/fdd/fddXML/{ffd_id}.xml",
                             additional_fields= None,
-                            #created=edit_date,
-                            #last_modified=edit_date,
+                            created=edit_date,
+                            last_modified=edit_date,
                         )
                         fmts[ffd_id] = f
 
