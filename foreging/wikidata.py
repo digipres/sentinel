@@ -14,13 +14,20 @@ logger = logging.getLogger(__name__)
 # WikiData dumps parser
 #
 class WikiData():
-    registry_id = "wikidata"
-    registry = Registry(id=registry_id, name="WikiData")
-
     source_file_dir = "digipres.github.io/_sources/registries/wikidata"
     fmt_source_file = f"{source_file_dir}/wikidata.json"
     sw_r_source_file = f"{source_file_dir}/wikidata-reads.json"
     sw_w_source_file = f"{source_file_dir}/wikidata-writes.json"
+
+    # Set up the Registry object for this class:
+    registry_id = "wikidata"
+    registry = Registry(
+        id=registry_id, 
+        name="WikiData", 
+        url="https://www.wikidata.org/wiki/Wikidata:WikiProject_Informatics/Structures/File_formats",
+        index_data_url=f"https://github.com/digipres/digipres.github.io/blob/master/{source_file_dir}"
+        )
+
 
     def get_formats(self):
         logger.info("Getting transformed format records for registry ID %s..." % self.registry_id)
@@ -126,14 +133,14 @@ class WikiData():
             extensions=list(finfo['extensions']),
             media_types=list(finfo['mimetypes']),
             has_magic=finfo['hasMagic'],
-            #primary_media_type=None,
-            #parent_media_type=None,
-            #registry_url=finfo['source'],
-            #registry_source_data_url=f"{finfo['source']}.jsonld",
-            #registry_index_data_url=f"https://github.com/digipres/digipres.github.io/blob/master/{self.fmt_source_file}",
+            primary_media_type=None,
+            parent_media_type=None,
+            registry_url=finfo['source'],
+            registry_source_data_url=f"{finfo['source']}.jsonld",
+            registry_index_data_url=None,
             #additional_fields={},
-            #created=None,
-            #last_modified=None,
+            created=None,
+            last_modified=None,
             readers=list(finfo['readers']),
             writers=list(finfo['writers'])
         )
@@ -143,13 +150,13 @@ class WikiData():
         
     def make_software(self, info):
         s = Software(
-            #registry_id=self.registry_id,
+            registry_id=self.registry_id,
             id=f"wikidata:{info['id']}",
             name=info['name'],
-            #version=None,
-            #summary=None,
-            #registry_url=info['source'],
-            #license=info['licenseLabel'],
+            version=None,
+            summary=None,
+            registry_url=info['source'],
+            license=info['licenseLabel'],
         )
         logger.debug(f"Generated software: {s}")
         return s
