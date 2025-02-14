@@ -25,8 +25,6 @@ class PRONOM():
         return date
 
     def get_formats(self, exts, mts, genres):
-        logger.info("Getting transformed format records for registry ID %s..." % self.registry_id)
-
         for source_folder_name in ['fmt', 'x-fmt']:
             source_folder = os.path.join(self.source_folder, source_folder_name)
 

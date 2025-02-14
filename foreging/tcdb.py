@@ -22,8 +22,6 @@ class TCDB():
         )
 
     def get_formats(self, exts, mts, genres):
-        logger.info("Getting transformed format records for registry ID %s..." % self.registry_id)
-
         # First, gather rows by type_code...
         rows_by_type_code = {}
         # Open, coping with Unicode BOM

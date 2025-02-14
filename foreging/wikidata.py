@@ -26,7 +26,6 @@ class WikiData():
 
 
     def get_formats(self, exts, mts, genres):
-        logger.info("Getting transformed format records for registry ID %s..." % self.registry_id)
 
         with open (self.fmt_source_file, 'r') as f:
             wd = json.load(f)
