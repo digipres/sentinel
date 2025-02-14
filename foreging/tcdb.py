@@ -79,7 +79,7 @@ class TCDB():
                 summary=None,
                 genres=list(categories),
                 extensions=list(extensions),
-                iana_media_types=[],
+                media_types=[],
                 has_magic=False,
                 primary_media_type=None,
                 parent_media_type=None,

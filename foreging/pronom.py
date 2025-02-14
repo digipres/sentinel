@@ -39,7 +39,7 @@ class PRONOM():
                             #parser = etree.XMLParser()
                             #root = etree.parse(BytesIO(xml), parser)
                             root = BeautifulSoup(xml, "xml")
-                            ffd_id = f"{source_folder_name}/{filename[0:-4]}"
+                            ffd_id = f"pronom:{source_folder_name}/{filename[0:-4]}"
                             f_name = root.find('FormatName').text
                             # Genres:
                             f_types = root.find('FormatTypes').text.strip().split(',')
@@ -81,7 +81,7 @@ class PRONOM():
                                 summary=root.find("FormatDescription").text,
                                 genres=f_types,
                                 extensions=f_extensions,
-                                iana_media_types=f_mimetypes,
+                                media_types=f_mimetypes,
                                 has_magic=f_magic,
                                 primary_media_type=None,
                                 parent_media_type=None,
