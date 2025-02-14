@@ -1,10 +1,6 @@
-from collections import defaultdict
-import os
 import json
 import logging
-from .models_sql import Format, Software, Registry, Extension, Genre, MediaType, RegistryDataLogEntry
-from sqlmodel import Field, Relationship, Session, SQLModel, create_engine
-import argparse
+from .models import Format, Software, Registry, Extension, Genre, MediaType, RegistryDataLogEntry
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -29,15 +25,13 @@ class WikiData():
         )
 
 
-    def get_formats(self):
+    def get_formats(self, exts, mts, genres):
         logger.info("Getting transformed format records for registry ID %s..." % self.registry_id)
 
         with open (self.fmt_source_file, 'r') as f:
             wd = json.load(f)
 
         fmts = {}
-        exts = {}
-        mts = {}
         warnings = set()
 
         current_qid = None
@@ -162,20 +156,3 @@ class WikiData():
         return s
 
 
-if __name__ == "__main__":
-    sqlite_file_name = "database.db"
-    sqlite_url = f"sqlite:///{sqlite_file_name}"
-
-    engine = create_engine(sqlite_url, echo=False)
-
-    SQLModel.metadata.create_all(engine)
-
-    with Session(engine) as session:
-
-        gen = WikiData()
-        i = 0
-        for f in gen.get_formats():
-            session.add(f)
-            i += 1
-            if i % 100 == 0:
-                session.commit()

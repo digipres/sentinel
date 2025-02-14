@@ -2,7 +2,7 @@ import os
 import logging
 import datetime
 from bs4 import BeautifulSoup
-from .models import Format
+from .models import Format, Software, Registry, Extension, Genre, MediaType, RegistryDataLogEntry
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -12,13 +12,19 @@ class PRONOM():
     source_folder = 'digipres.github.io/_sources/registries/pronom/'
     warnings = []
     show_parsed_xml_on_errors = False
-
+    registry = Registry(
+        id=registry_id,
+        name="PRONOM",
+        url="https://www.nationalarchives.gov.uk/PRONOM/",
+        index_data_url=f"https://github.com/digipres/{source_folder}"
+        )
+    
     def _date_parser(self, pronom_date):
         # PRONOM uses '11 Apr 2024' format so this needs parsing here:
         date = datetime.datetime.strptime(pronom_date, "%d %b %Y")
         return date
 
-    def get_formats(self):
+    def get_formats(self, exts, mts, genres):
         logger.info("Getting transformed format records for registry ID %s..." % self.registry_id)
 
         for source_folder_name in ['fmt', 'x-fmt']:
@@ -26,7 +32,7 @@ class PRONOM():
 
             for filename in os.listdir(source_folder):
                 if filename.endswith(".xml"):
-                    logger.info(f"Parsing {filename}...")
+                    logger.debug(f"Parsing {filename}...")
                     with open(f"{source_folder}/{filename}", "rb") as f:
                         xml = f.read()
                         root = None
@@ -43,8 +49,10 @@ class PRONOM():
                                 f_types = [""]
                             # Strip whitespace from genres:
                             f_types = [g.strip() for g in f_types]
-                            # Replace empty strings with "Undefined"
+                            # Replace empty strings with "Undefined":
                             f_types = ['undefined' if not g else g for g in f_types]
+                            # And convert to SQLModel type:
+                            f_types = [Genre(name=g) for g in f_types]
                             # Internal signatures:
                             if root.find('InternalSignature'):
                                 f_magic = True
@@ -54,13 +62,17 @@ class PRONOM():
                             extensions = list()
                             for fe in root.findAll('ExternalSignature'):
                                 if fe.find('SignatureType', string='File extension'):
-                                    extensions.append(fe.find('Signature').text)
+                                    ext = fe.find('Signature').text
+                                    exts[ext] = exts.get(ext, Extension(id=ext))
+                                    extensions.append(exts[ext])
                             f_extensions = extensions
                             # Get MIME types:
                             mimetypes = list()
                             for ffi in root.findAll('FileFormatIdentifier'):
                                 if ffi.find('IdentifierType', string='MIME'):
-                                    mimetypes.append(ffi.find('Identifier').text)
+                                    mt = ffi.find('Identifier').text
+                                    mts[mt] = mts.get(mt, MediaType(id=mt))
+                                    mimetypes.append(mts[mt])
                             f_mimetypes = mimetypes
                             # Create record:
                             f = Format(
@@ -78,7 +90,7 @@ class PRONOM():
                                 registry_url=f"https://www.nationalarchives.gov.uk/pronom/{ffd_id}",
                                 registry_source_data_url=f"https://www.nationalarchives.gov.uk/pronom/{ffd_id}.xml",
                                 registry_index_data_url=f"https://github.com/digipres/digipres.github.io/blob/master/_sources/registries/pronom/{ffd_id}.xml",
-                                additional_fields= None,
+                                #additional_fields= None,
                                 created=self._date_parser(root.find('ProvenanceSourceDate').text),
                                 last_modified=self._date_parser(root.find('LastUpdatedDate').text),
                             )

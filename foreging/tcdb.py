@@ -1,7 +1,7 @@
 import os
 import csv
 import logging
-from .models import Format, Software
+from .models import Format, Software, Registry, Extension, Genre, MediaType, RegistryDataLogEntry
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -14,24 +14,32 @@ class TCDB():
     registry_id = "tcdb"
     registry_url = f"https://github.com/thorsted/Born-Digital-Scripts/tree/main/TC%20Identification"
     source_file = 'digipres.github.io/_sources/registries/tcdb/TCDB_2003.8_data-cleaned.csv'
-    warnings = []
+    registry = Registry(
+        id=registry_id,
+        name="TCDB",
+        url=registry_url,
+        index_data_url=source_file
+        )
 
-    def get_formats(self):
+    def get_formats(self, exts, mts, genres):
         logger.info("Getting transformed format records for registry ID %s..." % self.registry_id)
 
         # First, gather rows by type_code...
         rows_by_type_code = {}
         # Open, coping with Unicode BOM
+        line = 1
         with open(self.source_file, "r", encoding='utf-8-sig') as csv_file:
             reader = csv.DictReader(csv_file)
             for row in reader:
                 logger.debug(f"Processing row: {row}")
                 type_code = row['Type'].strip()
-                if type_code not in rows_by_type_code:
-                    rows_by_type_code[type_code] = []
+                rows_by_type_code[type_code] = rows_by_type_code.get(type_code, [])
                 rows_by_type_code[type_code].append(row)
+                line += 1
+                row['_line_number'] = line
 
         # Now, process each type_code:
+        sws = {}
         for type_code, rows in rows_by_type_code.items():
             readers = []
             extensions = set()
@@ -40,44 +48,49 @@ class TCDB():
             for row in rows:
                 logger.debug(f"Processing row: {row}")
                 creator_code = row['Creator'].strip()
-                extensions.add(row['Extension'].strip())
-                categories.add(row['Category'].strip())
+                #
+                ext = row['Extension'].strip().lower()
+                if ext:
+                    exts[ext] = exts.get(ext,Extension(id=ext))
+                    extensions.add(exts[ext])
+                #
+                cat = row['Category'].strip()
+                if cat:
+                    genres[cat] = genres.get(cat, Genre(name=cat))
+                    categories.add(genres[cat])
+                #
                 names.append(row['File Name'].strip())
-                s = Software(
-                    registry_id=self.registry_id,
-                    id=f"tcdb:{type_code}:{creator_code}",
-                    name=row['File Name'].strip(),
-                    version=None,
-                    summary=row['Comments'].strip(),
-                    registry_url=self.registry_url,
-                    reads=[f"tcdb:{type_code}"]
+                # Record the Software ID, adding a line number to make sure everything has distinct IDs.
+                sw_id = f"tcdb:{type_code}:{creator_code}@L{row['_line_number']}"
+                sws[sw_id] = sws.get(sw_id,
+                    Software(
+                        registry=self.registry,
+                        id=sw_id,
+                        name=row['File Name'].strip(),
+                        version=None,
+                        summary=row['Comments'].strip()
+                    )
                 )
-                readers.append(s)
-            # Set up as a format entity: 
+                readers.append(sws[sw_id])
+            # Set up as a format entity for this type_code: 
             f = Format(
-                registry_id=self.registry_id,
+                registry=self.registry,
                 id=f"tcdb:{type_code}",
                 name= ", ".join(names)[:256], # FIXME Limit size as this includes too much software information and is very slow to work with!
                 version=None,
                 summary=None,
-                genres=[x for x in categories if x],
-                extensions=[x.lower() for x in extensions if x],
+                genres=list(categories),
+                extensions=list(extensions),
                 iana_media_types=[],
                 has_magic=False,
                 primary_media_type=None,
                 parent_media_type=None,
-                registry_url=self.registry_url,
-                registry_source_data_url=f"https://github.com/thorsted/Born-Digital-Scripts/blob/main/TC%20Identification/TCDB_2003.8_data-cleaned.csv",
-                registry_index_data_url=f"https://github.com/digipres/digipres.github.io/blob/master/_sources/registries/tcdb/TCDB_2003.8_data-cleaned.csv",
+                registry_url=None,
+                registry_source_data_url=None,
+                registry_index_data_url=None,
                 created=None,
                 last_modified=None,
-                readers=readers,
+                readers=readers
             )
             logger.debug(f"Generated format: {f}")
             yield f
-
-
-if __name__ == "__main__":
-    gen = TCDB()
-    for f in gen.get_formats():
-        print(f.model_dump_json())
