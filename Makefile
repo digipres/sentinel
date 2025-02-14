@@ -1,30 +1,30 @@
 
 DATAFILES := data/pronom.jsonl data/loc.jsonl data/nara.jsonl data/tcdb.jsonl data/wikidata.jsonl
 
-all: data/registries.db
+all: data data/registries.db
 
 data:
 	mkdir -p data
 
-data/pronom.jsonl: data foreging/pronom.py digipres.github.io/_sources/registries
+data/pronom.jsonl: foreging/pronom.py digipres.github.io/_sources/registries
 	python -m foreging.pronom > $@
 
-data/loc.jsonl: data foreging/loc_fdd.py digipres.github.io/_sources/registries
+data/loc_fdd.jsonl: foreging/loc_fdd.py digipres.github.io/_sources/registries
 	python -m foreging.loc_fdd > $@
 
-data/nara.jsonl: data foreging/nara.py digipres.github.io/_sources/registries
+data/nara.jsonl: foreging/nara.py digipres.github.io/_sources/registries
 	python -m foreging.nara > $@
 
-data/tcdb.jsonl: data foreging/tcdb.py digipres.github.io/_sources/registries
+data/tcdb.jsonl: foreging/tcdb.py digipres.github.io/_sources/registries
 	python -m foreging.tcdb > $@
 
-data/wikidata.jsonl: data foreging/wikidata.py digipres.github.io/_sources/registries
+data/wikidata.jsonl: foreging/wikidata.py digipres.github.io/_sources/registries
 	python -m foreging.wikidata > $@
 
-data/registries.db: data $(DATAFILES)
+data/registries.db: $(DATAFILES)
 	rm -f $@
 	sqlite-utils insert $@ formats --nl data/pronom.jsonl
-	sqlite-utils insert $@ formats --nl data/loc.jsonl
+	sqlite-utils insert $@ formats --nl data/loc_fdd.jsonl
 	sqlite-utils insert $@ formats --nl data/nara.jsonl
 	sqlite-utils insert $@ formats --nl data/tcdb.jsonl
 	sqlite-utils insert $@ formats --nl data/wikidata.jsonl

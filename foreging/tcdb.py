@@ -34,14 +34,14 @@ class TCDB():
         # Now, process each type_code:
         for type_code, rows in rows_by_type_code.items():
             readers = []
-            extensions = []
-            categories = []
+            extensions = set()
+            categories = set()
             names = []
             for row in rows:
                 logger.debug(f"Processing row: {row}")
                 creator_code = row['Creator'].strip()
-                extensions.append(row['Extension'].strip())
-                categories.append(row['Category'].strip())
+                extensions.add(row['Extension'].strip())
+                categories.add(row['Category'].strip())
                 names.append(row['File Name'].strip())
                 s = Software(
                     registry_id=self.registry_id,
@@ -57,7 +57,7 @@ class TCDB():
             f = Format(
                 registry_id=self.registry_id,
                 id=f"tcdb:{type_code}",
-                name= ", ".join(names),
+                name= ", ".join(names)[:256], # FIXME Limit size as this includes too much software information and is very slow to work with!
                 version=None,
                 summary=None,
                 genres=[x for x in categories if x],

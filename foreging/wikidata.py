@@ -2,23 +2,25 @@ from collections import defaultdict
 import os
 import json
 import logging
-from .models import Format, Software
+from .models_sql import Format, Software, Registry, Extension, Genre, MediaType, RegistryDataLogEntry
+from sqlmodel import Field, Relationship, Session, SQLModel, create_engine
 import argparse
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-#
+
 #
 # WikiData dumps parser
 #
 class WikiData():
     registry_id = "wikidata"
+    registry = Registry(id=registry_id, name="WikiData")
+
     source_file_dir = "digipres.github.io/_sources/registries/wikidata"
     fmt_source_file = f"{source_file_dir}/wikidata.json"
     sw_r_source_file = f"{source_file_dir}/wikidata-reads.json"
     sw_w_source_file = f"{source_file_dir}/wikidata-writes.json"
-    warnings = []
 
     def get_formats(self):
         logger.info("Getting transformed format records for registry ID %s..." % self.registry_id)
@@ -27,6 +29,9 @@ class WikiData():
             wd = json.load(f)
 
         fmts = {}
+        exts = {}
+        mts = {}
+        warnings = set()
 
         current_qid = None
 
@@ -45,14 +50,19 @@ class WikiData():
                 finfo['extensions'] = set()
                 finfo['mimetypes'] = set()
                 finfo['hasMagic'] = False
-                finfo['readers'] = []
-                finfo['writers'] = []
+                finfo['readers'] = set()
+                finfo['writers'] = set()
             # Aggregate value for each ID
             for key in fmt:
                 if key == 'extension' and fmt[key]:
-                    finfo['extensions'].add(fmt[key])
+                    # Making sure we reuse the same object for an extension to keep the model consistent:
+                    ext = fmt[key]
+                    exts[ext] = exts.get(ext, Extension(id=ext))
+                    finfo['extensions'].add(exts[ext])
                 if key == 'mimetype' and fmt[key]:
-                    finfo['mimetypes'].add(fmt[key])
+                    mt = fmt[key]
+                    mts[mt] = mts.get(mt, MediaType(id=mt))
+                    finfo['mimetypes'].add(mts[mt])
                 if key == 'sig' and fmt[key]:
                     finfo['hasMagic'] = True
 
@@ -73,11 +83,13 @@ class WikiData():
         for mode, sw_i in [('reads', sw_r), ('writes', sw_w)]:
             for sw in sw_i:
                 qid = sw['format'].replace("http://www.wikidata.org/entity/","wikidata:")
-                if qid not in fmts:
-                    logger.warning(f"Software entry for unknown format {qid}: {sw['formatLabel']}")
-                    self.warnings.append(f"Software entry for unknown format {qid}: {sw['formatLabel']}")
-                    continue
                 sw_qid = sw['id']
+                # Check it's in the set:
+                if qid not in fmts:
+                    warning = f"Software entry '{sw_qid}: {sw['formatLabel']}' references missing format '{qid}'"
+                    logger.warning( warning )
+                    warnings.add( RegistryDataLogEntry(level="warning", message=warning, url=sw['source'] ) )
+                    continue
                 if sw_qid not in sws:
                     sws[sw_qid] = sw
                     sws[sw_qid]['reads'] = []
@@ -88,10 +100,12 @@ class WikiData():
         for sw in sws.values():
                 s = self.make_software(sw)
                 for qid in sw['reads']:
-                    fmts[qid]['readers'].append(s)
+                    fmts[qid]['readers'].add(s)
                 for qid in sw['writes']:
-                    fmts[qid]['writers'].append(s)
+                    fmts[qid]['writers'].add(s)
 
+        # Store the warnings:
+        self.registry.data_log = list(warnings)
 
         # And return the format:
         for qid in fmts:
@@ -103,25 +117,25 @@ class WikiData():
         
         # Set up as a format entity: 
         f = Format(
-            registry_id=self.registry_id,
-            id=f"wikidata:{current_qid}",
+            id=f"{current_qid}",
+            registry=self.registry,
             name=finfo['name'],
             version=None,
             summary=None,
             genres= [],
             extensions=list(finfo['extensions']),
-            iana_media_types=list(finfo['mimetypes']),
+            media_types=list(finfo['mimetypes']),
             has_magic=finfo['hasMagic'],
-            primary_media_type=None,
-            parent_media_type=None,
-            registry_url=finfo['source'],
-            registry_source_data_url=f"{finfo['source']}.jsonld",
-            registry_index_data_url=f"https://github.com/digipres/digipres.github.io/blob/master/{self.fmt_source_file}",
-            additional_fields={},
-            created=None,
-            last_modified=None,
-            readers=finfo['readers'],
-            writers=finfo['writers']
+            #primary_media_type=None,
+            #parent_media_type=None,
+            #registry_url=finfo['source'],
+            #registry_source_data_url=f"{finfo['source']}.jsonld",
+            #registry_index_data_url=f"https://github.com/digipres/digipres.github.io/blob/master/{self.fmt_source_file}",
+            #additional_fields={},
+            #created=None,
+            #last_modified=None,
+            readers=list(finfo['readers']),
+            writers=list(finfo['writers'])
         )
         logger.debug(f"Generated format: {f}")
         return f
@@ -129,21 +143,32 @@ class WikiData():
         
     def make_software(self, info):
         s = Software(
-            registry_id=self.registry_id,
+            #registry_id=self.registry_id,
             id=f"wikidata:{info['id']}",
             name=info['name'],
-            version=None,
-            summary=None,
-            registry_url=info['source'],
-            license=info['licenseLabel'],
-            reads=info['reads'],
-            writes=info['writes']
+            #version=None,
+            #summary=None,
+            #registry_url=info['source'],
+            #license=info['licenseLabel'],
         )
         logger.debug(f"Generated software: {s}")
         return s
 
 
 if __name__ == "__main__":
-    gen = WikiData()
-    for f in gen.get_formats():
-        print(f.model_dump_json())
+    sqlite_file_name = "database.db"
+    sqlite_url = f"sqlite:///{sqlite_file_name}"
+
+    engine = create_engine(sqlite_url, echo=False)
+
+    SQLModel.metadata.create_all(engine)
+
+    with Session(engine) as session:
+
+        gen = WikiData()
+        i = 0
+        for f in gen.get_formats():
+            session.add(f)
+            i += 1
+            if i % 100 == 0:
+                session.commit()
