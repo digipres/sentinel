@@ -9,6 +9,7 @@ dependencies = [
  "rdflib",
  "pydantic",
  "sqlite-utils",
+ "sqlmodel"
 ]
 
 [tool.setuptools.packages.find]
