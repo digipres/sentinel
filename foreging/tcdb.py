@@ -16,8 +16,9 @@ class TCDB():
     source_file = 'digipres.github.io/_sources/registries/tcdb/TCDB_2003.8_data-cleaned.csv'
     registry = Registry(
         id=registry_id,
-        name="TCDB",
+        name="Macintosh Type/Creator Codes Database",
         url=registry_url,
+        id_prefix=None,
         index_data_url=source_file
         )
 

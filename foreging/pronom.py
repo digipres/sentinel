@@ -14,8 +14,9 @@ class PRONOM():
     show_parsed_xml_on_errors = False
     registry = Registry(
         id=registry_id,
-        name="PRONOM",
+        name="UK National Archives PRONOM Technical Registry",
         url="https://www.nationalarchives.gov.uk/PRONOM/",
+        id_prefix='https://www.nationalarchives.gov.uk/PRONOM/',
         index_data_url=f"https://github.com/digipres/{source_folder}"
         )
     

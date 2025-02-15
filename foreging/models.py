@@ -6,6 +6,7 @@ class Registry(SQLModel, table=True):
     id: str | None = Field(default=None, primary_key=True)
     name: str = Field(index=True)
     url: str | None = Field()
+    id_prefix: str | None = Field()
     index_data_url: str | None = Field()
 
     data_log: list["RegistryDataLogEntry"] = Relationship()

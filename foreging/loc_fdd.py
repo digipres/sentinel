@@ -13,7 +13,9 @@ class LocFDD():
     show_parsed_xml_on_errors = False
     registry = Registry(
         id=registry_id,
-        name="LC FDD"
+        name="Library of Congress Format Description Documents",
+        url="https://www.loc.gov/preservation/digital/formats/",
+        id_prefix='https://www.loc.gov/preservation/digital/formats/fdd/'
     )
 
     def get_formats(self, exts, mts, genres):

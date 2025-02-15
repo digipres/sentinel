@@ -21,6 +21,7 @@ class WikiData():
         id=registry_id, 
         name="WikiData", 
         url="https://www.wikidata.org/wiki/Wikidata:WikiProject_Informatics/Structures/File_formats",
+        id_prefix='http://www.wikidata.org/entity/',
         index_data_url=f"https://github.com/digipres/digipres.github.io/blob/master/{source_file_dir}"
         )
 

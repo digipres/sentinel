@@ -36,13 +36,14 @@ class WDT(DefinedNamespace):
 # NARA File Format Preservation Plan parser
 #
 class NARA_FFPP():
-    registry_id = "nara-ffpp"
+    registry_id = "naradpf"
     source_file = 'digipres.github.io/_sources/registries/nara/fileformats.ttl'
     warnings = []
     registry = Registry(
         id=registry_id,
-        name="NARA FFPP",
-        url="https://www.archives.gov/preservation/digital-preservation/linked-data"
+        name="NARA Digital Preservation Framework",
+        url="https://www.archives.gov/preservation/digital-preservation/linked-data",
+        id_prefix='https://www.archives.gov/files/lod/dpframework/id/'
     )
 
     def get_formats(self, exts, mts, grs):
@@ -51,7 +52,7 @@ class NARA_FFPP():
         g.parse(self.source_file)
 
         for s, p, o in g.triples((None, RDF.type, NARA.FileFormat)):
-            ff_id = f"{self.registry_id}:{g.value(s, DCTERMS.identifier)}"
+            ff_id = f"{self.registry_id}:{g.value(s, DCTERMS.identifier)}.ttl"
             # Grab: Action, Plan, Tools, PUID, FFW, Described-At
             additional = {}
             for p in [ NARA.preservationAction, NARA.preservationPlan, WDT.p2748, WDT.p3381, WDT.p973]:
@@ -59,7 +60,7 @@ class NARA_FFPP():
                 if value:
                     additional[p] = [o for s, p, o in g.triples((s, p, None))]
             logger.debug("Additional fields: " + json.dumps(additional, indent=2))
-            # Set up entities:
+            # Set up other fields:
             extensions = set()
             for ext in [o for s, p, o in g.triples((s, WDT.p1195, None))]:
                 ext = str(ext)
@@ -77,13 +78,13 @@ class NARA_FFPP():
                 media_types.append(mts[mt])
             readers = []
             for tool in [o for s, p, o in g.triples((s, NARA.tools, None))]:
-                s = Software(
+                sw = Software(
                     registry=self.registry,
-                    id=f"{ff_id}+{len(readers)}",
+                    id=f"{ff_id}#{len(readers)}",
                     name=str(tool)
                 )
-                readers.append(s)
-            
+                readers.append(sw)
+
             # Set up as a format entity: 
             f = Format(
                 registry_id=self.registry_id,
