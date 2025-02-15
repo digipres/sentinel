@@ -77,13 +77,14 @@ class NARA_FFPP():
                 mts[mt] = mts.get(mt, MediaType(id=mt))
                 media_types.append(mts[mt])
             readers = []
-            for tool in [o for s, p, o in g.triples((s, NARA.tools, None))]:
-                sw = Software(
-                    registry=self.registry,
-                    id=f"{ff_id}#{len(readers)}",
-                    name=str(tool)
-                )
-                readers.append(sw)
+            for tools in [o for s, p, o in g.triples((s, NARA.tools, None))]:
+                for tool in str(tools).split(';'):
+                    sw = Software(
+                        registry=self.registry,
+                        id=f"{ff_id}#{len(readers)}",
+                        name=tool.strip()
+                    )
+                    readers.append(sw)
 
             # Set up as a format entity: 
             f = Format(
