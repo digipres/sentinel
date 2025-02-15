@@ -38,7 +38,6 @@ class WDT(DefinedNamespace):
 class NARA_FFPP():
     registry_id = "naradpf"
     source_file = 'digipres.github.io/_sources/registries/nara/fileformats.ttl'
-    warnings = []
     registry = Registry(
         id=registry_id,
         name="NARA Digital Preservation Framework",
@@ -88,7 +87,7 @@ class NARA_FFPP():
 
             # Set up as a format entity: 
             f = Format(
-                registry_id=self.registry_id,
+                registry=self.registry,
                 id=ff_id,
                 name=g.value(s, NARA.formatName),
                 version=None,

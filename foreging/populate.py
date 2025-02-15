@@ -1,3 +1,4 @@
+from .ffw import FFW
 from .loc_fdd import LocFDD
 from .nara import NARA_FFPP
 from .pronom import PRONOM
@@ -12,7 +13,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Size of the chunks of data to commit (makes things faster but more memory load)
-COMMIT_SIZE = 250
+COMMIT_SIZE = 1000
 
 # Push in the data:
 def populate_database(session, gen, exts, mts, genres):
@@ -24,13 +25,15 @@ def populate_database(session, gen, exts, mts, genres):
         i += 1
         if i % COMMIT_SIZE == 0:
             session.commit()
+            i = 0
     # And get the last few in:
-    session.commit()
+    if i > 0:
+        session.commit()
 
 if __name__ == "__main__":
     # Registries
     registries = {}
-    for r in [LocFDD(), NARA_FFPP(), PRONOM(), TCDB(), WikiData()]:
+    for r in [FFW(), LocFDD(), NARA_FFPP(), PRONOM(), TCDB(), WikiData()]:
         registries[r.registry.id] = r
     # TO-ADD: FFW, GithubLinguist, Tika, TRiD
 
@@ -54,7 +57,7 @@ if __name__ == "__main__":
 
     SQLModel.metadata.create_all(engine)
 
-    with Session(engine) as session:
+    with Session(engine).no_autoflush as session:
         for reg_id in registries:
             reg = registries[reg_id]
             if args.only == None or args.only == reg_id:

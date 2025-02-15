@@ -75,7 +75,7 @@ class PRONOM():
                             f_mimetypes = mimetypes
                             # Create record:
                             f = Format(
-                                registry_id=self.registry_id,
+                                registry=self.registry,
                                 id=ffd_id,
                                 name=f_name,
                                 version=root.find("FormatVersion").text,
