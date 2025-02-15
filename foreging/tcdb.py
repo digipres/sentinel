@@ -60,14 +60,14 @@ class TCDB():
                 #
                 names.append(row['File Name'].strip())
                 # Record the Software ID, adding a line number to make sure everything has distinct IDs.
-                sw_id = f"tcdb:{type_code}:{creator_code}@L{row['_line_number']}"
+                sw_id = f"tcdb:{type_code}:{creator_code}#L{row['_line_number']}"
                 sws[sw_id] = sws.get(sw_id,
                     Software(
                         registry=self.registry,
                         id=sw_id,
-                        name=row['File Name'].strip(),
+                        name=row['Comments'].strip(), # Software name usually stored in the Comments field.
                         version=None,
-                        summary=row['Comments'].strip()
+                        summary=row['File Name'].strip()
                     )
                 )
                 readers.append(sws[sw_id])
