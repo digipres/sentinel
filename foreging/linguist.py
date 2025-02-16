@@ -15,9 +15,9 @@ class Linguist():
     registry = Registry(
         id=registry_id, 
         name="GitHub Linguist", 
-        url="http://fileformats.archiveteam.org/",
-        id_prefix='http://fileformats.archiveteam.org/wiki/',
-        index_data_url=f"https://github.com/digipres/digipres.github.io/blob/master/{source_file}"
+        url="https://github.com/github-linguist/linguist",
+        id_prefix=None,
+        index_data_url=None
         )
 
     def get_formats(self, exts, mts, gnrs):

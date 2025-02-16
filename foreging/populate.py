@@ -4,6 +4,7 @@ from .loc_fdd import LocFDD
 from .nara import NARA_FFPP
 from .pronom import PRONOM
 from .tcdb import TCDB
+from .tika import Tika
 from .wikidata import WikiData
 
 from sqlmodel import Session, SQLModel, create_engine
@@ -14,7 +15,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Size of the chunks of data to commit (makes things faster but more memory load)
-COMMIT_SIZE = 1000
+COMMIT_SIZE = 2000
 
 # Push in the data:
 def populate_database(session, gen, exts, mts, genres):
@@ -34,9 +35,9 @@ def populate_database(session, gen, exts, mts, genres):
 if __name__ == "__main__":
     # Registries
     registries = {}
-    for r in [FFW(), Linguist(), LocFDD(), NARA_FFPP(), PRONOM(), TCDB(), WikiData()]:
+    for r in [FFW(), Linguist(), LocFDD(), NARA_FFPP(), PRONOM(), TCDB(), Tika(), WikiData()]:
         registries[r.registry.id] = r
-    # TO-ADD: GithubLinguist, Tika, TRiD
+    # TO-ADD: TRiD
 
     # Args
     parser = argparse.ArgumentParser()
