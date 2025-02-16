@@ -57,7 +57,7 @@ class Tika():
                 # Look for extensions:
                 extensions = list()
                 for ext in ff.findall('glob'):
-                    extension = ext.get('pattern')
+                    extension = ext.get('pattern').replace('*.','') # Strip the glob
                     exts[extension] = exts.get(extension, Extension(id=extension))
                     extensions.append(exts[extension])
                 finfo['extensions'] = extensions
