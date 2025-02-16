@@ -1,4 +1,5 @@
 from .ffw import FFW
+from .linguist import Linguist
 from .loc_fdd import LocFDD
 from .nara import NARA_FFPP
 from .pronom import PRONOM
@@ -33,9 +34,9 @@ def populate_database(session, gen, exts, mts, genres):
 if __name__ == "__main__":
     # Registries
     registries = {}
-    for r in [FFW(), LocFDD(), NARA_FFPP(), PRONOM(), TCDB(), WikiData()]:
+    for r in [FFW(), Linguist(), LocFDD(), NARA_FFPP(), PRONOM(), TCDB(), WikiData()]:
         registries[r.registry.id] = r
-    # TO-ADD: FFW, GithubLinguist, Tika, TRiD
+    # TO-ADD: GithubLinguist, Tika, TRiD
 
     # Args
     parser = argparse.ArgumentParser()
