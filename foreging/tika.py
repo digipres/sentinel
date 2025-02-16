@@ -12,6 +12,8 @@ logger = logging.getLogger(__name__)
 #
 class Tika():
     source_file = "digipres.github.io/_sources/registries/tika/tika-mimetypes.xml"
+    source_url = "https://svn.apache.org/repos/asf/tika/trunk/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml"
+    index_url = "https://github.com/digipres/digipres.github.io/blob/master/_sources/registries/tika/tika-mimetypes.xml"
     # Set up the Registry object for this class:
     registry_id = "tika"
     registry = Registry(
@@ -19,7 +21,7 @@ class Tika():
         name="Apache Tika", 
         url="https://tika.apache.org/",
         id_prefix=None,
-        index_data_url=None
+        index_data_url=index_url
         )
 
     def get_formats(self, exts, mts, gnrs):
@@ -43,7 +45,7 @@ class Tika():
                 finfo = {}
                 fid = ff.get('type')
                 finfo['id'] = fid
-                finfo['source'] = f"{self.source_file}#L{ff.sourceline}"
+                finfo['source'] = f"#L{ff.sourceline}"
                 # Build the name:
                 if ff.find('_comment') is not None:
                     finfo['name'] = ff.find('_comment').text
@@ -110,8 +112,8 @@ class Tika():
                     primary_media_type=media_types[0].id,
                     parent_media_type=parent,
                     registry_url=None,
-                    registry_source_data_url=finfo['source'],
-                    registry_index_data_url=None,
+                    registry_source_data_url=self.source_url + finfo['source'],
+                    registry_index_data_url=self.index_url + finfo['source'],
                     created=None,
                     last_modified=None
                 )
