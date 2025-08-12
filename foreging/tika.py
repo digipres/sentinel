@@ -3,7 +3,7 @@ import yaml
 from lxml import etree
 from io import BytesIO
 import logging
-from .models import Format, Software, Registry, Extension, Genre, MediaType, RegistryDataLogEntry
+from .models import Format, Software, Registry, Genre, MediaType, RegistryDataLogEntry
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -24,7 +24,7 @@ class Tika():
         index_data_url=index_url
         )
 
-    def get_formats(self, exts, mts, gnrs):
+    def get_formats(self, mts, gnrs):
         fmts = []
         with open(self.source_file, "rb") as f:
             xml = f.read()
@@ -58,8 +58,7 @@ class Tika():
                 extensions = list()
                 for ext in ff.findall('glob'):
                     extension = ext.get('pattern').replace('*.','') # Strip the glob
-                    exts[extension] = exts.get(extension, Extension(id=extension))
-                    extensions.append(exts[extension])
+                    extensions.append(extension)
                 finfo['extensions'] = extensions
                 # Look for MIME Types:
                 mimetypes = list()

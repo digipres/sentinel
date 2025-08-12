@@ -1,6 +1,6 @@
 import json
 import logging
-from .models import Format, Software, Registry, Extension, Genre, MediaType, RegistryDataLogEntry
+from .models import Format, Software, Registry, Genre, MediaType, RegistryDataLogEntry
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -26,7 +26,7 @@ class WikiData():
         )
 
 
-    def get_formats(self, exts, mts, genres):
+    def get_formats(self, mts, genres):
 
         with open (self.fmt_source_file, 'r') as f:
             wd = json.load(f)
@@ -58,8 +58,7 @@ class WikiData():
                 if key == 'extension' and fmt[key]:
                     # Making sure we reuse the same object for an extension to keep the model consistent:
                     ext = fmt[key]
-                    exts[ext] = exts.get(ext, Extension(id=ext))
-                    finfo['extensions'].add(exts[ext])
+                    finfo['extensions'].add(ext)
                 if key == 'mimetype' and fmt[key]:
                     mt = fmt[key]
                     mts[mt] = mts.get(mt, MediaType(id=mt))

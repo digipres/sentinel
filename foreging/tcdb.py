@@ -1,7 +1,7 @@
 import os
 import csv
 import logging
-from .models import Format, Software, Registry, Extension, Genre, MediaType, RegistryDataLogEntry
+from .models import Format, Software, Registry, Genre, MediaType, RegistryDataLogEntry
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -22,7 +22,7 @@ class TCDB():
         index_data_url=source_file
         )
 
-    def get_formats(self, exts, mts, genres):
+    def get_formats(self, mts, genres):
         # First, gather rows by type_code...
         rows_by_type_code = {}
         # Open, coping with Unicode BOM
@@ -50,8 +50,7 @@ class TCDB():
                 #
                 ext = row['Extension'].strip().lower()
                 if ext:
-                    exts[ext] = exts.get(ext,Extension(id=ext))
-                    extensions.add(exts[ext])
+                    extensions.add(ext)
                 #
                 cat = row['Category'].strip()
                 if cat:

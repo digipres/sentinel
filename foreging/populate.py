@@ -18,9 +18,9 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Push in the data:
-def populate_database(session, gen, exts, mts, genres):
+def populate_database(session, gen, mts, genres):
     logger.info("Getting transformed format records for registry ID %s..." % gen.registry_id)
-    for f in gen.get_formats(exts, mts, genres):
+    for f in gen.get_formats(mts, genres):
         session.add(f)
 
 if __name__ == "__main__":
@@ -37,7 +37,6 @@ if __name__ == "__main__":
 
 
     # Cache the cross-referenced entities:
-    exts = {}
     mts = {}
     genres = {}
 
@@ -53,7 +52,7 @@ if __name__ == "__main__":
         for reg_id in registries:
             reg = registries[reg_id]
             if args.only == None or args.only == reg_id:
-                populate_database(session, reg, exts, mts, genres)
+                populate_database(session, reg, mts, genres)
                 # Every commit should be self-consistent at this point:
                 session.commit()
 

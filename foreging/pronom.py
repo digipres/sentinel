@@ -2,7 +2,7 @@ import os
 import logging
 import datetime
 from bs4 import BeautifulSoup
-from .models import Format, Software, Registry, Extension, Genre, MediaType, RegistryDataLogEntry
+from .models import Format, Software, Registry, Genre, MediaType, RegistryDataLogEntry
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -25,7 +25,7 @@ class PRONOM():
         date = datetime.datetime.strptime(pronom_date, "%d %b %Y")
         return date
 
-    def get_formats(self, exts, mts, genres):
+    def get_formats(self, mts, genres):
         for source_folder_name in ['fmt', 'x-fmt']:
             source_folder = os.path.join(self.source_folder, source_folder_name)
 
@@ -62,8 +62,7 @@ class PRONOM():
                             for fe in root.findAll('ExternalSignature'):
                                 if fe.find('SignatureType', string='File extension'):
                                     ext = fe.find('Signature').text
-                                    exts[ext] = exts.get(ext, Extension(id=ext))
-                                    extensions.append(exts[ext])
+                                    extensions.append(ext)
                             f_extensions = extensions
                             # Get MIME types:
                             mimetypes = list()

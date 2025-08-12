@@ -3,7 +3,7 @@ import logging
 from rdflib import Graph, RDF, DCTERMS
 from rdflib.namespace import DefinedNamespace, Namespace
 from rdflib.term import URIRef
-from .models import Format, Software, Registry, Extension, Genre, MediaType, RegistryDataLogEntry
+from .models import Format, Software, Registry, Genre, MediaType, RegistryDataLogEntry
 
 logger = logging.getLogger(__name__)
 
@@ -45,7 +45,7 @@ class NARA_FFPP():
         id_prefix='https://www.archives.gov/files/lod/dpframework/id/'
     )
 
-    def get_formats(self, exts, mts, grs):
+    def get_formats(self, mts, grs):
 
         g = Graph()
         g.parse(self.source_file)
@@ -63,8 +63,7 @@ class NARA_FFPP():
             extensions = set()
             for ext in [o for s, p, o in g.triples((s, WDT.p1195, None))]:
                 ext = str(ext)
-                exts[ext] = exts.get(ext, Extension(id=ext))
-                extensions.add(exts[ext])
+                extensions.add(ext)
             genres = []
             for genre in [o for s, p, o in g.triples((s, NARA.category, None))]:
                 genre = str(genre)

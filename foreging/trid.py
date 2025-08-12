@@ -4,7 +4,7 @@ import os
 from lxml import etree
 from io import BytesIO
 import logging
-from .models import Format, Software, Registry, Extension, Genre, MediaType, RegistryDataLogEntry
+from .models import Format, Software, Registry, Genre, MediaType, RegistryDataLogEntry
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -27,15 +27,14 @@ class TrID():
     
     fmts = []
 
-    def add_format(self, fid, finfo, exts, mts, gnrs):
+    def add_format(self, fid, finfo, mts, gnrs):
         media_types = []
         for mt in finfo['mimetypes']:
             mts[mt] = mts.get(mt, MediaType(id=mt))
             media_types.append(mts[mt])
         extensions = []
         for ext in finfo['extensions']:
-            exts[ext] = exts.get(ext, Extension(id=ext))
-            extensions.append(exts[ext])
+            extensions.append(ext)
         # Set up as a format entity: 
         f = Format(
             registry=self.registry,
@@ -60,7 +59,7 @@ class TrID():
 
  
 
-    def get_formats(self, exts, mts, gnrs):
+    def get_formats(self, mts, gnrs):
         for filename in os.listdir(f'{self.source_dir}/triddefs_xml'):
             if filename.endswith(".trid.xml"):
                 # Get Identifier?
@@ -84,7 +83,7 @@ class TrID():
                     finfo['extensions'] = extensions
                     # Get MIME types:
                     finfo['mimetypes'] = list()
-                    self.add_format(fid, finfo, exts, mts, gnrs)
+                    self.add_format(fid, finfo, mts, gnrs)
 
         # Now yield them, so all the log entries get stored too:
         for f in self.fmts:

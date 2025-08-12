@@ -2,7 +2,7 @@ import os
 import logging
 import datetime
 from bs4 import BeautifulSoup
-from .models import Format, Software, Registry, Extension, Genre, MediaType, RegistryDataLogEntry
+from .models import Format, Software, Registry, Genre, MediaType, RegistryDataLogEntry
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -18,7 +18,7 @@ class LocFDD():
         id_prefix='https://www.loc.gov/preservation/digital/formats/fdd/'
     )
 
-    def get_formats(self, exts, mts, genres):
+    def get_formats(self, mts, genres):
 
         fmts = {}
 
@@ -66,8 +66,7 @@ class LocFDD():
                         for fe in root.findAll('filenameExtension'):
                             for fev in fe.findAll('sigValue'):
                                 ext = f"{fev.text}"
-                                exts[ext] = exts.get(ext, Extension(id=ext))
-                                f_extensions.add(exts[ext])
+                                f_extensions.add(ext)
                         # Get MIME types:
                         f_mimetypes = set()
                         for imts in root.findAll('internetMediaType'):

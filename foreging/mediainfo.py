@@ -3,7 +3,7 @@ import yaml
 from lxml import etree
 from io import BytesIO
 import logging
-from .models import Format, Software, Registry, Extension, Genre, MediaType, RegistryDataLogEntry
+from .models import Format, Software, Registry, Genre, MediaType, RegistryDataLogEntry
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -24,7 +24,7 @@ class MediaInfo():
         index_data_url=index_url
         )
 
-    def get_formats(self, exts, mts, gnrs):
+    def get_formats(self, mts, gnrs):
         fmts = []
         idx = 0
         with open(self.source_file, "r") as f:
@@ -35,8 +35,7 @@ class MediaInfo():
                     # Do the ugly book-keeping to make the SQL work:
                     extensions = list()
                     for extension in set(entry.get('extensions', [])):
-                        exts[extension] = exts.get(extension, Extension(id=extension))
-                        extensions.append(exts[extension])
+                        extensions.append(extension)
                     # Set up as a format entity: 
                     f = Format(
                         registry=self.registry,

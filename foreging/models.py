@@ -1,5 +1,5 @@
 from datetime import date
-from sqlmodel import Field, Relationship, Session, SQLModel, create_engine
+from sqlmodel import Field, Relationship, Session, SQLModel, create_engine, JSON, Column
 
 
 class Registry(SQLModel, table=True):
@@ -75,22 +75,6 @@ class Genre(SQLModel, table=True):
     def __eq__(self,other):
         return self.name == other.name
     
-class ExtensionFormatsLink(SQLModel, table=True):
-    __tablename__ = "format_extensions"
-    format_id: str | None = Field(default=None, foreign_key="format.id", primary_key=True)
-    extension_id: str | None = Field(default=None, foreign_key="extension.id", primary_key=True)
-
-class Extension(SQLModel, table=True):
-    id: str | None = Field(default=None, primary_key=True)
-    #
-    formats: list["Format"] = Relationship(back_populates="extensions", link_model=ExtensionFormatsLink)
-
-    # Define how to spot unique entries in a set
-    def __hash__(self):
-        return hash(self.id)
-    def __eq__(self,other):
-        return self.id == other.id
-
 class MediaTypesFormatsLink(SQLModel, table=True):
     __tablename__ = "format_media_types"
     format_id: str | None = Field(default=None, foreign_key="format.id", primary_key=True)
@@ -114,7 +98,7 @@ class Format(SQLModel, table=True):
     version: str | None = Field(index=True)
     summary: str | None = Field(index=True)
     genres: list["Genre"] = Relationship(back_populates="formats", link_model=FormatGenresLink)
-    extensions: list["Extension"] = Relationship(back_populates="formats", link_model=ExtensionFormatsLink)
+    extensions: list[str] | None = Field(default=None, sa_column=Column(JSON))
     media_types: list["MediaType"] = Relationship(back_populates="formats", link_model=MediaTypesFormatsLink)
     has_magic: bool = Field(default=False)
     primary_media_type: str | None = Field(index=True)
