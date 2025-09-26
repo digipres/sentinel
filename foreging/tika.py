@@ -3,14 +3,14 @@ import yaml
 from lxml import etree
 from io import BytesIO
 import logging
-from .models import Format, Registry, RegistryDataLogEntry
+from .models import Format, Registry, RegistryDataLogEntry, RegistryClient
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
 #
-class Tika():
+class Tika(RegistryClient):
     source_file = "digipres.github.io/_sources/registries/tika/tika-mimetypes.xml"
     source_url = "https://svn.apache.org/repos/asf/tika/trunk/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml"
     index_url = "https://github.com/digipres/digipres.github.io/blob/master/_sources/registries/tika/tika-mimetypes.xml"

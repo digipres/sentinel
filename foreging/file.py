@@ -3,14 +3,14 @@ import yaml
 from lxml import etree
 from io import BytesIO
 import logging
-from .models import Format, Registry
+from .models import Format, Registry, RegistryClient
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
 #
-class File():
+class File(RegistryClient):
     source_file = "digipres.github.io/_sources/registries/file/polyfile-magic.jsonl"
     source_url = "https://github.com/trailofbits/polyfile/tree/master/polyfile/magic_defs"
     index_url = "https://github.com/digipres/digipres.github.io/blob/master/_sources/registries/file/polyfile-magic.jsonl"

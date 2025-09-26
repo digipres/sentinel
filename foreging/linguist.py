@@ -1,14 +1,14 @@
 import json
 import yaml
 import logging
-from .models import Format, Registry
+from .models import Format, Registry, RegistryClient
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
 #
-class Linguist():
+class Linguist(RegistryClient):
     source_file = "digipres.github.io/_sources/registries/githublinguist/languages.yml"
     # Set up the Registry object for this class:
     registry_id = "linguist"

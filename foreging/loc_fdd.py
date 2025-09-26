@@ -2,12 +2,12 @@ import os
 import logging
 import datetime
 from bs4 import BeautifulSoup
-from .models import Format, Registry, RegistryDataLogEntry
+from .models import Format, Registry, RegistryDataLogEntry, RegistryClient
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-class LocFDD():
+class LocFDD(RegistryClient):
     registry_id = "lcfdd"
     source_folder = 'digipres.github.io/_sources/registries/fdd/fddXML'
     show_parsed_xml_on_errors = False

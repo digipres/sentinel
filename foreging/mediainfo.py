@@ -3,14 +3,14 @@ import yaml
 from lxml import etree
 from io import BytesIO
 import logging
-from .models import Format, Registry
+from .models import Format, Registry, RegistryClient
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
 #
-class MediaInfo():
+class MediaInfo(RegistryClient):
     source_file = "digipres.github.io/_sources/registries/mediainfo/mediainfo.jsonl"
     source_url = "https://mediaarea.net/en/MediaInfo/Support/Formats"
     index_url = "https://github.com/digipres/digipres.github.io/blob/master/_sources/registries/mediainfo/mediainfo.jsonl"

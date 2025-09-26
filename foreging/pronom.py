@@ -2,12 +2,12 @@ import os
 import logging
 import datetime
 from bs4 import BeautifulSoup
-from .models import Format, Registry
+from .models import Format, Registry, RegistryClient
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-class PRONOM():
+class PRONOM(RegistryClient):
     registry_id = "pronom"
     source_folder = 'digipres.github.io/_sources/registries/pronom/'
     warnings = []

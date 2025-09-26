@@ -1,6 +1,6 @@
 import json
 import logging
-from .models import Format, Registry, RegistryDataLogEntry
+from .models import Format, Registry, RegistryDataLogEntry, RegistryClient
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 #
 # WikiData dumps parser
 #
-class WikiData():
+class WikiData(RegistryClient):
     source_file_dir = "digipres.github.io/_sources/registries/wikidata"
     fmt_source_file = f"{source_file_dir}/wikidata.json"
     sw_r_source_file = f"{source_file_dir}/wikidata-reads.json"

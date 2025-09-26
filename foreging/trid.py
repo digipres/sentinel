@@ -4,14 +4,14 @@ import os
 from lxml import etree
 from io import BytesIO
 import logging
-from .models import Format, Registry
+from .models import Format, Registry, RegistryClient
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
 #
-class TrID():
+class TrID(RegistryClient):
     source_dir = "digipres.github.io/_sources/registries/trid"
     source_url = ""
     index_url = "https://github.com/digipres/digipres.github.io/tree/master/_sources/registries/trid/triddefs_xml/"

@@ -3,7 +3,7 @@ import logging
 from rdflib import Graph, RDF, DCTERMS
 from rdflib.namespace import DefinedNamespace, Namespace
 from rdflib.term import URIRef
-from .models import Format, Registry
+from .models import Format, Registry, RegistryClient
 
 logger = logging.getLogger(__name__)
 
@@ -35,7 +35,7 @@ class WDT(DefinedNamespace):
 #
 # NARA File Format Preservation Plan parser
 #
-class NARA_FFPP():
+class NARA_FFPP(RegistryClient):
     registry_id = "naradpf"
     source_file = 'digipres.github.io/_sources/registries/nara/fileformats.ttl'
     registry = Registry(

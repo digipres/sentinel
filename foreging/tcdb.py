@@ -1,7 +1,7 @@
 import os
 import csv
 import logging
-from .models import Format, Registry
+from .models import Format, Registry, RegistryClient
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 #
 # TCDB CSV dump parser
 #
-class TCDB():
+class TCDB(RegistryClient):
     registry_id = "tcdb"
     registry_url = f"https://github.com/thorsted/Born-Digital-Scripts/tree/main/TC%20Identification"
     source_file = 'digipres.github.io/_sources/registries/tcdb/TCDB_2003.8_data-cleaned.csv'

@@ -1,9 +1,12 @@
 import json
-from typing import List, Optional, Set, Dict, Tuple, Type, Union, Literal, Annotated
+from typing import List, Optional, Set, Dict, Tuple, Type, Union, Literal, Annotated, Iterator
 from pydantic import BaseModel, Field
 from datetime import datetime, date
+from abc import ABC, abstractmethod
 
+#
 # Data model of normalised form of a format record:
+#
 class Format(BaseModel):
     id: str | None 
     name: str | None 
@@ -28,7 +31,7 @@ class Format(BaseModel):
 
 
 #
-# And for a Registry
+# And for a Registry:
 #
 class RegistryDataLogEntry(BaseModel):
     level: str
@@ -49,4 +52,14 @@ class Registry(BaseModel):
     index_data_url: Optional[str] = None
     # Log for any issues
     data_log: list[RegistryDataLogEntry] = []
+
+
+#
+# An Abstract Base Class for the client code:
+#
+class RegistryClient(ABC):
+
+    @abstractmethod
+    def get_formats(self) -> Iterator[Format]:
+        ...
 
