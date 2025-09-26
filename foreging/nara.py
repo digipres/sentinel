@@ -3,7 +3,7 @@ import logging
 from rdflib import Graph, RDF, DCTERMS
 from rdflib.namespace import DefinedNamespace, Namespace
 from rdflib.term import URIRef
-from .models import Format, Registry, RegistryClient
+from .models import Software, Format, Registry, RegistryClient
 
 logger = logging.getLogger(__name__)
 
@@ -73,12 +73,12 @@ class NARA_FFPP(RegistryClient):
             readers = []
             for tools in [o for s, p, o in g.triples((s, NARA.tools, None))]:
                 for tool in str(tools).split(';'):
-                    #sw = Software(
-                    #    registry=self.registry,
-                    #    id=f"{ff_id}#{len(readers)}",
-                    #    name=tool.strip()
-                    #)
-                    readers.append(tool.strip())
+                    sw = Software(
+                        registry=self.registry,
+                        id=f"{ff_id}#{len(readers)}",
+                        name=tool.strip()
+                    )
+                    readers.append(sw)
 
             # Set up as a format entity: 
             f = Format(

@@ -5,6 +5,23 @@ from datetime import datetime, date
 from abc import ABC, abstractmethod
 
 #
+# A Software record
+#
+class Software(BaseModel):
+    id: str
+    name: str
+    version: Optional[str] = None
+    summary: Optional[str] = None
+    license: Optional[str] = None
+    registry_url: Optional[str] = None
+
+    # Define how to spot unique entries in a set
+    def __hash__(self):
+        return hash(self.id)
+    def __eq__(self,other):
+        return self.id == other.id
+    
+#
 # Data model of normalised form of a format record:
 #
 class Format(BaseModel):
@@ -24,8 +41,8 @@ class Format(BaseModel):
     created: date | None = Field(index=True)
     last_modified: date | None = Field(index=True)
 
-    readers: Optional[list[str]] = []
-    writers: Optional[list[str]] = []
+    readers: Optional[list[Software]] = []
+    writers: Optional[list[Software]] = []
 
     registry_id: str | None
 

@@ -1,7 +1,7 @@
 import os
 import csv
 import logging
-from .models import Format, Registry, RegistryClient
+from .models import Software, Format, Registry, RegistryClient
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -59,16 +59,16 @@ class TCDB(RegistryClient):
                 names.append(row['File Name'].strip())
                 # Record the Software ID, adding a line number to make sure everything has distinct IDs.
                 sw_id = f"tcdb:{type_code}:{creator_code}#L{row['_line_number']}"
-                #sws[sw_id] = sws.get(sw_id,
-                #    Software(
-                #        registry=self.registry,
-                #        id=sw_id,
-                #        name=row['Comments'].strip(), # Software name usually stored in the Comments field.
-                #        version=None,
-                #        summary=
-                #    )
-                #)
-                readers.append(row['Comments'].strip() + " " + row['File Name'].strip())
+                sws[sw_id] = sws.get(sw_id,
+                    Software(
+                        registry=self.registry,
+                        id=sw_id,
+                        name=row['Comments'].strip(), # Software name usually stored in the Comments field.
+                        version=None,
+                        summary=row['File Name'].strip()
+                    )
+                )
+                readers.append(sws[sw_id])
             # Set up as a format entity for this type_code: 
             f = Format(
                 registry_id=self.registry_id,

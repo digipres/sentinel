@@ -9,7 +9,7 @@ from .tcdb import TCDB
 from .tika import Tika
 from .trid import TrID
 from .wikidata import WikiData
-from .models import Format
+from .models import Format, RegistryClient
 
 from pydantic import BaseModel
 from sqlite_utils import Database
@@ -19,6 +19,7 @@ import argparse
 import logging
 from pathlib import Path
 import json
+from typing import Dict
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
@@ -31,7 +32,7 @@ def populate_database(session, gen, mts, genres):
 
 if __name__ == "__main__":
     # Registries
-    registries = {}
+    registries: Dict[str,RegistryClient] = {}
     for r in [File(), FFW(), Linguist(), LocFDD(), MediaInfo(), NARA_FFPP(), PRONOM(), TCDB(), Tika(), TrID(), WikiData()]:
         registries[r.registry.id] = r
 

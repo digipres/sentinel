@@ -1,6 +1,6 @@
 import json
 import logging
-from .models import Format, Registry, RegistryDataLogEntry, RegistryClient
+from .models import Software, Format, Registry, RegistryDataLogEntry, RegistryClient
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -141,17 +141,16 @@ class WikiData(RegistryClient):
 
         
     def make_software(self, info):
-        #s = Software(
-        #    registry_id=self.registry_id,
-        #    id=f"wikidata:{info['id']}",
-        #    name=info['name'],
-        #    version=None,
-        #    summary=None,
-        #    registry_url=info['source'],
-        #    license=info['licenseLabel'],
-        #)
-        #logger.debug(f"Generated software: {s}")
-        #return s
-        return info['name']
+        s = Software(
+            registry_id=self.registry_id,
+            id=f"wikidata:{info['id']}",
+            name=info['name'],
+            version=None,
+            summary=None,
+            registry_url=info['source'],
+            license=info['licenseLabel'],
+        )
+        logger.debug(f"Generated software: {s}")
+        return s
 
 
