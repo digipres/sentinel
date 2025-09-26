@@ -69,12 +69,19 @@ class Registry(BaseModel):
     index_data_url: Optional[str] = None
     # Log for any issues
     data_log: list[RegistryDataLogEntry] = []
+    # The set of extensions known to this registry:
+    extensions: Set[str] = None
 
 
 #
 # An Abstract Base Class for the client code:
 #
 class RegistryClient(ABC):
+
+    @property
+    @abstractmethod
+    def registry(self) -> Registry:
+        pass
 
     @abstractmethod
     def get_formats(self) -> Iterator[Format]:

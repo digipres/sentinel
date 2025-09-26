@@ -20,6 +20,7 @@ import logging
 from pathlib import Path
 import json
 from typing import Dict
+from collections import defaultdict
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
@@ -54,10 +55,13 @@ if __name__ == "__main__":
     formats = []
     for reg_id in registries:
         reg = registries[reg_id]
+        reg.registry.extensions = set()
         if args.only == None or args.only == reg_id:
             log.info(f"Parsing data from Registry ID = {reg.registry_id}")
             for f in reg.get_formats():
                 formats.append(f)
+                for ext in f.extensions:
+                    reg.registry.extensions.add(ext.lower())
 
     # Generate extensions lookup dataset, sorted by extension to hopefully make it faster:
     ext_to_fmt = {}
