@@ -1,7 +1,7 @@
 import json
 import yaml
 import logging
-from .models import Format, Software, Registry, Genre, MediaType, RegistryDataLogEntry
+from .models import Format, Registry
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -20,7 +20,7 @@ class Linguist():
         index_data_url=None
         )
 
-    def get_formats(self, mts, gnrs):
+    def get_formats(self):
         stream = open(self.source_file, 'r')
         ghl = yaml.safe_load(stream)
         stream.close()
@@ -40,15 +40,13 @@ class Linguist():
                             ext=ext.strip('.') # Drop the prefix dot
                             f_info['extensions'].add(ext)
                 elif key == 'codemirror_mime_type':
-                    mt = fmt[key]
-                    mts[mt] = mts.get(mt, MediaType(id=mt))
-                    f_info['mimetypes'].add(mts[mt])
+                    f_info['mimetypes'] = fmt[key]
                 else:
                     f_info[key] = fmt[key]
             
             # Set up as a format entity: 
             f = Format(
-                registry=self.registry,
+                registry_id=self.registry_id,
                 id=ff_id,
                 name=f_info['name'],
                 version=None,

@@ -3,7 +3,7 @@ import logging
 from rdflib import Graph, RDF, DCTERMS
 from rdflib.namespace import DefinedNamespace, Namespace
 from rdflib.term import URIRef
-from .models import Format, Software, Registry, Genre, MediaType, RegistryDataLogEntry
+from .models import Format, Registry
 
 logger = logging.getLogger(__name__)
 
@@ -45,7 +45,7 @@ class NARA_FFPP():
         id_prefix='https://www.archives.gov/files/lod/dpframework/id/'
     )
 
-    def get_formats(self, mts, grs):
+    def get_formats(self):
 
         g = Graph()
         g.parse(self.source_file)
@@ -66,27 +66,23 @@ class NARA_FFPP():
                 extensions.add(ext)
             genres = []
             for genre in [o for s, p, o in g.triples((s, NARA.category, None))]:
-                genre = str(genre)
-                grs[genre] = grs.get(genre, Genre(name=genre))
-                genres.append(grs[genre])
+                genres.append(str(genre))
             media_types = []
             for mt in [o for s, p, o in g.triples((s, WDT.p1163, None))]:
-                mt = str(mt)
-                mts[mt] = mts.get(mt, MediaType(id=mt))
-                media_types.append(mts[mt])
+                media_types.append(str(mt))
             readers = []
             for tools in [o for s, p, o in g.triples((s, NARA.tools, None))]:
                 for tool in str(tools).split(';'):
-                    sw = Software(
-                        registry=self.registry,
-                        id=f"{ff_id}#{len(readers)}",
-                        name=tool.strip()
-                    )
-                    readers.append(sw)
+                    #sw = Software(
+                    #    registry=self.registry,
+                    #    id=f"{ff_id}#{len(readers)}",
+                    #    name=tool.strip()
+                    #)
+                    readers.append(tool.strip())
 
             # Set up as a format entity: 
             f = Format(
-                registry=self.registry,
+                registry_id=self.registry_id,
                 id=ff_id,
                 name=g.value(s, NARA.formatName),
                 version=None,

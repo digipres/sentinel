@@ -1,6 +1,6 @@
 import json
 import logging
-from .models import Format, Software, Registry, Genre, MediaType, RegistryDataLogEntry
+from .models import Format, Registry, RegistryDataLogEntry
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -26,7 +26,7 @@ class WikiData():
         )
 
 
-    def get_formats(self, mts, genres):
+    def get_formats(self):
 
         with open (self.fmt_source_file, 'r') as f:
             wd = json.load(f)
@@ -61,8 +61,7 @@ class WikiData():
                     finfo['extensions'].add(ext)
                 if key == 'mimetype' and fmt[key]:
                     mt = fmt[key]
-                    mts[mt] = mts.get(mt, MediaType(id=mt))
-                    finfo['mimetypes'].add(mts[mt])
+                    finfo['mimetypes'].add(mt)
                 if key == 'sig' and fmt[key]:
                     finfo['hasMagic'] = True
 
@@ -118,7 +117,7 @@ class WikiData():
         # Set up as a format entity: 
         f = Format(
             id=f"{current_qid}",
-            registry=self.registry,
+            registry_id=self.registry_id,
             name=finfo['name'],
             version=None,
             summary=None,
@@ -142,16 +141,17 @@ class WikiData():
 
         
     def make_software(self, info):
-        s = Software(
-            registry_id=self.registry_id,
-            id=f"wikidata:{info['id']}",
-            name=info['name'],
-            version=None,
-            summary=None,
-            registry_url=info['source'],
-            license=info['licenseLabel'],
-        )
-        logger.debug(f"Generated software: {s}")
-        return s
+        #s = Software(
+        #    registry_id=self.registry_id,
+        #    id=f"wikidata:{info['id']}",
+        #    name=info['name'],
+        #    version=None,
+        #    summary=None,
+        #    registry_url=info['source'],
+        #    license=info['licenseLabel'],
+        #)
+        #logger.debug(f"Generated software: {s}")
+        #return s
+        return info['name']
 
 

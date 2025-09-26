@@ -3,7 +3,7 @@ import yaml
 from lxml import etree
 from io import BytesIO
 import logging
-from .models import Format, Software, Registry, Genre, MediaType, RegistryDataLogEntry
+from .models import Format, Registry
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -24,7 +24,7 @@ class File():
         index_data_url=index_url
         )
 
-    def get_formats(self, mts, gnrs):
+    def get_formats(self):
         fmts = []
         idx = 0
         with open(self.source_file, "r") as f:
@@ -32,17 +32,12 @@ class File():
                 idx += 1
                 entry = json.loads(line)
                 if 'extensions' in entry or 'types' in entry:
-                    # Do the ugly book-keeping to make the SQL work:
-                    extensions = list()
-                    for extension in set(entry.get('extensions', [])):
-                        extensions.append(extension)
-                    media_types = []
-                    for mt in set(entry.get('types', [])):
-                        mts[mt] = mts.get(mt, MediaType(id=mt))
-                        media_types.append(mts[mt])
+                    # Remove duplicate entries:
+                    extensions = list(set(entry.get('extensions', [])))
+                    media_types = list(set(entry.get('types', [])))
                     # Set up as a format entity: 
                     f = Format(
-                        registry=self.registry,
+                        registry_id=self.registry_id,
                         id=f"{self.registry_id}:{idx}",
                         name=entry["name"],
                         version=None,

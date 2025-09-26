@@ -3,7 +3,7 @@ import yaml
 from lxml import etree
 from io import BytesIO
 import logging
-from .models import Format, Software, Registry, Genre, MediaType, RegistryDataLogEntry
+from .models import Format, Registry, RegistryDataLogEntry
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -24,7 +24,7 @@ class Tika():
         index_data_url=index_url
         )
 
-    def get_formats(self, mts, gnrs):
+    def get_formats(self):
         fmts = []
         with open(self.source_file, "rb") as f:
             xml = f.read()
@@ -91,15 +91,12 @@ class Tika():
                 self.registry.data_log.extend(log)
 
                 # Post-process mimetypes:
-                media_types = []
-                for mt in finfo['mimetypes']:
-                    mts[mt] = mts.get(mt, MediaType(id=mt))
-                    media_types.append(mts[mt])
+                media_types = finfo['mimetypes']
                 parent = finfo.get('supertype', None)
 
                 # Set up as a format entity: 
                 f = Format(
-                    registry=self.registry,
+                    registry_id=self.registry_id,
                     id=f"{self.registry_id}:{fid}",
                     name=finfo.get('name', None),
                     version=None,
@@ -108,7 +105,7 @@ class Tika():
                     extensions=list(finfo['extensions']),
                     media_types=media_types,
                     has_magic=finfo['hasMagic'],
-                    primary_media_type=media_types[0].id,
+                    primary_media_type=media_types[0],
                     parent_media_type=parent,
                     registry_url=None,
                     registry_source_data_url=self.source_url + finfo['source'],

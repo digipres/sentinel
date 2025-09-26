@@ -2,7 +2,7 @@ import os
 import logging
 import datetime
 from bs4 import BeautifulSoup
-from .models import Format, Software, Registry, Genre, MediaType, RegistryDataLogEntry
+from .models import Format, Registry, RegistryDataLogEntry
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -18,7 +18,7 @@ class LocFDD():
         id_prefix='https://www.loc.gov/preservation/digital/formats/fdd/'
     )
 
-    def get_formats(self, mts, genres):
+    def get_formats(self):
 
         fmts = {}
 
@@ -55,7 +55,7 @@ class LocFDD():
                         f_genres = list()
                         for gns in root.findAll('gdfrGenreSelection'):
                             for gn in gns.findAll('gdfrGenre'):
-                                f_genres.append(Genre(name=f"gdfr:{gn.text}"))
+                                f_genres.append(f"gdfr:{gn.text}")
                         # Haz Magic?
                         if root.find('magicNumbers'):
                             f_magic = True
@@ -71,9 +71,7 @@ class LocFDD():
                         f_mimetypes = set()
                         for imts in root.findAll('internetMediaType'):
                             for mt in imts.findAll('sigValue'):
-                                mt = mt.text
-                                mts[mt] = mts.get(mt, MediaType(id=mt))
-                                f_mimetypes.add(mts[mt])
+                                f_mimetypes.add(mt.text)
                         # Find the date:
                         edit_date = root.findAll('date')[-1].text
                         try:
@@ -87,7 +85,7 @@ class LocFDD():
                         
                         # Create record:
                         f = Format(
-                            registry=self.registry,
+                            registry_id=self.registry_id,
                             id=f"{self.registry_id}:{ffd_id}",
                             name=f_name,
                             version=f_version,

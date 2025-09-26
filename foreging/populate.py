@@ -10,16 +10,19 @@ from .tika import Tika
 from .trid import TrID
 from .wikidata import WikiData
 
-from sqlmodel import Session, SQLModel, create_engine
+from sqlite_utils import Database
+import pyarrow as pa
+import pyarrow.parquet as pq
 import argparse
 import logging
+from pathlib import Path
 
 logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+log = logging.getLogger(__name__)
 
 # Push in the data:
 def populate_database(session, gen, mts, genres):
-    logger.info("Getting transformed format records for registry ID %s..." % gen.registry_id)
+    log.info("Getting transformed format records for registry ID %s..." % gen.registry_id)
     for f in gen.get_formats(mts, genres):
         session.add(f)
 
@@ -32,30 +35,40 @@ if __name__ == "__main__":
     # Args
     parser = argparse.ArgumentParser()
     parser.add_argument('--only', required=False, choices=registries.keys())
+    parser.add_argument('--jsonl', action=argparse.BooleanOptionalAction)
     parser.add_argument('output_file')
     args = parser.parse_args()
 
+    # Get the output file:
+    output_file = Path(args.output_file)
 
-    # Cache the cross-referenced entities:
-    mts = {}
-    genres = {}
+    # Gather the data:
+    formats = []
+    for reg_id in registries:
+        reg = registries[reg_id]
+        if args.only == None or args.only == reg_id:
+            log.info(f"Parsing data from Registry ID = {reg.registry_id}")
+            for f in reg.get_formats():
+                formats.append(f)
 
-    # Set up the session
-    sqlite_file_name = args.output_file
-    sqlite_url = f"sqlite:///{sqlite_file_name}"
+    # Generate raw JSONL output
+    if args.jsonl:
+        log.info("Generating JSONL export...")
+        with open( output_file.with_suffix(".jsonl"), "w") as f:
+            for ir in formats:
+                f.write(ir.model_dump_json())
+                f.write("\n")
 
-    engine = create_engine(sqlite_url, echo=False)
+    # Generate SQLite DB
+    log.info("Generating SQLite export...")
+    sql_path = output_file
+    db = Database(sql_path, recreate=True)
+    for ir in formats:
+        db["formats"].insert(ir.model_dump())
+    db["formats"].enable_fts(['name', 'version', 'summary', 'genres', 'extensions', 'media_types', 'writers', 'readers'])
 
-    SQLModel.metadata.create_all(engine)
-
-    with Session(engine).no_autoflush as session:
-        for reg_id in registries:
-            reg = registries[reg_id]
-            if args.only == None or args.only == reg_id:
-                populate_database(session, reg, mts, genres)
-                # Every commit should be self-consistent at this point:
-                session.commit()
-
-
-
+    log.info("Generating Parquet export...")
+    plain_records = [item.model_dump() for item in formats]
+    table = pa.Table.from_pylist(plain_records)
+    pq.write_table(table,  output_file.with_suffix(".parquet"))
 

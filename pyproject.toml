@@ -8,6 +8,7 @@ dependencies = [
  "lxml",
  "rdflib",
  "polyfile",
+ "pyarrow",
  "pydantic",
  "sqlite-utils",
  "sqlmodel"

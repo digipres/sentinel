@@ -2,7 +2,7 @@ import os
 import logging
 import datetime
 from bs4 import BeautifulSoup
-from .models import Format, Software, Registry, Genre, MediaType, RegistryDataLogEntry
+from .models import Format, Registry
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -25,7 +25,7 @@ class PRONOM():
         date = datetime.datetime.strptime(pronom_date, "%d %b %Y")
         return date
 
-    def get_formats(self, mts, genres):
+    def get_formats(self):
         for source_folder_name in ['fmt', 'x-fmt']:
             source_folder = os.path.join(self.source_folder, source_folder_name)
 
@@ -50,8 +50,6 @@ class PRONOM():
                             f_types = [g.strip() for g in f_types]
                             # Replace empty strings with "Undefined":
                             f_types = ['undefined' if not g else g for g in f_types]
-                            # And convert to SQLModel type:
-                            f_types = [Genre(name=g) for g in f_types]
                             # Internal signatures:
                             if root.find('InternalSignature'):
                                 f_magic = True
@@ -69,12 +67,11 @@ class PRONOM():
                             for ffi in root.findAll('FileFormatIdentifier'):
                                 if ffi.find('IdentifierType', string='MIME'):
                                     mt = ffi.find('Identifier').text
-                                    mts[mt] = mts.get(mt, MediaType(id=mt))
-                                    mimetypes.append(mts[mt])
+                                    mimetypes.append(mt)
                             f_mimetypes = mimetypes
                             # Create record:
                             f = Format(
-                                registry=self.registry,
+                                registry_id=self.registry_id,
                                 id=ffd_id,
                                 name=f_name,
                                 version=root.find("FormatVersion").text,

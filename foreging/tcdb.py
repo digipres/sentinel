@@ -1,7 +1,7 @@
 import os
 import csv
 import logging
-from .models import Format, Software, Registry, Genre, MediaType, RegistryDataLogEntry
+from .models import Format, Registry
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -22,7 +22,7 @@ class TCDB():
         index_data_url=source_file
         )
 
-    def get_formats(self, mts, genres):
+    def get_formats(self):
         # First, gather rows by type_code...
         rows_by_type_code = {}
         # Open, coping with Unicode BOM
@@ -54,25 +54,24 @@ class TCDB():
                 #
                 cat = row['Category'].strip()
                 if cat:
-                    genres[cat] = genres.get(cat, Genre(name=cat))
-                    categories.add(genres[cat])
+                    categories.add(cat)
                 #
                 names.append(row['File Name'].strip())
                 # Record the Software ID, adding a line number to make sure everything has distinct IDs.
                 sw_id = f"tcdb:{type_code}:{creator_code}#L{row['_line_number']}"
-                sws[sw_id] = sws.get(sw_id,
-                    Software(
-                        registry=self.registry,
-                        id=sw_id,
-                        name=row['Comments'].strip(), # Software name usually stored in the Comments field.
-                        version=None,
-                        summary=row['File Name'].strip()
-                    )
-                )
-                readers.append(sws[sw_id])
+                #sws[sw_id] = sws.get(sw_id,
+                #    Software(
+                #        registry=self.registry,
+                #        id=sw_id,
+                #        name=row['Comments'].strip(), # Software name usually stored in the Comments field.
+                #        version=None,
+                #        summary=
+                #    )
+                #)
+                readers.append(row['Comments'].strip() + " " + row['File Name'].strip())
             # Set up as a format entity for this type_code: 
             f = Format(
-                registry=self.registry,
+                registry_id=self.registry_id,
                 id=f"tcdb:{type_code}",
                 name= ", ".join(names)[:256], # FIXME Limit size as this includes too much software information and is very slow to work with!
                 version=None,

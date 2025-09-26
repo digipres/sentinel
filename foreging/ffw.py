@@ -1,7 +1,7 @@
 import json
 import yaml
 import logging
-from .models import Format, Software, Registry, Genre, MediaType, RegistryDataLogEntry
+from .models import Format, Registry
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -20,7 +20,7 @@ class FFW():
         index_data_url=f"https://github.com/digipres/digipres.github.io/blob/master/{source_file}"
         )
 
-    def get_formats(self, mts, gnrs):
+    def get_formats(self):
         stream = open(self.source_file, 'r')
         ffw = yaml.safe_load(stream)
         stream.close()
@@ -39,19 +39,15 @@ class FFW():
                             ext=ext.lower().strip()
                             f_info['extensions'].add(ext)
                 elif key == 'mimetypes':
-                    for mt in fmt[key]:
-                        mts[mt] = mts.get(mt, MediaType(id=mt))
-                        f_info['mimetypes'].add(mts[mt])
+                    f_info['mimetypes'] = fmt[key]
                 elif key == 'categories':
-                    for cat in fmt[key]:
-                        gnrs[cat] = gnrs.get(cat, Genre(name=cat))
-                        f_info['categories'].add(gnrs[cat])
+                    f_info['categories'] = fmt[key]
                 else:
                     f_info[key] = fmt[key]
             
             # Set up as a format entity: 
             f = Format(
-                registry=self.registry,
+                registry_id=self.registry_id,
                 id=ff_id,
                 name=f_info['name'],
                 version=None,

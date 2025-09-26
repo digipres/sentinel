@@ -3,7 +3,7 @@ import yaml
 from lxml import etree
 from io import BytesIO
 import logging
-from .models import Format, Software, Registry, Genre, MediaType, RegistryDataLogEntry
+from .models import Format, Registry
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -24,7 +24,7 @@ class MediaInfo():
         index_data_url=index_url
         )
 
-    def get_formats(self, mts, gnrs):
+    def get_formats(self):
         fmts = []
         idx = 0
         with open(self.source_file, "r") as f:
@@ -38,7 +38,7 @@ class MediaInfo():
                         extensions.append(extension)
                     # Set up as a format entity: 
                     f = Format(
-                        registry=self.registry,
+                        registry_id=self.registry_id,
                         id=f"{self.registry_id}:{idx}",
                         name=entry["name"],
                         version=None,
