@@ -9,13 +9,16 @@ from .tcdb import TCDB
 from .tika import Tika
 from .trid import TrID
 from .wikidata import WikiData
+from .models import Format
 
+from pydantic import BaseModel
 from sqlite_utils import Database
 import pyarrow as pa
 import pyarrow.parquet as pq
 import argparse
 import logging
 from pathlib import Path
+import json
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
@@ -55,10 +58,26 @@ if __name__ == "__main__":
             for f in reg.get_formats():
                 formats.append(f)
 
+    # Generate extensions lookup dataset, sorted by extension to hopefully make it faster:
+    ext_to_fmt = {}
+    for f in formats:
+        f: Format
+        for ext in f.extensions:
+            entries: list = ext_to_fmt.get( ext, [] )
+            entries.append(f)
+            ext_to_fmt[ext] = entries
+    extensions = []
+    for ext,fmts in sorted(ext_to_fmt.items()):
+        extensions.append({
+            'id': ext,
+            'format_ids': [f.id for f in fmts]
+        })
+
     # Define outputs:
     outputs = { 
+        "registries": [registries[id].registry for id in registries],
         "formats": formats,
-        "registries": [registries[id].registry for id in registries]
+        "extensions": extensions
     }
 
     # Generate raw JSONL output
@@ -67,15 +86,27 @@ if __name__ == "__main__":
         for name, records in outputs.items():
             with open( output_path / f"{name}.jsonl", "w") as f:
                 for r in records:
-                    f.write(r.model_dump_json())
+                    if isinstance(r, BaseModel):
+                        f.write(r.model_dump_json())
+                    else:
+                        f.write(json.dumps(r))
                     f.write("\n")
 
     # And generate Parquet version:
     log.info("Generating Parquet export...")
     for name, records in outputs.items():
-        plain_records = [item.model_dump() for item in records]
+        plain_records = []
+        for item in records:
+            if isinstance(item, BaseModel):
+                plain_records.append(item.model_dump())
+            else:
+                plain_records.append(item)
         table = pa.Table.from_pylist(plain_records)
-        pq.write_table(table,  output_path / f"{name}.parquet")
+        # Sort the records by the ID field and note this in the Parquet:
+        sort_order = [('id', 'ascending')]
+        table = table.sort_by(sort_order)
+        sorting_columns = pq.SortingColumn.from_ordering(table.schema, sort_order)
+        pq.write_table(table,  output_path / f"{name}.parquet", write_page_index=True, sorting_columns=sorting_columns)
 
     # Generate SQLite DB
     log.info("Generating SQLite export...")
