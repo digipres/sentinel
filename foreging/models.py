@@ -1,6 +1,6 @@
 import json
 from typing import List, Optional, Set, Dict, Tuple, Type, Union, Literal, Annotated, Iterator
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 from datetime import datetime, date
 from abc import ABC, abstractmethod
 
@@ -32,14 +32,14 @@ class Format(BaseModel):
     genres: list[str] | None
     extensions: list[str] | None 
     media_types: list[str] 
-    has_magic: bool = Field(default=False)
-    primary_media_type: str | None = Field(index=True)
-    parent_media_type: str | None = Field(index=True)
-    registry_url: str | None = Field(index=True)
-    registry_source_data_url: str | None = Field(index=True)
-    registry_index_data_url: str | None = Field(index=True)
-    created: date | None = Field(index=True)
-    last_modified: date | None = Field(index=True)
+    has_magic: bool
+    primary_media_type: str | None = None
+    parent_media_type: str | None = None
+    registry_url: str | None = None
+    registry_source_data_url: str | None = None
+    registry_index_data_url: str | None = None
+    created: date | None = None
+    last_modified: date | None = None
 
     readers: Optional[list[Software]] = []
     writers: Optional[list[Software]] = []
