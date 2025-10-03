@@ -69,6 +69,11 @@ class PRONOM(RegistryClient):
                                     mt = ffi.find('Identifier').text
                                     mimetypes.append(mt)
                             f_mimetypes = mimetypes
+                            # Release date as year (source format is '24 Dec 1999' if not empty/whitespace):
+                            release_year = root.find("ReleaseDate").text.strip()
+                            if release_year:
+                                release_year = datetime.datetime.strptime(release_year, "%d %b %Y")
+                                release_year = str(release_year.year)
                             # Create record:
                             f = Format(
                                 registry_id=self.registry_id,
@@ -82,6 +87,7 @@ class PRONOM(RegistryClient):
                                 has_magic=f_magic,
                                 primary_media_type=None,
                                 parent_media_type=None,
+                                released_in=release_year,
                                 registry_url=f"https://www.nationalarchives.gov.uk/pronom/{ffd_id}",
                                 registry_source_data_url=f"https://www.nationalarchives.gov.uk/pronom/{ffd_id}.xml",
                                 registry_index_data_url=f"https://github.com/digipres/digipres.github.io/blob/master/_sources/registries/pronom/{ffd_id}.xml",

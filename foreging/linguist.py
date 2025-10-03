@@ -40,7 +40,7 @@ class Linguist(RegistryClient):
                             ext=ext.strip('.') # Drop the prefix dot
                             f_info['extensions'].add(ext)
                 elif key == 'codemirror_mime_type':
-                    f_info['mimetypes'] = fmt[key]
+                    f_info['mimetypes'].add(fmt[key])
                 else:
                     f_info[key] = fmt[key]
             

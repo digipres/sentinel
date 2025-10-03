@@ -6,6 +6,7 @@ from .mediainfo import MediaInfo
 from .nara import NARA_FFPP
 from .pronom import PRONOM
 from .tcdb import TCDB
+from .tffh import TFFH
 from .tika import Tika
 from .trid import TrID
 from .wikidata import WikiData
@@ -34,7 +35,7 @@ def populate_database(session, gen, mts, genres):
 if __name__ == "__main__":
     # Registries
     registries: Dict[str,RegistryClient] = {}
-    for r in [File(), FFW(), Linguist(), LocFDD(), MediaInfo(), NARA_FFPP(), PRONOM(), TCDB(), Tika(), TrID(), WikiData()]:
+    for r in [File(), FFW(), Linguist(), LocFDD(), MediaInfo(), NARA_FFPP(), PRONOM(), TCDB(), TFFH(), Tika(), TrID(), WikiData()]:
         registries[r.registry.id] = r
 
     # Args
@@ -62,6 +63,8 @@ if __name__ == "__main__":
                 formats.append(f)
                 for ext in f.extensions:
                     reg.registry.extensions.add(ext.lower())
+        # Convert set to list:
+        reg.registry.extensions = list(reg.registry.extensions)
 
     # Generate extensions lookup dataset, sorted by extension to hopefully make it faster:
     ext_to_fmt = {}

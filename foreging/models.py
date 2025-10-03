@@ -35,9 +35,13 @@ class Format(BaseModel):
     has_magic: bool
     primary_media_type: str | None = None
     parent_media_type: str | None = None
+    # When this format was published or became available for use (ideally the release year):
+    released_in: str | None = None
+    # Tracing back to the source registry:
     registry_url: str | None = None
     registry_source_data_url: str | None = None
     registry_index_data_url: str | None = None
+    # The created and modified dates for this record about a format
     created: date | None = None
     last_modified: date | None = None
 
@@ -70,7 +74,7 @@ class Registry(BaseModel):
     # Log for any issues
     data_log: list[RegistryDataLogEntry] = []
     # The set of extensions known to this registry:
-    extensions: Set[str] = None
+    extensions: list[str] = None
 
 
 #

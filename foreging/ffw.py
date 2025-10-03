@@ -44,6 +44,16 @@ class FFW(RegistryClient):
                     f_info['categories'] = fmt[key]
                 else:
                     f_info[key] = fmt[key]
+            # Released...
+            released_in: str = fmt.get('released', None)
+            # Drop empty entries:
+            if released_in == '':
+                released_in = None
+            # Drop any <ref>.... content:
+            if released_in:
+                ref_index = released_in.find("<ref")
+                if ref_index > -1:
+                    released_in = released_in[0:ref_index]
             
             # Set up as a format entity: 
             f = Format(
@@ -58,6 +68,7 @@ class FFW(RegistryClient):
                 has_magic=f_info['hasMagic'],
                 primary_media_type=None,
                 parent_media_type=None,
+                released_in=released_in,
                 registry_url=fmt['source'],
                 registry_source_data_url=fmt['source'],
                 registry_index_data_url=None,

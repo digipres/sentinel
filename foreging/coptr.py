@@ -30,6 +30,9 @@ site = mw.Site(coptr_host, path='/', clients_useragent=user_agent)
 # |function=Encryption Detection, File Format Identification, Metadata Extraction, Validation
 # }}
 
+# FIXME this does both at once! One should write the page info needed to JSON. The other should use it.
+# But, we don't know everything we need yet, I guess?
+
 category: PageList = site.categories[u"Tools"]
 for page in category:
     print(page.name)
