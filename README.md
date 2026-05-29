@@ -35,6 +35,8 @@ To Do
 * http://en.wikipedia.org/wiki/Alphabetical_list_of_filename_extensions_%28M%E2%80%93R%29
 * http://www.webarchive.org.uk/aadda-discovery/formats?f[0]=content_type_ext:%22.bmp%22
 * https://twitter.com/benfinoradin/status/532212803630039041
+* Talk about how to use `git submodule update --recursive --remote` to make sure `pywikibot` and `digipres.github.io` are up to date.
+* Using `uvx datasette serve data/registries.db` to quickly poke around in the database.
 
 COPTR Bot
 ---------

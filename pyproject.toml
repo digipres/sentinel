@@ -1,0 +1,20 @@
+[project]
+name = "sentinel"
+version = "2.0.0"
+dependencies = [
+ "requests",
+ "pyyaml",
+ "beautifulsoup4",
+ "lxml",
+ "mwclient",
+ "mwparserfromhell",
+ "rdflib",
+ "polyfile",
+ "pyarrow",
+ "pydantic",
+ "sqlite-utils",
+ "sqlmodel"
+]
+
+[tool.setuptools.packages.find]
+include = ["foreging"]

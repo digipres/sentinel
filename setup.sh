@@ -4,21 +4,22 @@
 
 set -e
 
-python3 -m pip install -U pip setuptools wheel virtualenv
+#echo Install platform packages...
+#python3 -m pip install -U pip setuptools wheel virtualenv
 
-
-virtualenv -p python3 venv
+echo Set up a virtual environment...
+python3 -m venv venv
 source venv/bin/activate
+echo WARNING setuptools pinned at 81 as the included pywikibot is not compatible with later versions 
+pip install setuptools==79.0.1
 
-
+echo Run install in pywikibot...
 cd pywikibot
 pip install .
 cd ..
 
-pip install requests
-pip install pyyaml
-pip install beautifulsoup4
-pip install lxml
+echo Run install at the top level...
+pip install .
 
 # Running...
 echo "And login..."

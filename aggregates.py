@@ -86,7 +86,6 @@ def addFormat(rid,fid,finfo):
     # And add:
     fmts[rid]['formats'][fid] = finfo
 
-
 def aggregateFDD():
     rid = "fdd"
     print("Parsing %s..." % rid)
@@ -131,6 +130,7 @@ def aggregateFDD():
                         #print(etree.tostring(root, pretty_print=True).decode('utf-8'))
                     if rid in fmts: # FIXME this needs to be more robust, rather than relying on happening after 'addFormat' is called for the first time.
                         fmts[rid]['warnings'].append(f"Error when parsing XML from '{filename}': {e}")
+
 
 def aggregateTRiD():
     rid = "trid"
@@ -394,9 +394,9 @@ extensions['stats']['total_extensions'] = len(exts)
 with open("%s/extensions.yml" % data_dir, 'w') as outfile:
     outfile.write( yaml.safe_dump(extensions, default_flow_style=False) )
 
-# Write out Venn data
+# Write out Venn data, starting from a list like [extension] -> Registry_ID:
 print("Outputting Venn data based on extensions...")
-# Key all the RID-to-integer mappings:
+# Key all the Registry_ID-to-integer mappings:
 vennls = {}
 i = 0
 for fmt in fmts:
@@ -407,15 +407,19 @@ vennds = defaultdict(int)
 venndsl = defaultdict(list)
 vennlt = defaultdict(int)
 vennids = {}
+# Loop over all extensions:
 for extension in exts:
     regs = set()
     regIds = set()
+    # Loop over each registry the extension appears in:
     for ridder in exts[extension]['identifiers']:
         regs.add(vennls[ridder['regId']])
         regIds.add(ridder['regId'])
     for rid in regs:
         vennlt[rid] += 1
+    # Build a unique key for each registry combination:
     key = ','.join(sorted(regs))
+    # Use the key to build up each overlap set:
     vennids[key] = sorted(regIds)
     venndsl[key].append(extension)
     vennds[key] += 1

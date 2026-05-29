@@ -8,3 +8,8 @@
 /bin
 /pywikibot.lwp
 /passwordfile
+*.pyc
+/registries.db
+/.venv
+/build
+/data
