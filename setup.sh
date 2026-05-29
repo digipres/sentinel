@@ -5,12 +5,13 @@
 set -e
 
 echo Install platform packages...
-echo WARNING setuptools pinned at 81 as the included pywikibot is not compatible with later versions 
-python3 -m pip install -U pip setuptools==81.0.0 wheel virtualenv
+python3 -m pip install -U pip setuptools wheel virtualenv
 
 echo Set up a virtual environment...
 virtualenv -p python3 venv
 source venv/bin/activate
+echo WARNING setuptools pinned at 81 as the included pywikibot is not compatible with later versions 
+pip install setuptools==81.0.0
 
 echo Run install in pywikibot...
 cd pywikibot
